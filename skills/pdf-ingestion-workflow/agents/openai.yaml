@@ -1,0 +1,6 @@
+interface:
+  display_name: "PDF Ingestion Workflow"
+  short_description: "Probe and benchmark PDFs for RAG workflows"
+  default_prompt: "Use $pdf-ingestion-workflow to inspect this PDF, choose the right extraction path, and produce page-aware conversion guidance."
+policy:
+  allow_implicit_invocation: true
