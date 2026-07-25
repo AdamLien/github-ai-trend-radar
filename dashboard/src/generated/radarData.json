@@ -18,6 +18,7 @@
       "name": "Graphify-Labs/graphify",
       "url": "https://github.com/Graphify-Labs/graphify",
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "descriptionZh": "把程式碼、文件、SQL schema、設定與 PDF 轉成可查詢的知識圖譜，提供 Claude Code、Cursor、Codex 等工具使用。",
       "stars": 95664,
       "forks": 9272,
       "issues": 655,
@@ -27,7 +28,9 @@
         "MCP",
         "Agent",
         "Skills",
+        "Coding",
         "RAG",
+        "Knowledge",
         "LLM"
       ],
       "category": "Deep research",
@@ -81,6 +84,7 @@
       "name": "earendil-works/pi",
       "url": "https://github.com/earendil-works/pi",
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "descriptionZh": "提供統一 LLM API、agent loop、終端介面與 coding agent CLI 的 AI agent 工具組。",
       "stars": 77454,
       "forks": 9533,
       "issues": 78,
@@ -88,6 +92,7 @@
       "relativeGrowth": 0.655,
       "tags": [
         "Agent",
+        "Coding",
         "LLM"
       ],
       "category": "Deep research",
@@ -141,6 +146,7 @@
       "name": "obra/superpowers",
       "url": "https://github.com/obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
+      "descriptionZh": "將 agentic 開發方法整理成可重複使用的 skills 與軟體開發工作法。",
       "stars": 260926,
       "forks": 23279,
       "issues": 319,
@@ -148,7 +154,8 @@
       "relativeGrowth": 0.175,
       "tags": [
         "Agent",
-        "Skills"
+        "Skills",
+        "Coding"
       ],
       "category": "Deep research",
       "license": "MIT",
@@ -201,6 +208,7 @@
       "name": "DietrichGebert/ponytail",
       "url": "https://github.com/DietrichGebert/ponytail",
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "descriptionZh": "讓 AI agent 採取更精簡、偏資深工程師式的程式設計決策。",
       "stars": 89266,
       "forks": 4893,
       "issues": 103,
@@ -262,6 +270,7 @@
       "name": "affaan-m/ECC",
       "url": "https://github.com/affaan-m/ECC",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "descriptionZh": "面向 Claude Code、Codex、Cursor 等的 agent harness 效能優化系統，涵蓋 skills、記憶、安全與 research-first 開發。",
       "stars": 233147,
       "forks": 35538,
       "issues": 102,
@@ -271,6 +280,8 @@
         "MCP",
         "Agent",
         "Skills",
+        "Automation",
+        "Research",
         "LLM"
       ],
       "category": "Skill candidate",
@@ -324,6 +335,7 @@
       "name": "nextlevelbuilder/ui-ux-pro-max-skill",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "descriptionZh": "提供跨平台專業 UI/UX 設計智慧的 AI skill。",
       "stars": 110020,
       "forks": 11737,
       "issues": 123,
@@ -384,6 +396,7 @@
       "name": "farion1231/cc-switch",
       "url": "https://github.com/farion1231/cc-switch",
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "descriptionZh": "整合 Claude Code、Codex、OpenCode、OpenClaw、Grok 等工具的跨平台桌面助手。",
       "stars": 121120,
       "forks": 8145,
       "issues": 2096,
@@ -445,6 +458,7 @@
       "name": "headroomlabs-ai/headroom",
       "url": "https://github.com/headroomlabs-ai/headroom",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "descriptionZh": "在內容送入 LLM 前壓縮工具輸出、log、檔案與 RAG chunks，以降低 coding agent 的 token 成本。",
       "stars": 62356,
       "forks": 4707,
       "issues": 535,
@@ -453,6 +467,7 @@
       "tags": [
         "MCP",
         "Agent",
+        "Coding",
         "RAG",
         "LLM"
       ],
@@ -507,6 +522,7 @@
       "name": "addyosmani/agent-skills",
       "url": "https://github.com/addyosmani/agent-skills",
       "description": "Production-grade engineering skills for AI coding agents.",
+      "descriptionZh": "為 AI coding agent 提供可上線使用的工程技能與工作流程。",
       "stars": 80324,
       "forks": 8660,
       "issues": 127,
@@ -514,7 +530,8 @@
       "relativeGrowth": 0.179,
       "tags": [
         "Agent",
-        "Skills"
+        "Skills",
+        "Coding"
       ],
       "category": "Skill candidate",
       "license": "MIT",
@@ -567,6 +584,7 @@
       "name": "JCodesMore/ai-website-cloner-template",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "description": "Clone any website with one command using AI coding agents",
+      "descriptionZh": "用 AI coding agent 一個指令複製網站的開發模板。",
       "stars": 30175,
       "forks": 4332,
       "issues": 29,
@@ -574,7 +592,9 @@
       "relativeGrowth": 0.384,
       "tags": [
         "Agent",
-        "Skills"
+        "Skills",
+        "Coding",
+        "Automation"
       ],
       "category": "Skill candidate",
       "license": "MIT",
@@ -627,6 +647,7 @@
       "name": "langgenius/dify",
       "url": "https://github.com/langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "descriptionZh": "在雲端、VPC 或自架環境建立 agent workflow 與 RAG pipeline 的協作平台。",
       "stars": 150215,
       "forks": 23677,
       "issues": 992,
@@ -636,6 +657,7 @@
         "MCP",
         "Agent",
         "Skills",
+        "Automation",
         "RAG",
         "LLM"
       ],
@@ -690,6 +712,7 @@
       "name": "shareAI-lab/learn-claude-code",
       "url": "https://github.com/shareAI-lab/learn-claude-code",
       "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "descriptionZh": "用 Bash 從零理解並實作精簡版 Claude Code 類 agent harness 的學習專案。",
       "stars": 72199,
       "forks": 11705,
       "issues": 74,
@@ -697,6 +720,7 @@
       "relativeGrowth": 0.08,
       "tags": [
         "Agent",
+        "Automation",
         "LLM"
       ],
       "category": "Reference only",
@@ -750,6 +774,7 @@
       "name": "bytedance/deer-flow",
       "url": "https://github.com/bytedance/deer-flow",
       "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "descriptionZh": "聚焦 AI agent、skills、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 77837,
       "forks": 10616,
       "issues": 987,
@@ -758,6 +783,8 @@
       "tags": [
         "Agent",
         "Skills",
+        "Automation",
+        "Research",
         "RAG",
         "LLM"
       ],
@@ -812,6 +839,7 @@
       "name": "nashsu/llm_wiki",
       "url": "https://github.com/nashsu/llm_wiki",
       "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "descriptionZh": "聚焦 RAG、知識管理、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 15297,
       "forks": 1802,
       "issues": 214,
@@ -819,7 +847,7 @@
       "relativeGrowth": 0.333,
       "tags": [
         "RAG",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Watch",
@@ -873,6 +901,7 @@
       "name": "punkpeye/awesome-mcp-servers",
       "url": "https://github.com/punkpeye/awesome-mcp-servers",
       "description": "A collection of MCP servers.",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 91394,
       "forks": 13565,
       "issues": 2220,
@@ -932,6 +961,7 @@
       "name": "luongnv89/claude-howto",
       "url": "https://github.com/luongnv89/claude-howto",
       "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "descriptionZh": "聚焦 AI agent 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 40519,
       "forks": 4925,
       "issues": 24,
@@ -991,6 +1021,7 @@
       "name": "AgriciDaniel/claude-obsidian",
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "descriptionZh": "聚焦 AI agent、skills、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 9919,
       "forks": 1153,
       "issues": 112,
@@ -1000,7 +1031,7 @@
         "Agent",
         "Skills",
         "RAG",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Reference only",
@@ -1054,6 +1085,7 @@
       "name": "modelcontextprotocol/servers",
       "url": "https://github.com/modelcontextprotocol/servers",
       "description": "Model Context Protocol Servers",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 88887,
       "forks": 11283,
       "issues": 680,
@@ -1113,6 +1145,7 @@
       "name": "jnMetaCode/agency-agents-zh",
       "url": "https://github.com/jnMetaCode/agency-agents-zh",
       "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
+      "descriptionZh": "聚焦 AI agent、自動化、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 18311,
       "forks": 3053,
       "issues": 3,
@@ -1120,6 +1153,7 @@
       "relativeGrowth": 0.18,
       "tags": [
         "Agent",
+        "Automation",
         "LLM"
       ],
       "category": "Reference only",
@@ -1173,6 +1207,7 @@
       "name": "humanlayer/12-factor-agents",
       "url": "https://github.com/humanlayer/12-factor-agents",
       "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "descriptionZh": "聚焦 AI agent、自動化、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 24763,
       "forks": 1875,
       "issues": 26,
@@ -1180,6 +1215,7 @@
       "relativeGrowth": 0.089,
       "tags": [
         "Agent",
+        "Automation",
         "RAG",
         "LLM"
       ],
@@ -1234,6 +1270,7 @@
       "name": "activepieces/activepieces",
       "url": "https://github.com/activepieces/activepieces",
       "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "descriptionZh": "聚焦 MCP、AI agent、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 23423,
       "forks": 3959,
       "issues": 442,
@@ -1241,7 +1278,8 @@
       "relativeGrowth": 0.06,
       "tags": [
         "MCP",
-        "Agent"
+        "Agent",
+        "Automation"
       ],
       "category": "Watch",
       "license": "NOASSERTION",
@@ -1294,6 +1332,7 @@
       "name": "deepset-ai/haystack",
       "url": "https://github.com/deepset-ai/haystack",
       "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "descriptionZh": "聚焦 AI agent、自動化、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 26011,
       "forks": 2950,
       "issues": 119,
@@ -1301,6 +1340,7 @@
       "relativeGrowth": 0.054,
       "tags": [
         "Agent",
+        "Automation",
         "RAG",
         "LLM"
       ],
@@ -1355,6 +1395,7 @@
       "name": "davila7/claude-code-templates",
       "url": "https://github.com/davila7/claude-code-templates",
       "description": "CLI tool for configuring and monitoring Claude Code",
+      "descriptionZh": "聚焦 AI agent 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 29895,
       "forks": 3204,
       "issues": 214,
@@ -1414,6 +1455,7 @@
       "name": "FlorianBruniaux/claude-code-ultimate-guide",
       "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
       "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
+      "descriptionZh": "聚焦 MCP、AI agent、skills 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 5559,
       "forks": 733,
       "issues": 9,
@@ -1423,6 +1465,8 @@
         "MCP",
         "Agent",
         "Skills",
+        "Coding",
+        "Automation",
         "LLM"
       ],
       "category": "Reference only",
@@ -1476,6 +1520,7 @@
       "name": "zylon-ai/private-gpt",
       "url": "https://github.com/zylon-ai/private-gpt",
       "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+      "descriptionZh": "聚焦 MCP、skills、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 57371,
       "forks": 7604,
       "issues": 7,
@@ -1537,6 +1582,7 @@
       "name": "labring/FastGPT",
       "url": "https://github.com/labring/FastGPT",
       "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
+      "descriptionZh": "聚焦 MCP、AI agent、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 29117,
       "forks": 7239,
       "issues": 171,
@@ -1545,6 +1591,7 @@
       "tags": [
         "MCP",
         "Agent",
+        "Automation",
         "RAG",
         "LLM"
       ],
@@ -1599,6 +1646,7 @@
       "name": "xerrors/Yuxi",
       "url": "https://github.com/xerrors/Yuxi",
       "description": "结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
+      "descriptionZh": "聚焦 MCP、AI agent、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 6256,
       "forks": 917,
       "issues": 76,
@@ -1607,8 +1655,9 @@
       "tags": [
         "MCP",
         "Agent",
+        "Automation",
         "RAG",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Reference only",
@@ -1662,6 +1711,7 @@
       "name": "googleapis/mcp-toolbox",
       "url": "https://github.com/googleapis/mcp-toolbox",
       "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "descriptionZh": "聚焦 MCP、AI agent、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 16014,
       "forks": 1656,
       "issues": 256,
@@ -1723,6 +1773,7 @@
       "name": "modelcontextprotocol/python-sdk",
       "url": "https://github.com/modelcontextprotocol/python-sdk",
       "description": "The official Python SDK for Model Context Protocol servers and clients",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 23718,
       "forks": 3694,
       "issues": 528,
@@ -1782,6 +1833,7 @@
       "name": "DataTalksClub/ai-dev-tools-zoomcamp",
       "url": "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
       "description": "A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without losing engineering discipline. The 2026 cohort starts August 31.",
+      "descriptionZh": "聚焦 MCP、AI agent、開發工具 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 1169,
       "forks": 194,
       "issues": 0,
@@ -1789,7 +1841,9 @@
       "relativeGrowth": 0.342,
       "tags": [
         "MCP",
-        "Agent"
+        "Agent",
+        "Coding",
+        "Automation"
       ],
       "category": "Watch",
       "license": "Unclear",
@@ -1818,13 +1872,14 @@
       "name": "bytedance/flowgram.ai",
       "url": "https://github.com/bytedance/flowgram.ai",
       "description": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
+      "descriptionZh": "聚焦 自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 8256,
       "forks": 744,
       "issues": 72,
       "delta": 4,
       "relativeGrowth": 0.048,
       "tags": [
-        "AI"
+        "Automation"
       ],
       "category": "Reference only",
       "license": "MIT",
@@ -1877,6 +1932,7 @@
       "name": "modelcontextprotocol/typescript-sdk",
       "url": "https://github.com/modelcontextprotocol/typescript-sdk",
       "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 12947,
       "forks": 2008,
       "issues": 491,
@@ -1936,13 +1992,15 @@
       "name": "microsoft/mcp-for-beginners",
       "url": "https://github.com/microsoft/mcp-for-beginners",
       "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+      "descriptionZh": "聚焦 MCP、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 16833,
       "forks": 5485,
       "issues": 11,
       "delta": 3,
       "relativeGrowth": 0.018,
       "tags": [
-        "MCP"
+        "MCP",
+        "Automation"
       ],
       "category": "Reference only",
       "license": "MIT",
@@ -1995,12 +2053,14 @@
       "name": "mufeedvh/code2prompt",
       "url": "https://github.com/mufeedvh/code2prompt",
       "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+      "descriptionZh": "聚焦 開發工具、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 7501,
       "forks": 428,
       "issues": 20,
       "delta": 2,
       "relativeGrowth": 0.027,
       "tags": [
+        "Coding",
         "LLM"
       ],
       "category": "Reference only",
@@ -2054,13 +2114,15 @@
       "name": "hangwin/mcp-chrome",
       "url": "https://github.com/hangwin/mcp-chrome",
       "description": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.",
+      "descriptionZh": "聚焦 MCP、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 12199,
       "forks": 1102,
       "issues": 223,
       "delta": 2,
       "relativeGrowth": 0.016,
       "tags": [
-        "MCP"
+        "MCP",
+        "Automation"
       ],
       "category": "Reference only",
       "license": "MIT",
@@ -2113,6 +2175,7 @@
       "name": "chatchat-space/Langchain-Chatchat",
       "url": "https://github.com/chatchat-space/Langchain-Chatchat",
       "description": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
+      "descriptionZh": "聚焦 AI agent、RAG、知識管理 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 38471,
       "forks": 6250,
       "issues": 24,
@@ -2121,7 +2184,7 @@
       "tags": [
         "Agent",
         "RAG",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Reference only",
@@ -2175,13 +2238,14 @@
       "name": "kdsz001/OpenWiki",
       "url": "https://github.com/kdsz001/OpenWiki",
       "description": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.",
+      "descriptionZh": "聚焦 知識管理 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 607,
       "forks": 134,
       "issues": 16,
       "delta": 1,
       "relativeGrowth": 0.165,
       "tags": [
-        "Wiki"
+        "Knowledge"
       ],
       "category": "Reference only",
       "license": "MIT",
@@ -2234,6 +2298,7 @@
       "name": "AvdLee/RocketSimApp",
       "url": "https://github.com/AvdLee/RocketSimApp",
       "description": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+      "descriptionZh": "聚焦 AI agent、skills、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 780,
       "forks": 35,
       "issues": 209,
@@ -2241,7 +2306,8 @@
       "relativeGrowth": 0.128,
       "tags": [
         "Agent",
-        "Skills"
+        "Skills",
+        "Automation"
       ],
       "category": "Watch",
       "license": "NOASSERTION",
@@ -2294,13 +2360,15 @@
       "name": "golutra/golutra",
       "url": "https://github.com/golutra/golutra",
       "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
+      "descriptionZh": "聚焦 AI agent、自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 3773,
       "forks": 434,
       "issues": 57,
       "delta": 1,
       "relativeGrowth": 0.027,
       "tags": [
-        "Agent"
+        "Agent",
+        "Automation"
       ],
       "category": "Watch",
       "license": "NOASSERTION",
@@ -2353,6 +2421,7 @@
       "name": "OpenSPG/KAG",
       "url": "https://github.com/OpenSPG/KAG",
       "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
+      "descriptionZh": "聚焦 RAG、知識管理、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 8927,
       "forks": 696,
       "issues": 174,
@@ -2360,7 +2429,7 @@
       "relativeGrowth": 0.011,
       "tags": [
         "RAG",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Reference only",
@@ -2414,6 +2483,7 @@
       "name": "alibaba/open-code-review",
       "url": "https://github.com/alibaba/open-code-review",
       "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "descriptionZh": "聚焦 AI agent、skills、開發工具 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 12734,
       "forks": 869,
       "issues": 57,
@@ -2422,6 +2492,8 @@
       "tags": [
         "Agent",
         "Skills",
+        "Coding",
+        "Automation",
         "LLM"
       ],
       "category": "Reference only",
@@ -2439,6 +2511,7 @@
       "name": "anthropics/claude-cookbooks",
       "url": "https://github.com/anthropics/claude-cookbooks",
       "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 49759,
       "forks": 5891,
       "issues": 294,
@@ -2462,6 +2535,7 @@
       "name": "block/buzz",
       "url": "https://github.com/block/buzz",
       "description": "A hive mind communication platform",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 11325,
       "forks": 883,
       "issues": 560,
@@ -2485,6 +2559,7 @@
       "name": "bulolo/CatWiki",
       "url": "https://github.com/bulolo/CatWiki",
       "description": "A fully functional knowledge base platform offering robust content management, AI-powered intelligent Q&A, and a modern user experience 一个功能完善的Agentic RAG知识库平台，提供强大的内容管理、AI 智能问答和现代化的用户体验",
+      "descriptionZh": "聚焦 AI agent、RAG、知識管理 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 193,
       "forks": 18,
       "issues": 3,
@@ -2493,7 +2568,7 @@
       "tags": [
         "Agent",
         "RAG",
-        "Wiki"
+        "Knowledge"
       ],
       "category": "Reference only",
       "license": "Apache-2.0",
@@ -2546,6 +2621,7 @@
       "name": "ishicm/llm-wiki-skills",
       "url": "https://github.com/ishicm/llm-wiki-skills",
       "description": "LLM Wiki is a knowledge base management skill designed for AI. It's not a search overlay for your note-taking app — it's a complete toolkit that lets LLMs autonomously create, digest, organize, and maintain knowledge.",
+      "descriptionZh": "聚焦 skills、知識管理、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 22,
       "forks": 2,
       "issues": 1,
@@ -2553,7 +2629,7 @@
       "relativeGrowth": 0.0,
       "tags": [
         "Skills",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Reference only",
@@ -2607,6 +2683,7 @@
       "name": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "descriptionZh": "聚焦 AI agent、skills 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 187901,
       "forks": 16142,
       "issues": 230,
@@ -2631,6 +2708,7 @@
       "name": "palmier-io/palmier-pro",
       "url": "https://github.com/palmier-io/palmier-pro",
       "description": "macOS video editor built for AI",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 12090,
       "forks": 891,
       "issues": 79,
@@ -2654,6 +2732,7 @@
       "name": "swarmclawai/swarmvault",
       "url": "https://github.com/swarmclawai/swarmvault",
       "description": "The local-first LLM Wiki: open-source knowledge graph builder, RAG knowledge base, and agent memory store. Built on Andrej Karpathy's pattern. An Obsidian alternative for personal knowledge management, AI second brain, and durable Claude Code / Codex / OpenClaw memory.",
+      "descriptionZh": "聚焦 MCP、AI agent、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 626,
       "forks": 78,
       "issues": 3,
@@ -2663,7 +2742,7 @@
         "MCP",
         "Agent",
         "RAG",
-        "Wiki",
+        "Knowledge",
         "LLM"
       ],
       "category": "Reference only",
@@ -2717,12 +2796,14 @@
       "name": "testsigmahq/testsigma",
       "url": "https://github.com/testsigmahq/testsigma",
       "description": "Testsigma is a quality intelligence platform for AI-first engineering teams.  AI made developers faster. More code ships, more surface area needs testing, and coverage gaps open faster than teams can close them.",
+      "descriptionZh": "聚焦 自動化、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
       "stars": 1208,
       "forks": 260,
       "issues": 61,
       "delta": 0,
       "relativeGrowth": 0.0,
       "tags": [
+        "Automation",
         "RAG"
       ],
       "category": "Reference only",
