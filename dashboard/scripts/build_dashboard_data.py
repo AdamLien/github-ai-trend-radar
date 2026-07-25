@@ -100,6 +100,7 @@ def main() -> None:
             "url": repo["html_url"],
             "description": repo.get("description", ""),
             "descriptionZh": purpose_zh(name, tags),
+            "readmeExcerpt": repo.get("readme_excerpt", ""),
             "stars": repo["stars"],
             "forks": repo["forks"],
             "issues": repo["open_issues"],
