@@ -1,0 +1,33 @@
+{
+  "snapshot_date": "2026-07-26",
+  "repos": [
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 187901,
+      "forks": 16142,
+      "open_issues": 230,
+      "watchers": 1080,
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-07-25T16:13:49Z",
+      "pushed_at": "2026-07-23T14:29:59Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "v1.1.0",
+        "tag_name": "v1.1.0",
+        "published_at": "2026-07-08T13:20:57Z"
+      },
+      "readme_excerpt": "",
+      "snapshot_date": "2026-07-26",
+      "stars_delta": 0,
+      "forks_delta": 0,
+      "previous_snapshot": "",
+      "category": "Reference only"
+    }
+  ]
+}

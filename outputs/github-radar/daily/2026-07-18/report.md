@@ -1,0 +1,58 @@
+# GitHub Trend Radar - 2026-07-19
+
+## Executive Summary
+
+- Repositories checked: 89
+- Search queries: mcp server ai, model context protocol, agent skills coding agent, claude code template, codex skills, coding agent llm, rag knowledge base, ai wiki knowledge management, llm orchestration agent, developer automation ai
+- Seed repos: none
+
+## Top Movers
+
+| Repo | Stars | Delta | Forks | Updated | Category | Why it matters |
+| --- | ---: | ---: | ---: | --- | --- | --- |
+| [obra/superpowers](https://github.com/obra/superpowers) | 256988 | 0 | 22890 | 2026-07-17 | Reference only | An agentic skills framework & software development methodology that works. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 230872 | 0 | 35232 | 2026-07-17 | Watch | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first dev |
+| [langgenius/dify](https://github.com/langgenius/dify) | 149246 | 0 | 23516 | 2026-07-18 | Watch | Production-ready platform for agentic workflow development. |
+| [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 118606 | 0 | 7951 | 2026-07-18 | Watch | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes  |
+| [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 107297 | 0 | 11399 | 2026-07-14 | Reference only | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
+| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 90922 | 0 | 13187 | 2026-07-13 | Watch | A collection of MCP servers. |
+| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 90778 | 0 | 8857 | 2026-07-18 | Watch | AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of cod |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 88611 | 0 | 11241 | 2026-07-10 | Reference only | Model Context Protocol Servers |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 85502 | 0 | 4650 | 2026-07-15 | Watch | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 79123 | 0 | 8508 | 2026-07-18 | Reference only | Production-grade engineering skills for AI coding agents. |
+| [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 77348 | 0 | 10521 | 2026-07-18 | Watch | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | 72356 | 0 | 8933 | 2026-07-17 | Reference only | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 71410 | 0 | 11616 | 2026-06-26 | Watch | Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 68036 | 0 | 7707 | 2026-05-22 | Watch | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows |
+| [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 65014 | 0 | 7721 | 2026-07-18 | Reference only | 🌊 The leading agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and |
+| [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 64874 | 0 | 4470 | 2026-07-18 | Reference only | Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop  |
+| [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 59810 | 0 | 4447 | 2026-07-18 | Watch | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agen |
+| [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) | 57338 | 0 | 7599 | 2026-07-17 | Reference only | Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more |
+| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 51258 | 0 | 5614 | 2026-07-18 | Watch | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with  |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 50320 | 0 | 4380 | 2026-07-18 | Watch | A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute |
+
+## Deep Research Candidates
+
+- No deep research candidates crossed the default momentum threshold in this run.
+
+## Demo And Content Ideas
+
+- Compare or demo `obra/superpowers` around: An agentic skills framework & software development methodology that works..
+- Compare or demo `affaan-m/ECC` around: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond..
+- Compare or demo `langgenius/dify` around: Production-ready platform for agentic workflow development..
+- Compare or demo `farion1231/cc-switch` around: A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io.
+- Compare or demo `nextlevelbuilder/ui-ux-pro-max-skill` around: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms.
+- Compare or demo `punkpeye/awesome-mcp-servers` around: A collection of MCP servers..
+- Compare or demo `Graphify-Labs/graphify` around: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph..
+- Compare or demo `modelcontextprotocol/servers` around: Model Context Protocol Servers.
+
+## Risks And False Positives
+
+- `ComposioHQ/awesome-claude-skills`: license unclear.
+- `claude-did-this/claude-hub`: license unclear.
+- `hanshaze/Awesome-Prediction-Market-Trading-Tools`: license unclear.
+- `ahmedsaadawi13/splash-wiki`: license unclear.
+
+## Next Run
+
+- Re-run with the same `--out` directory to calculate star deltas from saved snapshots.

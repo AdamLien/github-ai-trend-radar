@@ -1,0 +1,2749 @@
+{
+  "updatedAt": "2026-07-26",
+  "historyDates": [
+    "2026-07-17",
+    "2026-07-18",
+    "2026-07-19",
+    "2026-07-20",
+    "2026-07-21",
+    "2026-07-22",
+    "2026-07-23",
+    "2026-07-24",
+    "2026-07-25",
+    "2026-07-26"
+  ],
+  "repoCount": 49,
+  "records": [
+    {
+      "name": "Graphify-Labs/graphify",
+      "url": "https://github.com/Graphify-Labs/graphify",
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "stars": 95664,
+      "forks": 9272,
+      "issues": 655,
+      "delta": 599,
+      "relativeGrowth": 0.626,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Deep research",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 88625
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 89944
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 90778
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 91428
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 92071
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 93169
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 93672
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 94407
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 95065
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 95664
+        }
+      ]
+    },
+    {
+      "name": "earendil-works/pi",
+      "url": "https://github.com/earendil-works/pi",
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "stars": 77454,
+      "forks": 9533,
+      "issues": 78,
+      "delta": 507,
+      "relativeGrowth": 0.655,
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "category": "Deep research",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-25",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 71774
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 72091
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 72356
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 72677
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 73284
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 74682
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 75384
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 76175
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 76947
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 77454
+        }
+      ]
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars": 260926,
+      "forks": 23279,
+      "issues": 319,
+      "delta": 456,
+      "relativeGrowth": 0.175,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Deep research",
+      "license": "MIT",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 255905
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 256506
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 256988
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 257463
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 258043
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 258794
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 259286
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 259942
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 260470
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 260926
+        }
+      ]
+    },
+    {
+      "name": "DietrichGebert/ponytail",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "stars": 89266,
+      "forks": 4893,
+      "issues": 103,
+      "delta": 417,
+      "relativeGrowth": 0.467,
+      "tags": [
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Deep research",
+      "license": "MIT",
+      "pushedAt": "2026-07-15",
+      "releaseAt": "2026-06-29",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 84532
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 85108
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 85502
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 85967
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 86489
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 87312
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 87741
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 88295
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 88849
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 89266
+        }
+      ]
+    },
+    {
+      "name": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "stars": 233147,
+      "forks": 35538,
+      "issues": 102,
+      "delta": 376,
+      "relativeGrowth": 0.161,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Skill candidate",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-06-10",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 230358
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 230585
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 230872
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 231133
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 231472
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 231905
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 232143
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 232472
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 232771
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 233147
+        }
+      ]
+    },
+    {
+      "name": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
+      "stars": 110020,
+      "forks": 11737,
+      "issues": 123,
+      "delta": 308,
+      "relativeGrowth": 0.28,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Skill candidate",
+      "license": "MIT",
+      "pushedAt": "2026-07-21",
+      "releaseAt": "2026-07-13",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 106488
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 106915
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 107297
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 107675
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 108090
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 108569
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 108870
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 109329
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 109712
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 110020
+        }
+      ]
+    },
+    {
+      "name": "farion1231/cc-switch",
+      "url": "https://github.com/farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "stars": 121120,
+      "forks": 8145,
+      "issues": 2096,
+      "delta": 246,
+      "relativeGrowth": 0.203,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills"
+      ],
+      "category": "Skill candidate",
+      "license": "MIT",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-21",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 117905
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 118294
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 118606
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 118897
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 119254
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 119773
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 120112
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 120482
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 120874
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 121120
+        }
+      ]
+    },
+    {
+      "name": "headroomlabs-ai/headroom",
+      "url": "https://github.com/headroomlabs-ai/headroom",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "stars": 62356,
+      "forks": 4707,
+      "issues": 535,
+      "delta": 214,
+      "relativeGrowth": 0.343,
+      "tags": [
+        "MCP",
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Demo/content idea",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-17",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 59493
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 59638
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 59810
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 60044
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 60623
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 61019
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 61168
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 61535
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 62142
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 62356
+        }
+      ]
+    },
+    {
+      "name": "addyosmani/agent-skills",
+      "url": "https://github.com/addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars": 80324,
+      "forks": 8660,
+      "issues": 127,
+      "delta": 144,
+      "relativeGrowth": 0.179,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Skill candidate",
+      "license": "MIT",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-12",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 78719
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 78938
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 79123
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 79266
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 79437
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 79692
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 79822
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 80020
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 80180
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 80324
+        }
+      ]
+    },
+    {
+      "name": "JCodesMore/ai-website-cloner-template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "description": "Clone any website with one command using AI coding agents",
+      "stars": 30175,
+      "forks": 4332,
+      "issues": 29,
+      "delta": 116,
+      "relativeGrowth": 0.384,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Skill candidate",
+      "license": "MIT",
+      "pushedAt": "2026-07-04",
+      "releaseAt": "2026-03-30",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 28559
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 28556
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 28635
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 28766
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 29010
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 29483
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 29627
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 29852
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 30059
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 30175
+        }
+      ]
+    },
+    {
+      "name": "langgenius/dify",
+      "url": "https://github.com/langgenius/dify",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
+      "stars": 150215,
+      "forks": 23677,
+      "issues": 992,
+      "delta": 105,
+      "relativeGrowth": 0.07,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-17",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 149057
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 149159
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 149246
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 149331
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 149486
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 149677
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 149779
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 149962
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 150110
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 150215
+        }
+      ]
+    },
+    {
+      "name": "shareAI-lab/learn-claude-code",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
+      "stars": 72199,
+      "forks": 11705,
+      "issues": 74,
+      "delta": 58,
+      "relativeGrowth": 0.08,
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-06-26",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 71231
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 71334
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 71410
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 71504
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 71681
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 71831
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 71939
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 72065
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 72141
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 72199
+        }
+      ]
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "url": "https://github.com/bytedance/deer-flow",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "stars": 77837,
+      "forks": 10616,
+      "issues": 987,
+      "delta": 52,
+      "relativeGrowth": 0.067,
+      "tags": [
+        "Agent",
+        "Skills",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-06-25",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 77202
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 77283
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 77348
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 77387
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 77450
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 77546
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 77606
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 77675
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 77785
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 77837
+        }
+      ]
+    },
+    {
+      "name": "nashsu/llm_wiki",
+      "url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "stars": 15297,
+      "forks": 1802,
+      "issues": 214,
+      "delta": 51,
+      "relativeGrowth": 0.333,
+      "tags": [
+        "RAG",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-20",
+      "releaseAt": "2026-07-20",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 14724
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 14792
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 14843
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 14894
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 14963
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 15043
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 15127
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 15180
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 15246
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 15297
+        }
+      ]
+    },
+    {
+      "name": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers",
+      "description": "A collection of MCP servers.",
+      "stars": 91394,
+      "forks": 13565,
+      "issues": 2220,
+      "delta": 45,
+      "relativeGrowth": 0.049,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 90843
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 90879
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 90922
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 90958
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 90999
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 91059
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 91133
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 91260
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 91349
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 91394
+        }
+      ]
+    },
+    {
+      "name": "luongnv89/claude-howto",
+      "url": "https://github.com/luongnv89/claude-howto",
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "stars": 40519,
+      "forks": 4925,
+      "issues": 24,
+      "delta": 43,
+      "relativeGrowth": 0.106,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-22",
+      "releaseAt": "2026-06-02",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 39912
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 39929
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 39958
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 39982
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 40049
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 40189
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 40275
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 40355
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 40476
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 40519
+        }
+      ]
+    },
+    {
+      "name": "AgriciDaniel/claude-obsidian",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "stars": 9919,
+      "forks": 1153,
+      "issues": 112,
+      "delta": 41,
+      "relativeGrowth": 0.413,
+      "tags": [
+        "Agent",
+        "Skills",
+        "RAG",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-05-28",
+      "releaseAt": "2026-05-28",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 9488
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 9524
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 9577
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 9616
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 9690
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 9759
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 9802
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 9842
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 9878
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 9919
+        }
+      ]
+    },
+    {
+      "name": "modelcontextprotocol/servers",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "stars": 88887,
+      "forks": 11283,
+      "issues": 680,
+      "delta": 40,
+      "relativeGrowth": 0.045,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-10",
+      "releaseAt": "2026-07-10",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 88552
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 88581
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 88611
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 88630
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 88673
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 88732
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 88780
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 88805
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 88847
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 88887
+        }
+      ]
+    },
+    {
+      "name": "jnMetaCode/agency-agents-zh",
+      "url": "https://github.com/jnMetaCode/agency-agents-zh",
+      "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
+      "stars": 18311,
+      "forks": 3053,
+      "issues": 3,
+      "delta": 33,
+      "relativeGrowth": 0.18,
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-23",
+      "releaseAt": "2026-06-16",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 17433
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 17489
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 17593
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 17774
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 17921
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 18050
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 18139
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 18215
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 18278
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 18311
+        }
+      ]
+    },
+    {
+      "name": "humanlayer/12-factor-agents",
+      "url": "https://github.com/humanlayer/12-factor-agents",
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "stars": 24763,
+      "forks": 1875,
+      "issues": 26,
+      "delta": 22,
+      "relativeGrowth": 0.089,
+      "tags": [
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2025-09-21",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 24342
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 24365
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 24386
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 24498
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 24544
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 24621
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 24652
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 24701
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 24741
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 24763
+        }
+      ]
+    },
+    {
+      "name": "activepieces/activepieces",
+      "url": "https://github.com/activepieces/activepieces",
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "stars": 23423,
+      "forks": 3959,
+      "issues": 442,
+      "delta": 14,
+      "relativeGrowth": 0.06,
+      "tags": [
+        "MCP",
+        "Agent"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-17",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 23287
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 23307
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 23313
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 23329
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 23343
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 23364
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 23376
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 23394
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 23409
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 23423
+        }
+      ]
+    },
+    {
+      "name": "deepset-ai/haystack",
+      "url": "https://github.com/deepset-ai/haystack",
+      "description": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
+      "stars": 26011,
+      "forks": 2950,
+      "issues": 119,
+      "delta": 14,
+      "relativeGrowth": 0.054,
+      "tags": [
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-20",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 25915
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 25925
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 25936
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 25943
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 25955
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 25972
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 25984
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 25989
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 25997
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 26011
+        }
+      ]
+    },
+    {
+      "name": "davila7/claude-code-templates",
+      "url": "https://github.com/davila7/claude-code-templates",
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "stars": 29895,
+      "forks": 3204,
+      "issues": 214,
+      "delta": 11,
+      "relativeGrowth": 0.037,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2025-11-15",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 29619
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 29661
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 29709
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 29727
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 29775
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 29817
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 29837
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 29857
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 29884
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 29895
+        }
+      ]
+    },
+    {
+      "name": "FlorianBruniaux/claude-code-ultimate-guide",
+      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "description": "The most comprehensive Claude Code guide: agentic workflows, hooks, skills, MCP servers, quizzes, and production-ready templates. 430K+ lines.",
+      "stars": 5559,
+      "forks": 733,
+      "issues": 9,
+      "delta": 10,
+      "relativeGrowth": 0.18,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "CC-BY-SA-4.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-09",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 5470
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 5480
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 5492
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 5502
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 5509
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 5524
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 5531
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 5536
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 5549
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 5559
+        }
+      ]
+    },
+    {
+      "name": "zylon-ai/private-gpt",
+      "url": "https://github.com/zylon-ai/private-gpt",
+      "description": "Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more. Works with any OpenAI-compatible inference server.",
+      "stars": 57371,
+      "forks": 7604,
+      "issues": 7,
+      "delta": 9,
+      "relativeGrowth": 0.016,
+      "tags": [
+        "MCP",
+        "Skills",
+        "RAG"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-06-18",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 57335
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 57339
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 57338
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 57342
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 57344
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 57356
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 57356
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 57356
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 57362
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 57371
+        }
+      ]
+    },
+    {
+      "name": "labring/FastGPT",
+      "url": "https://github.com/labring/FastGPT",
+      "description": "FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.",
+      "stars": 29117,
+      "forks": 7239,
+      "issues": 171,
+      "delta": 8,
+      "relativeGrowth": 0.027,
+      "tags": [
+        "MCP",
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 28995
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 29013
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 29017
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 29026
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 29040
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 29060
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 29072
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 29100
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 29109
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 29117
+        }
+      ]
+    },
+    {
+      "name": "xerrors/Yuxi",
+      "url": "https://github.com/xerrors/Yuxi",
+      "description": "结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
+      "stars": 6256,
+      "forks": 917,
+      "issues": 76,
+      "delta": 5,
+      "relativeGrowth": 0.08,
+      "tags": [
+        "MCP",
+        "Agent",
+        "RAG",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-17",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 6142
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 6145
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 6155
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 6167
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 6183
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 6206
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 6222
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 6237
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 6251
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 6256
+        }
+      ]
+    },
+    {
+      "name": "googleapis/mcp-toolbox",
+      "url": "https://github.com/googleapis/mcp-toolbox",
+      "description": "MCP Toolbox for Databases is an open source MCP server for databases.",
+      "stars": 16014,
+      "forks": 1656,
+      "issues": 256,
+      "delta": 5,
+      "relativeGrowth": 0.031,
+      "tags": [
+        "MCP",
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-16",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 15966
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 15970
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 15973
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 15980
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 15986
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 15993
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 15997
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 16006
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 16009
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 16014
+        }
+      ]
+    },
+    {
+      "name": "modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "description": "The official Python SDK for Model Context Protocol servers and clients",
+      "stars": 23718,
+      "forks": 3694,
+      "issues": 528,
+      "delta": 5,
+      "relativeGrowth": 0.021,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-06-26",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 23630
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 23642
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 23648
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 23656
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 23669
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 23679
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 23690
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 23698
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 23713
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 23718
+        }
+      ]
+    },
+    {
+      "name": "DataTalksClub/ai-dev-tools-zoomcamp",
+      "url": "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
+      "description": "A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without losing engineering discipline. The 2026 cohort starts August 31.",
+      "stars": 1169,
+      "forks": 194,
+      "issues": 0,
+      "delta": 4,
+      "relativeGrowth": 0.342,
+      "tags": [
+        "MCP",
+        "Agent"
+      ],
+      "category": "Watch",
+      "license": "Unclear",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-23",
+          "stars": 1162
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 1163
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 1165
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 1169
+        }
+      ]
+    },
+    {
+      "name": "bytedance/flowgram.ai",
+      "url": "https://github.com/bytedance/flowgram.ai",
+      "description": "FlowGram is an extensible workflow development framework with built-in canvas, form, variable, and materials that helps developers build AI workflow platforms faster and simpler.",
+      "stars": 8256,
+      "forks": 744,
+      "issues": 72,
+      "delta": 4,
+      "relativeGrowth": 0.048,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-07",
+      "releaseAt": "2026-06-08",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 8210
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 8217
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 8219
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 8222
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 8222
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 8227
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 8227
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 8231
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 8252
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 8256
+        }
+      ]
+    },
+    {
+      "name": "modelcontextprotocol/typescript-sdk",
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "description": "The official TypeScript SDK for Model Context Protocol servers and clients",
+      "stars": 12947,
+      "forks": 2008,
+      "issues": 491,
+      "delta": 3,
+      "relativeGrowth": 0.023,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-03-30",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 12867
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 12873
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 12883
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 12889
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 12899
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 12911
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 12920
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 12933
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 12944
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 12947
+        }
+      ]
+    },
+    {
+      "name": "microsoft/mcp-for-beginners",
+      "url": "https://github.com/microsoft/mcp-for-beginners",
+      "description": "This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, Rust and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.",
+      "stars": 16833,
+      "forks": 5485,
+      "issues": 11,
+      "delta": 3,
+      "relativeGrowth": 0.018,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 16763
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 16772
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 16780
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 16781
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 16798
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 16804
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 16815
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 16826
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 16830
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 16833
+        }
+      ]
+    },
+    {
+      "name": "mufeedvh/code2prompt",
+      "url": "https://github.com/mufeedvh/code2prompt",
+      "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
+      "stars": 7501,
+      "forks": 428,
+      "issues": 20,
+      "delta": 2,
+      "relativeGrowth": 0.027,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-06-29",
+      "releaseAt": "2025-12-11",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 7477
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 7482
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 7485
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 7486
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 7488
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 7489
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 7491
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 7495
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 7499
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 7501
+        }
+      ]
+    },
+    {
+      "name": "hangwin/mcp-chrome",
+      "url": "https://github.com/hangwin/mcp-chrome",
+      "description": "Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes your Chrome browser functionality to AI assistants like Claude, enabling complex browser automation, content analysis, and semantic search.",
+      "stars": 12199,
+      "forks": 1102,
+      "issues": 223,
+      "delta": 2,
+      "relativeGrowth": 0.016,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-01-06",
+      "releaseAt": "2025-12-29",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 12118
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 12128
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 12146
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 12153
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 12165
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 12182
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 12186
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 12189
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 12197
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 12199
+        }
+      ]
+    },
+    {
+      "name": "chatchat-space/Langchain-Chatchat",
+      "url": "https://github.com/chatchat-space/Langchain-Chatchat",
+      "description": "Langchain-Chatchat（原Langchain-ChatGLM）基于 Langchain 与 ChatGLM, Qwen 与 Llama 等语言模型的 RAG 与 Agent 应用 | Langchain-Chatchat (formerly langchain-ChatGLM), local knowledge based LLM (like ChatGLM, Qwen and Llama) RAG and Agent app with langchain ",
+      "stars": 38471,
+      "forks": 6250,
+      "issues": 24,
+      "delta": 2,
+      "relativeGrowth": 0.005,
+      "tags": [
+        "Agent",
+        "RAG",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2025-11-10",
+      "releaseAt": "2024-07-12",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 38434
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 38432
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 38436
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 38440
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 38450
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 38455
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 38457
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 38461
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 38469
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 38471
+        }
+      ]
+    },
+    {
+      "name": "kdsz001/OpenWiki",
+      "url": "https://github.com/kdsz001/OpenWiki",
+      "description": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.",
+      "stars": 607,
+      "forks": 134,
+      "issues": 16,
+      "delta": 1,
+      "relativeGrowth": 0.165,
+      "tags": [
+        "Wiki"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-13",
+      "releaseAt": "2026-07-13",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 649
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 590
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 590
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 593
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 596
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 602
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 602
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 604
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 606
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 607
+        }
+      ]
+    },
+    {
+      "name": "AvdLee/RocketSimApp",
+      "url": "https://github.com/AvdLee/RocketSimApp",
+      "description": "RocketSim — 30+ tools for Xcode's iOS Simulator. Testing, debugging, network monitoring, captures, accessibility, app actions, and AI agent automation via the RocketSim CLI. Used by 80k+ developers.",
+      "stars": 780,
+      "forks": 35,
+      "issues": 209,
+      "delta": 1,
+      "relativeGrowth": 0.128,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2021-08-13",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 774
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 774
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 775
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 775
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 775
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 776
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 777
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 778
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 779
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 780
+        }
+      ]
+    },
+    {
+      "name": "golutra/golutra",
+      "url": "https://github.com/golutra/golutra",
+      "description": "Multi-agent AI orchestration platform for automation, workflows, and developer tools. Golutra transforms Codex, Claude Code, and OpenClaw into a unified agent system with parallel execution, task orchestration, long-running workflows, and AI productivity workspace.",
+      "stars": 3773,
+      "forks": 434,
+      "issues": 57,
+      "delta": 1,
+      "relativeGrowth": 0.027,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-07-21",
+      "releaseAt": "2026-07-21",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 3763
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 3764
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 3766
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 3766
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 3770
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 3767
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 3769
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 3770
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 3772
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 3773
+        }
+      ]
+    },
+    {
+      "name": "OpenSPG/KAG",
+      "url": "https://github.com/OpenSPG/KAG",
+      "description": "KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.",
+      "stars": 8927,
+      "forks": 696,
+      "issues": 174,
+      "delta": 1,
+      "relativeGrowth": 0.011,
+      "tags": [
+        "RAG",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-01-28",
+      "releaseAt": "2025-06-28",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 8908
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 8913
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 8913
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 8916
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 8917
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 8922
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 8925
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 8924
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 8926
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 8927
+        }
+      ]
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "stars": 12734,
+      "forks": 869,
+      "issues": 57,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 12734
+        }
+      ]
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "stars": 49759,
+      "forks": 5891,
+      "issues": 294,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-23",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 49759
+        }
+      ]
+    },
+    {
+      "name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "stars": 11325,
+      "forks": 883,
+      "issues": 560,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-25",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 11325
+        }
+      ]
+    },
+    {
+      "name": "bulolo/CatWiki",
+      "url": "https://github.com/bulolo/CatWiki",
+      "description": "A fully functional knowledge base platform offering robust content management, AI-powered intelligent Q&A, and a modern user experience 一个功能完善的Agentic RAG知识库平台，提供强大的内容管理、AI 智能问答和现代化的用户体验",
+      "stars": 193,
+      "forks": 18,
+      "issues": 3,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "RAG",
+        "Wiki"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-06-23",
+      "releaseAt": "2026-06-23",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 189
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 191
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 191
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 187
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 190
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 191
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 191
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 192
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 193
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 193
+        }
+      ]
+    },
+    {
+      "name": "ishicm/llm-wiki-skills",
+      "url": "https://github.com/ishicm/llm-wiki-skills",
+      "description": "LLM Wiki is a knowledge base management skill designed for AI. It's not a search overlay for your note-taking app — it's a complete toolkit that lets LLMs autonomously create, digest, organize, and maintain knowledge.",
+      "stars": 22,
+      "forks": 2,
+      "issues": 1,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Skills",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-04-13",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 22
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 22
+        }
+      ]
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars": 187901,
+      "forks": 16142,
+      "issues": 230,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-23",
+      "releaseAt": "2026-07-08",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 187901
+        }
+      ]
+    },
+    {
+      "name": "palmier-io/palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "stars": 12090,
+      "forks": 891,
+      "issues": 79,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "GPL-3.0",
+      "pushedAt": "2026-07-25",
+      "releaseAt": "2026-07-22",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 12090
+        }
+      ]
+    },
+    {
+      "name": "swarmclawai/swarmvault",
+      "url": "https://github.com/swarmclawai/swarmvault",
+      "description": "The local-first LLM Wiki: open-source knowledge graph builder, RAG knowledge base, and agent memory store. Built on Andrej Karpathy's pattern. An Obsidian alternative for personal knowledge management, AI second brain, and durable Claude Code / Codex / OpenClaw memory.",
+      "stars": 626,
+      "forks": 78,
+      "issues": 3,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "Agent",
+        "RAG",
+        "Wiki",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-06-30",
+      "releaseAt": "2026-06-12",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 609
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 611
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 616
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 617
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 618
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 621
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 621
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 625
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 627
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 626
+        }
+      ]
+    },
+    {
+      "name": "testsigmahq/testsigma",
+      "url": "https://github.com/testsigmahq/testsigma",
+      "description": "Testsigma is a quality intelligence platform for AI-first engineering teams.  AI made developers faster. More code ships, more surface area needs testing, and coverage gaps open faster than teams can close them.",
+      "stars": 1208,
+      "forks": 260,
+      "issues": 61,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "RAG"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-04-05",
+      "releaseAt": "2023-08-24",
+      "series": [
+        {
+          "date": "2026-07-24",
+          "stars": 1209
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 1208
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 1208
+        }
+      ]
+    }
+  ],
+  "source": "GitHub API snapshots. GitHub Trending is intentionally excluded from time-series deltas."
+}
