@@ -1,5 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { createRoot } from 'react-dom/client'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import data from './generated/radarData.json'
 import './styles.css'
 
@@ -44,14 +46,14 @@ const copy = {
 }
 const number = (language) => new Intl.NumberFormat(language === 'zh' ? 'en-US' : 'en-US')
 const isoDaysAgo = (end, days) => new Date(new Date(`${end}T00:00:00Z`).getTime() - days * 86400000).toISOString().slice(0, 10)
+const readmePlugins = [remarkGfm]
 const formatReadme = (raw) => {
   const withoutMedia = raw
+    .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, '')
     .replace(/<img\b[^>]*>/gi, '')
     .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
   const withoutMarkup = withoutMedia
     .replace(/<[^>]*>/g, '')
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
-    .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, '')
     .replace(/\r\n/g, '\n')
   const firstHeading = withoutMarkup.search(/^#{1,2}\s+\S/m)
   return (firstHeading >= 0 ? withoutMarkup.slice(firstHeading) : withoutMarkup)
@@ -75,7 +77,7 @@ function TimelineChart({ row, rangeLabel, onClose, language, readme }) {
   const t = copy[language]; const format = number(language); const series = row.windowSeries; const values = series.map((point) => point.stars); const max = Math.max(...values, 1); const min = Math.min(...values, max); const range = max - min || 1
   const x = (index) => 54 + index * (602 / Math.max(series.length - 1, 1)); const y = (value) => 206 - ((value - min) / range) * 156
   const points = series.map((point, index) => `${x(index)},${y(point.stars)}`).join(' '); const labels = series.length <= 7 ? series.map((_, index) => index) : [0, Math.floor((series.length - 1) / 2), series.length - 1]
-  return <section className="timeline-panel"><div className="timeline-heading"><div><span>{t.selected}</span><h2>{row.name}</h2><div className="row-tags">{row.tags.map((tag) => <span key={tag} className={`tag ${tag.toLowerCase()}`}>{tagText[tag]?.[language] || tag}</span>)}</div></div><div className="timeline-actions"><a href={row.url} target="_blank" rel="noreferrer">GitHub ↗</a><button className="modal-close" onClick={onClose} aria-label={t.close}>×</button></div></div><p className="purpose-in-modal"><b>{t.purpose}</b>{language === 'zh' ? row.descriptionZh : row.description}</p><div className="timeline-summary"><div><span>{t.growth(rangeLabel)}</span><strong>+{format.format(row.windowDelta)}</strong></div><div><span>{t.beginning}</span><strong>{format.format(series[0]?.stars || 0)}</strong></div><div><span>{t.ending}</span><strong>{format.format(series.at(-1)?.stars || 0)}</strong></div><div><span>{t.relative}</span><strong>{row.windowRelativeGrowth}%</strong></div><div><span>{t.updatedOn}</span><strong>{row.pushedAt || '—'}</strong></div></div><section className="readme-panel"><div><h3>{t.readme}</h3><span>{t.updatedOn}: {row.pushedAt || '—'}</span></div>{readme?.status === 'loading' && <p>{t.readmeLoading}</p>}{readme?.status === 'error' && <p>{t.readmeError}</p>}{readme?.content && <details><summary>{t.readmeMore}</summary><pre>{readme.content}</pre></details>}</section><svg className="timeline-chart" viewBox="0 0 680 270" role="img" aria-label={`${row.name} star trend`}>
+  return <section className="timeline-panel"><div className="timeline-heading"><div><span>{t.selected}</span><h2>{row.name}</h2><div className="row-tags">{row.tags.map((tag) => <span key={tag} className={`tag ${tag.toLowerCase()}`}>{tagText[tag]?.[language] || tag}</span>)}</div></div><div className="timeline-actions"><a href={row.url} target="_blank" rel="noreferrer">GitHub ↗</a><button className="modal-close" onClick={onClose} aria-label={t.close}>×</button></div></div><p className="purpose-in-modal"><b>{t.purpose}</b>{language === 'zh' ? row.descriptionZh : row.description}</p><div className="timeline-summary"><div><span>{t.growth(rangeLabel)}</span><strong>+{format.format(row.windowDelta)}</strong></div><div><span>{t.beginning}</span><strong>{format.format(series[0]?.stars || 0)}</strong></div><div><span>{t.ending}</span><strong>{format.format(series.at(-1)?.stars || 0)}</strong></div><div><span>{t.relative}</span><strong>{row.windowRelativeGrowth}%</strong></div><div><span>{t.updatedOn}</span><strong>{row.pushedAt || '—'}</strong></div></div><section className="readme-panel"><div><h3>{t.readme}</h3><span>{t.updatedOn}: {row.pushedAt || '—'}</span></div>{readme?.status === 'loading' && <p>{t.readmeLoading}</p>}{readme?.status === 'error' && <p>{t.readmeError}</p>}{readme?.content && <details><summary>{t.readmeMore}</summary><div className="readme-markdown"><ReactMarkdown remarkPlugins={readmePlugins}>{readme.content}</ReactMarkdown></div></details>}</section><svg className="timeline-chart" viewBox="0 0 680 270" role="img" aria-label={`${row.name} star trend`}>
     {[0, 1, 2, 3].map((line) => <line key={line} x1="54" x2="656" y1={50 + line * 52} y2={50 + line * 52} stroke="#dce4ef" strokeWidth="1" />)}<polyline points={points} fill="none" stroke="#0b9c93" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
     {series.map((point, index) => <circle key={point.date} cx={x(index)} cy={y(point.stars)} r="4.5" fill="#fff" stroke="#0b9c93" strokeWidth="3"><title>{`${point.date}: ${format.format(point.stars)} stars`}</title></circle>)}{labels.map((index) => <text key={series[index].date} x={x(index)} y="244" textAnchor="middle" className="axis-label">{series[index].date.slice(5)}</text>)}</svg><p className="timeline-caption">{series[0]?.date} → {series.at(-1)?.date} · GitHub API snapshot total stars.</p></section>
 }
