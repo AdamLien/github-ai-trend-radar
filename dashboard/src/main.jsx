@@ -44,6 +44,21 @@ const copy = {
 }
 const number = (language) => new Intl.NumberFormat(language === 'zh' ? 'en-US' : 'en-US')
 const isoDaysAgo = (end, days) => new Date(new Date(`${end}T00:00:00Z`).getTime() - days * 86400000).toISOString().slice(0, 10)
+const formatReadme = (raw) => {
+  const withoutMedia = raw
+    .replace(/<img\b[^>]*>/gi, '')
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
+  const withoutMarkup = withoutMedia
+    .replace(/<[^>]*>/g, '')
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')
+    .replace(/\[!\[[^\]]*\]\([^)]*\)\]\([^)]*\)/g, '')
+    .replace(/\r\n/g, '\n')
+  const firstHeading = withoutMarkup.search(/^#{1,2}\s+\S/m)
+  return (firstHeading >= 0 ? withoutMarkup.slice(firstHeading) : withoutMarkup)
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+    .slice(0, 2800)
+}
 
 function Tag({ tag, selected, onClick, language }) {
   const label = tagText[tag]?.[language] || tag
@@ -84,7 +99,7 @@ function App() {
   const decorated = useMemo(() => data.records.map((row) => { const points = row.series.filter((point) => point.date >= range.start && point.date <= range.end); const windowSeries = points.length ? points : row.series.slice(-1); const windowDelta = Math.max(0, (windowSeries.at(-1)?.stars || 0) - (windowSeries[0]?.stars || 0)); return { ...row, windowSeries, windowDelta, windowRelativeGrowth: Number((windowDelta / Math.max(windowSeries[0]?.stars || 1, 1) * 100).toFixed(3)) } }), [range])
   const filtered = useMemo(() => decorated.filter((row) => { const needle = search.trim().toLowerCase(); const searchable = `${row.name} ${row.description} ${row.descriptionZh} ${row.tags.join(' ')}`.toLowerCase(); return (!needle || searchable.includes(needle)) && (category === 'All' || row.category === category) && tags.every((tag) => row.tags.includes(tag)) }).sort(sortOptions[sort][1]), [decorated, search, category, tags, sort])
   const selected = decorated.find((row) => row.name === selectedName) || decorated[0]; const coverageStart = selected.windowSeries[0]?.date || range.start; const coverageEnd = selected.windowSeries.at(-1)?.date || range.end; const categoryCounts = categoryKeys.slice(1).map((key) => ({ key, count: decorated.filter((row) => row.category === key).length })); const maxCount = Math.max(...categoryCounts.map((item) => item.count), 1); const days = Math.max(1, Math.round((new Date(`${data.historyDates.at(-1)}T00:00:00Z`) - new Date(`${data.historyDates[0]}T00:00:00Z`)) / 86400000))
-  const loadReadme = async (row) => { if (readmes[row.name]) return; setReadmes((current) => ({ ...current, [row.name]: { status: 'loading' } })); try { const response = await fetch(`https://api.github.com/repos/${row.name}/readme`, { headers: { Accept: 'application/vnd.github.raw+json' } }); if (!response.ok) throw new Error(`GitHub ${response.status}`); const content = (await response.text()).replace(/\r\n/g, '\n').slice(0, 7000); setReadmes((current) => ({ ...current, [row.name]: { status: 'ready', content } })); } catch { setReadmes((current) => ({ ...current, [row.name]: { status: 'error' } })); } }
+  const loadReadme = async (row) => { if (readmes[row.name]) return; setReadmes((current) => ({ ...current, [row.name]: { status: 'loading' } })); try { const response = await fetch(`https://api.github.com/repos/${row.name}/readme`, { headers: { Accept: 'application/vnd.github.raw+json' } }); if (!response.ok) throw new Error(`GitHub ${response.status}`); const content = formatReadme(await response.text()); setReadmes((current) => ({ ...current, [row.name]: { status: 'ready', content } })); } catch { setReadmes((current) => ({ ...current, [row.name]: { status: 'error' } })); } }
   const toggleTag = (tag) => setTags((current) => current.includes(tag) ? current.filter((item) => item !== tag) : [...current, tag]); const choosePeriod = (value) => { setPeriod(value); if (value !== 'custom') setCustomEnd(data.historyDates.at(-1)) }; const openDetail = (name) => { const row = decorated.find((item) => item.name === name); setSelectedName(name); setDetailOpen(true); if (row) loadReadme(row) }
   useEffect(() => { const closeOnEscape = (event) => { if (event.key === 'Escape') setDetailOpen(false) }; window.addEventListener('keydown', closeOnEscape); return () => window.removeEventListener('keydown', closeOnEscape) }, []); useEffect(() => { document.documentElement.lang = language === 'zh' ? 'zh-Hant' : 'en' }, [language])
   return <main className="app-shell"><aside className="sidebar"><div className="radar-mark" aria-label="GitHub AI Trend Radar"><span /><span /><b>↗</b></div><div className="side-status"><strong>Radar</strong><span>{data.updatedAt}</span></div><p className="source">{t.sourceShort}</p></aside><section className="workspace" id="radar"><header><div><h1>GitHub AI Trend Radar</h1><p>{t.subtitle}</p></div><div className="header-tools"><div className="language-switch" aria-label={t.language}><button className={language === 'zh' ? 'active' : ''} onClick={() => setLanguage('zh')}>繁中</button><button className={language === 'en' ? 'active' : ''} onClick={() => setLanguage('en')}>EN</button></div><div className="updated">{t.updated}<strong>{data.updatedAt}</strong></div></div></header>
