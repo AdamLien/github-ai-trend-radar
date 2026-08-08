@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-- Repositories checked: 89
+- Repositories checked: 90
 - Search queries: mcp server ai, model context protocol, agent skills coding agent, claude code template, codex skills, coding agent llm, rag knowledge base, ai wiki knowledge management, llm orchestration agent, developer automation ai
-- Seed repos: none
+- Seed repos: diegosouzapw/OmniRoute
 
 ## Top Movers
 

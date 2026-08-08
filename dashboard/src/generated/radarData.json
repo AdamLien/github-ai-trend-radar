@@ -23,7 +23,7 @@
     "2026-08-06",
     "2026-08-08"
   ],
-  "repoCount": 89,
+  "repoCount": 90,
   "records": [
     {
       "name": "addyosmani/agent-skills",
@@ -7625,6 +7625,34 @@
         {
           "date": "2026-08-08",
           "stars": 3
+        }
+      ]
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "descriptionZh": "聚焦 MCP、AI agent、開發工具 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<div align=\"center\"> <img src=\"./docs/screenshots/MainOmniRoute.png\" alt=\"OmniRoute Dashboard\" width=\"820\"/> <br/> <br/> # 🚀 OmniRoute — The Free AI Gateway <img src=\"./docs/diagrams/readme-hero.svg\" width=\"100%\" alt=\"OmniRoute — Never stop coding. Every AI tool → 291 providers — 90+ free — through one endpoint. Claude Code, Codex, Cursor, Cline, Copilot & Antigravity into FREE Claude / GPT / Gemini with auto-fallback. RTK + Caveman stacked compression saves 15–95% tokens (~89% avg) — never hit limits. 291 AI providers · 90+ free tiers · ~1.53B free tokens/mo · 19 routing strategies · $0 to start.\"/> </div> <div align=\"center\"> ## 💰 ~1.53B Free Tokens / Month </div> > Stacking free tiers by ",
+      "stars": 42888,
+      "forks": 5719,
+      "issues": 460,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-07-30",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 42888
         }
       ]
     },
