@@ -2,9 +2,9 @@
 
 ## Executive Summary
 
-- Repositories checked: 90
+- Repositories checked: 122
 - Search queries: mcp server ai, model context protocol, agent skills coding agent, claude code template, codex skills, coding agent llm, rag knowledge base, ai wiki knowledge management, llm orchestration agent, developer automation ai
-- Seed repos: diegosouzapw/OmniRoute
+- Seed repos: BerriAI/litellm, DietrichGebert/ponytail, InterceptSuite/ProxyBridge, JuliusBrussee/caveman, Mibayy/token-savior, Shweta-Mishra-ai/tokenmizer, alexgreensh/token-optimizer, anomalyco/models.dev, atjsh/llmlingua-2-js, atlassian-labs/mcp-compressor, blackwell-systems/gcf, chouzz/llm-interceptor, decolua/9router, diegosouzapw/OmniRoute, dsherret/ts-morph, headroomlabs-ai/headroom, jessefreitas/OmniCompress, kiali/kiali, langchain-ai/langgraph, langfuse/langfuse, leninejunior/troglodita, letta-ai/letta, lobehub/lobe-icons, mem0ai/mem0, microsoft/LLMLingua, mrsimpson/quiet-shell-mcp, onestardao/WFGY, ooples/token-optimizer-mcp, pdavis68/RepoMapper, ppgranger/token-saver, router-for-me/CLIProxyAPI, rtk-ai/rtk, tldrsec/awesome-secure-defaults, toon-format/toon, xyflow/xyflow
 
 ## Top Movers
 
@@ -17,19 +17,19 @@
 | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 114513 | 0 | 12267 | 2026-08-06 | Reference only | An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms |
 | [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | 104056 | 0 | 10104 | 2026-08-07 | Watch | Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphif |
 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 98312 | 0 | 5401 | 2026-08-07 | Watch | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 96777 | 0 | 5565 | 2026-08-07 | Watch | 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like cavem |
 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 91948 | 0 | 14159 | 2026-08-03 | Watch | A collection of MCP servers. |
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 89333 | 0 | 11402 | 2026-08-05 | Reference only | Model Context Protocol Servers |
 | [earendil-works/pi](https://github.com/earendil-works/pi) | 85333 | 0 | 10587 | 2026-08-07 | Reference only | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 83961 | 0 | 8972 | 2026-08-06 | Reference only | Production-grade engineering skills for AI coding agents. |
 | [bytedance/deer-flow](https://github.com/bytedance/deer-flow) | 79529 | 0 | 10866 | 2026-08-07 | Watch | An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes |
+| [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 75231 | 0 | 4736 | 2026-08-07 | Watch | CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero depend |
 | [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) | 73906 | 0 | 5066 | 2026-07-23 | Reference only | Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop  |
 | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 73523 | 0 | 11920 | 2026-07-28 | Watch | Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1 |
 | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 72034 | 0 | 8169 | 2026-07-24 | Watch | A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows |
 | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | 67303 | 0 | 8056 | 2026-08-07 | Reference only | 🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, an |
 | [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) | 65416 | 0 | 4987 | 2026-08-07 | Watch | Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agen |
-| [zylon-ai/private-gpt](https://github.com/zylon-ai/private-gpt) | 57416 | 0 | 7608 | 2026-08-06 | Reference only | Complete API layer for private AI applications on local models: RAG, skills, tools, MCP, text-to-sql, and more |
-| [aaif-goose/goose](https://github.com/aaif-goose/goose) | 52534 | 0 | 5951 | 2026-08-07 | Watch | an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with  |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 51867 | 0 | 4527 | 2026-08-08 | Watch | A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undispute |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 62799 | 0 | 7326 | 2026-08-07 | Watch | Universal memory layer for AI Agents |
 
 ## Deep Research Candidates
 
@@ -44,14 +44,16 @@
 - Compare or demo `nextlevelbuilder/ui-ux-pro-max-skill` around: An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms.
 - Compare or demo `Graphify-Labs/graphify` around: Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store..
 - Compare or demo `DietrichGebert/ponytail` around: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote..
-- Compare or demo `punkpeye/awesome-mcp-servers` around: A collection of MCP servers..
+- Compare or demo `JuliusBrussee/caveman` around: 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman.
 
 ## Risks And False Positives
 
 - `ComposioHQ/awesome-claude-skills`: license unclear.
 - `DataTalksClub/ai-dev-tools-zoomcamp`: license unclear.
+- `tldrsec/awesome-secure-defaults`: license unclear.
 - `claude-did-this/claude-hub`: license unclear.
 - `hanshaze/Awesome-Prediction-Market-Trading-Tools`: license unclear.
+- `chouzz/llm-interceptor`: license unclear.
 - `ahmedsaadawi13/splash-wiki`: license unclear.
 
 ## Next Run

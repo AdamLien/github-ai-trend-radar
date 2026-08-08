@@ -23,7 +23,7 @@
     "2026-08-06",
     "2026-08-08"
   ],
-  "repoCount": 90,
+  "repoCount": 122,
   "records": [
     {
       "name": "addyosmani/agent-skills",
@@ -7158,6 +7158,110 @@
       ]
     },
     {
+      "name": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "descriptionZh": "聚焦 MCP、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<h1 align=\"center\"> 🚅 LiteLLM </h1> <p align=\"center\"> <p align=\"center\">LiteLLM AI Gateway </p> <p align=\"center\">Open Source AI Gateway for 100+ LLMs. Self-hosted. Enterprise-ready. Call any LLM in OpenAI format.</p> <p align=\"center\"> <a href=\"https://render.com/deploy?repo=https://github.com/BerriAI/litellm\" target=\"_blank\" rel=\"nofollow\"><img src=\"https://render.com/images/deploy-to-render-button.svg\" alt=\"Deploy to Render\" height=\"40\"></a> <a href=\"https://railway.com/deploy/RhvhdC?referralCode=7mRv9K&utm_medium=integration&utm_source=template&utm_campaign=generic\"><img src=\"https://railway.com/button.svg\" alt=\"Deploy on Railway\" height=\"40\"></a> <a href=\"https://console.aws.amazon.com",
+      "stars": 55855,
+      "forks": 10411,
+      "issues": 4811,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-08-03",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 55855
+        }
+      ]
+    },
+    {
+      "name": "InterceptSuite/ProxyBridge",
+      "url": "https://github.com/InterceptSuite/ProxyBridge",
+      "description": "Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to HTTP/Socks5 proxy",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# ProxyBridge <p align=\"center\"> <img src=\"img/logo.png\" alt=\"ProxyBridge Logo\" width=\"300\" /> </p> <p align=\"center\"> <a href=\"https://github.com/InterceptSuite/ProxyBridge/actions/workflows/build-windows.yml\"><img src=\"https://github.com/InterceptSuite/ProxyBridge/actions/workflows/build-windows.yml/badge.svg\" alt=\"Build Windows\" /></a> <a href=\"https://github.com/InterceptSuite/ProxyBridge/actions/workflows/build-mac.yml\"><img src=\"https://github.com/InterceptSuite/ProxyBridge/actions/workflows/build-mac.yml/badge.svg\" alt=\"Build macOS\" /></a> <a href=\"https://github.com/InterceptSuite/ProxyBridge/actions/workflows/build-linux.yml\"><img src=\"https://github.com/InterceptSuite/ProxyBridge/a",
+      "stars": 5675,
+      "forks": 342,
+      "issues": 36,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-31",
+      "releaseAt": "2026-06-25",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 5675
+        }
+      ]
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "descriptionZh": "聚焦 AI agent、skills、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\"> <img src=\"docs/assets/caveman-logo-banner.png\" alt=\"Caveman\" width=\"720\"> </p> <p align=\"center\"> <strong>why use many token when few do trick</strong> </p> <p align=\"center\"> Make your AI coding agent talk like a caveman.<br> Same answers. <strong>65% fewer output tokens</strong> on prose,<br> <strong>8.5%</strong> on <a href=\"#independently-measured-jetbrains-86-tasks\">long-horizon agentic coding runs</a>. Brain still big. Mouth small. </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/25391?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25391\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/a",
+      "stars": 96777,
+      "forks": 5565,
+      "issues": 474,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-03",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 96777
+        }
+      ]
+    },
+    {
+      "name": "Mibayy/token-savior",
+      "url": "https://github.com/Mibayy/token-savior",
+      "description": "MCP server that gets Claude to 97.9% (188/192) on a real coding benchmark at -80% active tokens and -83% wall time, vs 78.3% plain. Structural code navigation + persistent memory engine. Works with every MCP client.",
+      "descriptionZh": "聚焦 MCP、開發工具 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<!-- mcp-name: io.github.Mibayy/token-savior --> <div align=\"center\"> # Token Savior > One MCP server. One profile. **97.9% on tsbench at -80% tokens.** > Structural code navigation, persistent memory, and Bash output compaction for AI coding agents. [![PyPI](https://img.shields.io/pypi/v/token-savior-recall?color=orange&label=pypi)](https://pypi.org/project/token-savior-recall/) [![Benchmark](https://img.shields.io/badge/tsbench-97.9%25%20(188%2F192)-brightgreen)](https://mibayy.github.io/token-savior/) [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/) [![MCP](https://img.shields.io/badge/MCP-compatible-purple.svg)](https://modelcontext",
+      "stars": 1106,
+      "forks": 94,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "Coding"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-31",
+      "releaseAt": "2026-07-28",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 1106
+        }
+      ]
+    },
+    {
       "name": "ProfessionalWiki/NeoWiki",
       "url": "https://github.com/ProfessionalWiki/NeoWiki",
       "description": "AI-ready knowledge management system that combines collaborative editing and knowledge graph.",
@@ -7240,6 +7344,33 @@
       ]
     },
     {
+      "name": "Shweta-Mishra-ai/tokenmizer",
+      "url": "https://github.com/Shweta-Mishra-ai/tokenmizer",
+      "description": "Graph memory for AI agents — decisions, context, and session history that survive across every conversation. Works with any LLM.",
+      "descriptionZh": "聚焦 MCP、AI agent、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<div align=\"center\"> <img src=\"https://raw.githubusercontent.com/Shweta-Mishra-ai/tokenmizer/main/docs/assets/logo.svg\" width=\"140\" alt=\"TokenMizer\"/> <h1>TokenMizer</h1> <p><strong>Your AI forgets why. TokenMizer remembers.</strong></p> <p> An OpenAI-compatible proxy that builds a <b>knowledge graph</b> of your session — decisions, files, errors, goals — and replays it when the<br/> context window runs out. Not a summary: a queryable graph that knows <i>\"we switched from MongoDB to PostgreSQL, and here is why.\"</i> </p> <p> <sub>One line to adopt · works with Claude, GPT, Gemini, Grok, DeepSeek, Mistral, Cohere, Ollama · MIT</sub> </p> <p> <a href=\"https://pypi.org/project/tokenmizer\"><img ",
+      "stars": 25,
+      "forks": 5,
+      "issues": 2,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 25
+        }
+      ]
+    },
+    {
       "name": "ahmedsaadawi13/splash-wiki",
       "url": "https://github.com/ahmedsaadawi13/splash-wiki",
       "description": "SplashWiki is a production-ready, multi-tenant wiki platform built with PHP and MySQL. It provides a complete knowledge management solution similar to Notion Wiki, Confluence, or GitBook, with support for multiple organizations, public documentation, and a REST API.",
@@ -7317,6 +7448,134 @@
         {
           "date": "2026-08-08",
           "stars": 3
+        }
+      ]
+    },
+    {
+      "name": "alexgreensh/token-optimizer",
+      "url": "https://github.com/alexgreensh/token-optimizer",
+      "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
+      "descriptionZh": "聚焦 AI agent、skills 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\"> <img src=\"skills/token-optimizer/assets/logo.svg\" alt=\"Token Optimizer\" width=\"780\"> </p> <p align=\"center\"> <a href=\"https://github.com/alexgreensh/token-optimizer/releases/latest\"><img src=\"https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Falexgreensh%2Ftoken-optimizer%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&prefix=v&label=version&color=green\" alt=\"Latest stable version\"></a> <a href=\"https://github.com/alexgreensh/token-optimizer/commits/main\"><img src=\"https://badgen.net/github/last-commit/alexgreensh/token-optimizer?label=last%20commit\" alt=\"Last commit\"></a> <a href=\"https://github.com/alexgreensh/token-optimizer\"",
+      "stars": 1827,
+      "forks": 148,
+      "issues": 7,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-05",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 1827
+        }
+      ]
+    },
+    {
+      "name": "anomalyco/models.dev",
+      "url": "https://github.com/anomalyco/models.dev",
+      "description": "An open-source database of AI models.",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\"> <a href=\"https://models.dev\"> <picture> <source srcset=\"./logo-dark.svg\" media=\"(prefers-color-scheme: dark)\"> <source srcset=\"./logo-light.svg\" media=\"(prefers-color-scheme: light)\"> <img src=\"./logo-light.svg\" alt=\"Models.dev logo\"> </picture> </a> </p> --- [Models.dev](https://models.dev) is a comprehensive open-source database of AI model specifications, pricing, and capabilities. There's no single database with information about all the available AI models. We started Models.dev as a community-contributed project to address this. We also use it internally in [opencode](https://opencode.ai). ## API You can access this data through an API. ```bash curl https://models.de",
+      "stars": 6319,
+      "forks": 1434,
+      "issues": 280,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 6319
+        }
+      ]
+    },
+    {
+      "name": "atjsh/llmlingua-2-js",
+      "url": "https://github.com/atjsh/llmlingua-2-js",
+      "description": "JavaScript/TypeScript implementation of LLMLingua-2 (Experimental)",
+      "descriptionZh": "聚焦 LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# JavaScript/TypeScript Implementation of LLMLingua-2 (Experimental) [![NPM Version](https://img.shields.io/npm/v/%40atjsh%2Fllmlingua-2)](https://www.npmjs.com/package/@atjsh/llmlingua-2) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) **LLMLingua-2**, Originally developed and implemented in Python by [Microsoft](https://github.com/microsoft/LLMLingua), is a small-size yet powerful prompt compression method. - **Efficient**: Compresses context prompts with BERT sized models. - **Accurate**: Achieves high accuracy then other methods while requiring less computational resources. **llmlingua-2-js**, ported by [atjsh](https://github.com/atjsh), is a pure JavaScript/Type",
+      "stars": 30,
+      "forks": 4,
+      "issues": 6,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2025-09-14",
+      "releaseAt": "2025-06-08",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 30
+        }
+      ]
+    },
+    {
+      "name": "atlassian-labs/mcp-compressor",
+      "url": "https://github.com/atlassian-labs/mcp-compressor",
+      "description": "An MCP server wrapper for reducing tokens consumed by MCP tools, available in typescript, python, and rust",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# mcp-compressor [![MCP Toplist](https://mcptoplist.com/badge/glama%2Fatlassian-labs%2Fmcp-compressor.svg)](https://mcptoplist.com/server/glama%2Fatlassian-labs%2Fmcp-compressor) [![Release](https://img.shields.io/github/v/release/atlassian-labs/mcp-compressor)](https://github.com/atlassian-labs/mcp-compressor/releases) [![Build status](https://img.shields.io/github/actions/workflow/status/atlassian-labs/mcp-compressor/main.yml?branch=main)](https://github.com/atlassian-labs/mcp-compressor/actions/workflows/main.yml?query=branch%3Amain) [![Commit activity](https://img.shields.io/github/commit-activity/m/atlassian-labs/mcp-compressor)](https://github.com/atlassian-labs/mcp-compressor/commits/",
+      "stars": 105,
+      "forks": 8,
+      "issues": 1,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-28",
+      "releaseAt": "2026-07-28",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 105
+        }
+      ]
+    },
+    {
+      "name": "blackwell-systems/gcf",
+      "url": "https://github.com/blackwell-systems/gcf",
+      "description": "The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 43B+ lossless round-trips across 17 formats. Spec v3.4 Stable.",
+      "descriptionZh": "聚焦 MCP、AI agent、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\"> <a href=\"https://gcformat.com/playground.html\"><img src=\"https://img.shields.io/badge/playground-live-2563eb?style=for-the-badge\" alt=\"Playground\"></a> <a href=\"https://gcformat.com/guide/benchmarks.html\"><img src=\"https://img.shields.io/badge/benchmarks-2%2C500%2B%20evals-22c55e?style=for-the-badge\" alt=\"Benchmarks\"></a> <a href=\"https://github.com/blackwell-systems/gcf\"><img src=\"https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/blackwell-systems/gcf/main/assets/downloads-badge.json&style=for-the-badge\" alt=\"Downloads\"></a> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-333?style=for-the-badge\" alt=\"License\"></a> </p> <p align=\"c",
+      "stars": 30,
+      "forks": 1,
+      "issues": 2,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 30
         }
       ]
     },
@@ -7424,6 +7683,32 @@
         {
           "date": "2026-08-08",
           "stars": 195
+        }
+      ]
+    },
+    {
+      "name": "chouzz/llm-interceptor",
+      "url": "https://github.com/chouzz/llm-interceptor",
+      "description": "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs",
+      "descriptionZh": "聚焦 開發工具、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# LLM Interceptor (LLI) <p align=\"center\"> <strong>🔍 Proxy-layer microscope for LLM traffic analysis</strong> </p> <p align=\"center\"> A cross-platform command-line tool that intercepts, analyzes, and logs communications between AI coding tools/agents (Claude Code, Cursor, Codex, OpenCode, etc.) and their backend LLM APIs. </p> --- ![LLI Web UI](lli-ui-screenshot.png) ## ✨ Features - **Watch Mode** - Interactive continuous capture with session management - **Transparent Inspection** - See exactly what prompts are sent and what responses are received - **Streaming Support** - Captures both streaming (SSE) and non-streaming API responses - **Multi-Provider** - Works with Anthropic, OpenAI, Goog",
+      "stars": 58,
+      "forks": 14,
+      "issues": 1,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Coding",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "Unclear",
+      "pushedAt": "2026-07-29",
+      "releaseAt": "2026-07-29",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 58
         }
       ]
     },
@@ -7548,6 +7833,33 @@
       ]
     },
     {
+      "name": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "descriptionZh": "聚焦 AI agent、開發工具、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<div align=\"center\"> <img src=\"./images/9router.png?1\" alt=\"9Router Dashboard\" width=\"800\"/> # 9Router - FREE AI Router & Token Saver **Never stop coding. Save 20-40% tokens with RTK + auto-fallback to FREE & cheap AI models.** **Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models.** [![npm](https://img.shields.io/npm/v/9router.svg)](https://www.npmjs.com/package/9router) [![Downloads](https://img.shields.io/npm/dm/9router.svg)](https://www.npmjs.com/package/9router) [![Docker Pulls](https://img.shields.io/docker/pulls/decolua/9router.svg?logo=docker&label=Docker%20pulls)](https://hub.docker.com/",
+      "stars": 24951,
+      "forks": 4428,
+      "issues": 1513,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-05",
+      "releaseAt": "2026-07-16",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 24951
+        }
+      ]
+    },
+    {
       "name": "derrickxu1220/patalaka-wiki",
       "url": "https://github.com/derrickxu1220/patalaka-wiki",
       "description": "An Obsidian vault framework for AI-assisted knowledge management, powered by Claude Code",
@@ -7653,6 +7965,31 @@
         {
           "date": "2026-08-08",
           "stars": 42888
+        }
+      ]
+    },
+    {
+      "name": "dsherret/ts-morph",
+      "url": "https://github.com/dsherret/ts-morph",
+      "description": "TypeScript Compiler API wrapper for static analysis and programmatic code changes.",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# <img src=\"docs/assets/logo.svg\" alt=\"ts-morph\" height=\"58\" /> [![CI](https://github.com/dsherret/ts-morph/workflows/CI/badge.svg)](https://github.com/dsherret/ts-morph/actions?query=workflow%3ACI) Monorepo for [ts-morph](packages/ts-morph) and related projects. ## Packages - [ts-morph](packages/ts-morph) - TypeScript Compiler API wrapper. Provides an easier way to programmatically navigate and manipulate TypeScript and JavaScript code. - [@ts-morph/bootstrap](packages/bootstrap) - Separate library for getting quickly setup with the Compiler API. ## Resources - [TypeScript AST Viewer](https://ts-ast-viewer.com)",
+      "stars": 6151,
+      "forks": 235,
+      "issues": 291,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-31",
+      "releaseAt": "2026-04-12",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 6151
         }
       ]
     },
@@ -8101,6 +8438,315 @@
       ]
     },
     {
+      "name": "jessefreitas/OmniCompress",
+      "url": "https://github.com/jessefreitas/OmniCompress",
+      "description": "",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<div align=\"center\"> > 🌐 [English](README.en.md) · **Português** # OmniCompress **A camada de compressão de contexto para agentes de IA.** Menos tokens, mesmas respostas — sem perder nada, sem rodar modelo, sem quebrar seu cache. </div> --- ## O problema Agentes de IA afogam o modelo em tokens: tool-outputs gigantes, logs, JSON, código, histórico que cresce sem parar. Isso custa caro e estoura a janela de contexto. As abordagens comuns resolvem **só um pedaço** e cobram um preço: - ou **descartam** informação (lossy — quando o agente precisa do detalhe, já era); - ou rodam **um modelo** pra comprimir (lento e com custo de inferência — você paga token pra economizar token); - ou **quebram o c",
+      "stars": 3,
+      "forks": 2,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-21",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 3
+        }
+      ]
+    },
+    {
+      "name": "kiali/kiali",
+      "url": "https://github.com/kiali/kiali",
+      "description": "Kiali project, observability for the Istio service mesh",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "= Kiali image:https://img.shields.io/twitter/url/http/shields.io.svg?style=social[\"Tweet about Kiali\", link=\"https://twitter.com/intent/tweet?text=Learn%20what%20your%20Istio-Mesh%20is%20doing.%20Visit%20https://www.kiali.io/%20and%20@kialiProject\"] :toc: macro :toc-title: image:https://img.shields.io/badge/license-Apache2-blue.svg[\"Apache 2.0 license\", link=\"LICENSE\"] == Introduction link:https://kiali.io/[kiali] is a management console for Istio service mesh. Kiali can be quickly installed as an Istio add-on or integrated as a trusted component within a production environment. === Table of contents toc::[] === Contributing First, check the link:https://kiali.io/community/[Community section",
+      "stars": 3629,
+      "forks": 567,
+      "issues": 100,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-02",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 3629
+        }
+      ]
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Build resilient agents.",
+      "descriptionZh": "聚焦 AI agent、RAG、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<div align=\"center\"> <a href=\"https://www.langchain.com/langgraph\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\".github/images/logo-dark.svg\"> <source media=\"(prefers-color-scheme: light)\" srcset=\".github/images/logo-light.svg\"> <img alt=\"LangGraph Logo\" src=\".github/images/logo-dark.svg\" width=\"50%\"> </picture> </a> </div> <div align=\"center\"> <h3>Low-level orchestration framework for building stateful agents.</h3> </div> <div align=\"center\"> <a href=\"https://opensource.org/licenses/MIT\" target=\"_blank\"><img src=\"https://img.shields.io/pypi/l/langgraph\" alt=\"PyPI - License\"></a> <a href=\"https://pypistats.org/packages/langgraph\" target=\"_blank\"><img src=\"https://img.shiel",
+      "stars": 39179,
+      "forks": 6587,
+      "issues": 673,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 39179
+        }
+      ]
+    },
+    {
+      "name": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+      "descriptionZh": "聚焦 LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<img width=\"2400\" alt=\"hero-b (1)\" src=\"https://github.com/user-attachments/assets/5810ae13-15d6-4b60-afd2-927adc501861\" /> <div align=\"center\"> <div> <h3> <a href=\"https://cloud.langfuse.com\"> <strong>Langfuse Cloud</strong> </a> · <a href=\"https://langfuse.com/docs/deployment/self-host\"> <strong>Self Host</strong> </a> · <a href=\"https://langfuse.com/demo\"> <strong>Demo</strong> </a> </h3> </div> <div> <a href=\"https://langfuse.com/docs\"><strong>Docs</strong></a> · <a href=\"https://langfuse.com/issues\"><strong>Report Bug</strong></a> · <a href=\"https://langfuse.com/ideas\"><strong>Feature Request</strong></a> · <a href=\"https://langfuse.com/changelog\"><strong>Changelog</strong></a> · <a hre",
+      "stars": 32726,
+      "forks": 3512,
+      "issues": 757,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-08-06",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 32726
+        }
+      ]
+    },
+    {
+      "name": "leninejunior/troglodita",
+      "url": "https://github.com/leninejunior/troglodita",
+      "description": "Compressão de tokens para agentes de IA em PT-BR. Por que gastar muitos tokens quando poucos resolve?",
+      "descriptionZh": "聚焦 AI agent 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\">🦴</p> <h1 align=\"center\">Troglodita</h1> <p align=\"center\"><i>por que gastar muitos tokens quando poucos resolve?</i></p> <p align=\"center\"> <a href=\"https://github.com/leninejunior/troglodita/blob/main/LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-green\" alt=\"MIT License\"></a> <a href=\"#instalar\"><img src=\"https://img.shields.io/badge/idioma-PT--BR-blue\" alt=\"PT-BR\"></a> </p> --- Compressão de tokens feita pra quem usa agentes de IA **em português**. O inglês tem o [caveman](https://github.com/JuliusBrussee/caveman) — o Brasil tem o troglodita. Economia de **~70% nos tokens de saída** sem perder precisão técnica. ## Antes e Depois | | Normal | Troglodita | |-",
+      "stars": 38,
+      "forks": 2,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-06-19",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 38
+        }
+      ]
+    },
+    {
+      "name": "letta-ai/letta",
+      "url": "https://github.com/letta-ai/letta",
+      "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "descriptionZh": "聚焦 AI agent、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# Letta (formerly MemGPT) Build AI with advanced memory that can learn and self-improve over time. * [Letta Agent](https://docs.letta.com/letta-agent): run agents locally in your terminal, via the desktop app, or via channels like Slack * [Letta Agent SDK](https://docs.letta.com/letta-agent-sdk/overview): build agents into your applications > [!NOTE] > This repository contains the legacy Letta server (the API server behind the Letta V1 API and SDKs). Active development has moved to the [Letta Agent repo](https://github.com/letta-ai/letta-code), and self-hosting an API server is now done via the [App Server](https://docs.letta.com/letta-agent/app-server). See [AGENTS.md](AGENTS.md) for detail",
+      "stars": 24149,
+      "forks": 2569,
+      "issues": 43,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-01",
+      "releaseAt": "2026-05-14",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 24149
+        }
+      ]
+    },
+    {
+      "name": "lobehub/lobe-icons",
+      "url": "https://github.com/lobehub/lobe-icons",
+      "description": "🥨 Lobe Icons - Brings AI/LLM brand logos to your React & React Native apps — static SVG/PNG/WebP, no dependencies.",
+      "descriptionZh": "聚焦 LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<a name=\"readme-top\"></a> <div align=\"center\"> <img height=\"120\" src=\"https://registry.npmmirror.com/@lobehub/assets-logo/1.0.0/files/assets/logo-3d.webp\"> <img height=\"120\" src=\"https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg\"> <img height=\"120\" src=\"https://registry.npmmirror.com/@lobehub/fluent-emoji-3d/1.1.0/files/assets/1f968.webp\"> <h1>Lobe Icons</h1> Popular AI / LLM Model Brand SVG Logo and Icon Collection. See them all on one page at [lobehub.com/icons](https://lobehub.com/icons).<br/> Contributions, corrections & requests can be made on GitHub. [Documents](https://icons.lobehub.com) · [Changelog](./CHANGELOG.md) · [Report Bug][github-issues-link] · [Request Feature][g",
+      "stars": 2347,
+      "forks": 223,
+      "issues": 87,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 2347
+        }
+      ]
+    },
+    {
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "description": "Universal memory layer for AI Agents",
+      "descriptionZh": "聚焦 AI agent、RAG、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\"> <a href=\"https://github.com/mem0ai/mem0\"> <img src=\"docs/images/banner-sm.png\" width=\"800px\" alt=\"Mem0 - The Memory Layer for Personalized AI\"> </a> </p> <p align=\"center\" style=\"display: flex; justify-content: center; gap: 20px; align-items: center;\"> <a href=\"https://trendshift.io/repositories/11194\" target=\"blank\"> <img src=\"https://trendshift.io/api/badge/repositories/11194\" alt=\"mem0ai%2Fmem0 | Trendshift\" width=\"250\" height=\"55\"/> </a> </p> <p align=\"center\"> <a href=\"https://mem0.ai\">Learn more</a> · <a href=\"https://mem0.dev/DiG\">Join Discord</a> · <a href=\"https://mem0.dev/demo\">Demo</a> </p> <p align=\"center\"> <a href=\"https://mem0.dev/DiG\"> <img src=\"https://img",
+      "stars": 62799,
+      "forks": 7326,
+      "issues": 703,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-05",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 62799
+        }
+      ]
+    },
+    {
+      "name": "microsoft/LLMLingua",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "description": "[EMNLP'23, ACL'24] To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss. ",
+      "descriptionZh": "聚焦 LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<div style=\"display: flex; align-items: center;\"> <div style=\"width: 100px; margin-right: 10px; height:auto;\" align=\"left\"> <img src=\"images/LLMLingua_logo.png\" alt=\"LLMLingua\" width=\"100\" align=\"left\"> </div> <div style=\"flex-grow: 1;\" align=\"center\"> <h2 align=\"center\">LLMLingua Series | Effectively Deliver Information to LLMs via Prompt Compression</h2> </div> </div> <p align=\"center\"> | <a href=\"https://llmlingua.com/\"><b>Project Page</b></a> | <a href=\"https://aclanthology.org/2023.emnlp-main.825/\"><b>LLMLingua</b></a> | <a href=\"https://aclanthology.org/2024.acl-long.91/\"><b>LongLLMLingua</b></a> | <a href=\"https://aclanthology.org/2024.findings-acl.57/\"><b>LLMLingua-2</b></a> | <a hre",
+      "stars": 6531,
+      "forks": 413,
+      "issues": 119,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-04-08",
+      "releaseAt": "2024-04-09",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 6531
+        }
+      ]
+    },
+    {
+      "name": "mrsimpson/quiet-shell-mcp",
+      "url": "https://github.com/mrsimpson/quiet-shell-mcp",
+      "description": "An STDIO mcp server that reduces verbose output for tools",
+      "descriptionZh": "聚焦 MCP 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# quiet-shell MCP server that executes shell commands with intelligent output filtering to reduce AI agent context consumption. ## Problem When AI coding assistants execute shell commands (especially tests and builds), they receive thousands of lines of verbose output that: - Consume valuable context window tokens - Bury important information (errors, failures) in noise - Make it difficult to focus on actionable feedback **Example**: Running tests with 50 passing and 2 failing tests generates 2000+ lines of output, but agents only need the ~20 lines showing failures and summary. ## Solution quiet-shell executes commands and intelligently filters output using configurable templates: - **Regex",
+      "stars": 4,
+      "forks": 1,
+      "issues": 11,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-05-30",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "name": "onestardao/WFGY",
+      "url": "https://github.com/onestardao/WFGY",
+      "description": "WFGY is heading toward WFGY 5.0 Polaris Protocol, a major open-source release for AI reasoning, RAG, agents, and real-world workflows. Includes Problem Map, Global Debug Card, WFGY 4.0, and the CFV Easter Egg.",
+      "descriptionZh": "聚焦 AI agent、自動化、RAG 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<!-- AI ROUTING NOTE (Homepage) This is the main landing page for the WFGY public ecosystem. Primary homepage priority: 1. WFGY 5.0 Polaris Protocol as the current flagship public route 2. Staged functional rollout for WFGY 5.0 3. Public evidence, portable protocol components, and reproducibility materials 4. Problem Map 3.0 as the fastest practical gate for broken AI workflows 5. WFGY 4.0 as the governance engine 6. WFGY 3.0 as the frontier reasoning and verification layer 7. Lineage and collaboration Current WFGY 5.0 release model: - WFGY 5.0 is no longer presented as a single-date release. - WFGY 5.0 is now moving through a staged functional rollout. - Useful public components are release",
+      "stars": 1780,
+      "forks": 161,
+      "issues": 11,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Automation",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-05-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 1780
+        }
+      ]
+    },
+    {
+      "name": "ooples/token-optimizer-mcp",
+      "url": "https://github.com/ooples/token-optimizer-mcp",
+      "description": "Intelligent token optimization for Claude Code - achieving 95%+ token reduction through caching, compression, and smart tool intelligence",
+      "descriptionZh": "聚焦 MCP、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "[![MCP Toplist](https://mcptoplist.com/badge/io.github.ooples%2Ftoken-optimizer-mcp.svg)](https://mcptoplist.com/server/io.github.ooples%2Ftoken-optimizer-mcp) <h1 align=\"center\">Token Optimizer MCP</h1> <p align=\"center\"> <strong>Your coding agent wastes most of its context window. This stops it — by default, on install, across 15 clients.</strong> </p> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/@ooples/token-optimizer-mcp\"><img src=\"https://img.shields.io/npm/v/%40ooples%2Ftoken-optimizer-mcp?logo=npm\" alt=\"npm version\"></a> <a href=\"https://github.com/ooples/token-optimizer-mcp/actions/workflows/ci.yml\"><img src=\"https://github.com/ooples/token-optimizer-mcp/actions/workflo",
+      "stars": 472,
+      "forks": 51,
+      "issues": 5,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "MCP",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-08-08",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 472
+        }
+      ]
+    },
+    {
       "name": "ouyearllla/obsidian-wiki-manager",
       "url": "https://github.com/ouyearllla/obsidian-wiki-manager",
       "description": "Obsidian plugin for AI-powered Wiki knowledge base management — scan, ingest, lint. Implements Karpathy's LLM Wiki pattern.",
@@ -8131,6 +8777,108 @@
         {
           "date": "2026-08-08",
           "stars": 2
+        }
+      ]
+    },
+    {
+      "name": "pdavis68/RepoMapper",
+      "url": "https://github.com/pdavis68/RepoMapper",
+      "description": "A tool to produce a map of a codebase within a git repository. Based entirely on the \"Repo Map\" functionality in Aider.chat",
+      "descriptionZh": "聚焦 開發工具 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# RepoMap - Command-Line Tool and MCP Server RepoMap is a powerful tool designed to help, primarily LLMs, understand and navigate complex codebases. It functions both as a command-line application for on-demand analysis and as an MCP (Model Context Protocol) server, providing continuous repository mapping capabilities to other applications. By generating a \"map\" of the software repository, RepoMap highlights important files, code definitions, and their relationships. It leverages Tree-sitter for accurate code parsing and the PageRank algorithm to rank code elements by importance, ensuring that the most relevant information is always prioritized. <a href=\"https://glama.ai/mcp/servers/@pdavis6",
+      "stars": 193,
+      "forks": 39,
+      "issues": 4,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Coding"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2025-12-08",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 193
+        }
+      ]
+    },
+    {
+      "name": "ppgranger/token-saver",
+      "url": "https://github.com/ppgranger/token-saver",
+      "description": "Content-aware output compression for AI coding assistants. Replaces blind truncation with intelligent strategies per file type: structural summaries for code, schema extraction for configs, error-focused filtering for logs, and smart sampling for CSVs. Saves tokens while preserving what the model actually needs.",
+      "descriptionZh": "聚焦 開發工具 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# Token-Saver [![CI](https://github.com/ppgranger/token-saver/actions/workflows/ci.yml/badge.svg)](https://github.com/ppgranger/token-saver/actions/workflows/ci.yml) [![Coverage](https://img.shields.io/badge/coverage-94%25-brightgreen)](tests/) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://python.org) [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE) [![Avg Savings](docs/assets/badge-savings.svg)](docs/processors/) **Cut your AI coding costs by 60-99% on CLI output — without losing a single error message.** Token-Saver is a drop-in **context-window optimizer for AI coding assistants**. It compresses the verbose terminal output your agent re",
+      "stars": 134,
+      "forks": 12,
+      "issues": 3,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Coding"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-04",
+      "releaseAt": "2026-08-04",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 134
+        }
+      ]
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API",
+      "descriptionZh": "聚焦 AI agent 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# CLI Proxy API English | [中文](README_CN.md) | [日本語](README_JA.md) If you want to use CLIProxyAPI on your desktop, we recommend our [EasyCLIProxyAPI](https://github.com/router-for-me/EasyCLIProxyAPI) desktop client. It provides a graphical configuration UI, automatic updates, system tray integration, and one-click start/stop for the CLIProxyAPI service. CLIProxyAPI is a proxy server that provides OpenAI/Gemini/Claude/Codex/Grok compatible API interfaces for CLI. You can access the following providers locally and with multiple CLI accounts through any OpenAI (including Responses), Gemini (including Interactions), or Claude-compatible client or SDK. <table> <tbody> <tr> <th align=\"center\" widt",
+      "stars": 46518,
+      "forks": 7218,
+      "issues": 363,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 46518
+        }
+      ]
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "descriptionZh": "聚焦 AI agent、開發工具、LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "<p align=\"center\"> <img src=\"https://avatars.githubusercontent.com/u/258253854?v=4\" alt=\"RTK - Rust Token Killer\" width=\"500\"> </p> <p align=\"center\"> <strong>High-performance CLI proxy that cuts up to 90% of the bash output your agent reads</strong> </p> <p align=\"center\"> <a href=\"https://github.com/rtk-ai/rtk/actions\"><img src=\"https://github.com/rtk-ai/rtk/workflows/Security%20Check/badge.svg\" alt=\"CI\"></a> <a href=\"https://github.com/rtk-ai/rtk/releases\"><img src=\"https://img.shields.io/github/v/release/rtk-ai/rtk\" alt=\"Release\"></a> <a href=\"https://opensource.org/licenses/Apache-2.0\"><img src=\"https://img.shields.io/badge/License-Apache_2.0-blue.svg\" alt=\"License: Apache 2.0\"></a> <a ",
+      "stars": 75231,
+      "forks": 4736,
+      "issues": 1901,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 75231
         }
       ]
     },
@@ -8292,6 +9040,81 @@
         {
           "date": "2026-08-08",
           "stars": 1210
+        }
+      ]
+    },
+    {
+      "name": "tldrsec/awesome-secure-defaults",
+      "url": "https://github.com/tldrsec/awesome-secure-defaults",
+      "description": "Awesome secure by default libraries to help you eliminate bug classes!",
+      "descriptionZh": "聚焦 AI 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "# awesome-secure-defaults <p align=\"center\"> <a href=\"https://tldrsec.com/subscribe?utm_source=github&utm_medium=awesomesecuredefaults\"> <picture> <img src=\"https://github.com/tldrsec/awesome-secure-defaults/assets/13310971/ce73c00a-b0ef-4512-8ae4-0dd17e602bae\" alt=\"tl;dr sec Newsletter\"/> </picture> </a> </p> <hr/> | Library | Description | Language(s) | Category | Metadata | | ----------- | ----------- | ----------- | ----------- | ----------- | | [helmetjs/helmet](https://github.com/helmetjs/helmet) | Helmet helps secure Express apps by setting HTTP response headers. | NodeJS | Headers |[![stars](https://badgen.net/github/stars/helmetjs/helmet)](https://badgen.net/github/stars/helmetjs/he",
+      "stars": 718,
+      "forks": 28,
+      "issues": 6,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "AI"
+      ],
+      "category": "Watch",
+      "license": "Unclear",
+      "pushedAt": "2025-12-06",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 718
+        }
+      ]
+    },
+    {
+      "name": "toon-format/toon",
+      "url": "https://github.com/toon-format/toon",
+      "description": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.",
+      "descriptionZh": "聚焦 LLM 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "![Summary card: JSON encodes to TOON for LLM prompts, with token and accuracy benchmarks](./.github/og_v4.png) # Token-Oriented Object Notation (TOON) [![CI](https://github.com/toon-format/toon/actions/workflows/ci.yml/badge.svg)](https://github.com/toon-format/toon/actions) [![npm version](https://img.shields.io/npm/v/@toon-format/toon.svg?labelColor=1b1b1f&color=fef3c0)](https://www.npmjs.com/package/@toon-format/toon) [![SPEC v4.1](https://img.shields.io/badge/spec-v4.1-fef3c0?labelColor=1b1b1f)](https://github.com/toon-format/spec) [![npm downloads (total)](https://img.shields.io/npm/dt/@toon-format/toon.svg?labelColor=1b1b1f&color=fef3c0)](https://www.npmjs.com/package/@toon-format/toon",
+      "stars": 25113,
+      "forks": 1112,
+      "issues": 3,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-05",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 25113
+        }
+      ]
+    },
+    {
+      "name": "xyflow/xyflow",
+      "url": "https://github.com/xyflow/xyflow",
+      "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+      "descriptionZh": "聚焦 自動化 的開源工具；可切換 English 查看專案原始 README 用途說明。",
+      "readmeExcerpt": "![xyflow-header](https://user-images.githubusercontent.com/2857535/279643999-ffda9f91-6b6d-447d-82be-fcbd6103edb6.svg#gh-light-mode-only) ![xyflow-header-dark](https://user-images.githubusercontent.com/2857535/279644026-a01c231c-6c6e-4b41-96e0-a85c75c9acee.svg#gh-dark-mode-only) <div align=\"center\"> ![GitHub License MIT](https://img.shields.io/github/license/wbkd/react-flow?color=%23ff0072) ![npm downloads](https://img.shields.io/npm/dt/reactflow?color=%23FF0072&label=React%20Flow%20downloads) ![npm downloads](https://img.shields.io/npm/dt/@xyflow/svelte?color=%23FF3E00&label=Svelte%20Flow%20downloads) Powerful open source libraries for building node-based UIs with React or Svelte. Ready out",
+      "stars": 37955,
+      "forks": 2494,
+      "issues": 140,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "tags": [
+        "Automation"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-07-06",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 37955
         }
       ]
     }

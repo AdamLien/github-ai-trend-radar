@@ -8,9 +8,24 @@
 
 ## 資料品質與篩選
 
-- 搜尋：10 組 AI／MCP／skills／agent／RAG／wiki／developer automation 查詢，每組最多 10 筆，去重後 89 repo；另依人工 watchlist 加入 OmniRoute，合計 90 repo。
-- 動能：原始 89 個 repo 中 25 個的 `pushed_at` 落在 8/7 UTC；OmniRoute 在納入時的 API 快照為 8/8 UTC。沒有前一日可比集合，因此不以總 stars 排名，也不假造日增星。
-- 維護與風險：84/89 有 SPDX license；五個 license 不明項目只保留觀察。release、push、issue 數為 API 擷取時的快照；README 用途依 repo 描述與既有公開定位交叉判讀，採用前仍需讀完整 README、授權與安全模型。
+- 搜尋：10 組 AI／MCP／skills／agent／RAG／wiki／developer automation 查詢，每組最多 10 筆，去重後 89 repo；另依人工 watchlist 加入 OmniRoute 與其 acknowledgments 來源 35 個（其中 3 個已存在），合計 122 repo。
+- 動能：原始 89 個 repo 中 25 個的 `pushed_at` 落在 8/7 UTC；人工 watchlist 於 8/8 UTC 補入。沒有前一日可比集合，因此不以總 stars 排名，也不假造日增星。
+- 維護與風險：release、push、issue 數為 API 擷取時的快照；README 用途依 repo 描述與既有公開定位交叉判讀，採用前仍需讀完整 README、授權與安全模型。license 為 `NOASSERTION` 或空白者一律維持觀察，不當作完成授權審查。
+
+## OmniRoute acknowledgments 追蹤群組（新增 32、已存在 3）
+
+附件中的 35 個項目已全數納入 machine-readable radar；`OmniRoute`、`headroom`、`ponytail` 原已追蹤，其餘 32 個已建立 8/8 首次快照。這是一個**技術來源圖譜**，不是採用清單：首日 `stars_delta=0` 代表尚無自身前一筆基線，並不表示沒有成長。
+
+| 群組 | 追蹤項目 | 雷達判讀 |
+| --- | --- | --- |
+| Gateway lineage | 9router、CLIProxyAPI、LiteLLM | 直接影響 OmniRoute 的 API 相容性、provider 正規化與成本模型；LiteLLM 的 license 欄位為 NOASSERTION，採用前要個別查核。 |
+| Context／token compression | Caveman、RTK、headroom、LLMLingua、llmlingua-2-js、Troglodita、ponytail、TOON、GCF、token-optimizer-mcp、token-savior、token-saver、token-optimizer、TokenMizer、OmniCompress、mcp-compressor、RepoMapper、quiet-shell-mcp、ts-morph | 最適合課程與工程 benchmark；優先比較「可逆性、保真、失敗回退、token 節省」而非宣稱固定節省率。 |
+| Memory／RAG | Mem0、Letta、WFGY | 可作 know metabiz wiki 的架構參考；不把 memory 層直接接到客戶資料，先驗證寫入邊界、刪除與可追溯性。 |
+| Traffic／MITM | llm-interceptor、ProxyBridge | 只保留安全研究與本機診斷用途；涉及憑證、代理與機密資料，禁止直接導向生產部署。 |
+| Model data、observability、UI | models.dev、xyflow、LangGraph、Langfuse、Kiali、lobe-icons | 作為 catalog、routing 視覺化與 trace 的元件候選；分別驗證授權、遙測資料出境和供應商依賴。 |
+| Security defaults | awesome-secure-defaults | 安全控制的參考索引，不是可直接嵌入的 runtime dependency。 |
+
+**最先追蹤的五項：** LiteLLM（gateway 對照）、RTK 與 headroom（壓縮成效與回退）、Mem0（memory 邊界）、Langfuse（可觀測性）。它們最能回答 OmniRoute 是否可被安全地拆解、驗證與替換；不代表採用 OmniRoute 或其中任一專案。
 
 ## 優先追蹤（按策略價值，不按總 stars）
 
