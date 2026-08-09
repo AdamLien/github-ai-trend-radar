@@ -30,7 +30,7 @@ const copy = {
     momentum: (period) => `${period}動能`, topDelta: '依區間增量 Top 3', coverage: (start, end) => `${start} → ${end} 的可用跨快照 star delta。`,
     count: (shown, total) => `${shown} / ${total} repos`, repo: 'Repository', purpose: '用途', delta: (period) => `${period} 星星增量`, stars: '總星數', updatedOn: '最近更新', trend: '期間走勢', risk: '風險／品質', readme: 'README 摘要', readmeLoading: '正在讀取 GitHub README…', readmeError: '目前無法讀取 README，請改用 GitHub 原始頁面。', readmeMore: '顯示更多', readmeLess: '收合',
     categoryDistribution: '分類分佈', byRepos: '依 repo 數量', selected: '選中 Repository', growth: (period) => `${period} star 成長`, beginning: '起點', ending: '終點', relative: '相對成長', close: '關閉詳細資料',
-    source: '資料來源：GitHub API snapshots。Trending daily 為即時觀察，不納入本頁時序計算。', review: '需審核', noDescription: '尚無用途說明。', original: '原始 README 摘要', periodLabels: ['本日', '3 日', '7 日', '1 個月', '3 個月', '半年', '1 年'],
+    source: '資料來源：GitHub API snapshots。Trending daily 為即時觀察，不納入本頁時序計算。', review: '需審核', noDescription: '尚無用途說明。', original: 'GitHub 專案摘要', periodLabels: ['本日', '3 日', '7 日', '1 個月', '3 個月', '半年', '1 年'],
     sortLabels: ['區間動能', '相對成長率', '總星數', '最近更新'], timeline: '時間軸', sourceShort: '資料來源：GitHub API snapshots', previousPage: '上一頁', nextPage: '下一頁', page: (current, total) => `第 ${current} / ${total} 頁`,
   },
   en: {
@@ -41,7 +41,7 @@ const copy = {
     momentum: (period) => `${period} momentum`, topDelta: 'Top 3 by period delta', coverage: (start, end) => `Comparable snapshot delta from ${start} to ${end}.`,
     count: (shown, total) => `${shown} / ${total} repos`, repo: 'Repository', purpose: 'Purpose', delta: (period) => `${period} star delta`, stars: 'Total stars', updatedOn: 'Last updated', trend: 'Period trend', risk: 'Risk / quality', readme: 'README summary', readmeLoading: 'Loading README from GitHub…', readmeError: 'README is unavailable here. Open the GitHub source instead.', readmeMore: 'Show more', readmeLess: 'Show less',
     categoryDistribution: 'Priority distribution', byRepos: 'Repositories', selected: 'Selected repository', growth: (period) => `${period} star growth`, beginning: 'Start', ending: 'End', relative: 'Relative growth', close: 'Close details',
-    source: 'Source: GitHub API snapshots. Trending daily is observed live and excluded from time-series calculations.', review: 'Review needed', noDescription: 'No purpose description available.', original: 'Original README summary', periodLabels: ['Today', '3 days', '7 days', '1 month', '3 months', '6 months', '1 year'],
+    source: 'Source: GitHub API snapshots. Trending daily is observed live and excluded from time-series calculations.', review: 'Review needed', noDescription: 'No purpose description available.', original: 'GitHub repository summary', periodLabels: ['Today', '3 days', '7 days', '1 month', '3 months', '6 months', '1 year'],
     sortLabels: ['Period momentum', 'Relative growth', 'Total stars', 'Recently updated'], timeline: 'Timeline', sourceShort: 'Source: GitHub API snapshots', previousPage: 'Previous', nextPage: 'Next', page: (current, total) => `Page ${current} of ${total}`,
   },
 }
