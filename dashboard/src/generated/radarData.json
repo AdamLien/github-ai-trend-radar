@@ -27,7 +27,7 @@
     "2026-08-11",
     "2026-08-12"
   ],
-  "repoCount": 99,
+  "repoCount": 152,
   "records": [
     {
       "name": "earendil-works/pi",
@@ -35,11 +35,11 @@
       "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
       "descriptionZh": "提供統一 LLM API、agent loop、終端介面與 coding agent CLI 的 AI agent 工具組。",
       "readmeExcerpt": "",
-      "stars": 87689,
-      "forks": 10896,
+      "stars": 87705,
+      "forks": 10900,
       "issues": 117,
-      "delta": 964,
-      "relativeGrowth": 1.099,
+      "delta": 980,
+      "relativeGrowth": 1.117,
       "sources": [
         "search"
       ],
@@ -153,7 +153,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 87689
+          "stars": 87705
         }
       ]
     },
@@ -163,11 +163,11 @@
       "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
       "descriptionZh": "讓 AI agent 採取更精簡、偏資深工程師式的程式設計決策。",
       "readmeExcerpt": "",
-      "stars": 100872,
-      "forks": 5555,
+      "stars": 100887,
+      "forks": 5558,
       "issues": 124,
-      "delta": 700,
-      "relativeGrowth": 0.694,
+      "delta": 715,
+      "relativeGrowth": 0.709,
       "sources": [
         "search"
       ],
@@ -281,7 +281,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 100872
+          "stars": 100887
         }
       ]
     },
@@ -291,11 +291,11 @@
       "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "descriptionZh": "把 AI coding assistant 擴充成影片製作工作室的 agentic 影片生產系統。",
       "readmeExcerpt": "",
-      "stars": 47366,
-      "forks": 5902,
+      "stars": 47378,
+      "forks": 5905,
       "issues": 224,
-      "delta": 591,
-      "relativeGrowth": 1.248,
+      "delta": 603,
+      "relativeGrowth": 1.273,
       "sources": [
         "search",
         "trending_daily"
@@ -366,7 +366,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 47366
+          "stars": 47378
         }
       ]
     },
@@ -376,11 +376,11 @@
       "description": "An agentic skills framework & software development methodology that works.",
       "descriptionZh": "將 agentic 開發方法整理成可重複使用的 skills 與軟體開發工作法。",
       "readmeExcerpt": "",
-      "stars": 270775,
+      "stars": 270781,
       "forks": 24192,
       "issues": 336,
-      "delta": 516,
-      "relativeGrowth": 0.191,
+      "delta": 522,
+      "relativeGrowth": 0.193,
       "sources": [
         "search"
       ],
@@ -494,7 +494,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 270775
+          "stars": 270781
         }
       ]
     },
@@ -504,11 +504,11 @@
       "description": "Production-grade engineering skills for AI coding agents.",
       "descriptionZh": "為 AI coding agent 提供可上線使用的工程技能與工作流程。",
       "readmeExcerpt": "",
-      "stars": 86239,
-      "forks": 9266,
-      "issues": 105,
-      "delta": 471,
-      "relativeGrowth": 0.546,
+      "stars": 86250,
+      "forks": 9267,
+      "issues": 106,
+      "delta": 482,
+      "relativeGrowth": 0.559,
       "sources": [
         "search",
         "trending_daily"
@@ -623,7 +623,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 86239
+          "stars": 86250
         }
       ]
     },
@@ -633,11 +633,11 @@
       "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop ",
       "descriptionZh": "為 AI coding agent 加入設計品味與反制制式化輸出的 skill。",
       "readmeExcerpt": "",
-      "stars": 75467,
-      "forks": 5174,
+      "stars": 75476,
+      "forks": 5175,
       "issues": 52,
-      "delta": 421,
-      "relativeGrowth": 0.558,
+      "delta": 430,
+      "relativeGrowth": 0.57,
       "sources": [
         "search"
       ],
@@ -727,7 +727,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 75467
+          "stars": 75476
         }
       ]
     },
@@ -737,11 +737,11 @@
       "description": "An AI SKILL that provide design intelligence for building professional UI/UX multiple platforms",
       "descriptionZh": "提供跨平台專業 UI/UX 設計智慧的 AI skill。",
       "readmeExcerpt": "",
-      "stars": 115710,
+      "stars": 115714,
       "forks": 12395,
       "issues": 118,
-      "delta": 363,
-      "relativeGrowth": 0.314,
+      "delta": 367,
+      "relativeGrowth": 0.317,
       "sources": [
         "search"
       ],
@@ -854,7 +854,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 115710
+          "stars": 115714
         }
       ]
     },
@@ -864,11 +864,11 @@
       "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
       "descriptionZh": "把程式碼、文件、SQL schema、設定與 PDF 轉成可查詢的知識圖譜，提供 Claude Code、Cursor、Codex 等工具使用。",
       "readmeExcerpt": "",
-      "stars": 105341,
+      "stars": 105342,
       "forks": 10258,
-      "issues": 905,
-      "delta": 329,
-      "relativeGrowth": 0.312,
+      "issues": 906,
+      "delta": 330,
+      "relativeGrowth": 0.313,
       "sources": [
         "search"
       ],
@@ -986,7 +986,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 105341
+          "stars": 105342
         }
       ]
     },
@@ -996,11 +996,11 @@
       "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
       "descriptionZh": "整合 Claude Code、Codex、OpenCode、OpenClaw、Grok 等工具的跨平台桌面助手。",
       "readmeExcerpt": "",
-      "stars": 126482,
+      "stars": 126489,
       "forks": 8622,
-      "issues": 2136,
-      "delta": 257,
-      "relativeGrowth": 0.203,
+      "issues": 2135,
+      "delta": 264,
+      "relativeGrowth": 0.209,
       "sources": [
         "search"
       ],
@@ -1114,7 +1114,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 126482
+          "stars": 126489
         }
       ]
     },
@@ -1124,11 +1124,11 @@
       "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "descriptionZh": "為終端機打造、針對 prefix cache 穩定性優化的 DeepSeek coding agent。",
       "readmeExcerpt": "",
-      "stars": 33977,
+      "stars": 33983,
       "forks": 2215,
-      "issues": 1179,
-      "delta": 237,
-      "relativeGrowth": 0.698,
+      "issues": 1190,
+      "delta": 243,
+      "relativeGrowth": 0.715,
       "sources": [
         "search"
       ],
@@ -1218,7 +1218,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 33977
+          "stars": 33983
         }
       ]
     },
@@ -1228,11 +1228,11 @@
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "descriptionZh": "面向 Claude Code、Codex、Cursor 等的 agent harness 效能優化系統，涵蓋 skills、記憶、安全與 research-first 開發。",
       "readmeExcerpt": "",
-      "stars": 239490,
+      "stars": 239493,
       "forks": 36359,
       "issues": 121,
-      "delta": 230,
-      "relativeGrowth": 0.096,
+      "delta": 233,
+      "relativeGrowth": 0.097,
       "sources": [
         "search"
       ],
@@ -1349,7 +1349,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 239490
+          "stars": 239493
         }
       ]
     },
@@ -1359,11 +1359,11 @@
       "description": "20 MB lightweight cross-platform database client for 70+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 70+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP Server。",
       "descriptionZh": "支援 70 多種資料庫的輕量跨平台 client，內建 AI、MCP server、CLI 與桌面版。",
       "readmeExcerpt": "",
-      "stars": 14149,
-      "forks": 1449,
-      "issues": 1211,
-      "delta": 167,
-      "relativeGrowth": 1.18,
+      "stars": 14153,
+      "forks": 1450,
+      "issues": 1213,
+      "delta": 171,
+      "relativeGrowth": 1.208,
       "sources": [
         "search"
       ],
@@ -1435,7 +1435,82 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 14149
+          "stars": 14153
+        }
+      ]
+    },
+    {
+      "name": "Vincentwei1021/video-shotcraft",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+      "descriptionZh": "供 Claude Code 與 Codex 製作產品影片的 Remotion skill，含鏡頭腳本與動態範本。",
+      "readmeExcerpt": "",
+      "stars": 4667,
+      "forks": 409,
+      "issues": 2,
+      "delta": 157,
+      "relativeGrowth": 3.364,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Skill candidate",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-09",
+      "releaseAt": "2026-07-26",
+      "series": [
+        {
+          "date": "2026-07-27",
+          "stars": 1870
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 2190
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 2474
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 2669
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 3125
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 3501
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 3606
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 3999
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 4156
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 4289
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 4510
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 4667
         }
       ]
     },
@@ -1445,11 +1520,11 @@
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "descriptionZh": "在內容送入 LLM 前壓縮工具輸出、log、檔案與 RAG chunks，以降低 coding agent 的 token 成本。",
       "readmeExcerpt": "",
-      "stars": 65979,
+      "stars": 65981,
       "forks": 5038,
       "issues": 610,
-      "delta": 154,
-      "relativeGrowth": 0.233,
+      "delta": 156,
+      "relativeGrowth": 0.236,
       "sources": [
         "search"
       ],
@@ -1565,82 +1640,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 65979
-        }
-      ]
-    },
-    {
-      "name": "Vincentwei1021/video-shotcraft",
-      "url": "https://github.com/Vincentwei1021/video-shotcraft",
-      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
-      "descriptionZh": "供 Claude Code 與 Codex 製作產品影片的 Remotion skill，含鏡頭腳本與動態範本。",
-      "readmeExcerpt": "",
-      "stars": 4663,
-      "forks": 409,
-      "issues": 2,
-      "delta": 153,
-      "relativeGrowth": 3.281,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "Agent",
-        "Skills"
-      ],
-      "category": "Skill candidate",
-      "license": "Apache-2.0",
-      "pushedAt": "2026-08-09",
-      "releaseAt": "2026-07-26",
-      "series": [
-        {
-          "date": "2026-07-27",
-          "stars": 1870
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 2190
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 2474
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 2669
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 3125
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 3501
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 3606
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 3999
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 4156
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 4289
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 4510
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 4663
+          "stars": 65981
         }
       ]
     },
@@ -1650,11 +1650,11 @@
       "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
       "descriptionZh": "提供 CRO、文案、SEO、分析與成長工程等行銷 skills 給 AI agent。",
       "readmeExcerpt": "",
-      "stars": 43963,
+      "stars": 43964,
       "forks": 6909,
       "issues": 92,
-      "delta": 133,
-      "relativeGrowth": 0.303,
+      "delta": 134,
+      "relativeGrowth": 0.305,
       "sources": [
         "search"
       ],
@@ -1691,7 +1691,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 43963
+          "stars": 43964
         }
       ]
     },
@@ -1701,11 +1701,11 @@
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "descriptionZh": "在雲端、VPC 或自架環境建立 agent workflow 與 RAG pipeline 的協作平台。",
       "readmeExcerpt": "",
-      "stars": 152126,
+      "stars": 152129,
       "forks": 24011,
       "issues": 993,
-      "delta": 119,
-      "relativeGrowth": 0.078,
+      "delta": 122,
+      "relativeGrowth": 0.08,
       "sources": [
         "search"
       ],
@@ -1822,7 +1822,44 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 152126
+          "stars": 152129
+        }
+      ]
+    },
+    {
+      "name": "omnigent-ai/omnigent",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "descriptionZh": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
+      "readmeExcerpt": "",
+      "stars": 8612,
+      "forks": 1304,
+      "issues": 888,
+      "delta": 117,
+      "relativeGrowth": 1.359,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Coding",
+        "Automation",
+        "LLM"
+      ],
+      "category": "Demo/content idea",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-11",
+          "stars": 8495
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 8612
         }
       ]
     },
@@ -1832,11 +1869,11 @@
       "description": "Clone any website with one command using AI coding agents",
       "descriptionZh": "用 AI coding agent 一個指令複製網站的開發模板。",
       "readmeExcerpt": "",
-      "stars": 31743,
+      "stars": 31744,
       "forks": 4617,
       "issues": 0,
-      "delta": 112,
-      "relativeGrowth": 0.353,
+      "delta": 113,
+      "relativeGrowth": 0.356,
       "sources": [
         "search"
       ],
@@ -1951,44 +1988,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 31743
-        }
-      ]
-    },
-    {
-      "name": "omnigent-ai/omnigent",
-      "url": "https://github.com/omnigent-ai/omnigent",
-      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-      "descriptionZh": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
-      "readmeExcerpt": "",
-      "stars": 8605,
-      "forks": 1303,
-      "issues": 887,
-      "delta": 110,
-      "relativeGrowth": 1.278,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "Agent",
-        "Coding",
-        "Automation",
-        "LLM"
-      ],
-      "category": "Demo/content idea",
-      "license": "Apache-2.0",
-      "pushedAt": "2026-08-12",
-      "releaseAt": "2026-08-11",
-      "series": [
-        {
-          "date": "2026-08-11",
-          "stars": 8495
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 8605
+          "stars": 31744
         }
       ]
     },
@@ -1998,11 +1998,11 @@
       "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
       "descriptionZh": "用 Bash 從零理解並實作精簡版 Claude Code 類 agent harness 的學習專案。",
       "readmeExcerpt": "",
-      "stars": 73875,
-      "forks": 11973,
+      "stars": 73877,
+      "forks": 11974,
       "issues": 72,
-      "delta": 99,
-      "relativeGrowth": 0.134,
+      "delta": 101,
+      "relativeGrowth": 0.137,
       "sources": [
         "search"
       ],
@@ -2013,7 +2013,7 @@
         "Automation",
         "LLM"
       ],
-      "category": "Reference only",
+      "category": "Demo/content idea",
       "license": "MIT",
       "pushedAt": "2026-08-12",
       "releaseAt": "",
@@ -2116,7 +2116,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 73875
+          "stars": 73877
         }
       ]
     },
@@ -2226,122 +2226,16 @@
       ]
     },
     {
-      "name": "cobusgreyling/loop-engineering",
-      "url": "https://github.com/cobusgreyling/loop-engineering",
-      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
-      "descriptionZh": "為 AI coding agent 設計與編排迭代開發流程的 patterns、starter 與 CLI 工具。",
-      "readmeExcerpt": "",
-      "stars": 10227,
-      "forks": 1389,
-      "issues": 29,
-      "delta": 91,
-      "relativeGrowth": 0.89,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "MCP",
-        "Agent",
-        "Coding",
-        "Automation",
-        "LLM"
-      ],
-      "category": "Reference only",
-      "license": "MIT",
-      "pushedAt": "2026-08-11",
-      "releaseAt": "2026-07-20",
-      "series": [
-        {
-          "date": "2026-07-19",
-          "stars": 8433
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 8606
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 8785
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 8974
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 9115
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 9235
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 9325
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 9429
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 9482
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 9540
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 9577
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 9730
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 9845
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 9883
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 9965
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 9976
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 10048
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 10136
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 10227
-        }
-      ]
-    },
-    {
       "name": "ruvnet/ruflo",
       "url": "https://github.com/ruvnet/ruflo",
       "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "descriptionZh": "可協調多 agent swarm、記憶與 RAG 的 meta-harness 與工作流框架。",
       "readmeExcerpt": "",
-      "stars": 67676,
+      "stars": 67679,
       "forks": 8094,
       "issues": 818,
-      "delta": 91,
-      "relativeGrowth": 0.134,
+      "delta": 94,
+      "relativeGrowth": 0.139,
       "sources": [
         "search"
       ],
@@ -2434,7 +2328,113 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 67676
+          "stars": 67679
+        }
+      ]
+    },
+    {
+      "name": "cobusgreyling/loop-engineering",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+      "descriptionZh": "為 AI coding agent 設計與編排迭代開發流程的 patterns、starter 與 CLI 工具。",
+      "readmeExcerpt": "",
+      "stars": 10229,
+      "forks": 1389,
+      "issues": 29,
+      "delta": 93,
+      "relativeGrowth": 0.909,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Coding",
+        "Automation",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-07-20",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 8433
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 8606
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 8785
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 8974
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 9115
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 9235
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 9325
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 9429
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 9482
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 9540
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 9577
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 9730
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 9845
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 9883
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 9965
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 9976
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 10048
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 10136
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 10229
         }
       ]
     },
@@ -2444,11 +2444,11 @@
       "description": "🎭 267 个即插即用的 AI 专家角色 — 支持 Hermes Agent/Claude Code/Cursor/Copilot 等 18 种工具，覆盖工程/设计/营销/金融等 20 个部门。含 52 个中国市场原创智能体（小红书/抖音/微信/飞书/钉钉等）。搭配编排器 agency-orchestrator，一句话即可让多位专家按 DAG 自动协作。",
       "descriptionZh": "提供 267 個可插拔 AI 專家角色與 DAG 編排器，涵蓋多工具及中國市場情境。",
       "readmeExcerpt": "",
-      "stars": 19276,
+      "stars": 19278,
       "forks": 3150,
       "issues": 3,
-      "delta": 77,
-      "relativeGrowth": 0.399,
+      "delta": 79,
+      "relativeGrowth": 0.41,
       "sources": [
         "search"
       ],
@@ -2562,7 +2562,112 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 19276
+          "stars": 19278
+        }
+      ]
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "descriptionZh": "彙整可自訂 Claude AI 工作流的 Skills、資源與工具清單。",
+      "readmeExcerpt": "",
+      "stars": 72307,
+      "forks": 8219,
+      "issues": 1222,
+      "delta": 78,
+      "relativeGrowth": 0.108,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills",
+        "Automation"
+      ],
+      "category": "Watch",
+      "license": "Unclear",
+      "pushedAt": "2026-08-10",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 68036
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 68090
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 68190
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 68401
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 68612
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 69245
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 69882
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 70846
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 71045
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 71168
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 71250
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 71534
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 71770
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 71859
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 72034
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 72062
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 72129
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 72229
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 72307
         }
       ]
     },
@@ -2669,111 +2774,6 @@
         {
           "date": "2026-08-12",
           "stars": 52152
-        }
-      ]
-    },
-    {
-      "name": "ComposioHQ/awesome-claude-skills",
-      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
-      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-      "descriptionZh": "彙整可自訂 Claude AI 工作流的 Skills、資源與工具清單。",
-      "readmeExcerpt": "",
-      "stars": 72306,
-      "forks": 8219,
-      "issues": 1222,
-      "delta": 77,
-      "relativeGrowth": 0.106,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "MCP",
-        "Agent",
-        "Skills",
-        "Automation"
-      ],
-      "category": "Watch",
-      "license": "Unclear",
-      "pushedAt": "2026-08-10",
-      "releaseAt": "",
-      "series": [
-        {
-          "date": "2026-07-19",
-          "stars": 68036
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 68090
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 68190
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 68401
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 68612
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 69245
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 69882
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 70846
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 71045
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 71168
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 71250
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 71534
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 71770
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 71859
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 72034
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 72062
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 72129
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 72229
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 72306
         }
       ]
     },
@@ -2915,7 +2915,7 @@
       "descriptionZh": "整合前沿 LLM、智慧對話、自主 agent 與大量助理的 AI 生產力桌面工作台。",
       "readmeExcerpt": "",
       "stars": 50306,
-      "forks": 4765,
+      "forks": 4764,
       "issues": 1281,
       "delta": 60,
       "relativeGrowth": 0.119,
@@ -3019,11 +3019,11 @@
       "description": "Open-source 24/7 Cowork app for OpenClaw, Hermes, Claude Code, Codex, OpenCode and 20+ more CLI Agent | Customize your assistants | Team them up｜Star if you like it!",
       "descriptionZh": "可長時間運行並組隊 OpenClaw、Claude Code、Codex 等 CLI agent 的開源 Cowork app。",
       "readmeExcerpt": "",
-      "stars": 31879,
+      "stars": 31880,
       "forks": 3260,
-      "issues": 774,
-      "delta": 55,
-      "relativeGrowth": 0.173,
+      "issues": 775,
+      "delta": 56,
+      "relativeGrowth": 0.176,
       "sources": [
         "search"
       ],
@@ -3036,7 +3036,7 @@
       ],
       "category": "Reference only",
       "license": "Apache-2.0",
-      "pushedAt": "2026-08-11",
+      "pushedAt": "2026-08-12",
       "releaseAt": "2026-08-10",
       "series": [
         {
@@ -3113,7 +3113,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 31879
+          "stars": 31880
         }
       ]
     },
@@ -3124,8 +3124,8 @@
       "descriptionZh": "彙整各類 Model Context Protocol servers 的資源清單。",
       "readmeExcerpt": "",
       "stars": 92107,
-      "forks": 14347,
-      "issues": 2780,
+      "forks": 14348,
+      "issues": 2782,
       "delta": 51,
       "relativeGrowth": 0.055,
       "sources": [
@@ -3372,6 +3372,110 @@
       ]
     },
     {
+      "name": "aaif-goose/goose",
+      "url": "https://github.com/aaif-goose/goose",
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "descriptionZh": "可用任意 LLM 安裝、執行、編輯與測試的可擴充開源 AI agent。",
+      "readmeExcerpt": "",
+      "stars": 52692,
+      "forks": 5989,
+      "issues": 250,
+      "delta": 47,
+      "relativeGrowth": 0.089,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-07-29",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 51258
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 51290
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 51333
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 51425
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 51470
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 51535
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 51602
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 51726
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 51803
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 51854
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 51908
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 52058
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 52232
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 52367
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 52534
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 52557
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 52604
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 52645
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 52692
+        }
+      ]
+    },
+    {
       "name": "AgriciDaniel/claude-obsidian",
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
       "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
@@ -3498,110 +3602,6 @@
         {
           "date": "2026-08-12",
           "stars": 10758
-        }
-      ]
-    },
-    {
-      "name": "aaif-goose/goose",
-      "url": "https://github.com/aaif-goose/goose",
-      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
-      "descriptionZh": "可用任意 LLM 安裝、執行、編輯與測試的可擴充開源 AI agent。",
-      "readmeExcerpt": "",
-      "stars": 52690,
-      "forks": 5989,
-      "issues": 247,
-      "delta": 45,
-      "relativeGrowth": 0.085,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "MCP",
-        "Agent",
-        "LLM"
-      ],
-      "category": "Reference only",
-      "license": "Apache-2.0",
-      "pushedAt": "2026-08-12",
-      "releaseAt": "2026-07-29",
-      "series": [
-        {
-          "date": "2026-07-19",
-          "stars": 51258
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 51290
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 51333
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 51425
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 51470
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 51535
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 51602
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 51726
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 51803
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 51854
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 51908
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 52058
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 52232
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 52367
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 52534
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 52557
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 52604
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 52645
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 52690
         }
       ]
     },
@@ -3868,7 +3868,7 @@
       "readmeExcerpt": "",
       "stars": 29336,
       "forks": 7259,
-      "issues": 165,
+      "issues": 166,
       "delta": 20,
       "relativeGrowth": 0.068,
       "sources": [
@@ -3991,122 +3991,16 @@
       ]
     },
     {
-      "name": "0x4m4/hexstrike-ai",
-      "url": "https://github.com/0x4m4/hexstrike-ai",
-      "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
-      "descriptionZh": "讓 AI agent 操作 150 多種資安工具的 MCP server，面向滲透測試與漏洞研究。",
-      "readmeExcerpt": "",
-      "stars": 10949,
-      "forks": 2287,
-      "issues": 101,
-      "delta": 18,
-      "relativeGrowth": 0.164,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "MCP",
-        "Agent",
-        "Automation",
-        "Research",
-        "LLM"
-      ],
-      "category": "Reference only",
-      "license": "MIT",
-      "pushedAt": "2026-08-03",
-      "releaseAt": "",
-      "series": [
-        {
-          "date": "2026-07-19",
-          "stars": 10375
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 10387
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 10399
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 10424
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 10432
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 10453
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 10463
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 10499
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 10526
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 10551
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 10575
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 10738
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 10790
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 10824
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 10869
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 10878
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 10897
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 10931
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 10949
-        }
-      ]
-    },
-    {
       "name": "activepieces/activepieces",
       "url": "https://github.com/activepieces/activepieces",
       "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
       "descriptionZh": "以約 400 個 MCP servers 串接 AI agents 與工作流自動化的開源平台。",
       "readmeExcerpt": "",
-      "stars": 23726,
+      "stars": 23727,
       "forks": 4024,
       "issues": 446,
-      "delta": 18,
-      "relativeGrowth": 0.076,
+      "delta": 19,
+      "relativeGrowth": 0.08,
       "sources": [
         "search"
       ],
@@ -4220,7 +4114,113 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 23726
+          "stars": 23727
+        }
+      ]
+    },
+    {
+      "name": "0x4m4/hexstrike-ai",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "description": "HexStrike AI MCP Agents is an advanced MCP server that lets AI agents (Claude, GPT, Copilot, etc.) autonomously run 150+ cybersecurity tools for automated pentesting, vulnerability discovery, bug bounty automation, and security research. Seamlessly bridge LLMs with real-world offensive security capabilities.",
+      "descriptionZh": "讓 AI agent 操作 150 多種資安工具的 MCP server，面向滲透測試與漏洞研究。",
+      "readmeExcerpt": "",
+      "stars": 10949,
+      "forks": 2287,
+      "issues": 101,
+      "delta": 18,
+      "relativeGrowth": 0.164,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Automation",
+        "Research",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-03",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 10375
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 10387
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 10399
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 10424
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 10432
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 10453
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 10463
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 10499
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 10526
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 10551
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 10575
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 10738
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 10790
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 10824
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 10869
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 10878
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 10897
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 10931
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 10949
         }
       ]
     },
@@ -4230,11 +4230,11 @@
       "description": "A CLI tool to convert your codebase into a single LLM prompt with source tree, prompt templating, and token counting.",
       "descriptionZh": "把程式碼庫連同目錄、模板與 token 計數轉為單一 LLM prompt 的 CLI。",
       "readmeExcerpt": "",
-      "stars": 7597,
+      "stars": 7598,
       "forks": 438,
       "issues": 20,
-      "delta": 15,
-      "relativeGrowth": 0.197,
+      "delta": 16,
+      "relativeGrowth": 0.211,
       "sources": [
         "search"
       ],
@@ -4347,7 +4347,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 7597
+          "stars": 7598
         }
       ]
     },
@@ -4604,6 +4604,110 @@
       ]
     },
     {
+      "name": "cft0808/edict",
+      "url": "https://github.com/cft0808/edict",
+      "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
+      "descriptionZh": "以三省六部概念組織九個專職 agent，提供即時 dashboard、模型設定與完整 audit trail。",
+      "readmeExcerpt": "",
+      "stars": 16363,
+      "forks": 1712,
+      "issues": 29,
+      "delta": 14,
+      "relativeGrowth": 0.086,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Automation",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-03",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 16241
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 16245
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 16253
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 16256
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 16259
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 16270
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 16270
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 16275
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 16277
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 16281
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 16289
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 16301
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 16322
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 16329
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 16339
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 16339
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 16341
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 16349
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 16363
+        }
+      ]
+    },
+    {
       "name": "modelcontextprotocol/modelcontextprotocol",
       "url": "https://github.com/modelcontextprotocol/modelcontextprotocol",
       "description": "Specification and documentation for the Model Context Protocol",
@@ -4702,110 +4806,6 @@
         {
           "date": "2026-08-12",
           "stars": 8929
-        }
-      ]
-    },
-    {
-      "name": "cft0808/edict",
-      "url": "https://github.com/cft0808/edict",
-      "description": "🏛️ 三省六部制 · OpenClaw Multi-Agent Orchestration System — 9 specialized AI agents with real-time dashboard, model config, and full audit trails",
-      "descriptionZh": "以三省六部概念組織九個專職 agent，提供即時 dashboard、模型設定與完整 audit trail。",
-      "readmeExcerpt": "",
-      "stars": 16362,
-      "forks": 1712,
-      "issues": 29,
-      "delta": 13,
-      "relativeGrowth": 0.079,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "Agent",
-        "Automation",
-        "LLM"
-      ],
-      "category": "Reference only",
-      "license": "MIT",
-      "pushedAt": "2026-08-03",
-      "releaseAt": "",
-      "series": [
-        {
-          "date": "2026-07-19",
-          "stars": 16241
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 16245
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 16253
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 16256
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 16259
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 16270
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 16270
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 16275
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 16277
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 16281
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 16289
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 16301
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 16322
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 16329
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 16339
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 16339
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 16341
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 16349
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 16362
         }
       ]
     },
@@ -5202,11 +5202,11 @@
       "description": "CLI tool for configuring and monitoring Claude Code",
       "descriptionZh": "設定、管理與監控 Claude Code 的 CLI 工具與模板集合。",
       "readmeExcerpt": "",
-      "stars": 30202,
+      "stars": 30203,
       "forks": 3391,
       "issues": 229,
-      "delta": 10,
-      "relativeGrowth": 0.033,
+      "delta": 11,
+      "relativeGrowth": 0.036,
       "sources": [
         "search"
       ],
@@ -5318,7 +5318,7 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 30202
+          "stars": 30203
         }
       ]
     },
@@ -5328,11 +5328,11 @@
       "description": "【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
       "descriptionZh": "企業低程式碼平台，支援用 AI Skills 生成流程、表單、報表與 AI 知識庫／MCP 應用。",
       "readmeExcerpt": "",
-      "stars": 47365,
+      "stars": 47366,
       "forks": 16152,
-      "issues": 33,
-      "delta": 10,
-      "relativeGrowth": 0.021,
+      "issues": 34,
+      "delta": 11,
+      "relativeGrowth": 0.023,
       "sources": [
         "search"
       ],
@@ -5424,7 +5424,138 @@
         },
         {
           "date": "2026-08-12",
-          "stars": 47365
+          "stars": 47366
+        }
+      ]
+    },
+    {
+      "name": "xerrors/Yuxi",
+      "url": "https://github.com/xerrors/Yuxi",
+      "description": "结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
+      "descriptionZh": "整合 LightRAG、知識圖譜、MCP 與多租戶能力的 Agent Harness 平台。",
+      "readmeExcerpt": "",
+      "stars": 6431,
+      "forks": 952,
+      "issues": 86,
+      "delta": 9,
+      "relativeGrowth": 0.14,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Automation",
+        "RAG",
+        "Knowledge",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-07-17",
+      "series": [
+        {
+          "date": "2026-07-17",
+          "stars": 6142
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 6145
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 6155
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 6167
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 6183
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 6206
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 6222
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 6237
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 6251
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 6256
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 6264
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 6289
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 6304
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 6314
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 6328
+        },
+        {
+          "date": "2026-08-01",
+          "stars": 6339
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 6343
+        },
+        {
+          "date": "2026-08-03",
+          "stars": 6349
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 6373
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 6385
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 6409
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 6415
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 6418
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 6422
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 6431
         }
       ]
     },
@@ -5435,7 +5566,7 @@
       "descriptionZh": "整合 GenAI workflow、RAG、Agent、模型管理、評估與可觀測性的企業 LLM DevOps 平台。",
       "readmeExcerpt": "",
       "stars": 11852,
-      "forks": 1934,
+      "forks": 1935,
       "issues": 120,
       "delta": 9,
       "relativeGrowth": 0.076,
@@ -5861,137 +5992,6 @@
         {
           "date": "2026-08-12",
           "stars": 4319
-        }
-      ]
-    },
-    {
-      "name": "xerrors/Yuxi",
-      "url": "https://github.com/xerrors/Yuxi",
-      "description": "结合知识库、知识图谱管理的 多租户 Agent Harness 平台。 An agent harness that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.",
-      "descriptionZh": "整合 LightRAG、知識圖譜、MCP 與多租戶能力的 Agent Harness 平台。",
-      "readmeExcerpt": "",
-      "stars": 6430,
-      "forks": 952,
-      "issues": 86,
-      "delta": 8,
-      "relativeGrowth": 0.124,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "MCP",
-        "Agent",
-        "Automation",
-        "RAG",
-        "Knowledge",
-        "LLM"
-      ],
-      "category": "Reference only",
-      "license": "MIT",
-      "pushedAt": "2026-08-11",
-      "releaseAt": "2026-07-17",
-      "series": [
-        {
-          "date": "2026-07-17",
-          "stars": 6142
-        },
-        {
-          "date": "2026-07-18",
-          "stars": 6145
-        },
-        {
-          "date": "2026-07-19",
-          "stars": 6155
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 6167
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 6183
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 6206
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 6222
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 6237
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 6251
-        },
-        {
-          "date": "2026-07-26",
-          "stars": 6256
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 6264
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 6289
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 6304
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 6314
-        },
-        {
-          "date": "2026-07-31",
-          "stars": 6328
-        },
-        {
-          "date": "2026-08-01",
-          "stars": 6339
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 6343
-        },
-        {
-          "date": "2026-08-03",
-          "stars": 6349
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 6373
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 6385
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 6409
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 6415
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 6418
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 6422
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 6430
         }
       ]
     },
@@ -6589,6 +6589,109 @@
       ]
     },
     {
+      "name": "mark3labs/mcp-go",
+      "url": "https://github.com/mark3labs/mcp-go",
+      "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
+      "descriptionZh": "讓 Go 應用連接 LLM 與外部資料／工具的 Model Context Protocol 實作。",
+      "readmeExcerpt": "",
+      "stars": 8996,
+      "forks": 864,
+      "issues": 25,
+      "delta": 5,
+      "relativeGrowth": 0.056,
+      "sources": [
+        "search"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 8905
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 8906
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 8910
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 8917
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 8918
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 8918
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 8919
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 8925
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 8932
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 8939
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 8948
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 8966
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 8969
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 8971
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 8978
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 8982
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 8985
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 8991
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 8996
+        }
+      ]
+    },
+    {
       "name": "DataTalksClub/ai-dev-tools-zoomcamp",
       "url": "https://github.com/DataTalksClub/ai-dev-tools-zoomcamp",
       "description": "A free, hands-on course on using AI developer tools to build, test, deploy, extend, and audit software without losing engineering discipline. The 2026 cohort starts August 31.",
@@ -6796,16 +6899,16 @@
       ]
     },
     {
-      "name": "mark3labs/mcp-go",
-      "url": "https://github.com/mark3labs/mcp-go",
-      "description": "A Go implementation of the Model Context Protocol (MCP), enabling seamless integration between LLM applications and external data sources and tools.",
-      "descriptionZh": "讓 Go 應用連接 LLM 與外部資料／工具的 Model Context Protocol 實作。",
+      "name": "lastmile-ai/mcp-agent",
+      "url": "https://github.com/lastmile-ai/mcp-agent",
+      "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
+      "descriptionZh": "以 Model Context Protocol 與簡潔 workflow patterns 建立 agent 的框架。",
       "readmeExcerpt": "",
-      "stars": 8995,
-      "forks": 864,
-      "issues": 25,
+      "stars": 8501,
+      "forks": 876,
+      "issues": 137,
       "delta": 4,
-      "relativeGrowth": 0.044,
+      "relativeGrowth": 0.047,
       "sources": [
         "search"
       ],
@@ -6813,88 +6916,90 @@
       "trendingStarsToday": null,
       "tags": [
         "MCP",
+        "Agent",
+        "Automation",
         "LLM"
       ],
       "category": "Reference only",
-      "license": "MIT",
-      "pushedAt": "2026-08-11",
-      "releaseAt": "2026-08-11",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-01-25",
+      "releaseAt": "2025-05-09",
       "series": [
         {
           "date": "2026-07-19",
-          "stars": 8905
+          "stars": 8430
         },
         {
           "date": "2026-07-20",
-          "stars": 8906
+          "stars": 8430
         },
         {
           "date": "2026-07-21",
-          "stars": 8910
+          "stars": 8449
         },
         {
           "date": "2026-07-22",
-          "stars": 8917
+          "stars": 8465
         },
         {
           "date": "2026-07-23",
-          "stars": 8918
+          "stars": 8476
         },
         {
           "date": "2026-07-24",
-          "stars": 8918
+          "stars": 8480
         },
         {
           "date": "2026-07-25",
-          "stars": 8919
+          "stars": 8478
         },
         {
           "date": "2026-07-27",
-          "stars": 8925
+          "stars": 8479
         },
         {
           "date": "2026-07-28",
-          "stars": 8932
+          "stars": 8480
         },
         {
           "date": "2026-07-29",
-          "stars": 8939
+          "stars": 8482
         },
         {
           "date": "2026-07-30",
-          "stars": 8948
+          "stars": 8485
         },
         {
           "date": "2026-08-02",
-          "stars": 8966
+          "stars": 8489
         },
         {
           "date": "2026-08-05",
-          "stars": 8969
+          "stars": 8493
         },
         {
           "date": "2026-08-06",
-          "stars": 8971
+          "stars": 8492
         },
         {
           "date": "2026-08-08",
-          "stars": 8978
+          "stars": 8493
         },
         {
           "date": "2026-08-09",
-          "stars": 8982
+          "stars": 8495
         },
         {
           "date": "2026-08-10",
-          "stars": 8985
+          "stars": 8495
         },
         {
           "date": "2026-08-11",
-          "stars": 8991
+          "stars": 8497
         },
         {
           "date": "2026-08-12",
-          "stars": 8995
+          "stars": 8501
         }
       ]
     },
@@ -7349,111 +7454,6 @@
         {
           "date": "2026-08-12",
           "stars": 2318
-        }
-      ]
-    },
-    {
-      "name": "lastmile-ai/mcp-agent",
-      "url": "https://github.com/lastmile-ai/mcp-agent",
-      "description": "Build effective agents using Model Context Protocol and simple workflow patterns",
-      "descriptionZh": "以 Model Context Protocol 與簡潔 workflow patterns 建立 agent 的框架。",
-      "readmeExcerpt": "",
-      "stars": 8500,
-      "forks": 876,
-      "issues": 137,
-      "delta": 3,
-      "relativeGrowth": 0.035,
-      "sources": [
-        "search"
-      ],
-      "isNew": false,
-      "trendingStarsToday": null,
-      "tags": [
-        "MCP",
-        "Agent",
-        "Automation",
-        "LLM"
-      ],
-      "category": "Reference only",
-      "license": "Apache-2.0",
-      "pushedAt": "2026-01-25",
-      "releaseAt": "2025-05-09",
-      "series": [
-        {
-          "date": "2026-07-19",
-          "stars": 8430
-        },
-        {
-          "date": "2026-07-20",
-          "stars": 8430
-        },
-        {
-          "date": "2026-07-21",
-          "stars": 8449
-        },
-        {
-          "date": "2026-07-22",
-          "stars": 8465
-        },
-        {
-          "date": "2026-07-23",
-          "stars": 8476
-        },
-        {
-          "date": "2026-07-24",
-          "stars": 8480
-        },
-        {
-          "date": "2026-07-25",
-          "stars": 8478
-        },
-        {
-          "date": "2026-07-27",
-          "stars": 8479
-        },
-        {
-          "date": "2026-07-28",
-          "stars": 8480
-        },
-        {
-          "date": "2026-07-29",
-          "stars": 8482
-        },
-        {
-          "date": "2026-07-30",
-          "stars": 8485
-        },
-        {
-          "date": "2026-08-02",
-          "stars": 8489
-        },
-        {
-          "date": "2026-08-05",
-          "stars": 8493
-        },
-        {
-          "date": "2026-08-06",
-          "stars": 8492
-        },
-        {
-          "date": "2026-08-08",
-          "stars": 8493
-        },
-        {
-          "date": "2026-08-09",
-          "stars": 8495
-        },
-        {
-          "date": "2026-08-10",
-          "stars": 8495
-        },
-        {
-          "date": "2026-08-11",
-          "stars": 8497
-        },
-        {
-          "date": "2026-08-12",
-          "stars": 8500
         }
       ]
     },
@@ -8702,14 +8702,252 @@
       ]
     },
     {
+      "name": "1jehuang/jcode",
+      "url": "https://github.com/1jehuang/jcode",
+      "description": "The most RAM efficient harness",
+      "descriptionZh": "The most RAM efficient harness",
+      "readmeExcerpt": "",
+      "stars": 17209,
+      "forks": 1935,
+      "issues": 278,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Coding",
+        "Automation",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-07-30",
+          "stars": 13229
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 17209
+        }
+      ]
+    },
+    {
+      "name": "BerriAI/litellm",
+      "url": "https://github.com/BerriAI/litellm",
+      "description": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "descriptionZh": "The fastest, litest AI Gateway. Rust core with Python SDK. Call 100+ LLM APIs in OpenAI (or native) format with cost tracking, guardrails, load balancing, and logging [Bedrock, Azure, OpenAI, Anthropic, OpenAI, VertexAI, vLLM, Nvidia NIM]",
+      "readmeExcerpt": "",
+      "stars": 56133,
+      "forks": 10498,
+      "issues": 4863,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 55855
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 56133
+        }
+      ]
+    },
+    {
+      "name": "EtienneLescot/n8n-as-code",
+      "url": "https://github.com/EtienneLescot/n8n-as-code",
+      "description": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
+      "descriptionZh": "Give your AI agent n8n superpowers. 537 nodes with full schemas, 7,700+ templates, Git-like sync, and TypeScript workflows.",
+      "readmeExcerpt": "",
+      "stars": 1488,
+      "forks": 174,
+      "issues": 19,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills",
+        "Automation"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-08",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 1451
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 1453
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 1453
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 1458
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 1458
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 1460
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 1462
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 1488
+        }
+      ]
+    },
+    {
+      "name": "InterceptSuite/ProxyBridge",
+      "url": "https://github.com/InterceptSuite/ProxyBridge",
+      "description": "Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to HTTP/Socks5 proxy",
+      "descriptionZh": "Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to HTTP/Socks5 proxy",
+      "readmeExcerpt": "",
+      "stars": 5713,
+      "forks": 342,
+      "issues": 36,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-31",
+      "releaseAt": "2026-06-25",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 5675
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 5713
+        }
+      ]
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "descriptionZh": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "readmeExcerpt": "",
+      "stars": 97532,
+      "forks": 5623,
+      "issues": 474,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 96777
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 97532
+        }
+      ]
+    },
+    {
+      "name": "Mibayy/token-savior",
+      "url": "https://github.com/Mibayy/token-savior",
+      "description": "MCP server that gets Claude to 97.9% (188/192) on a real coding benchmark at -80% active tokens and -83% wall time, vs 78.3% plain. Structural code navigation + persistent memory engine. Works with every MCP client.",
+      "descriptionZh": "MCP server that gets Claude to 97.9% (188/192) on a real coding benchmark at -80% active tokens and -83% wall time, vs 78.3% plain. Structural code navigation + persistent memory engine. Works with every MCP client.",
+      "readmeExcerpt": "",
+      "stars": 1113,
+      "forks": 94,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Coding"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-10",
+      "releaseAt": "2026-07-28",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 1106
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 1113
+        }
+      ]
+    },
+    {
       "name": "PrimeIntellect-ai/prime-agent",
       "url": "https://github.com/PrimeIntellect-ai/prime-agent",
       "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "descriptionZh": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
       "readmeExcerpt": "",
-      "stars": 14137,
-      "forks": 1460,
-      "issues": 537,
+      "stars": 14156,
+      "forks": 1461,
+      "issues": 538,
       "delta": 0,
       "relativeGrowth": 0.0,
       "sources": [
@@ -8729,7 +8967,7 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 14137
+          "stars": 14156
         }
       ]
     },
@@ -8837,13 +9075,49 @@
       ]
     },
     {
+      "name": "Shweta-Mishra-ai/tokenmizer",
+      "url": "https://github.com/Shweta-Mishra-ai/tokenmizer",
+      "description": "Graph memory for AI agents — decisions, context, and session history that survive across every conversation. Works with any LLM.",
+      "descriptionZh": "Graph memory for AI agents — decisions, context, and session history that survive across every conversation. Works with any LLM.",
+      "readmeExcerpt": "",
+      "stars": 24,
+      "forks": 4,
+      "issues": 3,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 25
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 24
+        }
+      ]
+    },
+    {
       "name": "ZhuLinsen/daily_stock_analysis",
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "descriptionZh": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。  LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "readmeExcerpt": "",
-      "stars": 62163,
-      "forks": 52442,
+      "stars": 62174,
+      "forks": 52447,
       "issues": 46,
       "delta": 0,
       "relativeGrowth": 0.0,
@@ -8863,7 +9137,7 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 62163
+          "stars": 62174
         }
       ]
     },
@@ -8970,14 +9244,159 @@
       ]
     },
     {
+      "name": "alexgreensh/token-optimizer",
+      "url": "https://github.com/alexgreensh/token-optimizer",
+      "description": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay. ",
+      "descriptionZh": "Find the ghost tokens. Fix them. Survive compaction. Avoid context quality decay.",
+      "readmeExcerpt": "",
+      "stars": 1847,
+      "forks": 152,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-10",
+      "releaseAt": "2026-08-10",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 1827
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 1847
+        }
+      ]
+    },
+    {
+      "name": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "descriptionZh": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "readmeExcerpt": "",
+      "stars": 20136,
+      "forks": 1414,
+      "issues": 104,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills",
+        "Coding",
+        "Automation",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 12734
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 15807
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 20136
+        }
+      ]
+    },
+    {
+      "name": "anomalyco/models.dev",
+      "url": "https://github.com/anomalyco/models.dev",
+      "description": "An open-source database of AI models.",
+      "descriptionZh": "An open-source database of AI models.",
+      "readmeExcerpt": "",
+      "stars": 6352,
+      "forks": 1456,
+      "issues": 278,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 6319
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 6352
+        }
+      ]
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "url": "https://github.com/anthropics/claude-cookbooks",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "descriptionZh": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "readmeExcerpt": "",
+      "stars": 51342,
+      "forks": 6089,
+      "issues": 307,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 49759
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 51342
+        }
+      ]
+    },
+    {
       "name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "description": "Public repository for Agent Skills",
       "descriptionZh": "Public repository for Agent Skills",
       "readmeExcerpt": "",
-      "stars": 168155,
-      "forks": 20033,
-      "issues": 1075,
+      "stars": 168167,
+      "forks": 20036,
+      "issues": 1077,
       "delta": 0,
       "relativeGrowth": 0.0,
       "sources": [
@@ -8996,7 +9415,145 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 168155
+          "stars": 168167
+        }
+      ]
+    },
+    {
+      "name": "atjsh/llmlingua-2-js",
+      "url": "https://github.com/atjsh/llmlingua-2-js",
+      "description": "JavaScript/TypeScript implementation of LLMLingua-2 (Experimental)",
+      "descriptionZh": "JavaScript/TypeScript implementation of LLMLingua-2 (Experimental)",
+      "readmeExcerpt": "",
+      "stars": 31,
+      "forks": 4,
+      "issues": 6,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2025-09-14",
+      "releaseAt": "2025-06-08",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 30
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 31
+        }
+      ]
+    },
+    {
+      "name": "atlassian-labs/mcp-compressor",
+      "url": "https://github.com/atlassian-labs/mcp-compressor",
+      "description": "An MCP server wrapper for reducing tokens consumed by MCP tools, available in typescript, python, and rust",
+      "descriptionZh": "An MCP server wrapper for reducing tokens consumed by MCP tools, available in typescript, python, and rust",
+      "readmeExcerpt": "",
+      "stars": 106,
+      "forks": 9,
+      "issues": 1,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-28",
+      "releaseAt": "2026-07-28",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 105
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 106
+        }
+      ]
+    },
+    {
+      "name": "blackwell-systems/gcf",
+      "url": "https://github.com/blackwell-systems/gcf",
+      "description": "The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 43B+ lossless round-trips across 17 formats. Spec v3.4 Stable.",
+      "descriptionZh": "The AI-native wire format for structured data. 100% comprehension on every frontier model. 50-92% fewer tokens than JSON. 43B+ lossless round-trips across 17 formats. Spec v3.4 Stable.",
+      "readmeExcerpt": "",
+      "stars": 32,
+      "forks": 1,
+      "issues": 2,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 30
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 32
+        }
+      ]
+    },
+    {
+      "name": "block/buzz",
+      "url": "https://github.com/block/buzz",
+      "description": "A hive mind communication platform",
+      "descriptionZh": "A hive mind communication platform",
+      "readmeExcerpt": "",
+      "stars": 26363,
+      "forks": 3162,
+      "issues": 2423,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-12",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 11325
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 26363
         }
       ]
     },
@@ -9129,6 +9686,41 @@
       ]
     },
     {
+      "name": "chouzz/llm-interceptor",
+      "url": "https://github.com/chouzz/llm-interceptor",
+      "description": "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs",
+      "descriptionZh": "A MITM proxy tool to intercept, analyze and log AI coding assistant (Claude Code, Open Code, etc.) communications with LLM APIs",
+      "readmeExcerpt": "",
+      "stars": 59,
+      "forks": 14,
+      "issues": 1,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Coding",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "Unclear",
+      "pushedAt": "2026-07-29",
+      "releaseAt": "2026-07-29",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 58
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 59
+        }
+      ]
+    },
+    {
       "name": "claude-did-this/claude-hub",
       "url": "https://github.com/claude-did-this/claude-hub",
       "description": "  A webhook service that connects Claude Code to GitHub repositories, enabling AI-powered code assistance directly   through pull requests and issues. This integration allows Claude to analyze repositories, answer technical questions,    and help developers understand and improve their codebase through simple @mentions.",
@@ -9240,6 +9832,90 @@
       ]
     },
     {
+      "name": "danny-avila/LibreChat",
+      "url": "https://github.com/danny-avila/LibreChat",
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "descriptionZh": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "readmeExcerpt": "",
+      "stars": 41934,
+      "forks": 8667,
+      "issues": 697,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 40905
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 40938
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 40982
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 41083
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 41934
+        }
+      ]
+    },
+    {
+      "name": "decolua/9router",
+      "url": "https://github.com/decolua/9router",
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "descriptionZh": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "readmeExcerpt": "",
+      "stars": 25241,
+      "forks": 4469,
+      "issues": 1586,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-05",
+      "releaseAt": "2026-07-16",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 24951
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 25241
+        }
+      ]
+    },
+    {
       "name": "derrickxu1220/patalaka-wiki",
       "url": "https://github.com/derrickxu1220/patalaka-wiki",
       "description": "An Obsidian vault framework for AI-assisted knowledge management, powered by Claude Code",
@@ -9338,6 +10014,77 @@
         {
           "date": "2026-08-12",
           "stars": 3
+        }
+      ]
+    },
+    {
+      "name": "diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "descriptionZh": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "readmeExcerpt": "",
+      "stars": 45960,
+      "forks": 6174,
+      "issues": 396,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-07-30",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 42888
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 45960
+        }
+      ]
+    },
+    {
+      "name": "dsherret/ts-morph",
+      "url": "https://github.com/dsherret/ts-morph",
+      "description": "TypeScript Compiler API wrapper for static analysis and programmatic code changes.",
+      "descriptionZh": "TypeScript Compiler API wrapper for static analysis and programmatic code changes.",
+      "readmeExcerpt": "",
+      "stars": 6152,
+      "forks": 236,
+      "issues": 291,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-31",
+      "releaseAt": "2026-04-12",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 6151
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 6152
         }
       ]
     },
@@ -9554,6 +10301,109 @@
       ]
     },
     {
+      "name": "finic-ai/rag-stack",
+      "url": "https://github.com/finic-ai/rag-stack",
+      "description": "🤖 Deploy a private ChatGPT alternative hosted within your VPC. 🔮 Connect it to your organization's knowledge base and use it as a corporate oracle. Supports open-source LLMs like Llama 2, Falcon, and GPT4All.",
+      "descriptionZh": "🤖 Deploy a private ChatGPT alternative hosted within your VPC. 🔮 Connect it to your organization's knowledge base and use it as a corporate oracle. Supports open-source LLMs like Llama 2, Falcon, and GPT4All.",
+      "readmeExcerpt": "",
+      "stars": 1585,
+      "forks": 139,
+      "issues": 27,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "RAG",
+        "Knowledge",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2023-09-11",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 1585
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 1585
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 1585
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 1585
+        }
+      ]
+    },
+    {
+      "name": "grok-php/laravel",
+      "url": "https://github.com/grok-php/laravel",
+      "description": "Seamlessly integrate Grok AI into Laravel applications with an elegant, developer-friendly package. Leverage powerful AI models for chat, automation, and NLP, while maintaining Laravel's expressive simplicity.",
+      "descriptionZh": "Seamlessly integrate Grok AI into Laravel applications with an elegant, developer-friendly package. Leverage powerful AI models for chat, automation, and NLP, while maintaining Laravel's expressive simplicity.",
+      "readmeExcerpt": "",
+      "stars": 167,
+      "forks": 12,
+      "issues": 4,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Automation",
+        "RAG"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2025-02-25",
+      "releaseAt": "2025-02-25",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 167
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 167
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 167
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 167
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 167
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 167
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 167
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 167
+        }
+      ]
+    },
+    {
       "name": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
       "url": "https://github.com/hanshaze/Awesome-Prediction-Market-Trading-Tools",
       "description": "AI-powered Polymarket arbitrage bot and prediction market trading toolkit featuring real-time analytics, automated trading signals, spread monitoring, liquidity tracking, AI optimization, Telegram integration, and high-frequency execution tools for prediction market traders and crypto automation developers.",
@@ -9760,7 +10610,7 @@
       "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
       "descriptionZh": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
       "readmeExcerpt": "",
-      "stars": 1089,
+      "stars": 1092,
       "forks": 197,
       "issues": 50,
       "delta": 0,
@@ -9780,7 +10630,41 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 1089
+          "stars": 1092
+        }
+      ]
+    },
+    {
+      "name": "huggingface/speech-to-speech",
+      "url": "https://github.com/huggingface/speech-to-speech",
+      "description": "Build local voice agents with open-source models",
+      "descriptionZh": "Build local voice agents with open-source models",
+      "readmeExcerpt": "",
+      "stars": 12270,
+      "forks": 1500,
+      "issues": 136,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-05",
+      "series": [
+        {
+          "date": "2026-07-30",
+          "stars": 7709
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 12270
         }
       ]
     },
@@ -9790,9 +10674,9 @@
       "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "descriptionZh": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
       "readmeExcerpt": "",
-      "stars": 163823,
+      "stars": 163827,
       "forks": 34204,
-      "issues": 2368,
+      "issues": 2369,
       "delta": 0,
       "relativeGrowth": 0.0,
       "sources": [
@@ -9810,7 +10694,7 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 163823
+          "stars": 163827
         }
       ]
     },
@@ -9943,6 +10827,40 @@
       ]
     },
     {
+      "name": "jessefreitas/OmniCompress",
+      "url": "https://github.com/jessefreitas/OmniCompress",
+      "description": "",
+      "descriptionZh": "GitHub 專案未提供簡短用途說明。",
+      "readmeExcerpt": "",
+      "stars": 3,
+      "forks": 2,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-07-21",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 3
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 3
+        }
+      ]
+    },
+    {
       "name": "kdsz001/OpenWiki",
       "url": "https://github.com/kdsz001/OpenWiki",
       "description": "OpenWiki — Mac desktop AI knowledge management tool. Capture clipboard, build personal wiki, get AI insights.",
@@ -10069,13 +10987,557 @@
       ]
     },
     {
+      "name": "kiali/kiali",
+      "url": "https://github.com/kiali/kiali",
+      "description": "Kiali project, observability for the Istio service mesh",
+      "descriptionZh": "Kiali project, observability for the Istio service mesh",
+      "readmeExcerpt": "",
+      "stars": 3630,
+      "forks": 567,
+      "issues": 107,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-02",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 3629
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 3630
+        }
+      ]
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "description": "Build resilient agents.",
+      "descriptionZh": "Build resilient agents.",
+      "readmeExcerpt": "",
+      "stars": 39480,
+      "forks": 6629,
+      "issues": 682,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 39179
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 39480
+        }
+      ]
+    },
+    {
+      "name": "langfuse/langfuse",
+      "url": "https://github.com/langfuse/langfuse",
+      "description": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 ",
+      "descriptionZh": "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23",
+      "readmeExcerpt": "",
+      "stars": 32906,
+      "forks": 3541,
+      "issues": 763,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 32726
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 32906
+        }
+      ]
+    },
+    {
+      "name": "leninejunior/troglodita",
+      "url": "https://github.com/leninejunior/troglodita",
+      "description": "Compressão de tokens para agentes de IA em PT-BR. Por que gastar muitos tokens quando poucos resolve?",
+      "descriptionZh": "Compressão de tokens para agentes de IA em PT-BR. Por que gastar muitos tokens quando poucos resolve?",
+      "readmeExcerpt": "",
+      "stars": 38,
+      "forks": 2,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-06-19",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 38
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 38
+        }
+      ]
+    },
+    {
+      "name": "letta-ai/letta",
+      "url": "https://github.com/letta-ai/letta",
+      "description": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "descriptionZh": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
+      "readmeExcerpt": "",
+      "stars": 24202,
+      "forks": 2575,
+      "issues": 43,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-01",
+      "releaseAt": "2026-05-14",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 24149
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 24202
+        }
+      ]
+    },
+    {
+      "name": "lobehub/lobe-icons",
+      "url": "https://github.com/lobehub/lobe-icons",
+      "description": "🥨 Lobe Icons - Brings AI/LLM brand logos to your React & React Native apps — static SVG/PNG/WebP, no dependencies.",
+      "descriptionZh": "🥨 Lobe Icons - Brings AI/LLM brand logos to your React & React Native apps — static SVG/PNG/WebP, no dependencies.",
+      "readmeExcerpt": "",
+      "stars": 2362,
+      "forks": 230,
+      "issues": 91,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "2026-07-24",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 2347
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 2362
+        }
+      ]
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "descriptionZh": "Skills for Real Engineers. Straight from my .agents directory.",
+      "readmeExcerpt": "",
+      "stars": 213896,
+      "forks": 18463,
+      "issues": 321,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-06",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 187901
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 213896
+        }
+      ]
+    },
+    {
+      "name": "mcp-use/mcp-use",
+      "url": "https://github.com/mcp-use/mcp-use",
+      "description": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+      "descriptionZh": "The fullstack MCP framework to develop MCP Apps for ChatGPT / Claude & MCP Servers for AI Agents.",
+      "readmeExcerpt": "",
+      "stars": 10478,
+      "forks": 1408,
+      "issues": 89,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Skills",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 10327
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 10330
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 10333
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 10336
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 10478
+        }
+      ]
+    },
+    {
+      "name": "mem0ai/mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "description": "Universal memory layer for AI Agents",
+      "descriptionZh": "Universal memory layer for AI Agents",
+      "readmeExcerpt": "",
+      "stars": 63064,
+      "forks": 7350,
+      "issues": 657,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 62799
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 63064
+        }
+      ]
+    },
+    {
+      "name": "microsoft/LLMLingua",
+      "url": "https://github.com/microsoft/LLMLingua",
+      "description": "[EMNLP'23, ACL'24] To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss. ",
+      "descriptionZh": "[EMNLP'23, ACL'24] To speed up LLMs' inference and enhance LLM's perceive of key information, compress the prompt and KV-Cache, which achieves up to 20x compression with minimal performance loss.",
+      "readmeExcerpt": "",
+      "stars": 6544,
+      "forks": 413,
+      "issues": 119,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-04-08",
+      "releaseAt": "2024-04-09",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 6531
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 6544
+        }
+      ]
+    },
+    {
+      "name": "microsoft/VibeVoice",
+      "url": "https://github.com/microsoft/VibeVoice",
+      "description": "Open-Source Frontier Voice AI",
+      "descriptionZh": "Open-Source Frontier Voice AI",
+      "readmeExcerpt": "",
+      "stars": 52420,
+      "forks": 5907,
+      "issues": 180,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-07-24",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-30",
+          "stars": 51143
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 52420
+        }
+      ]
+    },
+    {
+      "name": "mingrath/obsidian-ai-knowledge-agent",
+      "url": "https://github.com/mingrath/obsidian-ai-knowledge-agent",
+      "description": "A gitagent-compatible AI agent for 4 Obsidian + AI knowledge management approaches: Second Brain, Personal Search Engine, AI Coding Vault, and Karpathy's LLM Wiki",
+      "descriptionZh": "A gitagent-compatible AI agent for 4 Obsidian + AI knowledge management approaches: Second Brain, Personal Search Engine, AI Coding Vault, and Karpathy's LLM Wiki",
+      "readmeExcerpt": "# Obsidian + AI Knowledge Management Agent [![gitagent](https://img.shields.io/badge/gitagent-v0.1.0-blue)](https://github.com/open-gitagent/gitagent) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) A [gitagent](https://github.com/open-gitagent/gitagent)-compatible AI agent that helps you build, maintain, and query personal knowledge systems using **Obsidian + AI**. Covers 4 distinct approaches — each solving a different problem for a different user. ## The 4 Approaches | # | Approach | Best For | Setup Time | Complexity | |---|---|---|---|---| | 1 | **Second Brain Building** | Book/YouTube consumers who want AI-cited frameworks | D",
+      "stars": 4,
+      "forks": 0,
+      "issues": 0,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Coding",
+        "Knowledge",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-04-06",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 4
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 4
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 4
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 4
+        }
+      ]
+    },
+    {
+      "name": "moeru-ai/airi",
+      "url": "https://github.com/moeru-ai/airi",
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "descriptionZh": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "readmeExcerpt": "",
+      "stars": 47710,
+      "forks": 4709,
+      "issues": 196,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-07-18",
+      "series": [
+        {
+          "date": "2026-07-30",
+          "stars": 45258
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 47710
+        }
+      ]
+    },
+    {
+      "name": "mrsimpson/quiet-shell-mcp",
+      "url": "https://github.com/mrsimpson/quiet-shell-mcp",
+      "description": "An STDIO mcp server that reduces verbose output for tools",
+      "descriptionZh": "An STDIO mcp server that reduces verbose output for tools",
+      "readmeExcerpt": "",
+      "stars": 4,
+      "forks": 1,
+      "issues": 11,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-05-30",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 4
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 4
+        }
+      ]
+    },
+    {
       "name": "msitarzewski/agency-agents",
       "url": "https://github.com/msitarzewski/agency-agents",
       "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "descriptionZh": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
       "readmeExcerpt": "",
-      "stars": 143300,
-      "forks": 23279,
+      "stars": 143340,
+      "forks": 23283,
       "issues": 116,
       "delta": 0,
       "relativeGrowth": 0.0,
@@ -10094,7 +11556,166 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 143300
+          "stars": 143340
+        }
+      ]
+    },
+    {
+      "name": "multica-ai/multica",
+      "url": "https://github.com/multica-ai/multica",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+      "descriptionZh": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
+      "readmeExcerpt": "",
+      "stars": 45439,
+      "forks": 5775,
+      "issues": 1296,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Coding"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 40981
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 41053
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 41194
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 41416
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 41549
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 41721
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 41873
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 42077
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 42214
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 42357
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 42498
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 43114
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 43895
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 44201
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 45439
+        }
+      ]
+    },
+    {
+      "name": "onestardao/WFGY",
+      "url": "https://github.com/onestardao/WFGY",
+      "description": "WFGY is heading toward WFGY 5.0 Polaris Protocol, a major open-source release for AI reasoning, RAG, agents, and real-world workflows. Includes Problem Map, Global Debug Card, WFGY 4.0, and the CFV Easter Egg.",
+      "descriptionZh": "WFGY is heading toward WFGY 5.0 Polaris Protocol, a major open-source release for AI reasoning, RAG, agents, and real-world workflows. Includes Problem Map, Global Debug Card, WFGY 4.0, and the CFV Easter Egg.",
+      "readmeExcerpt": "",
+      "stars": 1778,
+      "forks": 162,
+      "issues": 13,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Automation",
+        "RAG",
+        "LLM"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-05-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 1780
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 1778
+        }
+      ]
+    },
+    {
+      "name": "ooples/token-optimizer-mcp",
+      "url": "https://github.com/ooples/token-optimizer-mcp",
+      "description": "Intelligent token optimization for Claude Code - achieving 95%+ token reduction through caching, compression, and smart tool intelligence",
+      "descriptionZh": "Intelligent token optimization for Claude Code - achieving 95%+ token reduction through caching, compression, and smart tool intelligence",
+      "readmeExcerpt": "",
+      "stars": 479,
+      "forks": 51,
+      "issues": 2,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-11",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 472
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 479
         }
       ]
     },
@@ -10154,14 +11775,48 @@
       ]
     },
     {
+      "name": "palmier-io/palmier-pro",
+      "url": "https://github.com/palmier-io/palmier-pro",
+      "description": "macOS video editor built for AI",
+      "descriptionZh": "macOS video editor built for AI",
+      "readmeExcerpt": "",
+      "stars": 13392,
+      "forks": 1001,
+      "issues": 92,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP"
+      ],
+      "category": "Reference only",
+      "license": "GPL-3.0",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-10",
+      "series": [
+        {
+          "date": "2026-07-26",
+          "stars": 12090
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 13392
+        }
+      ]
+    },
+    {
       "name": "paperclipai/paperclip",
       "url": "https://github.com/paperclipai/paperclip",
       "description": "The open-source app everyone uses to manage agents at work",
       "descriptionZh": "The open-source app everyone uses to manage agents at work",
       "readmeExcerpt": "",
-      "stars": 77194,
-      "forks": 14252,
-      "issues": 5080,
+      "stars": 77199,
+      "forks": 14255,
+      "issues": 5076,
       "delta": 0,
       "relativeGrowth": 0.0,
       "sources": [
@@ -10179,7 +11834,185 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 77194
+          "stars": 77199
+        }
+      ]
+    },
+    {
+      "name": "pdavis68/RepoMapper",
+      "url": "https://github.com/pdavis68/RepoMapper",
+      "description": "A tool to produce a map of a codebase within a git repository. Based entirely on the \"Repo Map\" functionality in Aider.chat",
+      "descriptionZh": "A tool to produce a map of a codebase within a git repository. Based entirely on the \"Repo Map\" functionality in Aider.chat",
+      "readmeExcerpt": "",
+      "stars": 195,
+      "forks": 39,
+      "issues": 4,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Coding"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2025-12-08",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 193
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 195
+        }
+      ]
+    },
+    {
+      "name": "pedrohcgs/claude-code-my-workflow",
+      "url": "https://github.com/pedrohcgs/claude-code-my-workflow",
+      "description": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
+      "descriptionZh": "A ready-to-fork Claude Code template for academics using LaTeX/Beamer + R. Multi-agent review, quality gates, adversarial QA, and replication protocols.",
+      "readmeExcerpt": "",
+      "stars": 1484,
+      "forks": 2898,
+      "issues": 4,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Skills",
+        "Automation",
+        "Research"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-06-10",
+      "releaseAt": "2026-05-20",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 1410
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 1484
+        }
+      ]
+    },
+    {
+      "name": "ppgranger/token-saver",
+      "url": "https://github.com/ppgranger/token-saver",
+      "description": "Content-aware output compression for AI coding assistants. 36 specialized processors cut CLI output tokens by 60-99% (git, pytest, npm, terraform, kubectl, docker, and more) without losing errors, diffs, or stack traces.",
+      "descriptionZh": "Content-aware output compression for AI coding assistants. 36 specialized processors cut CLI output tokens by 60-99% (git, pytest, npm, terraform, kubectl, docker, and more) without losing errors, diffs, or stack traces.",
+      "readmeExcerpt": "",
+      "stars": 135,
+      "forks": 12,
+      "issues": 1,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-10",
+      "releaseAt": "2026-08-09",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 134
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 135
+        }
+      ]
+    },
+    {
+      "name": "router-for-me/CLIProxyAPI",
+      "url": "https://github.com/router-for-me/CLIProxyAPI",
+      "description": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API",
+      "descriptionZh": "Wrap Antigravity, ChatGPT Codex, Claude Code, Grok Build as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 3.1 Pro, GPT 5.6 Series, Grok 4.5, Claude model through API",
+      "readmeExcerpt": "",
+      "stars": 46947,
+      "forks": 7263,
+      "issues": 379,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-10",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 46518
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 46947
+        }
+      ]
+    },
+    {
+      "name": "rtk-ai/rtk",
+      "url": "https://github.com/rtk-ai/rtk",
+      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "descriptionZh": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+      "readmeExcerpt": "",
+      "stars": 75778,
+      "forks": 4758,
+      "issues": 1950,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Coding",
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "Apache-2.0",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-07",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 75231
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 75778
         }
       ]
     },
@@ -10189,8 +12022,8 @@
       "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "descriptionZh": "Graph-Native Infrastructure for Context and Accountable AI Systems",
       "readmeExcerpt": "",
-      "stars": 4924,
-      "forks": 531,
+      "stars": 4938,
+      "forks": 532,
       "issues": 57,
       "delta": 0,
       "relativeGrowth": 0.0,
@@ -10211,7 +12044,7 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 4924
+          "stars": 4938
         }
       ]
     },
@@ -10221,9 +12054,9 @@
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "descriptionZh": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
       "readmeExcerpt": "",
-      "stars": 42822,
-      "forks": 2984,
-      "issues": 3541,
+      "stars": 42851,
+      "forks": 2983,
+      "issues": 3544,
       "delta": 0,
       "relativeGrowth": 0.0,
       "sources": [
@@ -10243,7 +12076,107 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 42822
+          "stars": 42851
+        }
+      ]
+    },
+    {
+      "name": "superset-sh/superset",
+      "url": "https://github.com/superset-sh/superset",
+      "description": "Superset is agentic IDE to orchestrate 100+ coding agents in parallel. Run any agent with your own subscription.",
+      "descriptionZh": "可在本機調度大量 Claude Code、Codex 等 agent 的 AI 時代程式編輯器。",
+      "readmeExcerpt": "",
+      "stars": 12868,
+      "forks": 1183,
+      "issues": 550,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Agent",
+        "Coding",
+        "Automation"
+      ],
+      "category": "Watch",
+      "license": "NOASSERTION",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-08-10",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 12483
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 12503
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 12520
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 12537
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 12549
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 12568
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 12584
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 12620
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 12630
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 12639
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 12655
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 12727
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 12768
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 12786
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 12816
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 12821
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 12833
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 12868
         }
       ]
     },
@@ -10352,13 +12285,163 @@
       ]
     },
     {
+      "name": "tldrsec/awesome-secure-defaults",
+      "url": "https://github.com/tldrsec/awesome-secure-defaults",
+      "description": "Awesome secure by default libraries to help you eliminate bug classes!",
+      "descriptionZh": "Awesome secure by default libraries to help you eliminate bug classes!",
+      "readmeExcerpt": "",
+      "stars": 718,
+      "forks": 28,
+      "issues": 6,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "AI"
+      ],
+      "category": "Watch",
+      "license": "Unclear",
+      "pushedAt": "2025-12-06",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 718
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 718
+        }
+      ]
+    },
+    {
+      "name": "toon-format/toon",
+      "url": "https://github.com/toon-format/toon",
+      "description": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.",
+      "descriptionZh": "🎒 Token-Oriented Object Notation (TOON) – compact, human-readable serialization of JSON data for LLM prompts. TypeScript SDK, CLI, benchmarks.",
+      "readmeExcerpt": "",
+      "stars": 25142,
+      "forks": 1114,
+      "issues": 3,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "LLM"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-07",
+      "releaseAt": "2026-08-05",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 25113
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 25142
+        }
+      ]
+    },
+    {
+      "name": "tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "url": "https://github.com/tornikebolokadze1-cyber/awesome-ai-pulse-georgia",
+      "description": "A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia",
+      "descriptionZh": "A curated collection of cutting-edge AI agent frameworks, developer tools, and automation resources — by AI Pulse Georgia",
+      "readmeExcerpt": "",
+      "stars": 133,
+      "forks": 14,
+      "issues": 9,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "MCP",
+        "Agent",
+        "Automation"
+      ],
+      "category": "Reference only",
+      "license": "CC0-1.0",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "",
+      "series": [
+        {
+          "date": "2026-07-19",
+          "stars": 125
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 125
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 127
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 127
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 133
+        }
+      ]
+    },
+    {
+      "name": "virgiliojr94/book-to-skill",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "descriptionZh": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "readmeExcerpt": "",
+      "stars": 20531,
+      "forks": 2174,
+      "issues": 17,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Skills"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-11",
+      "releaseAt": "2026-08-10",
+      "series": [
+        {
+          "date": "2026-07-30",
+          "stars": 12386
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 20531
+        }
+      ]
+    },
+    {
       "name": "vitali87/code-graph-rag",
       "url": "https://github.com/vitali87/code-graph-rag",
       "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "descriptionZh": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
       "readmeExcerpt": "",
-      "stars": 3840,
-      "forks": 563,
+      "stars": 3853,
+      "forks": 564,
       "issues": 43,
       "delta": 0,
       "relativeGrowth": 0.0,
@@ -10382,7 +12465,41 @@
       "series": [
         {
           "date": "2026-08-12",
-          "stars": 3840
+          "stars": 3853
+        }
+      ]
+    },
+    {
+      "name": "xyflow/xyflow",
+      "url": "https://github.com/xyflow/xyflow",
+      "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+      "descriptionZh": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+      "readmeExcerpt": "",
+      "stars": 37992,
+      "forks": 2496,
+      "issues": 136,
+      "delta": 0,
+      "relativeGrowth": 0.0,
+      "sources": [
+        "tracked"
+      ],
+      "isNew": false,
+      "trendingStarsToday": null,
+      "tags": [
+        "Automation"
+      ],
+      "category": "Reference only",
+      "license": "MIT",
+      "pushedAt": "2026-08-12",
+      "releaseAt": "2026-07-06",
+      "series": [
+        {
+          "date": "2026-08-08",
+          "stars": 37955
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 37992
         }
       ]
     }

@@ -2,7 +2,7 @@
 
 ## 結論先行
 
-固定十組查詢各取 10 筆後原有 89 個範圍內專案；本次已把 GitHub Trending daily 的範圍內候選併入，得到 **99 個**。其中 10 個是首次出現在 Radar 的新進榜：`PrimeIntellect-ai/prime-agent`、`anthropics/skills`、`paperclipai/paperclip`、`semantica-agi/semantica`、`stablyai/orca`、`vitali87/code-graph-rag` 等。新進榜沒有可比較的前一快照，故標為 `new`／成長待量測，**不以 0 當作動能**。既有項目的動能則以相鄰兩次 API 快照計算，約一天的觀測差值，不是 GitHub Trending 的歷史「今日新增 stars」。
+固定十組查詢各取 10 筆後原有 89 個範圍內專案；本次已把 GitHub Trending daily 的範圍內候選與歷史每日候選累積入池，得到 **152 個**。其中 53 個是過往熱門、目前未再命中固定搜尋的保留項；10 個是首次出現在 Radar 的新進榜：`PrimeIntellect-ai/prime-agent`、`anthropics/skills`、`paperclipai/paperclip`、`semantica-agi/semantica`、`stablyai/orca`、`vitali87/code-graph-rag` 等。新進榜沒有可比較的前一快照，故標為 `new`／成長待量測，**不以 0 當作動能**。既有項目的動能則以相鄰兩次 API 快照計算，約一天的觀測差值，不是 GitHub Trending 的歷史「今日新增 stars」。
 
 本輪訊號集中於三條線：可操作的 coding-agent harness（Pi、Ponytail、agent-skills、Prime Agent）、可查且可追溯的 code/document knowledge graph（Graphify、Semantica、code-graph-rag），以及將工具輸出與 RAG context 控制在預算內（Headroom）。GitHub Trending daily 於 8/12 台灣時間讀取；其「stars today」保留成獨立即時訊號，不能倒推 8/11 的歷史排行，也不混入跨快照 delta。
 
@@ -58,4 +58,4 @@
 
 - API 搜尋與 repo 快照：[repos.json](./repos.json)；本次執行快照：[snapshots/repos-2026-08-12.json](./snapshots/repos-2026-08-12.json)。
 - GitHub Trending daily：https://github.com/trending?since=daily（8/12 台灣時間讀取；範圍內候選已併入，`stars today` 仍是獨立的即時訊號）。
-- 本文依相鄰快照的 star 差異、更新/release、README 定位與授權 metadata 排序，屬研究與內容規劃建議，不構成採購、部署或客戶資料處理授權。
+- 本文依相鄰快照的 star 差異、更新/release、README 定位與授權 metadata 排序；Radar 追蹤池採累積制，歷史候選不會因出榜刪除。本文屬研究與內容規劃建議，不構成採購、部署或客戶資料處理授權。

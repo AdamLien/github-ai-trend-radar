@@ -74,3 +74,39 @@ def test_previous_daily_snapshot_uses_prior_target_folder(tmp_path):
     assert collector.load_previous_daily_snapshot(current) == {
         "example/old": {"full_name": "example/old", "stars": 10}
     }
+
+
+def test_tracked_repositories_accumulate_across_all_prior_daily_folders(tmp_path):
+    daily = tmp_path / "daily"
+    for name, repo in (("2026-08-09", "example/first"), ("2026-08-10", "example/second")):
+        folder = daily / name
+        folder.mkdir(parents=True)
+        (folder / "repos.json").write_text('{"repos": [{"full_name": "' + repo + '", "stars": 1}]}')
+    current = daily / "2026-08-11"
+    current.mkdir()
+
+    assert collector.load_tracked_repo_names(current) == {"example/first", "example/second"}
+
+
+def test_tracked_records_keep_latest_known_metadata_when_a_refresh_fails(tmp_path):
+    daily = tmp_path / "daily"
+    for name, stars in (("2026-08-09", 10), ("2026-08-10", 20)):
+        folder = daily / name
+        folder.mkdir(parents=True)
+        (folder / "repos.json").write_text('{"repos": [{"full_name": "example/first", "stars": ' + str(stars) + '}]}')
+    current = daily / "2026-08-11"
+    current.mkdir()
+
+    assert collector.load_tracked_records(current)["example/first"]["stars"] == 20
+
+
+def test_new_entry_requires_current_discovery_and_absence_from_prior_history():
+    records = [
+        {"full_name": "example/historical", "stars": 10, "forks": 0},
+        {"full_name": "example/new-trending", "stars": 20, "forks": 0},
+    ]
+
+    collector.mark_new_entries(records, {"example/historical"}, {"example/historical", "example/new-trending"})
+
+    assert records[0]["is_new"] is False
+    assert records[1]["is_new"] is True

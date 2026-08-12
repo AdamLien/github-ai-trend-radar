@@ -222,6 +222,32 @@ def load_previous_daily_snapshot(out_dir: Path) -> dict[str, dict[str, Any]]:
     return {item["full_name"]: item for item in payload.get("repos", [])}
 
 
+def load_tracked_repo_names(out_dir: Path) -> set[str]:
+    """Return the union of every prior daily candidate set for a cumulative radar."""
+    tracked: set[str] = set()
+    for folder in out_dir.parent.iterdir():
+        if not folder.is_dir() or folder.name > out_dir.name:
+            continue
+        payload_path = folder / "repos.json"
+        if not payload_path.exists():
+            continue
+        payload = json.loads(payload_path.read_text(encoding="utf-8"))
+        tracked.update(record["full_name"] for record in payload.get("repos", []))
+    return tracked
+
+
+def load_tracked_records(out_dir: Path) -> dict[str, dict[str, Any]]:
+    """Keep the most recently captured metadata for every historically discovered repo."""
+    records: dict[str, dict[str, Any]] = {}
+    for folder in sorted(path for path in out_dir.parent.iterdir() if path.is_dir() and path.name < out_dir.name):
+        payload_path = folder / "repos.json"
+        if not payload_path.exists():
+            continue
+        payload = json.loads(payload_path.read_text(encoding="utf-8"))
+        records.update({record["full_name"]: record for record in payload.get("repos", [])})
+    return records
+
+
 def add_deltas(records: list[dict[str, Any]], previous: dict[str, dict[str, Any]]) -> None:
     for record in records:
         old = previous.get(record["full_name"], {})
@@ -229,6 +255,15 @@ def add_deltas(records: list[dict[str, Any]], previous: dict[str, dict[str, Any]
         record["forks_delta"] = record["forks"] - int(old.get("forks", record["forks"]))
         record["previous_snapshot"] = old.get("snapshot_date", "")
         record["is_new"] = record["full_name"] not in previous
+
+
+def mark_new_entries(records: list[dict[str, Any]], historical_names: set[str], current_discoveries: set[str]) -> None:
+    """A new entry must be discovered today and absent from all previous target dates."""
+    for record in records:
+        record["is_new"] = record["full_name"] in current_discoveries and record["full_name"] not in historical_names
+    """A new entry must be discovered today and absent from all previous target dates."""
+    for record in records:
+        record["is_new"] = record["full_name"] in current_discoveries and record["full_name"] not in historical_names
 
 
 def classify(record: dict[str, Any]) -> str:
@@ -466,6 +501,11 @@ def main() -> int:
 
     trending_repos = fetch_trending_daily() if args.include_trending_daily else {}
     sources = merge_sources(seed_repos + discovered, trending_repos)
+    historical_records = load_tracked_records(out_dir)
+    tracked_records = historical_records
+    tracked_names = set(tracked_records)
+    for repo in tracked_names:
+        sources.setdefault(repo, ["tracked"])
     repo_names = sorted(sources)
     if not repo_names:
         print("No repositories or queries provided.", file=sys.stderr)
@@ -475,13 +515,20 @@ def main() -> int:
     records: list[dict[str, Any]] = []
     for repo in repo_names:
         print(f"Collecting {repo}...", file=sys.stderr)
-        record = repo_record(repo, token, args.include_readme)
+        try:
+            record = repo_record(repo, token, args.include_readme)
+        except RuntimeError as exc:
+            if repo not in tracked_records:
+                raise
+            print(f"Keeping last known metadata for {repo}: {exc}", file=sys.stderr)
+            record = dict(tracked_records[repo])
         record["snapshot_date"] = date
         record["sources"] = sources[repo]
         record["trending_stars_today"] = trending_repos.get(repo, {}).get("trending_stars_today")
         records.append(record)
 
     add_deltas(records, previous)
+    mark_new_entries(records, set(historical_records), set(seed_repos + discovered + list(trending_repos)))
     for record in records:
         record["category"] = classify(record)
 
