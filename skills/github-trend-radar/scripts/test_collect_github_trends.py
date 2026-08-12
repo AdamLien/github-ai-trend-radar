@@ -110,3 +110,23 @@ def test_new_entry_requires_current_discovery_and_absence_from_prior_history():
 
     assert records[0]["is_new"] is False
     assert records[1]["is_new"] is True
+
+
+def test_pinned_watchlist_repository_is_retained_with_explicit_source():
+    sources = collector.merge_sources(
+        ["example/search-hit"],
+        {},
+        ["stablyai/orca"],
+    )
+
+    assert sources["stablyai/orca"] == ["pinned_watchlist"]
+
+
+def test_tracked_records_include_current_target_on_a_rerun(tmp_path):
+    daily = tmp_path / "daily"
+    current = daily / "2026-08-11"
+    current.mkdir(parents=True)
+    (current / "repos.json").write_text('{"repos": [{"full_name": "example/current", "stars": 20}]}')
+
+    assert collector.load_tracked_records(current)["example/current"]["stars"] == 20
+

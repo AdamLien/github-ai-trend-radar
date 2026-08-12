@@ -26,6 +26,7 @@ SCOPE_KEYWORDS = (
     "ai", "agent", "automation", "claude", "codex", "coding", "cursor", "developer",
     "knowledge", "llm", "mcp", "model context protocol", "orchestrat", "rag", "skill", "wiki",
 )
+PINNED_WATCHLIST = ("stablyai/orca",)
 
 
 class TrendingDailyParser(HTMLParser):
@@ -106,10 +107,16 @@ def fetch_trending_daily() -> dict[str, dict[str, int]]:
         raise RuntimeError(f"GitHub Trending request failed: {exc}") from exc
 
 
-def merge_sources(search_repos: list[str], trending_repos: dict[str, dict[str, int]]) -> dict[str, list[str]]:
+def merge_sources(
+    search_repos: list[str],
+    trending_repos: dict[str, dict[str, int]],
+    pinned_repos: list[str] | tuple[str, ...] = (),
+) -> dict[str, list[str]]:
     sources = {repo: ["search"] for repo in search_repos}
     for repo in trending_repos:
         sources.setdefault(repo, []).append("trending_daily")
+    for repo in pinned_repos:
+        sources.setdefault(repo, []).append("pinned_watchlist")
     return sources
 
 
@@ -239,7 +246,7 @@ def load_tracked_repo_names(out_dir: Path) -> set[str]:
 def load_tracked_records(out_dir: Path) -> dict[str, dict[str, Any]]:
     """Keep the most recently captured metadata for every historically discovered repo."""
     records: dict[str, dict[str, Any]] = {}
-    for folder in sorted(path for path in out_dir.parent.iterdir() if path.is_dir() and path.name < out_dir.name):
+    for folder in sorted(path for path in out_dir.parent.iterdir() if path.is_dir() and path.name <= out_dir.name):
         payload_path = folder / "repos.json"
         if not payload_path.exists():
             continue
@@ -500,7 +507,7 @@ def main() -> int:
         discovered.extend(query_repos)
 
     trending_repos = fetch_trending_daily() if args.include_trending_daily else {}
-    sources = merge_sources(seed_repos + discovered, trending_repos)
+    sources = merge_sources(seed_repos + discovered, trending_repos, PINNED_WATCHLIST)
     historical_records = load_tracked_records(out_dir)
     tracked_records = historical_records
     tracked_names = set(tracked_records)
