@@ -179,6 +179,9 @@ def main() -> None:
             "issues": repo["open_issues"],
             "delta": delta,
             "relativeGrowth": round(delta / max(repo["stars"], 1) * 100, 3),
+            "sources": repo.get("sources", ["search"]),
+            "isNew": repo.get("is_new", name not in previous),
+            "trendingStarsToday": repo.get("trending_stars_today"),
             "tags": tags,
             "category": category_for(repo, delta, tags),
             "license": repo.get("license") or "Unclear",
@@ -192,7 +195,7 @@ def main() -> None:
         "historyDates": [item[0] for item in snapshots],
         "repoCount": len(records),
         "records": records,
-        "source": "GitHub API snapshots. GitHub Trending is intentionally excluded from time-series deltas.",
+        "source": "GitHub API snapshots plus in-scope GitHub Trending daily candidates. Trending daily stars are kept separate from snapshot deltas.",
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
