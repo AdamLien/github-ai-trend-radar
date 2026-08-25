@@ -11,26 +11,26 @@
 
 | Repo | Stars | Snapshot delta | Trending today | Forks | Updated | Category | Why it matters |
 | --- | ---: | ---: | ---: | ---: | --- | --- | --- |
-| [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 16350 | 3788 | 2449 | 1707 | 2026-08-25 | Deep research | Prompt as Code / GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中 |
-| [openai/codex](https://github.com/openai/codex) | 117716 | 2796 | 1994 | 17957 | 2026-08-25 | Deep research | Lightweight coding agent that runs in your terminal |
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 236011 | 2567 | — | 20106 | 2026-08-24 | Deep research | Skills for Real Engineers. Straight from my .agents directory. |
-| [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 49471 | 1746 | 891 | 8058 | 2026-08-25 | Deep research | Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone l |
-| [stablyai/orca](https://github.com/stablyai/orca) | 53178 | 1524 | — | 3678 | 2026-08-25 | Deep research | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription.  |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 110166 | 1506 | — | 6067 | 2026-08-07 | Deep research | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 236124 | 1365 | 896 | 47636 | 2026-08-25 | Deep research | The agent that grows with you |
-| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 206847 | 1213 | 588 | 21111 | 2026-04-20 | Deep research | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM co |
-| [earendil-works/pi](https://github.com/earendil-works/pi) | 96961 | 1150 | — | 11989 | 2026-08-25 | Deep research | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI |
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 116197 | 1066 | — | 17665 | 2026-08-25 | Deep research | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workf |
-| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 54703 | 1064 | — | 7490 | 2026-08-25 | Deep research | Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 32117 | 1004 | 602 | 3414 | 2026-08-25 | Deep research | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude C |
-| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | 12226 | 958 | 310 | 1357 | 2026-08-01 | Deep research | Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files |
-| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 25376 | 932 | — | 2630 | 2026-08-24 | Deep research | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. |
-| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 42052 | 908 | — | 4647 | 2026-08-25 | Deep research | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 |
-| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 37490 | 900 | 515 | 3715 | 2026-08-25 | Deep research | Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orches |
-| [apache/maka](https://github.com/apache/maka) | 3090 | 854 | 411 | 313 | 2026-08-25 | Deep research | Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permis |
-| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 33133 | 760 | — | 2525 | 2026-08-25 | Deep research | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. |
-| [obra/superpowers](https://github.com/obra/superpowers) | 277304 | 747 | — | 24811 | 2026-08-19 | Deep research | An agentic skills framework & software development methodology that works. |
-| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 26486 | 739 | — | 1637 | 2026-08-25 | Deep research | 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid s |
+| [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 16363 | 3801 | 2449 | 1709 | 2026-08-25 | Deep research | Prompt as Code / GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中 |
+| [openai/codex](https://github.com/openai/codex) | 117726 | 2806 | 1994 | 17958 | 2026-08-25 | Deep research | Lightweight coding agent that runs in your terminal |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 236024 | 2580 | — | 20107 | 2026-08-24 | Deep research | Skills for Real Engineers. Straight from my .agents directory. |
+| [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 49483 | 1758 | 891 | 8060 | 2026-08-25 | Deep research | Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone l |
+| [stablyai/orca](https://github.com/stablyai/orca) | 53187 | 1533 | — | 3679 | 2026-08-25 | Deep research | Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription.  |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 110173 | 1513 | — | 6068 | 2026-08-07 | Deep research | Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 236130 | 1371 | 896 | 47637 | 2026-08-25 | Deep research | The agent that grows with you |
+| [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) | 206860 | 1226 | 588 | 21113 | 2026-04-20 | Deep research | A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM co |
+| [earendil-works/pi](https://github.com/earendil-works/pi) | 96968 | 1157 | — | 11991 | 2026-08-25 | Deep research | AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI |
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 116203 | 1072 | — | 17665 | 2026-08-25 | Deep research | 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workf |
+| [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | 54711 | 1072 | — | 7490 | 2026-08-25 | Deep research | Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 32120 | 1007 | 602 | 3414 | 2026-08-25 | Deep research | A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude C |
+| [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) | 12232 | 964 | 310 | 1358 | 2026-08-01 | Deep research | Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files |
+| [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill) | 25379 | 935 | — | 2630 | 2026-08-24 | Deep research | Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work. |
+| [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) | 42059 | 915 | — | 4647 | 2026-08-25 | Deep research | 《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 |
+| [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | 37494 | 904 | 515 | 3715 | 2026-08-25 | Deep research | Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orches |
+| [apache/maka](https://github.com/apache/maka) | 3094 | 858 | 411 | 313 | 2026-08-25 | Deep research | Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permis |
+| [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | 33140 | 767 | — | 2526 | 2026-08-25 | Deep research | Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills. |
+| [obra/superpowers](https://github.com/obra/superpowers) | 277307 | 750 | — | 24812 | 2026-08-19 | Deep research | An agentic skills framework & software development methodology that works. |
+| [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design) | 26492 | 745 | — | 1637 | 2026-08-25 | Deep research | 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid s |
 
 ## New Trending Entries
 
