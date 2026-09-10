@@ -5,12 +5,78 @@ from __future__ import annotations
 
 import json
 from collections import defaultdict
+from datetime import date
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[2]
 DAILY = ROOT / "outputs" / "github-radar" / "daily"
 OUT = ROOT / "dashboard" / "src" / "generated" / "radarData.json"
+MANUAL_VERIFICATIONS = ROOT / "dashboard" / "data" / "manual-verifications.json"
+
+WORK_SCENARIO_RULES = [
+    ("文件整理與知識查詢", ("document", "knowledge", "wiki", "retrieval", "rag", "search")),
+    ("客服與會員經營", ("customer", "support", "crm", "member", "chatbot")),
+    ("資料整合與報表", ("integration", "workflow", "automation", "database", "report", "analytics")),
+    ("開發與測試", ("coding", "code", "developer", "test", "devtools", "ide")),
+    ("內容製作與辦公自動化", ("content", "office", "automation", "marketing", "video", "writing")),
+]
+
+
+def load_daily_snapshots(daily_dir: Path) -> list[dict]:
+    """Load daily artifacts using their target-date folders as the UI timeline."""
+    snapshots: list[dict] = []
+    seen_dates: set[str] = set()
+    for path in sorted(daily_dir.glob("*/repos.json")):
+        target_date = path.parent.name
+        try:
+            date.fromisoformat(target_date)
+        except ValueError as error:
+            raise ValueError(f"Invalid daily target date folder: {target_date}") from error
+        if target_date in seen_dates:
+            raise ValueError(f"Duplicate daily target date: {target_date}")
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        observed_date = payload.get("snapshot_date") or target_date
+        snapshots.append({
+            "targetDate": target_date,
+            "observedDate": observed_date,
+            "repos": {repo["full_name"]: repo for repo in payload["repos"]},
+            "folder": path.parent,
+        })
+        seen_dates.add(target_date)
+    return snapshots
+
+
+def work_scenarios_for(repo: dict) -> list[str]:
+    text = " ".join([
+        repo.get("full_name", ""),
+        repo.get("description", ""),
+        " ".join(repo.get("topics", [])),
+    ]).lower()
+    return [label for label, needles in WORK_SCENARIO_RULES if any(needle in text for needle in needles)]
+
+
+def load_manual_verifications() -> dict[str, dict]:
+    if not MANUAL_VERIFICATIONS.exists():
+        return {}
+    payload = json.loads(MANUAL_VERIFICATIONS.read_text(encoding="utf-8"))
+    records = payload.get("records", {})
+    if not isinstance(records, dict):
+        raise ValueError("manual-verifications.json records must be an object")
+    return records
+
+
+def load_latest_weekly_notes(snapshots: list[dict]) -> list[dict]:
+    for snapshot in reversed(snapshots):
+        path = snapshot["folder"] / "weekly-noteworthy.json"
+        if not path.exists():
+            continue
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        notes = payload.get("notes", [])
+        if not isinstance(notes, list) or len(notes) > 3:
+            raise ValueError(f"Invalid weekly notes in {path}")
+        return notes
+    return []
 
 
 def tags_for(repo: dict) -> list[str]:
@@ -147,21 +213,25 @@ def category_for(repo: dict, delta: int, tags: list[str]) -> str:
 
 
 def main() -> None:
-    snapshots: list[tuple[str, dict[str, dict]]] = []
-    for path in sorted(DAILY.glob("*/repos.json")):
-        payload = json.loads(path.read_text(encoding="utf-8"))
-        snapshot_date = payload.get("snapshot_date") or path.parent.name
-        snapshots.append((snapshot_date, {repo["full_name"]: repo for repo in payload["repos"]}))
+    snapshots = load_daily_snapshots(DAILY)
     if not snapshots:
         raise SystemExit(f"No snapshots found in {DAILY}")
 
     history: dict[str, list[dict]] = defaultdict(list)
-    for snapshot_date, repos in snapshots:
+    for snapshot in snapshots:
+        snapshot_date = snapshot["targetDate"]
+        repos = snapshot["repos"]
         for name, repo in repos.items():
-            history[name].append({"date": snapshot_date, "stars": repo["stars"]})
+            history[name].append({
+                "date": snapshot_date,
+                "stars": repo["stars"],
+                "observedDate": snapshot["observedDate"],
+            })
 
-    latest_date, latest = snapshots[-1]
-    previous = snapshots[-2][1] if len(snapshots) > 1 else {}
+    latest_date = snapshots[-1]["targetDate"]
+    latest = snapshots[-1]["repos"]
+    previous = snapshots[-2]["repos"] if len(snapshots) > 1 else {}
+    manual_verifications = load_manual_verifications()
     records = []
     for name, repo in latest.items():
         prior = previous.get(name, repo)
@@ -183,7 +253,9 @@ def main() -> None:
             "isNew": repo.get("is_new", name not in previous),
             "trendingStarsToday": repo.get("trending_stars_today"),
             "tags": tags,
+            "workScenarios": work_scenarios_for(repo),
             "category": category_for(repo, delta, tags),
+            "verification": manual_verifications.get(name, {"status": "untested", "evidence": []}),
             "license": repo.get("license") or "Unclear",
             "pushedAt": (repo.get("pushed_at") or "")[:10],
             "releaseAt": (repo.get("latest_release", {}).get("published_at") or "")[:10],
@@ -192,10 +264,15 @@ def main() -> None:
     records.sort(key=lambda item: (item["delta"], item["relativeGrowth"]), reverse=True)
     output = {
         "updatedAt": latest_date,
-        "historyDates": [item[0] for item in snapshots],
+        "historyDates": [item["targetDate"] for item in snapshots],
+        "snapshotProvenance": [
+            {"targetDate": item["targetDate"], "observedDate": item["observedDate"]}
+            for item in snapshots
+        ],
         "repoCount": len(records),
         "records": records,
-        "source": "GitHub API snapshots plus in-scope GitHub Trending daily candidates. Trending daily stars are kept separate from snapshot deltas.",
+        "weeklyNoteworthy": load_latest_weekly_notes(snapshots),
+        "source": "GitHub API snapshots plus in-scope GitHub Trending daily candidates. Target dates come from daily output folders; observed timestamps are retained as provenance. Trending daily stars are kept separate from snapshot deltas.",
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
