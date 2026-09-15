@@ -1,0 +1,10 @@
+[Unit]
+Description=Track Oraink YouTube Shorts daily at 00:30 Asia/Taipei
+
+[Timer]
+OnCalendar=*-*-* 00:30:00 Asia/Taipei
+Persistent=true
+Unit=oraink-shorts-radar.service
+
+[Install]
+WantedBy=timers.target

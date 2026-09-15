@@ -1,0 +1,74 @@
+{
+  "targetDate": "2026-09-15",
+  "capturedAt": "2026-09-15T13:23:08+08:00",
+  "channel": {
+    "name": "Oraink",
+    "channelId": "UC7nSdrHf_8k9JzDBxbO-kDQ",
+    "shortsUrl": "https://www.youtube.com/@Oraink%E7%81%B5%E7%A0%9A/shorts"
+  },
+  "items": [
+    {
+      "videoId": "pJWK-ZEy5_A",
+      "title": "Github本周开源热榜：截图生成前端代码、实时地球 OSINT、多智能体课堂...：九月第一周 Top5   #ai工具 #chatgpt #github #aiagent",
+      "url": "https://www.youtube.com/shorts/pJWK-ZEy5_A",
+      "viewsText": "13萬次",
+      "isNew": true
+    },
+    {
+      "videoId": "A5M07p43ZgM",
+      "title": "GLM-5.3-Flash匿名冲榜、英伟达收购Hugging Face｜八月第四周AI圈信息差  #glm #英伟达",
+      "url": "https://www.youtube.com/shorts/A5M07p43ZgM",
+      "viewsText": "907次",
+      "isNew": true
+    },
+    {
+      "videoId": "F4mIdxeThYo",
+      "title": "Github本周开源热榜：DSH 插件集合、public-apis ... ：八月第二周 Top5   #github  #ai工具 #开源热榜",
+      "url": "https://www.youtube.com/shorts/F4mIdxeThYo",
+      "viewsText": "5",
+      "isNew": true
+    },
+    {
+      "videoId": "2aBzzcnB4_Y",
+      "title": "DeepSeek Harness 开源第一周，盘点必须安装的 5 类插件 #deepseek #harness  #ai工具 #agent",
+      "url": "https://www.youtube.com/shorts/2aBzzcnB4_Y",
+      "viewsText": "1",
+      "isNew": true
+    },
+    {
+      "videoId": "xjhtZjCFfRI",
+      "title": "Github本周开源热榜：八月第二周 Top5 「Deepseek Harness、 diagram design...」 #github #ai工具 #chatgpt  #aiagent",
+      "url": "https://www.youtube.com/shorts/xjhtZjCFfRI",
+      "viewsText": "1",
+      "isNew": true
+    },
+    {
+      "videoId": "slzWHL11CcA",
+      "title": "Github7月开源热榜，建议收藏！ #github #chatgpt #ai工具 #agent #skills",
+      "url": "https://www.youtube.com/shorts/slzWHL11CcA",
+      "viewsText": "4",
+      "isNew": true
+    },
+    {
+      "videoId": "4zI2oP70aWs",
+      "title": "实测GIthub爆火的视频skill (内附资料包) #chatgpt #skills #github #开源 #视频生成 #ai视频",
+      "url": "https://www.youtube.com/shorts/4zI2oP70aWs",
+      "viewsText": "1.4萬次",
+      "isNew": true
+    },
+    {
+      "videoId": "5md6MSFHoZg",
+      "title": "Github本周开源热榜：八月第一周 Top5 #aiagent #ai工具 #chatgpt #ai编程 #github #开源",
+      "url": "https://www.youtube.com/shorts/5md6MSFHoZg",
+      "viewsText": "687次",
+      "isNew": true
+    },
+    {
+      "videoId": "tGslN4iDbQA",
+      "title": "本周爆火的开源项目，建议先收藏！",
+      "url": "https://www.youtube.com/shorts/tGslN4iDbQA",
+      "viewsText": "1.1萬次",
+      "isNew": true
+    }
+  ]
+}

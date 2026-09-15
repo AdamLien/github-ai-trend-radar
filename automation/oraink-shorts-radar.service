@@ -1,0 +1,10 @@
+[Unit]
+Description=Track public Oraink YouTube Shorts metadata
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/metabiz-admin/Documents/workspace/adam-codex-skills
+Environment=TZ=Asia/Taipei
+ExecStart=/home/metabiz-admin/Documents/workspace/adam-codex-skills/automation/run-oraink-shorts-radar.sh
