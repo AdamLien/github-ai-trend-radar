@@ -1,0 +1,35 @@
+{
+  "observedDate": "2026-09-23",
+  "notes": [
+    {
+      "title": "Univer 的 Office Harness 訊號可用於 AI 辦公自動化案例",
+      "change": "GitHub snapshot 顯示 dream-num/univer 相較前一日增加 1,042 stars，並於 GitHub Trending daily 取得 1,140 stars；v0.25.2 於 2026-09-17 發布。",
+      "workUse": "可用非敏感試算表、文件與簡報做 AI 產製和格式保留的展示原型。",
+      "metabizAssessment": "先把它定位為 Office SDK 的內容研究與 demo 候選，而非直接取代既有辦公工具；以實際繁中資料驗證後再決定。",
+      "limitations": "星數不代表格式相容性或生產可用性；仍有 139 個 open issues，PDF 能力在 README 中標為 coming soon。",
+      "sourceUrl": "https://github.com/dream-num/univer",
+      "observedDate": "2026-09-23",
+      "evidenceType": "github_observation"
+    },
+    {
+      "title": "LLM Wiki Agent 適合測試可追溯的 Markdown 知識維護流程",
+      "change": "README 將 SamurAIGPT/llm-wiki-agent 描述為讓 coding agent 從來源文件維護互連 wiki 的 skill；本次 snapshot 記錄 3,567 stars、前日增量 9、MIT 授權與 5 個 open issues。",
+      "workUse": "可在隔離的 Metabiz Markdown 副本測試來源匯入、交叉連結、增量更新與人工審核。",
+      "metabizAssessment": "屬於高關聯的 skill 候選；採用前要先把來源追溯、變更 diff 與核准步驟寫進流程。",
+      "limitations": "README 的功能宣稱尚未在 Metabiz 資料上驗證；沒有 release 資訊，自動摘要也可能遺漏或誤解來源。",
+      "sourceUrl": "https://github.com/SamurAIGPT/llm-wiki-agent",
+      "observedDate": "2026-09-23",
+      "evidenceType": "github_readme_claim"
+    },
+    {
+      "title": "AX 的高成長帶來 agent orchestration 架構研究題材",
+      "change": "GitHub snapshot 顯示 google/ax 增加 1,473 stars、GitHub Trending daily 為 1,542 stars，且 v0.3.0 在 2026-09-20 發布。",
+      "workUse": "可將其 workspace、sandbox 與 gateway 概念轉為多 agent 與 AI office automation 的架構教材。",
+      "metabizAssessment": "建議先做設計研究，從其任務隔離與權限邊界萃取原則，而非把大型 runtime 直接放進近期業務流程。",
+      "limitations": "README 說明核心概念與規格仍可能有重大 breaking changes；大規模效能與安全性沒有在 Metabiz 環境驗證。",
+      "sourceUrl": "https://github.com/google/ax",
+      "observedDate": "2026-09-23",
+      "evidenceType": "metabiz_inference"
+    }
+  ]
+}
