@@ -1,0 +1,413 @@
+{
+  "observed_at": "2026-09-27T00:12:43.364410+08:00",
+  "repos": {
+    "paperclipai/paperclip": {
+      "items": [
+        {
+          "number": 14140,
+          "title": "Custom MCP servers whose 401 lacks WWW-Authenticate never get OAuth discovery (e.g. Lucid)",
+          "state": "open",
+          "updated_at": "2026-09-26T16:10:56Z",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/14140",
+          "is_pull_request": false
+        },
+        {
+          "number": 14139,
+          "title": "Withdrawn by author",
+          "state": "closed",
+          "updated_at": "2026-09-26T15:51:45Z",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/14139",
+          "is_pull_request": false
+        },
+        {
+          "number": 14138,
+          "title": "Withdrawn by author",
+          "state": "closed",
+          "updated_at": "2026-09-26T15:51:43Z",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/14138",
+          "is_pull_request": false
+        },
+        {
+          "number": 14137,
+          "title": "Withdrawn by author",
+          "state": "closed",
+          "updated_at": "2026-09-26T15:51:42Z",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/14137",
+          "is_pull_request": false
+        },
+        {
+          "number": 7641,
+          "title": "company import injects maxConcurrentRuns=20 into agents that never specified it — OOM'd a 16GB host with 10 claude_local agents",
+          "state": "open",
+          "updated_at": "2026-09-26T15:51:30Z",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/7641",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "vectorize-io/hindsight": {
+      "items": [
+        {
+          "number": 4816,
+          "title": "fix(embed): don't leak parent PYTHONPATH into the daemon child",
+          "state": "open",
+          "updated_at": "2026-09-26T15:43:03Z",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4816",
+          "is_pull_request": true
+        },
+        {
+          "number": 4758,
+          "title": "Hermes integration: tools.lazy_deps.install_specs now triggers a full Hermes update, and local_embedded has no installable route",
+          "state": "open",
+          "updated_at": "2026-09-26T15:40:41Z",
+          "html_url": "https://github.com/vectorize-io/hindsight/issues/4758",
+          "is_pull_request": false
+        },
+        {
+          "number": 4815,
+          "title": "fix(api): guard stdio redirect when stdin is missing (closed fd 0)",
+          "state": "open",
+          "updated_at": "2026-09-26T15:09:30Z",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4815",
+          "is_pull_request": true
+        },
+        {
+          "number": 4061,
+          "title": "Daily security sweep — backlog",
+          "state": "open",
+          "updated_at": "2026-09-26T14:16:00Z",
+          "html_url": "https://github.com/vectorize-io/hindsight/issues/4061",
+          "is_pull_request": false
+        },
+        {
+          "number": 4814,
+          "title": "chore(deps): bump pipecat-ai to 1.12.0 in pipecat integration",
+          "state": "closed",
+          "updated_at": "2026-09-26T14:14:47Z",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4814",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "dream-num/univer": {
+      "items": [
+        {
+          "number": 7749,
+          "title": "fix(sheets-ui): keep IME input on the selected cell before editing",
+          "state": "open",
+          "updated_at": "2026-09-26T13:37:00Z",
+          "html_url": "https://github.com/dream-num/univer/pull/7749",
+          "is_pull_request": true
+        },
+        {
+          "number": 7748,
+          "title": "[Bug] At startup error message on each tab",
+          "state": "open",
+          "updated_at": "2026-09-26T08:08:03Z",
+          "html_url": "https://github.com/dream-num/univer/issues/7748",
+          "is_pull_request": false
+        },
+        {
+          "number": 7745,
+          "title": "feat(sheets-formula-ui): add show formulas toggle",
+          "state": "open",
+          "updated_at": "2026-09-25T20:18:13Z",
+          "html_url": "https://github.com/dream-num/univer/pull/7745",
+          "is_pull_request": true
+        },
+        {
+          "number": 7699,
+          "title": "[Bug] Formula assistant covers formula when its length is in few lines",
+          "state": "open",
+          "updated_at": "2026-09-25T19:26:30Z",
+          "html_url": "https://github.com/dream-num/univer/issues/7699",
+          "is_pull_request": false
+        },
+        {
+          "number": 7746,
+          "title": "feat(ui): support removing facade menus",
+          "state": "open",
+          "updated_at": "2026-09-25T13:54:39Z",
+          "html_url": "https://github.com/dream-num/univer/pull/7746",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "items": [
+        {
+          "number": 493,
+          "title": "fix: Wikipedia dataset config '20220301.en' no longer exists",
+          "state": "open",
+          "updated_at": "2026-09-26T12:36:50Z",
+          "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/493",
+          "is_pull_request": false
+        },
+        {
+          "number": 177,
+          "title": "fix: use uv for Jupyter installation commands",
+          "state": "open",
+          "updated_at": "2026-09-26T12:29:35Z",
+          "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch/pull/177",
+          "is_pull_request": true
+        },
+        {
+          "number": 492,
+          "title": "feat(site): add Substack newsletter signup",
+          "state": "open",
+          "updated_at": "2026-09-26T08:30:50Z",
+          "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch/pull/492",
+          "is_pull_request": true
+        },
+        {
+          "number": 491,
+          "title": "fix(site): tolerate unavailable localStorage",
+          "state": "open",
+          "updated_at": "2026-09-26T03:37:55Z",
+          "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch/pull/491",
+          "is_pull_request": true
+        },
+        {
+          "number": 490,
+          "title": "[bug] Homepage initialization fails when localStorage is unavailable",
+          "state": "open",
+          "updated_at": "2026-09-25T22:29:26Z",
+          "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/490",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "mobile-next/mobile-mcp": {
+      "items": [
+        {
+          "number": 303,
+          "title": "WebDriverAgent fails to start on iOS 26.2 / Xcode 26.2 simulator",
+          "state": "open",
+          "updated_at": "2026-09-25T15:26:49Z",
+          "html_url": "https://github.com/mobile-next/mobile-mcp/issues/303",
+          "is_pull_request": false
+        },
+        {
+          "number": 447,
+          "title": "fix(android): escape # and ~ in adb shell text",
+          "state": "open",
+          "updated_at": "2026-09-24T03:49:37Z",
+          "html_url": "https://github.com/mobile-next/mobile-mcp/pull/447",
+          "is_pull_request": true
+        },
+        {
+          "number": 449,
+          "title": "docs: update changelog for 1.0.5",
+          "state": "closed",
+          "updated_at": "2026-09-23T15:38:32Z",
+          "html_url": "https://github.com/mobile-next/mobile-mcp/pull/449",
+          "is_pull_request": true
+        },
+        {
+          "number": 445,
+          "title": "chore: migrate to MCP TypeScript SDK v2 packages",
+          "state": "closed",
+          "updated_at": "2026-09-23T15:14:11Z",
+          "html_url": "https://github.com/mobile-next/mobile-mcp/pull/445",
+          "is_pull_request": true
+        },
+        {
+          "number": 446,
+          "title": "docs: point the Goose install badge at goose-docs.ai (both URLs currently 404)",
+          "state": "closed",
+          "updated_at": "2026-09-23T15:04:01Z",
+          "html_url": "https://github.com/mobile-next/mobile-mcp/pull/446",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "anthropics/claude-code-action": {
+      "items": [
+        {
+          "number": 1861,
+          "title": "Keep reading after a result while background agents are still running",
+          "state": "open",
+          "updated_at": "2026-09-26T07:04:31Z",
+          "html_url": "https://github.com/anthropics/claude-code-action/pull/1861",
+          "is_pull_request": true
+        },
+        {
+          "number": 1860,
+          "title": "docs: use a Bedrock inference profile ID in the Bedrock examples",
+          "state": "open",
+          "updated_at": "2026-09-26T07:04:22Z",
+          "html_url": "https://github.com/anthropics/claude-code-action/pull/1860",
+          "is_pull_request": true
+        },
+        {
+          "number": 1836,
+          "title": "Action exits with subtype:success + is_error:true ~15-25s in, before reviewing (intermittent)",
+          "state": "closed",
+          "updated_at": "2026-09-26T05:41:21Z",
+          "html_url": "https://github.com/anthropics/claude-code-action/issues/1836",
+          "is_pull_request": false
+        },
+        {
+          "number": 1819,
+          "title": "\"Prompt is too long\": review comment diffHunk (#1584) is added to the prompt with no size limit",
+          "state": "open",
+          "updated_at": "2026-09-25T22:26:16Z",
+          "html_url": "https://github.com/anthropics/claude-code-action/issues/1819",
+          "is_pull_request": false
+        },
+        {
+          "number": 1859,
+          "title": "chore: remove dead code from the v1.0 single-entrypoint refactor",
+          "state": "open",
+          "updated_at": "2026-09-25T18:31:33Z",
+          "html_url": "https://github.com/anthropics/claude-code-action/pull/1859",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "NVIDIA/Model-Optimizer": {
+      "items": [
+        {
+          "number": 2551,
+          "title": "[Bug] modelopt-mcp: all launcher subprocesses hang when the server runs as a stdio MCP server — missing stdin=DEVNULL",
+          "state": "open",
+          "updated_at": "2026-09-26T14:57:43Z",
+          "html_url": "https://github.com/NVIDIA/Model-Optimizer/issues/2551",
+          "is_pull_request": false
+        },
+        {
+          "number": 2550,
+          "title": "Fix NVFP4 real-quant GEMM availability check for effective_bits",
+          "state": "open",
+          "updated_at": "2026-09-26T10:57:55Z",
+          "html_url": "https://github.com/NVIDIA/Model-Optimizer/pull/2550",
+          "is_pull_request": true
+        },
+        {
+          "number": 2330,
+          "title": "After applying NVFP4 quantization followed by compression, RealQuantLinear fails to locate the corresponding GEMM implementation during inference.",
+          "state": "open",
+          "updated_at": "2026-09-26T09:25:54Z",
+          "html_url": "https://github.com/NVIDIA/Model-Optimizer/issues/2330",
+          "is_pull_request": false
+        },
+        {
+          "number": 2549,
+          "title": "Fix NVFP4 fake quant zeroing blocks with small scales",
+          "state": "open",
+          "updated_at": "2026-09-26T06:20:52Z",
+          "html_url": "https://github.com/NVIDIA/Model-Optimizer/pull/2549",
+          "is_pull_request": true
+        },
+        {
+          "number": 2507,
+          "title": "[5/5] Experimental GDN/KDA approximate-inverse QAT",
+          "state": "open",
+          "updated_at": "2026-09-26T06:15:42Z",
+          "html_url": "https://github.com/NVIDIA/Model-Optimizer/pull/2507",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "zhaoxuya520/reverse-skill": {
+      "items": [
+        {
+          "number": 138,
+          "title": "-",
+          "state": "closed",
+          "updated_at": "2026-09-26T13:44:42Z",
+          "html_url": "https://github.com/zhaoxuya520/reverse-skill/issues/138",
+          "is_pull_request": false
+        },
+        {
+          "number": 165,
+          "title": "[field-journal] 2026-09-26 Web/API - upload-success-readback-ledger-consistency",
+          "state": "closed",
+          "updated_at": "2026-09-26T02:36:07Z",
+          "html_url": "https://github.com/zhaoxuya520/reverse-skill/pull/165",
+          "is_pull_request": true
+        },
+        {
+          "number": 164,
+          "title": "fix(skills): give the Codex adapter a unique skill name",
+          "state": "open",
+          "updated_at": "2026-09-25T16:35:25Z",
+          "html_url": "https://github.com/zhaoxuya520/reverse-skill/pull/164",
+          "is_pull_request": true
+        },
+        {
+          "number": 163,
+          "title": "Avoid duplicate skill name for core router and Codex adapter",
+          "state": "open",
+          "updated_at": "2026-09-25T02:46:31Z",
+          "html_url": "https://github.com/zhaoxuya520/reverse-skill/issues/163",
+          "is_pull_request": false
+        },
+        {
+          "number": 162,
+          "title": "test(routing): add English + exclude-guard coverage for R41 (CTF sandbox)",
+          "state": "open",
+          "updated_at": "2026-09-24T14:45:46Z",
+          "html_url": "https://github.com/zhaoxuya520/reverse-skill/pull/162",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "kepano/obsidian-skills": {
+      "items": [
+        {
+          "number": 126,
+          "title": "docs(obsidian-cli): add sandbox/IPC troubleshooting",
+          "state": "open",
+          "updated_at": "2026-09-26T03:06:02Z",
+          "html_url": "https://github.com/kepano/obsidian-skills/pull/126",
+          "is_pull_request": true
+        },
+        {
+          "number": 110,
+          "title": "Add Codex plugin marketplace support",
+          "state": "open",
+          "updated_at": "2026-09-24T19:27:26Z",
+          "html_url": "https://github.com/kepano/obsidian-skills/pull/110",
+          "is_pull_request": true
+        },
+        {
+          "number": 146,
+          "title": "Auto-update in Claude Code delivers no new content without a version bump",
+          "state": "open",
+          "updated_at": "2026-09-16T17:48:55Z",
+          "html_url": "https://github.com/kepano/obsidian-skills/issues/146",
+          "is_pull_request": false
+        },
+        {
+          "number": 145,
+          "title": "Tool suggestion: spec contracts for skill collections (open source)",
+          "state": "open",
+          "updated_at": "2026-09-15T16:06:08Z",
+          "html_url": "https://github.com/kepano/obsidian-skills/issues/145",
+          "is_pull_request": false
+        },
+        {
+          "number": 143,
+          "title": "docs: shorten Defuddle skill description",
+          "state": "closed",
+          "updated_at": "2026-09-15T14:43:58Z",
+          "html_url": "https://github.com/kepano/obsidian-skills/pull/143",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "ishicm/llm-wiki-skills": {
+      "items": [
+        {
+          "number": 1,
+          "title": "\"健康检查，持续维护\"，有点标题党",
+          "state": "open",
+          "updated_at": "2026-04-15T06:46:21Z",
+          "html_url": "https://github.com/ishicm/llm-wiki-skills/issues/1",
+          "is_pull_request": false
+        }
+      ]
+    }
+  }
+}

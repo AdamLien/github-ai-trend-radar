@@ -1,0 +1,99 @@
+{
+  "target_date": "2026-09-26",
+  "observed_at": "2026-09-27T00:11:21.137430+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false
+    }
+  ],
+  "scope_review": {
+    "excluded": [
+      {
+        "repo": "ByteByteGoHq/system-design-101",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "InterceptSuite/ProxyBridge",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "Open-Dev-Society/OpenStock",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "armory3d/armorpaint",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "kiali/kiali",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "llvm/llvm-project",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "localsend/localsend",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "megadose/holehe",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "rustfs/rustfs",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "sngyai/Sequoia-X",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "t8y2/dbx",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "tailscale/tailcat",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "tldrsec/awesome-secure-defaults",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      },
+      {
+        "repo": "xyflow/xyflow",
+        "reason": "一般基礎工具或非 AI 業務工具，缺乏本次主題的直接關聯"
+      }
+    ],
+    "deduplicated": [
+      "LibreChat-AI/LibreChat",
+      "career-ops-hq/career-ops",
+      "feder-cr/invisible_playwright_mcp"
+    ],
+    "retained": 306
+  },
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ],
+  "rate_limit_status": "No rate-limit error observed in collector logs; limit 10 used."
+}

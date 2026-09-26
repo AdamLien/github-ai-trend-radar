@@ -1,0 +1,11 @@
+{
+  "target_date": "2026-09-26",
+  "required_artifacts": "all present and nonempty",
+  "preexisting_files_verified_unchanged": 28,
+  "build_command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+  "build_exit_code": 0,
+  "build_warning": "Vite chunk exceeds 500 kB; nonfatal",
+  "build_outputs_nonempty": true,
+  "push_status": "Not pushed: SSH dry-run failed with exit 128: git@github.com: Permission denied (publickey).",
+  "remote_changed": false
+}
