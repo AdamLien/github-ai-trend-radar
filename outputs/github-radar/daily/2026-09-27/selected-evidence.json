@@ -1,0 +1,567 @@
+{
+  "vectorize-io/hindsight": {
+    "repo": {
+      "full_name": "vectorize-io/hindsight",
+      "html_url": "https://github.com/vectorize-io/hindsight",
+      "description": "Hindsight: Agent Memory That Learns",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 36082,
+      "forks": 4606,
+      "open_issues": 164,
+      "watchers": 80,
+      "created_at": "2025-10-30T11:49:48Z",
+      "updated_at": "2026-09-27T16:12:01Z",
+      "pushed_at": "2026-09-26T14:14:46Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agentic-ai",
+        "agents",
+        "ai-memory",
+        "memory"
+      ],
+      "latest_release": {
+        "name": "v0.10.1",
+        "tag_name": "v0.10.1",
+        "published_at": "2026-09-21T15:24:30Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> ![Hindsight Banner](./hindsight-docs/static/img/hindsight-github-banner.png) [Documentation](https://hindsight.vectorize.io) • [Integrations](https://hindsight.vectorize.io/integrations) • [Cookbook](https://hindsight.vectorize.io/cookbook) • [Benchmarks](https://benchmarks.hindsight.vectorize.io/) • [Paper](https://arxiv.org/abs/2512.12818) • [Hindsight Cloud](https://ui.hindsight.vectorize.io/signup) [![Release](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml/badge.svg)](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml) [![Version](https://img.shields.io/pypi/v/hindsight-api?logo=python&logoColor=white&label=version&color="
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/vectorize-io/hindsight/issues/4839",
+        "title": "[Windows] pg0 info reports \"stopped\" (uri=None) for a live, listening instance",
+        "updated_at": "2026-09-27T14:35:49Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/vectorize-io/hindsight/issues/4779",
+        "title": "coding-agents: publish a release containing the dsh V4 source-kind fix (#4639) — npm latest 0.7.0 still ships kind:\"plugin\"",
+        "updated_at": "2026-09-27T14:08:58Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/vectorize-io/hindsight/pull/4838",
+        "title": "fix(deps): drop the macOS litellm<1.92 carve-out now that litellm ships macOS wheels",
+        "updated_at": "2026-09-27T13:20:29Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/vectorize-io/hindsight/issues/4828",
+        "title": "openclaw plugin: auto-retain silently does nothing after OpenClaw reloads the plugin registry (recall keeps working)",
+        "updated_at": "2026-09-27T12:47:41Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/vectorize-io/hindsight/pull/4556",
+        "title": "fix(openclaw): restore retain lifecycle during lazy initialization",
+        "updated_at": "2026-09-27T12:40:45Z",
+        "state": "open",
+        "kind": "PR"
+      }
+    ]
+  },
+  "paperclipai/paperclip": {
+    "repo": {
+      "full_name": "paperclipai/paperclip",
+      "html_url": "https://github.com/paperclipai/paperclip",
+      "description": "The open-source app everyone uses to manage agents at work",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 88974,
+      "forks": 15584,
+      "open_issues": 5810,
+      "watchers": 445,
+      "created_at": "2026-03-02T15:01:51Z",
+      "updated_at": "2026-09-27T16:11:25Z",
+      "pushed_at": "2026-09-27T12:25:56Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "v2026.916.1",
+        "tag_name": "v2026.916.1",
+        "published_at": "2026-09-21T21:22:44Z"
+      },
+      "readme_excerpt": "<p align=\"center\"> <img src=\"doc/assets/banner.jpg\" alt=\"Paperclip is the app people use to manage AI agents for work.\" width=\"720\" /> </p> <p align=\"center\"> <a href=\"#quickstart\"><strong>Quickstart</strong></a> &middot; <a href=\"https://docs.paperclip.ing\"><strong>Docs</strong></a> &middot; <a href=\"https://github.com/paperclipai/paperclip\"><strong>GitHub</strong></a> &middot; <a href=\"https://discord.gg/m4HZY7xNG3\"><strong>Discord</strong></a> &middot; <a href=\"https://x.com/papercliping\"><strong>Twitter</strong></a> &middot; <a href=\"https://paperclip.ing\"><strong>Website</strong></a> </p> <p align=\"center\"> <a href=\"https://github.com/paperclipai/paperclip/blob/master/LICENSE\"><img src="
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/paperclipai/paperclip/pull/14245",
+        "title": "fix(openclaw-gateway): send agent.timeout in seconds and keep observing accepted runs",
+        "updated_at": "2026-09-27T16:02:04Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/paperclipai/paperclip/issues/8047",
+        "title": "Run transcripts persist raw secret values to run logs, heartbeat_runs, and backups — redact bound secret values at the transcript writer",
+        "updated_at": "2026-09-27T15:58:53Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/paperclipai/paperclip/pull/14265",
+        "title": "fix(hermes-gateway): inline the run and task identity in the dispatched prompt",
+        "updated_at": "2026-09-27T15:49:26Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/paperclipai/paperclip/issues/14254",
+        "title": "operatorCancelExempted is permanent: a watchdog-cancelled run drops the issue out of stranded-work recovery, silently",
+        "updated_at": "2026-09-27T15:26:16Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/paperclipai/paperclip/pull/12383",
+        "title": "fix: reject terminal run checkouts",
+        "updated_at": "2026-09-27T15:19:51Z",
+        "state": "open",
+        "kind": "PR"
+      }
+    ]
+  },
+  "debpalash/VoiceStudio": {
+    "repo": {
+      "full_name": "debpalash/VoiceStudio",
+      "html_url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "stars": 39157,
+      "forks": 4658,
+      "open_issues": 12,
+      "watchers": 156,
+      "created_at": "2026-04-09T21:40:26Z",
+      "updated_at": "2026-09-27T16:11:27Z",
+      "pushed_at": "2026-09-27T13:29:55Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "tauri",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "latest_release": {
+        "name": "v0.5.6 — VoiceStudio",
+        "tag_name": "v0.5.6",
+        "published_at": "2026-09-23T08:53:32Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <img src=\"docs/logo.png\" alt=\"VoiceStudio\" width=\"88\" /> <h1>VoiceStudio</h1> <p> <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"220\" height=\"48\" /></a> </p> <p><strong>Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.</strong></p> <p> <a href=\"https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project\">Website</a> · <a href=\"https://github."
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/pull/2368",
+        "title": "feat(mcp): describe_voice and design_voice tools for agent voice design",
+        "updated_at": "2026-09-27T16:12:08Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/issues/2366",
+        "title": "[Feature] 0.5.6 Audiobook lost the 0.5.3 Cast panel — [voice:Name] tags no longer map to saved profiles",
+        "updated_at": "2026-09-27T16:07:21Z",
+        "state": "closed",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/pull/2367",
+        "title": "fix(report): include engine and model context in bug reports",
+        "updated_at": "2026-09-27T15:31:22Z",
+        "state": "closed",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/pull/2362",
+        "title": "fix(electron): recover from OS-denied default backend ports",
+        "updated_at": "2026-09-27T13:29:56Z",
+        "state": "closed",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/debpalash/VoiceStudio/pull/2363",
+        "title": "fix(omnivoice): reuse installed reference ASR for sidecar cloning",
+        "updated_at": "2026-09-27T13:29:55Z",
+        "state": "closed",
+        "kind": "PR"
+      }
+    ]
+  },
+  "mvschwarz/openrig": {
+    "repo": {
+      "full_name": "mvschwarz/openrig",
+      "html_url": "https://github.com/mvschwarz/openrig",
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 741,
+      "forks": 86,
+      "open_issues": 40,
+      "watchers": 7,
+      "created_at": "2026-04-01T06:22:40Z",
+      "updated_at": "2026-09-27T16:11:16Z",
+      "pushed_at": "2026-09-27T07:43:07Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-skills",
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex-cli",
+        "multi-agent",
+        "multi-agent-systems",
+        "tmux",
+        "typescript"
+      ],
+      "latest_release": {
+        "name": "OpenRig v0.5.17 — install with Bun",
+        "tag_name": "v0.5.17",
+        "published_at": "2026-09-27T07:43:24Z"
+      },
+      "readme_excerpt": "# OpenRig [![npm version](https://img.shields.io/npm/v/@openrig/cli)](https://www.npmjs.com/package/@openrig/cli) [![npm downloads](https://img.shields.io/npm/dw/@openrig/cli)](https://www.npmjs.com/package/@openrig/cli) [![License: Apache 2.0](https://img.shields.io/github/license/mvschwarz/openrig)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mvschwarz/openrig?style=social)](https://github.com/mvschwarz/openrig/stargazers) A harness wraps a model. A rig wraps your harnesses. Define your agent team in YAML, boot it with one command. Claude Code and Codex in the same rig, managed as one system. OpenRig turns AI coding agents from a pile of terminal sessions into a persisten"
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/mvschwarz/openrig/issues/66",
+        "title": "bun add -g @openrig/cli fails: bundled @openrig/daemon is also listed in dependencies and 404s on the registry",
+        "updated_at": "2026-09-27T15:28:38Z",
+        "state": "closed",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/mvschwarz/openrig/issues/75",
+        "title": "Feature request: per-seat reasoning effort (Claude --effort / Codex model_reasoning_effort)",
+        "updated_at": "2026-09-27T15:28:37Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/mvschwarz/openrig/issues/74",
+        "title": "Idea: optional Adam Network channel for sharing agent findings across sessions",
+        "updated_at": "2026-09-27T15:28:37Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/mvschwarz/openrig/issues/76",
+        "title": "rig proof show/judge can't target a catalogued project: they read only the daemon's single workspace.slices_root (scope_missing)",
+        "updated_at": "2026-09-27T15:28:36Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/mvschwarz/openrig/issues/28",
+        "title": "Codex seat stuck in `attention_required` because OpenRig's own `/bin/sh` launch wrapper fails the pane identity check",
+        "updated_at": "2026-09-27T13:22:07Z",
+        "state": "open",
+        "kind": "Issue"
+      }
+    ]
+  },
+  "dream-num/univer": {
+    "repo": {
+      "full_name": "dream-num/univer",
+      "html_url": "https://github.com/dream-num/univer",
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 19986,
+      "forks": 1695,
+      "open_issues": 158,
+      "watchers": 317,
+      "created_at": "2022-09-29T12:09:14Z",
+      "updated_at": "2026-09-27T16:12:01Z",
+      "pushed_at": "2026-09-27T13:11:49Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "board",
+        "collaboration",
+        "data-table",
+        "doc",
+        "docx",
+        "excel",
+        "grid",
+        "pdf",
+        "ppt",
+        "pptx",
+        "presentation",
+        "sdk",
+        "sheet",
+        "slides",
+        "spreadsheet",
+        "table",
+        "word",
+        "wordprocessor",
+        "xlsx"
+      ],
+      "latest_release": {
+        "name": "🕶️ Release v1.0.2",
+        "tag_name": "v1.0.2",
+        "published_at": "2026-09-24T11:32:24Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <img src=\"./docs/img/banner.png\" alt=\"Univer SDK\" width=\"800\" /> **The Office Harness for AI Agents** Spreadsheets · Documents · Presentations · Bases · Boards · PDFs (coming soon) High-performance, fully customizable Office SDK Build embeddable productivity experiences with a plugin architecture, Canvas-based rendering, a formula engine, and one Facade API that works in the browser and on Node.js. English | [简体中文](./docs/readme/zh-CN.md) | [繁體中文](./docs/readme/zh-TW.md) | [日本語](./docs/readme/ja-JP.md) | [한국어](./docs/readme/ko-KR.md) | [Español](./docs/readme/es-ES.md) [🌐 Website](https://univer.ai/) | [📖 Documentation](https://docs.univer.ai) | [✨ Showcase](https://docs"
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/dream-num/univer/pull/7762",
+        "title": "fix(network): propagate merged request termination to all subscribers",
+        "updated_at": "2026-09-27T16:01:53Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/dream-num/univer/pull/7761",
+        "title": "fix(network): invalidate interceptor pipe on disposal",
+        "updated_at": "2026-09-27T15:59:37Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/dream-num/univer/pull/7760",
+        "title": "fix(sheets-filter): recalculate after auto-extending filter range",
+        "updated_at": "2026-09-27T15:58:26Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/dream-num/univer/issues/7757",
+        "title": "[Bug] Auto-extended filter range does not apply existing criteria to newly entered rows",
+        "updated_at": "2026-09-27T15:55:07Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/dream-num/univer/issues/7759",
+        "title": "[Bug] Disposed HTTP interceptors still run on subsequent requests",
+        "updated_at": "2026-09-27T15:36:10Z",
+        "state": "open",
+        "kind": "Issue"
+      }
+    ]
+  },
+  "rohitg00/ai-engineering-from-scratch": {
+    "repo": {
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "html_url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "description": "Learn it. Build it. Ship it for others.",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 58960,
+      "forks": 10199,
+      "open_issues": 44,
+      "watchers": 373,
+      "created_at": "2026-03-18T18:38:02Z",
+      "updated_at": "2026-09-27T16:11:23Z",
+      "pushed_at": "2026-09-27T11:54:19Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "computer-vision",
+        "course",
+        "deep-learning",
+        "from-scratch",
+        "generative-ai",
+        "llm",
+        "machine-learning",
+        "mcp",
+        "nlp",
+        "python",
+        "reinforcement-learning",
+        "rust",
+        "swarm-intelligence",
+        "transformers",
+        "tutorial",
+        "typescript"
+      ],
+      "latest_release": {
+        "name": "Edition 2026.10",
+        "tag_name": "v2026.10",
+        "published_at": "2026-09-27T10:17:34Z"
+      },
+      "readme_excerpt": "<p align=\"center\"> <img src=\"assets/banner.svg\" alt=\"AI Engineering from Scratch — reference manual banner\" width=\"100%\"> </p> <p align=\"center\"> <b>Read in your language:</b> <a href=\"i18n/es/README.md\">Español</a> · <a href=\"i18n/fr/README.md\">Français</a> · <a href=\"i18n/pt/README.md\">Português</a> · <a href=\"i18n/de/README.md\">Deutsch</a> · <a href=\"i18n/it/README.md\">Italiano</a> · <a href=\"i18n/zh/README.md\">简体中文</a> · <a href=\"i18n/ja/README.md\">日本語</a> · <a href=\"i18n/ko/README.md\">한국어</a> · <a href=\"i18n/hi/README.md\">हिन्दी</a> · <a href=\"i18n/ar/README.md\">العربية</a> · <a href=\"i18n/ru/README.md\">Русский</a> · <a href=\"i18n/tr/README.md\">Türkçe</a> <br><sub>Translated landing pag"
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/475",
+        "title": "Proposal: Create a Discord community for learners and link it from the website + repository",
+        "updated_at": "2026-09-27T13:01:04Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch/pull/495",
+        "title": "fix: repair broken lesson references and guard homepage storage",
+        "updated_at": "2026-09-27T10:09:01Z",
+        "state": "closed",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/493",
+        "title": "fix: Wikipedia dataset config '20220301.en' no longer exists",
+        "updated_at": "2026-09-27T10:09:01Z",
+        "state": "closed",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch/issues/490",
+        "title": "[bug] Homepage initialization fails when localStorage is unavailable",
+        "updated_at": "2026-09-27T10:09:00Z",
+        "state": "closed",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch/pull/482",
+        "title": "feat(site): add complete lesson button at end of lesson",
+        "updated_at": "2026-09-27T09:28:56Z",
+        "state": "open",
+        "kind": "PR"
+      }
+    ]
+  },
+  "kepano/obsidian-skills": {
+    "repo": {
+      "full_name": "kepano/obsidian-skills",
+      "html_url": "https://github.com/kepano/obsidian-skills",
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "language": "",
+      "license": "MIT",
+      "stars": 48937,
+      "forks": 3487,
+      "open_issues": 73,
+      "watchers": 254,
+      "created_at": "2026-01-02T21:45:11Z",
+      "updated_at": "2026-09-27T15:43:20Z",
+      "pushed_at": "2026-09-15T14:43:57Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agents",
+        "agentskills",
+        "bases",
+        "claude",
+        "clawdbot",
+        "cli",
+        "codex",
+        "defuddle",
+        "hermes",
+        "jsoncanvas",
+        "knap",
+        "markdown",
+        "md",
+        "obsidian",
+        "openclaw",
+        "opencode",
+        "skills"
+      ],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "Agent Skills for use with Obsidian. These skills follow the [Agent Skills specification](https://agentskills.io/specification) so they can be used by any skills-compatible agent, including Claude Code, Codex, and Open Code. ## Installation ### Marketplace ``` /plugin marketplace add kepano/obsidian-skills /plugin install obsidian@obsidian-skills ``` ### npx skills ``` npx skills add git@github.com:kepano/obsidian-skills.git ``` Instead of ssh, if you prefer to use https: ``` npx skills add https://github.com/kepano/obsidian-skills ``` ### Manually #### Claude Code Add the contents of this repo to a `/.claude` folder in the root of your Obsidian vault (or whichever folder you're using with Cl"
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/kepano/obsidian-skills/pull/126",
+        "title": "docs(obsidian-cli): add sandbox/IPC troubleshooting",
+        "updated_at": "2026-09-26T03:06:02Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/kepano/obsidian-skills/pull/110",
+        "title": "Add Codex plugin marketplace support",
+        "updated_at": "2026-09-24T19:27:26Z",
+        "state": "open",
+        "kind": "PR"
+      },
+      {
+        "url": "https://github.com/kepano/obsidian-skills/issues/146",
+        "title": "Auto-update in Claude Code delivers no new content without a version bump",
+        "updated_at": "2026-09-16T17:48:55Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/kepano/obsidian-skills/issues/145",
+        "title": "Tool suggestion: spec contracts for skill collections (open source)",
+        "updated_at": "2026-09-15T16:06:08Z",
+        "state": "open",
+        "kind": "Issue"
+      },
+      {
+        "url": "https://github.com/kepano/obsidian-skills/pull/143",
+        "title": "docs: shorten Defuddle skill description",
+        "updated_at": "2026-09-15T14:43:58Z",
+        "state": "closed",
+        "kind": "PR"
+      }
+    ]
+  },
+  "ishicm/llm-wiki-skills": {
+    "repo": {
+      "full_name": "ishicm/llm-wiki-skills",
+      "html_url": "https://github.com/ishicm/llm-wiki-skills",
+      "description": "LLM Wiki is a knowledge base management skill designed for AI. It's not a search overlay for your note-taking app — it's a complete toolkit that lets LLMs autonomously create, digest, organize, and maintain knowledge.",
+      "language": "",
+      "license": "MIT",
+      "stars": 25,
+      "forks": 2,
+      "open_issues": 1,
+      "watchers": 0,
+      "created_at": "2026-04-13T13:41:31Z",
+      "updated_at": "2026-08-24T16:32:36Z",
+      "pushed_at": "2026-04-13T14:32:12Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "<div align=\"center\"> # 🧠 LLM Wiki — AI 原生知识库 Skill **让 AI 帮你打理知识，而不是反过来。** *基于Andrej Karpathy「LLM 友好型知识库」为基础逻辑，并增加渐进式匹配，构建面向AI的知识库，重新定义人与 AI 的知识协作方式。* [![Claude Skill](https://img.shields.io/badge/Claude-Skill-blueviolet?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJ3aGl0ZSIgZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6Ii8+PC9zdmc+)](https://docs.anthropic.com/) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brig"
+    },
+    "recent_activity": [
+      {
+        "url": "https://github.com/ishicm/llm-wiki-skills/issues/1",
+        "title": "\"健康检查，持续维护\"，有点标题党",
+        "updated_at": "2026-04-15T06:46:21Z",
+        "state": "open",
+        "kind": "Issue"
+      }
+    ]
+  }
+}

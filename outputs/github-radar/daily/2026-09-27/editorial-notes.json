@@ -1,0 +1,58 @@
+{
+  "vectorize-io/hindsight": [
+    "Deep research",
+    "提供可跨任務使用的 agent 記憶層。",
+    "Adam 可製作 RAG 與長期記憶比較課程；know metabiz wiki 可研究保留來源與決策脈絡。",
+    "近期 issue 回報 Windows 執行狀態偵測與 plugin reload 後未自動保存記憶；應驗證寫入、刪除、租戶隔離與錯誤記憶累積。",
+    "用公開文件比较無記憶、RAG、記憶層的引用正確率與跨次一致性。"
+  ],
+  "debpalash/VoiceStudio": [
+    "Demo content",
+    "本機語音生成、配音、轉錄與有聲書工具；README 宣稱支援多語言，實際品質待測。",
+    "Adam 可示範繁中課程配音與字幕流程；metabiz 可評估內部影音內容製作。",
+    "MCP 語音設計仍有開放 PR，不能當成已發佈功能；AGPL-3.0、模型授權、硬體需求與聲音使用同意需分別核對。",
+    "以自有或授權聲音測試繁中專有名詞、配音時間與本機記憶體用量。"
+  ],
+  "paperclipai/paperclip": [
+    "Deep research",
+    "管理工作中的多個 AI agent 與任務協作。",
+    "適合 Adam 的 AI 辦公室派工內容；metabiz 可研究內容、文件與開發任務的人工覆核流程。",
+    "近期公開 issue 回報執行紀錄可能保存原始秘密值，尚未自行重現；另有取消任務後恢復與 gateway timeout 活動，正式導入前須確認版本及修復。",
+    "僅以公開資料做三角色派工，觀察成本、取消與恢復行為。"
+  ],
+  "mvschwarz/openrig": [
+    "Watch",
+    "以 YAML 定義 agent 團隊，協同管理 Claude Code 與 Codex 工作階段。",
+    "Adam 可做雙 agent 分工示範；metabiz 可評估開發與文件任務的跨工具協作。",
+    "新版本與小基數帶來高相對熱度，但有安裝依賴、工作區定位、Codex seat 卡住等回報；issue 關閉不代表所有環境已修復。",
+    "追蹤 v0.5.17 安裝重現與 seat 卡住問題，再安排短時限 demo。"
+  ],
+  "dream-num/univer": [
+    "Demo content",
+    "提供可嵌入的試算表、文件等 Office SDK 與 agent 操作介面。",
+    "直接對應 Adam AI 辦公自動化課程，metabiz 可示範表單資料轉報表與內嵌編輯器。",
+    "README 的 PDF 仍標示 coming soon；近期 issue／PR 涉及新資料列篩選與網路請求生命週期，需驗證公式、繁中輸入及檔案往返。",
+    "使用繁中銷售報表檢查公式與新增列篩選結果。"
+  ],
+  "rohitg00/ai-engineering-from-scratch": [
+    "Reference only",
+    "從基礎實作 AI engineering 的教材與參考專案。",
+    "供 Adam 課程單元與作業設計參考；know metabiz wiki 可建立可重現實驗索引。",
+    "剛發佈 Edition 2026.10；教材連結與 dataset 設定問題已有關閉紀錄，但仍需乾淨環境重跑；首頁翻譯不等於完整繁中教材。",
+    "比較新版本修訂，重跑一個 RAG 或 agent 單元。"
+  ],
+  "kepano/obsidian-skills": [
+    "Skill candidate",
+    "將 Obsidian CLI、Markdown、Bases 與 JSON Canvas 操作整理成 agent skills。",
+    "可改編為 Adam 知識管理實作，評估 know metabiz wiki 的來源整理與連結維護。",
+    "近期 push 較慢；Codex marketplace 支援與 sandbox／IPC 說明仍有開放 PR，不能視為已可用。",
+    "先以測試 vault 驗證格式保真與回滾，再挑選單一可重用 skill。"
+  ],
+  "ishicm/llm-wiki-skills": [
+    "Reference only",
+    "讓 LLM 建立、消化與整理知識庫的 skill 範例。",
+    "與 know metabiz wiki 直接相關，可比較來源引用、增量整理與人工覆核的設計。",
+    "只有 25 星且長期未 push，唯一抽樣 issue 質疑持續維護能力；定位為設計參考，不以相關性代替成熟度。",
+    "讀取維護與健康檢查實作，確認是否有可執行流程與測試證據。"
+  ]
+}

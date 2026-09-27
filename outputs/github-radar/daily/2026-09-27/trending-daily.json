@@ -1,0 +1,47 @@
+[
+  {
+    "repo": "paperclipai/paperclip",
+    "description": "The open-source app everyone uses to manage agents at work",
+    "stars_today": "2527"
+  },
+  {
+    "repo": "vectorize-io/hindsight",
+    "description": "Hindsight: Agent Memory That Learns",
+    "stars_today": "4463"
+  },
+  {
+    "repo": "debpalash/VoiceStudio",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "stars_today": "3060"
+  },
+  {
+    "repo": "rohitg00/ai-engineering-from-scratch",
+    "description": "Learn it. Build it. Ship it for others.",
+    "stars_today": "848"
+  },
+  {
+    "repo": "InfinityLoop1308/PipePipe",
+    "description": "An open-source Android app to let you browse YouTube and other services freely.",
+    "stars_today": "139"
+  },
+  {
+    "repo": "vercel-labs/scriptc",
+    "description": "TypeScript-to-Native Compiler",
+    "stars_today": "76"
+  },
+  {
+    "repo": "mvschwarz/openrig",
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "stars_today": "114"
+  },
+  {
+    "repo": "dream-num/univer",
+    "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+    "stars_today": "920"
+  },
+  {
+    "repo": "willfaust/Madeira",
+    "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+    "stars_today": "171"
+  }
+]
