@@ -1,0 +1,38 @@
+{
+  "target_date": "2026-09-28",
+  "collection_started_at": "2026-09-29T00:10:48.689948+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "collection_completed_at": "2026-09-29T00:19:50.759374+08:00",
+  "rate_limit_status": "No rate-limit error detected; limit 10 completed, limit 5 retry not needed.",
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "trending_scope_note": "Removed hardware radar and general systems textbook; supplemented VoiceStudio AI voice repo missed by keyword filter.",
+  "dashboard_build": {
+    "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+    "exit_code": 0,
+    "artifacts_nonempty": true,
+    "warning": "Vite bundle exceeds 500 kB; nonblocking"
+  }
+}

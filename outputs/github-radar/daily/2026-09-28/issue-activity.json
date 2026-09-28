@@ -1,0 +1,818 @@
+{
+  "vectorize-io/hindsight": [
+    {
+      "number": 4892,
+      "title": "fix(docs-skill): resolve extensionless and .mdx relative links in generated skill",
+      "state": "open",
+      "created_at": "2026-09-28T16:11:11Z",
+      "updated_at": "2026-09-28T16:11:35Z",
+      "comments": 0,
+      "html_url": "https://github.com/vectorize-io/hindsight/pull/4892",
+      "is_pull_request": true
+    },
+    {
+      "number": 4889,
+      "title": "feat(extensions): operation-validator hooks for memory curation",
+      "state": "open",
+      "created_at": "2026-09-28T14:42:35Z",
+      "updated_at": "2026-09-28T16:11:09Z",
+      "comments": 0,
+      "html_url": "https://github.com/vectorize-io/hindsight/pull/4889",
+      "is_pull_request": true
+    },
+    {
+      "number": 4891,
+      "title": "hindsight doesn't work with gpt-6",
+      "state": "open",
+      "created_at": "2026-09-28T15:59:36Z",
+      "updated_at": "2026-09-28T16:01:51Z",
+      "comments": 0,
+      "html_url": "https://github.com/vectorize-io/hindsight/issues/4891",
+      "is_pull_request": false
+    },
+    {
+      "number": 4890,
+      "title": "DSH v4: injected recall message uses retired V3 plugin source wrapper",
+      "state": "open",
+      "created_at": "2026-09-28T15:42:00Z",
+      "updated_at": "2026-09-28T15:42:20Z",
+      "comments": 0,
+      "html_url": "https://github.com/vectorize-io/hindsight/issues/4890",
+      "is_pull_request": false
+    },
+    {
+      "number": 4639,
+      "title": "fix(coding-agents): emit a V4-compatible dsh recall source",
+      "state": "closed",
+      "created_at": "2026-09-23T02:38:22Z",
+      "updated_at": "2026-09-28T15:25:23Z",
+      "comments": 2,
+      "html_url": "https://github.com/vectorize-io/hindsight/pull/4639",
+      "is_pull_request": true
+    },
+    {
+      "number": 4818,
+      "title": "DSH plugin writes retired plugin source kind, rejected by session format v4",
+      "state": "open",
+      "created_at": "2026-09-26T18:07:54Z",
+      "updated_at": "2026-09-28T15:19:20Z",
+      "comments": 1,
+      "html_url": "https://github.com/vectorize-io/hindsight/issues/4818",
+      "is_pull_request": false
+    },
+    {
+      "number": 4868,
+      "title": "dsh: native plugin tools fail with gzip decode error, while the bundled MCP server works",
+      "state": "open",
+      "created_at": "2026-09-28T09:49:41Z",
+      "updated_at": "2026-09-28T14:56:47Z",
+      "comments": 3,
+      "html_url": "https://github.com/vectorize-io/hindsight/issues/4868",
+      "is_pull_request": false
+    },
+    {
+      "number": 4886,
+      "title": "Install fails on DSH: @modelcontextprotocol/sdk does not resolve from the generation closure",
+      "state": "open",
+      "created_at": "2026-09-28T14:14:24Z",
+      "updated_at": "2026-09-28T14:56:04Z",
+      "comments": 2,
+      "html_url": "https://github.com/vectorize-io/hindsight/issues/4886",
+      "is_pull_request": false
+    },
+    {
+      "number": 4651,
+      "title": "reflect (0.10.1, post-#3992 rerun): the iteration-2 tool-result call now fails 6/6 with an upstream \"empty response\" 502 instead of stalling; the agent recovers at iteration 3",
+      "state": "open",
+      "created_at": "2026-09-23T08:05:44Z",
+      "updated_at": "2026-09-28T14:47:15Z",
+      "comments": 3,
+      "html_url": "https://github.com/vectorize-io/hindsight/issues/4651",
+      "is_pull_request": false
+    },
+    {
+      "number": 4888,
+      "title": "fix(mental-models): escalate wedged delta refreshes to full regeneration",
+      "state": "open",
+      "created_at": "2026-09-28T14:38:41Z",
+      "updated_at": "2026-09-28T14:39:17Z",
+      "comments": 0,
+      "html_url": "https://github.com/vectorize-io/hindsight/pull/4888",
+      "is_pull_request": true
+    }
+  ],
+  "paperclipai/paperclip": [
+    {
+      "number": 14404,
+      "title": "fix(server): require in_review before an agent completes a review-gated issue",
+      "state": "open",
+      "created_at": "2026-09-28T14:47:35Z",
+      "updated_at": "2026-09-28T16:11:12Z",
+      "comments": 2,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14404",
+      "is_pull_request": true
+    },
+    {
+      "number": 14411,
+      "title": "fix(ui): open existing instruction files instead of blanking them on create",
+      "state": "open",
+      "created_at": "2026-09-28T15:55:38Z",
+      "updated_at": "2026-09-28T16:11:06Z",
+      "comments": 1,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14411",
+      "is_pull_request": true
+    },
+    {
+      "number": 14413,
+      "title": "fix(logging): redact cloud authentication headers",
+      "state": "open",
+      "created_at": "2026-09-28T16:01:58Z",
+      "updated_at": "2026-09-28T16:10:32Z",
+      "comments": 1,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14413",
+      "is_pull_request": true
+    },
+    {
+      "number": 14386,
+      "title": "Durable server-owned token-quota monitor",
+      "state": "open",
+      "created_at": "2026-09-28T12:39:16Z",
+      "updated_at": "2026-09-28T16:10:06Z",
+      "comments": 2,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14386",
+      "is_pull_request": true
+    },
+    {
+      "number": 14414,
+      "title": "fix(workspaces): allow larger status output for readiness checks",
+      "state": "open",
+      "created_at": "2026-09-28T16:01:59Z",
+      "updated_at": "2026-09-28T16:09:21Z",
+      "comments": 1,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14414",
+      "is_pull_request": true
+    },
+    {
+      "number": 14420,
+      "title": "feat(agents): persist agent files across tasks without revision history",
+      "state": "open",
+      "created_at": "2026-09-28T16:08:14Z",
+      "updated_at": "2026-09-28T16:09:01Z",
+      "comments": 2,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14420",
+      "is_pull_request": true
+    },
+    {
+      "number": 14421,
+      "title": "2026.916.1 fails to start against an existing instance: Blocking relations cannot contain cycles",
+      "state": "open",
+      "created_at": "2026-09-28T16:08:50Z",
+      "updated_at": "2026-09-28T16:08:50Z",
+      "comments": 0,
+      "html_url": "https://github.com/paperclipai/paperclip/issues/14421",
+      "is_pull_request": false
+    },
+    {
+      "number": 14419,
+      "title": "feat: add Antigravity CLI (agy) support to Gemini adapter",
+      "state": "open",
+      "created_at": "2026-09-28T16:08:02Z",
+      "updated_at": "2026-09-28T16:08:29Z",
+      "comments": 1,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14419",
+      "is_pull_request": true
+    },
+    {
+      "number": 14408,
+      "title": "feat: return completed handoffs to Agent Chat",
+      "state": "open",
+      "created_at": "2026-09-28T15:45:57Z",
+      "updated_at": "2026-09-28T16:08:15Z",
+      "comments": 2,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14408",
+      "is_pull_request": true
+    },
+    {
+      "number": 14024,
+      "title": "fix(runner): include Grok support in public installs with sandbox prerequisites",
+      "state": "open",
+      "created_at": "2026-09-25T15:40:58Z",
+      "updated_at": "2026-09-28T16:07:26Z",
+      "comments": 3,
+      "html_url": "https://github.com/paperclipai/paperclip/pull/14024",
+      "is_pull_request": true
+    }
+  ],
+  "mvschwarz/openrig": [
+    {
+      "number": 91,
+      "title": "fix(daemon): tolerate missing metadata mapping in readMissionReadiness (#72)",
+      "state": "closed",
+      "created_at": "2026-09-28T05:25:29Z",
+      "updated_at": "2026-09-28T13:42:35Z",
+      "comments": 7,
+      "html_url": "https://github.com/mvschwarz/openrig/pull/91",
+      "is_pull_request": true
+    },
+    {
+      "number": 96,
+      "title": "Slack: let an update item post into an earlier item's thread (--reply-to), decisions unchanged",
+      "state": "open",
+      "created_at": "2026-09-28T13:12:24Z",
+      "updated_at": "2026-09-28T13:20:53Z",
+      "comments": 1,
+      "html_url": "https://github.com/mvschwarz/openrig/issues/96",
+      "is_pull_request": false
+    },
+    {
+      "number": 93,
+      "title": "TUI: focused rig view shows \"Health Unknown · canonical health records could not be read\" when health was never fetched",
+      "state": "open",
+      "created_at": "2026-09-28T09:32:26Z",
+      "updated_at": "2026-09-28T11:23:40Z",
+      "comments": 1,
+      "html_url": "https://github.com/mvschwarz/openrig/issues/93",
+      "is_pull_request": false
+    },
+    {
+      "number": 95,
+      "title": "ci: run build, type check and all test suites on pull requests",
+      "state": "open",
+      "created_at": "2026-09-28T10:20:00Z",
+      "updated_at": "2026-09-28T10:41:31Z",
+      "comments": 1,
+      "html_url": "https://github.com/mvschwarz/openrig/pull/95",
+      "is_pull_request": true
+    },
+    {
+      "number": 72,
+      "title": "Scaffolded mission.yaml/slice.yaml have no metadata block, so readiness fails with 'mission metadata: expected a mapping' and lists zero slices",
+      "state": "closed",
+      "created_at": "2026-09-27T03:55:50Z",
+      "updated_at": "2026-09-28T09:55:02Z",
+      "comments": 2,
+      "html_url": "https://github.com/mvschwarz/openrig/issues/72",
+      "is_pull_request": false
+    },
+    {
+      "number": 88,
+      "title": "Windows Support",
+      "state": "open",
+      "created_at": "2026-09-27T23:37:57Z",
+      "updated_at": "2026-09-28T09:51:45Z",
+      "comments": 2,
+      "html_url": "https://github.com/mvschwarz/openrig/issues/88",
+      "is_pull_request": false
+    },
+    {
+      "number": 94,
+      "title": "docs: clarify Node and platform prerequisites",
+      "state": "closed",
+      "created_at": "2026-09-28T09:44:42Z",
+      "updated_at": "2026-09-28T09:48:06Z",
+      "comments": 1,
+      "html_url": "https://github.com/mvschwarz/openrig/pull/94",
+      "is_pull_request": true
+    },
+    {
+      "number": 86,
+      "title": "Claude Code 2.1.283 reports its version as the pane command, so the Claude readiness probe never returns resumed: restore fails, seats stick in attention_required, and clear-attention cannot clear them",
+      "state": "open",
+      "created_at": "2026-09-27T21:41:32Z",
+      "updated_at": "2026-09-28T07:33:53Z",
+      "comments": 2,
+      "html_url": "https://github.com/mvschwarz/openrig/issues/86",
+      "is_pull_request": false
+    },
+    {
+      "number": 85,
+      "title": "deps: better-sqlite3 ~12.9.0 so Node 24 test workers stop aborting",
+      "state": "open",
+      "created_at": "2026-09-27T21:02:24Z",
+      "updated_at": "2026-09-28T06:03:27Z",
+      "comments": 3,
+      "html_url": "https://github.com/mvschwarz/openrig/pull/85",
+      "is_pull_request": true
+    },
+    {
+      "number": 84,
+      "title": "test(daemon): update two fixtures left behind by the process-lineage move",
+      "state": "closed",
+      "created_at": "2026-09-27T21:02:20Z",
+      "updated_at": "2026-09-28T06:02:08Z",
+      "comments": 3,
+      "html_url": "https://github.com/mvschwarz/openrig/pull/84",
+      "is_pull_request": true
+    }
+  ],
+  "dream-num/univer": [
+    {
+      "number": 7775,
+      "title": "[Bug] protocol isError() treats falsy code 0 (UNDEFINED) as success",
+      "state": "open",
+      "created_at": "2026-09-28T09:41:49Z",
+      "updated_at": "2026-09-28T15:56:06Z",
+      "comments": 3,
+      "html_url": "https://github.com/dream-num/univer/issues/7775",
+      "is_pull_request": false
+    },
+    {
+      "number": 7437,
+      "title": "fix(sheets-ui): remove all selected ranges and dedupe ctrl+click selections",
+      "state": "open",
+      "created_at": "2026-08-07T09:26:38Z",
+      "updated_at": "2026-09-28T15:11:26Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/pull/7437",
+      "is_pull_request": true
+    },
+    {
+      "number": 7776,
+      "title": "fix(engine-render): round canvas backing store for fractional DPR",
+      "state": "open",
+      "created_at": "2026-09-28T15:00:49Z",
+      "updated_at": "2026-09-28T15:09:59Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/pull/7776",
+      "is_pull_request": true
+    },
+    {
+      "number": 7749,
+      "title": "fix(sheets-ui): keep IME input on the selected cell before editing",
+      "state": "open",
+      "created_at": "2026-09-26T13:28:45Z",
+      "updated_at": "2026-09-28T15:03:38Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/pull/7749",
+      "is_pull_request": true
+    },
+    {
+      "number": 7699,
+      "title": "[Bug] Formula assistant covers formula when its length is in few lines",
+      "state": "closed",
+      "created_at": "2026-09-17T11:10:32Z",
+      "updated_at": "2026-09-28T12:44:15Z",
+      "comments": 0,
+      "html_url": "https://github.com/dream-num/univer/issues/7699",
+      "is_pull_request": false
+    },
+    {
+      "number": 7744,
+      "title": "fix(sheets-formula-ui): reposition help card as formula text grows",
+      "state": "closed",
+      "created_at": "2026-09-25T08:43:36Z",
+      "updated_at": "2026-09-28T12:44:14Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/pull/7744",
+      "is_pull_request": true
+    },
+    {
+      "number": 7707,
+      "title": "Header/footer images: correct data model + DOCX export, but never render on live canvas (skeDrawings stays empty)",
+      "state": "closed",
+      "created_at": "2026-09-18T22:00:20Z",
+      "updated_at": "2026-09-28T11:28:58Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/issues/7707",
+      "is_pull_request": false
+    },
+    {
+      "number": 7765,
+      "title": "fix(ui): align docs and sheets paste controls",
+      "state": "open",
+      "created_at": "2026-09-28T04:47:05Z",
+      "updated_at": "2026-09-28T10:44:42Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/pull/7765",
+      "is_pull_request": true
+    },
+    {
+      "number": 7748,
+      "title": "[Bug] At startup error message on each tab",
+      "state": "closed",
+      "created_at": "2026-09-25T14:55:13Z",
+      "updated_at": "2026-09-28T10:40:10Z",
+      "comments": 2,
+      "html_url": "https://github.com/dream-num/univer/issues/7748",
+      "is_pull_request": false
+    },
+    {
+      "number": 7774,
+      "title": "fix(sheets-ui): select editable cell content on double-click",
+      "state": "closed",
+      "created_at": "2026-09-28T09:32:43Z",
+      "updated_at": "2026-09-28T10:39:09Z",
+      "comments": 1,
+      "html_url": "https://github.com/dream-num/univer/pull/7774",
+      "is_pull_request": true
+    }
+  ],
+  "debpalash/VoiceStudio": [
+    {
+      "number": 2400,
+      "title": "I’m working on #2374 by reusing the existing cached TTS engine path f…",
+      "state": "open",
+      "created_at": "2026-09-28T16:02:52Z",
+      "updated_at": "2026-09-28T16:11:08Z",
+      "comments": 2,
+      "html_url": "https://github.com/debpalash/VoiceStudio/pull/2400",
+      "is_pull_request": true
+    },
+    {
+      "number": 2396,
+      "title": "feat: compact engine sidebar with hardware-aware Auto presets",
+      "state": "open",
+      "created_at": "2026-09-28T13:56:35Z",
+      "updated_at": "2026-09-28T15:45:57Z",
+      "comments": 2,
+      "html_url": "https://github.com/debpalash/VoiceStudio/pull/2396",
+      "is_pull_request": true
+    },
+    {
+      "number": 2397,
+      "title": "Make LLM setup verifiable and add CLI, paid LLM, and translation providers",
+      "state": "open",
+      "created_at": "2026-09-28T13:58:51Z",
+      "updated_at": "2026-09-28T15:36:37Z",
+      "comments": 3,
+      "html_url": "https://github.com/debpalash/VoiceStudio/pull/2397",
+      "is_pull_request": true
+    },
+    {
+      "number": 2399,
+      "title": "Streaming preview (web build): every take is cut at both ends and carries a faint whistle; the saved WAV is clean",
+      "state": "open",
+      "created_at": "2026-09-28T15:15:29Z",
+      "updated_at": "2026-09-28T15:15:29Z",
+      "comments": 0,
+      "html_url": "https://github.com/debpalash/VoiceStudio/issues/2399",
+      "is_pull_request": false
+    },
+    {
+      "number": 2398,
+      "title": "[Feature] iPad Pro version for iPad OS to share with the world! Please, please, please… We love your work on this project…",
+      "state": "open",
+      "created_at": "2026-09-28T14:54:23Z",
+      "updated_at": "2026-09-28T14:54:23Z",
+      "comments": 0,
+      "html_url": "https://github.com/debpalash/VoiceStudio/issues/2398",
+      "is_pull_request": false
+    },
+    {
+      "number": 2320,
+      "title": "[Bug] RuntimeError: TTS engine stopped mid-generation with an error VoiceStudio doesn't recognize.",
+      "state": "open",
+      "created_at": "2026-09-23T23:38:27Z",
+      "updated_at": "2026-09-28T14:47:22Z",
+      "comments": 3,
+      "html_url": "https://github.com/debpalash/VoiceStudio/issues/2320",
+      "is_pull_request": false
+    },
+    {
+      "number": 2388,
+      "title": "[Bug]",
+      "state": "open",
+      "created_at": "2026-09-28T11:29:50Z",
+      "updated_at": "2026-09-28T14:46:30Z",
+      "comments": 1,
+      "html_url": "https://github.com/debpalash/VoiceStudio/issues/2388",
+      "is_pull_request": false
+    },
+    {
+      "number": 2395,
+      "title": "feat(dictation): vocabulary hint for Whisper-based dictation engines",
+      "state": "open",
+      "created_at": "2026-09-28T13:50:31Z",
+      "updated_at": "2026-09-28T14:32:15Z",
+      "comments": 3,
+      "html_url": "https://github.com/debpalash/VoiceStudio/pull/2395",
+      "is_pull_request": true
+    },
+    {
+      "number": 2359,
+      "title": "Sponsorship inquiry: I'm starting a channel and I can suggest users to use your platform in exchange for support",
+      "state": "open",
+      "created_at": "2026-09-27T03:37:19Z",
+      "updated_at": "2026-09-28T14:08:01Z",
+      "comments": 1,
+      "html_url": "https://github.com/debpalash/VoiceStudio/issues/2359",
+      "is_pull_request": false
+    },
+    {
+      "number": 2376,
+      "title": "[Bug] download: Unable to download video: [Errno 22] Invalid argument",
+      "state": "open",
+      "created_at": "2026-09-28T01:07:03Z",
+      "updated_at": "2026-09-28T14:03:46Z",
+      "comments": 1,
+      "html_url": "https://github.com/debpalash/VoiceStudio/issues/2376",
+      "is_pull_request": false
+    }
+  ],
+  "obra/superpowers": [
+    {
+      "number": 2054,
+      "title": "subagent-driven-development: reviewer prompts pay subagent turns for mechanical facts the controller can settle in one command",
+      "state": "open",
+      "created_at": "2026-07-29T14:41:25Z",
+      "updated_at": "2026-09-28T14:42:08Z",
+      "comments": 3,
+      "html_url": "https://github.com/obra/superpowers/issues/2054",
+      "is_pull_request": false
+    },
+    {
+      "number": 2414,
+      "title": "writing-plans, task-reviewer: name the colliding input behind string-shaped identity",
+      "state": "open",
+      "created_at": "2026-09-28T02:39:53Z",
+      "updated_at": "2026-09-28T14:14:51Z",
+      "comments": 0,
+      "html_url": "https://github.com/obra/superpowers/pull/2414",
+      "is_pull_request": true
+    },
+    {
+      "number": 2419,
+      "title": "0919898048483",
+      "state": "open",
+      "created_at": "2026-09-28T13:05:35Z",
+      "updated_at": "2026-09-28T13:06:21Z",
+      "comments": 2,
+      "html_url": "https://github.com/obra/superpowers/issues/2419",
+      "is_pull_request": false
+    },
+    {
+      "number": 2418,
+      "title": "0919898048483",
+      "state": "open",
+      "created_at": "2026-09-28T13:05:01Z",
+      "updated_at": "2026-09-28T13:05:01Z",
+      "comments": 0,
+      "html_url": "https://github.com/obra/superpowers/issues/2418",
+      "is_pull_request": false
+    },
+    {
+      "number": 2417,
+      "title": "offline ide",
+      "state": "open",
+      "created_at": "2026-09-28T13:04:38Z",
+      "updated_at": "2026-09-28T13:04:38Z",
+      "comments": 0,
+      "html_url": "https://github.com/obra/superpowers/issues/2417",
+      "is_pull_request": false
+    },
+    {
+      "number": 2416,
+      "title": "offline ide",
+      "state": "open",
+      "created_at": "2026-09-28T13:04:19Z",
+      "updated_at": "2026-09-28T13:04:19Z",
+      "comments": 0,
+      "html_url": "https://github.com/obra/superpowers/issues/2416",
+      "is_pull_request": false
+    },
+    {
+      "number": 2415,
+      "title": "0919898048483",
+      "state": "open",
+      "created_at": "2026-09-28T13:04:03Z",
+      "updated_at": "2026-09-28T13:04:03Z",
+      "comments": 0,
+      "html_url": "https://github.com/obra/superpowers/issues/2415",
+      "is_pull_request": false
+    },
+    {
+      "number": 2294,
+      "title": "fix(finishing): surface surviving Superpowers scratch before worktree removal",
+      "state": "open",
+      "created_at": "2026-09-13T10:22:35Z",
+      "updated_at": "2026-09-28T11:40:06Z",
+      "comments": 4,
+      "html_url": "https://github.com/obra/superpowers/pull/2294",
+      "is_pull_request": true
+    },
+    {
+      "number": 1922,
+      "title": "feat(hermes): Add Hermes Agent harness — on_session_start bootstrap injection",
+      "state": "closed",
+      "created_at": "2026-07-04T19:18:11Z",
+      "updated_at": "2026-09-28T11:36:23Z",
+      "comments": 6,
+      "html_url": "https://github.com/obra/superpowers/pull/1922",
+      "is_pull_request": true
+    },
+    {
+      "number": 2297,
+      "title": "fix(sdd): record dispatches in the ledger so outages do not re-dispatch committed work",
+      "state": "closed",
+      "created_at": "2026-09-13T13:20:43Z",
+      "updated_at": "2026-09-28T11:36:10Z",
+      "comments": 3,
+      "html_url": "https://github.com/obra/superpowers/pull/2297",
+      "is_pull_request": true
+    }
+  ],
+  "affaan-m/everything-claude-code": [
+    {
+      "number": 3022,
+      "title": "feat: add ECC Agent IR (canonical agent schema + claude->pi transpiler)",
+      "state": "open",
+      "created_at": "2026-09-08T09:46:43Z",
+      "updated_at": "2026-09-28T15:23:57Z",
+      "comments": 26,
+      "html_url": "https://github.com/affaan-m/ECC/pull/3022",
+      "is_pull_request": true
+    },
+    {
+      "number": 3254,
+      "title": "fix(learning): canonicalize observer storage paths",
+      "state": "open",
+      "created_at": "2026-09-28T13:54:43Z",
+      "updated_at": "2026-09-28T14:48:57Z",
+      "comments": 23,
+      "html_url": "https://github.com/affaan-m/ECC/pull/3254",
+      "is_pull_request": true
+    },
+    {
+      "number": 2781,
+      "title": "fix(learning): isolate observer project scope",
+      "state": "open",
+      "created_at": "2026-08-13T12:46:13Z",
+      "updated_at": "2026-09-28T13:56:39Z",
+      "comments": 9,
+      "html_url": "https://github.com/affaan-m/ECC/pull/2781",
+      "is_pull_request": true
+    },
+    {
+      "number": 3060,
+      "title": "fix(ci): validate cross-harness catalog counts",
+      "state": "open",
+      "created_at": "2026-09-10T10:48:59Z",
+      "updated_at": "2026-09-28T13:35:23Z",
+      "comments": 45,
+      "html_url": "https://github.com/affaan-m/ECC/pull/3060",
+      "is_pull_request": true
+    },
+    {
+      "number": 3169,
+      "title": "hooks.json: Claude Code warns \"unknown keys\" for id/description on all 24 matcher groups",
+      "state": "open",
+      "created_at": "2026-09-19T03:36:15Z",
+      "updated_at": "2026-09-28T13:02:12Z",
+      "comments": 2,
+      "html_url": "https://github.com/affaan-m/ECC/issues/3169",
+      "is_pull_request": false
+    },
+    {
+      "number": 3252,
+      "title": "fix(state-store): preserve concurrent writes and cleanup failures",
+      "state": "open",
+      "created_at": "2026-09-28T08:31:50Z",
+      "updated_at": "2026-09-28T11:54:22Z",
+      "comments": 20,
+      "html_url": "https://github.com/affaan-m/ECC/pull/3252",
+      "is_pull_request": true
+    },
+    {
+      "number": 3251,
+      "title": "fix: integrate reviewed contributor repairs and bounded installer tests",
+      "state": "open",
+      "created_at": "2026-09-28T07:09:31Z",
+      "updated_at": "2026-09-28T11:34:52Z",
+      "comments": 40,
+      "html_url": "https://github.com/affaan-m/ECC/pull/3251",
+      "is_pull_request": true
+    },
+    {
+      "number": 2968,
+      "title": "docs(bun): document Bun 1.4 with precise isolation and audit limits",
+      "state": "open",
+      "created_at": "2026-09-05T09:33:46Z",
+      "updated_at": "2026-09-28T11:27:56Z",
+      "comments": 11,
+      "html_url": "https://github.com/affaan-m/ECC/pull/2968",
+      "is_pull_request": true
+    },
+    {
+      "number": 2835,
+      "title": "fix(hooks): protect shared linter configs without blocking Biome results",
+      "state": "open",
+      "created_at": "2026-08-21T14:32:44Z",
+      "updated_at": "2026-09-28T11:20:08Z",
+      "comments": 12,
+      "html_url": "https://github.com/affaan-m/ECC/pull/2835",
+      "is_pull_request": true
+    },
+    {
+      "number": 2965,
+      "title": "fix(hooks): classify shell context before blocking Git hook bypasses",
+      "state": "open",
+      "created_at": "2026-09-05T01:48:32Z",
+      "updated_at": "2026-09-28T11:13:44Z",
+      "comments": 26,
+      "html_url": "https://github.com/affaan-m/ECC/pull/2965",
+      "is_pull_request": true
+    }
+  ],
+  "infiniflow/ragflow": [
+    {
+      "number": 20232,
+      "title": "Feat: add a highlight switch to retrieval nodes",
+      "state": "open",
+      "created_at": "2026-09-25T06:28:10Z",
+      "updated_at": "2026-09-28T15:54:24Z",
+      "comments": 1,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20232",
+      "is_pull_request": true
+    },
+    {
+      "number": 20326,
+      "title": "fix(ingest): fold title / question / important *_tks to lowercase (#20304 follow-up)",
+      "state": "open",
+      "created_at": "2026-09-28T15:31:22Z",
+      "updated_at": "2026-09-28T15:39:13Z",
+      "comments": 1,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20326",
+      "is_pull_request": true
+    },
+    {
+      "number": 20091,
+      "title": "[Bug]: OpenDataLoader, TCADP and SoMark PDF parsers label text that is not <table> markup as doc_type_kwd \"table\"",
+      "state": "closed",
+      "created_at": "2026-09-23T05:00:27Z",
+      "updated_at": "2026-09-28T15:26:59Z",
+      "comments": 1,
+      "html_url": "https://github.com/infiniflow/ragflow/issues/20091",
+      "is_pull_request": false
+    },
+    {
+      "number": 20277,
+      "title": "fix(go): stop leaking password hash and access token in user API responses",
+      "state": "closed",
+      "created_at": "2026-09-28T05:24:10Z",
+      "updated_at": "2026-09-28T15:14:39Z",
+      "comments": 1,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20277",
+      "is_pull_request": true
+    },
+    {
+      "number": 20325,
+      "title": "fix(ingest): fold content_ltks / content_sm_ltks to lowercase at the ingest path (#20304)",
+      "state": "open",
+      "created_at": "2026-09-28T14:30:22Z",
+      "updated_at": "2026-09-28T14:44:02Z",
+      "comments": 1,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20325",
+      "is_pull_request": true
+    },
+    {
+      "number": 20241,
+      "title": "feat(connector): encrypt connector credentials at rest",
+      "state": "open",
+      "created_at": "2026-09-25T19:00:35Z",
+      "updated_at": "2026-09-28T14:39:36Z",
+      "comments": 1,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20241",
+      "is_pull_request": true
+    },
+    {
+      "number": 20136,
+      "title": "fix(task): queue one PDF task for PaddleOCR, SoMark and TCADP",
+      "state": "open",
+      "created_at": "2026-09-23T15:36:24Z",
+      "updated_at": "2026-09-28T14:36:52Z",
+      "comments": 2,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20136",
+      "is_pull_request": true
+    },
+    {
+      "number": 20090,
+      "title": "fix(parser): match the .eml extension in any case",
+      "state": "open",
+      "created_at": "2026-09-23T04:49:09Z",
+      "updated_at": "2026-09-28T14:25:55Z",
+      "comments": 5,
+      "html_url": "https://github.com/infiniflow/ragflow/pull/20090",
+      "is_pull_request": true
+    },
+    {
+      "number": 20304,
+      "title": "Search misses OCR terms when indexed and query casing differ",
+      "state": "open",
+      "created_at": "2026-09-28T09:30:22Z",
+      "updated_at": "2026-09-28T14:10:32Z",
+      "comments": 2,
+      "html_url": "https://github.com/infiniflow/ragflow/issues/20304",
+      "is_pull_request": false
+    },
+    {
+      "number": 20324,
+      "title": "GHSA-wpg4-h5g2-jxm6: document the existing fix and first patched release",
+      "state": "open",
+      "created_at": "2026-09-28T13:12:55Z",
+      "updated_at": "2026-09-28T13:12:55Z",
+      "comments": 0,
+      "html_url": "https://github.com/infiniflow/ragflow/issues/20324",
+      "is_pull_request": false
+    }
+  ]
+}
