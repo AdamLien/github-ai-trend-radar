@@ -1,0 +1,5 @@
+{
+  "ssh_remote": true,
+  "authorized": true,
+  "read_access_exit_code": 0
+}

@@ -1,0 +1,41 @@
+{
+  "target_date": "2026-09-29",
+  "started_at": "2026-09-30T00:11:03.764261+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "rate_limit_detected": false,
+  "finished_at": "2026-09-30T00:19:20.490217+08:00",
+  "repo_count": 326,
+  "trending_retained": 9,
+  "excluded_repos": [
+    "averygan/reclip",
+    "cs341-illinois/coursebook",
+    "oblien/openship",
+    "rakyll/hey",
+    "willfaust/Madeira"
+  ],
+  "metadata_fallback_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "scope_note": "人工語意篩選 Trending；VoiceStudio 依語音 AI 功能補正來源；歷史追蹤資料保留，已知不相關項目排除。"
+}

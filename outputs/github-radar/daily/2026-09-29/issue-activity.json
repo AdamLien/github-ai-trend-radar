@@ -1,0 +1,851 @@
+{
+  "observed_at": "2026-09-29T16:11:59.690134+00:00",
+  "repos": {
+    "debpalash/VoiceStudio": {
+      "items": [
+        {
+          "number": 2435,
+          "title": "Bound VoxCPM2 sidecar generation",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2435",
+          "state": "open",
+          "updated_at": "2026-09-29T16:11:07Z",
+          "created_at": "2026-09-29T16:05:39Z",
+          "is_pr": true
+        },
+        {
+          "number": 2433,
+          "title": "fix(report): include arch and active ASR engine in bug reports",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2433",
+          "state": "open",
+          "updated_at": "2026-09-29T16:04:17Z",
+          "created_at": "2026-09-29T15:51:41Z",
+          "is_pr": true
+        },
+        {
+          "number": 2431,
+          "title": "fix(call-agent): never speak reasoning prefilled by the chat template (#2428)",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2431",
+          "state": "open",
+          "updated_at": "2026-09-29T16:01:51Z",
+          "created_at": "2026-09-29T15:24:49Z",
+          "is_pr": true
+        },
+        {
+          "number": 2434,
+          "title": "[Bug] Stories WebVTT import silently drops cues named STYLE or REGION",
+          "html_url": "https://github.com/debpalash/VoiceStudio/issues/2434",
+          "state": "open",
+          "updated_at": "2026-09-29T15:58:18Z",
+          "created_at": "2026-09-29T15:58:18Z",
+          "is_pr": false
+        },
+        {
+          "number": 2432,
+          "title": "docs(licensing): add the Commercial License client verification and test guide",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2432",
+          "state": "open",
+          "updated_at": "2026-09-29T15:54:33Z",
+          "created_at": "2026-09-29T15:44:51Z",
+          "is_pr": true
+        },
+        {
+          "number": 2387,
+          "title": "fix(setup): gate Intel Macs in preflight before any download",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2387",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:49:26Z",
+          "created_at": "2026-09-28T11:09:02Z",
+          "is_pr": true
+        },
+        {
+          "number": 2412,
+          "title": "fix(voxcpm2): bound sidecar generation work",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2412",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:48:12Z",
+          "created_at": "2026-09-28T23:16:13Z",
+          "is_pr": true
+        },
+        {
+          "number": 2410,
+          "title": "fix(settings): allow installed packs below reserve",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2410",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:47:07Z",
+          "created_at": "2026-09-28T22:04:28Z",
+          "is_pr": true
+        },
+        {
+          "number": 2409,
+          "title": "fix(audio): preserve streaming preview edges",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2409",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:47:03Z",
+          "created_at": "2026-09-28T21:58:50Z",
+          "is_pr": true
+        },
+        {
+          "number": 2402,
+          "title": "fix(db-backup): never list a torn partial snapshot as a backup",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2402",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:46:58Z",
+          "created_at": "2026-09-28T16:52:47Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "NVIDIA/OpenShell": {
+      "items": [
+        {
+          "number": 3864,
+          "title": "test(e2e): remove schema parity campaign",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3864",
+          "state": "open",
+          "updated_at": "2026-09-29T16:11:50Z",
+          "created_at": "2026-09-29T16:10:58Z",
+          "is_pr": true
+        },
+        {
+          "number": 3866,
+          "title": "test(conformance): run driver suites with cargo",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3866",
+          "state": "open",
+          "updated_at": "2026-09-29T16:11:53Z",
+          "created_at": "2026-09-29T16:11:20Z",
+          "is_pr": true
+        },
+        {
+          "number": 3796,
+          "title": "feat(service): add bearer authorization passthrough",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3796",
+          "state": "open",
+          "updated_at": "2026-09-29T16:10:28Z",
+          "created_at": "2026-09-28T20:40:56Z",
+          "is_pr": true
+        },
+        {
+          "number": 3852,
+          "title": "fix(supervisor): restore canonical stdin after connection loss",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3852",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:20Z",
+          "created_at": "2026-09-29T14:03:24Z",
+          "is_pr": true
+        },
+        {
+          "number": 3275,
+          "title": "chore(build): remove bundled Z3 support",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3275",
+          "state": "open",
+          "updated_at": "2026-09-29T16:07:56Z",
+          "created_at": "2026-09-11T10:25:35Z",
+          "is_pr": true
+        },
+        {
+          "number": 3775,
+          "title": "refactor(providers)!: declare imported profile behavior safely",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3775",
+          "state": "open",
+          "updated_at": "2026-09-29T16:06:39Z",
+          "created_at": "2026-09-28T13:35:55Z",
+          "is_pr": true
+        },
+        {
+          "number": 3861,
+          "title": "fix(network): preserve pipelined requests after chunked inspection",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3861",
+          "state": "open",
+          "updated_at": "2026-09-29T16:06:26Z",
+          "created_at": "2026-09-29T15:21:57Z",
+          "is_pr": true
+        },
+        {
+          "number": 3863,
+          "title": "bug(e2e): required Podman e2e lanes cannot pass on macOS hosts and cannot be excluded locally",
+          "html_url": "https://github.com/NVIDIA/OpenShell/issues/3863",
+          "state": "open",
+          "updated_at": "2026-09-29T16:02:20Z",
+          "created_at": "2026-09-29T16:02:09Z",
+          "is_pr": false
+        },
+        {
+          "number": 2911,
+          "title": "feat(audit): emit structured gateway control-plane mutation events",
+          "html_url": "https://github.com/NVIDIA/OpenShell/issues/2911",
+          "state": "open",
+          "updated_at": "2026-09-29T15:57:10Z",
+          "created_at": "2026-08-24T18:34:50Z",
+          "is_pr": false
+        },
+        {
+          "number": 2591,
+          "title": "feat(sandbox): add server-managed expiration leases",
+          "html_url": "https://github.com/NVIDIA/OpenShell/issues/2591",
+          "state": "open",
+          "updated_at": "2026-09-29T15:57:09Z",
+          "created_at": "2026-08-02T20:51:02Z",
+          "is_pr": false
+        }
+      ]
+    },
+    "vectorize-io/hindsight": {
+      "items": [
+        {
+          "number": 4944,
+          "title": "feat(consolidation): fair group selection for the consolidation fetch",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4944",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:41Z",
+          "created_at": "2026-09-29T16:09:24Z",
+          "is_pr": true
+        },
+        {
+          "number": 4387,
+          "title": "feat(coding-agents): add WorkBuddy and CodeBuddy harnesses",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4387",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:04Z",
+          "created_at": "2026-09-15T08:33:59Z",
+          "is_pr": true
+        },
+        {
+          "number": 4942,
+          "title": "fix(coding-agents): deepen waits out 429s instead of dropping history",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4942",
+          "state": "closed",
+          "updated_at": "2026-09-29T16:08:08Z",
+          "created_at": "2026-09-29T15:38:31Z",
+          "is_pr": true
+        },
+        {
+          "number": 4943,
+          "title": "fix(recall): hand full_recall the temporal window as the tuple it declares",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4943",
+          "state": "open",
+          "updated_at": "2026-09-29T16:05:13Z",
+          "created_at": "2026-09-29T15:57:12Z",
+          "is_pr": true
+        },
+        {
+          "number": 4872,
+          "title": "fix(coding-agents): drop duplicate markdown copy in getPage response",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4872",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:49:23Z",
+          "created_at": "2026-09-28T10:40:16Z",
+          "is_pr": true
+        },
+        {
+          "number": 4936,
+          "title": "fix(embed): keep the parent's PYTHONPATH out of the uvx hindsight-api daemon",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4936",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:31:28Z",
+          "created_at": "2026-09-29T14:22:46Z",
+          "is_pr": true
+        },
+        {
+          "number": 4941,
+          "title": "FullRecallRequest.temporal_window receives a TemporalWindow model instead of the declared (start, end) tuple",
+          "html_url": "https://github.com/vectorize-io/hindsight/issues/4941",
+          "state": "open",
+          "updated_at": "2026-09-29T15:29:15Z",
+          "created_at": "2026-09-29T15:28:59Z",
+          "is_pr": false
+        },
+        {
+          "number": 4940,
+          "title": "feat(hermes): add opt-in worktree-aware gitProject bank routing",
+          "html_url": "https://github.com/vectorize-io/hindsight/pull/4940",
+          "state": "open",
+          "updated_at": "2026-09-29T15:18:13Z",
+          "created_at": "2026-09-29T15:05:00Z",
+          "is_pr": true
+        },
+        {
+          "number": 4594,
+          "title": "session_end transcript fallback never loads with SQLite-backed OpenClaw transcripts - un-retained turns silently lost at session end",
+          "html_url": "https://github.com/vectorize-io/hindsight/issues/4594",
+          "state": "open",
+          "updated_at": "2026-09-29T15:04:51Z",
+          "created_at": "2026-09-21T20:44:40Z",
+          "is_pr": false
+        },
+        {
+          "number": 4828,
+          "title": "openclaw plugin: auto-retain silently does nothing after OpenClaw reloads the plugin registry (recall keeps working)",
+          "html_url": "https://github.com/vectorize-io/hindsight/issues/4828",
+          "state": "open",
+          "updated_at": "2026-09-29T15:04:48Z",
+          "created_at": "2026-09-27T05:52:49Z",
+          "is_pr": false
+        }
+      ]
+    },
+    "paperclipai/paperclip": {
+      "items": [
+        {
+          "number": 14582,
+          "title": "fix(runner): keep the OpenCode session event stream open across turns",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14582",
+          "state": "open",
+          "updated_at": "2026-09-29T16:11:10Z",
+          "created_at": "2026-09-29T15:37:15Z",
+          "is_pr": true
+        },
+        {
+          "number": 14588,
+          "title": "docs(deploy): add AWS EKS and App Runner deployment guides",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14588",
+          "state": "open",
+          "updated_at": "2026-09-29T16:10:17Z",
+          "created_at": "2026-09-29T16:10:17Z",
+          "is_pr": true
+        },
+        {
+          "number": 14585,
+          "title": "fix(sentry): preserve run failure stacks and diagnostic context",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14585",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:58Z",
+          "created_at": "2026-09-29T15:42:29Z",
+          "is_pr": true
+        },
+        {
+          "number": 14346,
+          "title": "fix(adapters): retry Hermes gateway run-create on 429 with jittered backoff",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14346",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:25Z",
+          "created_at": "2026-09-28T05:58:54Z",
+          "is_pr": true
+        },
+        {
+          "number": 14577,
+          "title": "fix(runner): allow mention replies and defer personal app authorization",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14577",
+          "state": "open",
+          "updated_at": "2026-09-29T16:05:50Z",
+          "created_at": "2026-09-29T15:22:22Z",
+          "is_pr": true
+        },
+        {
+          "number": 14587,
+          "title": "npm distribution ships without pnpm patchedDependencies → codex_local ACP agents have no network access",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/14587",
+          "state": "open",
+          "updated_at": "2026-09-29T16:04:39Z",
+          "created_at": "2026-09-29T16:04:39Z",
+          "is_pr": false
+        },
+        {
+          "number": 14586,
+          "title": "Add a company skill coverage grid",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14586",
+          "state": "open",
+          "updated_at": "2026-09-29T16:02:29Z",
+          "created_at": "2026-09-29T15:56:20Z",
+          "is_pr": true
+        },
+        {
+          "number": 14525,
+          "title": "fix: keep local agent API access and todo disposition repair reliable",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14525",
+          "state": "open",
+          "updated_at": "2026-09-29T15:59:04Z",
+          "created_at": "2026-09-29T05:57:06Z",
+          "is_pr": true
+        },
+        {
+          "number": 14583,
+          "title": "test(ui): keep workspace copy feedback assertions stable under CI load",
+          "html_url": "https://github.com/paperclipai/paperclip/pull/14583",
+          "state": "open",
+          "updated_at": "2026-09-29T15:59:03Z",
+          "created_at": "2026-09-29T15:38:32Z",
+          "is_pr": true
+        },
+        {
+          "number": 13804,
+          "title": "multilineTextSchema silently rewrites literal backslash-r/backslash-n to newline, corrupting Windows paths in issue/comment text",
+          "html_url": "https://github.com/paperclipai/paperclip/issues/13804",
+          "state": "open",
+          "updated_at": "2026-09-29T15:53:35Z",
+          "created_at": "2026-09-22T12:10:29Z",
+          "is_pr": false
+        }
+      ]
+    },
+    "t8y2/dbx": {
+      "items": [
+        {
+          "number": 10676,
+          "title": "[Bug] Debian配置连接postgres无法保存",
+          "html_url": "https://github.com/t8y2/dbx/issues/10676",
+          "state": "open",
+          "updated_at": "2026-09-29T16:08:16Z",
+          "created_at": "2026-09-29T12:17:57Z",
+          "is_pr": false
+        },
+        {
+          "number": 10687,
+          "title": "feat(grid): render HTML in value conversion preview",
+          "html_url": "https://github.com/t8y2/dbx/pull/10687",
+          "state": "open",
+          "updated_at": "2026-09-29T16:01:00Z",
+          "created_at": "2026-09-29T15:56:51Z",
+          "is_pr": true
+        },
+        {
+          "number": 10686,
+          "title": "[Bug] tdengine无法连接",
+          "html_url": "https://github.com/t8y2/dbx/issues/10686",
+          "state": "open",
+          "updated_at": "2026-09-29T15:39:39Z",
+          "created_at": "2026-09-29T15:38:48Z",
+          "is_pr": false
+        },
+        {
+          "number": 10667,
+          "title": "[Bug] temporal 字段在值编辑器/单元格详情失焦不提交，单元格不显示待保存标黄，交互不一致",
+          "html_url": "https://github.com/t8y2/dbx/issues/10667",
+          "state": "open",
+          "updated_at": "2026-09-29T15:39:10Z",
+          "created_at": "2026-09-29T09:48:39Z",
+          "is_pr": false
+        },
+        {
+          "number": 10685,
+          "title": "fix(postgres): export enum types and preserve index ordering",
+          "html_url": "https://github.com/t8y2/dbx/pull/10685",
+          "state": "open",
+          "updated_at": "2026-09-29T15:24:54Z",
+          "created_at": "2026-09-29T15:12:26Z",
+          "is_pr": true
+        },
+        {
+          "number": 10684,
+          "title": "[Bug] 升级到0.6.27后查询duckdb时间变长",
+          "html_url": "https://github.com/t8y2/dbx/issues/10684",
+          "state": "open",
+          "updated_at": "2026-09-29T15:09:12Z",
+          "created_at": "2026-09-29T15:06:57Z",
+          "is_pr": false
+        },
+        {
+          "number": 10683,
+          "title": "feat(grid): add configurable shortcut to focus WHERE condition",
+          "html_url": "https://github.com/t8y2/dbx/pull/10683",
+          "state": "open",
+          "updated_at": "2026-09-29T14:45:54Z",
+          "created_at": "2026-09-29T14:45:03Z",
+          "is_pr": true
+        },
+        {
+          "number": 10610,
+          "title": "feat(xugu): add visual user and privilege management",
+          "html_url": "https://github.com/t8y2/dbx/pull/10610",
+          "state": "closed",
+          "updated_at": "2026-09-29T14:45:42Z",
+          "created_at": "2026-09-29T03:42:54Z",
+          "is_pr": true
+        },
+        {
+          "number": 10501,
+          "title": "[Feature] \"比较数据\" 功能期望增加保存配置功能",
+          "html_url": "https://github.com/t8y2/dbx/issues/10501",
+          "state": "open",
+          "updated_at": "2026-09-29T14:39:01Z",
+          "created_at": "2026-09-28T09:25:12Z",
+          "is_pr": false
+        },
+        {
+          "number": 10639,
+          "title": "[Feature] 表头右键菜单增加自适应宽度选项",
+          "html_url": "https://github.com/t8y2/dbx/issues/10639",
+          "state": "closed",
+          "updated_at": "2026-09-29T14:34:39Z",
+          "created_at": "2026-09-29T07:12:01Z",
+          "is_pr": false
+        }
+      ]
+    },
+    "mvschwarz/openrig": {
+      "items": [
+        {
+          "number": 149,
+          "title": "fix(security): prevent SSRF in notifications, drive-by CSRF on API, and pairing queue flooding",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/149",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:38Z",
+          "created_at": "2026-09-29T15:38:36Z",
+          "is_pr": true
+        },
+        {
+          "number": 147,
+          "title": "Add provider choices and permission guidance to first-project setup",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/147",
+          "state": "open",
+          "updated_at": "2026-09-29T16:09:25Z",
+          "created_at": "2026-09-29T15:12:57Z",
+          "is_pr": true
+        },
+        {
+          "number": 146,
+          "title": "fix(bundle): install v2 bundles into --target and resolve paths on the client",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/146",
+          "state": "open",
+          "updated_at": "2026-09-29T16:07:57Z",
+          "created_at": "2026-09-29T15:12:51Z",
+          "is_pr": true
+        },
+        {
+          "number": 41,
+          "title": "Operator recovery cannot reconcile Pi and OMP seats to operator_recovered",
+          "html_url": "https://github.com/mvschwarz/openrig/issues/41",
+          "state": "open",
+          "updated_at": "2026-09-29T16:06:01Z",
+          "created_at": "2026-09-25T02:58:35Z",
+          "is_pr": false
+        },
+        {
+          "number": 30,
+          "title": "Feature request: Codex `full_bypass` should bypass approvals too, and seat permission policy should be updatable on existing seats",
+          "html_url": "https://github.com/mvschwarz/openrig/issues/30",
+          "state": "closed",
+          "updated_at": "2026-09-29T16:05:48Z",
+          "created_at": "2026-09-24T10:04:58Z",
+          "is_pr": false
+        },
+        {
+          "number": 27,
+          "title": "FEATURE: Context & Compaction",
+          "html_url": "https://github.com/mvschwarz/openrig/issues/27",
+          "state": "open",
+          "updated_at": "2026-09-29T16:05:40Z",
+          "created_at": "2026-09-24T08:50:14Z",
+          "is_pr": false
+        },
+        {
+          "number": 26,
+          "title": "Rig opens an empty terminal + the rig screen in Herdr.",
+          "html_url": "https://github.com/mvschwarz/openrig/issues/26",
+          "state": "open",
+          "updated_at": "2026-09-29T16:05:29Z",
+          "created_at": "2026-09-24T08:46:06Z",
+          "is_pr": false
+        },
+        {
+          "number": 121,
+          "title": "Codex seats in a git worktree: --add-dir <cwd>/.git (a file) breaks the bubblewrap sandbox for every command",
+          "html_url": "https://github.com/mvschwarz/openrig/issues/121",
+          "state": "open",
+          "updated_at": "2026-09-29T16:05:12Z",
+          "created_at": "2026-09-29T05:23:05Z",
+          "is_pr": false
+        },
+        {
+          "number": 148,
+          "title": "test(daemon): give successful launch fixtures a startup context and adapter",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/148",
+          "state": "closed",
+          "updated_at": "2026-09-29T16:02:02Z",
+          "created_at": "2026-09-29T15:34:16Z",
+          "is_pr": true
+        },
+        {
+          "number": 112,
+          "title": "fix(kernel): show selected variant in library",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/112",
+          "state": "open",
+          "updated_at": "2026-09-29T15:40:46Z",
+          "created_at": "2026-09-28T20:48:00Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "VectifyAI/PageIndex": {
+      "items": [
+        {
+          "number": 538,
+          "title": "ci(publish): gate releases on the live cloud tests again",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/538",
+          "state": "closed",
+          "updated_at": "2026-09-29T15:50:17Z",
+          "created_at": "2026-09-29T15:42:41Z",
+          "is_pr": true
+        },
+        {
+          "number": 456,
+          "title": "fix: DocStore.lock() is a no-op mutex on Windows",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/456",
+          "state": "open",
+          "updated_at": "2026-09-29T13:43:28Z",
+          "created_at": "2026-09-01T11:57:33Z",
+          "is_pr": true
+        },
+        {
+          "number": 537,
+          "title": "ci(publish): run the release gate without the live cloud tests",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/537",
+          "state": "closed",
+          "updated_at": "2026-09-28T14:01:05Z",
+          "created_at": "2026-09-28T13:54:54Z",
+          "is_pr": true
+        },
+        {
+          "number": 485,
+          "title": "fix: support Windows file locking in DocStore and fix cross-platform test compatibility",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/485",
+          "state": "open",
+          "updated_at": "2026-09-28T05:28:56Z",
+          "created_at": "2026-09-05T17:45:24Z",
+          "is_pr": true
+        },
+        {
+          "number": 536,
+          "title": "Support ScreenContextAgent observations as a time-aware source",
+          "html_url": "https://github.com/VectifyAI/PageIndex/issues/536",
+          "state": "open",
+          "updated_at": "2026-09-27T07:41:43Z",
+          "created_at": "2026-09-27T07:41:43Z",
+          "is_pr": false
+        },
+        {
+          "number": 483,
+          "title": "feat: add support for parsing and indexing plain text (.txt) files",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/483",
+          "state": "open",
+          "updated_at": "2026-09-25T09:19:21Z",
+          "created_at": "2026-09-05T10:05:21Z",
+          "is_pr": true
+        },
+        {
+          "number": 480,
+          "title": "refactor: replace deprecated PyPDF2 with pypdf",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/480",
+          "state": "open",
+          "updated_at": "2026-09-25T09:18:18Z",
+          "created_at": "2026-09-05T09:29:22Z",
+          "is_pr": true
+        },
+        {
+          "number": 450,
+          "title": "feat: add document completion polling helper",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/450",
+          "state": "open",
+          "updated_at": "2026-09-25T09:14:34Z",
+          "created_at": "2026-08-31T08:59:46Z",
+          "is_pr": true
+        },
+        {
+          "number": 432,
+          "title": "perf: summaries run deepest-first and start while expand is still deciding",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/432",
+          "state": "closed",
+          "updated_at": "2026-09-24T11:42:46Z",
+          "created_at": "2026-08-26T14:20:09Z",
+          "is_pr": true
+        },
+        {
+          "number": 443,
+          "title": "Anthropic lanes: send the model as written; the prefix picks the route",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/443",
+          "state": "closed",
+          "updated_at": "2026-09-24T11:20:37Z",
+          "created_at": "2026-08-28T12:59:20Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "dream-num/univer": {
+      "items": [
+        {
+          "number": 7794,
+          "title": "fix(engine-formula): treat non-canonical number literals as numbers",
+          "html_url": "https://github.com/dream-num/univer/pull/7794",
+          "state": "open",
+          "updated_at": "2026-09-29T15:24:39Z",
+          "created_at": "2026-09-29T15:15:41Z",
+          "is_pr": true
+        },
+        {
+          "number": 7793,
+          "title": "[Bug] Formula number literals like 12.50, .5, 007 and 1E3 are treated as text",
+          "html_url": "https://github.com/dream-num/univer/issues/7793",
+          "state": "open",
+          "updated_at": "2026-09-29T15:14:15Z",
+          "created_at": "2026-09-29T15:14:15Z",
+          "is_pr": false
+        },
+        {
+          "number": 7791,
+          "title": "feat(sheets): animate cell selection transitions",
+          "html_url": "https://github.com/dream-num/univer/pull/7791",
+          "state": "open",
+          "updated_at": "2026-09-29T13:17:55Z",
+          "created_at": "2026-09-29T13:11:50Z",
+          "is_pr": true
+        },
+        {
+          "number": 7792,
+          "title": "fix(sheets-drawing): correct default anchors and move-only resizing",
+          "html_url": "https://github.com/dream-num/univer/pull/7792",
+          "state": "open",
+          "updated_at": "2026-09-29T13:17:46Z",
+          "created_at": "2026-09-29T13:14:24Z",
+          "is_pr": true
+        },
+        {
+          "number": 7790,
+          "title": "fix(sheets): restore cell editor keyboard shortcuts",
+          "html_url": "https://github.com/dream-num/univer/pull/7790",
+          "state": "open",
+          "updated_at": "2026-09-29T13:09:41Z",
+          "created_at": "2026-09-29T13:03:25Z",
+          "is_pr": true
+        },
+        {
+          "number": 7789,
+          "title": "fix(sheets-ui): align cell editor selection border",
+          "html_url": "https://github.com/dream-num/univer/pull/7789",
+          "state": "closed",
+          "updated_at": "2026-09-29T12:25:19Z",
+          "created_at": "2026-09-29T11:53:41Z",
+          "is_pr": true
+        },
+        {
+          "number": 7788,
+          "title": "fix(ui): set toolbar button padding axes explicitly",
+          "html_url": "https://github.com/dream-num/univer/pull/7788",
+          "state": "closed",
+          "updated_at": "2026-09-29T12:25:06Z",
+          "created_at": "2026-09-29T11:46:13Z",
+          "is_pr": true
+        },
+        {
+          "number": 7787,
+          "title": "fix(sheets-ui): preserve cell edit position on double click",
+          "html_url": "https://github.com/dream-num/univer/pull/7787",
+          "state": "closed",
+          "updated_at": "2026-09-29T12:23:57Z",
+          "created_at": "2026-09-29T11:38:44Z",
+          "is_pr": true
+        },
+        {
+          "number": 7786,
+          "title": "fix(sheets): keep wrap and shrink-to-fit styles mutually exclusive",
+          "html_url": "https://github.com/dream-num/univer/pull/7786",
+          "state": "closed",
+          "updated_at": "2026-09-29T12:19:55Z",
+          "created_at": "2026-09-29T10:58:07Z",
+          "is_pr": true
+        },
+        {
+          "number": 7785,
+          "title": "fix(tsdown): write package.json updates atomically",
+          "html_url": "https://github.com/dream-num/univer/pull/7785",
+          "state": "closed",
+          "updated_at": "2026-09-29T08:06:28Z",
+          "created_at": "2026-09-29T07:58:12Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "affaan-m/ECC": {
+      "items": [
+        {
+          "number": 3260,
+          "title": "continuous-learning v1 is inert — evaluate-session.js signals on stderr, which never reaches the model",
+          "html_url": "https://github.com/affaan-m/ECC/issues/3260",
+          "state": "open",
+          "updated_at": "2026-09-29T15:35:17Z",
+          "created_at": "2026-09-29T15:35:17Z",
+          "is_pr": false
+        },
+        {
+          "number": 3231,
+          "title": "Feat/update tinystruct patterns skill",
+          "html_url": "https://github.com/affaan-m/ECC/pull/3231",
+          "state": "open",
+          "updated_at": "2026-09-29T15:09:50Z",
+          "created_at": "2026-09-24T13:24:53Z",
+          "is_pr": true
+        },
+        {
+          "number": 2856,
+          "title": "feat: add Grok Build plugin and marketplace support",
+          "html_url": "https://github.com/affaan-m/ECC/pull/2856",
+          "state": "open",
+          "updated_at": "2026-09-29T14:33:43Z",
+          "created_at": "2026-08-24T08:15:05Z",
+          "is_pr": true
+        },
+        {
+          "number": 3238,
+          "title": "[Idea] Replace FluentAssertions with AwesomeAssertions",
+          "html_url": "https://github.com/affaan-m/ECC/issues/3238",
+          "state": "open",
+          "updated_at": "2026-09-29T14:12:26Z",
+          "created_at": "2026-09-25T03:23:52Z",
+          "is_pr": false
+        },
+        {
+          "number": 3243,
+          "title": "fix(control-pane): add non-color risk cues to the control-plane view",
+          "html_url": "https://github.com/affaan-m/ECC/pull/3243",
+          "state": "open",
+          "updated_at": "2026-09-29T14:07:50Z",
+          "created_at": "2026-09-26T22:53:11Z",
+          "is_pr": true
+        },
+        {
+          "number": 3259,
+          "title": "skills-health.js requires missing ./lib/skill-evolution/health in managed installs",
+          "html_url": "https://github.com/affaan-m/ECC/issues/3259",
+          "state": "open",
+          "updated_at": "2026-09-29T10:22:50Z",
+          "created_at": "2026-09-29T10:22:50Z",
+          "is_pr": false
+        },
+        {
+          "number": 2943,
+          "title": "feat(skills): add read-only docs governance audit",
+          "html_url": "https://github.com/affaan-m/ECC/pull/2943",
+          "state": "open",
+          "updated_at": "2026-09-29T09:49:32Z",
+          "created_at": "2026-09-03T02:14:56Z",
+          "is_pr": true
+        },
+        {
+          "number": 3258,
+          "title": "[Problem]",
+          "html_url": "https://github.com/affaan-m/ECC/issues/3258",
+          "state": "open",
+          "updated_at": "2026-09-29T07:35:40Z",
+          "created_at": "2026-09-29T07:35:40Z",
+          "is_pr": false
+        },
+        {
+          "number": 3057,
+          "title": "fix: serialize Claude tool-use round trips",
+          "html_url": "https://github.com/affaan-m/ECC/pull/3057",
+          "state": "open",
+          "updated_at": "2026-09-29T07:22:02Z",
+          "created_at": "2026-09-10T05:26:55Z",
+          "is_pr": true
+        },
+        {
+          "number": 3189,
+          "title": "feat(hooks): enforce high-confidence instincts at PreToolUse",
+          "html_url": "https://github.com/affaan-m/ECC/pull/3189",
+          "state": "open",
+          "updated_at": "2026-09-29T06:29:45Z",
+          "created_at": "2026-09-20T16:11:30Z",
+          "is_pr": true
+        }
+      ]
+    }
+  }
+}
