@@ -1,0 +1,1124 @@
+[
+  {
+    "full_name": "NVIDIA/OpenShell",
+    "html_url": "https://github.com/NVIDIA/OpenShell",
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 11831,
+    "forks": 1498,
+    "open_issues": 511,
+    "watchers": 67,
+    "created_at": "2026-02-24T22:52:22Z",
+    "updated_at": "2026-09-30T16:11:23Z",
+    "pushed_at": "2026-09-30T16:08:39Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [],
+    "latest_release": {
+      "name": "OpenShell v0.1.2",
+      "tag_name": "v0.1.2",
+      "published_at": "2026-09-28T03:58:00Z"
+    },
+    "readme_excerpt": "<!-- markdownlint-disable MD033 MD041 --> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/brand/assets/openshell-banner-dark.png\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/brand/assets/openshell-banner-light.png\"> <img alt=\"OpenShell\" src=\"docs/brand/assets/openshell-banner-light.png\" width=\"430\"> </picture> <!-- markdownlint-enable MD033 MD041 --> [![License](https://img.shields.io/badge/License-Apache_2.0-blue)](https://github.com/NVIDIA/OpenShell/blob/main/LICENSE) [![PyPI](https://img.shields.io/badge/PyPI-openshell-orange?logo=pypi)](https://pypi.org/project/openshell/) [![Security Policy](https://img.shields.io/badge/Security-Report%20a%20Vulnerabi",
+    "recent_issues": [
+      {
+        "number": 3962,
+        "title": "feat(sandbox): proxy-side OCI request signing for CONNECT tunnels",
+        "state": "open",
+        "created_at": "2026-09-30T13:07:38Z",
+        "updated_at": "2026-09-30T16:08:31Z",
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/3962",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/OpenShell/pulls/3962",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3962",
+          "diff_url": "https://github.com/NVIDIA/OpenShell/pull/3962.diff",
+          "patch_url": "https://github.com/NVIDIA/OpenShell/pull/3962.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 3860,
+        "title": "bug: Restore GCP metadata server support",
+        "state": "open",
+        "created_at": "2026-09-29T14:56:15Z",
+        "updated_at": "2026-09-30T16:08:24Z",
+        "html_url": "https://github.com/NVIDIA/OpenShell/issues/3860",
+        "pull_request": null
+      },
+      {
+        "number": 3864,
+        "title": "test(e2e): remove schema parity campaign",
+        "state": "open",
+        "created_at": "2026-09-29T16:10:58Z",
+        "updated_at": "2026-09-30T16:02:21Z",
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/3864",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/OpenShell/pulls/3864",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3864",
+          "diff_url": "https://github.com/NVIDIA/OpenShell/pull/3864.diff",
+          "patch_url": "https://github.com/NVIDIA/OpenShell/pull/3864.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 3970,
+        "title": "fix(cli): diagnose Docker Desktop host networking",
+        "state": "open",
+        "created_at": "2026-09-30T15:28:52Z",
+        "updated_at": "2026-09-30T15:56:39Z",
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/3970",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/OpenShell/pulls/3970",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3970",
+          "diff_url": "https://github.com/NVIDIA/OpenShell/pull/3970.diff",
+          "patch_url": "https://github.com/NVIDIA/OpenShell/pull/3970.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 3866,
+        "title": "test(conformance): run driver suites with cargo",
+        "state": "open",
+        "created_at": "2026-09-29T16:11:20Z",
+        "updated_at": "2026-09-30T15:51:08Z",
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/3866",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/OpenShell/pulls/3866",
+          "html_url": "https://github.com/NVIDIA/OpenShell/pull/3866",
+          "diff_url": "https://github.com/NVIDIA/OpenShell/pull/3866.diff",
+          "patch_url": "https://github.com/NVIDIA/OpenShell/pull/3866.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_sections": [
+      "## How It Works",
+      "## Quickstart",
+      "## Explore Further",
+      "## Agent Skills",
+      "## SDKs",
+      "## Community",
+      "## Telemetry",
+      "## Notice and Disclaimer",
+      "## License"
+    ]
+  },
+  {
+    "full_name": "mvschwarz/openrig",
+    "html_url": "https://github.com/mvschwarz/openrig",
+    "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 2811,
+    "forks": 199,
+    "open_issues": 116,
+    "watchers": 13,
+    "created_at": "2026-04-01T06:22:40Z",
+    "updated_at": "2026-09-30T16:08:08Z",
+    "pushed_at": "2026-09-30T16:08:45Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "agent-harness",
+      "agent-orchestration",
+      "agent-skills",
+      "ai-coding",
+      "claude-code",
+      "cli",
+      "codex-cli",
+      "multi-agent",
+      "multi-agent-systems",
+      "tmux",
+      "typescript"
+    ],
+    "latest_release": {
+      "name": "OpenRig v0.6.2 — first-project and recovery fixes",
+      "tag_name": "v0.6.2",
+      "published_at": "2026-09-30T05:32:32Z"
+    },
+    "readme_excerpt": "# OpenRig [![npm version](https://img.shields.io/npm/v/@openrig/cli)](https://www.npmjs.com/package/@openrig/cli) [![npm downloads](https://img.shields.io/npm/dw/@openrig/cli)](https://www.npmjs.com/package/@openrig/cli) [![License: Apache 2.0](https://img.shields.io/github/license/mvschwarz/openrig)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/mvschwarz/openrig?style=social)](https://github.com/mvschwarz/openrig/stargazers) A harness wraps a model. A rig wraps your harnesses. Define your agent team in YAML, boot it with one command. Claude Code and Codex in the same rig, managed as one system. OpenRig turns AI coding agents from a pile of terminal sessions into a persisten",
+    "recent_issues": [
+      {
+        "number": 220,
+        "title": "fix: recognize managed Claude seats behind launch wrappers",
+        "state": "open",
+        "created_at": "2026-09-30T16:09:02Z",
+        "updated_at": "2026-09-30T16:11:39Z",
+        "html_url": "https://github.com/mvschwarz/openrig/pull/220",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvschwarz/openrig/pulls/220",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/220",
+          "diff_url": "https://github.com/mvschwarz/openrig/pull/220.diff",
+          "patch_url": "https://github.com/mvschwarz/openrig/pull/220.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 149,
+        "title": "fix(security): prevent SSRF in notifications, drive-by CSRF on API, and pairing queue flooding",
+        "state": "open",
+        "created_at": "2026-09-29T15:38:36Z",
+        "updated_at": "2026-09-30T16:05:43Z",
+        "html_url": "https://github.com/mvschwarz/openrig/pull/149",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvschwarz/openrig/pulls/149",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/149",
+          "diff_url": "https://github.com/mvschwarz/openrig/pull/149.diff",
+          "patch_url": "https://github.com/mvschwarz/openrig/pull/149.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 178,
+        "title": "fix(kernel): include shared:claude-activity-hooks in kernel profiles",
+        "state": "open",
+        "created_at": "2026-09-30T04:25:03Z",
+        "updated_at": "2026-09-30T16:05:30Z",
+        "html_url": "https://github.com/mvschwarz/openrig/pull/178",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvschwarz/openrig/pulls/178",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/178",
+          "diff_url": "https://github.com/mvschwarz/openrig/pull/178.diff",
+          "patch_url": "https://github.com/mvschwarz/openrig/pull/178.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 177,
+        "title": "fix(cli): prevent proof add from overwriting media",
+        "state": "open",
+        "created_at": "2026-09-30T04:17:48Z",
+        "updated_at": "2026-09-30T16:05:19Z",
+        "html_url": "https://github.com/mvschwarz/openrig/pull/177",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvschwarz/openrig/pulls/177",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/177",
+          "diff_url": "https://github.com/mvschwarz/openrig/pull/177.diff",
+          "patch_url": "https://github.com/mvschwarz/openrig/pull/177.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 176,
+        "title": "fix(daemon): derive terminal pickup for closed qitems",
+        "state": "open",
+        "created_at": "2026-09-30T04:14:43Z",
+        "updated_at": "2026-09-30T16:05:11Z",
+        "html_url": "https://github.com/mvschwarz/openrig/pull/176",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvschwarz/openrig/pulls/176",
+          "html_url": "https://github.com/mvschwarz/openrig/pull/176",
+          "diff_url": "https://github.com/mvschwarz/openrig/pull/176.diff",
+          "patch_url": "https://github.com/mvschwarz/openrig/pull/176.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_sections": [
+      "# OpenRig",
+      "## See it running",
+      "## Install and first run",
+      "## Community",
+      "## What OpenRig changes on your machine",
+      "## What It Does",
+      "## Starter Rigs",
+      "## How It Works",
+      "## Terminal UI and Workspaces",
+      "## Key Concepts",
+      "## Agent-Managed Software",
+      "## Upgrading an existing instance",
+      "### Moving off Node 20",
+      "### Crossing the 0.5.9 layout boundary",
+      "# SKILL_DIR is the installed openrig-upgrade skill directory.",
+      "# Activate the exact target runtime separately. After every bounded legacy tail is followed by newer paired samples at both new state roots:",
+      "# Run the separately invoked non-destructive finalizer only with that exact receipt:",
+      "# Restore only helper-owned preparation/finalizer effects if the observed upgrade must be reversed:",
+      "## Requirements",
+      "## Setup and Troubleshooting",
+      "## Comparison with Claude Managed Agents",
+      "## Links",
+      "## Star History",
+      "## License"
+    ]
+  },
+  {
+    "full_name": "DietrichGebert/ponytail",
+    "html_url": "https://github.com/DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "language": "JavaScript",
+    "license": "MIT",
+    "stars": 148822,
+    "forks": 8005,
+    "open_issues": 318,
+    "watchers": 355,
+    "created_at": "2026-06-12T00:52:37Z",
+    "updated_at": "2026-09-30T16:10:10Z",
+    "pushed_at": "2026-09-14T14:34:56Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "cursor-rules",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "yagni"
+    ],
+    "latest_release": {
+      "name": "v4.10.0",
+      "tag_name": "v4.10.0",
+      "published_at": "2026-09-14T14:38:56Z"
+    },
+    "readme_excerpt": "<p align=\"center\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/logo-dark.png\"> <img src=\"assets/logo.png\" width=\"220\" alt=\"Ponytail, the lazy senior dev\"> </picture> </p> <h1 align=\"center\">Ponytail</h1> <p align=\"center\"> <em>He says nothing. He writes one line. It works.</em> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/50668\" alt=\"DietrichGebert%2Fponytail | Trendshift\" width=\"250\" height=\"55\"/></a> </p> <p align=\"center\"> <img src=\"https://img.shield",
+    "recent_issues": [
+      {
+        "number": 943,
+        "title": "Port the OpenCode plugin to the OpenCode 2 plugin API",
+        "state": "open",
+        "created_at": "2026-09-26T14:49:32Z",
+        "updated_at": "2026-09-30T15:57:24Z",
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/943",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DietrichGebert/ponytail/pulls/943",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/943",
+          "diff_url": "https://github.com/DietrichGebert/ponytail/pull/943.diff",
+          "patch_url": "https://github.com/DietrichGebert/ponytail/pull/943.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 701,
+        "title": "feat: add ChatGPT Skill adapter",
+        "state": "open",
+        "created_at": "2026-08-06T03:35:51Z",
+        "updated_at": "2026-09-30T15:51:00Z",
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/701",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DietrichGebert/ponytail/pulls/701",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/701",
+          "diff_url": "https://github.com/DietrichGebert/ponytail/pull/701.diff",
+          "patch_url": "https://github.com/DietrichGebert/ponytail/pull/701.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 941,
+        "title": "Plugin fails to load on OpenCode v2: v1 plugin API (default export is a function, not an object)",
+        "state": "open",
+        "created_at": "2026-09-26T09:30:00Z",
+        "updated_at": "2026-09-30T14:20:41Z",
+        "html_url": "https://github.com/DietrichGebert/ponytail/issues/941",
+        "pull_request": null
+      },
+      {
+        "number": 953,
+        "title": "Pi: replacement systemPrompt can defeat structured prompt-section cache preservation",
+        "state": "open",
+        "created_at": "2026-09-30T11:38:20Z",
+        "updated_at": "2026-09-30T11:43:59Z",
+        "html_url": "https://github.com/DietrichGebert/ponytail/issues/953",
+        "pull_request": null
+      },
+      {
+        "number": 952,
+        "title": "fix(debt): exclude dependencies and build output from scan",
+        "state": "open",
+        "created_at": "2026-09-30T05:14:13Z",
+        "updated_at": "2026-09-30T05:14:13Z",
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/952",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DietrichGebert/ponytail/pulls/952",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/952",
+          "diff_url": "https://github.com/DietrichGebert/ponytail/pull/952.diff",
+          "patch_url": "https://github.com/DietrichGebert/ponytail/pull/952.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_sections": [
+      "## Already built with Ponytail",
+      "## Before / after",
+      "## Numbers",
+      "## How it works",
+      "## Install",
+      "### Claude Code",
+      "### Codex",
+      "### GitHub Copilot CLI",
+      "### Pi agent harness",
+      "### OpenCode",
+      "### Gemini CLI",
+      "### Qoder",
+      "### Antigravity CLI",
+      "### Hermes Agent",
+      "### CodeWhale",
+      "### Swival",
+      "### Devin CLI",
+      "### OpenClaw",
+      "### Grok Build",
+      "### Cursor",
+      "### Uninstall",
+      "## Commands",
+      "## Development",
+      "## FAQ",
+      "## Sponsors",
+      "## License",
+      "## Star History"
+    ]
+  },
+  {
+    "full_name": "mattpocock/skills",
+    "html_url": "https://github.com/mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "language": "Shell",
+    "license": "MIT",
+    "stars": 272757,
+    "forks": 22947,
+    "open_issues": 537,
+    "watchers": 1503,
+    "created_at": "2026-02-03T11:15:53Z",
+    "updated_at": "2026-09-30T16:11:16Z",
+    "pushed_at": "2026-09-29T12:38:37Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [],
+    "latest_release": {
+      "name": "v1.2.3",
+      "tag_name": "v1.2.3",
+      "published_at": "2026-08-06T14:05:28Z"
+    },
+    "readme_excerpt": "<p> <a href=\"https://www.aihero.dev/s/skills-newsletter\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\"> <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\"> </picture> </a> </p> # Skills For Real Engineers [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills) My agent skills that I use every day to do real engineering - not",
+    "recent_issues": [
+      {
+        "number": 178,
+        "title": "Has anyone created a Codex version?",
+        "state": "closed",
+        "created_at": "2026-05-12T15:53:01Z",
+        "updated_at": "2026-09-30T14:30:27Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/178",
+        "pull_request": null
+      },
+      {
+        "number": 1142,
+        "title": "wizard: editing the script while a wizard is running kills it (bash reads incrementally); patch parses the whole file before the first prompt",
+        "state": "open",
+        "created_at": "2026-09-30T14:07:05Z",
+        "updated_at": "2026-09-30T14:07:05Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1142",
+        "pull_request": null
+      },
+      {
+        "number": 1141,
+        "title": "retro: include subagent sessions as primary sources after implement-spec",
+        "state": "open",
+        "created_at": "2026-09-30T13:47:19Z",
+        "updated_at": "2026-09-30T13:47:33Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1141",
+        "pull_request": null
+      },
+      {
+        "number": 508,
+        "title": "/implement has no completion step, finished tickets are never marked done",
+        "state": "open",
+        "created_at": "2026-07-10T10:38:40Z",
+        "updated_at": "2026-09-30T12:45:37Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/508",
+        "pull_request": null
+      },
+      {
+        "number": 692,
+        "title": "new install instructions not working for claude",
+        "state": "open",
+        "created_at": "2026-07-29T08:24:46Z",
+        "updated_at": "2026-09-30T09:31:09Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/692",
+        "pull_request": null
+      }
+    ],
+    "readme_sections": [
+      "# Skills For Real Engineers",
+      "## Installation (30-second setup)",
+      "### 1. Get the skills",
+      "### 2. Run `/setup-matt-pocock-skills`",
+      "### 3. Bam - you're ready to go.",
+      "## Why These Skills Exist",
+      "### #1: The Agent Didn't Do What I Want",
+      "### #2: The Agent Is Way Too Verbose",
+      "### #3: The Code Doesn't Work",
+      "### #4: We Built A Ball Of Mud",
+      "### Summary",
+      "## Reference",
+      "### Engineering",
+      "### Productivity"
+    ]
+  },
+  {
+    "full_name": "VectifyAI/PageIndex",
+    "html_url": "https://github.com/VectifyAI/PageIndex",
+    "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+    "language": "Python",
+    "license": "MIT",
+    "stars": 37963,
+    "forks": 3298,
+    "open_issues": 108,
+    "watchers": 156,
+    "created_at": "2025-04-01T10:53:54Z",
+    "updated_at": "2026-09-30T16:11:42Z",
+    "pushed_at": "2026-09-30T08:22:36Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "agentic-ai",
+      "agents",
+      "ai",
+      "ai-agents",
+      "context-engineering",
+      "information-retrieval",
+      "llm",
+      "rag",
+      "reasoning",
+      "retrieval",
+      "retrieval-augmented-generation",
+      "vector-database"
+    ],
+    "latest_release": {
+      "name": "v0.2.20",
+      "tag_name": "v0.2.20",
+      "published_at": "2026-09-28T14:03:36Z"
+    },
+    "readme_excerpt": "<div align=\"center\"> <a href=\"https://vectify.ai/pageindex\" target=\"_blank\"> <img width=\"1471\" alt=\"pi_github_banner_low\" src=\"https://github.com/user-attachments/assets/bae02956-6c4e-4a0b-adea-257b0be4aaa1\" /> </a> <br/> <br/> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/14736\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14736\" alt=\"VectifyAI%2FPageIndex | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a> </p> # PageIndex: Vectorless, Reasoning-based RAG <p align=\"center\"><b>Reasoning-based RAG&nbsp; ◦ &nbsp;No Vector DB, No Chunking&nbsp; ◦ &nbsp;Context-Aware Retrieval&nbsp; ◦ &nbsp;Reads Like a Human</b></p> <h4 ali",
+    "recent_issues": [
+      {
+        "number": 539,
+        "title": "Restructure repo layout",
+        "state": "closed",
+        "created_at": "2026-09-30T08:01:16Z",
+        "updated_at": "2026-09-30T08:22:37Z",
+        "html_url": "https://github.com/VectifyAI/PageIndex/pull/539",
+        "pull_request": {
+          "url": "https://api.github.com/repos/VectifyAI/PageIndex/pulls/539",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/539",
+          "diff_url": "https://github.com/VectifyAI/PageIndex/pull/539.diff",
+          "patch_url": "https://github.com/VectifyAI/PageIndex/pull/539.patch",
+          "merged_at": "2026-09-30T08:22:34Z"
+        }
+      },
+      {
+        "number": 538,
+        "title": "ci(publish): gate releases on the live cloud tests again",
+        "state": "closed",
+        "created_at": "2026-09-29T15:42:41Z",
+        "updated_at": "2026-09-29T15:50:17Z",
+        "html_url": "https://github.com/VectifyAI/PageIndex/pull/538",
+        "pull_request": {
+          "url": "https://api.github.com/repos/VectifyAI/PageIndex/pulls/538",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/538",
+          "diff_url": "https://github.com/VectifyAI/PageIndex/pull/538.diff",
+          "patch_url": "https://github.com/VectifyAI/PageIndex/pull/538.patch",
+          "merged_at": "2026-09-29T15:50:14Z"
+        }
+      },
+      {
+        "number": 456,
+        "title": "fix: DocStore.lock() is a no-op mutex on Windows",
+        "state": "open",
+        "created_at": "2026-09-01T11:57:33Z",
+        "updated_at": "2026-09-29T13:43:28Z",
+        "html_url": "https://github.com/VectifyAI/PageIndex/pull/456",
+        "pull_request": {
+          "url": "https://api.github.com/repos/VectifyAI/PageIndex/pulls/456",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/456",
+          "diff_url": "https://github.com/VectifyAI/PageIndex/pull/456.diff",
+          "patch_url": "https://github.com/VectifyAI/PageIndex/pull/456.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 537,
+        "title": "ci(publish): run the release gate without the live cloud tests",
+        "state": "closed",
+        "created_at": "2026-09-28T13:54:54Z",
+        "updated_at": "2026-09-28T14:01:05Z",
+        "html_url": "https://github.com/VectifyAI/PageIndex/pull/537",
+        "pull_request": {
+          "url": "https://api.github.com/repos/VectifyAI/PageIndex/pulls/537",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/537",
+          "diff_url": "https://github.com/VectifyAI/PageIndex/pull/537.diff",
+          "patch_url": "https://github.com/VectifyAI/PageIndex/pull/537.patch",
+          "merged_at": "2026-09-28T14:01:03Z"
+        }
+      },
+      {
+        "number": 485,
+        "title": "fix: support Windows file locking in DocStore and fix cross-platform test compatibility",
+        "state": "open",
+        "created_at": "2026-09-05T17:45:24Z",
+        "updated_at": "2026-09-28T05:28:56Z",
+        "html_url": "https://github.com/VectifyAI/PageIndex/pull/485",
+        "pull_request": {
+          "url": "https://api.github.com/repos/VectifyAI/PageIndex/pulls/485",
+          "html_url": "https://github.com/VectifyAI/PageIndex/pull/485",
+          "diff_url": "https://github.com/VectifyAI/PageIndex/pull/485.diff",
+          "patch_url": "https://github.com/VectifyAI/PageIndex/pull/485.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_sections": [
+      "# PageIndex: Vectorless, Reasoning-based RAG",
+      "# What is PageIndex?",
+      "### TL;DR",
+      "### Compare with Vector RAG",
+      "# Quickstart",
+      "### Model Recommendations",
+      "### [Use PageIndex through the SDK client →](https://docs.pageindex.ai/getting-started)",
+      "### [Integrate PageIndex with your own agent →](https://docs.pageindex.ai/sdk/agents)",
+      "# Benchmarks",
+      "### Local indexing cost and time",
+      "### Query cost and accuracy",
+      "### Cost per query vs. native PDF input",
+      "### Leading accuracy on FinanceBench",
+      "# PageIndex Cloud",
+      "### More About PageIndex Cloud",
+      "### Ready to Try It?",
+      "# ⭐ Support Us"
+    ]
+  },
+  {
+    "full_name": "t8y2/dbx",
+    "html_url": "https://github.com/t8y2/dbx",
+    "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+    "language": "Rust",
+    "license": "Apache-2.0",
+    "stars": 22951,
+    "forks": 2134,
+    "open_issues": 1303,
+    "watchers": 100,
+    "created_at": "2026-04-29T03:00:36Z",
+    "updated_at": "2026-09-30T16:11:52Z",
+    "pushed_at": "2026-09-30T13:55:29Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "ai",
+      "cli",
+      "clickhouse",
+      "database",
+      "database-client",
+      "database-management",
+      "docker",
+      "gui",
+      "mcp",
+      "mongodb",
+      "mysql",
+      "postgresql",
+      "redis",
+      "rust",
+      "sql-server",
+      "sqlite",
+      "tauri",
+      "vue"
+    ],
+    "latest_release": {
+      "name": "DBX v0.6.29",
+      "tag_name": "v0.6.29",
+      "published_at": "2026-09-30T10:26:10Z"
+    },
+    "readme_excerpt": "<div align=\"center\"> <p style=\"font-size: 18px; white-space: nowrap;\"><strong>100+ databases in 25 MB. Desktop, Docker, CLI, built-in AI assistant, and MCP Server.</strong></p> <p> <img src=\"https://dl.dbxio.com/assets/readme-hero-20260925.png\" alt=\"DBX screenshot\" width=\"820\" /> </p> <p> <a href=\"https://github.com/t8y2/dbx/releases\"><img src=\"https://img.shields.io/endpoint?url=https%3A%2F%2Fshieldcn.dev%2Fgithub%2Fdownloads%2Ft8y2%2Fdbx%2Fshields.json&amp;style=for-the-badge\" /></a> <a href=\"https://qm.qq.com/cgi-bin/qm/qr?k=&group_code=1087880322\"><img src=\"https://img.shields.io/badge/QQ_群-1087880322-EB1923?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d",
+    "recent_issues": [
+      {
+        "number": 10834,
+        "title": "fix(xugu): align product capability flags with implemented features",
+        "state": "open",
+        "created_at": "2026-09-30T16:05:23Z",
+        "updated_at": "2026-09-30T16:05:55Z",
+        "html_url": "https://github.com/t8y2/dbx/pull/10834",
+        "pull_request": {
+          "url": "https://api.github.com/repos/t8y2/dbx/pulls/10834",
+          "html_url": "https://github.com/t8y2/dbx/pull/10834",
+          "diff_url": "https://github.com/t8y2/dbx/pull/10834.diff",
+          "patch_url": "https://github.com/t8y2/dbx/pull/10834.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10832,
+        "title": "feat(query): add batch result actions",
+        "state": "open",
+        "created_at": "2026-09-30T15:18:25Z",
+        "updated_at": "2026-09-30T15:55:55Z",
+        "html_url": "https://github.com/t8y2/dbx/pull/10832",
+        "pull_request": {
+          "url": "https://api.github.com/repos/t8y2/dbx/pulls/10832",
+          "html_url": "https://github.com/t8y2/dbx/pull/10832",
+          "diff_url": "https://github.com/t8y2/dbx/pull/10832.diff",
+          "patch_url": "https://github.com/t8y2/dbx/pull/10832.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10833,
+        "title": "ci: diagnose Win7 sccache retention",
+        "state": "open",
+        "created_at": "2026-09-30T15:47:56Z",
+        "updated_at": "2026-09-30T15:48:25Z",
+        "html_url": "https://github.com/t8y2/dbx/pull/10833",
+        "pull_request": {
+          "url": "https://api.github.com/repos/t8y2/dbx/pulls/10833",
+          "html_url": "https://github.com/t8y2/dbx/pull/10833",
+          "diff_url": "https://github.com/t8y2/dbx/pull/10833.diff",
+          "patch_url": "https://github.com/t8y2/dbx/pull/10833.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10819,
+        "title": "[Bug] 新建postgresql数据库，sql预览窗口无法关闭",
+        "state": "open",
+        "created_at": "2026-09-30T13:31:54Z",
+        "updated_at": "2026-09-30T15:43:28Z",
+        "html_url": "https://github.com/t8y2/dbx/issues/10819",
+        "pull_request": null
+      },
+      {
+        "number": 10696,
+        "title": "[Feature] 开放插件右键菜单的动态可见性、文案与二级菜单",
+        "state": "closed",
+        "created_at": "2026-09-30T01:07:58Z",
+        "updated_at": "2026-09-30T15:24:22Z",
+        "html_url": "https://github.com/t8y2/dbx/issues/10696",
+        "pull_request": null
+      }
+    ],
+    "readme_sections": [
+      "## ❤️ Sponsors",
+      "## 🤝 Partners",
+      "## Why DBX?",
+      "## Features",
+      "### 100+ Databases, One Tool",
+      "### Query Editor",
+      "### AI SQL Assistant",
+      "### Data Grid",
+      "### Schema Tools",
+      "### Data Operations",
+      "### Specialized Browsers",
+      "### Message Queue & Middleware Consoles",
+      "### Plugin System",
+      "### Safety & Connectivity",
+      "### Polished UI",
+      "## AI Agent Integration (MCP)",
+      "# or via Homebrew",
+      "## Install",
+      "## Self-Hosted (Docker)",
+      "# The default keeps the key in the persistent /app/data volume.",
+      "## Getting Started",
+      "### Prerequisites",
+      "#### System Dependencies",
+      "### Development",
+      "### Build",
+      "## Tech Stack",
+      "## Documentation",
+      "## Support DBX",
+      "## Contributors",
+      "## Community"
+    ]
+  },
+  {
+    "full_name": "colbymchenry/codegraph",
+    "html_url": "https://github.com/colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+    "language": "C",
+    "license": "MIT",
+    "stars": 72501,
+    "forks": 4657,
+    "open_issues": 511,
+    "watchers": 172,
+    "created_at": "2026-01-18T21:45:37Z",
+    "updated_at": "2026-09-30T16:11:10Z",
+    "pushed_at": "2026-09-30T15:52:26Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [],
+    "latest_release": {
+      "name": "v1.6.1",
+      "tag_name": "v1.6.1",
+      "published_at": "2026-09-29T05:08:55Z"
+    },
+    "readme_excerpt": "<div align=\"center\"> # CodeGraph Already installed? Run `codegraph upgrade` Follow [@getcodegraph](https://x.com/getcodegraph) on X for updates. ### Supercharge Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Gemini, Antigravity, Kiro, and GitHub Copilot with Semantic Code Intelligence **The fastest complete code graph · surgical context · built for how agents actually work · 100% local** <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/colbymchenry/codegraph/main/assets/rust-logo-dark.svg?v=1\"> <img src=\"https://raw.githubusercontent.com/colbymchenry/codegraph/main/assets/rust-logo.svg?v=1\" height=\"30\" alt=\"Rust\" align=\"center\"> </picture>",
+    "recent_issues": [
+      {
+        "number": 2174,
+        "title": "fix(kotlin): record infix calls as calls",
+        "state": "closed",
+        "created_at": "2026-09-30T15:52:12Z",
+        "updated_at": "2026-09-30T15:52:27Z",
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2174",
+        "pull_request": {
+          "url": "https://api.github.com/repos/colbymchenry/codegraph/pulls/2174",
+          "html_url": "https://github.com/colbymchenry/codegraph/pull/2174",
+          "diff_url": "https://github.com/colbymchenry/codegraph/pull/2174.diff",
+          "patch_url": "https://github.com/colbymchenry/codegraph/pull/2174.patch",
+          "merged_at": "2026-09-30T15:52:24Z"
+        }
+      },
+      {
+        "number": 2173,
+        "title": "fix(kotlin): no automatic semicolon before a same-line infix e-word",
+        "state": "closed",
+        "created_at": "2026-09-30T15:36:11Z",
+        "updated_at": "2026-09-30T15:36:55Z",
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2173",
+        "pull_request": {
+          "url": "https://api.github.com/repos/colbymchenry/codegraph/pulls/2173",
+          "html_url": "https://github.com/colbymchenry/codegraph/pull/2173",
+          "diff_url": "https://github.com/colbymchenry/codegraph/pull/2173.diff",
+          "patch_url": "https://github.com/colbymchenry/codegraph/pull/2173.patch",
+          "merged_at": "2026-09-30T15:36:23Z"
+        }
+      },
+      {
+        "number": 2172,
+        "title": "fix(kotlin): a bare call reaches only a member in reach",
+        "state": "closed",
+        "created_at": "2026-09-30T15:20:10Z",
+        "updated_at": "2026-09-30T15:20:25Z",
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2172",
+        "pull_request": {
+          "url": "https://api.github.com/repos/colbymchenry/codegraph/pulls/2172",
+          "html_url": "https://github.com/colbymchenry/codegraph/pull/2172",
+          "diff_url": "https://github.com/colbymchenry/codegraph/pull/2172.diff",
+          "patch_url": "https://github.com/colbymchenry/codegraph/pull/2172.patch",
+          "merged_at": "2026-09-30T15:20:23Z"
+        }
+      },
+      {
+        "number": 2171,
+        "title": "fix(resolution): a call through a declared member calls that member's type",
+        "state": "closed",
+        "created_at": "2026-09-30T14:54:21Z",
+        "updated_at": "2026-09-30T14:54:34Z",
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2171",
+        "pull_request": {
+          "url": "https://api.github.com/repos/colbymchenry/codegraph/pulls/2171",
+          "html_url": "https://github.com/colbymchenry/codegraph/pull/2171",
+          "diff_url": "https://github.com/colbymchenry/codegraph/pull/2171.diff",
+          "patch_url": "https://github.com/colbymchenry/codegraph/pull/2171.patch",
+          "merged_at": "2026-09-30T14:54:32Z"
+        }
+      },
+      {
+        "number": 361,
+        "title": "feat(markdown): index documentation graph links",
+        "state": "open",
+        "created_at": "2026-05-23T19:53:10Z",
+        "updated_at": "2026-09-30T14:28:39Z",
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/361",
+        "pull_request": {
+          "url": "https://api.github.com/repos/colbymchenry/codegraph/pulls/361",
+          "html_url": "https://github.com/colbymchenry/codegraph/pull/361",
+          "diff_url": "https://github.com/colbymchenry/codegraph/pull/361.diff",
+          "patch_url": "https://github.com/colbymchenry/codegraph/pull/361.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_sections": [
+      "# CodeGraph",
+      "### Supercharge Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Gemini, Antigravity, Kiro, and GitHub Copilot with Semantic Code Intelligence",
+      "### [Documentation & Website →](https://colbymchenry.github.io/codegraph/)",
+      "## Contents",
+      "## Get Started",
+      "### 1. Install the CLI",
+      "# macOS / Linux",
+      "# Windows (PowerShell)",
+      "### 2. Wire up your agent(s)",
+      "### 3. Initialize each project",
+      "### 4. No more syncing!",
+      "### Uninstall",
+      "## Language Support",
+      "## Why CodeGraph?",
+      "### Benchmark Results",
+      "## Built for speed — the Rust kernel",
+      "## Key Features",
+      "## Framework-aware Routes",
+      "### Routers — routes *and* the navigation between them",
+      "## Mixed iOS / React Native / Expo bridging",
+      "## Quick Start",
+      "### 1. Run the Installer",
+      "### 2. Restart Your Agent",
+      "### 3. Initialize Projects",
+      "## How It Works",
+      "## CLI Reference",
+      "### `codegraph affected`",
+      "#!/usr/bin/env bash",
+      "## MCP Tools",
+      "## Library Usage"
+    ]
+  },
+  {
+    "full_name": "mksglu/context-mode",
+    "html_url": "https://github.com/mksglu/context-mode",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+    "language": "TypeScript",
+    "license": "NOASSERTION",
+    "stars": 24366,
+    "forks": 1762,
+    "open_issues": 304,
+    "watchers": 101,
+    "created_at": "2026-02-23T05:56:28Z",
+    "updated_at": "2026-09-30T16:09:19Z",
+    "pushed_at": "2026-09-30T12:07:33Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "antigravity",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "codex",
+      "codex-cli",
+      "context-mode",
+      "copilot",
+      "cursor-plugin",
+      "kiro",
+      "mcp",
+      "mcp-server",
+      "mcp-tools",
+      "openclaw",
+      "opencode",
+      "pi-agent",
+      "skills",
+      "zed-extension"
+    ],
+    "latest_release": {
+      "name": "v1.0.169",
+      "tag_name": "v1.0.169",
+      "published_at": "2026-06-29T18:18:53Z"
+    },
+    "readme_excerpt": "# Context Mode **The other half of the context problem.** [![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.message&label=users&color=brightgreen)](https://www.npmjs.com/package/context-mode) [![npm](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.npm&label=npm&color=blue)](https://www.npmjs.com/package/context-mode) [![marketplace](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.marketplace&label=marketplace&color=blue)](ht",
+    "recent_issues": [
+      {
+        "number": 1231,
+        "title": "fix(claude-code): restore external-MCP hook routing with `mcp__.*` (#1222)",
+        "state": "open",
+        "created_at": "2026-09-30T15:59:45Z",
+        "updated_at": "2026-09-30T15:59:45Z",
+        "html_url": "https://github.com/mksglu/context-mode/pull/1231",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1231",
+          "html_url": "https://github.com/mksglu/context-mode/pull/1231",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/1231.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/1231.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1230,
+        "title": "fix(search): declare singular query in ctx_search schema",
+        "state": "open",
+        "created_at": "2026-09-30T15:39:01Z",
+        "updated_at": "2026-09-30T15:39:01Z",
+        "html_url": "https://github.com/mksglu/context-mode/pull/1230",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1230",
+          "html_url": "https://github.com/mksglu/context-mode/pull/1230",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/1230.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/1230.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 887,
+        "title": "fix(opencode): sync getInstalledVersion path with cachePluginRoot and support for Windows",
+        "state": "closed",
+        "created_at": "2026-06-26T20:54:13Z",
+        "updated_at": "2026-09-30T14:12:57Z",
+        "html_url": "https://github.com/mksglu/context-mode/pull/887",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/887",
+          "html_url": "https://github.com/mksglu/context-mode/pull/887",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/887.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/887.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1171,
+        "title": "fix(opencode): support OpenCode 2 plugin API (V1/V2 dual export)",
+        "state": "open",
+        "created_at": "2026-09-16T15:11:44Z",
+        "updated_at": "2026-09-30T12:44:14Z",
+        "html_url": "https://github.com/mksglu/context-mode/pull/1171",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1171",
+          "html_url": "https://github.com/mksglu/context-mode/pull/1171",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/1171.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/1171.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1228,
+        "title": "fix(hooks): ship default timeouts so a hung hook cannot block the CLI",
+        "state": "open",
+        "created_at": "2026-09-30T07:22:26Z",
+        "updated_at": "2026-09-30T12:36:42Z",
+        "html_url": "https://github.com/mksglu/context-mode/pull/1228",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1228",
+          "html_url": "https://github.com/mksglu/context-mode/pull/1228",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/1228.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/1228.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_sections": [
+      "# Context Mode",
+      "## The Problem",
+      "### How Context Mode Solves It",
+      "## Install",
+      "### Option A — Marketplace plugin (recommended once published)",
+      "### Option B — Manual install (existing path)",
+      "## Tools",
+      "## How the Sandbox Works",
+      "## How the Knowledge Base Works",
+      "### Ranking: Reciprocal Rank Fusion",
+      "### Proximity Reranking",
+      "### Fuzzy Correction",
+      "### Smart Snippets",
+      "### TTL Cache",
+      "### Progressive Throttling",
+      "## Session Continuity",
+      "## Platform Compatibility",
+      "### Routing Enforcement",
+      "## Utility Commands",
+      "## Benchmarks",
+      "## Try It",
+      "## Privacy & Architecture",
+      "## Security",
+      "### Project-boundary containment",
+      "### Network fetch hardening",
+      "### Storage environment variables",
+      "### Routing-guidance environment variables",
+      "## Contributing",
+      "## License"
+    ]
+  },
+  {
+    "full_name": "debpalash/VoiceStudio",
+    "html_url": "https://github.com/debpalash/VoiceStudio",
+    "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+    "language": "Python",
+    "license": "AGPL-3.0",
+    "stars": 49982,
+    "forks": 5554,
+    "open_issues": 76,
+    "watchers": 204,
+    "created_at": "2026-04-09T21:40:26Z",
+    "updated_at": "2026-09-30T16:11:44Z",
+    "pushed_at": "2026-09-29T15:45:28Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "ai",
+      "audiobook",
+      "cuda",
+      "dubbing",
+      "elevenlabs-alternative",
+      "huggingface",
+      "local-first",
+      "mlx",
+      "omnivoice-studio",
+      "speech-to-text",
+      "tauri",
+      "text-to-speech",
+      "transcription",
+      "translate",
+      "tts",
+      "voice-ai",
+      "voice-cloning",
+      "voice-generation",
+      "voicestudio",
+      "workflow"
+    ],
+    "latest_release": {
+      "name": "v0.5.6 — VoiceStudio",
+      "tag_name": "v0.5.6",
+      "published_at": "2026-09-23T08:53:32Z"
+    },
+    "readme_excerpt": "<div align=\"center\"> <img src=\"docs/logo.png\" alt=\"VoiceStudio\" width=\"88\" /> <h1>VoiceStudio</h1> <p> <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"220\" height=\"48\" /></a> </p> <p><strong>Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.</strong></p> <p> <a href=\"https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project\">Website</a> · <a href=\"https://github.",
+    "recent_issues": [
+      {
+        "number": 2394,
+        "title": "[Crash] Backend died (exit code -1073741819)",
+        "state": "open",
+        "created_at": "2026-09-28T12:53:24Z",
+        "updated_at": "2026-09-30T16:10:10Z",
+        "html_url": "https://github.com/debpalash/VoiceStudio/issues/2394",
+        "pull_request": null
+      },
+      {
+        "number": 2467,
+        "title": "fix(model): stop two cold TTS loads overlapping into a native crash (#2394)",
+        "state": "open",
+        "created_at": "2026-09-30T16:04:05Z",
+        "updated_at": "2026-09-30T16:08:57Z",
+        "html_url": "https://github.com/debpalash/VoiceStudio/pull/2467",
+        "pull_request": {
+          "url": "https://api.github.com/repos/debpalash/VoiceStudio/pulls/2467",
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2467",
+          "diff_url": "https://github.com/debpalash/VoiceStudio/pull/2467.diff",
+          "patch_url": "https://github.com/debpalash/VoiceStudio/pull/2467.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2430,
+        "title": "[Bug] Backend is running but temporarily not responding on port 3900. Waiting for reco",
+        "state": "open",
+        "created_at": "2026-09-29T12:10:22Z",
+        "updated_at": "2026-09-30T15:10:45Z",
+        "html_url": "https://github.com/debpalash/VoiceStudio/issues/2430",
+        "pull_request": null
+      },
+      {
+        "number": 2445,
+        "title": "[Bug] Backend did not answer on port 3900 within 300 s (OMNIVOICE_STARTUP_BUDGET_S). C",
+        "state": "open",
+        "created_at": "2026-09-30T01:49:17Z",
+        "updated_at": "2026-09-30T14:49:25Z",
+        "html_url": "https://github.com/debpalash/VoiceStudio/issues/2445",
+        "pull_request": null
+      },
+      {
+        "number": 2462,
+        "title": "[Bug] Generation failed. Check the selected engine and try again.",
+        "state": "open",
+        "created_at": "2026-09-30T09:47:02Z",
+        "updated_at": "2026-09-30T14:40:11Z",
+        "html_url": "https://github.com/debpalash/VoiceStudio/issues/2462",
+        "pull_request": null
+      }
+    ],
+    "readme_sections": [
+      "## Your voice. Your workflow.",
+      "## Get started",
+      "### One-command install (macOS / Linux)",
+      "# Latest Electron release",
+      "# A specific published Electron release (replace X.Y.Z)",
+      "# Build current main and install the desktop app",
+      "# Uninstall the app, keeping your data",
+      "### Install with prompt",
+      "## Documentation",
+      "## Sponsors",
+      "## License & responsible use"
+    ]
+  }
+]
