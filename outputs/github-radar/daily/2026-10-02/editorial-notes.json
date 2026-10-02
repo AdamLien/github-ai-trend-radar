@@ -1,0 +1,62 @@
+{
+  "DietrichGebert/ponytail": [
+    "Skill candidate",
+    "以技能與外掛約束 coding agent 的工程決策，強調減少不必要的程式碼。",
+    "適合 Adam 的 agent 工作法課程：以相同需求比較修改範圍、可讀性與測試結果；可萃取為內部 skill 實驗。",
+    "偏好少寫程式不能替代需求驗證；近期 OpenCode 外掛相容性修正需要版本鎖定。"
+  ],
+  "mattpocock/skills": [
+    "Skill candidate",
+    "將工程師的需求釐清、設計與開發流程整理成可重複使用的 agent skills。",
+    "直接對應 Adam 的技能設計課程及團隊開發 SOP；可用知識詞彙表遷移做實作教材。",
+    "CONTEXT.md 到 GLOSSARY.md 的遷移路徑仍有公開問題；匯入前應比較本地自訂流程。"
+  ],
+  "mvschwarz/openrig": [
+    "Deep research",
+    "把 Claude Code、Codex、Pi 組成有角色、共享上下文與工作責任的持續 agent 團隊。",
+    "適合研究 AI 辦公自動化的任務分派、交接及失敗恢復；先用公開文件整理任務做小型驗證。",
+    "近期有工作階段恢復與 daemon 關閉相關問題；多 agent 並行成本、狀態一致性尚需實測。"
+  ],
+  "colbymchenry/codegraph": [
+    "Deep research",
+    "建立本地程式碼知識圖譜，讓 coding agent 查詢關聯並隨程式變更更新索引。",
+    "可作 know metabiz wiki 的程式碼與文件連結研究；以跨模組查詢比較圖譜與一般文字檢索。",
+    "程式語言解析覆蓋及索引新鮮度影響答案；近期 VB.NET 引用解析問題代表仍需逐語言驗證。"
+  ],
+  "Panniantong/Agent-Reach": [
+    "Demo content",
+    "讓 agent 透過 CLI 搜尋與讀取多個網站，支援內容蒐集工作。",
+    "適合 Adam 展示研究素材蒐集到 know metabiz wiki 的來源整理流程；示範保留來源與引用。",
+    "近期 YouTube 字幕可能取得機器翻譯而非原文；平台存取穩定性與內容來源品質需逐項確認。"
+  ],
+  "heygen-com/hyperframes": [
+    "Demo content",
+    "讓 agent 以 HTML 製作並輸出影片，將網頁式編排用於影音產製。",
+    "可把每日雷達轉為短影音樣片，作 Adam 內容自動化課程示範。",
+    "大量 CLI 與瀏覽器生命週期修正仍在進行；需測試渲染一致性、字幕字型及長任務資源回收。"
+  ],
+  "NVIDIA/OpenShell": [
+    "Watch",
+    "為自主 AI agent 提供強調隔離與隱私的執行環境。",
+    "與 AI 辦公自動化的受控執行相關；可作企業 agent 權限與沙箱課程研究素材。",
+    "近期仍有 stdin、虛擬機簽章與依賴修正；宣稱安全不等同已完成對實際部署的安全驗證。"
+  ],
+  "mksglu/context-mode": [
+    "Deep research",
+    "透過 MCP、hooks、輸出隔離與會話記憶管理 coding agent 的上下文。",
+    "適合 Adam 的上下文成本課程；可比較知識庫檢索長輸出在 token 用量與答案完整性上的差異。",
+    "壓縮比例屬專案宣稱，本次未重現；shell 相容性與工作階段歸屬仍有修正，過度壓縮可能損失證據。"
+  ],
+  "obra/superpowers": [
+    "Reference only",
+    "提供 agentic 軟體開發方法與可組合 skills，涵蓋規劃、執行與審查。",
+    "可作 Adam 課程的成熟工作流對照，檢查內部 skill 是否具有明確觸發條件與驗證步驟。",
+    "近期有子 agent 提交不該提交的報告、測試紀錄與技能觸發問題；規則存在不代表執行一定可靠。"
+  ],
+  "langgenius/dify": [
+    "Watch",
+    "以工作流及 RAG 管線建構 AI 應用與文件查詢流程。",
+    "與 AI 辦公自動化及 know metabiz wiki 最直接相關；作文件問答基準，比較引用正確率與維護成本。",
+    "大型平台有部署與升級負擔；本次未驗證權限隔離或檢索品質，授權條件需以原始文件確認。"
+  ]
+}

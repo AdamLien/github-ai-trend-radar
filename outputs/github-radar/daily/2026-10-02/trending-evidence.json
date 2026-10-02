@@ -1,0 +1,87 @@
+[
+  {
+    "repo": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "stars_today": "683"
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+    "stars_today": "271"
+  },
+  {
+    "repo": "obra/superpowers",
+    "description": "An agentic skills framework & software development methodology that works.",
+    "stars_today": "561"
+  },
+  {
+    "repo": "DietrichGebert/ponytail",
+    "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+    "stars_today": "1429"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "description": "The design language that makes your AI harness better at design.",
+    "stars_today": "717"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "description": "Skills for Real Engineers. Straight from my .agents directory.",
+    "stars_today": "955"
+  },
+  {
+    "repo": "NVIDIA/OpenShell",
+    "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+    "stars_today": "584"
+  },
+  {
+    "repo": "coreyhaines31/marketingskills",
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "stars_today": "139"
+  },
+  {
+    "repo": "heygen-com/hyperframes",
+    "description": "Write HTML. Render video. Built for agents.",
+    "stars_today": "584"
+  },
+  {
+    "repo": "mksglu/context-mode",
+    "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+    "stars_today": "276"
+  },
+  {
+    "repo": "google/skills",
+    "description": "Agent Skills for Google products and technologies",
+    "stars_today": "78"
+  },
+  {
+    "repo": "getsentry/sentry",
+    "description": "Developer-first error tracking and performance monitoring",
+    "stars_today": "12"
+  },
+  {
+    "repo": "colbymchenry/codegraph",
+    "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+    "stars_today": "241"
+  },
+  {
+    "repo": "cursor/plugins",
+    "description": "Cursor plugin specification and official plugins",
+    "stars_today": "168"
+  },
+  {
+    "repo": "mvschwarz/openrig",
+    "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+    "stars_today": "691"
+  },
+  {
+    "repo": "Effect-TS/effect",
+    "description": "Build production-ready applications in TypeScript",
+    "stars_today": "76"
+  },
+  {
+    "repo": "pablostanley/yoinks",
+    "description": "yoink any video from your terminal. no shady ads.",
+    "stars_today": "629"
+  }
+]

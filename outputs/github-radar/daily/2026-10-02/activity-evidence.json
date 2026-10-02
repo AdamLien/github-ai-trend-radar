@@ -1,0 +1,442 @@
+{
+  "DietrichGebert/ponytail": {
+    "recent_issues_and_prs": [
+      {
+        "number": 976,
+        "title": "refactor(plugins): use flatMap for command and skill readers",
+        "state": "open",
+        "updated_at": "2026-10-02T16:11:28Z",
+        "is_pr": true,
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/976"
+      },
+      {
+        "number": 644,
+        "title": "Great Work!",
+        "state": "closed",
+        "updated_at": "2026-10-02T15:27:40Z",
+        "is_pr": false,
+        "html_url": "https://github.com/DietrichGebert/ponytail/issues/644"
+      },
+      {
+        "number": 600,
+        "title": "fix(opencode): move frontmatter parser out of plugins/ directory (#596)",
+        "state": "closed",
+        "updated_at": "2026-10-02T15:25:02Z",
+        "is_pr": true,
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/600"
+      },
+      {
+        "number": 940,
+        "title": "opencode v2 plugin support (tandem with v1)",
+        "state": "closed",
+        "updated_at": "2026-10-02T15:24:59Z",
+        "is_pr": true,
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/940"
+      },
+      {
+        "number": 933,
+        "title": "fix(opencode): ship a verified dual V1/V2 plugin entrypoint",
+        "state": "closed",
+        "updated_at": "2026-10-02T15:24:56Z",
+        "is_pr": true,
+        "html_url": "https://github.com/DietrichGebert/ponytail/pull/933"
+      }
+    ]
+  },
+  "mattpocock/skills": {
+    "recent_issues_and_prs": [
+      {
+        "number": 1153,
+        "title": "v1.3: CONTEXT.md → GLOSSARY.md rename has no migration path for existing repos",
+        "state": "open",
+        "updated_at": "2026-10-02T11:23:00Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mattpocock/skills/issues/1153"
+      },
+      {
+        "number": 1152,
+        "title": "Proposal: experimental HTML questionnaire mode for batch grilling",
+        "state": "open",
+        "updated_at": "2026-10-02T09:26:58Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mattpocock/skills/issues/1152"
+      },
+      {
+        "number": 931,
+        "title": "Wayfinder tasks can bypass the implementation workflow",
+        "state": "open",
+        "updated_at": "2026-10-02T06:51:56Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mattpocock/skills/issues/931"
+      },
+      {
+        "number": 348,
+        "title": "In Opencode: review skill is shadowed by opencode’s built-in /review command",
+        "state": "closed",
+        "updated_at": "2026-10-01T21:21:39Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mattpocock/skills/issues/348"
+      },
+      {
+        "number": 1150,
+        "title": "to-tickets: nothing in the code marks an expand–contract bridge as temporary",
+        "state": "closed",
+        "updated_at": "2026-10-01T16:47:34Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mattpocock/skills/issues/1150"
+      }
+    ]
+  },
+  "colbymchenry/codegraph": {
+    "recent_issues_and_prs": [
+      {
+        "number": 2305,
+        "title": "VB.NET: references to Shared fields/properties and class-qualified access are not resolved",
+        "state": "open",
+        "updated_at": "2026-10-02T14:52:20Z",
+        "is_pr": false,
+        "html_url": "https://github.com/colbymchenry/codegraph/issues/2305"
+      },
+      {
+        "number": 2097,
+        "title": "fix(mcp): return status and stale refusals as text only (#2088)",
+        "state": "closed",
+        "updated_at": "2026-10-02T13:48:49Z",
+        "is_pr": true,
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2097"
+      },
+      {
+        "number": 2304,
+        "title": "test(windows): daemon-pid-reuse cleanup retries a still-held temp dir",
+        "state": "closed",
+        "updated_at": "2026-10-02T10:41:47Z",
+        "is_pr": true,
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2304"
+      },
+      {
+        "number": 2303,
+        "title": "fix(resolution): a busy machine doesn't boot the resolver pool for a small project",
+        "state": "closed",
+        "updated_at": "2026-10-02T10:21:15Z",
+        "is_pr": true,
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2303"
+      },
+      {
+        "number": 2301,
+        "title": "fix(extraction): never terminate a parse worker while it is loading grammars",
+        "state": "closed",
+        "updated_at": "2026-10-02T10:18:05Z",
+        "is_pr": true,
+        "html_url": "https://github.com/colbymchenry/codegraph/pull/2301"
+      }
+    ]
+  },
+  "mvschwarz/openrig": {
+    "recent_issues_and_prs": [
+      {
+        "number": 326,
+        "title": "fix(daemon): preserve terminal env for Claude seats",
+        "state": "open",
+        "updated_at": "2026-10-02T16:12:06Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mvschwarz/openrig/pull/326"
+      },
+      {
+        "number": 324,
+        "title": "fix(daemon): bound active HTTP streams during shutdown",
+        "state": "open",
+        "updated_at": "2026-10-02T16:05:06Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mvschwarz/openrig/pull/324"
+      },
+      {
+        "number": 457,
+        "title": "fix(cli): bracket IPv6 hosts in daemon endpoint URLs",
+        "state": "closed",
+        "updated_at": "2026-10-02T15:13:45Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mvschwarz/openrig/pull/457"
+      },
+      {
+        "number": 403,
+        "title": "rig shrink aborts with kill_failed when a member's session has already exited, leaving the pod half-removed",
+        "state": "closed",
+        "updated_at": "2026-10-02T15:11:56Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mvschwarz/openrig/issues/403"
+      },
+      {
+        "number": 86,
+        "title": "Claude Code 2.1.283 reports its version as the pane command, so the Claude readiness probe never returns resumed: restore fails, seats stick in attention_required, and clear-attention cannot clear them",
+        "state": "open",
+        "updated_at": "2026-10-02T14:41:09Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mvschwarz/openrig/issues/86"
+      }
+    ]
+  },
+  "mksglu/context-mode": {
+    "recent_issues_and_prs": [
+      {
+        "number": 1245,
+        "title": "fix(deps): refresh express-rate-limit to pull in patched ip-address",
+        "state": "open",
+        "updated_at": "2026-10-02T13:04:56Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mksglu/context-mode/pull/1245"
+      },
+      {
+        "number": 1244,
+        "title": "Add website URL to plugin.json",
+        "state": "open",
+        "updated_at": "2026-10-02T12:30:03Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mksglu/context-mode/pull/1244"
+      },
+      {
+        "number": 1243,
+        "title": "fix(scripts): re-exec ctx-debug.sh under bash when invoked by a POSIX shell",
+        "state": "open",
+        "updated_at": "2026-10-02T10:30:44Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mksglu/context-mode/pull/1243"
+      },
+      {
+        "number": 1242,
+        "title": "[Bug]: ctx-debug.sh fails under POSIX sh (process substitution) - add a bash re-exec guard or rewrite",
+        "state": "open",
+        "updated_at": "2026-10-02T05:51:54Z",
+        "is_pr": false,
+        "html_url": "https://github.com/mksglu/context-mode/issues/1242"
+      },
+      {
+        "number": 1241,
+        "title": "fix(session): attribute MCP work to caller session",
+        "state": "open",
+        "updated_at": "2026-10-02T01:06:08Z",
+        "is_pr": true,
+        "html_url": "https://github.com/mksglu/context-mode/pull/1241"
+      }
+    ]
+  },
+  "Panniantong/Agent-Reach": {
+    "recent_issues_and_prs": [
+      {
+        "number": 743,
+        "title": "docs(skill): document web_fetch_exa / agent_run and required objective param",
+        "state": "open",
+        "updated_at": "2026-10-02T15:57:37Z",
+        "is_pr": true,
+        "html_url": "https://github.com/Panniantong/Agent-Reach/pull/743"
+      },
+      {
+        "number": 742,
+        "title": "YouTube subtitles: the recipe silently returns YouTube's machine translation instead of the speaker's words (no -orig handling)",
+        "state": "open",
+        "updated_at": "2026-10-02T15:39:32Z",
+        "is_pr": false,
+        "html_url": "https://github.com/Panniantong/Agent-Reach/issues/742"
+      },
+      {
+        "number": 741,
+        "title": "feat(doctor): add opt-in --live verification for opencli channels",
+        "state": "open",
+        "updated_at": "2026-10-02T14:36:54Z",
+        "is_pr": true,
+        "html_url": "https://github.com/Panniantong/Agent-Reach/pull/741"
+      },
+      {
+        "number": 691,
+        "title": "docs(skill): fix mcporter argument quoting",
+        "state": "open",
+        "updated_at": "2026-10-02T06:38:32Z",
+        "is_pr": true,
+        "html_url": "https://github.com/Panniantong/Agent-Reach/pull/691"
+      },
+      {
+        "number": 718,
+        "title": "feat(tiktok): add TikTok channel",
+        "state": "open",
+        "updated_at": "2026-10-02T05:34:01Z",
+        "is_pr": true,
+        "html_url": "https://github.com/Panniantong/Agent-Reach/pull/718"
+      }
+    ]
+  },
+  "heygen-com/hyperframes": {
+    "recent_issues_and_prs": [
+      {
+        "number": 3996,
+        "title": "fix(cli): hide console windows on Windows for background/detached spawns",
+        "state": "open",
+        "updated_at": "2026-10-02T16:11:24Z",
+        "is_pr": true,
+        "html_url": "https://github.com/heygen-com/hyperframes/pull/3996"
+      },
+      {
+        "number": 4905,
+        "title": "fix(cli): reject extra positional arguments on every command",
+        "state": "open",
+        "updated_at": "2026-10-02T16:10:36Z",
+        "is_pr": true,
+        "html_url": "https://github.com/heygen-com/hyperframes/pull/4905"
+      },
+      {
+        "number": 4906,
+        "title": "feat(registry): add 4 community components",
+        "state": "open",
+        "updated_at": "2026-10-02T16:09:42Z",
+        "is_pr": true,
+        "html_url": "https://github.com/heygen-com/hyperframes/pull/4906"
+      },
+      {
+        "number": 4910,
+        "title": "fix(cli): close every browser on SIGTERM and SIGINT via one launch owner",
+        "state": "open",
+        "updated_at": "2026-10-02T16:07:48Z",
+        "is_pr": true,
+        "html_url": "https://github.com/heygen-com/hyperframes/pull/4910"
+      },
+      {
+        "number": 4908,
+        "title": "fix(lint): flag digit-leading ids used by toArray and ScrollTrigger selectors",
+        "state": "open",
+        "updated_at": "2026-10-02T16:02:54Z",
+        "is_pr": true,
+        "html_url": "https://github.com/heygen-com/hyperframes/pull/4908"
+      }
+    ]
+  },
+  "obra/superpowers": {
+    "recent_issues_and_prs": [
+      {
+        "number": 2444,
+        "title": "fix(brainstorming): error instead of hanging when start-server.sh gets a valueless option",
+        "state": "open",
+        "updated_at": "2026-10-02T15:59:33Z",
+        "is_pr": true,
+        "html_url": "https://github.com/obra/superpowers/pull/2444"
+      },
+      {
+        "number": 2443,
+        "title": "subagent-driven-development: implementers commit their ignored report files, and task review accepts them",
+        "state": "open",
+        "updated_at": "2026-10-02T15:24:28Z",
+        "is_pr": false,
+        "html_url": "https://github.com/obra/superpowers/issues/2443"
+      },
+      {
+        "number": 2431,
+        "title": "subagent-driven-development: \"no second fix wave\" should not cover breakage the final fix wave itself introduced",
+        "state": "open",
+        "updated_at": "2026-10-02T15:24:25Z",
+        "is_pr": false,
+        "html_url": "https://github.com/obra/superpowers/issues/2431"
+      },
+      {
+        "number": 2342,
+        "title": "executing-plans: task-done ledgers the last log line as the test result, so `node --test` runs record `# duration_ms …` instead of pass/fail",
+        "state": "open",
+        "updated_at": "2026-10-02T14:39:03Z",
+        "is_pr": false,
+        "html_url": "https://github.com/obra/superpowers/issues/2342"
+      },
+      {
+        "number": 2386,
+        "title": "test-driven-development is not invoked for a plain \"add a function\" request, even with the using-superpowers injection present",
+        "state": "open",
+        "updated_at": "2026-10-02T11:15:54Z",
+        "is_pr": false,
+        "html_url": "https://github.com/obra/superpowers/issues/2386"
+      }
+    ]
+  },
+  "langgenius/dify": {
+    "recent_issues_and_prs": [
+      {
+        "number": 43368,
+        "title": "test: use real tool variable pools and encryption",
+        "state": "open",
+        "updated_at": "2026-10-02T16:12:57Z",
+        "is_pr": true,
+        "html_url": "https://github.com/langgenius/dify/pull/43368"
+      },
+      {
+        "number": 43220,
+        "title": "test: use real pipeline and retriever fixtures",
+        "state": "open",
+        "updated_at": "2026-10-02T16:12:32Z",
+        "is_pr": true,
+        "html_url": "https://github.com/langgenius/dify/pull/43220"
+      },
+      {
+        "number": 43365,
+        "title": "test: use real tool model and encryption fixtures",
+        "state": "open",
+        "updated_at": "2026-10-02T16:12:29Z",
+        "is_pr": true,
+        "html_url": "https://github.com/langgenius/dify/pull/43365"
+      },
+      {
+        "number": 43366,
+        "title": "test: use real dataset tool callbacks and sessions",
+        "state": "open",
+        "updated_at": "2026-10-02T16:12:14Z",
+        "is_pr": true,
+        "html_url": "https://github.com/langgenius/dify/pull/43366"
+      },
+      {
+        "number": 43364,
+        "title": "test: use real HTTP responses and plugin tool clients",
+        "state": "open",
+        "updated_at": "2026-10-02T16:12:05Z",
+        "is_pr": true,
+        "html_url": "https://github.com/langgenius/dify/pull/43364"
+      }
+    ]
+  },
+  "NVIDIA/OpenShell": {
+    "recent_issues_and_prs": [
+      {
+        "number": 3507,
+        "title": "ci(vm): codesign macOS driver-vm with hypervisor entitlement in CI",
+        "state": "open",
+        "updated_at": "2026-10-02T16:10:13Z",
+        "is_pr": true,
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/3507"
+      },
+      {
+        "number": 3802,
+        "title": "Stream exec stdin without a TTY",
+        "state": "open",
+        "updated_at": "2026-10-02T16:09:31Z",
+        "is_pr": false,
+        "html_url": "https://github.com/NVIDIA/OpenShell/issues/3802"
+      },
+      {
+        "number": 4131,
+        "title": "fix(deps): upgrade ratatui to resolve lru vulnerability",
+        "state": "open",
+        "updated_at": "2026-10-02T16:09:08Z",
+        "is_pr": true,
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/4131"
+      },
+      {
+        "number": 4134,
+        "title": "ci(release): notify duty engineers of prerelease failures",
+        "state": "open",
+        "updated_at": "2026-10-02T16:08:11Z",
+        "is_pr": true,
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/4134"
+      },
+      {
+        "number": 3775,
+        "title": "refactor(providers)!: declare imported profile behavior safely",
+        "state": "open",
+        "updated_at": "2026-10-02T15:57:24Z",
+        "is_pr": true,
+        "html_url": "https://github.com/NVIDIA/OpenShell/pull/3775"
+      }
+    ]
+  }
+}

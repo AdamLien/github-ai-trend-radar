@@ -1,0 +1,62 @@
+{
+  "target_date": "2026-10-02",
+  "observed_at": "2026-10-03T00:11:18.041044+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false
+    }
+  ],
+  "rate_limited": false,
+  "completed_at": "2026-10-03T00:22:42.176027+08:00",
+  "raw_record_count": 334,
+  "retained_repo_count": 311,
+  "excluded_out_of_scope": [
+    "AvdLee/RocketSimApp",
+    "ByteByteGoHq/system-design-101",
+    "DevCoreXOfficial/core-termux",
+    "InterceptSuite/ProxyBridge",
+    "Open-Dev-Society/OpenStock",
+    "TykTechnologies/tyk",
+    "armory3d/armorpaint",
+    "checkstyle/checkstyle",
+    "dsherret/ts-morph",
+    "getsentry/sentry",
+    "kiali/kiali",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "rustfs/rustfs",
+    "sngyai/Sequoia-X",
+    "tailscale/tailcat",
+    "tldrsec/awesome-secure-defaults",
+    "xyflow/xyflow"
+  ],
+  "deduplicated": [
+    "LibreChat-AI/LibreChat",
+    "Twigpine/openclaude",
+    "career-ops-hq/career-ops",
+    "feder-cr/invisible_playwright_mcp"
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "trending_source": "https://github.com/trending?since=daily",
+  "scope_note": "General infrastructure without clear AI/agent relevance excluded; original Trending cards remain in raw evidence."
+}
