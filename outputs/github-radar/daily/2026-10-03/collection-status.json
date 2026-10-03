@@ -1,0 +1,49 @@
+{
+  "target_date": "2026-10-03",
+  "observed_at": "2026-10-03T16:22:54.097667+00:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "limit": 10,
+  "include_trending_daily": true,
+  "include_readme": true,
+  "collector_exit_code": 0,
+  "rate_limit_status": "No observed GitHub API rate-limit error; limit 5 fallback not needed.",
+  "raw_repo_count": 337,
+  "retained_repo_count": 323,
+  "excluded_repos": [
+    "ByteByteGoHq/system-design-101",
+    "InterceptSuite/ProxyBridge",
+    "Open-Dev-Society/OpenStock",
+    "armory3d/armorpaint",
+    "checkstyle/checkstyle",
+    "dsherret/ts-morph",
+    "getsentry/sentry",
+    "kiali/kiali",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "sngyai/Sequoia-X",
+    "tldrsec/awesome-secure-defaults",
+    "xyflow/xyflow"
+  ],
+  "scope_note": "General tools without an explicit AI, MCP, skills, coding-agent, knowledge, or AI developer-automation use were excluded; AI/ML and agent-enabling projects retained.",
+  "stale_404_repos": [
+    "BarberNumber/Midjourney-Software",
+    "Vincentwei1021/video-shotcraft",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "observability_note": "Collector tolerates release/README lookup failures internally; no surfaced rate-limit error was observed.",
+  "stale_404_count": 5
+}

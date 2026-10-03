@@ -1,0 +1,699 @@
+{
+  "observed_at": "2026-10-03T16:12:05.237619+00:00",
+  "repos": {
+    "DietrichGebert/ponytail": {
+      "url": "https://api.github.com/repos/DietrichGebert/ponytail/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 750,
+          "title": "fix(hooks): do not persist review from /ponytail-review (#736)",
+          "state": "closed",
+          "created_at": "2026-08-25T01:07:08Z",
+          "updated_at": "2026-10-03T15:00:02Z",
+          "comments": 0,
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/750",
+          "pull_request": {
+            "url": "https://api.github.com/repos/DietrichGebert/ponytail/pulls/750",
+            "html_url": "https://github.com/DietrichGebert/ponytail/pull/750",
+            "diff_url": "https://github.com/DietrichGebert/ponytail/pull/750.diff",
+            "patch_url": "https://github.com/DietrichGebert/ponytail/pull/750.patch",
+            "merged_at": "2026-10-03T01:41:50Z"
+          }
+        },
+        {
+          "number": 951,
+          "title": "docs: fix Codex skill invocation syntax",
+          "state": "closed",
+          "created_at": "2026-09-30T04:41:38Z",
+          "updated_at": "2026-10-03T14:51:45Z",
+          "comments": 0,
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/951",
+          "pull_request": {
+            "url": "https://api.github.com/repos/DietrichGebert/ponytail/pulls/951",
+            "html_url": "https://github.com/DietrichGebert/ponytail/pull/951",
+            "diff_url": "https://github.com/DietrichGebert/ponytail/pull/951.diff",
+            "patch_url": "https://github.com/DietrichGebert/ponytail/pull/951.patch",
+            "merged_at": "2026-10-03T02:56:02Z"
+          }
+        },
+        {
+          "number": 53,
+          "title": "add Codex app support",
+          "state": "closed",
+          "created_at": "2026-06-15T08:07:15Z",
+          "updated_at": "2026-10-03T14:44:32Z",
+          "comments": 3,
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/53",
+          "pull_request": null
+        },
+        {
+          "number": 994,
+          "title": "fix(hooks): key the live mode by session_id so sessions in the same repo stop sharing one level",
+          "state": "open",
+          "created_at": "2026-10-03T14:37:43Z",
+          "updated_at": "2026-10-03T14:37:43Z",
+          "comments": 0,
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/994",
+          "pull_request": {
+            "url": "https://api.github.com/repos/DietrichGebert/ponytail/pulls/994",
+            "html_url": "https://github.com/DietrichGebert/ponytail/pull/994",
+            "diff_url": "https://github.com/DietrichGebert/ponytail/pull/994.diff",
+            "patch_url": "https://github.com/DietrichGebert/ponytail/pull/994.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 988,
+          "title": "Что умеешь",
+          "state": "closed",
+          "created_at": "2026-10-03T06:16:25Z",
+          "updated_at": "2026-10-03T13:48:08Z",
+          "comments": 0,
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/988",
+          "pull_request": null
+        }
+      ]
+    },
+    "affaan-m/ECC": {
+      "url": "https://api.github.com/repos/affaan-m/ECC/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 3416,
+          "title": "fix(hooks): honor CLAUDE_CONFIG_DIR instead of writing to ~/.claude",
+          "state": "open",
+          "created_at": "2026-10-03T07:04:48Z",
+          "updated_at": "2026-10-03T15:04:17Z",
+          "comments": 16,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3416",
+          "pull_request": {
+            "url": "https://api.github.com/repos/affaan-m/ECC/pulls/3416",
+            "html_url": "https://github.com/affaan-m/ECC/pull/3416",
+            "diff_url": "https://github.com/affaan-m/ECC/pull/3416.diff",
+            "patch_url": "https://github.com/affaan-m/ECC/pull/3416.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 2755,
+          "title": "fix(gateguard): cap session fact-force denials",
+          "state": "open",
+          "created_at": "2026-08-10T20:45:08Z",
+          "updated_at": "2026-10-03T11:41:55Z",
+          "comments": 42,
+          "html_url": "https://github.com/affaan-m/ECC/pull/2755",
+          "pull_request": {
+            "url": "https://api.github.com/repos/affaan-m/ECC/pulls/2755",
+            "html_url": "https://github.com/affaan-m/ECC/pull/2755",
+            "diff_url": "https://github.com/affaan-m/ECC/pull/2755.diff",
+            "patch_url": "https://github.com/affaan-m/ECC/pull/2755.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 3030,
+          "title": "feat: enforce contributor-quality checks for ECC skills",
+          "state": "open",
+          "created_at": "2026-09-08T21:36:33Z",
+          "updated_at": "2026-10-03T08:21:23Z",
+          "comments": 86,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3030",
+          "pull_request": {
+            "url": "https://api.github.com/repos/affaan-m/ECC/pulls/3030",
+            "html_url": "https://github.com/affaan-m/ECC/pull/3030",
+            "diff_url": "https://github.com/affaan-m/ECC/pull/3030.diff",
+            "patch_url": "https://github.com/affaan-m/ECC/pull/3030.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 3031,
+          "title": "Add a skill quality validator for ECC contributions",
+          "state": "open",
+          "created_at": "2026-09-08T21:48:15Z",
+          "updated_at": "2026-10-03T08:20:52Z",
+          "comments": 5,
+          "html_url": "https://github.com/affaan-m/ECC/issues/3031",
+          "pull_request": null
+        },
+        {
+          "number": 3152,
+          "title": "GateGuard: heredoc bodies are scanned as commands (false positive when writing docs that mention git)",
+          "state": "open",
+          "created_at": "2026-09-17T15:18:58Z",
+          "updated_at": "2026-10-03T06:43:39Z",
+          "comments": 2,
+          "html_url": "https://github.com/affaan-m/ECC/issues/3152",
+          "pull_request": null
+        }
+      ]
+    },
+    "Panniantong/Agent-Reach": {
+      "url": "https://api.github.com/repos/Panniantong/Agent-Reach/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 601,
+          "title": "pip install fails: yt-dlp[default]>=2026.07.04 does not exist on PyPI",
+          "state": "open",
+          "created_at": "2026-08-11T18:31:40Z",
+          "updated_at": "2026-10-03T14:41:31Z",
+          "comments": 2,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/issues/601",
+          "pull_request": null
+        },
+        {
+          "number": 594,
+          "title": "docs(linkedin): document Windows greenlet setup",
+          "state": "open",
+          "created_at": "2026-08-09T12:29:05Z",
+          "updated_at": "2026-10-03T11:41:47Z",
+          "comments": 3,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/594",
+          "pull_request": {
+            "url": "https://api.github.com/repos/Panniantong/Agent-Reach/pulls/594",
+            "html_url": "https://github.com/Panniantong/Agent-Reach/pull/594",
+            "diff_url": "https://github.com/Panniantong/Agent-Reach/pull/594.diff",
+            "patch_url": "https://github.com/Panniantong/Agent-Reach/pull/594.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 761,
+          "title": "feat(browser): add Vivaldi profile detection and cookie extraction",
+          "state": "open",
+          "created_at": "2026-10-03T09:35:52Z",
+          "updated_at": "2026-10-03T09:35:52Z",
+          "comments": 0,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/761",
+          "pull_request": {
+            "url": "https://api.github.com/repos/Panniantong/Agent-Reach/pulls/761",
+            "html_url": "https://github.com/Panniantong/Agent-Reach/pull/761",
+            "diff_url": "https://github.com/Panniantong/Agent-Reach/pull/761.diff",
+            "patch_url": "https://github.com/Panniantong/Agent-Reach/pull/761.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 760,
+          "title": "feat(cookies): add Vivaldi to --from-browser and OpenCLI detection",
+          "state": "open",
+          "created_at": "2026-10-03T09:08:12Z",
+          "updated_at": "2026-10-03T09:08:12Z",
+          "comments": 0,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/760",
+          "pull_request": {
+            "url": "https://api.github.com/repos/Panniantong/Agent-Reach/pulls/760",
+            "html_url": "https://github.com/Panniantong/Agent-Reach/pull/760",
+            "diff_url": "https://github.com/Panniantong/Agent-Reach/pull/760.diff",
+            "patch_url": "https://github.com/Panniantong/Agent-Reach/pull/760.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 759,
+          "title": "fix(skill): use original-language YouTube subtitle track (#742)",
+          "state": "open",
+          "created_at": "2026-10-03T05:24:28Z",
+          "updated_at": "2026-10-03T06:26:23Z",
+          "comments": 1,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/759",
+          "pull_request": {
+            "url": "https://api.github.com/repos/Panniantong/Agent-Reach/pulls/759",
+            "html_url": "https://github.com/Panniantong/Agent-Reach/pull/759",
+            "diff_url": "https://github.com/Panniantong/Agent-Reach/pull/759.diff",
+            "patch_url": "https://github.com/Panniantong/Agent-Reach/pull/759.patch",
+            "merged_at": null
+          }
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "url": "https://api.github.com/repos/mattpocock/skills/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 1044,
+          "title": "code-review: gate findings that replace a branch or a guard",
+          "state": "open",
+          "created_at": "2026-09-06T16:01:36Z",
+          "updated_at": "2026-10-03T15:38:47Z",
+          "comments": 1,
+          "html_url": "https://github.com/mattpocock/skills/issues/1044",
+          "pull_request": null
+        },
+        {
+          "number": 1156,
+          "title": "to-spec: a readability layer for the person reviewing the spec",
+          "state": "open",
+          "created_at": "2026-10-03T15:12:21Z",
+          "updated_at": "2026-10-03T15:15:52Z",
+          "comments": 0,
+          "html_url": "https://github.com/mattpocock/skills/issues/1156",
+          "pull_request": null
+        },
+        {
+          "number": 1155,
+          "title": "邀请 skills 加入 GithubStarMate，让更多人发现你的作品",
+          "state": "open",
+          "created_at": "2026-10-03T14:07:58Z",
+          "updated_at": "2026-10-03T14:07:58Z",
+          "comments": 0,
+          "html_url": "https://github.com/mattpocock/skills/issues/1155",
+          "pull_request": null
+        },
+        {
+          "number": 1154,
+          "title": "grilling: question numbers restart at Q1 in a later round, colliding with answers already given",
+          "state": "open",
+          "created_at": "2026-10-03T08:59:19Z",
+          "updated_at": "2026-10-03T08:59:19Z",
+          "comments": 0,
+          "html_url": "https://github.com/mattpocock/skills/issues/1154",
+          "pull_request": null
+        },
+        {
+          "number": 468,
+          "title": "setup-matt-pocock-skills: issue-tracker-github.md instructs `gh pr list --json authorAssociation`, which gh does not support",
+          "state": "open",
+          "created_at": "2026-07-07T14:51:34Z",
+          "updated_at": "2026-10-02T20:46:38Z",
+          "comments": 1,
+          "html_url": "https://github.com/mattpocock/skills/issues/468",
+          "pull_request": null
+        }
+      ]
+    },
+    "mksglu/context-mode": {
+      "url": "https://api.github.com/repos/mksglu/context-mode/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 1251,
+          "title": "Windows: hooks/ensure-deps.mjs retries `npm install better-sqlite3` once per hook with no backoff and no `windowsHide` — console-window storm + hook exit -1073741510 (the #861 fix never reached the hook path)",
+          "state": "open",
+          "created_at": "2026-10-03T11:14:36Z",
+          "updated_at": "2026-10-03T11:14:36Z",
+          "comments": 0,
+          "html_url": "https://github.com/mksglu/context-mode/issues/1251",
+          "pull_request": null
+        },
+        {
+          "number": 1244,
+          "title": "Add website URL to plugin.json",
+          "state": "open",
+          "created_at": "2026-10-02T12:30:03Z",
+          "updated_at": "2026-10-03T04:23:56Z",
+          "comments": 0,
+          "html_url": "https://github.com/mksglu/context-mode/pull/1244",
+          "pull_request": {
+            "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1244",
+            "html_url": "https://github.com/mksglu/context-mode/pull/1244",
+            "diff_url": "https://github.com/mksglu/context-mode/pull/1244.diff",
+            "patch_url": "https://github.com/mksglu/context-mode/pull/1244.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 1187,
+          "title": "[Feature]: Opencode V2 support",
+          "state": "open",
+          "created_at": "2026-09-21T11:17:15Z",
+          "updated_at": "2026-10-03T04:07:10Z",
+          "comments": 3,
+          "html_url": "https://github.com/mksglu/context-mode/issues/1187",
+          "pull_request": null
+        },
+        {
+          "number": 942,
+          "title": "Align Codex AGENTS curl/wget guidance with existing safe file-output routing",
+          "state": "closed",
+          "created_at": "2026-07-09T22:01:22Z",
+          "updated_at": "2026-10-03T03:24:11Z",
+          "comments": 2,
+          "html_url": "https://github.com/mksglu/context-mode/issues/942",
+          "pull_request": null
+        },
+        {
+          "number": 1250,
+          "title": "fix: classify shell exit 1 with stderr as an error",
+          "state": "open",
+          "created_at": "2026-10-03T02:48:06Z",
+          "updated_at": "2026-10-03T02:48:06Z",
+          "comments": 0,
+          "html_url": "https://github.com/mksglu/context-mode/pull/1250",
+          "pull_request": {
+            "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1250",
+            "html_url": "https://github.com/mksglu/context-mode/pull/1250",
+            "diff_url": "https://github.com/mksglu/context-mode/pull/1250.diff",
+            "patch_url": "https://github.com/mksglu/context-mode/pull/1250.patch",
+            "merged_at": null
+          }
+        }
+      ]
+    },
+    "cloudflare/cloudflare-os": {
+      "url": "https://api.github.com/repos/cloudflare/cloudflare-os/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 655,
+          "title": "feat: add Gemini 3.8 Flash model configuration to API definitions",
+          "state": "closed",
+          "created_at": "2026-10-03T14:19:45Z",
+          "updated_at": "2026-10-03T14:43:50Z",
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/655",
+          "pull_request": {
+            "url": "https://api.github.com/repos/cloudflare/cloudflare-os/pulls/655",
+            "html_url": "https://github.com/cloudflare/cloudflare-os/pull/655",
+            "diff_url": "https://github.com/cloudflare/cloudflare-os/pull/655.diff",
+            "patch_url": "https://github.com/cloudflare/cloudflare-os/pull/655.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 654,
+          "title": "feat: add Gemini 3.8 Flash model configuration to API definitions",
+          "state": "closed",
+          "created_at": "2026-10-03T14:11:02Z",
+          "updated_at": "2026-10-03T14:13:34Z",
+          "comments": 3,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/654",
+          "pull_request": {
+            "url": "https://api.github.com/repos/cloudflare/cloudflare-os/pulls/654",
+            "html_url": "https://github.com/cloudflare/cloudflare-os/pull/654",
+            "diff_url": "https://github.com/cloudflare/cloudflare-os/pull/654.diff",
+            "patch_url": "https://github.com/cloudflare/cloudflare-os/pull/654.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 650,
+          "title": "Make notifications a first-class system service",
+          "state": "open",
+          "created_at": "2026-10-02T20:35:22Z",
+          "updated_at": "2026-10-03T01:46:27Z",
+          "comments": 7,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/650",
+          "pull_request": {
+            "url": "https://api.github.com/repos/cloudflare/cloudflare-os/pulls/650",
+            "html_url": "https://github.com/cloudflare/cloudflare-os/pull/650",
+            "diff_url": "https://github.com/cloudflare/cloudflare-os/pull/650.diff",
+            "patch_url": "https://github.com/cloudflare/cloudflare-os/pull/650.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 55,
+          "title": "Gmail URLs containing a bare % throw an unhandled URIError when binding a resource",
+          "state": "open",
+          "created_at": "2026-08-06T23:21:17Z",
+          "updated_at": "2026-10-03T01:05:52Z",
+          "comments": 1,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/issues/55",
+          "pull_request": null
+        },
+        {
+          "number": 41,
+          "title": "Disconnecting an MCP account can leave its refresh token live at the authorization server",
+          "state": "open",
+          "created_at": "2026-08-06T12:09:24Z",
+          "updated_at": "2026-10-03T01:05:50Z",
+          "comments": 1,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/issues/41",
+          "pull_request": null
+        }
+      ]
+    },
+    "earendil-works/pi": {
+      "url": "https://api.github.com/repos/earendil-works/pi/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 10251,
+          "title": "codemode only mode: built-in read cannot expose image contents to scripts",
+          "state": "open",
+          "created_at": "2026-09-30T14:54:50Z",
+          "updated_at": "2026-10-03T15:51:22Z",
+          "comments": 4,
+          "html_url": "https://github.com/earendil-works/pi/issues/10251",
+          "pull_request": null
+        },
+        {
+          "number": 10424,
+          "title": "Durable: persist a per-conversation UUIDv7 and forward it as pi-ai sessionId",
+          "state": "open",
+          "created_at": "2026-10-03T15:46:26Z",
+          "updated_at": "2026-10-03T15:46:26Z",
+          "comments": 0,
+          "html_url": "https://github.com/earendil-works/pi/issues/10424",
+          "pull_request": null
+        },
+        {
+          "number": 10267,
+          "title": "Prompt text contributed in before_agent_start is dropped on runs without a user prompt, re-billing the whole prompt",
+          "state": "open",
+          "created_at": "2026-09-30T21:20:00Z",
+          "updated_at": "2026-10-03T15:45:14Z",
+          "comments": 5,
+          "html_url": "https://github.com/earendil-works/pi/issues/10267",
+          "pull_request": null
+        },
+        {
+          "number": 10423,
+          "title": "formatProviderError bypasses the error-body cap when the SDK embeds the body in error.message",
+          "state": "closed",
+          "created_at": "2026-10-03T15:43:22Z",
+          "updated_at": "2026-10-03T15:43:40Z",
+          "comments": 2,
+          "html_url": "https://github.com/earendil-works/pi/issues/10423",
+          "pull_request": null
+        },
+        {
+          "number": 10405,
+          "title": "Fullscreen: TUI input listeners never observe mouse input (addInputListener / ctx.ui.onTerminalInput)",
+          "state": "open",
+          "created_at": "2026-10-03T11:44:12Z",
+          "updated_at": "2026-10-03T15:34:54Z",
+          "comments": 1,
+          "html_url": "https://github.com/earendil-works/pi/issues/10405",
+          "pull_request": null
+        }
+      ]
+    },
+    "jamwithai/production-agentic-rag-course": {
+      "url": "https://api.github.com/repos/jamwithai/production-agentic-rag-course/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 53,
+          "title": "feat: DeepSeek migration, multi-domain corpora, citation-grounded drafting",
+          "state": "open",
+          "created_at": "2026-10-03T01:19:43Z",
+          "updated_at": "2026-10-03T01:19:43Z",
+          "comments": 0,
+          "html_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/53",
+          "pull_request": {
+            "url": "https://api.github.com/repos/jamwithai/production-agentic-rag-course/pulls/53",
+            "html_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/53",
+            "diff_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/53.diff",
+            "patch_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/53.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 52,
+          "title": "Adding Claude Code-style micro-compaction / retrieval stubbing",
+          "state": "open",
+          "created_at": "2026-09-27T16:00:31Z",
+          "updated_at": "2026-09-27T16:00:31Z",
+          "comments": 0,
+          "html_url": "https://github.com/jamwithai/production-agentic-rag-course/issues/52",
+          "pull_request": null
+        },
+        {
+          "number": 47,
+          "title": "Fix Windows subprocess encoding crash in week1/week2 notebooks",
+          "state": "closed",
+          "created_at": "2026-07-29T08:17:35Z",
+          "updated_at": "2026-08-24T06:38:45Z",
+          "comments": 1,
+          "html_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/47",
+          "pull_request": {
+            "url": "https://api.github.com/repos/jamwithai/production-agentic-rag-course/pulls/47",
+            "html_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/47",
+            "diff_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/47.diff",
+            "patch_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/47.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 51,
+          "title": "fix: modified ipynb file and settings for week 1",
+          "state": "closed",
+          "created_at": "2026-08-20T06:15:24Z",
+          "updated_at": "2026-08-20T06:19:06Z",
+          "comments": 0,
+          "html_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/51",
+          "pull_request": {
+            "url": "https://api.github.com/repos/jamwithai/production-agentic-rag-course/pulls/51",
+            "html_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/51",
+            "diff_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/51.diff",
+            "patch_url": "https://github.com/jamwithai/production-agentic-rag-course/pull/51.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 50,
+          "title": "Cannot open any file says last commit is not available",
+          "state": "open",
+          "created_at": "2026-08-17T15:39:16Z",
+          "updated_at": "2026-08-17T15:39:16Z",
+          "comments": 0,
+          "html_url": "https://github.com/jamwithai/production-agentic-rag-course/issues/50",
+          "pull_request": null
+        }
+      ]
+    },
+    "AgriciDaniel/claude-obsidian": {
+      "url": "https://api.github.com/repos/AgriciDaniel/claude-obsidian/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 193,
+          "title": "lint: premature unquote() before fragment-split breaks correctly %23-encoded links",
+          "state": "open",
+          "created_at": "2026-10-02T13:41:59Z",
+          "updated_at": "2026-10-02T13:41:59Z",
+          "comments": 0,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/issues/193",
+          "pull_request": null
+        },
+        {
+          "number": 191,
+          "title": "lint: distinguish existing hidden .raw/captured targets from missing files",
+          "state": "open",
+          "created_at": "2026-09-15T05:29:22Z",
+          "updated_at": "2026-09-26T05:46:02Z",
+          "comments": 1,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/issues/191",
+          "pull_request": null
+        },
+        {
+          "number": 192,
+          "title": "source-ledger.json/claim-ledger.json hard 16 MB read cap — how is this meant to scale for a continuously-growing corpus?",
+          "state": "open",
+          "created_at": "2026-09-23T08:30:45Z",
+          "updated_at": "2026-09-23T08:33:32Z",
+          "comments": 0,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/issues/192",
+          "pull_request": null
+        },
+        {
+          "number": 156,
+          "title": "[feature] Retrieval-quality eval harness (recall@k + MRR) so retrieval changes can produce the evidence CONTRIBUTING requires",
+          "state": "open",
+          "created_at": "2026-08-02T09:41:01Z",
+          "updated_at": "2026-09-22T08:29:25Z",
+          "comments": 1,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/issues/156",
+          "pull_request": null
+        },
+        {
+          "number": 89,
+          "title": "chore(obsidian): update vault config for current plugin setup",
+          "state": "closed",
+          "created_at": "2026-06-11T15:00:25Z",
+          "updated_at": "2026-09-22T05:02:41Z",
+          "comments": 1,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/89",
+          "pull_request": {
+            "url": "https://api.github.com/repos/AgriciDaniel/claude-obsidian/pulls/89",
+            "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/89",
+            "diff_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/89.diff",
+            "patch_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/89.patch",
+            "merged_at": null
+          }
+        }
+      ]
+    },
+    "langgenius/dify": {
+      "url": "https://api.github.com/repos/langgenius/dify/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 43370,
+          "title": "test: use concrete workflow tool recorders",
+          "state": "open",
+          "created_at": "2026-10-02T16:20:58Z",
+          "updated_at": "2026-10-03T16:11:37Z",
+          "comments": 3,
+          "html_url": "https://github.com/langgenius/dify/pull/43370",
+          "pull_request": {
+            "url": "https://api.github.com/repos/langgenius/dify/pulls/43370",
+            "html_url": "https://github.com/langgenius/dify/pull/43370",
+            "diff_url": "https://github.com/langgenius/dify/pull/43370.diff",
+            "patch_url": "https://github.com/langgenius/dify/pull/43370.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 43419,
+          "title": "test: use real model chunks and agent actions in parser tests",
+          "state": "open",
+          "created_at": "2026-10-02T17:58:27Z",
+          "updated_at": "2026-10-03T15:57:15Z",
+          "comments": 2,
+          "html_url": "https://github.com/langgenius/dify/pull/43419",
+          "pull_request": {
+            "url": "https://api.github.com/repos/langgenius/dify/pulls/43419",
+            "html_url": "https://github.com/langgenius/dify/pull/43419",
+            "diff_url": "https://github.com/langgenius/dify/pull/43419.diff",
+            "patch_url": "https://github.com/langgenius/dify/pull/43419.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 43387,
+          "title": "test: use real OAuth client responses",
+          "state": "open",
+          "created_at": "2026-10-02T16:54:46Z",
+          "updated_at": "2026-10-03T15:57:14Z",
+          "comments": 2,
+          "html_url": "https://github.com/langgenius/dify/pull/43387",
+          "pull_request": {
+            "url": "https://api.github.com/repos/langgenius/dify/pulls/43387",
+            "html_url": "https://github.com/langgenius/dify/pull/43387",
+            "diff_url": "https://github.com/langgenius/dify/pull/43387.diff",
+            "patch_url": "https://github.com/langgenius/dify/pull/43387.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 43418,
+          "title": "test: use real Flask contexts and ORM accounts",
+          "state": "open",
+          "created_at": "2026-10-02T17:58:20Z",
+          "updated_at": "2026-10-03T15:57:10Z",
+          "comments": 2,
+          "html_url": "https://github.com/langgenius/dify/pull/43418",
+          "pull_request": {
+            "url": "https://api.github.com/repos/langgenius/dify/pulls/43418",
+            "html_url": "https://github.com/langgenius/dify/pull/43418",
+            "diff_url": "https://github.com/langgenius/dify/pull/43418.diff",
+            "patch_url": "https://github.com/langgenius/dify/pull/43418.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "number": 43403,
+          "title": "test: use real Notion ORM and provider fixtures",
+          "state": "open",
+          "created_at": "2026-10-02T17:23:39Z",
+          "updated_at": "2026-10-03T15:57:08Z",
+          "comments": 2,
+          "html_url": "https://github.com/langgenius/dify/pull/43403",
+          "pull_request": {
+            "url": "https://api.github.com/repos/langgenius/dify/pulls/43403",
+            "html_url": "https://github.com/langgenius/dify/pull/43403",
+            "diff_url": "https://github.com/langgenius/dify/pull/43403.diff",
+            "patch_url": "https://github.com/langgenius/dify/pull/43403.patch",
+            "merged_at": null
+          }
+        }
+      ]
+    }
+  }
+}
