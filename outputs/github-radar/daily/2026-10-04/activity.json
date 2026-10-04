@@ -1,0 +1,577 @@
+{
+  "observed_at": "2026-10-04T16:12:17.533598+00:00",
+  "repos": {
+    "Panniantong/Agent-Reach": {
+      "items": [
+        {
+          "number": 775,
+          "title": "fix(reddit): read the cookie's own expiry instead of the file's age",
+          "url": "https://github.com/Panniantong/Agent-Reach/pull/775",
+          "state": "open",
+          "updated_at": "2026-10-04T15:56:00Z",
+          "is_pr": true
+        },
+        {
+          "number": 774,
+          "title": "YouTube: optional hosted transcript API backend for servers where yt-dlp is bot-challenged",
+          "url": "https://github.com/Panniantong/Agent-Reach/issues/774",
+          "state": "open",
+          "updated_at": "2026-10-04T09:34:49Z",
+          "is_pr": false
+        },
+        {
+          "number": 728,
+          "title": "bug(skill): 中文 SKILL.md 硬编码某台机器的 conda 环境（conda run -n dl），误导用户与 AI agent",
+          "url": "https://github.com/Panniantong/Agent-Reach/issues/728",
+          "state": "open",
+          "updated_at": "2026-10-04T08:49:22Z",
+          "is_pr": false
+        },
+        {
+          "number": 773,
+          "title": "docs(contributing): point new channels at ALL_CHANNELS registry",
+          "url": "https://github.com/Panniantong/Agent-Reach/pull/773",
+          "state": "open",
+          "updated_at": "2026-10-03T23:34:20Z",
+          "is_pr": true
+        },
+        {
+          "number": 772,
+          "title": "docs(claude): refresh CLAUDE.md to match current architecture",
+          "url": "https://github.com/Panniantong/Agent-Reach/pull/772",
+          "state": "open",
+          "updated_at": "2026-10-03T22:35:17Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "DietrichGebert/ponytail": {
+      "items": [
+        {
+          "number": 1015,
+          "title": "branch message",
+          "url": "https://github.com/DietrichGebert/ponytail/pull/1015",
+          "state": "closed",
+          "updated_at": "2026-10-04T08:11:14Z",
+          "is_pr": true
+        },
+        {
+          "number": 1014,
+          "title": "branch message",
+          "url": "https://github.com/DietrichGebert/ponytail/pull/1014",
+          "state": "closed",
+          "updated_at": "2026-10-04T08:11:00Z",
+          "is_pr": true
+        },
+        {
+          "number": 1013,
+          "title": "Can i link CvInsight with it?",
+          "url": "https://github.com/DietrichGebert/ponytail/issues/1013",
+          "state": "closed",
+          "updated_at": "2026-10-04T05:03:18Z",
+          "is_pr": false
+        },
+        {
+          "number": 1011,
+          "title": "test(benchmarks): score workflow cleanup against its live CLI",
+          "url": "https://github.com/DietrichGebert/ponytail/pull/1011",
+          "state": "open",
+          "updated_at": "2026-10-04T04:30:58Z",
+          "is_pr": true
+        },
+        {
+          "number": 950,
+          "title": "docs: add Muse Code CLI support",
+          "url": "https://github.com/DietrichGebert/ponytail/pull/950",
+          "state": "open",
+          "updated_at": "2026-10-04T03:56:13Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "mksglu/context-mode": {
+      "items": [
+        {
+          "number": 1182,
+          "title": "fix(pi): Honor AbortSignal so Escape cancels in-flight",
+          "url": "https://github.com/mksglu/context-mode/pull/1182",
+          "state": "open",
+          "updated_at": "2026-10-04T13:50:51Z",
+          "is_pr": true
+        },
+        {
+          "number": 1228,
+          "title": "fix(hooks): ship default timeouts so a hung hook cannot block the CLI",
+          "url": "https://github.com/mksglu/context-mode/pull/1228",
+          "state": "open",
+          "updated_at": "2026-10-04T10:17:43Z",
+          "is_pr": true
+        },
+        {
+          "number": 1258,
+          "title": "[Feature]: Please release a version compatible with DeepSeekHarness as soon as possible.",
+          "url": "https://github.com/mksglu/context-mode/issues/1258",
+          "state": "open",
+          "updated_at": "2026-10-04T08:41:23Z",
+          "is_pr": false
+        },
+        {
+          "number": 1257,
+          "title": "[Bug]: a clean \\`pnpm install\\` leaves better-sqlite3 without its native binding — pnpm 10 blocks dependency build scripts by default",
+          "url": "https://github.com/mksglu/context-mode/issues/1257",
+          "state": "closed",
+          "updated_at": "2026-10-04T07:03:53Z",
+          "is_pr": false
+        },
+        {
+          "number": 1256,
+          "title": "fix(hooks): scope MCP readiness to the calling Claude Code session (#1055)",
+          "url": "https://github.com/mksglu/context-mode/pull/1256",
+          "state": "open",
+          "updated_at": "2026-10-04T01:06:39Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "cloudflare/cloudflare-os": {
+      "items": [
+        {
+          "number": 658,
+          "title": "sheets: deleting a row or column leaves formulas pointing at whatever slid into its place",
+          "url": "https://github.com/cloudflare/cloudflare-os/issues/658",
+          "state": "open",
+          "updated_at": "2026-10-04T10:04:26Z",
+          "is_pr": false
+        },
+        {
+          "number": 657,
+          "title": "Let an admin state an added model's image input and reasoning levels",
+          "url": "https://github.com/cloudflare/cloudflare-os/pull/657",
+          "state": "open",
+          "updated_at": "2026-10-04T00:53:23Z",
+          "is_pr": true
+        },
+        {
+          "number": 372,
+          "title": "Extract the BigQuery observer probe out of google.ts",
+          "url": "https://github.com/cloudflare/cloudflare-os/pull/372",
+          "state": "closed",
+          "updated_at": "2026-10-03T21:44:46Z",
+          "is_pr": true
+        },
+        {
+          "number": 656,
+          "title": "Stream git packs through consumePack instead of buffering them",
+          "url": "https://github.com/cloudflare/cloudflare-os/pull/656",
+          "state": "open",
+          "updated_at": "2026-10-03T20:54:11Z",
+          "is_pr": true
+        },
+        {
+          "number": 655,
+          "title": "feat: add Gemini 3.8 Flash model configuration to API definitions",
+          "url": "https://github.com/cloudflare/cloudflare-os/pull/655",
+          "state": "closed",
+          "updated_at": "2026-10-03T14:43:50Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "items": [
+        {
+          "number": 1162,
+          "title": "This has quickly become complicated",
+          "url": "https://github.com/mattpocock/skills/issues/1162",
+          "state": "open",
+          "updated_at": "2026-10-04T14:36:39Z",
+          "is_pr": false
+        },
+        {
+          "number": 589,
+          "title": "Update \"tdd\" skill description to match documented workflow",
+          "url": "https://github.com/mattpocock/skills/issues/589",
+          "state": "open",
+          "updated_at": "2026-10-04T14:27:29Z",
+          "is_pr": false
+        },
+        {
+          "number": 1161,
+          "title": "chore: version skills",
+          "url": "https://github.com/mattpocock/skills/pull/1161",
+          "state": "open",
+          "updated_at": "2026-10-04T13:45:00Z",
+          "is_pr": true
+        },
+        {
+          "number": 1159,
+          "title": "When is v1.3.0 expected to be released?",
+          "url": "https://github.com/mattpocock/skills/issues/1159",
+          "state": "closed",
+          "updated_at": "2026-10-04T12:54:06Z",
+          "is_pr": false
+        },
+        {
+          "number": 1157,
+          "title": "Add OpenCode as Additional agents",
+          "url": "https://github.com/mattpocock/skills/issues/1157",
+          "state": "closed",
+          "updated_at": "2026-10-04T12:53:50Z",
+          "is_pr": false
+        }
+      ]
+    },
+    "affaan-m/ECC": {
+      "items": [
+        {
+          "number": 3220,
+          "title": "fix(skill-stocktake): exclude trash and mark unmeasured usage",
+          "url": "https://github.com/affaan-m/ECC/pull/3220",
+          "state": "open",
+          "updated_at": "2026-10-04T16:11:48Z",
+          "is_pr": true
+        },
+        {
+          "number": 2943,
+          "title": "feat(skills): add read-only docs governance audit",
+          "url": "https://github.com/affaan-m/ECC/pull/2943",
+          "state": "open",
+          "updated_at": "2026-10-04T15:14:48Z",
+          "is_pr": true
+        },
+        {
+          "number": 3286,
+          "title": "fix(opencode): parse raw Istanbul coverage reports",
+          "url": "https://github.com/affaan-m/ECC/pull/3286",
+          "state": "open",
+          "updated_at": "2026-10-04T11:49:53Z",
+          "is_pr": true
+        },
+        {
+          "number": 3380,
+          "title": "fix(context): validate triggers against their metadata source",
+          "url": "https://github.com/affaan-m/ECC/pull/3380",
+          "state": "open",
+          "updated_at": "2026-10-04T11:39:29Z",
+          "is_pr": true
+        },
+        {
+          "number": 3290,
+          "title": "docs(csharp): recommend AwesomeAssertions for testing",
+          "url": "https://github.com/affaan-m/ECC/pull/3290",
+          "state": "open",
+          "updated_at": "2026-10-04T11:38:38Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "stablyai/orca": {
+      "items": [
+        {
+          "number": 25259,
+          "title": "[Bug][Security[: Can't block `orca computer ...` commands over SSH ",
+          "url": "https://github.com/stablyai/orca/issues/25259",
+          "state": "open",
+          "updated_at": "2026-10-04T16:11:33Z",
+          "is_pr": false
+        },
+        {
+          "number": 25077,
+          "title": "feat(mobile): authenticated custom endpoints for direct connections",
+          "url": "https://github.com/stablyai/orca/pull/25077",
+          "state": "open",
+          "updated_at": "2026-10-04T16:10:36Z",
+          "is_pr": true
+        },
+        {
+          "number": 25263,
+          "title": "perf(mobile): cap a browser screencast to the frames the phone has acked",
+          "url": "https://github.com/stablyai/orca/pull/25263",
+          "state": "open",
+          "updated_at": "2026-10-04T16:09:53Z",
+          "is_pr": true
+        },
+        {
+          "number": 25262,
+          "title": "fix(terminal): rebuild the macOS input context when focus comes from any text field",
+          "url": "https://github.com/stablyai/orca/pull/25262",
+          "state": "open",
+          "updated_at": "2026-10-04T16:09:33Z",
+          "is_pr": true
+        },
+        {
+          "number": 25256,
+          "title": "feat(plugins): let a panel invoke its own plugin's worker commands",
+          "url": "https://github.com/stablyai/orca/pull/25256",
+          "state": "open",
+          "updated_at": "2026-10-04T16:09:29Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "vectorize-io/hindsight": {
+      "items": [
+        {
+          "number": 5210,
+          "title": "coding-agents: Codex source timestamps survive serialization but relative dates use the first message clock",
+          "url": "https://github.com/vectorize-io/hindsight/issues/5210",
+          "state": "open",
+          "updated_at": "2026-10-04T16:06:56Z",
+          "is_pr": false
+        },
+        {
+          "number": 5214,
+          "title": "Add free-form document search to the web interface",
+          "url": "https://github.com/vectorize-io/hindsight/issues/5214",
+          "state": "open",
+          "updated_at": "2026-10-04T16:04:46Z",
+          "is_pr": false
+        },
+        {
+          "number": 5213,
+          "title": "fix(coding-agents): retrieve from nonempty banks without pages",
+          "url": "https://github.com/vectorize-io/hindsight/pull/5213",
+          "state": "open",
+          "updated_at": "2026-10-04T16:04:26Z",
+          "is_pr": true
+        },
+        {
+          "number": 5212,
+          "title": "Clarify single-user local professional use and supported ChatGPT Pro authentication for openai-codex",
+          "url": "https://github.com/vectorize-io/hindsight/issues/5212",
+          "state": "open",
+          "updated_at": "2026-10-04T15:10:56Z",
+          "is_pr": false
+        },
+        {
+          "number": 5206,
+          "title": "fix(retain): split oversized conversation turns at content, not JSON envelope",
+          "url": "https://github.com/vectorize-io/hindsight/pull/5206",
+          "state": "open",
+          "updated_at": "2026-10-04T14:32:25Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "infiniflow/ragflow": {
+      "items": [
+        {
+          "number": 20549,
+          "title": "fix(service): mask api_key in ShowProviderInstance response (#20396)",
+          "url": "https://github.com/infiniflow/ragflow/pull/20549",
+          "state": "open",
+          "updated_at": "2026-10-04T08:37:19Z",
+          "is_pr": true
+        },
+        {
+          "number": 20548,
+          "title": "docs: add DemonRoute to supported model providers",
+          "url": "https://github.com/infiniflow/ragflow/pull/20548",
+          "state": "open",
+          "updated_at": "2026-10-04T07:43:53Z",
+          "is_pr": true
+        },
+        {
+          "number": 20538,
+          "title": "chore(deps): bump urllib3 from 2.7.0 to 2.8.0",
+          "url": "https://github.com/infiniflow/ragflow/pull/20538",
+          "state": "open",
+          "updated_at": "2026-10-04T04:08:57Z",
+          "is_pr": true
+        },
+        {
+          "number": 20545,
+          "title": "fix(templates): preserve catalog rows when startup resources are incomplete",
+          "url": "https://github.com/infiniflow/ragflow/pull/20545",
+          "state": "open",
+          "updated_at": "2026-10-04T00:48:13Z",
+          "is_pr": true
+        },
+        {
+          "number": 20546,
+          "title": "fix(elasticsearch): propagate search failures with index context",
+          "url": "https://github.com/infiniflow/ragflow/pull/20546",
+          "state": "open",
+          "updated_at": "2026-10-04T00:45:57Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "langgenius/dify": {
+      "items": [
+        {
+          "number": 43485,
+          "title": "refactor(api): enable strict typing for service API hit testing tests",
+          "url": "https://github.com/langgenius/dify/pull/43485",
+          "state": "open",
+          "updated_at": "2026-10-04T16:00:14Z",
+          "is_pr": true
+        },
+        {
+          "number": 43440,
+          "title": "refactor(api): unify message suggested questions across API surfaces",
+          "url": "https://github.com/langgenius/dify/pull/43440",
+          "state": "open",
+          "updated_at": "2026-10-04T15:31:40Z",
+          "is_pr": true
+        },
+        {
+          "number": 43483,
+          "title": "refactor(api): consolidate data migration CLI commands",
+          "url": "https://github.com/langgenius/dify/pull/43483",
+          "state": "open",
+          "updated_at": "2026-10-04T15:29:33Z",
+          "is_pr": true
+        },
+        {
+          "number": 43482,
+          "title": "[Refactor/Chore] Consolidate data migration CLI commands",
+          "url": "https://github.com/langgenius/dify/issues/43482",
+          "state": "open",
+          "updated_at": "2026-10-04T15:18:25Z",
+          "is_pr": false
+        },
+        {
+          "number": 43481,
+          "title": "refactor(api): use project HTTP errors in Explore controllers",
+          "url": "https://github.com/langgenius/dify/pull/43481",
+          "state": "open",
+          "updated_at": "2026-10-04T15:03:11Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "pbakaus/impeccable": {
+      "items": [
+        {
+          "number": 929,
+          "title": "[Feature] Should hard offset shadows get an advisory detector check?",
+          "url": "https://github.com/pbakaus/impeccable/issues/929",
+          "state": "open",
+          "updated_at": "2026-10-04T13:37:09Z",
+          "is_pr": false
+        },
+        {
+          "number": 928,
+          "title": "Fix: a gradient stop that fades out is not black (#881)",
+          "url": "https://github.com/pbakaus/impeccable/pull/928",
+          "state": "open",
+          "updated_at": "2026-10-04T09:45:15Z",
+          "is_pr": true
+        },
+        {
+          "number": 916,
+          "title": "Fix: live-wrap finds where a self-closing element ends (#852)",
+          "url": "https://github.com/pbakaus/impeccable/pull/916",
+          "state": "closed",
+          "updated_at": "2026-10-04T09:16:58Z",
+          "is_pr": true
+        },
+        {
+          "number": 914,
+          "title": "Fix: live-wrap matches a capitalised component to its rendered tag (#875)",
+          "url": "https://github.com/pbakaus/impeccable/pull/914",
+          "state": "closed",
+          "updated_at": "2026-10-04T08:57:14Z",
+          "is_pr": true
+        },
+        {
+          "number": 881,
+          "title": "[Bug] detect: analytic-gradient+alpha contrast composites over black, reporting 17.6:1 text as 1.2:1",
+          "url": "https://github.com/pbakaus/impeccable/issues/881",
+          "state": "open",
+          "updated_at": "2026-10-04T08:56:14Z",
+          "is_pr": false
+        }
+      ]
+    },
+    "thedotmack/claude-mem": {
+      "items": [
+        {
+          "number": 4399,
+          "title": "fix(worker): use registered memory identity in response metadata",
+          "url": "https://github.com/thedotmack/claude-mem/pull/4399",
+          "state": "open",
+          "updated_at": "2026-10-04T16:14:07Z",
+          "is_pr": true
+        },
+        {
+          "number": 4404,
+          "title": "fix(report): find installed Windows Chrome for PDF export",
+          "url": "https://github.com/thedotmack/claude-mem/pull/4404",
+          "state": "open",
+          "updated_at": "2026-10-04T15:59:10Z",
+          "is_pr": true
+        },
+        {
+          "number": 4400,
+          "title": "fix(report): export portable dates and UTF-8 HTML on Windows",
+          "url": "https://github.com/thedotmack/claude-mem/pull/4400",
+          "state": "open",
+          "updated_at": "2026-10-04T15:57:16Z",
+          "is_pr": true
+        },
+        {
+          "number": 4403,
+          "title": "fix(worker): preserve observation context during field compression",
+          "url": "https://github.com/thedotmack/claude-mem/pull/4403",
+          "state": "open",
+          "updated_at": "2026-10-04T15:52:41Z",
+          "is_pr": true
+        },
+        {
+          "number": 4390,
+          "title": "fix(timeline): select ID-anchor neighbors by capture chronology",
+          "url": "https://github.com/thedotmack/claude-mem/pull/4390",
+          "state": "open",
+          "updated_at": "2026-10-04T15:44:56Z",
+          "is_pr": true
+        }
+      ]
+    },
+    "calesthio/OpenMontage": {
+      "items": [
+        {
+          "number": 699,
+          "title": "feat(video): add dashscope_video provider for Wan 3.0",
+          "url": "https://github.com/calesthio/OpenMontage/pull/699",
+          "state": "open",
+          "updated_at": "2026-10-04T03:22:11Z",
+          "is_pr": true
+        },
+        {
+          "number": 698,
+          "title": "feat: refresh media providers and add HeyGen Avatar V",
+          "url": "https://github.com/calesthio/OpenMontage/pull/698",
+          "state": "closed",
+          "updated_at": "2026-10-04T02:00:05Z",
+          "is_pr": true
+        },
+        {
+          "number": 638,
+          "title": "Feat: mcp tool support",
+          "url": "https://github.com/calesthio/OpenMontage/pull/638",
+          "state": "open",
+          "updated_at": "2026-10-03T19:40:50Z",
+          "is_pr": true
+        },
+        {
+          "number": 663,
+          "title": "feat(remotion): bundle the webfonts locally so a render needs no network",
+          "url": "https://github.com/calesthio/OpenMontage/pull/663",
+          "state": "open",
+          "updated_at": "2026-10-03T16:32:20Z",
+          "is_pr": true
+        },
+        {
+          "number": 613,
+          "title": "fix(composer): render word separator outside inline-block span in CaptionOverlay (fixes #571)",
+          "url": "https://github.com/calesthio/OpenMontage/pull/613",
+          "state": "open",
+          "updated_at": "2026-10-03T16:32:15Z",
+          "is_pr": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "target_date": "2026-10-04",
+  "observed_at": "2026-10-04T16:20:00.502174+00:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "limit": 10,
+  "include_trending_daily": true,
+  "include_readme": true,
+  "collector_exit_code": 0,
+  "rate_limit_status": "No observed API rate-limit error; limit 5 fallback not required. Release/README errors can be suppressed by collector.",
+  "raw_repo_count": 338,
+  "retained_repo_count": 318,
+  "excluded_repos": [
+    "ByteByteGoHq/system-design-101",
+    "InterceptSuite/ProxyBridge",
+    "Open-Dev-Society/OpenStock",
+    "armory3d/armorpaint",
+    "checkstyle/checkstyle",
+    "dsherret/ts-morph",
+    "getsentry/sentry",
+    "kiali/kiali",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "sngyai/Sequoia-X",
+    "tailscale/tailcat",
+    "tldrsec/awesome-secure-defaults",
+    "xyflow/xyflow"
+  ],
+  "deduplicated_redirects": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "Twigpine/openclaude",
+    "career-ops-hq/career-ops",
+    "feder-cr/invisible_playwright_mcp"
+  ],
+  "stale_metadata": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": 404
+    },
+    {
+      "repo": "Vincentwei1021/video-shotcraft",
+      "http_status": 404
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": 404
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": 404
+    },
+    {
+      "repo": "tonhowtf/omniget",
+      "http_status": 404
+    }
+  ],
+  "scope_note": "Exclude general development/network/graphics/stock tools lacking explicit AI, MCP, agent, skills or knowledge purpose; retain AI and agent-enabling projects."
+}
