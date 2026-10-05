@@ -1,0 +1,65 @@
+[
+  {
+    "repo": "Panniantong/Agent-Reach",
+    "category": "Deep research",
+    "purpose": "讓 agent 透過 CLI 讀取與搜尋多個網路平台，適合來源蒐集。",
+    "relevance": "可做 Adam 的跨平台研究課程，協助內容選題與 know metabiz wiki 來源匯入；先用公開資料做可重現 demo。",
+    "risk": "零 API 費用是專案主張；外站政策、登入 cookie 與平台介面可能改變，來源也可能包含不可信文字。"
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "category": "Demo content",
+    "purpose": "以 agent、工具與製作知識組成影片製作流程。",
+    "relevance": "對 Adam 課程與短影音內容最直接：以一份教案製作短片、字幕及輸出素材，量測人工介入與成本。",
+    "risk": "AGPL-3.0 授權須評估；近期有併行暫存、字幕分隔及路徑穿越修正 PR，未合併不代表已解決。"
+  },
+  {
+    "repo": "thedotmack/claude-mem",
+    "category": "Deep research",
+    "purpose": "保存、壓縮並重新注入 coding agent 跨工作階段的上下文。",
+    "relevance": "可用於 AI 辦公自動化的任務交接課程；比較專案記憶與 know metabiz wiki 的來源可追溯性。",
+    "risk": "會保存工作階段內容；需驗證機密排除、記憶隔離與刪除流程，MCP 啟動修正仍須看合併狀態。"
+  },
+  {
+    "repo": "michael-denyer/pstack-claude",
+    "category": "Skill candidate",
+    "purpose": "把嚴謹 agent 開發工作流移植到 Claude Code、Codex、Pi 等工具。",
+    "relevance": "適合 Adam 的 agent 協作教學，挑選 review／反思流程改寫成可測試的個人 skill。",
+    "risk": "不同 harness 的 hooks、執行緒容量與 transcript 行為有差異；不能直接將 repository 文字當本機執行指令。"
+  },
+  {
+    "repo": "cloudflare/cloudflare-os",
+    "category": "Deep research",
+    "purpose": "在 Cloudflare Workers 上提供串接企業脈絡與系統的 agent 工作空間。",
+    "relevance": "可研究 AI office automation 的文件、應用與團隊工作流，評估 know metabiz wiki 的權限與企業情境串接。",
+    "risk": "需評估 Cloudflare 部署成本、平台相依與資料存取隔離；最近 PR 有重試及 token 到期處理，不等同正式可用保證。"
+  },
+  {
+    "repo": "pingdotgg/t3code",
+    "category": "Demo content",
+    "purpose": "以行動、網頁及桌面介面控制本機多種 coding agents。",
+    "relevance": "適合 Adam 示範 Claude Code／Codex／Cursor 工作交接，以及 AI 辦公任務的遠端監看。",
+    "risk": "近期有驗證探測逾時與中斷狀態顯示問題回報；需確認遠端連線權限、命令路徑和實際任務狀態。"
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "category": "Skill candidate",
+    "purpose": "整理不同專業角色的 agent 工作流程、產出與協作資源。",
+    "relevance": "可用作 Adam 角色分工課程與 AI office automation 的客服、內容、行銷範本，抽取少數角色形成有驗收標準的 skills。",
+    "risk": "角色數與星數不能證明成果品質；需驗證安裝器、metadata 與交付物，避免角色提示取代任務測試。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Watch",
+    "purpose": "讓 LLM 將來源文件整理成持續更新、互相連結的 wiki。",
+    "relevance": "與 know metabiz wiki 高度相關；適合比較增量知識整理與 RAG，使用公開 PDF／Markdown 做來源回查實驗。",
+    "risk": "NOASSERTION 代表 API 未識別標準授權，需人工確認；issue 回報 PDF 解析偏差與 8192 輸出 token 限制，可能造成知識缺漏。"
+  },
+  {
+    "repo": "SamurAIGPT/llm-wiki-agent",
+    "category": "Reference only",
+    "purpose": "以 coding agent skill 將 raw 來源文件整理成持久互連 wiki。",
+    "relevance": "可參考 know metabiz wiki 的來源匯入、交叉連結與更新規格，作為 Adam 的知識管理課程對照。",
+    "risk": "近期樣本活動停在 9/24，且存在匯入覆寫 Markdown 回報；先確認保護措施與修正合併，再考慮直接使用。"
+  }
+]

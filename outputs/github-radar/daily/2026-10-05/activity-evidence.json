@@ -1,0 +1,495 @@
+{
+  "observed_at": "2026-10-06T00:12:29.198275+08:00",
+  "repos": {
+    "thedotmack/claude-mem": {
+      "recent_activity": [
+        {
+          "number": 4479,
+          "title": "fix(smart-read): retain qualified Ruby container declarations",
+          "state": "open",
+          "updated_at": "2026-10-05T15:25:39Z",
+          "comments": 2,
+          "is_pr": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4479"
+        },
+        {
+          "number": 4483,
+          "title": "fix(mcp): load server in launcher process",
+          "state": "open",
+          "updated_at": "2026-10-05T15:16:34Z",
+          "comments": 1,
+          "is_pr": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4483"
+        },
+        {
+          "number": 4474,
+          "title": "fix(smart-read): distinguish Go methods by receiver",
+          "state": "open",
+          "updated_at": "2026-10-05T15:07:30Z",
+          "comments": 1,
+          "is_pr": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4474"
+        },
+        {
+          "number": 4480,
+          "title": "fix(smart-read): keep methods under their interface owners",
+          "state": "open",
+          "updated_at": "2026-10-05T14:57:04Z",
+          "comments": 1,
+          "is_pr": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4480"
+        },
+        {
+          "number": 4482,
+          "title": "fix(smart-read): retain C++ namespace ownership chains",
+          "state": "open",
+          "updated_at": "2026-10-05T14:52:50Z",
+          "comments": 2,
+          "is_pr": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4482"
+        }
+      ]
+    },
+    "michael-denyer/pstack-claude": {
+      "recent_activity": [
+        {
+          "number": 186,
+          "title": "fix(reflect): continue searching when a transcript is removed",
+          "state": "closed",
+          "updated_at": "2026-10-05T15:14:12Z",
+          "comments": 3,
+          "is_pr": true,
+          "html_url": "https://github.com/michael-denyer/pstack-claude/pull/186"
+        },
+        {
+          "number": 189,
+          "title": "fix(pi): preserve completed answers when a later question is dismissed",
+          "state": "open",
+          "updated_at": "2026-10-05T15:00:46Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/michael-denyer/pstack-claude/pull/189"
+        },
+        {
+          "number": 188,
+          "title": "fix(codex): handle exhausted review-agent thread capacity",
+          "state": "open",
+          "updated_at": "2026-10-05T15:00:22Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/michael-denyer/pstack-claude/pull/188"
+        },
+        {
+          "number": 187,
+          "title": "fix(orch): pin frontier SHAs to exact local branch refs",
+          "state": "open",
+          "updated_at": "2026-10-05T15:00:01Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/michael-denyer/pstack-claude/pull/187"
+        },
+        {
+          "number": 185,
+          "title": "Fault a hook with no command in validateHooks (0.9.69)",
+          "state": "closed",
+          "updated_at": "2026-10-05T11:56:48Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/michael-denyer/pstack-claude/pull/185"
+        }
+      ]
+    },
+    "Panniantong/Agent-Reach": {
+      "recent_activity": [
+        {
+          "number": 780,
+          "title": "fix(config): report corrupt config files instead of crashing",
+          "state": "open",
+          "updated_at": "2026-10-05T15:37:02Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/780"
+        },
+        {
+          "number": 779,
+          "title": "fix(xueqiu): decode HTML entities before truncating posts",
+          "state": "open",
+          "updated_at": "2026-10-05T13:27:13Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/779"
+        },
+        {
+          "number": 768,
+          "title": "fix(doctor): bound channel checks, report timeouts, exit nonzero on errors",
+          "state": "open",
+          "updated_at": "2026-10-05T13:03:54Z",
+          "comments": 2,
+          "is_pr": true,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/768"
+        },
+        {
+          "number": 778,
+          "title": "limkdin",
+          "state": "open",
+          "updated_at": "2026-10-05T10:08:22Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/issues/778"
+        },
+        {
+          "number": 760,
+          "title": "feat(cookies): add Vivaldi to --from-browser and OpenCLI detection",
+          "state": "open",
+          "updated_at": "2026-10-05T08:21:50Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/Panniantong/Agent-Reach/pull/760"
+        }
+      ]
+    },
+    "calesthio/OpenMontage": {
+      "recent_activity": [
+        {
+          "number": 713,
+          "title": "fix(video-stitch): isolate temporary files for concurrent jobs",
+          "state": "open",
+          "updated_at": "2026-10-05T14:30:01Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/calesthio/OpenMontage/pull/713"
+        },
+        {
+          "number": 687,
+          "title": "feat(publish): add upload_post_publisher (narrow follow-up to #7)",
+          "state": "open",
+          "updated_at": "2026-10-05T11:34:31Z",
+          "comments": 2,
+          "is_pr": true,
+          "html_url": "https://github.com/calesthio/OpenMontage/pull/687"
+        },
+        {
+          "number": 614,
+          "title": "fix(hyperframes): probe local CLI cache before remote registry in runtime check (fixes #590)",
+          "state": "open",
+          "updated_at": "2026-10-05T11:24:53Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/calesthio/OpenMontage/pull/614"
+        },
+        {
+          "number": 712,
+          "title": "fix(captions): handle whitespace-only SRT separators",
+          "state": "open",
+          "updated_at": "2026-10-05T11:22:44Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/calesthio/OpenMontage/pull/712"
+        },
+        {
+          "number": 711,
+          "title": "fix(clip-cache): prevent path traversal in ingest, try_link, and eviction",
+          "state": "open",
+          "updated_at": "2026-10-05T09:58:01Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/calesthio/OpenMontage/pull/711"
+        }
+      ]
+    },
+    "cloudflare/cloudflare-os": {
+      "recent_activity": [
+        {
+          "number": 615,
+          "title": "Share OpenAI's prompt cache across chats",
+          "state": "open",
+          "updated_at": "2026-10-05T16:11:22Z",
+          "comments": 11,
+          "is_pr": true,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/615"
+        },
+        {
+          "number": 659,
+          "title": "Change blueprint format to git and enable receiving blueprint updates",
+          "state": "open",
+          "updated_at": "2026-10-05T16:10:29Z",
+          "comments": 9,
+          "is_pr": true,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/659"
+        },
+        {
+          "number": 645,
+          "title": "Retry a model request that fails transiently",
+          "state": "open",
+          "updated_at": "2026-10-05T16:10:05Z",
+          "comments": 8,
+          "is_pr": true,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/645"
+        },
+        {
+          "number": 662,
+          "title": "Add classifier model bindings for Cloudflare Clef",
+          "state": "open",
+          "updated_at": "2026-10-05T16:12:22Z",
+          "comments": 4,
+          "is_pr": true,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/662"
+        },
+        {
+          "number": 661,
+          "title": "fix(gatekeeper-github): refresh expiring tokens instead of breaking after 8 hours",
+          "state": "closed",
+          "updated_at": "2026-10-05T15:59:31Z",
+          "comments": 6,
+          "is_pr": true,
+          "html_url": "https://github.com/cloudflare/cloudflare-os/pull/661"
+        }
+      ]
+    },
+    "msitarzewski/agency-agents": {
+      "recent_activity": [
+        {
+          "number": 1034,
+          "title": "Handle queue and task allocation failures before starting sensor work",
+          "state": "open",
+          "updated_at": "2026-10-05T16:04:55Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1034"
+        },
+        {
+          "number": 1033,
+          "title": "Preserve ICU arguments and selectors during pseudo-localization",
+          "state": "open",
+          "updated_at": "2026-10-05T16:04:51Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1033"
+        },
+        {
+          "number": 917,
+          "title": "Coordinate the next installer and metadata hardening fixes",
+          "state": "open",
+          "updated_at": "2026-10-05T16:02:58Z",
+          "comments": 12,
+          "is_pr": false,
+          "html_url": "https://github.com/msitarzewski/agency-agents/issues/917"
+        },
+        {
+          "number": 1032,
+          "title": "Add India Business Navigator and WhatsApp First Selling Strategist",
+          "state": "open",
+          "updated_at": "2026-10-05T12:10:48Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1032"
+        },
+        {
+          "number": 1031,
+          "title": "Add Mobile Security Engineer Specialist",
+          "state": "open",
+          "updated_at": "2026-10-05T08:49:48Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1031"
+        }
+      ]
+    },
+    "earthtojake/text-to-cad": {
+      "recent_activity": [
+        {
+          "number": 555,
+          "title": "0.7.14 STL export: valid single-solid teacup produces holes, duplicate triangles and non-manifold edges",
+          "state": "open",
+          "updated_at": "2026-10-05T14:53:13Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/earthtojake/text-to-cad/issues/555"
+        },
+        {
+          "number": 554,
+          "title": "CI runs what a change can break; a pull request carries its own release, PyPI before main",
+          "state": "open",
+          "updated_at": "2026-10-05T14:06:09Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/earthtojake/text-to-cad/pull/554"
+        },
+        {
+          "number": 474,
+          "title": "Select CI by skill documentation and runtime contracts",
+          "state": "closed",
+          "updated_at": "2026-10-05T06:06:18Z",
+          "comments": 1,
+          "is_pr": true,
+          "html_url": "https://github.com/earthtojake/text-to-cad/pull/474"
+        },
+        {
+          "number": 518,
+          "title": "Electronics: KiCad boards (@pcb), inspection tools, autorouting, simulation and harnesses (@harness)",
+          "state": "open",
+          "updated_at": "2026-10-05T04:58:15Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/earthtojake/text-to-cad/pull/518"
+        },
+        {
+          "number": 527,
+          "title": "Brand: logos that build themselves in, like a CAD model",
+          "state": "closed",
+          "updated_at": "2026-10-05T04:35:16Z",
+          "comments": 1,
+          "is_pr": true,
+          "html_url": "https://github.com/earthtojake/text-to-cad/pull/527"
+        }
+      ]
+    },
+    "pingdotgg/t3code": {
+      "recent_activity": [
+        {
+          "number": 16021,
+          "title": "feat(acp): support local provider commands",
+          "state": "open",
+          "updated_at": "2026-10-05T16:11:06Z",
+          "comments": 3,
+          "is_pr": true,
+          "html_url": "https://github.com/pingdotgg/t3code/pull/16021"
+        },
+        {
+          "number": 16109,
+          "title": "fix(web): remote Open in VS Code from a file preview opens the file",
+          "state": "open",
+          "updated_at": "2026-10-05T16:12:17Z",
+          "comments": 2,
+          "is_pr": true,
+          "html_url": "https://github.com/pingdotgg/t3code/pull/16109"
+        },
+        {
+          "number": 16106,
+          "title": "[Bug]: Claude and Codex auth probes time out through mise shims; absolute executable paths restore authentication",
+          "state": "open",
+          "updated_at": "2026-10-05T16:10:06Z",
+          "comments": 1,
+          "is_pr": false,
+          "html_url": "https://github.com/pingdotgg/t3code/issues/16106"
+        },
+        {
+          "number": 16111,
+          "title": "[Bug]: claude ignores explicit instructions to NOT add coAuthoredBy trailer, claude blames T3 for nudging it to add the trailers",
+          "state": "open",
+          "updated_at": "2026-10-05T16:09:36Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/pingdotgg/t3code/issues/16111"
+        },
+        {
+          "number": 16110,
+          "title": "[Bug]: A run stopped by an agent says \"Run interrupted by user\"",
+          "state": "open",
+          "updated_at": "2026-10-05T16:08:26Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/pingdotgg/t3code/issues/16110"
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "recent_activity": [
+        {
+          "number": 711,
+          "title": "fix(codex-cli): tolerate slow cold-start version detection",
+          "state": "closed",
+          "updated_at": "2026-10-05T09:15:04Z",
+          "comments": 1,
+          "is_pr": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/711"
+        },
+        {
+          "number": 806,
+          "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+          "state": "open",
+          "updated_at": "2026-10-05T06:36:04Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/806"
+        },
+        {
+          "number": 805,
+          "title": "Ingest analysis is hard-capped at 8,192 output tokens — hardcoded, not configurable, not retried",
+          "state": "open",
+          "updated_at": "2026-10-05T03:18:26Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/805"
+        },
+        {
+          "number": 796,
+          "title": "fix: disable DeepSeek V4 thinking on Anthropic-wire ingest",
+          "state": "open",
+          "updated_at": "2026-10-05T03:17:42Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/796"
+        },
+        {
+          "number": 804,
+          "title": "fix(ingest): recover REVIEW blocks whose closer is missing",
+          "state": "open",
+          "updated_at": "2026-10-03T14:21:43Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/804"
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "recent_activity": [
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83"
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82"
+        },
+        {
+          "number": 81,
+          "title": "Handle absolute output path display",
+          "state": "open",
+          "updated_at": "2026-09-24T11:43:08Z",
+          "comments": 0,
+          "is_pr": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/81"
+        },
+        {
+          "number": 80,
+          "title": "An absolute output path aborts before conversion",
+          "state": "open",
+          "updated_at": "2026-09-24T11:12:44Z",
+          "comments": 0,
+          "is_pr": false,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/80"
+        }
+      ]
+    }
+  }
+}

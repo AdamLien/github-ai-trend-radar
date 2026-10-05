@@ -1,0 +1,19 @@
+{
+  "excluded_repos": [
+    "InterceptSuite/ProxyBridge",
+    "Open-Dev-Society/OpenStock",
+    "armory3d/armorpaint",
+    "kiali/kiali",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "sngyai/Sequoia-X",
+    "tldrsec/awesome-secure-defaults",
+    "xyflow/xyflow"
+  ],
+  "reason": "用途、topics 與 README 節錄未顯示要求的 AI／agent／知識管理或開發自動化用途。",
+  "added_repos": [
+    "pingdotgg/t3code"
+  ],
+  "opengym_scope": "topics 包含 MCP，保留候選但不列今日重點。"
+}

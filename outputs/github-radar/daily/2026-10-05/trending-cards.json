@@ -1,0 +1,67 @@
+[
+  {
+    "repo": "tester-army/e2e",
+    "description": "Next generation e2e testing framework for web and mobile apps.",
+    "stars_today": "1430"
+  },
+  {
+    "repo": "thedotmack/claude-mem",
+    "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+    "stars_today": "534"
+  },
+  {
+    "repo": "michael-denyer/pstack-claude",
+    "description": "Claude Code, Codex, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
+    "stars_today": "222"
+  },
+  {
+    "repo": "earthtojake/text-to-cad",
+    "description": "Give your agent CAD superpowers.",
+    "stars_today": "456"
+  },
+  {
+    "repo": "pingdotgg/t3code",
+    "description": "",
+    "stars_today": "487"
+  },
+  {
+    "repo": "boykopovar/AnyPS5",
+    "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+    "stars_today": "994"
+  },
+  {
+    "repo": "Panniantong/Agent-Reach",
+    "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+    "stars_today": "1156"
+  },
+  {
+    "repo": "calesthio/OpenMontage",
+    "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+    "stars_today": "758"
+  },
+  {
+    "repo": "caddyserver/caddy",
+    "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+    "stars_today": "526"
+  },
+  {
+    "repo": "DuarteSantos8/openGym",
+    "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+    "stars_today": "1444"
+  },
+  {
+    "repo": "cloudflare/cloudflare-os",
+    "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+    "stars_today": "102"
+  },
+  {
+    "repo": "Stremio/stremio-web",
+    "description": "Stremio - Freedom to Stream",
+    "stars_today": "111"
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+    "stars_today": "595"
+  }
+]
