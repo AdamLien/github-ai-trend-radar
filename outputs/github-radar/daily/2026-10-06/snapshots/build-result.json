@@ -1,0 +1,10 @@
+{
+  "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+  "cwd": "dashboard",
+  "exit_code": 0,
+  "dist_index_nonempty": true,
+  "radar_data_nonempty": true,
+  "warnings": [
+    "Vite bundle chunk exceeds 500 kB; build succeeded"
+  ]
+}

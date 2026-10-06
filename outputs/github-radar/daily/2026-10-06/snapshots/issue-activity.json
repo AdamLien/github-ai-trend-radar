@@ -1,0 +1,446 @@
+{
+  "observed_at": "2026-10-06T16:12:02.944844+00:00",
+  "repos": {
+    "mattpocock/skills": {
+      "recent_items": [
+        {
+          "number": 1161,
+          "title": "chore: version skills",
+          "state": "open",
+          "updated_at": "2026-10-06T13:41:42Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/mattpocock/skills/pull/1161"
+        },
+        {
+          "number": 124,
+          "title": "Add user confirmation checkpoint between Phase 4 and Phase 5",
+          "state": "closed",
+          "updated_at": "2026-10-06T13:37:37Z",
+          "comments": 5,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/124"
+        },
+        {
+          "number": 1178,
+          "title": "quartermaster counts tools from auto-mode approvals as approvals for permission-learning #51",
+          "state": "closed",
+          "updated_at": "2026-10-06T13:36:21Z",
+          "comments": 2,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1178"
+        },
+        {
+          "number": 1129,
+          "title": "Proposal: Make User Stories optional in to-spec",
+          "state": "open",
+          "updated_at": "2026-10-06T13:25:45Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1129"
+        },
+        {
+          "number": 966,
+          "title": "Conflicting statements in `/to-spec`",
+          "state": "open",
+          "updated_at": "2026-10-06T13:25:43Z",
+          "comments": 2,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/966"
+        }
+      ]
+    },
+    "morluto/rea": {
+      "recent_items": [
+        {
+          "number": 748,
+          "title": "feat(ghidra): integrate optional NativeAOT metadata recovery",
+          "state": "open",
+          "updated_at": "2026-10-06T16:09:15Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/748"
+        },
+        {
+          "number": 635,
+          "title": "chore(main): release rea-agents 4.1.0",
+          "state": "open",
+          "updated_at": "2026-10-06T16:02:58Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/635"
+        },
+        {
+          "number": 749,
+          "title": "fix(javascript): expose result schema failures",
+          "state": "closed",
+          "updated_at": "2026-10-06T16:01:34Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/749"
+        },
+        {
+          "number": 746,
+          "title": "analyze-javascript-application: zero output for minutes then generic unreadable_output failure on a 24 MB Electron ASAR (Obsidian 1.12.7)",
+          "state": "open",
+          "updated_at": "2026-10-06T16:00:21Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/morluto/rea/issues/746"
+        },
+        {
+          "number": 747,
+          "title": "[Feature] Integrate IDA Pro MCP as an attached and headless analysis provider",
+          "state": "open",
+          "updated_at": "2026-10-06T15:37:21Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/morluto/rea/issues/747"
+        }
+      ]
+    },
+    "pbakaus/impeccable": {
+      "recent_items": [
+        {
+          "number": 928,
+          "title": "Fix: a gradient stop that fades out is not black (#881)",
+          "state": "open",
+          "updated_at": "2026-10-06T15:43:32Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/928"
+        },
+        {
+          "number": 930,
+          "title": "Fix: composite translucent backgrounds down the same hit stack",
+          "state": "open",
+          "updated_at": "2026-10-06T15:28:23Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/930"
+        },
+        {
+          "number": 961,
+          "title": "Name the whole frame in every comp prompt",
+          "state": "open",
+          "updated_at": "2026-10-06T15:28:22Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/961"
+        },
+        {
+          "number": 962,
+          "title": "Bump rustls from 0.23.43 to 0.23.45 in the cargo group across 1 directory",
+          "state": "open",
+          "updated_at": "2026-10-06T15:28:21Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/962"
+        },
+        {
+          "number": 806,
+          "title": "Static engine: pixel-sample image backgrounds behind text",
+          "state": "open",
+          "updated_at": "2026-10-06T15:28:20Z",
+          "comments": 7,
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/806"
+        }
+      ]
+    },
+    "thedotmack/claude-mem": {
+      "recent_items": [
+        {
+          "number": 4560,
+          "title": "fix(server): reclaim generation jobs a dead worker left in processing",
+          "state": "open",
+          "updated_at": "2026-10-06T15:36:06Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4560"
+        },
+        {
+          "number": 4559,
+          "title": "Context cache re-renders close a read-only bun:sqlite connection with unfinalized statements → SQLITE_MISUSE spam (13.30.0+)",
+          "state": "open",
+          "updated_at": "2026-10-06T12:55:05Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/thedotmack/claude-mem/issues/4559"
+        },
+        {
+          "number": 4557,
+          "title": "fix(observer): release the claimed batch when the Claude SDK stream ends or throws",
+          "state": "open",
+          "updated_at": "2026-10-06T11:20:25Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4557"
+        },
+        {
+          "number": 4558,
+          "title": "file-context hook lazy-spawns a local worker when CLAUDE_MEM_RUNTIME=server",
+          "state": "open",
+          "updated_at": "2026-10-06T11:19:46Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/thedotmack/claude-mem/issues/4558"
+        },
+        {
+          "number": 4553,
+          "title": "feat(hooks): the File Read Gate denies only code files of 32 KB and up",
+          "state": "closed",
+          "updated_at": "2026-10-06T10:45:43Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/4553"
+        }
+      ]
+    },
+    "msitarzewski/agency-agents": {
+      "recent_items": [
+        {
+          "number": 1030,
+          "title": "fix(hermes): match config items with inline comments",
+          "state": "closed",
+          "updated_at": "2026-10-06T12:47:47Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1030"
+        },
+        {
+          "number": 1056,
+          "title": "fix(runbooks): use rendered agent ids in rosters",
+          "state": "open",
+          "updated_at": "2026-10-06T06:51:33Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1056"
+        },
+        {
+          "number": 1055,
+          "title": "fix(eval): parse code fences like lib.sh in the outputs eval",
+          "state": "open",
+          "updated_at": "2026-10-06T05:50:41Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1055"
+        },
+        {
+          "number": 1054,
+          "title": "fix(unreal): define attribute accessors and refresh Nanite limits",
+          "state": "open",
+          "updated_at": "2026-10-06T02:33:06Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1054"
+        },
+        {
+          "number": 1053,
+          "title": "fix(unreal): correct Multiplayer Architect RPC validation and GAS setup",
+          "state": "open",
+          "updated_at": "2026-10-05T23:52:25Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/msitarzewski/agency-agents/pull/1053"
+        }
+      ]
+    },
+    "cathrynlavery/diagram-design": {
+      "recent_items": [
+        {
+          "number": 283,
+          "title": "fix(drawio): validate and resolve geometry safely",
+          "state": "open",
+          "updated_at": "2026-10-06T16:11:13Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/283"
+        },
+        {
+          "number": 281,
+          "title": "fix(drawio): bound structural parsing",
+          "state": "closed",
+          "updated_at": "2026-10-06T15:58:52Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/281"
+        },
+        {
+          "number": 282,
+          "title": "fix(mermaid): isolate unselected blocks",
+          "state": "open",
+          "updated_at": "2026-10-06T15:50:09Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/282"
+        },
+        {
+          "number": 280,
+          "title": "fix(excalidraw): reject duplicate element IDs",
+          "state": "closed",
+          "updated_at": "2026-10-06T15:46:06Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/280"
+        },
+        {
+          "number": 199,
+          "title": "docs: offer an npx skills add install path",
+          "state": "closed",
+          "updated_at": "2026-10-06T15:27:56Z",
+          "comments": 5,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/199"
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "recent_items": [
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83"
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82"
+        },
+        {
+          "number": 81,
+          "title": "Handle absolute output path display",
+          "state": "open",
+          "updated_at": "2026-09-24T11:43:08Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/81"
+        },
+        {
+          "number": 80,
+          "title": "An absolute output path aborts before conversion",
+          "state": "open",
+          "updated_at": "2026-09-24T11:12:44Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/80"
+        }
+      ]
+    },
+    "infiniflow/ragflow": {
+      "recent_items": [
+        {
+          "number": 20408,
+          "title": "fix(es): allow sort on the id field (#19649)",
+          "state": "open",
+          "updated_at": "2026-10-06T15:45:08Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/20408"
+        },
+        {
+          "number": 20483,
+          "title": "fix(artifact): reject non-integer top_n in wiki graph route (#20006)",
+          "state": "open",
+          "updated_at": "2026-10-06T15:30:04Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/20483"
+        },
+        {
+          "number": 20538,
+          "title": "chore(deps): bump urllib3 from 2.7.0 to 2.8.0",
+          "state": "closed",
+          "updated_at": "2026-10-06T14:30:41Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/20538"
+        },
+        {
+          "number": 20550,
+          "title": "chore: fix some function names in comments",
+          "state": "closed",
+          "updated_at": "2026-10-06T14:30:02Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/20550"
+        },
+        {
+          "number": 20569,
+          "title": "fix(http): pin validated IPs in strictSSRFTransport to close DNS-rebinding TOCTOU (#19726)",
+          "state": "open",
+          "updated_at": "2026-10-06T13:48:40Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/20569"
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "recent_items": [
+        {
+          "number": 704,
+          "title": "[feature]自定义背景图、资源管理器打开、以及摄入队列清理",
+          "state": "open",
+          "updated_at": "2026-10-06T13:19:20Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/704"
+        },
+        {
+          "number": 711,
+          "title": "fix(codex-cli): tolerate slow cold-start version detection",
+          "state": "closed",
+          "updated_at": "2026-10-05T09:15:04Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/711"
+        },
+        {
+          "number": 806,
+          "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+          "state": "open",
+          "updated_at": "2026-10-05T06:36:04Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/806"
+        },
+        {
+          "number": 805,
+          "title": "Ingest analysis is hard-capped at 8,192 output tokens — hardcoded, not configurable, not retried",
+          "state": "open",
+          "updated_at": "2026-10-05T03:18:26Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/805"
+        },
+        {
+          "number": 796,
+          "title": "fix: disable DeepSeek V4 thinking on Anthropic-wire ingest",
+          "state": "open",
+          "updated_at": "2026-10-05T03:17:42Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/796"
+        }
+      ]
+    }
+  }
+}

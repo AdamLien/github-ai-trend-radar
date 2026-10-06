@@ -1,0 +1,45 @@
+{
+  "target_date": "2026-10-06",
+  "completed_at": "2026-10-06T16:21:50.256647+00:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "initial_limit": 10,
+  "effective_limit": 10,
+  "include_trending_daily": true,
+  "include_readme": true,
+  "rate_limit_detected": false,
+  "rate_limit_retry": false,
+  "collector_exit_code": 0,
+  "repos_before_scope_review": 342,
+  "repos_after_scope_review": 341,
+  "excluded_repos": {
+    "DuarteSantos8/openGym": "健身與體重追蹤，未見指定範圍用途；關鍵字誤收"
+  },
+  "carried_forward_unverified": {
+    "BarberNumber/Midjourney-Software": "404",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools": "404",
+    "mingrath/obsidian-ai-knowledge-agent": "404",
+    "tonhowtf/omniget": "404"
+  },
+  "recommended_repos": [
+    "morluto/rea",
+    "mattpocock/skills",
+    "pbakaus/impeccable",
+    "cathrynlavery/diagram-design",
+    "thedotmack/claude-mem",
+    "msitarzewski/agency-agents",
+    "SamurAIGPT/llm-wiki-agent",
+    "nashsu/llm_wiki",
+    "infiniflow/ragflow"
+  ]
+}
