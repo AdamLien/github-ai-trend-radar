@@ -1,0 +1,65 @@
+{
+  "collected_count": 343,
+  "excluded": [
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教學"
+    },
+    {
+      "repo": "DuarteSantos8/openGym",
+      "reason": "健身追蹤；trained 的 ai 子字串導致誤納"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般金融行情平台，現有證據無 AI 或開發自動化"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般圖像材質工具"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "Istio 服務網格觀測"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "一般編譯器工具鏈"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般檔案傳輸"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "帳號 OSINT 工具"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "傳統股票掃描，現有證據無 AI 或開發自動化"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "一般網路傳输"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全函式庫清單"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "一般節點 UI 函式庫，未見 agent 編排證據"
+    }
+  ],
+  "source_policy": "原始 Trending HTML/cards 保留作證據；候選 JSON 與報告排除明確不在範圍項目。",
+  "canonical_duplicates_merged": {
+    "HarnessMD/munder-difflin": 2,
+    "LibreChat-AI/LibreChat": 2,
+    "Twigpine/openclaude": 2,
+    "career-ops-hq/career-ops": 2
+  },
+  "retained_count": 326
+}

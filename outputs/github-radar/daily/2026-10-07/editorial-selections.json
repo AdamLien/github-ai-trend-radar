@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "morluto/rea",
+    "category": "Deep research",
+    "purpose": "透過 MCP 將二進位、JavaScript／Electron、.NET 與執行期行為分析工具交給 agent，並輸出證據與限制。",
+    "priority": "今日新增 stars 最強，優先檢查成長是否伴隨穩定性改善。",
+    "relevance": "適合 Adam 的 MCP 工具整合與逆向分析示範；可研究既有軟體整合至 AI 辦公流程的方法。對 know metabiz wiki 的價值在於保存分析證據與操作手冊。",
+    "risk": "近期 issues 涉及大型 APK 記憶體不足與 Linux 分析器偵測問題；需使用有權分析的樣本，並檢查外部工具依賴。"
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "category": "Demo content",
+    "purpose": "以共用 Skill 產出 HTML／SVG 圖解，提供版型與品牌色、字體設定。",
+    "priority": "兼具今日熱度及可快速驗證的內容產出價值。",
+    "relevance": "適合將 Adam 課程中的 MCP、RAG 與多 agent 流程轉為教學圖解；AI 辦公 SOP 與 know metabiz wiki 可採相同品牌樣式。",
+    "risk": "README 功能需實測字體、中文排版與匯出；近期 PR 涉及來源信任、輸出驗證與 CI 強化，未合併提案不能視為已提供功能。"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "category": "Skill candidate",
+    "purpose": "將需求釐清、設計、TDD、實作及審查整理為可重複使用的工程 Skills。",
+    "priority": "Skills 的高今日新增 stars 值得觀察，但大型基數需搭配相對成長判讀。",
+    "relevance": "可用於 Adam 的 AI 工程課程及需求訪談內容；提取少量工作流程改善 metabiz 自動化專案，將決策與 ADR 納入 know metabiz wiki。",
+    "risk": "與現有 Skills 有重疊；近期 issues 涉及審查技能名稱碰撞、分支狀態與提問順序，需確認實際工具相容性。"
+  },
+  {
+    "repo": "cloudflare/security-audit-skill",
+    "category": "Skill candidate",
+    "purpose": "以隔離 agents 進行偵察、涵蓋率規劃、候選漏洞驗證與獨立紀錄核驗，輸出結構化稽核結果。",
+    "priority": "小型專案的相對增長與稽核方法價值值得優先研究。",
+    "relevance": "可加入 Adam 的 agent 驗證與程式安全內容；AI 辦公系統上線前可採其證據格式，wiki 保存已驗證的發現與修復追蹤。",
+    "risk": "AI 判讀仍需人工與測試核驗；近期 PR 顯示 Windows 驗證器與行號界線仍在修正，多階段執行成本需量測。"
+  },
+  {
+    "repo": "ayghri/i-have-adhd",
+    "category": "Skill candidate",
+    "purpose": "將 coding agent 回答改為先給行動、清晰步驟與較短段落的溝通 Skill。",
+    "priority": "今日熱度強且導入成本低，適合以同一任務做前後比較。",
+    "relevance": "Adam 可製作改善 AI 回答可讀性的短內容；AI 辦公摘要與 know metabiz wiki 的操作指引也可採其輸出習慣。",
+    "risk": "過度精簡可能省略必要限制與驗證證據；README 的 ADHD 定位屬溝通設計，不能推論醫療效果；不同平台的安裝與更新流程仍在調整。"
+  },
+  {
+    "repo": "thedotmack/claude-mem",
+    "category": "Deep research",
+    "purpose": "捕捉 agent 工作觀測、壓縮記憶並在後續工作階段重新注入相關脈絡。",
+    "priority": "今日熱度配合跨 session 記憶需求，優先研究實際保存與恢復能力。",
+    "relevance": "適合 Adam 的持久記憶課程與長任務 demo；metabiz 辦公工作可保存進度，know metabiz wiki 可作為經人工核驗的長期知識層。",
+    "risk": "可能記錄客戶資料；需核對本機與外部 provider 的資料流、授權與成本。近期 issue 提到 worker 重啟遺失 cooldown 期間觀測及 provider 相容性。"
+  },
+  {
+    "repo": "trycua/cua",
+    "category": "Demo content",
+    "purpose": "提供 computer-use 驅動、沙箱／跨作業系統執行與評測工具，支援 SDK 與 CLI。",
+    "priority": "今日新增 stars 中等，但 AI 辦公場景關聯度高。",
+    "relevance": "可示範表單、文件與 UI 操作的 AI 辦公自動化；Adam 可比較 API 與畫面操作的穩定性，wiki 保存場景、成功率與失敗原因。",
+    "risk": "畫面座標與 GTK／捲動修正的近期 PR 顯示穩定性仍需驗證；各子套件有不同授權，商用前應逐項核對，PR 中 release 提案不是已發行版本。"
+  },
+  {
+    "repo": "addyosmani/agent-skills",
+    "category": "Reference only",
+    "purpose": "提供涵蓋定義、規劃、建置、驗證、審查與交付的工程生命周期 Skills 與核驗清單。",
+    "priority": "今日新增 stars 有動能，但與另一套工程 Skills 重疊，先作比較參考。",
+    "relevance": "Adam 可用於比較 Skills 的驗證關卡；AI 辦公專案可取其少量檢核項目，know metabiz wiki 保存適用條件與實測差異。",
+    "risk": "一次引入整套容易造成技能重疊與流程負擔；近期 PR 涉及 frontmatter linter 與跨 Skill 呼叫驗證，需先確定名稱及解析行為。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "將文件增量編譯成可互連、持續維護的 wiki，提供跨平台桌面介面。",
+    "priority": "以知識庫實際需求優先，非因總 stars 或 Trending 入選。",
+    "relevance": "最直接對應 know metabiz wiki：比較來源追溯、增量更新與查詢；Adam 可做「RAG 與持久 wiki」內容及 AI 辦公文件整理 demo。",
+    "risk": "近期 issue 回報 PDF 內容解析嚴重偏差；在引用、更新衝突、多使用者權限與備份通過驗證前，只使用去識別化測試文件。"
+  },
+  {
+    "repo": "manaflow-ai/cmux",
+    "category": "Watch",
+    "purpose": "提供 macOS 終端機的垂直分頁、agent 通知與可操作的內建瀏覽器，方便多任務調度。",
+    "priority": "今日新增 stars 較低，先追蹤平台與多 agent 操作改善。",
+    "relevance": "Adam 可製作多 coding agent 協作工作台內容；AI 辦公的價值在於任務通知與介面編排，wiki 可記錄工具比較。",
+    "risk": "目前主體為 macOS，與此 Linux 環境有落差；近期大量 UI PR 不代表已發行能力，工作區資料與 agent 權限需實測。"
+  }
+]

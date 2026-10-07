@@ -1,0 +1,442 @@
+{
+  "morluto/rea": {
+    "recent_items": [
+      {
+        "number": 893,
+        "title": "JADX provider OOMs on real-world multidex APK (11 dex, 133MB)",
+        "state": "closed",
+        "updated_at": "2026-10-07T16:11:58Z",
+        "is_pull_request": false,
+        "url": "https://github.com/morluto/rea/issues/893"
+      },
+      {
+        "number": 832,
+        "title": "[Bug] Linux: Ghidra provider unusable — GHIDRA_INSTALL_DIR not detected and Arch-family host flagged unsupported",
+        "state": "closed",
+        "updated_at": "2026-10-07T16:11:52Z",
+        "is_pull_request": false,
+        "url": "https://github.com/morluto/rea/issues/832"
+      },
+      {
+        "number": 861,
+        "title": "analyze-javascript-application: unreadable_output '/label (too_small)' on a Vite bundle containing SheetJS (xlsx)",
+        "state": "closed",
+        "updated_at": "2026-10-07T16:11:37Z",
+        "is_pull_request": false,
+        "url": "https://github.com/morluto/rea/issues/861"
+      },
+      {
+        "number": 938,
+        "title": "fix(dotnet): validate managed metadata and CIL boundaries",
+        "state": "open",
+        "updated_at": "2026-10-07T16:11:36Z",
+        "is_pull_request": true,
+        "url": "https://github.com/morluto/rea/pull/938"
+      },
+      {
+        "number": 816,
+        "title": "[Bug] OpenCode V2 Compatibility",
+        "state": "closed",
+        "updated_at": "2026-10-07T16:11:33Z",
+        "is_pull_request": false,
+        "url": "https://github.com/morluto/rea/issues/816"
+      }
+    ]
+  },
+  "mattpocock/skills": {
+    "recent_items": [
+      {
+        "number": 1034,
+        "title": "Ticket assignment fails due to missing e-mail mapping in issue‑tracker templates",
+        "state": "open",
+        "updated_at": "2026-10-07T15:48:58Z",
+        "is_pull_request": false,
+        "url": "https://github.com/mattpocock/skills/issues/1034"
+      },
+      {
+        "number": 1216,
+        "title": "implement: check branch isn't merged before committing",
+        "state": "open",
+        "updated_at": "2026-10-07T15:45:40Z",
+        "is_pull_request": false,
+        "url": "https://github.com/mattpocock/skills/issues/1216"
+      },
+      {
+        "number": 895,
+        "title": "grilling: rounds asked dependent questions together, fix with frontier gate + pivot ordering",
+        "state": "open",
+        "updated_at": "2026-10-07T14:49:02Z",
+        "is_pull_request": false,
+        "url": "https://github.com/mattpocock/skills/issues/895"
+      },
+      {
+        "number": 1215,
+        "title": "`implement` and `implement-spec` call `code-review` by bare name, which runs the Claude Code built-in",
+        "state": "open",
+        "updated_at": "2026-10-07T13:48:19Z",
+        "is_pull_request": false,
+        "url": "https://github.com/mattpocock/skills/issues/1215"
+      },
+      {
+        "number": 1135,
+        "title": "Star Graph",
+        "state": "closed",
+        "updated_at": "2026-10-07T13:31:38Z",
+        "is_pull_request": false,
+        "url": "https://github.com/mattpocock/skills/issues/1135"
+      }
+    ]
+  },
+  "ayghri/i-have-adhd": {
+    "recent_items": [
+      {
+        "number": 251,
+        "title": "docs: add French translation of README",
+        "state": "open",
+        "updated_at": "2026-10-07T15:50:30Z",
+        "is_pull_request": true,
+        "url": "https://github.com/ayghri/i-have-adhd/pull/251"
+      },
+      {
+        "number": 3,
+        "title": "Suggestion: mention to use the task tools (claude) or plan tool (codex) to divide walls of texts into chunks and track them as an internal todolist",
+        "state": "closed",
+        "updated_at": "2026-10-07T13:32:55Z",
+        "is_pull_request": false,
+        "url": "https://github.com/ayghri/i-have-adhd/issues/3"
+      },
+      {
+        "number": 216,
+        "title": "fix(docs): correct Copilot personal skill paths",
+        "state": "open",
+        "updated_at": "2026-10-07T05:30:09Z",
+        "is_pull_request": true,
+        "url": "https://github.com/ayghri/i-have-adhd/pull/216"
+      },
+      {
+        "number": 238,
+        "title": "docs(install): make the Claude Code update step update the installed plugin",
+        "state": "closed",
+        "updated_at": "2026-10-07T04:51:56Z",
+        "is_pull_request": true,
+        "url": "https://github.com/ayghri/i-have-adhd/pull/238"
+      },
+      {
+        "number": 190,
+        "title": "fix(tests): resolve macOS /var symlink in OpenCode plugin test",
+        "state": "open",
+        "updated_at": "2026-10-07T04:07:46Z",
+        "is_pull_request": true,
+        "url": "https://github.com/ayghri/i-have-adhd/pull/190"
+      }
+    ]
+  },
+  "cathrynlavery/diagram-design": {
+    "recent_items": [
+      {
+        "number": 347,
+        "title": "feat: add GitHub repository settings security review skill",
+        "state": "open",
+        "updated_at": "2026-10-07T14:54:19Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/347"
+      },
+      {
+        "number": 271,
+        "title": "chore(ci): harden GitHub Actions workflows",
+        "state": "open",
+        "updated_at": "2026-10-07T14:31:20Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/271"
+      },
+      {
+        "number": 346,
+        "title": "fix(onboarding): require source trust and output verification",
+        "state": "open",
+        "updated_at": "2026-10-07T13:55:27Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/346"
+      },
+      {
+        "number": 275,
+        "title": "docs(security): define threat model and reporting process",
+        "state": "open",
+        "updated_at": "2026-10-07T13:34:21Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/275"
+      },
+      {
+        "number": 284,
+        "title": "fix(import): keep spaces and brackets in compact dash and equals labels",
+        "state": "open",
+        "updated_at": "2026-10-07T13:25:40Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/284"
+      }
+    ]
+  },
+  "addyosmani/agent-skills": {
+    "recent_items": [
+      {
+        "number": 658,
+        "title": "fix(linter): ignore comments and nested metadata keys in skill frontmatter",
+        "state": "open",
+        "updated_at": "2026-10-07T15:51:17Z",
+        "is_pull_request": true,
+        "url": "https://github.com/addyosmani/agent-skills/pull/658"
+      },
+      {
+        "number": 653,
+        "title": "fix: Deleted outdated docs from README.md and docs/",
+        "state": "open",
+        "updated_at": "2026-10-06T22:22:35Z",
+        "is_pull_request": true,
+        "url": "https://github.com/addyosmani/agent-skills/pull/653"
+      },
+      {
+        "number": 606,
+        "title": "feat(validator): flag cross-skill references that never invoke the skill",
+        "state": "open",
+        "updated_at": "2026-10-06T18:34:25Z",
+        "is_pull_request": true,
+        "url": "https://github.com/addyosmani/agent-skills/pull/606"
+      },
+      {
+        "number": 657,
+        "title": "docs(review): phrase the five-axis skill pointers as invocations",
+        "state": "open",
+        "updated_at": "2026-10-06T18:33:37Z",
+        "is_pull_request": true,
+        "url": "https://github.com/addyosmani/agent-skills/pull/657"
+      },
+      {
+        "number": 656,
+        "title": "Codex/foreman kernel coordinator 20261004",
+        "state": "open",
+        "updated_at": "2026-10-06T18:24:55Z",
+        "is_pull_request": true,
+        "url": "https://github.com/addyosmani/agent-skills/pull/656"
+      }
+    ]
+  },
+  "thedotmack/claude-mem": {
+    "recent_items": [
+      {
+        "number": 4583,
+        "title": "fix(server): grant the bootstrapped hook key the scopes /v1 requires",
+        "state": "open",
+        "updated_at": "2026-10-07T14:51:07Z",
+        "is_pull_request": true,
+        "url": "https://github.com/thedotmack/claude-mem/pull/4583"
+      },
+      {
+        "number": 4582,
+        "title": "fix(provider): send x-opencode-session per observed session on OpenCode Go",
+        "state": "open",
+        "updated_at": "2026-10-07T14:29:10Z",
+        "is_pull_request": true,
+        "url": "https://github.com/thedotmack/claude-mem/pull/4582"
+      },
+      {
+        "number": 4577,
+        "title": "fix(opencode): support the V2 plugin contract",
+        "state": "open",
+        "updated_at": "2026-10-07T13:29:09Z",
+        "is_pull_request": true,
+        "url": "https://github.com/thedotmack/claude-mem/pull/4577"
+      },
+      {
+        "number": 4581,
+        "title": "Claude-mem fails to communicate with the OpenCode Go endpoint - missing x-opencode-session in request",
+        "state": "open",
+        "updated_at": "2026-10-07T12:46:29Z",
+        "is_pull_request": false,
+        "url": "https://github.com/thedotmack/claude-mem/issues/4581"
+      },
+      {
+        "number": 4580,
+        "title": "Observations captured during a provider quota cooldown are lost if the worker restarts before the cooldown ends",
+        "state": "open",
+        "updated_at": "2026-10-07T12:18:56Z",
+        "is_pull_request": false,
+        "url": "https://github.com/thedotmack/claude-mem/issues/4580"
+      }
+    ]
+  },
+  "trycua/cua": {
+    "recent_items": [
+      {
+        "number": 4822,
+        "title": "feat(cua-driver): experimental run_script tool (JavaScript, opt-in)",
+        "state": "open",
+        "updated_at": "2026-10-07T16:12:07Z",
+        "is_pull_request": true,
+        "url": "https://github.com/trycua/cua/pull/4822"
+      },
+      {
+        "number": 4839,
+        "title": "fix(cua-driver): hit-test desktop scroll in the compositor",
+        "state": "open",
+        "updated_at": "2026-10-07T16:10:11Z",
+        "is_pull_request": true,
+        "url": "https://github.com/trycua/cua/pull/4839"
+      },
+      {
+        "number": 4838,
+        "title": "fix(cua-driver): project nested GTK coordinates into the capture frame",
+        "state": "open",
+        "updated_at": "2026-10-07T16:10:10Z",
+        "is_pull_request": true,
+        "url": "https://github.com/trycua/cua/pull/4838"
+      },
+      {
+        "number": 4765,
+        "title": "chore(main): release cua-spacesd 0.6.0",
+        "state": "open",
+        "updated_at": "2026-10-07T16:05:52Z",
+        "is_pull_request": true,
+        "url": "https://github.com/trycua/cua/pull/4765"
+      },
+      {
+        "number": 4672,
+        "title": "chore(main): release cua-sdk 0.5.0",
+        "state": "open",
+        "updated_at": "2026-10-07T16:05:47Z",
+        "is_pull_request": true,
+        "url": "https://github.com/trycua/cua/pull/4672"
+      }
+    ]
+  },
+  "cloudflare/security-audit-skill": {
+    "recent_items": [
+      {
+        "number": 69,
+        "title": "Read validator input safely on Windows",
+        "state": "open",
+        "updated_at": "2026-10-07T12:25:35Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/69"
+      },
+      {
+        "number": 55,
+        "title": "Read validator input on Windows without O_NOFOLLOW",
+        "state": "closed",
+        "updated_at": "2026-10-07T09:56:26Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/55"
+      },
+      {
+        "number": 33,
+        "title": "Add CI workflow to run the validator test suites",
+        "state": "open",
+        "updated_at": "2026-10-06T22:23:22Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/33"
+      },
+      {
+        "number": 45,
+        "title": "Bound source line numbers from above",
+        "state": "open",
+        "updated_at": "2026-10-06T20:52:00Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/45"
+      },
+      {
+        "number": 68,
+        "title": "refactor: organize skill into standard subdirectories (#56)",
+        "state": "open",
+        "updated_at": "2026-10-06T16:45:15Z",
+        "is_pull_request": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/68"
+      }
+    ]
+  },
+  "nashsu/llm_wiki": {
+    "recent_items": [
+      {
+        "number": 704,
+        "title": "[feature]自定义背景图、资源管理器打开、以及摄入队列清理",
+        "state": "open",
+        "updated_at": "2026-10-07T14:41:00Z",
+        "is_pull_request": true,
+        "url": "https://github.com/nashsu/llm_wiki/pull/704"
+      },
+      {
+        "number": 807,
+        "title": "Why can't I select reasoning on openai models?",
+        "state": "open",
+        "updated_at": "2026-10-07T14:19:21Z",
+        "is_pull_request": false,
+        "url": "https://github.com/nashsu/llm_wiki/issues/807"
+      },
+      {
+        "number": 806,
+        "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+        "state": "open",
+        "updated_at": "2026-10-07T14:15:31Z",
+        "is_pull_request": false,
+        "url": "https://github.com/nashsu/llm_wiki/issues/806"
+      },
+      {
+        "number": 457,
+        "title": "AppImage blank window on Hyprland (Wayland) + Mesa 26 — bundled WebKit crashes with EGL_BAD_PARAMETER",
+        "state": "open",
+        "updated_at": "2026-10-07T02:57:58Z",
+        "is_pull_request": false,
+        "url": "https://github.com/nashsu/llm_wiki/issues/457"
+      },
+      {
+        "number": 711,
+        "title": "fix(codex-cli): tolerate slow cold-start version detection",
+        "state": "closed",
+        "updated_at": "2026-10-05T09:15:04Z",
+        "is_pull_request": true,
+        "url": "https://github.com/nashsu/llm_wiki/pull/711"
+      }
+    ]
+  },
+  "manaflow-ai/cmux": {
+    "recent_items": [
+      {
+        "number": 17601,
+        "title": "cmux-next: visible footer avatar and gear with an account menu",
+        "state": "open",
+        "updated_at": "2026-10-07T16:12:05Z",
+        "is_pull_request": true,
+        "url": "https://github.com/manaflow-ai/cmux/pull/17601"
+      },
+      {
+        "number": 18281,
+        "title": "Gallery render: survive a base that does not build and a case that never loads",
+        "state": "open",
+        "updated_at": "2026-10-07T16:12:11Z",
+        "is_pull_request": true,
+        "url": "https://github.com/manaflow-ai/cmux/pull/18281"
+      },
+      {
+        "number": 18137,
+        "title": "cmux-next: New Agent Chat opens a new workspace",
+        "state": "open",
+        "updated_at": "2026-10-07T16:11:57Z",
+        "is_pull_request": true,
+        "url": "https://github.com/manaflow-ai/cmux/pull/18137"
+      },
+      {
+        "number": 18407,
+        "title": "Play a video an agent links on the web inline in the chat",
+        "state": "open",
+        "updated_at": "2026-10-07T16:11:44Z",
+        "is_pull_request": true,
+        "url": "https://github.com/manaflow-ai/cmux/pull/18407"
+      },
+      {
+        "number": 18222,
+        "title": "Agent pane: edit and remove a queued prompt from its row",
+        "state": "open",
+        "updated_at": "2026-10-07T16:11:35Z",
+        "is_pull_request": true,
+        "url": "https://github.com/manaflow-ai/cmux/pull/18222"
+      }
+    ]
+  }
+}

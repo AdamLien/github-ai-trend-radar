@@ -1,0 +1,33 @@
+{
+  "target_date": "2026-10-07",
+  "observed_at": "2026-10-08T00:19:28.903151+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "retry_limit_5": false,
+  "retained_count": 326,
+  "excluded_count": 13,
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "duplicate_records_merged": 4
+}
