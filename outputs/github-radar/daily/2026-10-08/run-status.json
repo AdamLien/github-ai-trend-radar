@@ -1,0 +1,17 @@
+{
+  "target_date": "2026-10-08",
+  "collected_at": "2026-10-09T00:10:49.806123+08:00",
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "build": "passed",
+  "required_artifacts": "verified_nonempty",
+  "dashboard_artifacts": "verified_nonempty",
+  "preexisting_files_preserved": 28,
+  "metadata_fallback_count": 4
+}

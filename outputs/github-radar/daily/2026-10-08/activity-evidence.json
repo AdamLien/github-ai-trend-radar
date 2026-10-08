@@ -1,0 +1,805 @@
+[
+  {
+    "repo": "morluto/rea",
+    "checked_at": "2026-10-08T16:11:57.036391+00:00",
+    "issues": [
+      {
+        "number": 1069,
+        "title": "test(artifacts): verify native directory identity on supported Windows runtimes",
+        "state": "closed",
+        "created_at": "2026-10-08T13:20:53Z",
+        "updated_at": "2026-10-08T16:11:29Z",
+        "closed_at": "2026-10-08T16:11:29Z",
+        "html_url": "https://github.com/morluto/rea/pull/1069",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1044,
+        "title": "fix(hopper): diagnose MCP provider failures with stage, state, and request context",
+        "state": "open",
+        "created_at": "2026-10-08T03:12:40Z",
+        "updated_at": "2026-10-08T16:11:25Z",
+        "closed_at": null,
+        "html_url": "https://github.com/morluto/rea/pull/1044",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1094,
+        "title": "fix(analysis): bind overview document identity to the active target",
+        "state": "open",
+        "created_at": "2026-10-08T16:08:20Z",
+        "updated_at": "2026-10-08T16:10:39Z",
+        "closed_at": null,
+        "html_url": "https://github.com/morluto/rea/pull/1094",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1093,
+        "title": "fix(javascript): preserve original BOM source coordinates",
+        "state": "closed",
+        "created_at": "2026-10-08T15:40:22Z",
+        "updated_at": "2026-10-08T16:09:56Z",
+        "closed_at": "2026-10-08T16:09:56Z",
+        "html_url": "https://github.com/morluto/rea/pull/1093",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1080,
+        "title": "fix(process): name the reason two captures cannot be compared",
+        "state": "closed",
+        "created_at": "2026-10-08T14:34:13Z",
+        "updated_at": "2026-10-08T16:04:38Z",
+        "closed_at": "2026-10-08T16:04:35Z",
+        "html_url": "https://github.com/morluto/rea/pull/1080",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": [
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-08T09:40:01Z",
+        "updated_at": "2026-10-08T09:40:39Z",
+        "closed_at": null,
+        "html_url": "https://github.com/morluto/rea/releases/tag/rea-agents-6.0.0",
+        "tag_name": "rea-agents-6.0.0",
+        "published_at": "2026-10-08T09:40:39Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-07T17:26:36Z",
+        "updated_at": "2026-10-07T17:26:47Z",
+        "closed_at": null,
+        "html_url": "https://github.com/morluto/rea/releases/tag/rea-agents-5.0.0",
+        "tag_name": "rea-agents-5.0.0",
+        "published_at": "2026-10-07T17:26:47Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-06T17:57:26Z",
+        "updated_at": "2026-10-06T17:57:41Z",
+        "closed_at": null,
+        "html_url": "https://github.com/morluto/rea/releases/tag/rea-agents-4.1.0",
+        "tag_name": "rea-agents-4.1.0",
+        "published_at": "2026-10-06T17:57:41Z",
+        "prerelease": false,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "repo": "mattpocock/skills",
+    "checked_at": "2026-10-08T16:11:57.037393+00:00",
+    "issues": [
+      {
+        "number": 895,
+        "title": "grilling: rounds asked dependent questions together, fix with frontier gate + pivot ordering",
+        "state": "open",
+        "created_at": "2026-08-18T08:05:52Z",
+        "updated_at": "2026-10-08T16:03:40Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/895",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 1232,
+        "title": "domain-modeling: write terms into the file the domain-docs pointer names",
+        "state": "open",
+        "created_at": "2026-10-08T14:01:46Z",
+        "updated_at": "2026-10-08T14:18:14Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/1232",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 1230,
+        "title": "Add direct link to skill from docs",
+        "state": "open",
+        "created_at": "2026-10-08T10:19:48Z",
+        "updated_at": "2026-10-08T12:45:53Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/1230",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 1231,
+        "title": "wayfinder: \"Zoom as needed\" lets a session re-float decisions it has already read — propose a constraint-inventory compile pass in \"Work through the map\" step 3",
+        "state": "open",
+        "created_at": "2026-10-08T12:14:04Z",
+        "updated_at": "2026-10-08T12:14:11Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/1231",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 1228,
+        "title": "setup-matt-pocock-skills: reachable repo, legacy CONTEXT.md, tracker template fixes",
+        "state": "open",
+        "created_at": "2026-10-08T08:49:20Z",
+        "updated_at": "2026-10-08T08:49:30Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/pull/1228",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": [
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-04T12:48:17Z",
+        "updated_at": "2026-10-04T12:49:57Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.1",
+        "tag_name": "v1.3.1",
+        "published_at": "2026-10-04T12:48:18Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-04T12:47:19Z",
+        "updated_at": "2026-10-04T12:47:22Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.0",
+        "tag_name": "v1.3.0",
+        "published_at": "2026-10-04T12:47:22Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-08-06T14:05:27Z",
+        "updated_at": "2026-08-06T14:05:28Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.2.3",
+        "tag_name": "v1.2.3",
+        "published_at": "2026-08-06T14:05:28Z",
+        "prerelease": false,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "checked_at": "2026-10-08T16:11:57.037763+00:00",
+    "issues": [
+      {
+        "number": 354,
+        "title": "refactor(export): package Playwright PNG renderer",
+        "state": "open",
+        "created_at": "2026-10-08T13:35:22Z",
+        "updated_at": "2026-10-08T14:22:45Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/354",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 275,
+        "title": "docs(security): define threat model and reporting process",
+        "state": "open",
+        "created_at": "2026-10-05T22:07:04Z",
+        "updated_at": "2026-10-08T13:06:05Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/275",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 353,
+        "title": "feat(style-guide): add RTL and Arabic label support with template-rtl",
+        "state": "open",
+        "created_at": "2026-10-08T09:17:07Z",
+        "updated_at": "2026-10-08T09:17:07Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/353",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 330,
+        "title": "fix(motion): exempt decorative SVG icons from accessible naming checks",
+        "state": "open",
+        "created_at": "2026-10-06T20:27:38Z",
+        "updated_at": "2026-10-08T02:17:03Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/330",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 334,
+        "title": "fix(polarity): ignore HTML comments when reading visible copy",
+        "state": "closed",
+        "created_at": "2026-10-06T20:28:15Z",
+        "updated_at": "2026-10-08T01:43:09Z",
+        "closed_at": "2026-10-08T01:43:09Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/334",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": []
+  },
+  {
+    "repo": "thedotmack/claude-mem",
+    "checked_at": "2026-10-08T16:11:57.999000+00:00",
+    "issues": [
+      {
+        "number": 4594,
+        "title": "fix(api): accept generationKey on POST /v1/memories so repeated writes are idempotent",
+        "state": "open",
+        "created_at": "2026-10-08T16:05:20Z",
+        "updated_at": "2026-10-08T16:05:20Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/4594",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 4593,
+        "title": "Chroma vector search fails when Pydantic 2.14 breaks pinned MCP 1.6.0",
+        "state": "open",
+        "created_at": "2026-10-08T15:17:30Z",
+        "updated_at": "2026-10-08T15:17:30Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/issues/4593",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 4592,
+        "title": "fix(logger): preserve observation capture for JSON null tool input",
+        "state": "open",
+        "created_at": "2026-10-08T10:35:45Z",
+        "updated_at": "2026-10-08T10:44:32Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/4592",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 4591,
+        "title": "fix(logger): recover file logging after lazy directory setup fails",
+        "state": "open",
+        "created_at": "2026-10-08T08:43:57Z",
+        "updated_at": "2026-10-08T08:51:42Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/4591",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 4590,
+        "title": "feat(context): add CLAUDE_MEM_SEMANTIC_INJECT_FORMAT=index for per-prompt injection",
+        "state": "open",
+        "created_at": "2026-10-08T07:22:54Z",
+        "updated_at": "2026-10-08T07:37:28Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/4590",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": [
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-06T18:17:29Z",
+        "updated_at": "2026-10-06T18:17:47Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.34.2",
+        "tag_name": "v13.34.2",
+        "published_at": "2026-10-06T18:17:47Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-06T17:31:00Z",
+        "updated_at": "2026-10-06T17:31:04Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.34.1",
+        "tag_name": "v13.34.1",
+        "published_at": "2026-10-06T17:31:04Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-06T17:11:41Z",
+        "updated_at": "2026-10-06T17:13:08Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/releases/tag/v13.34.0",
+        "tag_name": "v13.34.0",
+        "published_at": "2026-10-06T17:13:08Z",
+        "prerelease": false,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "checked_at": "2026-10-08T16:11:58.075929+00:00",
+    "issues": [
+      {
+        "number": 1290,
+        "title": "bump(qodo, qodo-standards): 79019ff7 → 866d301d",
+        "state": "open",
+        "created_at": "2026-10-08T15:35:21Z",
+        "updated_at": "2026-10-08T15:35:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1290",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1289,
+        "title": "bump(carta-cap-table, carta-crm): 6ab81016 → 43e49ed3",
+        "state": "open",
+        "created_at": "2026-10-08T15:35:13Z",
+        "updated_at": "2026-10-08T15:35:13Z",
+        "closed_at": null,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1289",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1288,
+        "title": "bump(b12-claude-plugin): c1eb08db → 84940a25",
+        "state": "open",
+        "created_at": "2026-10-08T07:45:52Z",
+        "updated_at": "2026-10-08T07:45:52Z",
+        "closed_at": null,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1288",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1287,
+        "title": "bump(figma): 5d718a28 → f0493295",
+        "state": "closed",
+        "created_at": "2026-10-07T16:46:46Z",
+        "updated_at": "2026-10-07T16:48:55Z",
+        "closed_at": "2026-10-07T16:48:52Z",
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1287",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 1223,
+        "title": "bump(figma): 5d718a28 → 17292073",
+        "state": "closed",
+        "created_at": "2026-09-23T07:36:06Z",
+        "updated_at": "2026-10-07T16:46:12Z",
+        "closed_at": "2026-10-07T16:46:12Z",
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1223",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": []
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "checked_at": "2026-10-08T16:11:58.211951+00:00",
+    "issues": [
+      {
+        "number": 809,
+        "title": "Ingest: an extra wiki/sources/* FILE block is rewritten onto the source summary path and silently replaces the summary",
+        "state": "open",
+        "created_at": "2026-10-08T02:28:46Z",
+        "updated_at": "2026-10-08T02:28:46Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/809",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 808,
+        "title": "fix: resolve wiki-relative links and preserve footnote anchors",
+        "state": "open",
+        "created_at": "2026-10-07T17:16:49Z",
+        "updated_at": "2026-10-07T17:16:49Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/808",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 704,
+        "title": "[feature]自定义背景图、资源管理器打开、以及摄入队列清理",
+        "state": "open",
+        "created_at": "2026-08-26T07:01:59Z",
+        "updated_at": "2026-10-07T14:41:00Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/704",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 807,
+        "title": "Why can't I select reasoning on openai models?",
+        "state": "open",
+        "created_at": "2026-10-07T14:19:21Z",
+        "updated_at": "2026-10-07T14:19:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/807",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      },
+      {
+        "number": 806,
+        "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+        "state": "open",
+        "created_at": "2026-10-05T06:36:04Z",
+        "updated_at": "2026-10-07T14:15:31Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/806",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": false
+      }
+    ],
+    "releases": [
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-09-28T01:43:18Z",
+        "updated_at": "2026-09-28T02:58:13Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.12",
+        "tag_name": "v0.6.12",
+        "published_at": "2026-09-28T02:58:13Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-08-25T06:41:57Z",
+        "updated_at": "2026-08-25T07:32:33Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.11",
+        "tag_name": "v0.6.11",
+        "published_at": "2026-08-25T07:08:04Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-08-21T07:45:50Z",
+        "updated_at": "2026-08-21T08:33:41Z",
+        "closed_at": null,
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.10",
+        "tag_name": "v0.6.10",
+        "published_at": "2026-08-21T08:11:46Z",
+        "prerelease": false,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "repo": "activepieces/activepieces",
+    "checked_at": "2026-10-08T16:11:59.095706+00:00",
+    "issues": [
+      {
+        "number": 16132,
+        "title": "feat(chat): replies read like a person wrote them",
+        "state": "closed",
+        "created_at": "2026-10-05T15:07:10Z",
+        "updated_at": "2026-10-08T16:11:13Z",
+        "closed_at": "2026-10-08T16:11:12Z",
+        "html_url": "https://github.com/activepieces/activepieces/pull/16132",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 16219,
+        "title": "feat(square): manage customers, catalog, inventory, orders and payments from flows and AI agents",
+        "state": "open",
+        "created_at": "2026-10-07T15:29:04Z",
+        "updated_at": "2026-10-08T16:04:42Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/pull/16219",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 16300,
+        "title": "feat(softr): manage databases, tables, fields, records and app users from flows and AI agents",
+        "state": "open",
+        "created_at": "2026-10-08T15:56:39Z",
+        "updated_at": "2026-10-08T16:04:00Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/pull/16300",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 16290,
+        "title": "chore(ai): one /ai-task command for the AI team",
+        "state": "open",
+        "created_at": "2026-10-08T13:34:32Z",
+        "updated_at": "2026-10-08T16:00:49Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/pull/16290",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 16301,
+        "title": "chore(deps-dev): bump vitest from 3.2.6 to 4.1.11 in /packages/pieces/community/totalcms",
+        "state": "open",
+        "created_at": "2026-10-08T15:57:28Z",
+        "updated_at": "2026-10-08T16:00:32Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/pull/16301",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": [
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-10-06T23:02:43Z",
+        "updated_at": "2026-10-07T09:27:59Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/releases/tag/0.92.2",
+        "tag_name": "0.92.2",
+        "published_at": "2026-10-07T09:27:59Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-09-30T11:31:31Z",
+        "updated_at": "2026-09-30T12:33:34Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/releases/tag/0.92.1",
+        "tag_name": "0.92.1",
+        "published_at": "2026-09-30T11:51:23Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-09-24T18:21:41Z",
+        "updated_at": "2026-09-24T18:49:44Z",
+        "closed_at": null,
+        "html_url": "https://github.com/activepieces/activepieces/releases/tag/0.92.0",
+        "tag_name": "0.92.0",
+        "published_at": "2026-09-24T18:49:44Z",
+        "prerelease": false,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "repo": "bytedance/deer-flow",
+    "checked_at": "2026-10-08T16:11:59.155972+00:00",
+    "issues": [
+      {
+        "number": 6525,
+        "title": "fix(frontend): contain notification constructor failures",
+        "state": "open",
+        "created_at": "2026-10-08T15:58:17Z",
+        "updated_at": "2026-10-08T15:58:29Z",
+        "closed_at": null,
+        "html_url": "https://github.com/bytedance/deer-flow/pull/6525",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 6521,
+        "title": "fix(channels): fence manager startup across completed shutdown",
+        "state": "open",
+        "created_at": "2026-10-08T14:52:50Z",
+        "updated_at": "2026-10-08T15:58:22Z",
+        "closed_at": null,
+        "html_url": "https://github.com/bytedance/deer-flow/pull/6521",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 5827,
+        "title": "feat(agents): add tool-execution approval (human in the loop)",
+        "state": "open",
+        "created_at": "2026-09-24T09:32:20Z",
+        "updated_at": "2026-10-08T15:38:52Z",
+        "closed_at": null,
+        "html_url": "https://github.com/bytedance/deer-flow/pull/5827",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 6512,
+        "title": "fix(scheduler): keep a one-time task's scheduled run after an early trial",
+        "state": "closed",
+        "created_at": "2026-10-08T12:12:29Z",
+        "updated_at": "2026-10-08T15:34:33Z",
+        "closed_at": "2026-10-08T15:34:33Z",
+        "html_url": "https://github.com/bytedance/deer-flow/pull/6512",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      },
+      {
+        "number": 6457,
+        "title": "Fail closed on delegated fetch backends to close SSRF gap",
+        "state": "closed",
+        "created_at": "2026-10-07T14:12:58Z",
+        "updated_at": "2026-10-08T15:30:34Z",
+        "closed_at": "2026-10-08T15:30:33Z",
+        "html_url": "https://github.com/bytedance/deer-flow/pull/6457",
+        "tag_name": null,
+        "published_at": null,
+        "prerelease": null,
+        "is_pull_request": true
+      }
+    ],
+    "releases": [
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-09-24T05:52:13Z",
+        "updated_at": "2026-09-24T10:40:44Z",
+        "closed_at": null,
+        "html_url": "https://github.com/bytedance/deer-flow/releases/tag/v2.1.0",
+        "tag_name": "v2.1.0",
+        "published_at": "2026-09-24T10:40:44Z",
+        "prerelease": false,
+        "is_pull_request": false
+      },
+      {
+        "number": null,
+        "title": null,
+        "state": null,
+        "created_at": "2026-06-25T15:56:36Z",
+        "updated_at": "2026-06-25T16:23:22Z",
+        "closed_at": null,
+        "html_url": "https://github.com/bytedance/deer-flow/releases/tag/v2.0.0",
+        "tag_name": "v2.0.0",
+        "published_at": "2026-06-25T16:23:22Z",
+        "prerelease": false,
+        "is_pull_request": false
+      }
+    ]
+  }
+]
