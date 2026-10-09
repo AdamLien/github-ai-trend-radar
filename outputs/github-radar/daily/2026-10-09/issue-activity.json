@@ -1,0 +1,301 @@
+{
+  "morluto/rea": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 5,
+    "pull_requests_updated": 25,
+    "latest_issues": [
+      {
+        "number": 1320,
+        "state": "open",
+        "updated_at": "2026-10-09T16:04:14Z",
+        "comments": 0,
+        "url": "https://github.com/morluto/rea/issues/1320",
+        "title": "[Bug] Attached browser scenarios silently lose locale, timezone and device-scale overrides before capture"
+      },
+      {
+        "number": 1318,
+        "state": "open",
+        "updated_at": "2026-10-09T16:03:48Z",
+        "comments": 0,
+        "url": "https://github.com/morluto/rea/issues/1318",
+        "title": "[Bug] extract-artifact can report complete success after an inventoried file disappears"
+      },
+      {
+        "number": 1316,
+        "state": "open",
+        "updated_at": "2026-10-09T16:01:41Z",
+        "comments": 0,
+        "url": "https://github.com/morluto/rea/issues/1316",
+        "title": "[Feature] Package-Manager-Free Installation / Portable Installation"
+      }
+    ]
+  },
+  "mattpocock/skills": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 18,
+    "pull_requests_updated": 12,
+    "latest_issues": [
+      {
+        "number": 1242,
+        "state": "open",
+        "updated_at": "2026-10-09T16:01:52Z",
+        "comments": 0,
+        "url": "https://github.com/mattpocock/skills/issues/1242",
+        "title": "code-review: group each axis's findings into blockers and suggestions"
+      },
+      {
+        "number": 1241,
+        "state": "open",
+        "updated_at": "2026-10-09T15:16:01Z",
+        "comments": 0,
+        "url": "https://github.com/mattpocock/skills/issues/1241",
+        "title": "wayfinder/research: unclear who runs git for research agents, and no review gate before closing AFK tickets"
+      },
+      {
+        "number": 1003,
+        "state": "closed",
+        "updated_at": "2026-10-09T10:56:53Z",
+        "comments": 2,
+        "url": "https://github.com/mattpocock/skills/issues/1003",
+        "title": "wizard generates an unused `RED` variable"
+      }
+    ]
+  },
+  "cathrynlavery/diagram-design": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 3,
+    "pull_requests_updated": 27,
+    "latest_issues": [
+      {
+        "number": 363,
+        "state": "open",
+        "updated_at": "2026-10-09T09:33:57Z",
+        "comments": 0,
+        "url": "https://github.com/cathrynlavery/diagram-design/issues/363",
+        "title": "[Feature]: do you have a plan to support cursor"
+      },
+      {
+        "number": 359,
+        "state": "open",
+        "updated_at": "2026-10-09T02:36:54Z",
+        "comments": 0,
+        "url": "https://github.com/cathrynlavery/diagram-design/issues/359",
+        "title": "[Feature]: Service blueprint — frontstage and backstage on a shared stage grid"
+      },
+      {
+        "number": 357,
+        "state": "open",
+        "updated_at": "2026-10-09T02:16:31Z",
+        "comments": 0,
+        "url": "https://github.com/cathrynlavery/diagram-design/issues/357",
+        "title": "[Feature]: Import PlantUML sequence and class diagrams for editorial redraw"
+      }
+    ]
+  },
+  "alibaba/open-code-review": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 9,
+    "pull_requests_updated": 21,
+    "latest_issues": [
+      {
+        "number": 1681,
+        "state": "open",
+        "updated_at": "2026-10-09T14:13:39Z",
+        "comments": 3,
+        "url": "https://github.com/alibaba/open-code-review/issues/1681",
+        "title": "Use backend concurrency within a review group: parallel rounds, or split large single-file diffs"
+      },
+      {
+        "number": 1679,
+        "state": "open",
+        "updated_at": "2026-10-09T12:51:37Z",
+        "comments": 0,
+        "url": "https://github.com/alibaba/open-code-review/issues/1679",
+        "title": "[Urgent] ci: update Go and x/net to fix vulnerability check failures"
+      },
+      {
+        "number": 1454,
+        "state": "closed",
+        "updated_at": "2026-10-09T11:39:31Z",
+        "comments": 9,
+        "url": "https://github.com/alibaba/open-code-review/issues/1454",
+        "title": "v1.12.7 selects zero items on non-empty PR diffs and exits 0 — reviews silently become no-ops"
+      }
+    ]
+  },
+  "anthropics/knowledge-work-plugins": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 25,
+    "issues_updated": 7,
+    "pull_requests_updated": 18,
+    "latest_issues": [
+      {
+        "number": 180,
+        "state": "open",
+        "updated_at": "2026-10-09T02:22:16Z",
+        "comments": 5,
+        "url": "https://github.com/anthropics/knowledge-work-plugins/issues/180",
+        "title": "google-calendar MCP server turned down — productivity plugin broken"
+      },
+      {
+        "number": 1286,
+        "state": "open",
+        "updated_at": "2026-10-09T02:21:59Z",
+        "comments": 1,
+        "url": "https://github.com/anthropics/knowledge-work-plugins/issues/1286",
+        "title": "finance/reconciliation: dollar amounts in SKILL.md are replaced by command arguments ($0.00 → \"cash.00\")"
+      },
+      {
+        "number": 1291,
+        "state": "open",
+        "updated_at": "2026-10-08T17:21:56Z",
+        "comments": 0,
+        "url": "https://github.com/anthropics/knowledge-work-plugins/issues/1291",
+        "title": "Claud and Printify and Etsy automation"
+      }
+    ]
+  },
+  "addyosmani/agent-skills": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 4,
+    "pull_requests_updated": 26,
+    "latest_issues": [
+      {
+        "number": 660,
+        "state": "open",
+        "updated_at": "2026-10-07T19:08:11Z",
+        "comments": 0,
+        "url": "https://github.com/addyosmani/agent-skills/issues/660",
+        "title": "run-evals: stemmer never matches clipped forms (docs, auth, config) to long forms, so prompts rank #18-#20"
+      },
+      {
+        "number": 355,
+        "state": "open",
+        "updated_at": "2026-10-07T17:49:52Z",
+        "comments": 2,
+        "url": "https://github.com/addyosmani/agent-skills/issues/355",
+        "title": "Add native pi coding agent integration guide"
+      },
+      {
+        "number": 654,
+        "state": "open",
+        "updated_at": "2026-10-06T05:53:43Z",
+        "comments": 0,
+        "url": "https://github.com/addyosmani/agent-skills/issues/654",
+        "title": "Proposal: record a behavioral run once, regrade it when expectations change"
+      }
+    ]
+  },
+  "BerriAI/litellm": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 2,
+    "pull_requests_updated": 28,
+    "latest_issues": [
+      {
+        "number": 45563,
+        "state": "open",
+        "updated_at": "2026-10-09T16:10:12Z",
+        "comments": 1,
+        "url": "https://github.com/BerriAI/litellm/issues/45563",
+        "title": "[Bug]: Responses API bridge returns `response.reasoning` without the `summary` key"
+      },
+      {
+        "number": 45605,
+        "state": "open",
+        "updated_at": "2026-10-09T16:07:03Z",
+        "comments": 0,
+        "url": "https://github.com/BerriAI/litellm/issues/45605",
+        "title": "[Bug]: custom_auth_run_common_checks never runs the key max_budget check (virtual_key_max_budget_check) on custom-auth requests"
+      }
+    ]
+  },
+  "Graphify-Labs/graphify": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 11,
+    "pull_requests_updated": 19,
+    "latest_issues": [
+      {
+        "number": 2529,
+        "state": "open",
+        "updated_at": "2026-10-09T15:53:02Z",
+        "comments": 1,
+        "url": "https://github.com/Graphify-Labs/graphify/issues/2529",
+        "title": "`query` silently infers a context filter from the wording of the question and collapses the result to the seed nodes"
+      },
+      {
+        "number": 4259,
+        "state": "open",
+        "updated_at": "2026-10-09T15:27:41Z",
+        "comments": 1,
+        "url": "https://github.com/Graphify-Labs/graphify/issues/4259",
+        "title": "Request a CVE ID for published advisory GHSA-pcc4-rvhr-2pr8"
+      },
+      {
+        "number": 4253,
+        "state": "open",
+        "updated_at": "2026-10-09T05:03:26Z",
+        "comments": 2,
+        "url": "https://github.com/Graphify-Labs/graphify/issues/4253",
+        "title": "R extractor hangs forever on a backtick-quoted operator whose body calls a non-local function"
+      }
+    ]
+  },
+  "AgriciDaniel/claude-obsidian": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 2,
+    "issues_updated": 0,
+    "pull_requests_updated": 2,
+    "latest_issues": []
+  },
+  "infiniflow/ragflow": {
+    "status": "ok",
+    "since": "2026-10-02T16:12:15.951864Z",
+    "sample_limit": 30,
+    "sample_total": 30,
+    "issues_updated": 2,
+    "pull_requests_updated": 28,
+    "latest_issues": [
+      {
+        "number": 20613,
+        "state": "open",
+        "updated_at": "2026-10-09T12:37:09Z",
+        "comments": 2,
+        "url": "https://github.com/infiniflow/ragflow/issues/20613",
+        "title": "[Bug]: Go Agent citation grounding accepts marker-only output and discards the original answer"
+      },
+      {
+        "number": 20630,
+        "state": "open",
+        "updated_at": "2026-10-09T12:04:29Z",
+        "comments": 4,
+        "url": "https://github.com/infiniflow/ragflow/issues/20630",
+        "title": "[Bug]: Disabling “Restrict to defined values” still saves the metadata enum"
+      }
+    ]
+  }
+}

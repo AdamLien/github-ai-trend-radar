@@ -1,0 +1,86 @@
+{
+  "before": 347,
+  "after": 333,
+  "excluded": [
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "description": "Proxifier Alternative to redirect any Windows/MacOS/Linux TCP and UDP traffic to HTTP/Socks5 proxy",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "description": "Graphics Creation Tools",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "description": "TypeScript Compiler API wrapper for static analysis and programmatic code changes.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "description": "Kiali project, observability for the Istio service mesh",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "description": "Awesome secure by default libraries to help you eliminate bug classes!",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "description": "React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.",
+      "reason": "核心用途為一般系統設計、網路／編譯／靜態工具、金融或圖形工具；未見核心 AI／agent／LLM／知識管理用途。"
+    }
+  ],
+  "trending_excluded": [
+    {
+      "repo": "boykopovar/AnyPS5",
+      "reason": "一般遊戲執行檔移植，未見 AI 或 agent 核心用途。"
+    }
+  ],
+  "semantic_trending_inclusions": [
+    "Robbyant/lingbot-map",
+    "storytold/artcraft"
+  ]
+}

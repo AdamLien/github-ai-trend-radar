@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "morluto/rea",
+    "decision": "Deep research",
+    "purpose": "以 MCP 統一應用程式、執行行為與二進位的 agent 逆向研究。",
+    "relevance": "適合 Adam 拆解 agent 工具鏈的進階課程；AI 辦公可用於理解舊系統整合，know metabiz wiki 可記錄接口與行為證據。",
+    "risk": "執行外部程式與讀取本機資料的權限較廣；以自有範例隔離測試，驗證 MCP 工具邊界與版本相容性。",
+    "rationale": "最高當日增星訊號，優先研究可重現能力，避免把熱度當成熟度。"
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "decision": "Demo content",
+    "purpose": "為 Claude Code、Codex 等 agent 提供 HTML／SVG 圖解設計方法。",
+    "relevance": "可把 Adam 課程、短影音與 AI 辦公 SOP 轉成流程圖；know metabiz wiki 適合加入可維護的系統架構圖。",
+    "risk": "沒有 release 不代表停更；需驗證中文字型、瀏覽器呈現與匯出品質，並審查生成 HTML。",
+    "rationale": "當日增星與相對成長兼具，且能快速做出可展示成果。"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "decision": "Skill candidate",
+    "purpose": "將日常工程工作法封裝為 coding agent Skills。",
+    "relevance": "Adam 可設計需求釐清到驗證的實作課；AI 辦公自動化腳本可沿用工作流程，know metabiz wiki 可記錄技能使用準則。",
+    "risk": "技能指令可能與現有流程衝突；只挑單一技能試作，人工審查腳本、工具權限與提示內容。",
+    "rationale": "當日增星強，但總量較大使相對增長較低；以技能實用性決定採用。"
+  },
+  {
+    "repo": "anthropics/knowledge-work-plugins",
+    "decision": "Demo content",
+    "purpose": "將角色工作流程、skills、連接器與子 agent 組成知識工作插件。",
+    "relevance": "最貼近 Adam 的 AI 辦公課程與內容示範；以合成資料展示工作流程，know metabiz wiki 可整理角色 SOP 與輸入輸出規格。",
+    "risk": "跨應用連接器會擴大資料存取面；權限、外部寫入與組織部署流程需另行驗證。",
+    "rationale": "README 清楚描述工作角色與插件結構，辦公場景關聯度高。"
+  },
+  {
+    "repo": "addyosmani/agent-skills",
+    "decision": "Skill candidate",
+    "purpose": "整理工程全流程與品質關卡，供 coding agent 一致執行。",
+    "relevance": "可與 Adam 現有技能比較，用於課程品質驗證、AI 辦公腳本驗收，並把結果整理進 know metabiz wiki。",
+    "risk": "宣稱 production-grade 仍需實測；過多關卡可能增加延遲與成本，應先測一個真實工作案例。",
+    "rationale": "當日增星突出；與 mattpocock 的技能做小範圍比較比整套導入更有價值。"
+  },
+  {
+    "repo": "alibaba/open-code-review",
+    "decision": "Deep research",
+    "purpose": "結合確定性檢查與 LLM agent，產生行級程式碼審查建議。",
+    "relevance": "Adam 可做 AI code review 教學與案例內容；用於 AI 辦公整合程式的品質檢查，know metabiz wiki 可保留規則與驗收案例。",
+    "risk": "需測誤報、漏報、模型成本與原始碼傳送邊界；README 中的安全與規模宣稱尚未獨立驗證。",
+    "rationale": "當日動能之外，近期 release 與 issue／PR 活動支持深入驗證。"
+  },
+  {
+    "repo": "Graphify-Labs/graphify",
+    "decision": "Deep research",
+    "purpose": "把程式碼、文件與結構描述轉成可查詢知識圖譜，服務 coding agent。",
+    "relevance": "可設計 Adam 的程式碼理解與知識圖譜課；know metabiz wiki 可比較圖查詢與 RAG 的來源追蹤，AI 辦公適合跨文件關係查找。",
+    "risk": "解析覆蓋、關係正確性與索引成本需要評估；文件內容含不可信輸入，查詢輸出必須回連來源。",
+    "rationale": "以文件／程式關係研究價值補足純熱門榜，需做可重現基準。"
+  },
+  {
+    "repo": "BerriAI/litellm",
+    "decision": "Watch",
+    "purpose": "以 AI Gateway 統一多家 LLM API，提供成本追蹤與路由。",
+    "relevance": "Adam 可示範多模型成本管理；AI 辦公自動化可研究統一模型入口，know metabiz wiki 可記錄選型與路由決策。",
+    "risk": "授權標記需回查 LICENSE；集中入口涉及憑證、日誌與錯誤重試，版本升級需驗證相容性。",
+    "rationale": "相對熱度較低但屬辦公自動化基礎設施，以 release 與維護活動持續觀察。"
+  },
+  {
+    "repo": "AgriciDaniel/claude-obsidian",
+    "decision": "Skill candidate",
+    "purpose": "讓 Claude Code 整理來源、建立連結並維護本機 Markdown 知識庫。",
+    "relevance": "直接貼近 know metabiz wiki 的來源整理與知識累積；可作 Adam AI 筆記課與 AI 辦公文件整理示範。",
+    "risk": "agent 可能錯誤改寫或合併筆記；需保留來源、版本與人工複核，先在測試 vault 觀察行為。",
+    "rationale": "增星較低仍納入：Markdown 所有權與 wiki 場景高度相關，近期更新較弱需追蹤。"
+  },
+  {
+    "repo": "infiniflow/ragflow",
+    "decision": "Reference only",
+    "purpose": "結合 RAG 與 agent 的文件檢索和上下文平台。",
+    "relevance": "作 Adam RAG 課的比較基準；AI 辦公與 know metabiz wiki 可用同一批文件比較檢索、引用與維護成本。",
+    "risk": "部署資源、文件存取控制與升級成本較高；若最新版本為候選版，應先評估穩定版本。",
+    "rationale": "總星數高但動能與導入成本未必優於輕量方案，先保留作對照。"
+  }
+]
