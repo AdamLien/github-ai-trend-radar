@@ -1,0 +1,705 @@
+{
+  "observed_at": "2026-10-10T16:12:17.365482+00:00",
+  "repos": {
+    "morluto/rea": [
+      {
+        "number": 1594,
+        "title": "[Bug] Binary plist __proto__ keys are omitted without a limitation",
+        "state": "open",
+        "created_at": "2026-10-10T16:11:58Z",
+        "updated_at": "2026-10-10T16:11:58Z",
+        "comments": 0,
+        "html_url": "https://github.com/morluto/rea/issues/1594",
+        "pull_request": null
+      },
+      {
+        "number": 1593,
+        "title": "fix(plist): report binary plist __proto__ keys that results omit",
+        "state": "open",
+        "created_at": "2026-10-10T16:11:29Z",
+        "updated_at": "2026-10-10T16:12:14Z",
+        "comments": 1,
+        "html_url": "https://github.com/morluto/rea/pull/1593",
+        "pull_request": {
+          "url": "https://api.github.com/repos/morluto/rea/pulls/1593",
+          "html_url": "https://github.com/morluto/rea/pull/1593",
+          "diff_url": "https://github.com/morluto/rea/pull/1593.diff",
+          "patch_url": "https://github.com/morluto/rea/pull/1593.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1500,
+        "title": "fix(browser): keep a script on the frame it was parsed in",
+        "state": "open",
+        "created_at": "2026-10-10T07:56:54Z",
+        "updated_at": "2026-10-10T16:11:21Z",
+        "comments": 3,
+        "html_url": "https://github.com/morluto/rea/issues/1500",
+        "pull_request": null
+      },
+      {
+        "number": 1513,
+        "title": "fix: bind identity and coverage to the producing rule",
+        "state": "closed",
+        "created_at": "2026-10-10T08:26:58Z",
+        "updated_at": "2026-10-10T16:11:19Z",
+        "comments": 5,
+        "html_url": "https://github.com/morluto/rea/pull/1513",
+        "pull_request": {
+          "url": "https://api.github.com/repos/morluto/rea/pulls/1513",
+          "html_url": "https://github.com/morluto/rea/pull/1513",
+          "diff_url": "https://github.com/morluto/rea/pull/1513.diff",
+          "patch_url": "https://github.com/morluto/rea/pull/1513.patch",
+          "merged_at": "2026-10-10T09:14:47Z"
+        }
+      },
+      {
+        "number": 1399,
+        "title": "chore(main): release rea-agents 6.4.0",
+        "state": "open",
+        "created_at": "2026-10-10T02:25:02Z",
+        "updated_at": "2026-10-10T16:10:31Z",
+        "comments": 1,
+        "html_url": "https://github.com/morluto/rea/pull/1399",
+        "pull_request": {
+          "url": "https://api.github.com/repos/morluto/rea/pulls/1399",
+          "html_url": "https://github.com/morluto/rea/pull/1399",
+          "diff_url": "https://github.com/morluto/rea/pull/1399.diff",
+          "patch_url": "https://github.com/morluto/rea/pull/1399.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "cathrynlavery/diagram-design": [
+      {
+        "number": 392,
+        "title": "fix(import): retain standalone bare states",
+        "state": "open",
+        "created_at": "2026-10-09T22:02:38Z",
+        "updated_at": "2026-10-10T14:14:06Z",
+        "comments": 1,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/392",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/392",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/392",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/392.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/392.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 397,
+        "title": "feat: add native Qoder plugin support",
+        "state": "open",
+        "created_at": "2026-10-10T12:20:58Z",
+        "updated_at": "2026-10-10T12:31:55Z",
+        "comments": 1,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/397",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/397",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/397",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/397.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/397.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 284,
+        "title": "fix(import): keep spaces and brackets in compact dash and equals labels",
+        "state": "open",
+        "created_at": "2026-10-06T16:48:37Z",
+        "updated_at": "2026-10-10T09:14:03Z",
+        "comments": 3,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/284",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/284",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/284",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/284.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/284.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 267,
+        "title": "Add DeepSeek Harness support",
+        "state": "open",
+        "created_at": "2026-10-04T07:21:19Z",
+        "updated_at": "2026-10-10T07:35:42Z",
+        "comments": 3,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/267",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/267",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/267",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/267.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/267.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 249,
+        "title": "fix(skin): ship Simplified Chinese Noto faces in the font link",
+        "state": "open",
+        "created_at": "2026-09-24T04:03:27Z",
+        "updated_at": "2026-10-10T05:47:56Z",
+        "comments": 5,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/249",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/249",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/249",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/249.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/249.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "mattpocock/skills": [
+      {
+        "number": 1249,
+        "title": "grilling: questions are often written as statements instead of actual questions",
+        "state": "open",
+        "created_at": "2026-10-10T16:03:42Z",
+        "updated_at": "2026-10-10T16:10:34Z",
+        "comments": 0,
+        "html_url": "https://github.com/mattpocock/skills/issues/1249",
+        "pull_request": null
+      },
+      {
+        "number": 1102,
+        "title": "Which step is the technical design detail in the development process?",
+        "state": "closed",
+        "created_at": "2026-09-21T16:57:53Z",
+        "updated_at": "2026-10-10T16:09:50Z",
+        "comments": 2,
+        "html_url": "https://github.com/mattpocock/skills/issues/1102",
+        "pull_request": null
+      },
+      {
+        "number": 1226,
+        "title": "to-tickets: name the sub-issue link as the one allowed parent change",
+        "state": "open",
+        "created_at": "2026-10-08T08:48:40Z",
+        "updated_at": "2026-10-10T12:49:30Z",
+        "comments": 1,
+        "html_url": "https://github.com/mattpocock/skills/pull/1226",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mattpocock/skills/pulls/1226",
+          "html_url": "https://github.com/mattpocock/skills/pull/1226",
+          "diff_url": "https://github.com/mattpocock/skills/pull/1226.diff",
+          "patch_url": "https://github.com/mattpocock/skills/pull/1226.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1246,
+        "title": "setup-matt-pocock-skills: domain.md says how to read docs, not where to write them",
+        "state": "open",
+        "created_at": "2026-10-10T08:11:38Z",
+        "updated_at": "2026-10-10T08:11:48Z",
+        "comments": 0,
+        "html_url": "https://github.com/mattpocock/skills/issues/1246",
+        "pull_request": null
+      },
+      {
+        "number": 1245,
+        "title": "grilling: round asked while exploration runs gets rewritten when it reports",
+        "state": "open",
+        "created_at": "2026-10-10T04:31:15Z",
+        "updated_at": "2026-10-10T04:31:22Z",
+        "comments": 0,
+        "html_url": "https://github.com/mattpocock/skills/issues/1245",
+        "pull_request": null
+      }
+    ],
+    "mksglu/context-mode": [
+      {
+        "number": 365,
+        "title": "fix(mcp): resolve ctx_index relative paths from project dir",
+        "state": "closed",
+        "created_at": "2026-04-27T17:53:01Z",
+        "updated_at": "2026-10-10T12:59:39Z",
+        "comments": 4,
+        "html_url": "https://github.com/mksglu/context-mode/pull/365",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/365",
+          "html_url": "https://github.com/mksglu/context-mode/pull/365",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/365.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/365.patch",
+          "merged_at": "2026-05-02T16:26:38Z"
+        }
+      },
+      {
+        "number": 1248,
+        "title": "[Bug]: stats heartbeat re-opens every session DB each minute (getLifetimeStats) — constant disk writes that grow with session count",
+        "state": "open",
+        "created_at": "2026-10-02T23:43:37Z",
+        "updated_at": "2026-10-10T11:11:49Z",
+        "comments": 2,
+        "html_url": "https://github.com/mksglu/context-mode/issues/1248",
+        "pull_request": null
+      },
+      {
+        "number": 1244,
+        "title": "Add website URL to plugin.json",
+        "state": "open",
+        "created_at": "2026-10-02T12:30:03Z",
+        "updated_at": "2026-10-10T01:51:37Z",
+        "comments": 0,
+        "html_url": "https://github.com/mksglu/context-mode/pull/1244",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1244",
+          "html_url": "https://github.com/mksglu/context-mode/pull/1244",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/1244.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/1244.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1281,
+        "title": "fix: report missing fetch dependencies and failed background installs",
+        "state": "open",
+        "created_at": "2026-10-08T15:46:49Z",
+        "updated_at": "2026-10-08T15:46:49Z",
+        "comments": 0,
+        "html_url": "https://github.com/mksglu/context-mode/pull/1281",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mksglu/context-mode/pulls/1281",
+          "html_url": "https://github.com/mksglu/context-mode/pull/1281",
+          "diff_url": "https://github.com/mksglu/context-mode/pull/1281.diff",
+          "patch_url": "https://github.com/mksglu/context-mode/pull/1281.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1280,
+        "title": "Silent background install failure leaves turndown missing for ctx_fetch_and_index when ~/.npm is not writable",
+        "state": "open",
+        "created_at": "2026-10-08T15:22:55Z",
+        "updated_at": "2026-10-08T15:22:55Z",
+        "comments": 0,
+        "html_url": "https://github.com/mksglu/context-mode/issues/1280",
+        "pull_request": null
+      }
+    ],
+    "hugohe3/ppt-master": [
+      {
+        "number": 297,
+        "title": "docs: unify Kimi Code links to the slash-free /code?aff= form",
+        "state": "open",
+        "created_at": "2026-09-20T08:35:45Z",
+        "updated_at": "2026-10-10T05:56:50Z",
+        "comments": 0,
+        "html_url": "https://github.com/hugohe3/ppt-master/pull/297",
+        "pull_request": {
+          "url": "https://api.github.com/repos/hugohe3/ppt-master/pulls/297",
+          "html_url": "https://github.com/hugohe3/ppt-master/pull/297",
+          "diff_url": "https://github.com/hugohe3/ppt-master/pull/297.diff",
+          "patch_url": "https://github.com/hugohe3/ppt-master/pull/297.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 311,
+        "title": "attribution_guard.py exits 1 without diagnostics on Windows",
+        "state": "open",
+        "created_at": "2026-10-08T05:19:32Z",
+        "updated_at": "2026-10-08T06:13:52Z",
+        "comments": 1,
+        "html_url": "https://github.com/hugohe3/ppt-master/issues/311",
+        "pull_request": null
+      },
+      {
+        "number": 310,
+        "title": "【优化建议/RFC】关于减小 skills/ppt-master 技能包体积的建议：解耦 ai-image-comparison 并压缩媒体资源",
+        "state": "closed",
+        "created_at": "2026-10-06T15:47:04Z",
+        "updated_at": "2026-10-07T13:33:36Z",
+        "comments": 2,
+        "html_url": "https://github.com/hugohe3/ppt-master/issues/310",
+        "pull_request": null
+      },
+      {
+        "number": 309,
+        "title": "hugohe3/ppt-master was independently reviewed on Hlido — scored 80/100, right of reply open",
+        "state": "closed",
+        "created_at": "2026-10-05T11:00:35Z",
+        "updated_at": "2026-10-05T11:12:44Z",
+        "comments": 0,
+        "html_url": "https://github.com/hugohe3/ppt-master/issues/309",
+        "pull_request": null
+      },
+      {
+        "number": 308,
+        "title": "PDF conversion silently drops numeric paragraphs between continuation tables",
+        "state": "closed",
+        "created_at": "2026-10-05T00:48:15Z",
+        "updated_at": "2026-10-05T04:32:57Z",
+        "comments": 1,
+        "html_url": "https://github.com/hugohe3/ppt-master/issues/308",
+        "pull_request": null
+      }
+    ],
+    "anthropics/knowledge-work-plugins": [
+      {
+        "number": 1302,
+        "title": "bump(honeycomb): b169d7d1 → 6bb09279",
+        "state": "open",
+        "created_at": "2026-10-10T07:38:15Z",
+        "updated_at": "2026-10-10T07:38:15Z",
+        "comments": 0,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1302",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/pulls/1302",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1302",
+          "diff_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1302.diff",
+          "patch_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1302.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1301,
+        "title": "bump(carta-crm): 43e49ed3 → 20c07565",
+        "state": "open",
+        "created_at": "2026-10-10T07:38:10Z",
+        "updated_at": "2026-10-10T07:38:10Z",
+        "comments": 0,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1301",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/pulls/1301",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1301",
+          "diff_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1301.diff",
+          "patch_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1301.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1300,
+        "title": "bump(carta-cap-table): 43e49ed3 → 20c07565",
+        "state": "open",
+        "created_at": "2026-10-10T07:38:03Z",
+        "updated_at": "2026-10-10T07:38:03Z",
+        "comments": 0,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1300",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/pulls/1300",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1300",
+          "diff_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1300.diff",
+          "patch_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1300.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1299,
+        "title": "bump(sanity-plugin): 88d6cdfa → 3fe6c8a0",
+        "state": "open",
+        "created_at": "2026-10-10T07:37:57Z",
+        "updated_at": "2026-10-10T07:37:57Z",
+        "comments": 0,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1299",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/knowledge-work-plugins/pulls/1299",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1299",
+          "diff_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1299.diff",
+          "patch_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1299.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1298,
+        "title": "package_data_skill.py reports success with an empty ZIP under .claude",
+        "state": "open",
+        "created_at": "2026-10-10T04:46:47Z",
+        "updated_at": "2026-10-10T04:46:47Z",
+        "comments": 0,
+        "html_url": "https://github.com/anthropics/knowledge-work-plugins/issues/1298",
+        "pull_request": null
+      }
+    ],
+    "multica-ai/andrej-karpathy-skills": [
+      {
+        "number": 208,
+        "title": "Docs/collapse four principles",
+        "state": "open",
+        "created_at": "2026-10-09T18:19:30Z",
+        "updated_at": "2026-10-09T18:19:30Z",
+        "comments": 0,
+        "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/208",
+        "pull_request": {
+          "url": "https://api.github.com/repos/multica-ai/andrej-karpathy-skills/pulls/208",
+          "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/208",
+          "diff_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/208.diff",
+          "patch_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/208.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 207,
+        "title": "Docs/skill mechanism diagram",
+        "state": "closed",
+        "created_at": "2026-10-09T17:59:50Z",
+        "updated_at": "2026-10-09T18:00:44Z",
+        "comments": 0,
+        "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/207",
+        "pull_request": {
+          "url": "https://api.github.com/repos/multica-ai/andrej-karpathy-skills/pulls/207",
+          "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/207",
+          "diff_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/207.diff",
+          "patch_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/207.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 206,
+        "title": "feat: update skills based on Karpathy’s X post about model outputs",
+        "state": "open",
+        "created_at": "2026-10-04T16:08:46Z",
+        "updated_at": "2026-10-04T16:09:18Z",
+        "comments": 0,
+        "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/206",
+        "pull_request": {
+          "url": "https://api.github.com/repos/multica-ai/andrej-karpathy-skills/pulls/206",
+          "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/206",
+          "diff_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/206.diff",
+          "patch_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/206.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 205,
+        "title": "Karpathy guidelines",
+        "state": "closed",
+        "created_at": "2026-09-20T03:44:04Z",
+        "updated_at": "2026-09-20T04:38:30Z",
+        "comments": 0,
+        "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/205",
+        "pull_request": {
+          "url": "https://api.github.com/repos/multica-ai/andrej-karpathy-skills/pulls/205",
+          "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/205",
+          "diff_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/205.diff",
+          "patch_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/205.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 136,
+        "title": "Remove redundant skills[] entry from plugin.json (fixes duplicate skill registration)",
+        "state": "open",
+        "created_at": "2026-05-15T14:05:01Z",
+        "updated_at": "2026-09-13T11:16:13Z",
+        "comments": 1,
+        "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/136",
+        "pull_request": {
+          "url": "https://api.github.com/repos/multica-ai/andrej-karpathy-skills/pulls/136",
+          "html_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/136",
+          "diff_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/136.diff",
+          "patch_url": "https://github.com/multica-ai/andrej-karpathy-skills/pull/136.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "storytold/artcraft": [
+      {
+        "number": 2063,
+        "title": "Photocraft pen imput pressure on Huion tablet",
+        "state": "open",
+        "created_at": "2026-10-10T16:01:09Z",
+        "updated_at": "2026-10-10T16:01:09Z",
+        "comments": 0,
+        "html_url": "https://github.com/storytold/artcraft/issues/2063",
+        "pull_request": null
+      },
+      {
+        "number": 2002,
+        "title": "Linux Support",
+        "state": "open",
+        "created_at": "2026-10-08T18:20:50Z",
+        "updated_at": "2026-10-10T15:48:20Z",
+        "comments": 16,
+        "html_url": "https://github.com/storytold/artcraft/issues/2002",
+        "pull_request": null
+      },
+      {
+        "number": 2060,
+        "title": "Windows 11 - App Launcher Offline",
+        "state": "closed",
+        "created_at": "2026-10-10T15:11:59Z",
+        "updated_at": "2026-10-10T15:31:49Z",
+        "comments": 0,
+        "html_url": "https://github.com/storytold/artcraft/issues/2060",
+        "pull_request": null
+      },
+      {
+        "number": 2062,
+        "title": "vendoring a tauri plugin?",
+        "state": "open",
+        "created_at": "2026-10-10T15:31:15Z",
+        "updated_at": "2026-10-10T15:31:15Z",
+        "comments": 0,
+        "html_url": "https://github.com/storytold/artcraft/issues/2062",
+        "pull_request": null
+      },
+      {
+        "number": 2061,
+        "title": "Detect CMake and libclang in the Windows Rust dev script",
+        "state": "open",
+        "created_at": "2026-10-10T15:20:59Z",
+        "updated_at": "2026-10-10T15:21:14Z",
+        "comments": 1,
+        "html_url": "https://github.com/storytold/artcraft/pull/2061",
+        "pull_request": {
+          "url": "https://api.github.com/repos/storytold/artcraft/pulls/2061",
+          "html_url": "https://github.com/storytold/artcraft/pull/2061",
+          "diff_url": "https://github.com/storytold/artcraft/pull/2061.diff",
+          "patch_url": "https://github.com/storytold/artcraft/pull/2061.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "nashsu/llm_wiki": [
+      {
+        "number": 813,
+        "title": "perf(scheduled-import): reuse content hash for unchanged files",
+        "state": "open",
+        "created_at": "2026-10-10T09:39:52Z",
+        "updated_at": "2026-10-10T09:39:52Z",
+        "comments": 0,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/813",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/813",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/813",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/813.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/813.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 812,
+        "title": "Windows 桌面持续占用 3-5 核（0.6.12）：周期性全量扫描/哈希放大，附实测与定位",
+        "state": "open",
+        "created_at": "2026-10-10T09:39:19Z",
+        "updated_at": "2026-10-10T09:39:19Z",
+        "comments": 0,
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/812",
+        "pull_request": null
+      },
+      {
+        "number": 750,
+        "title": "fix: keep local CLI chat working with auto skills",
+        "state": "closed",
+        "created_at": "2026-09-13T06:18:22Z",
+        "updated_at": "2026-10-10T02:30:24Z",
+        "comments": 0,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/750",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/750",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/750",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/750.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/750.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 811,
+        "title": "Ingest fails on long / entity-dense documents: hard-coded 8,192-token analysis cap + unbounded entity-enumeration prompt",
+        "state": "open",
+        "created_at": "2026-10-09T14:25:09Z",
+        "updated_at": "2026-10-09T14:25:09Z",
+        "comments": 0,
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/811",
+        "pull_request": null
+      },
+      {
+        "number": 655,
+        "title": "ci: build and release macOS Intel (x86_64) bundle",
+        "state": "open",
+        "created_at": "2026-08-07T01:40:33Z",
+        "updated_at": "2026-10-09T10:31:48Z",
+        "comments": 1,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/655",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/655",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/655",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/655.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/655.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "DeusData/codebase-memory-mcp": [
+      {
+        "number": 2580,
+        "title": "Allow users to selectively choose which harnesses to integrate with codebase-mcp",
+        "state": "open",
+        "created_at": "2026-10-10T16:11:15Z",
+        "updated_at": "2026-10-10T16:11:15Z",
+        "comments": 0,
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp/issues/2580",
+        "pull_request": null
+      },
+      {
+        "number": 2579,
+        "title": "fix(ts-lsp): resolve JSX calls from top-level arrow components",
+        "state": "open",
+        "created_at": "2026-10-10T16:01:30Z",
+        "updated_at": "2026-10-10T16:02:04Z",
+        "comments": 1,
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2579",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/2579",
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2579",
+          "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2579.diff",
+          "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2579.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2436,
+        "title": "fix(swift): preserve declaration identity and compatible call edges",
+        "state": "open",
+        "created_at": "2026-09-30T01:46:50Z",
+        "updated_at": "2026-10-10T15:34:21Z",
+        "comments": 3,
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2436",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/2436",
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2436",
+          "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2436.diff",
+          "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2436.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2305,
+        "title": "fix(pipeline): expose unresolved call coverage",
+        "state": "open",
+        "created_at": "2026-09-24T20:45:50Z",
+        "updated_at": "2026-10-10T13:31:19Z",
+        "comments": 8,
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2305",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/2305",
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2305",
+          "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2305.diff",
+          "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2305.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2578,
+        "title": "fix(registry): break suffix_match ties by kind, C# stub, then QN order, not depth",
+        "state": "closed",
+        "created_at": "2026-10-10T10:15:56Z",
+        "updated_at": "2026-10-10T11:31:49Z",
+        "comments": 0,
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2578",
+        "pull_request": {
+          "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/2578",
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2578",
+          "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2578.diff",
+          "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/2578.patch",
+          "merged_at": "2026-10-10T11:31:49Z"
+        }
+      }
+    ]
+  }
+}
