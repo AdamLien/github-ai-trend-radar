@@ -1,0 +1,495 @@
+{
+  "observed_at": "2026-10-11T16:12:14.362564+00:00",
+  "repos": {
+    "morluto/rea": {
+      "recent_items": [
+        {
+          "number": 1776,
+          "title": "fix(session): verify retained client liveness on open fast path",
+          "state": "open",
+          "updated_at": "2026-10-11T16:11:05Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/1776"
+        },
+        {
+          "number": 1857,
+          "title": "fix(javascript): prove namespace interop before attributing Electron APIs",
+          "state": "open",
+          "updated_at": "2026-10-11T16:10:31Z",
+          "comments": 7,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/1857"
+        },
+        {
+          "number": 1893,
+          "title": "fix(managed): honor metadata ExtraData before table decoding",
+          "state": "open",
+          "updated_at": "2026-10-11T16:10:21Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/1893"
+        },
+        {
+          "number": 1693,
+          "title": "chore(main): release rea-agents 6.5.0",
+          "state": "open",
+          "updated_at": "2026-10-11T16:12:11Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/1693"
+        },
+        {
+          "number": 1582,
+          "title": "feat(flutter): identify Dart snapshot builds and inspect AOT payloads by pure APK parsing",
+          "state": "open",
+          "updated_at": "2026-10-11T16:09:53Z",
+          "comments": 11,
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/1582"
+        }
+      ]
+    },
+    "cathrynlavery/diagram-design": {
+      "recent_items": [
+        {
+          "number": 401,
+          "title": "draw.io --out raises an uncaught exception for unwritable destinations",
+          "state": "open",
+          "updated_at": "2026-10-11T14:06:19Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/issues/401"
+        },
+        {
+          "number": 400,
+          "title": "k",
+          "state": "open",
+          "updated_at": "2026-10-11T11:00:45Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/issues/400"
+        },
+        {
+          "number": 398,
+          "title": "fix(export): accept fractional scale multipliers and validate 1-4 range",
+          "state": "open",
+          "updated_at": "2026-10-11T02:34:44Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/398"
+        },
+        {
+          "number": 47,
+          "title": "Want to add your plugin to awesome-ai-plugins?",
+          "state": "closed",
+          "updated_at": "2026-10-11T01:54:27Z",
+          "comments": 2,
+          "is_pull_request": false,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/issues/47"
+        },
+        {
+          "number": 399,
+          "title": "README: clearer header, demo GIF in the new site palette",
+          "state": "closed",
+          "updated_at": "2026-10-10T21:09:48Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/399"
+        }
+      ]
+    },
+    "lyogavin/airllm": {
+      "recent_items": [
+        {
+          "number": 375,
+          "title": "fix(mlx): respect rope_theta from HF config (fixes #368)",
+          "state": "open",
+          "updated_at": "2026-10-11T11:17:58Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/lyogavin/airllm/pull/375"
+        },
+        {
+          "number": 374,
+          "title": "Extermly slow inference(30 mins per query) running GPT-OSS 20B with AirLL",
+          "state": "open",
+          "updated_at": "2026-10-11T05:00:45Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/lyogavin/airllm/issues/374"
+        },
+        {
+          "number": 339,
+          "title": "fix: robust layer-count parsing for nested checkpoint prefixes (complements #336)",
+          "state": "open",
+          "updated_at": "2026-10-07T15:45:06Z",
+          "comments": 4,
+          "is_pull_request": true,
+          "html_url": "https://github.com/lyogavin/airllm/pull/339"
+        },
+        {
+          "number": 373,
+          "title": "Enable ROCm inference with Strix Halo validation",
+          "state": "open",
+          "updated_at": "2026-10-06T04:21:35Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/lyogavin/airllm/pull/373"
+        },
+        {
+          "number": 205,
+          "title": "docker based or BareMetal serving ",
+          "state": "closed",
+          "updated_at": "2026-10-04T19:21:25Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/lyogavin/airllm/issues/205"
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "recent_items": [
+        {
+          "number": 1255,
+          "title": "Filed in the wrong repo, please ignore",
+          "state": "closed",
+          "updated_at": "2026-10-11T15:19:53Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1255"
+        },
+        {
+          "number": 1254,
+          "title": "Filed in the wrong repo, please ignore",
+          "state": "closed",
+          "updated_at": "2026-10-11T15:19:52Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1254"
+        },
+        {
+          "number": 1253,
+          "title": "Filed in the wrong repo, please ignore",
+          "state": "closed",
+          "updated_at": "2026-10-11T15:19:50Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1253"
+        },
+        {
+          "number": 1164,
+          "title": "Claude Code plugin does not update - still stuck on version 1.2.3",
+          "state": "open",
+          "updated_at": "2026-10-11T15:15:04Z",
+          "comments": 7,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1164"
+        },
+        {
+          "number": 1251,
+          "title": "implement-spec: step 9 cleanup collides with branch -D guards and with rewritten integration history",
+          "state": "open",
+          "updated_at": "2026-10-11T13:55:00Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mattpocock/skills/issues/1251"
+        }
+      ]
+    },
+    "addyosmani/agent-skills": {
+      "recent_items": [
+        {
+          "number": 620,
+          "title": "Skills rarely fire when the code is already in the prompt: a small routing survey and a proposal",
+          "state": "open",
+          "updated_at": "2026-10-11T07:14:44Z",
+          "comments": 4,
+          "is_pull_request": false,
+          "html_url": "https://github.com/addyosmani/agent-skills/issues/620"
+        },
+        {
+          "number": 678,
+          "title": "fix(test-driven-development): say the skill applies when the code is pasted inline (#620)",
+          "state": "open",
+          "updated_at": "2026-10-11T07:09:23Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/addyosmani/agent-skills/pull/678"
+        },
+        {
+          "number": 668,
+          "title": "fix(evals): route clipped prompt forms to their long-form skill",
+          "state": "open",
+          "updated_at": "2026-10-11T05:39:39Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/addyosmani/agent-skills/pull/668"
+        },
+        {
+          "number": 677,
+          "title": "fix(docs): label JavaScript blocks as JavaScript; Codex manifest says 25 skills",
+          "state": "open",
+          "updated_at": "2026-10-11T01:12:43Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/addyosmani/agent-skills/pull/677"
+        },
+        {
+          "number": 676,
+          "title": "fix(validation): read top-level command descriptions",
+          "state": "open",
+          "updated_at": "2026-10-10T23:29:23Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/addyosmani/agent-skills/pull/676"
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "recent_items": [
+        {
+          "number": 814,
+          "title": "fix(file-sync): ignore read-only watcher events to stop a self-triggered rescan loop",
+          "state": "open",
+          "updated_at": "2026-10-10T17:26:53Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/814"
+        },
+        {
+          "number": 813,
+          "title": "perf(scheduled-import): reuse content hash for unchanged files",
+          "state": "open",
+          "updated_at": "2026-10-10T09:39:52Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/813"
+        },
+        {
+          "number": 812,
+          "title": "Windows 桌面持续占用 3-5 核（0.6.12）：周期性全量扫描/哈希放大，附实测与定位",
+          "state": "open",
+          "updated_at": "2026-10-10T09:39:19Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/812"
+        },
+        {
+          "number": 750,
+          "title": "fix: keep local CLI chat working with auto skills",
+          "state": "closed",
+          "updated_at": "2026-10-10T02:30:24Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/750"
+        },
+        {
+          "number": 811,
+          "title": "Ingest fails on long / entity-dense documents: hard-coded 8,192-token analysis cap + unbounded entity-enumeration prompt",
+          "state": "open",
+          "updated_at": "2026-10-09T14:25:09Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/811"
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "recent_items": [
+        {
+          "number": 85,
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85"
+        },
+        {
+          "number": 78,
+          "title": "[Feature] Integrate Jev (TypeSafe AI) as a fast decision layer for lint triage, ingest classification, and query routing",
+          "state": "open",
+          "updated_at": "2026-09-22T06:49:21Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/78"
+        },
+        {
+          "number": 77,
+          "title": "Q: does this support `npx`?",
+          "state": "open",
+          "updated_at": "2026-09-11T11:43:53Z",
+          "comments": 2,
+          "is_pull_request": false,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/77"
+        },
+        {
+          "number": 74,
+          "title": "fix(tools): guard file_to_md output against silent overwrite",
+          "state": "closed",
+          "updated_at": "2026-09-09T00:58:42Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/74"
+        },
+        {
+          "number": 71,
+          "title": "fix: handle BOM/whitespace in frontmatter parsing and missing Syntheses section in index",
+          "state": "closed",
+          "updated_at": "2026-09-08T21:24:42Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/71"
+        }
+      ]
+    },
+    "langgenius/dify": {
+      "recent_items": [
+        {
+          "number": 43355,
+          "title": "feat(rag): add native knowledge graph (GraphRAG) for built-in knowledge base",
+          "state": "open",
+          "updated_at": "2026-10-11T15:54:18Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/43355"
+        },
+        {
+          "number": 43876,
+          "title": "refactor(dify-ui): export Base UI event types under component names",
+          "state": "open",
+          "updated_at": "2026-10-11T15:52:42Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/43876"
+        },
+        {
+          "number": 43854,
+          "title": "fix(agent): resolve workflow variables in knowledge metadata filters",
+          "state": "open",
+          "updated_at": "2026-10-11T15:49:10Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/43854"
+        },
+        {
+          "number": 43850,
+          "title": "[Bug] Cannot open a starred application from the Starred list in Studio",
+          "state": "closed",
+          "updated_at": "2026-10-11T15:44:19Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/langgenius/dify/issues/43850"
+        },
+        {
+          "number": 43751,
+          "title": "chore: remove console feedback export endpoint",
+          "state": "closed",
+          "updated_at": "2026-10-11T15:44:18Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/43751"
+        }
+      ]
+    },
+    "activepieces/activepieces": {
+      "recent_items": [
+        {
+          "number": 16387,
+          "title": "fix(chat): formulas in chat-built flows no longer show up as missing steps",
+          "state": "open",
+          "updated_at": "2026-10-11T16:08:42Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16387"
+        },
+        {
+          "number": 16388,
+          "title": "fix(chat): a new flow says why each step is invalid",
+          "state": "open",
+          "updated_at": "2026-10-11T16:07:37Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16388"
+        },
+        {
+          "number": 16200,
+          "title": "feat(web): unify app and admin sidebars into one component",
+          "state": "open",
+          "updated_at": "2026-10-11T16:12:13Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16200"
+        },
+        {
+          "number": 16389,
+          "title": "fix(chat): app lookups only fully describe the actions that match",
+          "state": "open",
+          "updated_at": "2026-10-11T15:58:12Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16389"
+        },
+        {
+          "number": 16394,
+          "title": "fix(chat): chat asks once when you leave a card unanswered",
+          "state": "open",
+          "updated_at": "2026-10-11T15:57:00Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16394"
+        }
+      ]
+    },
+    "stablyai/orca": {
+      "recent_items": [
+        {
+          "number": 19801,
+          "title": "chore(i18n): retire unreferenced catalog keys and gate the scan",
+          "state": "open",
+          "updated_at": "2026-10-11T16:10:51Z",
+          "comments": 5,
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/19801"
+        },
+        {
+          "number": 27499,
+          "title": "refactor(pty): delete the SSH PTY provider and its registry slot",
+          "state": "open",
+          "updated_at": "2026-10-11T16:09:47Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/27499"
+        },
+        {
+          "number": 27506,
+          "title": "Add inheritable setup profiles and MCP readiness",
+          "state": "open",
+          "updated_at": "2026-10-11T16:09:41Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/27506"
+        },
+        {
+          "number": 25088,
+          "title": "Preview clipboard images before adding them to Codex terminals",
+          "state": "open",
+          "updated_at": "2026-10-11T16:08:32Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/25088"
+        },
+        {
+          "number": 11404,
+          "title": "Add editable Mermaid diagram views",
+          "state": "open",
+          "updated_at": "2026-10-11T16:08:11Z",
+          "comments": 7,
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/11404"
+        }
+      ]
+    }
+  }
+}

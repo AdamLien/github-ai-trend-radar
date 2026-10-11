@@ -1,0 +1,23 @@
+{
+  "source_url": "https://github.com/trending?since=daily",
+  "observed_at": "2026-10-11T16:11:14.993432+00:00",
+  "target_date": "2026-10-11",
+  "cards_total": 8,
+  "in_scope_cards": [
+    {
+      "repo": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars_today": "25585"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars_today": "1083"
+    },
+    {
+      "repo": "lyogavin/airllm",
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "stars_today": "541"
+    }
+  ]
+}
