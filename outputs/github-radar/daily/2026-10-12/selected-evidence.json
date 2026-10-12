@@ -1,0 +1,462 @@
+[
+  {
+    "full_name": "cathrynlavery/diagram-design",
+    "recent_activity": [
+      {
+        "number": 413,
+        "title": "fix: handle unwritable --out destinations with a clear error",
+        "state": "open",
+        "updated_at": "2026-10-12T16:30:41Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/413",
+        "kind": "pull_request"
+      },
+      {
+        "number": 411,
+        "title": "fix(export): land SVG and PNG export fixes from ten PRs",
+        "state": "open",
+        "updated_at": "2026-10-12T16:27:39Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/411",
+        "kind": "pull_request"
+      },
+      {
+        "number": 407,
+        "title": "SVG export fails on 15 shipped examples (nested icon svg, double hyphens in comments)",
+        "state": "open",
+        "updated_at": "2026-10-12T16:18:41Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/issues/407",
+        "kind": "issue"
+      },
+      {
+        "number": 392,
+        "title": "fix(import): retain standalone bare states",
+        "state": "open",
+        "updated_at": "2026-10-12T16:00:03Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/392",
+        "kind": "pull_request"
+      },
+      {
+        "number": 393,
+        "title": "fix(import): decode Mermaid entity codes once in imported labels",
+        "state": "closed",
+        "updated_at": "2026-10-12T15:59:56Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/393",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "<div align=\"center\"> <h1> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/hero/hero-dark.webp\"> <img alt=\"Diagram Design. Editorial diagrams your designer won't hate.\" src=\"docs/hero/hero-light.webp\"> </picture> </h1> **An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.<br>44 diagram types. No shadows. No Mermaid slop.** [![GitHub stars](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat-square&color=bf4520)](https://github.com/cathrynlavery/diagram-design/stargazers) [![skills.sh installs](https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square)](https://skills.sh/cathrynlavery/diagram-design/diagram-design) [![CI](https://img.shields.io/github/actions/workflow/status/cathrynlavery/diagram-design/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/cathrynlavery/diagram-design/actions/workflows/ci.yml) [![Plugin version](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcathrynlavery%2Fdiagram-design%2Fmain%2F.claude-plugin%2Fplugin.json&query=%24.version&label=version&style=flat-square&color=555555)](CHANGELOG.md) [![MIT license](https://img.shields.io/badge/license-MIT-555555?style=flat-square)](LICENSE) <a href=\"https://trendshift.io/repositories/26141\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/26141\" alt=\"cathrynlavery/diagram-design on Trendshift\" width=\"250\" height=\"55\"/></a> **[Website](https://diagramdesign.dev) · [Gallery](https://cathrynlavery.github.io/diagram-design/) · [Changelog](CHANGELOG.md)** [Install](#install) · [What it makes](#what-it-makes) · [Quickstart](#quickstart) · [Match your brand](#onboarding-make-it-look-like-your-brand) · [Import](#import-from-drawio-mermaid-or-excalidraw) · [Export](#export-to-png--svg) · [Contributing](#contributing) <code>npx skills add cathrynlavery/diagram-design</code> <br><br> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/hero/demo.gif\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/hero/demo-light.gif\"> <img src=\"docs/hero/demo.gif\" alt=\"A prompt typed into an agent session becomes a finished architecture diagram, then a plain first-pass diagram is redrawn with the skill, then the gallery of diagram types\" width=\"900\"> </picture> </div> <br> Ask your agent in plain words: - *\"Make me an architecture diagram of my app: frontend, backend, database, Redis cache.\"* - *\"I need a quadrant showing Q2 projects by impact vs effort.\"* - *\"Give me a sequence of a bearer call with token refresh on 401.\"* - *\"Onboard diagram-design to https://yoursite.com\"* (pulls your palette and fonts so every diagram after this one matches your site) The agent picks the type, states its plan, and writes one `.html` file you can open by double-clicking. --- ## Install Works with any host that reads Agent Skills, including Cursor, Claude Code, Codex, GitHub Copilot, Gemini CLI, Cline, Windsurf and Amp: ```bash npx skills add cathrynlavery/diagram-design ``` In Claude Code, the plugin marketplace gets you updates and the slash commands: ```text /plugin marketplace add cathrynlavery/diagram-design /plugin install diagram-design@diagram-design ``` Official builds come only from this repository. LittleMight, Cathryn Lavery's company, publishes the plugin directory listings; a listing under any other name is an unofficial copy. [PRIVACY.md](PRIVACY.md) lists what the skill sends over the network. <details> <summary><b>Claude Code</b>: turn on auto-update</summary> After installing, run `/plugin`, open **Marketplaces**, select **diagram-design**, and choose **Enable auto-update**. Claude Code disables auto-update by default for third-party marketplaces; after this toggle, it refreshes the marketplace and installed plugin in the background after startup. Run `/reload-plugins` when prompted, or let the next session load the update. </details> <details> <summary><b>Cursor</b>, Cline, Gemini CLI, Windsurf, Amp, Zed, Warp, Roo, Kilo and other Agent Skills hosts</summary> The cross-agent [`skills` CLI](https://skills.sh) resolves this repository, detects `skills/diagram-design/SKILL.md`, and installs the whole skill (`references/`, `assets/`, `scripts/`) into every host root you select, including Cursor's: ```bash npx skills add cathrynlavery/diagram-design ``` When the selected roots resolve to more than one skills directory, the CLI asks for an installation method and recommends **Symlink**: one canonical copy, linked into each root, so a later update reaches all of them at once. Pass `--copy` for independent copies per host instead. A selection that resolves to a single directory is copied, because the distinction is immaterial there. Where symlinks are unavailable (Windows without Developer Mode) the CLI falls back to copies and reports which roots it copied. This is a standalone install, separate from the marketplaces below: it does not follow marketplace updates automatically. Pull merged updates with `npx skills update diagram-design`. It also installs the Agent Skill only, so the `/export-diagram`, `/import-mermaid`, `/profile`, and `/doctor` command surfaces stay with the native packages. On a host that has one of the marketplaces below, prefer the marketplace. > **One-time migration:** an existing standalone `npx skills add` copy will not start following the Codex marketplace automatically. Remove that standalone copy, then use the Codex marketplace commands. Likewise, uninstall a personal Cowork copy and reinstall Diagram Design from your organization's marketplace. Future marketplace version bumps then flow through each client's native update path. </details> <details> <summary><b>Codex</b></summary> ```bash codex plugin marketplace add cathrynlavery/diagram-design codex plugin add diagram-design@diagram-design ``` Codex refreshes configured Git marketplaces at startup. To fetch immediately, run `codex plugin marketplace upgrad"
+  },
+  {
+    "full_name": "mksglu/context-mode",
+    "recent_activity": [
+      {
+        "number": 788,
+        "title": "[Bug]:  context-mode leaves `.ctx-mode-*` artifacts and non-shell `ctx_execute` runs outside project cwd in Pi subagents",
+        "state": "closed",
+        "updated_at": "2026-10-12T15:09:28Z",
+        "url": "https://github.com/mksglu/context-mode/issues/788",
+        "kind": "issue"
+      },
+      {
+        "number": 1290,
+        "title": "perf(hooks): keep session-db bundle off the PreToolUse path",
+        "state": "open",
+        "updated_at": "2026-10-12T14:10:42Z",
+        "url": "https://github.com/mksglu/context-mode/pull/1290",
+        "kind": "pull_request"
+      },
+      {
+        "number": 1288,
+        "title": "PR request",
+        "state": "closed",
+        "updated_at": "2026-10-12T13:24:27Z",
+        "url": "https://github.com/mksglu/context-mode/pull/1288",
+        "kind": "pull_request"
+      },
+      {
+        "number": 1289,
+        "title": "PR Request-context-mode",
+        "state": "open",
+        "updated_at": "2026-10-12T13:17:24Z",
+        "url": "https://github.com/mksglu/context-mode/pull/1289",
+        "kind": "pull_request"
+      },
+      {
+        "number": 1244,
+        "title": "Add website URL to plugin.json",
+        "state": "open",
+        "updated_at": "2026-10-12T03:20:09Z",
+        "url": "https://github.com/mksglu/context-mode/pull/1244",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "# Context Mode **The other half of the context problem.** [![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.message&label=users&color=brightgreen)](https://www.npmjs.com/package/context-mode) [![npm](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.npm&label=npm&color=blue)](https://www.npmjs.com/package/context-mode) [![marketplace](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.marketplace&label=marketplace&color=blue)](https://github.com/mksglu/context-mode) [![GitHub stars](https://img.shields.io/github/stars/mksglu/context-mode?style=flat&color=yellow)](https://github.com/mksglu/context-mode/stargazers) [![GitHub forks](https://img.shields.io/github/forks/mksglu/context-mode?style=flat&color=blue)](https://github.com/mksglu/context-mode/network/members) [![Last commit](https://img.shields.io/github/last-commit/mksglu/context-mode?color=green)](https://github.com/mksglu/context-mode/commits) [![License: ELv2](https://img.shields.io/badge/License-ELv2-blue.svg)](LICENSE) [![Discord](https://img.shields.io/discord/1478479412700909750?label=Discord&logo=discord&color=5865f2)](https://discord.gg/DCN9jUgN5v) [![Hacker News #1](https://img.shields.io/badge/Hacker%20News-%231%20%E2%80%A2%20570%2B%20points-ff6600?logo=ycombinator&logoColor=white)](https://news.ycombinator.com/item?id=47193064) <p align=\"center\"> <sub>Used across teams at</sub> <br><br> <a href=\"#\"><img src=\"https://img.shields.io/badge/Microsoft-141414?style=flat\" alt=\"Microsoft\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Google-141414?style=flat&logo=google&logoColor=white\" alt=\"Google\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Meta-141414?style=flat&logo=meta&logoColor=white\" alt=\"Meta\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Amazon-141414?style=flat\" alt=\"Amazon\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/IBM-141414?style=flat\" alt=\"IBM\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/NVIDIA-141414?style=flat&logo=nvidia&logoColor=white\" alt=\"NVIDIA\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/ByteDance-141414?style=flat&logo=bytedance&logoColor=white\" alt=\"ByteDance\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Stripe-141414?style=flat&logo=stripe&logoColor=white\" alt=\"Stripe\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Datadog-141414?style=flat&logo=datadog&logoColor=white\" alt=\"Datadog\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Salesforce-141414?style=flat\" alt=\"Salesforce\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/GitHub-141414?style=flat&logo=github&logoColor=white\" alt=\"GitHub\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Red%20Hat-141414?style=flat&logo=redhat&logoColor=white\" alt=\"Red Hat\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Supabase-141414?style=flat&logo=supabase&logoColor=white\" alt=\"Supabase\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Canva-141414?style=flat\" alt=\"Canva\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Notion-141414?style=flat&logo=notion&logoColor=white\" alt=\"Notion\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Hasura-141414?style=flat&logo=hasura&logoColor=white\" alt=\"Hasura\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Framer-141414?style=flat&logo=framer&logoColor=white\" alt=\"Framer\" /></a> <a href=\"#\"><img src=\"https://img.shields.io/badge/Cursor-141414?style=flat&logo=cursor&logoColor=white\" alt=\"Cursor\" /></a> </p> ## The Problem Every MCP tool call dumps raw data into your context window. A Playwright snapshot costs 56 KB. Twenty GitHub issues cost 59 KB. One access log — 45 KB. After 30 minutes, 40% of your context is gone. And when the agent compacts the conversation to free space, it forgets which files it was editing, what tasks are in progress, and what you last asked for. On top of that, the agent wastes output tokens on filler, pleasantries, and verbose explanations — burning context from both sides. ### How Context Mode Solves It Context Mode is an MCP server that solves all four sides of this problem: 1. **Context Saving** — Sandbox tools keep raw data out of the context window. 315 KB becomes 5.4 KB. 98% reduction. 2. **Session Continuity** — Every file edit, git operation, task, error, and user decision is tracked in SQLite. When the conversation compacts, context-mode doesn't dump this data back into context — it indexes events into FTS5 and retrieves only what's relevant via BM25 search. The model picks up exactly where you left off. If you don't `--continue`, previous session data is deleted immediately — a fresh session means a clean slate. 3. **Think in Code** — The LLM should program the analysis, not compute it. Instead of reading 50 files into context to count functions, the agent writes a script that does the counting and `console.log()`s only the result. One script replaces ten tool calls and saves 100x context. This is a mandatory paradigm across all 17 supported clients, plus the OpenClaw gateway integration: stop treating the LLM as a data processor, treat it as a code generator. ```js // Before: 47 × Read() = 700 KB. After: 1 × ctx_execute() = 3.6 KB. ctx_execute(\"javascript\", ` const files = fs.readdirSync('src').filter(f => f.endsWith('.ts')); files.forEach(f => console.log(f + ': ' + fs.readFileSync('src/'+f,'utf8').split('\\\\n').length + ' lines')); `); ``` 4. **No prose-style enforcement** — context-mode keeps raw data out of context but never dictates how the model writes its final answer. Brevity, completeness, formatting — your model's call (or yours via your own `CLAUDE.md` / `AGENTS.md`). Aggressive brevity prompts have been shown to degrade coding/reasoning"
+  },
+  {
+    "full_name": "Graphify-Labs/graphify",
+    "recent_activity": [
+      {
+        "number": 4373,
+        "title": "fix(install): remove only graphify's own hook entries, keep others (#4359)",
+        "state": "open",
+        "updated_at": "2026-10-12T16:31:23Z",
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4373",
+        "kind": "pull_request"
+      },
+      {
+        "number": 4375,
+        "title": "feat(triage): auto-label new issues with an allowlisted classifier (System One / Jev + model fallback)",
+        "state": "open",
+        "updated_at": "2026-10-12T16:28:29Z",
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4375",
+        "kind": "pull_request"
+      },
+      {
+        "number": 4374,
+        "title": "Automated issue triage: auto-label new issues (area/ + kind/ + good first issue suggestion)",
+        "state": "open",
+        "updated_at": "2026-10-12T16:27:52Z",
+        "url": "https://github.com/Graphify-Labs/graphify/issues/4374",
+        "kind": "issue"
+      },
+      {
+        "number": 4372,
+        "title": "fix(install): preserve line endings of CLAUDE.md, AGENTS.md and siblings (#4360)",
+        "state": "open",
+        "updated_at": "2026-10-12T16:22:35Z",
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4372",
+        "kind": "pull_request"
+      },
+      {
+        "number": 4371,
+        "title": "fix(dedup): say what an id-collision merge actually drops (#4281)",
+        "state": "open",
+        "updated_at": "2026-10-12T15:48:00Z",
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4371",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "<p align=\"center\"> <a href=\"https://graphify.com\"><img src=\"https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graphify-logo.png\" width=\"360\" height=\"189\" alt=\"Graphify\"/></a> </p> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/25296?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25296\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/25296\" alt=\"Graphify-Labs%2Fgraphify | Trendshift\" width=\"250\" height=\"55\"/></a> </p> <div align=\"center\"> <details><summary><b>Read this in other languages</b></summary> 🇺🇸 <a href=\"README.md\">English</a> | 🇨🇳 <a href=\"docs/translations/README.zh-CN.md\">简体中文</a> | 🇯🇵 <a href=\"docs/translations/README.ja-JP.md\">日本語</a> | 🇰🇷 <a href=\"docs/translations/README.ko-KR.md\">한국어</a> | 🇩🇪 <a href=\"docs/translations/README.de-DE.md\">Deutsch</a> | 🇫🇷 <a href=\"docs/translations/README.fr-FR.md\">Français</a> | 🇪🇸 <a href=\"docs/translations/README.es-ES.md\">Español</a> | 🇮🇳 <a href=\"docs/translations/README.hi-IN.md\">हिन्दी</a> | 🇧🇷 <a href=\"docs/translations/README.pt-BR.md\">Português</a> | 🇷🇺 <a href=\"docs/translations/README.ru-RU.md\">Русский</a> | 🇸🇦 <a href=\"docs/translations/README.ar-SA.md\">العربية</a> | 🇮🇷 <a href=\"docs/translations/README.fa-IR.md\">فارسی</a> | 🇮🇹 <a href=\"docs/translations/README.it-IT.md\">Italiano</a> | 🇵🇱 <a href=\"docs/translations/README.pl-PL.md\">Polski</a> | 🇳🇱 <a href=\"docs/translations/README.nl-NL.md\">Nederlands</a> | 🇹🇷 <a href=\"docs/translations/README.tr-TR.md\">Türkçe</a> | 🇺🇦 <a href=\"docs/translations/README.uk-UA.md\">Українська</a> | 🇻🇳 <a href=\"docs/translations/README.vi-VN.md\">Tiếng Việt</a> | 🇮🇩 <a href=\"docs/translations/README.id-ID.md\">Bahasa Indonesia</a> | 🇸🇪 <a href=\"docs/translations/README.sv-SE.md\">Svenska</a> | 🇬🇷 <a href=\"docs/translations/README.el-GR.md\">Ελληνικά</a> | 🇷🇴 <a href=\"docs/translations/README.ro-RO.md\">Română</a> | 🇨🇿 <a href=\"docs/translations/README.cs-CZ.md\">Čeština</a> | 🇫🇮 <a href=\"docs/translations/README.fi-FI.md\">Suomi</a> | 🇩🇰 <a href=\"docs/translations/README.da-DK.md\">Dansk</a> | 🇳🇴 <a href=\"docs/translations/README.no-NO.md\">Norsk</a> | 🇭🇺 <a href=\"docs/translations/README.hu-HU.md\">Magyar</a> | 🇹🇭 <a href=\"docs/translations/README.th-TH.md\">ภาษาไทย</a> | 🇺🇿 <a href=\"docs/translations/README.uz-UZ.md\">Oʻzbekcha</a> | 🇹🇼 <a href=\"docs/translations/README.zh-TW.md\">繁體中文</a> | 🇵🇭 <a href=\"docs/translations/README.fil-PH.md\">Filipino</a> | 🇮🇱 <a href=\"docs/translations/README.he-IL.md\">עברית</a> </details> </div> <p align=\"center\"> <a href=\"https://pypi.org/project/graphifyy/\"><img src=\"https://img.shields.io/pypi/v/graphifyy\" alt=\"PyPI\"/></a> <a href=\"https://github.com/Graphify-Labs/graphify/actions/workflows/ci.yml\"><img src=\"https://github.com/Graphify-Labs/graphify/actions/workflows/ci.yml/badge.svg?branch=v8\" alt=\"CI\"/></a> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/License-Apache%202.0-blue\" alt=\"License: Apache-2.0\"/></a> <a href=\"https://pepy.tech/project/graphifyy\"><img src=\"https://img.shields.io/pepy/dt/graphifyy?color=blue&label=downloads\" alt=\"Downloads\"/></a> <a href=\"https://docs.graphify.com\"><img src=\"https://img.shields.io/badge/Docs-docs.graphify.com-0b7285?style=flat&logo=readthedocs&logoColor=white\" alt=\"Docs\"/></a> <a href=\"https://app.graphify.com/login\"><img src=\"https://img.shields.io/badge/Graphify%20Cloud-app.graphify.com-118d4f?style=flat&logoColor=white\" alt=\"Graphify Cloud\"/></a> <a href=\"https://discord.gg/XDnKVpzdXB\"><img src=\"https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white\" alt=\"Discord\"/></a> <a href=\"https://www.youtube.com/@graphifylabs\"><img src=\"https://img.shields.io/badge/YouTube-Graphify%20Labs-FF0000?style=flat&logo=youtube&logoColor=white\" alt=\"YouTube\"/></a> <a href=\"https://www.linkedin.com/company/graphify-labs\"><img src=\"https://img.shields.io/badge/LinkedIn-Graphify%20Labs-0077B5?logo=linkedin\" alt=\"LinkedIn\"/></a> <a href=\"https://www.ycombinator.com/companies/graphify-labs\"><img src=\"https://img.shields.io/badge/Y%20Combinator-S26-F0652F?style=flat&logo=ycombinator&logoColor=white\" alt=\"YC S26\"/></a> </p> <p align=\"center\"> <b>Cut agent token spend by 80%.</b> Graphify Cloud is always-on memory that governs your agents, keeps code quality high, and proves correctness with formal verification. <a href=\"https://app.graphify.com/login\"><b>Start a free 14-day trial &rarr;</b></a> </p> Type `/graphify` in your AI coding assistant and it maps your entire project (code, docs, PDFs, images, videos) into a **knowledge graph** you can **query instead of grepping** through files. - **Code maps for free, fully local.** Code is parsed with tree-sitter AST: deterministic, no LLM, nothing leaves your machine. (Docs, PDFs, images and video use your assistant's model, or a configured API key, for a semantic pass.) - **Every edge is explained.** Each connection is tagged `EXTRACTED` (explicit in the source) or `INFERRED` (resolved by graphify), so you can tell what was read directly from what was inferred. - **Not a vector index.** No embeddings, no vector store: a real graph you traverse. Ask a question, trace the path between two things, or explain one concept. > [!NOTE] > **Want this always-on?** [Graphify Cloud](https://app.graphify.com/login) keeps the graph live across your entire SDLC: monorepo and cross-repo support, formal verification, and code review with a bird's-eye view of your SDLC, plus connectors for Sentry, Jira, and more so incidents and tickets sit in the same graph as your code. **[Start a free 14-day trial at app.graphify.com](https://app.graphify.com/login)**. <p align=\"center\"> <img src=\"https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graph-hero.png\" alt=\"graphify's interactive graph.html showing the FastAPI codebase as a force-directed knowledge graph with a legend of detected communities\" width=\"900\"> </p> <p align=\"center\"> <em>The FastAPI codebase mapp"
+  },
+  {
+    "full_name": "SamurAIGPT/llm-wiki-agent",
+    "recent_activity": [
+      {
+        "number": 85,
+        "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+        "state": "open",
+        "updated_at": "2026-10-08T14:04:06Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+        "kind": "pull_request"
+      },
+      {
+        "number": 78,
+        "title": "[Feature] Integrate Jev (TypeSafe AI) as a fast decision layer for lint triage, ingest classification, and query routing",
+        "state": "open",
+        "updated_at": "2026-09-22T06:49:21Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/78",
+        "kind": "issue"
+      },
+      {
+        "number": 77,
+        "title": "Q: does this support `npx`?",
+        "state": "open",
+        "updated_at": "2026-09-11T11:43:53Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/77",
+        "kind": "issue"
+      },
+      {
+        "number": 74,
+        "title": "fix(tools): guard file_to_md output against silent overwrite",
+        "state": "closed",
+        "updated_at": "2026-09-09T00:58:42Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/74",
+        "kind": "pull_request"
+      },
+      {
+        "number": 71,
+        "title": "fix: handle BOM/whitespace in frontmatter parsing and missing Syntheses section in index",
+        "state": "closed",
+        "updated_at": "2026-09-08T21:24:42Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/71",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "# LLM Wiki Agent [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) **A coding agent skill.** Drop source documents into `raw/` and tell the agent to ingest them — it reads them, extracts knowledge, and builds a persistent interlinked wiki. Every new source makes the wiki richer. You never write it. > Most knowledge tools make you search your own notes. This one reads everything you've collected and writes a structured wiki that compounds over time — cross-references already built, contradictions already flagged, synthesis already done. ``` ingest raw/papers/attention-is-all-you-need.md ``` ``` wiki/ ├── index.md catalog of all pages — updated on every ingest ├── log.md append-only record of every operation ├── overview.md living synthesis across all sources ├── sources/ one summary page per source document ├── entities/ people, companies, projects — auto-created ├── concepts/ ideas, frameworks, methods — auto-created └── syntheses/ query answers filed back as wiki pages graph/ ├── graph.json persistent node/edge data (SHA256-cached) └── graph.html interactive vis.js visualization — open in any browser ``` ## Related Projects - [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Add AI image & video generation to your knowledge base pipeline - [Open-AI-Design-Agent](https://github.com/Anil-matcha/Open-AI-Design-Agent) — Autonomous AI design agent — pair with wiki agent for research + visual output - [AI-Voice-Agent](https://github.com/Anil-matcha/AI-Voice-Agent) — Self-hosted AI voice agent for real-time voice conversations, sales calls, and customer support - [awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe) — typed semantic retrieval, citation checks, and confidence-aware routing for agent knowledge workflows ## Install **Requires:** [Claude Code](https://claude.ai/code), [Codex](https://openai.com/codex), [Gemini CLI](https://github.com/google-gemini/gemini-cli), or any agent that reads a config file. ```bash git clone https://github.com/SamurAIGPT/llm-wiki-agent.git cd llm-wiki-agent ``` Open in your agent — no API key or Python setup needed: ```bash claude # reads CLAUDE.md + .claude/commands/ (slash commands available) codex # reads AGENTS.md opencode # reads AGENTS.md gemini # reads GEMINI.md ``` ## Usage All agents understand natural language and shorthand triggers: ``` ingest raw/papers/my-paper.md # ingest a markdown source ingest report.pdf # auto-converts to .md, then ingests ingest slides.pptx notes.docx # batch, mixed formats query: what are the main themes? # synthesize answer from wiki pages lint # find orphans, contradictions, gaps build graph # build graph.html from all wikilinks ``` Plain English works too: ``` \"Ingest this paper: raw/papers/llama2.md\" \"What does the wiki say about attention mechanisms?\" \"Check for contradictions across sources\" \"Build the knowledge graph and tell me the most connected nodes\" ``` **Claude Code** also provides `/wiki-ingest`, `/wiki-query`, `/wiki-lint`, `/wiki-graph` as slash commands (via `.claude/commands/`). These are Claude Code-specific — other agents use the natural language triggers above, which work identically. Works with markdown, PDF, DOCX, PPTX, XLSX, HTML, TXT, CSV, JSON, XML, RST, EPUB, and more. Non-markdown files are auto-converted via [markitdown](https://github.com/microsoft/markitdown) at ingest time — no separate step needed. ## What You Get **Persistent wiki** — structured markdown pages that accumulate across sessions. Unlike chat, nothing is lost. **Entity pages** — auto-created for every person, company, or project mentioned across sources. Updated each time a new source references them. **Concept pages** — auto-created for every key idea or framework. Cross-referenced to every source that discusses them. **Living overview** — `wiki/overview.md` is revised on every ingest to reflect the current synthesis across everything you've read. **Contradiction flags** — when a new source contradicts an existing claim, it's flagged at ingest time, not buried until query time. **Knowledge graph** — `graph.html` shows every wiki page as a node, every `[[wikilink]]` as an edge, and Claude-inferred implicit relationships as dotted edges. Community detection clusters related topics. **Lint reports** — orphan pages, broken links, missing entity pages, data gaps with suggested sources to fill them. ## Use Cases ### Research Going deep on a topic over weeks — reading papers, articles, reports. ``` /wiki-ingest raw/papers/attention-is-all-you-need.md /wiki-ingest raw/papers/llama2.md /wiki-ingest raw/papers/rag-survey.md # Wiki builds entity pages (Meta AI, Google Brain) and # concept pages (Attention, RLHF, Context Window) automatically. /wiki-query \"What are the main approaches to reducing hallucination?\" /wiki-query \"How has context window size evolved across models?\" /wiki-lint # → \"No sources on mixture-of-experts — consider the Mixtral paper\" ``` By the end you have a structured, interlinked reference — not a folder of PDFs you'll never reopen. --- ### Reading a Book File each chapter as you go. Build out pages for characters, themes, arguments. ``` /wiki-ingest raw/book/chapter-01.md /wiki-ingest raw/book/chapter-02.md # Wiki creates entity and theme pages automatically. /wiki-query \"How has the protagonist's motivation evolved?\" /wiki-query \"What contradictions exist in the author's argument so far?\" /wiki-graph # → graph.html shows every character/theme and how they connect ``` Think fan wikis like Tolkien Gateway — built as you read, with the agent doing all the cross-referencing. --- ### Personal Knowledge Base Track goals, health, habits, self-improvement — file journal entries, articles, podcast notes. ``` /wiki-ingest raw/journal/2026-01-week1.md /wiki-ingest raw/articles/huberman-sleep-protocol.md /wiki-ingest raw/articles/atomic-habits-summary.md /wiki-query \"What patterns show up in my journal entries about energy?\" /wiki-query \"What habits"
+  },
+  {
+    "full_name": "nashsu/llm_wiki",
+    "recent_activity": [
+      {
+        "number": 814,
+        "title": "fix(file-sync): ignore read-only watcher events to stop a self-triggered rescan loop",
+        "state": "open",
+        "updated_at": "2026-10-10T17:26:53Z",
+        "url": "https://github.com/nashsu/llm_wiki/pull/814",
+        "kind": "pull_request"
+      },
+      {
+        "number": 813,
+        "title": "perf(scheduled-import): reuse content hash for unchanged files",
+        "state": "open",
+        "updated_at": "2026-10-10T09:39:52Z",
+        "url": "https://github.com/nashsu/llm_wiki/pull/813",
+        "kind": "pull_request"
+      },
+      {
+        "number": 812,
+        "title": "Windows 桌面持续占用 3-5 核（0.6.12）：周期性全量扫描/哈希放大，附实测与定位",
+        "state": "open",
+        "updated_at": "2026-10-10T09:39:19Z",
+        "url": "https://github.com/nashsu/llm_wiki/issues/812",
+        "kind": "issue"
+      },
+      {
+        "number": 750,
+        "title": "fix: keep local CLI chat working with auto skills",
+        "state": "closed",
+        "updated_at": "2026-10-10T02:30:24Z",
+        "url": "https://github.com/nashsu/llm_wiki/pull/750",
+        "kind": "pull_request"
+      },
+      {
+        "number": 811,
+        "title": "Ingest fails on long / entity-dense documents: hard-coded 8,192-token analysis cap + unbounded entity-enumeration prompt",
+        "state": "open",
+        "updated_at": "2026-10-09T14:25:09Z",
+        "url": "https://github.com/nashsu/llm_wiki/issues/811",
+        "kind": "issue"
+      }
+    ],
+    "readme_review_excerpt": "# LLM Wiki <p align=\"center\"> <img src=\"logo.jpg\" width=\"128\" height=\"128\" style=\"border-radius: 22%;\" alt=\"LLM Wiki Logo\"> </p> <p align=\"center\"> <strong>A personal knowledge base that builds itself.</strong><br> LLM reads your documents, builds a structured wiki, and keeps it current. </p> <p align=\"center\"> <a href=\"#what-is-this\">What is this?</a> • <a href=\"#what-we-changed--added\">Features</a> • <a href=\"#tech-stack\">Tech Stack</a> • <a href=\"#installation\">Installation</a> • <a href=\"#credits\">Credits</a> • <a href=\"#license\">License</a> </p> <p align=\"center\"> English | <a href=\"README_CN.md\">中文</a> | <a href=\"README_JA.md\">日本語</a> | <a href=\"README_KO.md\">한국어</a> </p> --- <p align=\"center\"> <img src=\"assets/overview.jpg\" width=\"100%\" alt=\"Overview\"> </p> ## Features - **Two-Step Chain-of-Thought Ingest** — LLM analyzes first, then generates wiki pages with source traceability and incremental cache - **Multimodal Image Ingestion** — extract embedded images from PDFs, generate factual captions with a vision LLM, surface them in image-aware search results with lightbox preview and jump-to-source - **Multi-format Document Parsing** — ingest PDF, Office documents, EPUB/MOBI, Org mode, images, media, web clips, and batches of URLs, with built-in, cloud, or local MinerU PDF processing - **Flexible Model Configuration** — configure models per project, route Chat and Ingest independently, and manage custom providers, headers, and streaming output - **Source-grounded Retrieval** — use Read Sources Only mode to answer exclusively from original imported material - **Project Management & Migration** — export and import complete project archives across devices, and rebuild the Wiki index from existing pages - **4-Signal Knowledge Graph** — relevance model with direct links, source overlap, Adamic-Adar, and type affinity - **Louvain Community Detection** — automatic knowledge cluster discovery with cohesion scoring - **Graph Insights** — surprising connections and knowledge gaps with one-click Deep Research - **Vector Semantic Search** — optional embedding-based retrieval via LanceDB, supports any OpenAI-compatible endpoint - **Persistent Ingest Queue** — serial processing with crash recovery, cancel, retry, and progress visualization - **Folder Import** — recursive folder import preserving directory structure, folder context as LLM classification hint - **Source Folder Auto-Watch** — detects external changes in `raw/sources/` and keeps ingest/delete cleanup in sync - **Deep Research** — LLM-optimized search topics, multi-query web search via Tavily, SerpApi, or SearXNG, auto-ingest results into wiki - **Rust Backend Chat Agent** — tool-using chat runtime with wiki/source/graph/web retrieval, workspace file generation, shell approval, cancellation, and streaming tool events - **Agent Skills** — scan and enable local `SKILL.md` folders, select skills with `/skill`, and let the Agent read skill instructions on demand - **Generated Outputs Preview** — Agent-created Markdown, HTML, images, and other workspace files appear as outputs with preview and quick folder access - **Mermaid Diagram Rendering** — render Mermaid code blocks directly in chat and preview, with compact syntax-error cards instead of raw parser output - **Async Review System** — LLM flags items for human judgment, predefined actions, pre-generated search queries - **Chrome Web Clipper** — one-click web page capture with auto-ingest into knowledge base - **Local HTTP API + MCP Server + AI Agent Skill** — built-in `127.0.0.1:19828` JSON API and bundled MCP server for hybrid search, file read, graph traversal, and source rescan; ready-made [agent skill](https://github.com/nashsu/llm_wiki_skill) installs into Claude Code / Codex with one command (`npx skills add …`) ## What is this? LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM **incrementally builds and maintains a persistent wiki** from your sources. Knowledge is compiled once and kept current, not re-derived on every query. This project is based on [Karpathy's LLM Wiki pattern](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) — a methodology for building personal knowledge bases using LLMs. llm_wiki is created and maintained by [nash_su](https://x.com/nash_su), who implemented the core ideas as a full desktop application with significant enhancements. <p align=\"center\"> <img src=\"assets/llm_wiki_arch.jpg\" width=\"100%\" alt=\"LLM Wiki Architecture\"> </p> ## Credits The foundational methodology comes from **Andrej Karpathy**'s [llm-wiki.md](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f), which describes the pattern of using LLMs to incrementally build and maintain a personal wiki. The original document is an abstract design pattern; this project is a concrete implementation with substantial extensions. ## What We Kept from the Original The core architecture follows Karpathy's design faithfully: - **Three-layer architecture**: Raw Sources (immutable) → Wiki (LLM-generated) → Schema (rules & config) - **Three core operations**: Ingest, Query, Lint - **index.md** as the content catalog and LLM navigation entry point - **log.md** as the chronological operation record with parseable format - **[[wikilink]]** syntax for cross-references - **YAML frontmatter** on every wiki page - **Obsidian compatibility** — the wiki directory works as an Obsidian vault - **Human curates, LLM maintains** — the fundamental role division <p align=\"center\"> <img src=\"assets/5-obsidian_compatibility.jpg\" width=\"100%\" alt=\"Obsidian Compatibility\"> </p> ## What We Changed & Added ### 1. From CLI to Desktop Application The original is an abstract pattern document designed to be copy-pasted to an LLM agent. We built it into a **full cross-platform desktop application** with: - **Three-column layout**: Knowl"
+  },
+  {
+    "full_name": "activepieces/activepieces",
+    "recent_activity": [
+      {
+        "number": 16200,
+        "title": "feat(web): unify app and admin sidebars into one component",
+        "state": "open",
+        "updated_at": "2026-10-12T16:31:03Z",
+        "url": "https://github.com/activepieces/activepieces/pull/16200",
+        "kind": "pull_request"
+      },
+      {
+        "number": 16341,
+        "title": "fix(mcp): mark a whole {{reference}} in a list, object or JSON field as dynamic",
+        "state": "open",
+        "updated_at": "2026-10-12T16:28:29Z",
+        "url": "https://github.com/activepieces/activepieces/pull/16341",
+        "kind": "pull_request"
+      },
+      {
+        "number": 16429,
+        "title": "feat(emailit): let AI agents send, track and manage emails, audiences and suppressions",
+        "state": "open",
+        "updated_at": "2026-10-12T16:32:01Z",
+        "url": "https://github.com/activepieces/activepieces/pull/16429",
+        "kind": "pull_request"
+      },
+      {
+        "number": 16395,
+        "title": "feat(gitlab): manage issues, merge requests, repository files and users from flows and AI agents",
+        "state": "closed",
+        "updated_at": "2026-10-12T16:22:37Z",
+        "url": "https://github.com/activepieces/activepieces/pull/16395",
+        "kind": "pull_request"
+      },
+      {
+        "number": 16428,
+        "title": "fix(sandbox): build code steps in a staging dir and swap them into place atomically",
+        "state": "open",
+        "updated_at": "2026-10-12T16:11:24Z",
+        "url": "https://github.com/activepieces/activepieces/pull/16428",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "<h1 align=\"center\"> <a target=\"_blank\" href=\"https://activepieces.com\" > <img align=\"center\" alt=\"Activepieces\" src=\"https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4480-bc75-30a0c73ed340\" style=\"width:100%;\" /> </a> </h1> <p align=\"center\"> <a href=\"/LICENSE\" target=\"_blank\"><img src='https://img.shields.io/badge/license-MIT-green?style=for-the-badge' /></a>&nbsp;<img src='https://img.shields.io/github/commit-activity/w/activepieces/activepieces/main?style=for-the-badge' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://img.shields.io/discord/966798490984382485?style=for-the-badge' /></a> </p> <p align=\"center\"> An open source replacement for Zapier </p> <p align=\"center\"> <a href=\"https://www.activepieces.com/docs\" target=\"_blank\" ><b>Documentation</b></a>&nbsp;&nbsp;&nbsp;🌪️&nbsp;&nbsp;&nbsp; <a href=\"https://www.activepieces.com/docs/build-pieces/building-pieces/overview\" target=\"_blank\" ><b>Create a Piece</b></a>&nbsp;&nbsp;&nbsp;🖉&nbsp;&nbsp;&nbsp; <a href=\"https://www.activepieces.com/docs/install/overview\" target=\"_blank\" ><b>Deploy</b></a>&nbsp;&nbsp;&nbsp;🔥&nbsp;&nbsp;&nbsp; <a href=\"https://discord.gg/yvxF5k5AUb\" target=\"_blank\" > <b>Join Discord</b> </a> </p> <br> <br> # 🤯 Welcome to Activepieces All-in-one AI automation designed to be **extensible** through a **type-safe** pieces framework written in **TypeScript**. When you contribute pieces to Activepieces they become automatically available as MCP servers that you can use with LLMs through Claude Desktop, Cursor or Windsurf! <br> <br> ## 🔥 Why Activepieces is Different: - **💖 Loved by Everyone**: Intuitive interface and great experience for both technical and non-technical users with a quick learning curve. <img src=\"/docs/resources/templates.gif\"> - **🌐 Open Ecosystem:** All pieces are open source and available on npmjs.com, **60% of the pieces are contributed by the community**. - **🛠️ Largest open source MCP toolkit**: All our pieces (280+) are available as MCP that you can use with LLMs on Claude Desktop, Cursor or Windsurf. - **🛠️ Pieces are written in Typescript**: Pieces are npm packages in TypeScript, offering full customization with the best developer experience, including **hot reloading** for **local** piece development on your machine. 😎 <img src=\"/docs/resources/create-action.png\" alt=\"\"> - **🤖 AI-First**: Native AI pieces let you experiment with various providers, or create your own agents using our AI SDK to help you build flows inside the builder. - **🏢 Enterprise-Ready**: Developers set up the tools, and anyone in the organization can use the no-code builder. Full customization from branding to control. - **🔒 Secure by Design**: Self-hosted and network-gapped for maximum security and control over your data. - **🧠 Human in the Loop**: Delay execution for a period of time or require approval. These are just pieces built on top of the piece framework, and you can build many pieces like that. 🎨 - **💻 Human Input Interfaces**: Built-in support for human input triggers like \"Chat Interface\" 💬 and \"Form Interface\" 📝 ## 🛠️ Builder Features: - [x] Loops - [x] Branches - [x] Auto Retries - [x] HTTP - [x] Code with **NPM** - [x] ASK AI in Code Piece (Non technical user can clean data without knowing to code) - [x] Flows are fully versioned. - [x] Languages Translations - [x] Customizable Templates - [X] 200+ Pieces, check https://www.activepieces.com/pieces **We release updates frequently. Check the product changelog for the latest features.** ## 🔌 Create Your Own Piece Activepieces supports integrations with Google Sheets, OpenAI, Discord, RSS, and over 200 other services. [Check out the full list of supported integrations](https://www.activepieces.com/pieces), which is constantly expanding thanks to our community's contributions. As an **open ecosystem**, all integration source code is accessible in our repository. These integrations are versioned and [published](https://www.npmjs.com/search?q=%40activepieces) directly to npmjs.com upon contribution. You can easily create your own integration using our TypeScript framework. For detailed instructions, please refer to our [Contributor's Guide](https://www.activepieces.com/docs/build-pieces/building-pieces/overview). <br> <br> <br> <br> # License Activepieces' Community Edition is released as open source under the [MIT license](https://github.com/activepieces/activepieces/blob/main/LICENSE) and enterprise features are released under [Commercial License](https://github.com/activepieces/activepieces/blob/main/packages/ee/LICENSE) Read more about the feature comparison here https://www.activepieces.com/pricing <br> <br> # 💭 Join Our Community <a href=\"https://discord.gg/2jUXBKDdP8\" target=\"_blank\"> <img src=\"https://discordapp.com/api/guilds/966798490984382485/widget.png?style=banner3\" alt=\"\"> </a> <br> <br> # 🌐 Contributions We welcome contributions big or small and in different directions. The best way to do this is to check this [document](https://www.activepieces.com/docs/build-pieces/building-pieces/create-action) and we are always up to talk on [our Discord Server](https://discord.gg/2jUXBKDdP8). ## 📚 Translations Not into coding but still interested in contributing? Come join our [Discord](https://discord.gg/2jUXBKDdP8) and visit https://www.activepieces.com/docs/about/i18n for more information. ![fr translation](https://img.shields.io/badge/dynamic/json?color=blue&label=fr&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27fr%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json) ![it translation](https://img.shields.io/badge/dynamic/json?color=blue&label=it&style=for-the-badge&logo=crowdin&query=%24.progress[?(@.data.languageId==%27it%27)].data.translationProgress&url=https%3A%2F%2Fbadges.awesome-crowdin.com%2Fstats-16093902-626364-update.json) ![de translation](https://img.shields.io/badge/dynamic/json?color=blue&label=de&style=for-the-ba"
+  },
+  {
+    "full_name": "obra/superpowers",
+    "recent_activity": [
+      {
+        "number": 2504,
+        "title": "fix(codex): fall back to sha256sum when shasum is unavailable",
+        "state": "open",
+        "updated_at": "2026-10-12T15:50:52Z",
+        "url": "https://github.com/obra/superpowers/pull/2504",
+        "kind": "pull_request"
+      },
+      {
+        "number": 2503,
+        "title": "run-hook.cmd: SessionStart fails on Unix without bash (\"command not found: bash\"); session-start itself runs under zsh",
+        "state": "open",
+        "updated_at": "2026-10-12T14:39:23Z",
+        "url": "https://github.com/obra/superpowers/issues/2503",
+        "kind": "issue"
+      },
+      {
+        "number": 2502,
+        "title": "fix(hooks): remove subshell forks from session-start, absorb EPIPE without cat",
+        "state": "open",
+        "updated_at": "2026-10-12T14:00:58Z",
+        "url": "https://github.com/obra/superpowers/pull/2502",
+        "kind": "pull_request"
+      },
+      {
+        "number": 2081,
+        "title": "hooks/session-start: six subprocess spawns cost ~2s on Windows (7.7x slower; byte-identical output without them)",
+        "state": "open",
+        "updated_at": "2026-10-12T13:47:32Z",
+        "url": "https://github.com/obra/superpowers/issues/2081",
+        "kind": "issue"
+      },
+      {
+        "number": 2481,
+        "title": "subagent-driven-development: \"Five rounds maximum per task\" lies past the 20,000-character compaction re-attach cut, and one task ran 18+ fix rounds (Claude Code)",
+        "state": "open",
+        "updated_at": "2026-10-12T13:22:44Z",
+        "url": "https://github.com/obra/superpowers/issues/2481",
+        "kind": "issue"
+      }
+    ],
+    "readme_review_excerpt": "# Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. ## Table of Contents - [How it works](#how-it-works) - [Commercial Services](#commercial-services) - [Getting Started](#installation) - [Claude Code](#claude-code) - [Antigravity](#antigravity) - [Codex App](#codex-app) - [Codex CLI](#codex-cli) - [Cursor](#cursor) - [Devin CLI](#devin-cli) - [Factory Droid](#factory-droid) - [Gemini CLI](#gemini-cli) - [GitHub Copilot CLI](#github-copilot-cli) - [Grok Build CLI](#grok-build-cli) - [Kimi Code](#kimi-code) - [OpenCode](#opencode) - [Pi](#pi) - [Qwen Code](#qwen-code) - [Hermes Agent](#hermes-agent) - [Muse](#muse) - [The Basic Workflow](#the-basic-workflow) - [When Something Goes Wrong](#when-something-goes-wrong) - [Community](#community) - [What's Inside](#whats-inside) - [Philosophy](#philosophy) - [Contributing](#contributing) - [Updating](#updating) - [License](#license) - [Visual companion telemetry](#visual-companion-telemetry) ## How it works It starts from the moment you fire up your coding agent. As soon as it sees that you're building something, it *doesn't* just jump into trying to write code. Instead, it steps back and asks you what you're really trying to do. Once it's teased a spec out of the conversation, it shows it to you in chunks short enough to actually read and digest. After you've signed off on the design, your agent puts together an implementation plan that's clear enough for an enthusiastic junior engineer with poor taste, no judgement, no project context, and an aversion to testing to follow. It emphasizes true red/green TDD, YAGNI (You Aren't Gonna Need It), and DRY. Next up, once you say \"go\", it launches a *subagent-driven-development* process, having agents work through each engineering task, inspecting and reviewing their work, and continuing forward. It's not uncommon for your agent to work autonomously for a couple hours at a time without deviating from the plan you put together. There's a bunch more to it, but that's the core of the system. And because the skills trigger automatically, you don't need to do anything special. Your coding agent just has Superpowers. ## Commercial Services If you're using Superpowers in enterprise and could benefit from commercial support, additional tooling, or managed spending, please don't hesitate to drop us a line at sales@primeradiant.com. ## Installation Installation differs by harness. If you use more than one, install Superpowers separately for each one. ### Claude Code Superpowers is available via the [official Claude plugin marketplace](https://claude.com/plugins/superpowers) #### Official Marketplace - Install the plugin from Anthropic's official marketplace: ```bash /plugin install superpowers@claude-plugins-official ``` #### Superpowers Marketplace The Superpowers marketplace provides Superpowers and some other related plugins for Claude Code. - Register the marketplace: ```bash /plugin marketplace add obra/superpowers-marketplace ``` - Install the plugin from this marketplace: ```bash /plugin install superpowers@superpowers-marketplace ``` ### Antigravity Install Superpowers as a plugin from this repository: ```bash agy plugin install https://github.com/obra/superpowers ``` Antigravity lists each installed skill's description, and the description of the `using-superpowers` skill prompts the model to load that skill at the start of a conversation. Reinstall with the same command to update. ### Codex App Superpowers is available via the [official Codex plugin marketplace](https://github.com/openai/plugins). - In the Codex app, click on Plugins in the sidebar. - You should see `Superpowers` in the Coding section. - Click the `+` next to Superpowers and follow the prompts. ### Codex CLI Superpowers is available via the [official Codex plugin marketplace](https://github.com/openai/plugins). - Open the plugin search interface: ```bash /plugins ``` - Search for Superpowers: ```bash superpowers ``` - Select `Install Plugin`. ### Cursor - In Cursor Agent chat, install from marketplace: ```text /add-plugin superpowers ``` - Or search for \"superpowers\" in the plugin marketplace. ### Devin CLI - Install the plugin from this repository: ```bash devin plugins install obra/superpowers ``` - Update to the latest version with: ```bash devin plugins update superpowers ``` ### Factory Droid - Register the marketplace: ```bash droid plugin marketplace add https://github.com/obra/superpowers ``` - Install the plugin: ```bash droid plugin install superpowers@superpowers ``` ### Gemini CLI - Install the extension: ```bash gemini extensions install https://github.com/obra/superpowers ``` - Update later: ```bash gemini extensions update superpowers ``` ### GitHub Copilot CLI - Register the marketplace: ```bash copilot plugin marketplace add obra/superpowers-marketplace ``` - Install the plugin: ```bash copilot plugin install superpowers@superpowers-marketplace ``` ### Grok Build CLI Superpowers is available via the [official Grok plugin marketplace](https://github.com/xai-org/plugin-marketplace). - Install the plugin from xAI's official marketplace: ```bash grok plugin install superpowers@xai-official --trust ``` - Or open the marketplace in the TUI, search for Superpowers, and install it: ```text /marketplace ``` ### Kimi Code Superpowers is available in Kimi Code's plugin marketplace. - Open Kimi Code's plugin manager: ```text /plugins ``` - Go to `Marketplace` > `Superpowers` and install it. - Or install directly from this repository: ```text /plugins install https://github.com/obra/superpowers ``` - Detailed docs: [docs/README.kimi.md](docs/README.kimi.md) ### OpenCode OpenCode uses its own plugin install; install Superpowers separately even if you already use it in another harness. - Tell OpenCode: ``` Fetch and follow instructions from https://raw.githubusercontent.com/obra/su"
+  },
+  {
+    "full_name": "morluto/rea",
+    "recent_activity": [
+      {
+        "number": 2243,
+        "title": "docs(readme): add Georgian (ka) translation",
+        "state": "open",
+        "updated_at": "2026-10-12T16:31:39Z",
+        "url": "https://github.com/morluto/rea/pull/2243",
+        "kind": "pull_request"
+      },
+      {
+        "number": 2242,
+        "title": "ci: summarize static checks and retain complete reports",
+        "state": "open",
+        "updated_at": "2026-10-12T16:29:59Z",
+        "url": "https://github.com/morluto/rea/pull/2242",
+        "kind": "pull_request"
+      },
+      {
+        "number": 1693,
+        "title": "chore(main): release rea-agents 6.5.0",
+        "state": "open",
+        "updated_at": "2026-10-12T16:29:59Z",
+        "url": "https://github.com/morluto/rea/pull/1693",
+        "kind": "pull_request"
+      },
+      {
+        "number": 2241,
+        "title": "fix(managed): decode the CIL no. prefix",
+        "state": "open",
+        "updated_at": "2026-10-12T16:29:10Z",
+        "url": "https://github.com/morluto/rea/pull/2241",
+        "kind": "pull_request"
+      },
+      {
+        "number": 1959,
+        "title": "feat(process): add owned debugger shutdown lifecycle",
+        "state": "open",
+        "updated_at": "2026-10-12T16:28:55Z",
+        "url": "https://github.com/morluto/rea/pull/1959",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "<div align=\"center\"> **English** · [简体中文](README_zh.md) · [繁體中文](README_zh-TW.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [Türkçe](README_tr.md) · [Русский](README_ru.md) · [Tiếng Việt](README_vi.md) · [ไทย](README_th.md) · [Deutsch](README_de.md) · [Español](README_es.md) · [Français](README_fr.md) · [Українська](README_uk.md) · [Polski](README_pl.md) · [Português (Brasil)](README_pt-BR.md) · [العربية](README_ar.md) · [فارسی](README_fa.md) · [Bahasa Indonesia](README_id.md) · [Italiano](README_it.md) # REA: Reverse Engineer Anything ### One MCP for reverse engineering across binaries, applications, and runtime behavior. **See a feature you like. Understand how it works, down to the binary level.** [![npm version](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents) [![MCP tool catalog](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](docs/mcp-contracts.md#generated-catalog) [![Node.js requirements](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#what-you-can-analyze) [![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything) [![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](LICENSE) [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM) <a href=\"https://trendshift.io/repositories/82054?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-82054\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/82054\" alt=\"morluto%2Frea | Trendshift\" width=\"250\" height=\"55\"/></a> **[Website](https://rea.tools/) · [Guides](https://rea.tools/guides/) · [Showcases](https://rea.tools/showcase/)** [Quick start](#quick-start) · [How REA works](#how-rea-works) · [What you can analyze](#what-you-can-analyze) · [Showcases](#showcases) · [FAQ](#faq) · [Documentation](#documentation) <code>npx rea-agents setup</code> <br /> <img src=\"docs/assets/rea-hopper-analysis.png\" alt=\"REA launching its analysis bridge inside Hopper while inspecting a native binary\" width=\"1200\" /> <br /><br /> <table aria-label=\"REA community\"> <tr> <td align=\"center\" width=\"360\"> <a href=\"https://discord.gg/GkcryMnJDM\"> <img src=\"docs/assets/discord.svg\" height=\"42\" alt=\"Discord\" /><br /> <strong>Join the Reverse Engineering Community</strong> </a><br /> <sub>Discord · Q&amp;A · Show and Tell</sub> </td> </tr> </table> <br /> </div> --- See a feature in an app that you want in your own product? Ask your agent to investigate it with REA. It can inspect the app without its source code, explain how the feature works, show the evidence, and build a version for your project. REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind each conclusion. Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper, Ghidra, or IDA installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs no native analysis engine. > **[Visit the REA website](https://rea.tools/)** for setup instructions, illustrated guides, and real case studies. ## Quick start ### Set up your agent With Node.js and npm installed, run: ```bash npx rea-agents setup ``` Choose your agents, review the proposed changes, and approve them. Setup adds REA's MCP server and matching workflow instructions, with backups of existing configuration. Restart your agent afterward. Setup supports Claude Code, Codex, Cursor, Gemini CLI, Grok Build and [other agents](docs/installation.md#supported-agents). See [installation and setup](docs/installation.md) for provider configuration and manual MCP registration. ### Ask your agent ```text Understand how search works in the Notes app, show me the evidence, and build a similar feature for my project. ``` Replace Notes with your target app and the feature you want to understand. ### Use the terminal Inspect an extracted JavaScript/Electron app directory or ASAR: ```bash npx -y rea-agents@latest analyze-javascript-application /absolute/path/to/app --json ``` The result includes modules, imports, Electron boundaries and their evidence. Replace the path with your target, such as `\"D:/apps/example\"` on Windows. To install the `rea` command for regular use: ```bash npm install --global rea-agents rea --help ``` For native analysis, configure a provider first. See the [CLI and Evidence guide](docs/cli.md) for native commands, provider selection, snapshots and scripting. ### Update REA REA changes quickly, and new releases include frequent bug fixes. Keep your installation up to date. For a CLI installed with `npm install --global` or `bun add --global`: ```bash rea update ``` Bun global updates require Bun 1.2.17 or later. With an older Bun release, upgrade Bun manually before running `rea update`. To refresh your agent registrations and skill, run the setup command printed by the update. If you use `npx`, update your agent setup with: ```bash npx rea-agents@latest setup ``` Review the setup changes and restart your agent. For one-off CLI commands, use `npx rea-agents@latest` followed by the command. With Bun, use `bunx rea-agents@latest` in place of `npx rea-agents@latest`. ## How REA works Your agent calls REA through MCP to inspect the target and trace relevant code. REA returns findings with their evidence. The agent uses them to ask follow-up questions, explain the behavior, or write and test an implementation. CLI commands use the same workflows. ![REA investigation flow: your agent asks about a local target, REA inspects and traces it using anal"
+  },
+  {
+    "full_name": "stablyai/orca",
+    "recent_activity": [
+      {
+        "number": 27924,
+        "title": "fix(orchestration): safely wake opted-in Codex coordinators",
+        "state": "open",
+        "updated_at": "2026-10-12T16:28:07Z",
+        "url": "https://github.com/stablyai/orca/pull/27924",
+        "kind": "pull_request"
+      },
+      {
+        "number": 27922,
+        "title": "PR 6c: Old clients translated, phone list becomes a projection",
+        "state": "open",
+        "updated_at": "2026-10-12T16:30:44Z",
+        "url": "https://github.com/stablyai/orca/pull/27922",
+        "kind": "pull_request"
+      },
+      {
+        "number": 27964,
+        "title": "ci: WSL host stack integration — do not merge",
+        "state": "open",
+        "updated_at": "2026-10-12T16:27:33Z",
+        "url": "https://github.com/stablyai/orca/pull/27964",
+        "kind": "pull_request"
+      },
+      {
+        "number": 26591,
+        "title": "fix(hooks): find archive scripts in the checkout that defined them",
+        "state": "open",
+        "updated_at": "2026-10-12T16:26:06Z",
+        "url": "https://github.com/stablyai/orca/pull/26591",
+        "kind": "pull_request"
+      },
+      {
+        "number": 13011,
+        "title": "[Bug]: `orca worktree create` can't create a branch containing `/` — sanitized worktree name leaks into the branch name",
+        "state": "open",
+        "updated_at": "2026-10-12T16:26:00Z",
+        "url": "https://github.com/stablyai/orca/issues/13011",
+        "kind": "issue"
+      }
+    ],
+    "readme_review_excerpt": "<h1 align=\"center\"> <a href=\"https://onOrca.dev\"><img src=\"resources/build/icon.png\" alt=\"Orca\" width=\"64\" valign=\"middle\" /></a> Orca </h1> <p align=\"center\"> <a href=\"https://github.com/stablyai/orca\"><img src=\"https://img.shields.io/github/stars/stablyai/orca?style=flat&amp;label=%E2%98%85&amp;color=08C\" alt=\"GitHub stars\" /></a> <a href=\"https://github.com/stablyai/orca/releases\"><img src=\"docs/assets/readme-downloads.svg\" alt=\"Total downloads across all releases\" /></a> <img src=\"https://img.shields.io/badge/license-MIT-08C?style=flat\" alt=\"License: MIT\" /> <a href=\"https://discord.gg/fzjDKHxv8Q\"><img src=\"https://img.shields.io/badge/Discord-5865F2?logo=discord&logoColor=white\" alt=\"Join the Orca Discord\" /></a> <a href=\"https://x.com/orca_build\"><img src=\"https://img.shields.io/badge/X-000000?logo=x&logoColor=white\" alt=\"Follow Orca on X\" /></a> <img src=\"https://img.shields.io/badge/macOS%20%7C%20Windows%20%7C%20Linux-4493F8?style=flat-square\" alt=\"Supported platforms: macOS, Windows, and Linux\" /> </p> <p align=\"center\"> <sub><a href=\"docs/readme/README.zh-CN.md\">中文</a> · <a href=\"docs/readme/README.ja.md\">日本語</a> · <a href=\"docs/readme/README.ko.md\">한국어</a> · <a href=\"docs/readme/README.es.md\">Español</a> · <a href=\"docs/readme/README.fr.md\">Français</a> · <a href=\"docs/readme/README.pt.md\">Português</a></sub> </p> <p align=\"center\"> <strong>The AI Orchestrator for 100x builders.</strong><br/> Run Codex, ClaudeCode, OpenCode or Pi side-by-side — each in its own worktree, tracked in one place. </p> <h3 align=\"center\"><a href=\"https://onorca.dev/download\"><ins>Download Orca</ins></a></h3> <p align=\"center\"> <img src=\"docs/assets/readme-hero.jpg\" alt=\"Orca desktop app running agents in parallel worktrees, with the Orca mobile companion app in the corner\" width=\"960\" /> </p> ## Features <table> <tr> <td width=\"50%\" valign=\"middle\"> ### Mobile Companion Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere. [iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [Android APK 0.0.52](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.52/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/mobile\"><picture><source srcset=\"docs/assets/feature-wall/mobile-companion-app-showcase.gif\" type=\"image/gif\"><img src=\"docs/assets/feature-wall/mobile-companion-app-showcase.jpg\" alt=\"Orca desktop with the mobile companion app\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### Parallel Worktrees Fan one prompt across five agents, each in its own isolated git worktree — compare the results and merge the winner. [Docs →](https://www.onorca.dev/docs/model/worktrees) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/model/worktrees\"><picture><source srcset=\"docs/site/public/docs/tab-split.gif\" type=\"image/gif\"><img src=\"docs/site/public/docs/posters/tab-split.jpg\" alt=\"Parallel worktree orchestration\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### Terminal Splits Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback that survives restarts. [Docs →](https://www.onorca.dev/docs/terminal) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/terminal\"><picture><source srcset=\"resources/onboarding/feature-wall/tile-02.gif\" type=\"image/gif\"><img src=\"resources/onboarding/feature-wall/tile-02.poster.jpg\" alt=\"Terminal splits\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### Design Mode Click any UI element in a real Chromium window to send its HTML, CSS, and a cropped screenshot straight into your agent's prompt. [Docs →](https://www.onorca.dev/docs/browser/design-mode) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/browser/design-mode\"><picture><source srcset=\"docs/site/public/docs/orca-design-mode.gif\" type=\"image/gif\"><img src=\"resources/onboarding/feature-wall/tile-05.poster.jpg\" alt=\"Embedded browser and Design Mode\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### GitHub &amp; Linear, Native Browse PRs, issues, and project boards in-app — open a worktree from any task and review without a context switch. [Docs →](https://www.onorca.dev/docs/review/linear) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/review/linear\"><picture><source srcset=\"resources/onboarding/feature-wall/tile-03.gif\" type=\"image/gif\"><img src=\"resources/onboarding/feature-wall/tile-03.poster.jpg\" alt=\"GitHub and Linear task workflows in Orca\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### SSH Worktrees Run agents on a beefy remote box with full file editing, git, and terminals — auto-reconnect and port forwarding included. [Docs →](https://www.onorca.dev/docs/ssh) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/ssh\"><picture><source srcset=\"resources/onboarding/feature-wall/tile-06.gif\" type=\"image/gif\"><img src=\"resources/onboarding/feature-wall/tile-06.poster.jpg\" alt=\"Remote worktrees over SSH\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### Annotate AI Diffs Drop comments on any diff line and ship them back to the agent — review, edit, and commit without leaving Orca. [Docs →](https://www.onorca.dev/docs/review/annotate-ai-diff) </td> <td width=\"50%\"> <a href=\"https://www.onorca.dev/docs/review/annotate-ai-diff\"><picture><source srcset=\"docs/site/public/docs/annotate-ai-diff.gif\" type=\"image/gif\"><img src=\"resources/onboarding/feature-wall/tile-08.poster.jpg\" alt=\"Annotate AI-generated diffs\" width=\"100%\" /></picture></a> </td> </tr> <tr> <td width=\"50%\" valign=\"middle\"> ### Drag Files to Agents VS Code's editor with autosave everywhere — drag files or images straight into an agent prompt. [Docs →](https://www.onorca.dev/docs/editing/file-explorer) </td> <td width=\"50%\"> <a h"
+  },
+  {
+    "full_name": "lyogavin/airllm",
+    "recent_activity": [
+      {
+        "number": 380,
+        "title": "Load single-file checkpoints once upfront during splitting and handle non-numeric shard names",
+        "state": "open",
+        "updated_at": "2026-10-12T06:53:22Z",
+        "url": "https://github.com/lyogavin/airllm/pull/380",
+        "kind": "pull_request"
+      },
+      {
+        "number": 374,
+        "title": "Extermly slow inference(30 mins per query) running GPT-OSS 20B with AirLL",
+        "state": "open",
+        "updated_at": "2026-10-11T21:20:00Z",
+        "url": "https://github.com/lyogavin/airllm/issues/374",
+        "kind": "issue"
+      },
+      {
+        "number": 379,
+        "title": "Air 4GB",
+        "state": "open",
+        "updated_at": "2026-10-11T20:18:53Z",
+        "url": "https://github.com/lyogavin/airllm/issues/379",
+        "kind": "issue"
+      },
+      {
+        "number": 378,
+        "title": "Resume interrupted layer splitting without rewriting saved shards",
+        "state": "open",
+        "updated_at": "2026-10-11T16:22:52Z",
+        "url": "https://github.com/lyogavin/airllm/pull/378",
+        "kind": "pull_request"
+      },
+      {
+        "number": 377,
+        "title": "Add dry-run disk and VRAM estimates before weight download",
+        "state": "open",
+        "updated_at": "2026-10-11T16:12:12Z",
+        "url": "https://github.com/lyogavin/airllm/pull/377",
+        "kind": "pull_request"
+      }
+    ],
+    "readme_review_excerpt": "![airllm_logo](https://github.com/lyogavin/airllm/blob/main/assets/airllm_logo_sm.png?v=3&raw=true) [**Quickstart**](#quickstart) | [**Configurations**](#configurations) | [**MacOS**](#macos) | [**Example notebooks**](#example-python-notebook) | [**FAQ**](#faq) **AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125B)** under **6GB**. <a href=\"https://github.com/lyogavin/airllm/stargazers\">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a> [![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm) [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/LianjiaTech/BELLE/blob/main/LICENSE) [![Generic badge](https://img.shields.io/badge/wechat-Anima-brightgreen?logo=wechat)](https://static.aicompose.cn/static/wecom_barcode.png?t=1671918938) [![Discord](https://img.shields.io/discord/1175437549783760896?logo=discord&color=7289da )](https://discord.gg/2xffU5sn) [![PyPI - AirLLM](https://img.shields.io/pypi/format/airllm?logo=pypi&color=3571a3) ](https://pypi.org/project/airllm/) [![Website](https://img.shields.io/website?up_message=blog&url=https%3A%2F%2Fmedium.com%2F%40lyo.gavin&logo=medium&color=black)](https://medium.com/@lyo.gavin) [![Website](https://img.shields.io/badge/Gavin_Li-Blog-blue)](https://gavinliblog.com) [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dgavinli%26type%3Dpatrons&style=flat)](https://patreon.com/gavinli) [![GitHub Sponsors](https://img.shields.io/github/sponsors/lyogavin?logo=GitHub&color=lightgray)](https://github.com/sponsors/lyogavin) ## AI Agents Recommendation: * [Best AI Game Sprite Generator](https://godmodeai.co) * [Best AI Facial Expression Editor](https://crazyfaceai.com) ## Updates [2026/09] **Training** support: stream frozen weights one layer at a time and keep adapters on the GPU. **Qwen3.8-Flash-Next (125B)** trains under **6GB** (RTX 3060 Ti); **Qwen3.8-27B** trains in **~2GB** at seq 512. See [Training](#training). [2026/08] **Qwen3.8-Flash-Next** support: Qwen's 125B MoE flagship (`Qwen4ExpForConditionalGeneration`) with a ~51B n-gram embedding runs in **5.95GB** of VRAM, measured end to end on one RTX 4090. The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream. Needs a `transformers` build with in-tree `qwen4_exp` (`pip install git+https://github.com/huggingface/transformers.git` today) and ~360GB of checkpoint disk (`delete_original=True` reclaims the originals after the split). [2026/08] **Qwen3.8-27B** support: Qwen's new dense VL (Gated DeltaNet + Gated Attention, native vision) runs in **3.33GB** of VRAM, measured end to end on one RTX 3090. Needs `transformers` 5.8+. [2026/07] **Kimi K3 (2.8T)** support: the largest open-source model runs on a single card in **3.72GB** of VRAM, measured end to end on one RTX 6000 Ada. Per-expert streaming loads only the experts a token actually routes to. K3 brings three requirements of its own: `pip install compressed-tensors flash-attn` (its model code mandates flash attention regardless of what you request), a CUDA 12 build of torch, since no prebuilt flash-attn wheel exists for CUDA 13 yet, and `transformers` 4.56.x, as its remote code does not load on 5.x. [2026/06] **v3.0**: FP8 model support + the latest models. Run **DeepSeek-V3 (671B) on ~12GB** and **Qwen3-235B on ~3GB**, plus Qwen3, Llama 3.x/4, DeepSeek V2/V3, Phi-4, Gemma and more — all through a single `AutoModel`. [2024/08/20] v2.11.0: Support Qwen2.5 [2024/08/18] v2.10.1 Support CPU inference. Support non sharded models. Thanks @NavodPeiris for the great work! [2024/07/30] Support Llama3.1 **405B** ([example notebook](https://colab.research.google.com/github/lyogavin/airllm/blob/main/air_llm/examples/run_llama3.1_405B.ipynb)). Support **8bit/4bit quantization**. [2024/04/20] AirLLM supports Llama3 natively already. Run Llama3 70B on 4GB single GPU. [2023/12/25] v2.8.2: Support MacOS running 70B large language models. [2023/12/20] v2.7: Support AirLLMMixtral. [2023/12/20] v2.6: Added AutoModel, automatically detect model type, no need to provide model class to initialize model. [2023/12/18] v2.5: added prefetching to overlap the model loading and compute. 10% speed improvement. [2023/12/03] added support of **ChatGLM**, **QWen**, **Baichuan**, **Mistral**, **InternLM**! [2023/12/02] added support for safetensors. Now support all top 10 models in open llm leaderboard. [2023/12/01] airllm 2.0. Support compressions: **3x run time speed up!** [2023/11/20] airllm Initial version! ## Star History <a href=\"https://star-history.com/#lyogavin/airllm&Timeline\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"assets/star-history-dark.png\"> <img alt=\"Star History Chart\" src=\"assets/star-history.png\"> </picture> </a> ## Table of Contents * [Quick start](#quickstart) * [Model Compression](#model-compression---3x-inference-speed-up) * [Configurations](#configurations) * [Run on MacOS](#macos) * [Example notebooks](#example-python-notebook) * [Supported Models](#supported-models) * [Training](#training) * [Acknowledgement](#acknowledgement) * [FAQ](#faq) ## Quickstart ### 1. Install package First, install the airllm pip package. ```bash pip install airllm ``` ### 2. Inference Then, initialize AirLLMLlama2, pass in the huggingface repo ID of the model being used, or the local path, and inference can be performed similar to a regul"
+  }
+]
