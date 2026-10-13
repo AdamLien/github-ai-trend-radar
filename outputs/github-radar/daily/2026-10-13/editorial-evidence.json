@@ -1,0 +1,761 @@
+{
+  "observed_at": "2026-10-13T16:12:47.297806+00:00",
+  "repos": {
+    "morluto/rea": {
+      "full_name": "morluto/rea",
+      "html_url": "https://github.com/morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 196320,
+      "forks": 47980,
+      "open_issues": 528,
+      "watchers": 639,
+      "created_at": "2026-04-14T00:51:32Z",
+      "updated_at": "2026-10-13T16:12:39Z",
+      "pushed_at": "2026-10-13T16:11:23Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "ctf",
+        "decompiler",
+        "developer-tools",
+        "disassembler",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "reverse-engineering",
+        "static-analysis"
+      ],
+      "latest_release": {
+        "name": "rea-agents: v6.4.0",
+        "tag_name": "rea-agents-6.4.0",
+        "published_at": "2026-10-11T03:58:03Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> **English** · [简体中文](docs/readme/README_zh.md) · [繁體中文](docs/readme/README_zh-TW.md) · [日本語](docs/readme/README_ja.md) · [한국어](docs/readme/README_ko.md) · [Türkçe](docs/readme/README_tr.md) · [Русский](docs/readme/README_ru.md) · [Tiếng Việt](docs/readme/README_vi.md) · [ไทย](docs/readme/README_th.md) · [Deutsch](docs/readme/README_de.md) · [Español](docs/readme/README_es.md) · [Français](docs/readme/README_fr.md) · [Українська](docs/readme/README_uk.md) · [Polski](docs/readme/README_pl.md) · [Português (Brasil)](docs/readme/README_pt-BR.md) · [العربية](docs/readme/README_ar.md) · [فارسی](docs/readme/README_fa.md) · [Bahasa Indonesia](docs/readme/README_id.md) · [Italian",
+      "recent_issue_activity": [
+        {
+          "number": 2877,
+          "title": "fix(mcp): keep Gemini-rejected dependency keywords out of input schemas",
+          "updated_at": "2026-10-13T16:12:33Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/2877"
+        },
+        {
+          "number": 2718,
+          "title": "fix(artifacts): track present .jsc files as unavailable instead of not-found",
+          "updated_at": "2026-10-13T16:12:38Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/2718"
+        },
+        {
+          "number": 2162,
+          "title": "feat(managed): decode ldstr user strings in member inspection",
+          "updated_at": "2026-10-13T16:12:25Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/2162"
+        },
+        {
+          "number": 2869,
+          "title": "fix(source-maps): accept short sourcesContent arrays as missing slots",
+          "updated_at": "2026-10-13T16:12:04Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/2869"
+        },
+        {
+          "number": 2816,
+          "title": "feat(artifacts): inspect classic iNES container regions",
+          "updated_at": "2026-10-13T16:12:04Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/morluto/rea/pull/2816"
+        }
+      ]
+    },
+    "mksglu/context-mode": {
+      "full_name": "mksglu/context-mode",
+      "html_url": "https://github.com/mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and   enforces routing across 17 platforms via MCP + hooks.",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 27948,
+      "forks": 1979,
+      "open_issues": 354,
+      "watchers": 105,
+      "created_at": "2026-02-23T05:56:28Z",
+      "updated_at": "2026-10-13T16:12:37Z",
+      "pushed_at": "2026-10-12T18:05:18Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "codex",
+        "codex-cli",
+        "context-mode",
+        "copilot",
+        "cursor-plugin",
+        "kiro",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "openclaw",
+        "opencode",
+        "pi-agent",
+        "skills",
+        "zed-extension"
+      ],
+      "latest_release": {
+        "name": "v1.0.169",
+        "tag_name": "v1.0.169",
+        "published_at": "2026-06-29T18:18:53Z"
+      },
+      "readme_excerpt": "# Context Mode **The other half of the context problem.** [![users](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.message&label=users&color=brightgreen)](https://www.npmjs.com/package/context-mode) [![npm](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.npm&label=npm&color=blue)](https://www.npmjs.com/package/context-mode) [![marketplace](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fmksglu%2Fcontext-mode%40main%2Fstats.json&query=%24.marketplace&label=marketplace&color=blue)](ht",
+      "recent_issue_activity": [
+        {
+          "number": 1298,
+          "title": "fix(heal): anchor version filter and log unhealable installs",
+          "updated_at": "2026-10-13T15:54:48Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/mksglu/context-mode/pull/1298"
+        },
+        {
+          "number": 1296,
+          "title": "fix(server): wait for MCP handshake before selecting platform storage",
+          "updated_at": "2026-10-13T15:35:31Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/mksglu/context-mode/pull/1296"
+        },
+        {
+          "number": 1139,
+          "title": "Windows: `npm install better-sqlite3` inside plugin dir crashes npm (Arborist \"edgesOut\" null) — documented repair path blocked, isolated-dir install workaround",
+          "updated_at": "2026-10-13T15:08:06Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/mksglu/context-mode/issues/1139"
+        },
+        {
+          "number": 1174,
+          "title": "start.mjs background install of turndown/better-sqlite3 dies on the #1139 Arborist \"edgesOut\" crash on macOS — silent, fixed by --legacy-peer-deps",
+          "updated_at": "2026-10-13T15:08:04Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/mksglu/context-mode/issues/1174"
+        },
+        {
+          "number": 1297,
+          "title": "fix(install): pass --legacy-peer-deps to every plugin-root npm install (#1174)",
+          "updated_at": "2026-10-13T15:08:02Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/mksglu/context-mode/pull/1297"
+        }
+      ]
+    },
+    "cathrynlavery/diagram-design": {
+      "full_name": "cathrynlavery/diagram-design",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "license": "MIT",
+      "stars": 53695,
+      "forks": 3404,
+      "open_issues": 37,
+      "watchers": 143,
+      "created_at": "2026-04-16T18:01:16Z",
+      "updated_at": "2026-10-13T16:12:38Z",
+      "pushed_at": "2026-10-13T14:57:55Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "diagrams",
+        "drawio",
+        "mermaid",
+        "svg"
+      ],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "<div align=\"center\"> <h1> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/hero/hero-dark.webp\"> <img alt=\"Diagram Design. Editorial diagrams your designer won't hate.\" src=\"docs/hero/hero-light.webp\"> </picture> </h1> **An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.<br>45 diagram types. No shadows. No Mermaid slop.** [![GitHub stars](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat-square&color=bf4520)](https://github.com/cathrynlavery/diagram-design/stargazers) [![skills.sh installs](https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square)](https://skills.sh/cathrynlavery/diagram-design/diagr",
+      "recent_issue_activity": [
+        {
+          "number": 314,
+          "title": "fix(export): preserve stylesheet media conditions",
+          "updated_at": "2026-10-13T15:46:23Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/314"
+        },
+        {
+          "number": 419,
+          "title": "Mermaid import selects literal samples inside outer Markdown fences",
+          "updated_at": "2026-10-13T14:57:31Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/issues/419"
+        },
+        {
+          "number": 421,
+          "title": "fix(import): ignore Mermaid samples inside outer Markdown fences",
+          "updated_at": "2026-10-13T14:57:44Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/421"
+        },
+        {
+          "number": 422,
+          "title": "fix(import): preserve sequence fragments across visual highlight blocks",
+          "updated_at": "2026-10-13T14:40:47Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/422"
+        },
+        {
+          "number": 416,
+          "title": "Mermaid sequence highlights drop enclosing alternative branches",
+          "updated_at": "2026-10-13T14:40:35Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/issues/416"
+        }
+      ]
+    },
+    "vercel-labs/skills": {
+      "full_name": "vercel-labs/skills",
+      "html_url": "https://github.com/vercel-labs/skills",
+      "description": "The open agent skills tool - npx skills",
+      "language": "TypeScript",
+      "license": "MIT",
+      "stars": 34274,
+      "forks": 2938,
+      "open_issues": 1107,
+      "watchers": 114,
+      "created_at": "2026-01-14T21:31:18Z",
+      "updated_at": "2026-10-13T16:12:37Z",
+      "pushed_at": "2026-10-09T17:54:47Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": null,
+        "tag_name": "v1.7.2",
+        "published_at": "2026-10-09T16:46:55Z"
+      },
+      "readme_excerpt": "# skills The CLI for the open agent skills ecosystem. <!-- agent-list:start --> Supports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [75 more](#supported-agents). <!-- agent-list:end --> <p> <a href=\"https://vercel.com/labs#labs-products\"><img alt=\"Vercel Labs Product\" src=\"https://img.shields.io/badge/LABS-PRODUCT-0a0a0a.svg?style=for-the-badge&amp;logo=Vercel&amp;labelColor=000000\" height=\"28\"></a> <a href=\"https://www.npmjs.com/package/skills\"><img alt=\"npm version: skills\" src=\"https://img.shields.io/npm/v/skills.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a> <a href=\"https://github.com/vercel-labs/skills/blob/main/LICENSE\"><img alt=\"License: MIT\" src=\"http",
+      "recent_issue_activity": [
+        {
+          "number": 2331,
+          "title": "[Bug]: `pnpm dlx skills update --global --yes` unnecessarily creates folders for uninstalled agents",
+          "updated_at": "2026-10-13T14:57:32Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/vercel-labs/skills/issues/2331"
+        },
+        {
+          "number": 2476,
+          "title": "Prevent Global Updates from Creating Uninstalled Agent Directories",
+          "updated_at": "2026-10-13T14:57:21Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/vercel-labs/skills/pull/2476"
+        },
+        {
+          "number": 2471,
+          "title": "fix(remove): clean the global lock when removing from the home directory without -g",
+          "updated_at": "2026-10-13T12:00:19Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/vercel-labs/skills/pull/2471"
+        },
+        {
+          "number": 2474,
+          "title": "[Feature]: Warn during `skills add` when a skill pre-approves unscoped Bash",
+          "updated_at": "2026-10-13T11:59:43Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/vercel-labs/skills/issues/2474"
+        },
+        {
+          "number": 2475,
+          "title": "Remove stale listings for deleted repos (ahmedhosnypro/photocraft-automation, ahmedhosnypro/mermaid-diagrams)",
+          "updated_at": "2026-10-13T11:37:55Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/vercel-labs/skills/issues/2475"
+        }
+      ]
+    },
+    "lyogavin/airllm": {
+      "full_name": "lyogavin/airllm",
+      "html_url": "https://github.com/lyogavin/airllm",
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "language": "Jupyter Notebook",
+      "license": "Apache-2.0",
+      "stars": 38112,
+      "forks": 3901,
+      "open_issues": 164,
+      "watchers": 314,
+      "created_at": "2023-06-12T16:28:41Z",
+      "updated_at": "2026-10-13T16:12:37Z",
+      "pushed_at": "2026-10-13T06:24:34Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "chinese-llm",
+        "chinese-nlp",
+        "finetune",
+        "generative-ai",
+        "instruct-gpt",
+        "instruction-set",
+        "llama",
+        "llm",
+        "lora",
+        "open-models",
+        "open-source",
+        "open-source-models",
+        "qlora"
+      ],
+      "latest_release": {
+        "name": "AirLLM v4.0.0 — train Qwen3.8-Flash-Next under 6GB",
+        "tag_name": "v4.0.0",
+        "published_at": "2026-09-05T15:43:11Z"
+      },
+      "readme_excerpt": "![airllm_logo](https://github.com/lyogavin/airllm/blob/main/assets/airllm_logo_sm.png?v=3&raw=true) [**Quickstart**](#quickstart) | [**Configurations**](#configurations) | [**MacOS**](#macos) | [**Example notebooks**](#example-python-notebook) | [**FAQ**](#faq) **AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125",
+      "recent_issue_activity": [
+        {
+          "number": 383,
+          "title": "training/qlora.py",
+          "updated_at": "2026-10-13T15:48:21Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/lyogavin/airllm/issues/383"
+        },
+        {
+          "number": 382,
+          "title": "fix(lora): accept UTF-8 BOM in dataset files",
+          "updated_at": "2026-10-13T02:13:40Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/lyogavin/airllm/pull/382"
+        },
+        {
+          "number": 381,
+          "title": "fix: make quickstart device selection work without CUDA",
+          "updated_at": "2026-10-12T22:10:34Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/lyogavin/airllm/pull/381"
+        },
+        {
+          "number": 380,
+          "title": "Load single-file checkpoints once upfront during splitting and handle non-numeric shard names",
+          "updated_at": "2026-10-12T06:53:22Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/lyogavin/airllm/pull/380"
+        },
+        {
+          "number": 374,
+          "title": "Extermly slow inference(30 mins per query) running GPT-OSS 20B with AirLL",
+          "updated_at": "2026-10-11T21:20:00Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/lyogavin/airllm/issues/374"
+        }
+      ]
+    },
+    "debpalash/VoiceStudio": {
+      "full_name": "debpalash/VoiceStudio",
+      "html_url": "https://github.com/debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "language": "Python",
+      "license": "AGPL-3.0",
+      "stars": 62139,
+      "forks": 6936,
+      "open_issues": 125,
+      "watchers": 244,
+      "created_at": "2026-04-09T21:40:26Z",
+      "updated_at": "2026-10-13T16:12:37Z",
+      "pushed_at": "2026-10-13T15:04:49Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "audiobook",
+        "cuda",
+        "dubbing",
+        "elevenlabs-alternative",
+        "huggingface",
+        "local-first",
+        "mlx",
+        "omnivoice-studio",
+        "speech-to-text",
+        "tauri",
+        "text-to-speech",
+        "transcription",
+        "translate",
+        "tts",
+        "voice-ai",
+        "voice-cloning",
+        "voice-generation",
+        "voicestudio",
+        "workflow"
+      ],
+      "latest_release": {
+        "name": "v0.5.6 — VoiceStudio",
+        "tag_name": "v0.5.6",
+        "published_at": "2026-09-23T08:53:32Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <img src=\"docs/logo.png\" alt=\"VoiceStudio\" width=\"88\" /> <h1>VoiceStudio</h1> <p> <a href=\"https://trendshift.io/repositories/28176?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-28176\" target=\"_blank\" rel=\"noopener noreferrer\"><img src=\"https://trendshift.io/api/badge/repositories/28176\" alt=\"VoiceStudio ranking on Trendshift\" width=\"220\" height=\"48\" /></a> </p> <p><strong>Open-source voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.</strong></p> <p> <a href=\"https://voicestudio.sh/?utm_source=github&utm_medium=readme&utm_campaign=project\">Website</a> · <a href=\"https://github.",
+      "recent_issue_activity": [
+        {
+          "number": 2704,
+          "title": "fix(web): validate runtime API URL authority",
+          "updated_at": "2026-10-13T16:08:18Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2704"
+        },
+        {
+          "number": 2738,
+          "title": "fix(audio): preserve non-finite audio during silence trimming",
+          "updated_at": "2026-10-13T16:07:21Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2738"
+        },
+        {
+          "number": 2720,
+          "title": "fix(tts): emit short replies at unambiguous sentence endings",
+          "updated_at": "2026-10-13T16:05:53Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2720"
+        },
+        {
+          "number": 2711,
+          "title": "fix(settings): replace effective saved environment assignments",
+          "updated_at": "2026-10-13T16:00:44Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2711"
+        },
+        {
+          "number": 2729,
+          "title": "fix(narration): clamp oversized pauses before integer conversion",
+          "updated_at": "2026-10-13T15:59:49Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2729"
+        }
+      ]
+    },
+    "storytold/artcraft": {
+      "full_name": "storytold/artcraft",
+      "html_url": "https://github.com/storytold/artcraft",
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars": 24679,
+      "forks": 3894,
+      "open_issues": 312,
+      "watchers": 134,
+      "created_at": "2022-03-31T23:19:12Z",
+      "updated_at": "2026-10-13T16:12:40Z",
+      "pushed_at": "2026-10-11T13:47:59Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "3d-graphics",
+        "ai",
+        "aivideo",
+        "filmmaking",
+        "imagegeneration"
+      ],
+      "latest_release": {
+        "name": "ArtCraft v0.41.0",
+        "tag_name": "artcraft-v0.41.0",
+        "published_at": "2026-09-26T11:14:22Z"
+      },
+      "readme_excerpt": "<h1 align=\"center\">ArtCraft</h1> <p align=\"center\"><strong>The IDE for artists.</strong></p> <!-- Main video: https://www.youtube.com/watch?v=kzvQMdg66Go GitHub media issue: https://github.com/storytold/artcraft/issues/1951 --> https://github.com/user-attachments/assets/7339bd09-3e0d-44a7-a024-af9de64e4c11 <p align=\"center\"> <a href=\"https://www.youtube.com/watch?v=kzvQMdg66Go\">Watch the two-minute ArtCraft demo on YouTube</a> </p> <p align=\"center\"> <a href=\"https://discord.gg/artcraft\"><img alt=\"Discord members online\" src=\"https://img.shields.io/discord/1359579021108842617?style=for-the-badge&amp;label=Discord&amp;color=5865F2&amp;logo=discord&amp;logoColor=white\"></a> <a href=\"https://ww",
+      "recent_issue_activity": [
+        {
+          "number": 2229,
+          "title": "Add Arabic (العربية) interface translation",
+          "updated_at": "2026-10-13T16:11:02Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/storytold/artcraft/pull/2229"
+        },
+        {
+          "number": 2220,
+          "title": "[App Request] Adobe Dreamweaver Alternative",
+          "updated_at": "2026-10-13T16:09:12Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/storytold/artcraft/issues/2220"
+        },
+        {
+          "number": 2276,
+          "title": "ArtCraft Launcher breaks",
+          "updated_at": "2026-10-13T16:04:21Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/storytold/artcraft/issues/2276"
+        },
+        {
+          "number": 2114,
+          "title": "[App Request] FlashCraft (Recreate Adobe Animate/Flash editor using 100% Rust)",
+          "updated_at": "2026-10-13T16:01:38Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/storytold/artcraft/issues/2114"
+        },
+        {
+          "number": 992,
+          "title": "FAL API key support",
+          "updated_at": "2026-10-13T15:53:53Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/storytold/artcraft/issues/992"
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "full_name": "nashsu/llm_wiki",
+      "html_url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 20621,
+      "forks": 2327,
+      "open_issues": 275,
+      "watchers": 87,
+      "created_at": "2026-04-08T11:24:01Z",
+      "updated_at": "2026-10-13T16:06:50Z",
+      "pushed_at": "2026-09-28T01:43:23Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "LLM Wiki v0.6.12",
+        "tag_name": "v0.6.12",
+        "published_at": "2026-09-28T02:58:13Z"
+      },
+      "readme_excerpt": "# LLM Wiki <p align=\"center\"> <img src=\"logo.jpg\" width=\"128\" height=\"128\" style=\"border-radius: 22%;\" alt=\"LLM Wiki Logo\"> </p> <p align=\"center\"> <strong>A personal knowledge base that builds itself.</strong><br> LLM reads your documents, builds a structured wiki, and keeps it current. </p> <p align=\"center\"> <a href=\"#what-is-this\">What is this?</a> • <a href=\"#what-we-changed--added\">Features</a> • <a href=\"#tech-stack\">Tech Stack</a> • <a href=\"#installation\">Installation</a> • <a href=\"#credits\">Credits</a> • <a href=\"#license\">License</a> </p> <p align=\"center\"> English | <a href=\"README_CN.md\">中文</a> | <a href=\"README_JA.md\">日本語</a> | <a href=\"README_KO.md\">한국어</a> </p> --- <p align=",
+      "recent_issue_activity": [
+        {
+          "number": 815,
+          "title": "feat: add GitHub Copilot device-auth text provider",
+          "updated_at": "2026-10-13T06:25:26Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/815"
+        },
+        {
+          "number": 645,
+          "title": "feat: add option to ignore ssl cert error behind http proxy",
+          "updated_at": "2026-10-13T03:31:48Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/645"
+        },
+        {
+          "number": 814,
+          "title": "fix(file-sync): ignore read-only watcher events to stop a self-triggered rescan loop",
+          "updated_at": "2026-10-10T17:26:53Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/814"
+        },
+        {
+          "number": 813,
+          "title": "perf(scheduled-import): reuse content hash for unchanged files",
+          "updated_at": "2026-10-10T09:39:52Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/813"
+        },
+        {
+          "number": 812,
+          "title": "Windows 桌面持续占用 3-5 核（0.6.12）：周期性全量扫描/哈希放大，附实测与定位",
+          "updated_at": "2026-10-10T09:39:19Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/812"
+        }
+      ]
+    },
+    "activepieces/activepieces": {
+      "full_name": "activepieces/activepieces",
+      "html_url": "https://github.com/activepieces/activepieces",
+      "description": "AI Agents & MCPs & AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows & AI Agents • MCPs for AI Agents",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 25031,
+      "forks": 4333,
+      "open_issues": 704,
+      "watchers": 128,
+      "created_at": "2022-12-03T02:52:46Z",
+      "updated_at": "2026-10-13T15:37:15Z",
+      "pushed_at": "2026-10-13T16:01:16Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-agent",
+        "ai-agent-tools",
+        "ai-agents",
+        "ai-agents-framework",
+        "mcp",
+        "mcp-server",
+        "mcp-tools",
+        "mcps",
+        "n8n-alternative",
+        "no-code-automation",
+        "workflow",
+        "workflow-automation",
+        "workflows"
+      ],
+      "latest_release": {
+        "name": "0.92.3",
+        "tag_name": "0.92.3",
+        "published_at": "2026-10-12T18:43:34Z"
+      },
+      "readme_excerpt": "<h1 align=\"center\"> <a target=\"_blank\" href=\"https://activepieces.com\" > <img align=\"center\" alt=\"Activepieces\" src=\"https://github.com/activepieces/activepieces/assets/1812998/76c97441-c285-4480-bc75-30a0c73ed340\" style=\"width:100%;\" /> </a> </h1> <p align=\"center\"> <a href=\"/LICENSE\" target=\"_blank\"><img src='https://img.shields.io/badge/license-MIT-green?style=for-the-badge' /></a>&nbsp;<img src='https://img.shields.io/github/commit-activity/w/activepieces/activepieces/main?style=for-the-badge' />&nbsp;<a href='https://discord.gg/2jUXBKDdP8'><img src='https://img.shields.io/discord/966798490984382485?style=for-the-badge' /></a> </p> <p align=\"center\"> An open source replacement for Zapier",
+      "recent_issue_activity": [
+        {
+          "number": 16468,
+          "title": "fix(tables): Record Updated no longer runs flows when an update changes nothing",
+          "updated_at": "2026-10-13T16:12:41Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16468"
+        },
+        {
+          "number": 16467,
+          "title": "fix(pieces): FTP/SFTP New File trigger now reports a failed login instead of silently finding no files",
+          "updated_at": "2026-10-13T15:52:34Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16467"
+        },
+        {
+          "number": 16196,
+          "title": "feat(web): one type, height, radius and spacing scale across the app",
+          "updated_at": "2026-10-13T15:50:56Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16196"
+        },
+        {
+          "number": 16466,
+          "title": "fix(impact): run counts on the Impact dashboard no longer split or drop after refreshing",
+          "updated_at": "2026-10-13T15:43:26Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16466"
+        },
+        {
+          "number": 16456,
+          "title": "refactor(server): centralize worker groups into workers/worker-groups module",
+          "updated_at": "2026-10-13T15:43:13Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/activepieces/activepieces/pull/16456"
+        }
+      ]
+    },
+    "modelcontextprotocol/servers": {
+      "full_name": "modelcontextprotocol/servers",
+      "html_url": "https://github.com/modelcontextprotocol/servers",
+      "description": "Model Context Protocol Servers",
+      "language": "JavaScript",
+      "license": "NOASSERTION",
+      "stars": 91210,
+      "forks": 11787,
+      "open_issues": 480,
+      "watchers": 635,
+      "created_at": "2024-11-19T01:10:17Z",
+      "updated_at": "2026-10-13T16:08:03Z",
+      "pushed_at": "2026-10-13T05:54:47Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "v1.0.0",
+        "tag_name": "v1.0.0",
+        "published_at": "2026-10-11T02:40:29Z"
+      },
+      "readme_excerpt": "# Model Context Protocol servers This repository is a collection of *reference implementations* for the [Model Context Protocol](https://modelcontextprotocol.io/) (MCP), as well as references to community-built servers and additional resources. > [!IMPORTANT] > If you are looking for a list of MCP servers, you can browse published servers on [the MCP Registry](https://registry.modelcontextprotocol.io/). The repository served by this README is dedicated to housing just the small number of reference servers maintained by the MCP steering group. > [!WARNING] > The servers in this repository are intended as **reference implementations** to demonstrate MCP features and SDK usage. They are meant t",
+      "recent_issue_activity": [
+        {
+          "number": 5100,
+          "title": "chore: version packages",
+          "updated_at": "2026-10-13T05:54:49Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/modelcontextprotocol/servers/pull/5100"
+        },
+        {
+          "number": 5110,
+          "title": "CI: version PRs opened by automation never get TypeScript or Python CI",
+          "updated_at": "2026-10-13T05:54:19Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "html_url": "https://github.com/modelcontextprotocol/servers/issues/5110"
+        },
+        {
+          "number": 5146,
+          "title": "ci: dispatch TypeScript and Python CI on automated version PRs",
+          "updated_at": "2026-10-13T05:54:18Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/modelcontextprotocol/servers/pull/5146"
+        },
+        {
+          "number": 5068,
+          "title": "Test on Node 24 (and 26) alongside 22",
+          "updated_at": "2026-10-13T05:53:24Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "html_url": "https://github.com/modelcontextprotocol/servers/issues/5068"
+        },
+        {
+          "number": 5147,
+          "title": "ci: validate the TypeScript servers on Node 22, 24 and 26 in parallel",
+          "updated_at": "2026-10-13T05:53:18Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/modelcontextprotocol/servers/pull/5147"
+        }
+      ]
+    }
+  }
+}

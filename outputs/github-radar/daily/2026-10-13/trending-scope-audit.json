@@ -1,0 +1,19 @@
+{
+  "retained": [
+    "cathrynlavery/diagram-design",
+    "debpalash/VoiceStudio",
+    "lyogavin/airllm",
+    "mksglu/context-mode",
+    "morluto/rea",
+    "storytold/artcraft",
+    "vercel-labs/skills"
+  ],
+  "metadata_confirmed_ai": [
+    "debpalash/VoiceStudio",
+    "storytold/artcraft"
+  ],
+  "excluded": {
+    "bilawalsidhu/gods-eye-view": "此次簡介為地理視覺化，尚未確認 AI／agent／開發自動化核心用途",
+    "xtool-org/xtool": "此次簡介為跨平台 iOS 建置工具，尚未確認 AI／agent／開發自動化核心用途"
+  }
+}

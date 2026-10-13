@@ -1,0 +1,9 @@
+{
+  "target_date": "2026-10-13",
+  "required_artifacts_nonempty": true,
+  "dashboard_build": "success",
+  "dashboard_build_command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+  "dashboard_artifacts_nonempty": true,
+  "preexisting_files_preserved": 28,
+  "build_warning": "Vite minified chunk larger than 500 kB"
+}
