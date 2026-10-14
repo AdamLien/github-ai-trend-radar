@@ -1,0 +1,34 @@
+Traceback (most recent call last):
+  File "/home/metabiz-admin/Documents/workspace/adam-codex-skills/skills/github-trend-radar/scripts/collect_github_trends.py", line 132, in github_get
+    with urllib.request.urlopen(request, timeout=30) as response:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/urllib/request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/urllib/request.py", line 493, in open
+    response = meth(req, response)
+  File "/usr/lib/python3.14/urllib/request.py", line 602, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "/usr/lib/python3.14/urllib/request.py", line 531, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "/usr/lib/python3.14/urllib/request.py", line 464, in _call_chain
+    result = func(*args)
+  File "/usr/lib/python3.14/urllib/request.py", line 611, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/metabiz-admin/Documents/workspace/adam-codex-skills/skills/github-trend-radar/scripts/collect_github_trends.py", line 575, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "/home/metabiz-admin/Documents/workspace/adam-codex-skills/skills/github-trend-radar/scripts/collect_github_trends.py", line 516, in main
+    query_repos = search_repos(query, token, args.limit)
+  File "/home/metabiz-admin/Documents/workspace/adam-codex-skills/skills/github-trend-radar/scripts/collect_github_trends.py", line 215, in search_repos
+    data = github_get(f"/search/repositories?{params}", token)
+  File "/home/metabiz-admin/Documents/workspace/adam-codex-skills/skills/github-trend-radar/scripts/collect_github_trends.py", line 136, in github_get
+    raise RuntimeError(f"GitHub API {exc.code} for {url}: {body[:500]}") from exc
+RuntimeError: GitHub API 500 for https://api.github.com/search/repositories?q=model+context+protocol&sort=stars&order=desc&per_page=10: 

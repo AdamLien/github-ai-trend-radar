@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "mksglu/context-mode",
+    "category": "Deep research",
+    "purpose": "以 MCP、沙箱與 hooks 控制工具輸出和跨回合記憶，減少 coding agent context 膨脹。",
+    "risk": "README 的壓縮比例是作者宣稱，需用相同任務比較 token、延遲與正確率；ELv2 授權與工具路由權限需確認。issue 抽樣為空，不能推論無缺陷。",
+    "relevance": "Adam 課程可示範長任務成本控制；辦公自動化可測大量文件／工具輸出；know metabiz wiki 可評估查詢摘要是否漏掉來源。",
+    "watch": "用固定 20 份文件測 token 節省與答案引用完整性，追蹤是否有比既有 release 更新的正式版本。"
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "category": "Demo content",
+    "purpose": "把既有軟體包裝成 agent 能呼叫的 CLI，支援可重複、自動化的軟體操作。",
+    "risk": "近期 PR 涉及格式驗證、HTTP timeout 與轉調邊界，表示整合細節仍需驗證；任意軟體覆蓋範圍是願景，不能直接當成已支援能力。",
+    "relevance": "適合 Adam「讓 agent 操作辦公軟體」課程與短影片；metabiz 可挑單一報表匯出流程；wiki 可收錄 CLI 操作與復原 SOP。",
+    "watch": "挑一項可逆的報表匯出任務做 demo，確認 JSON 輸出、錯誤處理與現有軟體版本相容。"
+  },
+  {
+    "repo": "ifixai-ai/iFixAi",
+    "category": "Watch",
+    "purpose": "為 agent 執行結果提供獨立稽核，檢查行為是否符合預期。",
+    "risk": "README 的快速稽核與可靠性宣稱尚未實測；近期 Gemini system message 修正顯示跨模型語意需要回歸驗證，稽核本身也可能錯判。",
+    "relevance": "Adam 可製作 agent 自評與外部評估比較內容；辦公自動化可評估 CRM／報表完成條件；wiki 可保存任務驗收證據。",
+    "watch": "加入成功、漏步驟、錯誤輸出三類樣本，量測稽核誤判，追蹤新 release。"
+  },
+  {
+    "repo": "morluto/rea",
+    "category": "Watch",
+    "purpose": "以 MCP 串接應用程式、二進位與 runtime 行為的逆向分析。",
+    "risk": "極高星數成長代表注意力，未證明成熟度；近期 issue #3553 回報 browser／Inspector 呼叫可能無限等待。只對有權分析的測試程式做驗證。",
+    "relevance": "適合 Adam agent 工具能力邊界與 debugging 題材；辦公自動化可研究既有軟體介面；know metabiz wiki 可保存可重現的技術分析。",
+    "watch": "先確認 #3553 的修復狀態，測 timeout 與取消，再考慮完整 demo。"
+  },
+  {
+    "repo": "debpalash/VoiceStudio",
+    "category": "Demo content",
+    "purpose": "以本地 AI 提供聲音複製、配音、轉錄與有聲內容製作。",
+    "risk": "AGPL 授權與模型個別授權需確認；後端暫時失去回應及 spawn 故障有近期回報。聲音使用需取得授權，繁體中文效果與硬體需求待實測。",
+    "relevance": "直接服務 Adam 課程旁白、短影片與多語內容；辦公可做會議逐字稿；wiki 可保存逐字稿與來源音檔關聯。",
+    "watch": "用 Adam 授權音訊做 60 秒繁體中文樣本，比較轉錄錯字、推論時間與匯出穩定性。"
+  },
+  {
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "category": "Skill candidate",
+    "purpose": "提供研究與資料分析領域的可組合 skills、工具與資料庫連接範例。",
+    "risk": "README 對使用量與 validated 的敘述屬作者宣稱；不能把研究 workflow 當成醫療建議。近期 PR 包含技能擴充與失效連結修正，外部依賴仍需抽查。",
+    "relevance": "Adam 可拆解專業 skill 的輸入、產物與驗收設計；辦公可參考資料分析流程；wiki 可用技能卡片整理方法與來源。",
+    "watch": "抽查一項通用分析 skill 的依賴、引用與輸出格式，避免一次匯入整套技能。"
+  },
+  {
+    "repo": "AgriciDaniel/claude-obsidian",
+    "category": "Skill candidate",
+    "purpose": "讓 Claude Code 將來源整理為互連 Markdown 與 Obsidian 知識圖，形成可維護的第二大腦。",
+    "risk": "issue #196 回報 Windows SessionStart／Stop hook timeout；自動連結可能造成錯誤關係或文件改寫，需版本控制、來源追溯與小樣本驗收。",
+    "relevance": "與 know metabiz wiki 高度相關；Adam 可做從原始資料到 wiki 的課程，辦公可整理會議、產品與流程知識。",
+    "watch": "測 10 份去識別化公司文件的來源連結、重複匯入與增量更新，追蹤 hook timeout。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "桌面知識庫將多格式文件增量整理成結構化 wiki，支援來源追溯與多模態 ingestion。",
+    "risk": "issue #811 回報長文件分析上限，#812 回報背景全量掃描造成負載；公司文件上傳位置、模型成本與資料隔離需要實測確認。",
+    "relevance": "know metabiz wiki 的直接候選；Adam 可對比 RAG 檢索與持續整理 wiki；辦公可用產品、合約與 SOP 文件做小型 PoC。",
+    "watch": "以長 PDF、Office 文件和重複匯入測引用與 CPU 負載，追蹤 #811／#812。"
+  },
+  {
+    "repo": "obra/superpowers",
+    "category": "Skill candidate",
+    "purpose": "以可組合 skills 提供 coding agent 的需求釐清、計畫、測試與交付流程。",
+    "risk": "近期 issue #2514 回報 skill 過度觸發，#2515 涉及 worktree ignore 檢查；workflow 不能取代任務本身的授權與驗收。",
+    "relevance": "適合 Adam 的 AI coding 工作法課程；metabiz 辦公腳本可參考計畫／驗收模板；wiki 可收錄適用條件與交付 SOP。",
+    "watch": "檢查 v7.0.0 的 hook／觸發行為，以一個小任務比較耗時與驗收品質。"
+  },
+  {
+    "repo": "langgenius/dify",
+    "category": "Reference only",
+    "purpose": "整合 LLM workflow、agents 與 RAG 的應用平台，作為成熟產品與自架方案比較基準。",
+    "risk": "近期抽樣多為 CI／lint PR，不能視為功能品質證據；自架維運、資料隔離、升級相容與授權條件需核對。星數規模大不代表當天動能最高。",
+    "relevance": "Adam 可用作流程編排教學與競品基準；metabiz 可比較 CRM／客服／報表自動化；wiki 可評估檢索引用及權限控管。",
+    "watch": "追蹤比 1.17.1 更新的穩定 release 與 migration，將 wiki PoC 成本和可追溯性列入比較。"
+  }
+]

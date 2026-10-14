@@ -1,0 +1,69 @@
+{
+  "url": "https://github.com/trending?since=daily",
+  "observed_at": "2026-10-14T16:14:47.216117+00:00",
+  "in_scope": [
+    {
+      "repo": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "stars_today": "41187"
+    },
+    {
+      "repo": "mksglu/context-mode",
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "stars_today": "946"
+    },
+    {
+      "repo": "K-Dense-AI/scientific-agent-skills",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "stars_today": "146"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "stars_today": "94"
+    },
+    {
+      "repo": "ifixai-ai/iFixAi",
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "stars_today": "2143"
+    },
+    {
+      "repo": "vxcontrol/pentagi",
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "stars_today": "1070"
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "stars_today": "3547",
+      "scope_review": "人工覆核：AI 語音複製、轉錄與配音，符合 AI 與內容自動化範圍；字串關鍵字篩選漏收。"
+    }
+  ],
+  "excluded": [
+    {
+      "repo": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "stars_today": "45"
+    },
+    {
+      "repo": "rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "stars_today": "205"
+    },
+    {
+      "repo": "xtool-org/xtool",
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "stars_today": "1510"
+    },
+    {
+      "repo": "ntdevlabs/tiny11builder",
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "stars_today": "194"
+    },
+    {
+      "repo": "NationalSecurityAgency/ghidra",
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "stars_today": "1002"
+    }
+  ]
+}

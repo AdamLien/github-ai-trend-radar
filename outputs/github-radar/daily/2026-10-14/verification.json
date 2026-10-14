@@ -1,0 +1,9 @@
+{
+  "preexisting_files_checked": 28,
+  "changed_preexisting_files": [],
+  "build_artifacts": {
+    "dashboard/dist/index.html": true,
+    "dashboard/src/generated/radarData.json": true
+  },
+  "credential_matches": []
+}

@@ -1,0 +1,44 @@
+{
+  "target_date": "2026-10-14",
+  "collected_at": "2026-10-15T00:11:27.705049+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 1,
+      "rate_limited": false
+    },
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false,
+      "retry_after_http_500": true
+    }
+  ],
+  "rate_limit_encountered": false,
+  "completed_at": "2026-10-15T00:22:46.845850+08:00",
+  "collector_success": true,
+  "repo_count": 350,
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "scope_review_added": [
+    "debpalash/VoiceStudio"
+  ],
+  "analysis_selected_count": 10,
+  "supplementary_api_rate_limited": false
+}
