@@ -1,0 +1,1043 @@
+{
+  "retrieved_at": "2026-10-15T16:11:46.451848+00:00",
+  "method": "10 most recently updated issues/PRs per repo; sample, not total activity",
+  "repos": {
+    "morluto/rea": {
+      "items": [
+        {
+          "number": 4169,
+          "title": "fix(kuna): answer a repeated single-function request without re-running Kuna",
+          "state": "open",
+          "updated_at": "2026-10-15T16:11:21Z",
+          "comments": 2,
+          "html_url": "https://github.com/morluto/rea/pull/4169",
+          "is_pull_request": true
+        },
+        {
+          "number": 3940,
+          "title": "fix(javascript): preserve proven WebSocket endpoint identities",
+          "state": "open",
+          "updated_at": "2026-10-15T16:10:18Z",
+          "comments": 4,
+          "html_url": "https://github.com/morluto/rea/pull/3940",
+          "is_pull_request": true
+        },
+        {
+          "number": 4154,
+          "title": "fix(verifiers): parse Windows tar listing line endings",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:24Z",
+          "comments": 5,
+          "html_url": "https://github.com/morluto/rea/pull/4154",
+          "is_pull_request": true
+        },
+        {
+          "number": 4163,
+          "title": "feat(analysis-view): page retained browser scenario steps and text",
+          "state": "open",
+          "updated_at": "2026-10-15T16:07:52Z",
+          "comments": 2,
+          "html_url": "https://github.com/morluto/rea/pull/4163",
+          "is_pull_request": true
+        },
+        {
+          "number": 3456,
+          "title": "fix(javascript): keep overflowing timer delays unknown",
+          "state": "open",
+          "updated_at": "2026-10-15T16:07:21Z",
+          "comments": 5,
+          "html_url": "https://github.com/morluto/rea/pull/3456",
+          "is_pull_request": true
+        },
+        {
+          "number": 4166,
+          "title": "fix(i18n): correct Turkish website terminology",
+          "state": "open",
+          "updated_at": "2026-10-15T16:06:31Z",
+          "comments": 2,
+          "html_url": "https://github.com/morluto/rea/pull/4166",
+          "is_pull_request": true
+        },
+        {
+          "number": 4164,
+          "title": "fix(reference): resolve extensionless CommonJS requires to JSON files",
+          "state": "open",
+          "updated_at": "2026-10-15T16:06:24Z",
+          "comments": 2,
+          "html_url": "https://github.com/morluto/rea/pull/4164",
+          "is_pull_request": true
+        },
+        {
+          "number": 4167,
+          "title": "fix(adb): parse the bare numeric wm density form",
+          "state": "open",
+          "updated_at": "2026-10-15T16:05:51Z",
+          "comments": 2,
+          "html_url": "https://github.com/morluto/rea/pull/4167",
+          "is_pull_request": true
+        },
+        {
+          "number": 4168,
+          "title": "[Bug] Export shape comparison reports \"changed\" for a branch that a known constant never takes",
+          "state": "open",
+          "updated_at": "2026-10-15T16:05:08Z",
+          "comments": 0,
+          "html_url": "https://github.com/morluto/rea/issues/4168",
+          "is_pull_request": false
+        },
+        {
+          "number": 4165,
+          "title": "fix(browser): omit erased type-only import-equals from source-map dependencies",
+          "state": "open",
+          "updated_at": "2026-10-15T16:03:50Z",
+          "comments": 2,
+          "html_url": "https://github.com/morluto/rea/pull/4165",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "anthropics/claude-plugins-official": {
+      "items": [
+        {
+          "number": 1978,
+          "title": "clangd-lsp: add .cu/.cuh extensions for CUDA file support",
+          "state": "closed",
+          "updated_at": "2026-10-15T12:09:37Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/issues/1978",
+          "is_pull_request": false
+        },
+        {
+          "number": 6615,
+          "title": "skill-creator: eval-viewer page breaks when an eval output contains \"</script>\"",
+          "state": "open",
+          "updated_at": "2026-10-15T11:26:07Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/issues/6615",
+          "is_pull_request": false
+        },
+        {
+          "number": 6614,
+          "title": "salesforce-development: pin still on v2.3.0 — validated bump PR #6527 (→ v2.4.0) awaiting review since 2026-10-12",
+          "state": "closed",
+          "updated_at": "2026-10-15T09:19:34Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/issues/6614",
+          "is_pull_request": false
+        },
+        {
+          "number": 6433,
+          "title": "bump(carta-investors): 6ab81016 → ea7fe1d4",
+          "state": "closed",
+          "updated_at": "2026-10-15T07:40:14Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6433",
+          "is_pull_request": true
+        },
+        {
+          "number": 6432,
+          "title": "bump(carta-crm): 43e49ed3 → ea7fe1d4",
+          "state": "closed",
+          "updated_at": "2026-10-15T07:39:53Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6432",
+          "is_pull_request": true
+        },
+        {
+          "number": 6431,
+          "title": "bump(carta-cap-table): 43e49ed3 → ea7fe1d4",
+          "state": "closed",
+          "updated_at": "2026-10-15T07:39:34Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6431",
+          "is_pull_request": true
+        },
+        {
+          "number": 6598,
+          "title": "bump(postman): 0128d247 → c6352ef5",
+          "state": "closed",
+          "updated_at": "2026-10-15T07:39:16Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6598",
+          "is_pull_request": true
+        },
+        {
+          "number": 6613,
+          "title": "bump(figma): f0493295 → f2789420",
+          "state": "closed",
+          "updated_at": "2026-10-15T07:33:43Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6613",
+          "is_pull_request": true
+        },
+        {
+          "number": 6596,
+          "title": "bump(figma): f0493295 → b0bfad2a",
+          "state": "closed",
+          "updated_at": "2026-10-15T06:36:08Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6596",
+          "is_pull_request": true
+        },
+        {
+          "number": 6610,
+          "title": "bump(qodo): update Qodo and optional Standards to v2.1.2",
+          "state": "closed",
+          "updated_at": "2026-10-15T04:03:49Z",
+          "comments": 1,
+          "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6610",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "K-Dense-AI/scientific-agent-skills": {
+      "items": [
+        {
+          "number": 314,
+          "title": "Fix safe-path imports in review, hypothesis and uncertainty CLIs",
+          "state": "closed",
+          "updated_at": "2026-10-15T12:50:18Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/314",
+          "is_pull_request": true
+        },
+        {
+          "number": 313,
+          "title": "fix(tests): make FASTA index fixture and bytecode check portable",
+          "state": "open",
+          "updated_at": "2026-10-15T05:39:43Z",
+          "comments": 1,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/313",
+          "is_pull_request": true
+        },
+        {
+          "number": 312,
+          "title": "fix(research-lookup): preserve short PubMed identifiers",
+          "state": "open",
+          "updated_at": "2026-10-15T00:36:28Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/312",
+          "is_pull_request": true
+        },
+        {
+          "number": 311,
+          "title": "docs: fix two dead links in bids and deeptools skills",
+          "state": "open",
+          "updated_at": "2026-10-14T16:24:51Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/311",
+          "is_pull_request": true
+        },
+        {
+          "number": 310,
+          "title": "fix(docs): repair 404 documentation links in pacsomatic, scanpy, pennylane, scientific-slides",
+          "state": "open",
+          "updated_at": "2026-10-14T16:24:49Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/310",
+          "is_pull_request": true
+        },
+        {
+          "number": 309,
+          "title": "fix(citation-management): decode DOI BibTeX response as UTF-8",
+          "state": "open",
+          "updated_at": "2026-10-14T16:24:29Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/309",
+          "is_pull_request": true
+        },
+        {
+          "number": 283,
+          "title": "Add MNE-Python skill for EEG/MEG analysis",
+          "state": "open",
+          "updated_at": "2026-10-14T16:10:55Z",
+          "comments": 2,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/283",
+          "is_pull_request": true
+        },
+        {
+          "number": 308,
+          "title": "fix(markdown-mermaid-writing): repair two broken in-page anchor links",
+          "state": "open",
+          "updated_at": "2026-10-14T16:08:31Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/308",
+          "is_pull_request": true
+        },
+        {
+          "number": 307,
+          "title": "docs: replace three dead documentation links (sympy, bids, molecular-dynamics)",
+          "state": "open",
+          "updated_at": "2026-10-14T16:07:33Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/307",
+          "is_pull_request": true
+        },
+        {
+          "number": 306,
+          "title": "fix(scan): hash skill paths in POSIX form so the report cache is portable",
+          "state": "open",
+          "updated_at": "2026-10-14T16:05:59Z",
+          "comments": 0,
+          "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/306",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "JuliusBrussee/caveman": {
+      "items": [
+        {
+          "number": 1272,
+          "title": "HTML data pages pass through or lose their table structure",
+          "state": "open",
+          "updated_at": "2026-10-15T15:05:36Z",
+          "comments": 3,
+          "html_url": "https://github.com/JuliusBrussee/caveman/issues/1272",
+          "is_pull_request": false
+        },
+        {
+          "number": 1289,
+          "title": "fix(antigravity-cli): declare contextFileName in agy plugin.json",
+          "state": "open",
+          "updated_at": "2026-10-15T14:20:34Z",
+          "comments": 0,
+          "html_url": "https://github.com/JuliusBrussee/caveman/pull/1289",
+          "is_pull_request": true
+        },
+        {
+          "number": 1273,
+          "title": "feat(engine): keep tables in HTML articles as tables",
+          "state": "open",
+          "updated_at": "2026-10-15T12:25:32Z",
+          "comments": 1,
+          "html_url": "https://github.com/JuliusBrussee/caveman/pull/1273",
+          "is_pull_request": true
+        },
+        {
+          "number": 1288,
+          "title": "feat(engine): give HTML data pages a structural view",
+          "state": "open",
+          "updated_at": "2026-10-15T12:25:18Z",
+          "comments": 0,
+          "html_url": "https://github.com/JuliusBrussee/caveman/pull/1288",
+          "is_pull_request": true
+        },
+        {
+          "number": 1269,
+          "title": "fix(installer): bound and pin hook downloads to https",
+          "state": "open",
+          "updated_at": "2026-10-15T08:18:54Z",
+          "comments": 2,
+          "html_url": "https://github.com/JuliusBrussee/caveman/pull/1269",
+          "is_pull_request": true
+        },
+        {
+          "number": 1279,
+          "title": "Native runtime closes every native.sock request with an empty reply after a 2.0.1 → 4.0.1 upgrade (pi shrink silently off)",
+          "state": "open",
+          "updated_at": "2026-10-15T07:49:05Z",
+          "comments": 3,
+          "html_url": "https://github.com/JuliusBrussee/caveman/issues/1279",
+          "is_pull_request": false
+        },
+        {
+          "number": 1287,
+          "title": "pi: tool-output shrinking stops silently when the native runtime returns an empty reply",
+          "state": "open",
+          "updated_at": "2026-10-15T07:48:43Z",
+          "comments": 0,
+          "html_url": "https://github.com/JuliusBrussee/caveman/issues/1287",
+          "is_pull_request": false
+        },
+        {
+          "number": 1271,
+          "title": "daily triage 2026-10-14 + 10-15: HTML misroute, cavecrew override write, two compress data-loss fixes (3 pin bumps still pending your call)",
+          "state": "open",
+          "updated_at": "2026-10-15T08:05:24Z",
+          "comments": 2,
+          "html_url": "https://github.com/JuliusBrussee/caveman/pull/1271",
+          "is_pull_request": true
+        },
+        {
+          "number": 1268,
+          "title": "docs(middleware): drop unpublished quickstart download URLs",
+          "state": "open",
+          "updated_at": "2026-10-15T07:45:31Z",
+          "comments": 5,
+          "html_url": "https://github.com/JuliusBrussee/caveman/pull/1268",
+          "is_pull_request": true
+        },
+        {
+          "number": 1286,
+          "title": "Routing: offer Auto (caveman-auto) in pi",
+          "state": "open",
+          "updated_at": "2026-10-15T07:33:38Z",
+          "comments": 0,
+          "html_url": "https://github.com/JuliusBrussee/caveman/issues/1286",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "mksglu/context-mode": {
+      "items": []
+    },
+    "affaan-m/ECC": {
+      "items": [
+        {
+          "number": 3585,
+          "title": "feat(skills): add short-video-distribution",
+          "state": "open",
+          "updated_at": "2026-10-15T15:08:23Z",
+          "comments": 20,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3585",
+          "is_pull_request": true
+        },
+        {
+          "number": 3591,
+          "title": "fix(hooks): load js-yaml lazily so session-start runs without node_modules",
+          "state": "open",
+          "updated_at": "2026-10-15T14:33:59Z",
+          "comments": 14,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3591",
+          "is_pull_request": true
+        },
+        {
+          "number": 3592,
+          "title": "[Problem] Codex worker accepts a directory task and can report success without instructions",
+          "state": "open",
+          "updated_at": "2026-10-15T14:10:54Z",
+          "comments": 0,
+          "html_url": "https://github.com/affaan-m/ECC/issues/3592",
+          "is_pull_request": false
+        },
+        {
+          "number": 3590,
+          "title": "fix(install): tolerate JSONC comments in the OpenCode config membership check",
+          "state": "open",
+          "updated_at": "2026-10-15T12:26:53Z",
+          "comments": 11,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3590",
+          "is_pull_request": true
+        },
+        {
+          "number": 3537,
+          "title": "OpenCode V2 fails to load ECC plugin (V1 format: needs id + setup)",
+          "state": "open",
+          "updated_at": "2026-10-15T12:08:56Z",
+          "comments": 3,
+          "html_url": "https://github.com/affaan-m/ECC/issues/3537",
+          "is_pull_request": false
+        },
+        {
+          "number": 3536,
+          "title": "fix: port OpenCode plugin from v1 to v2 plugin API",
+          "state": "open",
+          "updated_at": "2026-10-15T12:08:54Z",
+          "comments": 9,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3536",
+          "is_pull_request": true
+        },
+        {
+          "number": 3538,
+          "title": "fix(commands): honor Codex model configuration in Santa Loop",
+          "state": "open",
+          "updated_at": "2026-10-15T11:31:56Z",
+          "comments": 14,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3538",
+          "is_pull_request": true
+        },
+        {
+          "number": 3589,
+          "title": "fix(install-targets): filter foreign .pi platform paths from non-Pi targets (#3558)",
+          "state": "open",
+          "updated_at": "2026-10-15T11:20:11Z",
+          "comments": 6,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3589",
+          "is_pull_request": true
+        },
+        {
+          "number": 3546,
+          "title": "OpenCode installer crashes on JSONC comments in user's opencode.json (strict JSON.parse in hook-consent.js disableOpenCodeHookPluginRegistration)",
+          "state": "open",
+          "updated_at": "2026-10-15T11:18:16Z",
+          "comments": 1,
+          "html_url": "https://github.com/affaan-m/ECC/issues/3546",
+          "is_pull_request": false
+        },
+        {
+          "number": 3588,
+          "title": "fix: prevent GitHub work item identity collisions",
+          "state": "open",
+          "updated_at": "2026-10-15T11:01:09Z",
+          "comments": 6,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3588",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "xerj-org/xerj": {
+      "items": [
+        {
+          "number": 1404,
+          "title": "ci(cla): exempt self-signed .contributors PRs from clabot deadlock",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:40Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1404",
+          "is_pull_request": true
+        },
+        {
+          "number": 1401,
+          "title": "feat(autoindex,common): index symbol impl bodies and fuse with file hits via RRF (#1237)",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:39Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1401",
+          "is_pull_request": true
+        },
+        {
+          "number": 1400,
+          "title": "fix(autoindex,engine): damp bulk AIMD oscillation and memory-breaker drain churn (#1250)",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:38Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1400",
+          "is_pull_request": true
+        },
+        {
+          "number": 1399,
+          "title": "perf(engine,api): skip empty shards before flush gate and avoid O(N_indices) selector scans (#1226)",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:37Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1399",
+          "is_pull_request": true
+        },
+        {
+          "number": 1375,
+          "title": "chore: add todie to .contributors (CLA signature)",
+          "state": "closed",
+          "updated_at": "2026-10-15T16:09:37Z",
+          "comments": 6,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1375",
+          "is_pull_request": true
+        },
+        {
+          "number": 1397,
+          "title": "release(rc.96): version stamp, CHANGELOG, ROADMAP roll, landing + footer sweep",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:36Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1397",
+          "is_pull_request": true
+        },
+        {
+          "number": 1396,
+          "title": "fix(search): strip multi-word glue tokens and prefer code over bare name passages (#1364)",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:36Z",
+          "comments": 5,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1396",
+          "is_pull_request": true
+        },
+        {
+          "number": 1394,
+          "title": "[URGENT] perf(engine,storage,autoindex): eliminate hot-path false sharing, O(N) thread/prep bottlenecks, and PDF sleep-polling",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:34Z",
+          "comments": 4,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1394",
+          "is_pull_request": true
+        },
+        {
+          "number": 1392,
+          "title": "fix(autoindex,engine): render 1-based passage line on whole-file search/def hits (#1365)",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:33Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1392",
+          "is_pull_request": true
+        },
+        {
+          "number": 1391,
+          "title": "fix(autoindex): scope map to explicit --prefix and omit blank wall_seconds",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:31Z",
+          "comments": 3,
+          "html_url": "https://github.com/xerj-org/xerj/pull/1391",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "obra/superpowers": {
+      "items": [
+        {
+          "number": 2522,
+          "title": "writing-plans: a plan must not touch the spec",
+          "state": "open",
+          "updated_at": "2026-10-15T16:09:10Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2522",
+          "is_pull_request": false
+        },
+        {
+          "number": 2473,
+          "title": "brainstorming / writing-plans: commit the spec/plan by path so pre-staged changes are not swept in",
+          "state": "open",
+          "updated_at": "2026-10-15T14:19:25Z",
+          "comments": 2,
+          "html_url": "https://github.com/obra/superpowers/issues/2473",
+          "is_pull_request": false
+        },
+        {
+          "number": 2293,
+          "title": "subagent-driven-development: the ledger records no in-flight task, so an outage mid-task re-dispatches work that is already committed",
+          "state": "open",
+          "updated_at": "2026-10-15T05:34:05Z",
+          "comments": 1,
+          "html_url": "https://github.com/obra/superpowers/issues/2293",
+          "is_pull_request": false
+        },
+        {
+          "number": 2521,
+          "title": "subagent-driven-development: when a subagent cannot write its report file, the full report comes back inline, and there is no fallback",
+          "state": "open",
+          "updated_at": "2026-10-15T05:34:04Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2521",
+          "is_pull_request": false
+        },
+        {
+          "number": 2520,
+          "title": "subagent-driven-development: controller git writes race a live background implementer in the same checkout",
+          "state": "open",
+          "updated_at": "2026-10-15T05:34:03Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2520",
+          "is_pull_request": false
+        },
+        {
+          "number": 2519,
+          "title": "writing-skills/render-graphs.js: misses CRLF dot blocks and exits 0 on render failure",
+          "state": "open",
+          "updated_at": "2026-10-14T16:37:42Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2519",
+          "is_pull_request": false
+        },
+        {
+          "number": 2514,
+          "title": "1% chance skill overfiring",
+          "state": "open",
+          "updated_at": "2026-10-14T16:14:17Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2514",
+          "is_pull_request": false
+        },
+        {
+          "number": 2518,
+          "title": "fix(using-git-worktrees): check ignore status on selected directory specifically (#2515)",
+          "state": "open",
+          "updated_at": "2026-10-14T14:58:20Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/2518",
+          "is_pull_request": true
+        },
+        {
+          "number": 2517,
+          "title": "fix(manifest): declare hooks file in .claude-plugin/plugin.json (#2505)",
+          "state": "open",
+          "updated_at": "2026-10-14T14:33:18Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/2517",
+          "is_pull_request": true
+        },
+        {
+          "number": 2516,
+          "title": "fix(skills): defer main/master consent to partner instructions in executing-plans and SDD (#2455)",
+          "state": "open",
+          "updated_at": "2026-10-14T13:49:50Z",
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/2516",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "ruvnet/ruflo": {
+      "items": [
+        {
+          "number": 4222,
+          "title": "fix(intelligence): forward trajectories using the ruvllm contract",
+          "state": "open",
+          "updated_at": "2026-10-15T15:56:23Z",
+          "comments": 0,
+          "html_url": "https://github.com/ruvnet/ruflo/pull/4222",
+          "is_pull_request": true
+        },
+        {
+          "number": 4221,
+          "title": "fix(init): stop granting blanket execution of project helpers",
+          "state": "open",
+          "updated_at": "2026-10-15T15:49:43Z",
+          "comments": 0,
+          "html_url": "https://github.com/ruvnet/ruflo/pull/4221",
+          "is_pull_request": true
+        },
+        {
+          "number": 4220,
+          "title": "fix(init): refresh session companions during upgrade",
+          "state": "open",
+          "updated_at": "2026-10-15T15:26:09Z",
+          "comments": 0,
+          "html_url": "https://github.com/ruvnet/ruflo/pull/4220",
+          "is_pull_request": true
+        },
+        {
+          "number": 4214,
+          "title": "[Dream Cycle 2026-10-15] performance: RaftConsensus.awaitConsensus() busy-polled instead of using its own 'consensus.achieved' event + security,hive-mind scan",
+          "state": "open",
+          "updated_at": "2026-10-15T14:56:55Z",
+          "comments": 0,
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4214",
+          "is_pull_request": false
+        },
+        {
+          "number": 4055,
+          "title": "Memory MCP/CLI abort on Node 24.19–24.21: agentdb's better-sqlite3 11.x (`RemoveEnvironmentCleanupHook … (env) != nullptr`)",
+          "state": "closed",
+          "updated_at": "2026-10-15T14:06:17Z",
+          "comments": 2,
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4055",
+          "is_pull_request": false
+        },
+        {
+          "number": 4219,
+          "title": "🔄 Rollback Incident: [Brief Description]",
+          "state": "open",
+          "updated_at": "2026-10-15T13:54:41Z",
+          "comments": 0,
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4219",
+          "is_pull_request": false
+        },
+        {
+          "number": 4216,
+          "title": "fix(policy): authenticate retained ledgers and stream full audits with fenced writers",
+          "state": "open",
+          "updated_at": "2026-10-15T11:33:52Z",
+          "comments": 1,
+          "html_url": "https://github.com/ruvnet/ruflo/pull/4216",
+          "is_pull_request": true
+        },
+        {
+          "number": 3950,
+          "title": "feat(marketplace): install Agentic QE (agentic-qe-fleet) from the ruflo marketplace",
+          "state": "open",
+          "updated_at": "2026-10-15T11:19:32Z",
+          "comments": 19,
+          "html_url": "https://github.com/ruvnet/ruflo/pull/3950",
+          "is_pull_request": true
+        },
+        {
+          "number": 4217,
+          "title": "3.56.10 intelligence counters lose concurrent increments in unlocked delta read/merge/write",
+          "state": "open",
+          "updated_at": "2026-10-15T11:16:17Z",
+          "comments": 0,
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4217",
+          "is_pull_request": false
+        },
+        {
+          "number": 3802,
+          "title": "fix(ruflo-mods): classify risky host calls and intercepting hooks",
+          "state": "open",
+          "updated_at": "2026-10-15T09:39:36Z",
+          "comments": 17,
+          "html_url": "https://github.com/ruvnet/ruflo/pull/3802",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "items": [
+        {
+          "number": 85,
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+          "is_pull_request": true
+        },
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+          "is_pull_request": true
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+          "is_pull_request": false
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+          "is_pull_request": true
+        },
+        {
+          "number": 81,
+          "title": "Handle absolute output path display",
+          "state": "open",
+          "updated_at": "2026-09-24T11:43:08Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/81",
+          "is_pull_request": true
+        },
+        {
+          "number": 80,
+          "title": "An absolute output path aborts before conversion",
+          "state": "open",
+          "updated_at": "2026-09-24T11:12:44Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/80",
+          "is_pull_request": false
+        },
+        {
+          "number": 79,
+          "title": "Help output fails in a Windows cp1252 terminal",
+          "state": "open",
+          "updated_at": "2026-09-24T10:46:53Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/79",
+          "is_pull_request": false
+        },
+        {
+          "number": 78,
+          "title": "[Feature] Integrate Jev (TypeSafe AI) as a fast decision layer for lint triage, ingest classification, and query routing",
+          "state": "open",
+          "updated_at": "2026-09-22T06:49:21Z",
+          "comments": 1,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/78",
+          "is_pull_request": false
+        },
+        {
+          "number": 77,
+          "title": "Q: does this support `npx`?",
+          "state": "open",
+          "updated_at": "2026-09-11T11:43:53Z",
+          "comments": 2,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/77",
+          "is_pull_request": false
+        },
+        {
+          "number": 74,
+          "title": "fix(tools): guard file_to_md output against silent overwrite",
+          "state": "closed",
+          "updated_at": "2026-09-09T00:58:42Z",
+          "comments": 0,
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/74",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "items": [
+        {
+          "number": 817,
+          "title": "feat: Add Vietnamese (vi.json) + README_VI.md",
+          "state": "open",
+          "updated_at": "2026-10-15T09:55:16Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/817",
+          "is_pull_request": true
+        },
+        {
+          "number": 816,
+          "title": "oom killed",
+          "state": "open",
+          "updated_at": "2026-10-15T01:18:21Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/816",
+          "is_pull_request": false
+        },
+        {
+          "number": 815,
+          "title": "feat: add GitHub Copilot device-auth text provider",
+          "state": "open",
+          "updated_at": "2026-10-13T06:25:26Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/815",
+          "is_pull_request": true
+        },
+        {
+          "number": 645,
+          "title": "feat: add option to ignore ssl cert error behind http proxy",
+          "state": "closed",
+          "updated_at": "2026-10-13T03:31:48Z",
+          "comments": 1,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/645",
+          "is_pull_request": true
+        },
+        {
+          "number": 814,
+          "title": "fix(file-sync): ignore read-only watcher events to stop a self-triggered rescan loop",
+          "state": "open",
+          "updated_at": "2026-10-10T17:26:53Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/814",
+          "is_pull_request": true
+        },
+        {
+          "number": 813,
+          "title": "perf(scheduled-import): reuse content hash for unchanged files",
+          "state": "open",
+          "updated_at": "2026-10-10T09:39:52Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/813",
+          "is_pull_request": true
+        },
+        {
+          "number": 812,
+          "title": "Windows 桌面持续占用 3-5 核（0.6.12）：周期性全量扫描/哈希放大，附实测与定位",
+          "state": "open",
+          "updated_at": "2026-10-10T09:39:19Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/812",
+          "is_pull_request": false
+        },
+        {
+          "number": 750,
+          "title": "fix: keep local CLI chat working with auto skills",
+          "state": "closed",
+          "updated_at": "2026-10-10T02:30:24Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/750",
+          "is_pull_request": true
+        },
+        {
+          "number": 811,
+          "title": "Ingest fails on long / entity-dense documents: hard-coded 8,192-token analysis cap + unbounded entity-enumeration prompt",
+          "state": "open",
+          "updated_at": "2026-10-09T14:25:09Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/811",
+          "is_pull_request": false
+        },
+        {
+          "number": 655,
+          "title": "ci: build and release macOS Intel (x86_64) bundle",
+          "state": "open",
+          "updated_at": "2026-10-09T10:31:48Z",
+          "comments": 1,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/655",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "debpalash/VoiceStudio": {
+      "items": [
+        {
+          "number": 2906,
+          "title": "fix(normalization): preserve spelling joiners before synthesis",
+          "state": "open",
+          "updated_at": "2026-10-15T16:11:33Z",
+          "comments": 1,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2906",
+          "is_pull_request": true
+        },
+        {
+          "number": 2900,
+          "title": "fix(colab): build the maintained Electron web renderer",
+          "state": "open",
+          "updated_at": "2026-10-15T16:11:09Z",
+          "comments": 2,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2900",
+          "is_pull_request": true
+        },
+        {
+          "number": 2861,
+          "title": "Shutdown no longer waits for the profile-reconcile thread from the second backend boot in a process (one-shot module-level Events never clear)",
+          "state": "open",
+          "updated_at": "2026-10-15T16:10:41Z",
+          "comments": 0,
+          "html_url": "https://github.com/debpalash/VoiceStudio/issues/2861",
+          "is_pull_request": false
+        },
+        {
+          "number": 2907,
+          "title": "fix(startup): wait for reconciliation on every backend lifespan",
+          "state": "open",
+          "updated_at": "2026-10-15T16:10:38Z",
+          "comments": 0,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2907",
+          "is_pull_request": true
+        },
+        {
+          "number": 2902,
+          "title": "[Bug] Persian/Urdu/Kurdish: _strip_unsafe_controls deletes ZWNJ (U+200C) before TTS",
+          "state": "open",
+          "updated_at": "2026-10-15T16:07:30Z",
+          "comments": 0,
+          "html_url": "https://github.com/debpalash/VoiceStudio/issues/2902",
+          "is_pull_request": false
+        },
+        {
+          "number": 2901,
+          "title": "fix(profiles): save local voices without internet connectivity",
+          "state": "open",
+          "updated_at": "2026-10-15T16:07:12Z",
+          "comments": 2,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2901",
+          "is_pull_request": true
+        },
+        {
+          "number": 2899,
+          "title": "fix(convert): show saved Voice Design profiles in target picker",
+          "state": "open",
+          "updated_at": "2026-10-15T16:05:36Z",
+          "comments": 2,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2899",
+          "is_pull_request": true
+        },
+        {
+          "number": 2905,
+          "title": "fix(electron): restore local YouTube sign-in cookie imports",
+          "state": "open",
+          "updated_at": "2026-10-15T16:04:33Z",
+          "comments": 1,
+          "html_url": "https://github.com/debpalash/VoiceStudio/pull/2905",
+          "is_pull_request": true
+        },
+        {
+          "number": 2860,
+          "title": "YouTube sign-in cookie import always returns 403 in the Electron desktop app (both proxy hops strip the Origin header the backend gate requires)",
+          "state": "open",
+          "updated_at": "2026-10-15T15:57:43Z",
+          "comments": 0,
+          "html_url": "https://github.com/debpalash/VoiceStudio/issues/2860",
+          "is_pull_request": false
+        },
+        {
+          "number": 2904,
+          "title": "[Bug] Backend exited unexpectedly (exit code 3221226505). Last output: Could not locat",
+          "state": "open",
+          "updated_at": "2026-10-15T15:57:23Z",
+          "comments": 0,
+          "html_url": "https://github.com/debpalash/VoiceStudio/issues/2904",
+          "is_pull_request": false
+        }
+      ]
+    }
+  }
+}

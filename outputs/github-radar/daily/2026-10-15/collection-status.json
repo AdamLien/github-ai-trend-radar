@@ -1,0 +1,42 @@
+{
+  "target_date": "2026-10-15",
+  "collected_at": "2026-10-16T00:20:05.264976+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "completed_at": "2026-10-15T16:21:15.689969+00:00",
+  "collected_repo_count": 357,
+  "retained_repo_count": 339,
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "rate_limit_status": "No rate-limit error detected; limit 10 succeeded; no limit-5 retry needed.",
+  "supplemental_api_errors": [],
+  "observation_note": "Target date is the previous Asia/Taipei calendar day; API and Trending metrics are live observations collected after midnight, not historical exact-day totals.",
+  "canonical_duplicates_collapsed": {
+    "HarnessMD/munder-difflin": 2,
+    "LibreChat-AI/LibreChat": 2,
+    "Twigpine/openclaude": 2,
+    "career-ops-hq/career-ops": 2,
+    "feder-cr/invisible_dots": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "method": "依 repo 描述、topics 與已知用途人工覆核；AI 模型、agent、MCP、Skills、RAG、wiki 與開發自動化保留。通用工具僅因出現在歷史快照不自動保留。",
+  "exclusion_reasons": {
+    "ByteByteGoHq/system-design-101": "一般系統設計教材，沒有 AI 或開發自動化功能證據。",
+    "InterceptSuite/ProxyBridge": "通用網路代理，不屬本次 AI／開發自動化範圍。",
+    "Open-Dev-Society/OpenStock": "一般市場行情平台，現有描述不足以判定 AI 或開發自動化關聯。",
+    "armory3d/armorpaint": "一般圖形創作工具，無明確 AI 關聯。",
+    "checkstyle/checkstyle": "一般 Java coding standard 檢查工具，非本次 AI 自動化主題。",
+    "kiali/kiali": "一般 service mesh 可觀測性工具。",
+    "llvm/llvm-project": "一般編譯器基礎建設，無本次 AI agent 直接關聯。",
+    "localsend/localsend": "一般跨平台檔案傳輸。",
+    "megadose/holehe": "一般帳號查詢工具，無 AI 或 developer automation 關聯。",
+    "sngyai/Sequoia-X": "自動選股平台，不屬指定 AI／知識管理／開發自動化主題。",
+    "tailscale/tailcat": "一般網路傳輸工具。",
+    "tldrsec/awesome-secure-defaults": "一般安全函式庫清單，無 AI agent 直接關聯。",
+    "xyflow/xyflow": "通用節點式 UI 元件庫，現有描述不構成 AI 自動化專案。",
+    "NationalSecurityAgency/ghidra": "一般逆向工程框架，僅作 REA 依賴背景，不獨立入選 AI 趨勢。"
+  },
+  "collected_count": 357,
+  "retained_count": 339,
+  "excluded_repositories": [
+    "ByteByteGoHq/system-design-101",
+    "InterceptSuite/ProxyBridge",
+    "Open-Dev-Society/OpenStock",
+    "armory3d/armorpaint",
+    "checkstyle/checkstyle",
+    "kiali/kiali",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "sngyai/Sequoia-X",
+    "tailscale/tailcat",
+    "tldrsec/awesome-secure-defaults",
+    "xyflow/xyflow"
+  ],
+  "trending_excluded": [
+    "NationalSecurityAgency/ghidra"
+  ],
+  "trending_added_by_metadata_review": [
+    "debpalash/VoiceStudio"
+  ],
+  "canonical_duplicates_collapsed": {
+    "HarnessMD/munder-difflin": 2,
+    "LibreChat-AI/LibreChat": 2,
+    "Twigpine/openclaude": 2,
+    "career-ops-hq/career-ops": 2,
+    "feder-cr/invisible_dots": 2
+  }
+}

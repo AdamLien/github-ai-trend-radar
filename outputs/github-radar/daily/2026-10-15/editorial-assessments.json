@@ -1,0 +1,95 @@
+{
+  "target_date": "2026-10-15",
+  "assessments": [
+    {
+      "name": "morluto/rea",
+      "category": "Deep research",
+      "purpose": "以 agent 串接原生執行檔、JavaScript／Electron、.NET 與網站的逆向分析，輸出證據及限制。",
+      "relevance": "適合 Adam 的 coding agent 課程，做「既有功能探索→有證據的規格→重新實作」示範；可把分析結論與來源整理進 know metabiz wiki。",
+      "risk": "爆量關注不等於分析正確；靜態推論可能誤判。僅以自有或獲授權的測試程式驗證，先檢查依賴與隔離設定。",
+      "issue": "4168",
+      "activity": "匯出形狀比對可能將不可達分支判成變更，顯示仍需人工核對分析結論。"
+    },
+    {
+      "name": "xerj-org/xerj",
+      "category": "Deep research",
+      "purpose": "本機自動索引程式、文件與 PDF，提供搜尋給 AI agent，用於 RAG 與參考實作查詢。",
+      "relevance": "最值得做 know metabiz wiki 的小型檢索實驗：用固定繁中問答集比較來源定位、召回率、索引成本與 token 使用；也能成為 AI 辦公自動化課程案例。",
+      "risk": "目前 release 為 RC；README 的節省倍率與 Elasticsearch 相容性需以實際資料驗證。索引含公司文件時須確認權限與輸出邊界。",
+      "issue": "1400",
+      "activity": "記憶體壓力與索引調節仍有修正 PR；高活動量也含 CLA／release 工作，不能直接視為已修復。"
+    },
+    {
+      "name": "mksglu/context-mode",
+      "category": "Watch",
+      "purpose": "以 MCP sandbox、輸出摘要與 session 記憶，降低 coding agent 的 context 負擔。",
+      "relevance": "適合 Adam 做長任務續接與工具輸出壓縮對照內容；辦公自動化可測大型 log／報表摘要，wiki 問答需確認引文沒有被摘要丟失。",
+      "risk": "API 授權欄位為 NOASSERTION，商用條件待讀取實際授權文件確認；README 98% 壓縮屬專案宣稱。issue API 回傳空陣列，與 open_issues 非零不一致，維護訊號不完整。",
+      "issue": null,
+      "activity": "本次 issue 樣本為空，不推論為沒有問題；也不以舊 release 代表近期主線已發版。"
+    },
+    {
+      "name": "affaan-m/ECC",
+      "category": "Skill candidate",
+      "purpose": "整合規劃、測試、審查、記憶、hooks 與可重用 skills 的 agent harness 工作流。",
+      "relevance": "可提煉 Adam 的研究、審稿與短影音分發課程練習；metabiz 可參考「工作結果→驗證→沉澱成 skill→寫回 wiki」的閉環。",
+      "risk": "整包安裝容易引入 hook 衝突與平台版本差異；先挑單一 skill 做隔離評估。現有開放 issue 顯示 worker 的成功回報仍需檢查。",
+      "issue": "3592",
+      "activity": "Codex worker 接到目錄任務可能在缺少指令時回報成功；應要求可查驗產物與完成條件。"
+    },
+    {
+      "name": "debpalash/VoiceStudio",
+      "category": "Demo content",
+      "purpose": "本機語音生成、聲音設計、配音、轉錄與有聲內容工具，提供多引擎選擇。",
+      "relevance": "直接連結 Adam 課程配音、繁中短影音與會議轉錄辦公流程；轉錄結果可先人工校正，再納入 know metabiz wiki。",
+      "risk": "AGPL-3.0 與各語音模型條件要分別確認；硬體需求、繁中發音與授權素材需實測。README 語言覆蓋數不等於各語言品質保證。",
+      "issue": "2902",
+      "activity": "有語言正規化刪除特殊字元的回報，另有桌面啟動問題；demo 應固定平台、引擎與版本。"
+    },
+    {
+      "name": "K-Dense-AI/scientific-agent-skills",
+      "category": "Skill candidate",
+      "purpose": "跨 agent 的科學研究 skills 集合，涵蓋資料分析、引用與研究資料庫工具。",
+      "relevance": "適合 Adam 講「領域流程如何封裝成 skill」，優先借鑑引用管理、文獻查找與圖表方法；辦公研究可用公開資料，wiki 保留引用與可重現步驟。",
+      "risk": "領域資料庫、套件與 API 依賴多；不把醫藥研究結果直接當專業建議。177 skills 與使用人數為專案陳述，沒有在本次全面驗證。",
+      "issue": "309",
+      "activity": "DOI BibTeX 的 UTF-8 解碼修正仍在 PR 樣本中，繁中引用與跨平台工具需另外驗證。"
+    },
+    {
+      "name": "anthropics/claude-plugins-official",
+      "category": "Reference only",
+      "purpose": "Anthropic 維護的 Claude Code plugin 目錄，包含內部與外部合作方 plugin。",
+      "relevance": "適合 Adam 課程示範 plugin 組成、版本與來源查核；metabiz 可作 AI 辦公工具盤點參考，wiki 記錄各 plugin 的資料存取範圍。",
+      "risk": "官方目錄包含第三方內容，品質與資料存取須逐項評估；目錄 star 成長不代表每個 plugin 的採用量或安全性。",
+      "issue": "6615",
+      "activity": "skill-creator eval viewer 遇特定輸出可能壞掉；課程若展示 eval 應先用固定測資預演。"
+    },
+    {
+      "name": "JuliusBrussee/caveman",
+      "category": "Demo content",
+      "purpose": "壓縮 agent 回答與工具輸入的 skill／proxy，探索 token 成本與結果品質的取捨。",
+      "relevance": "適合 Adam 做同題 A/B demo：固定模型、任務與工具回傳，量測 token、正確率及可讀性；公司辦公報表與 wiki 表格尤其要測語意保真。",
+      "risk": "README 的省 token 數字不能外推至所有任務；壓縮可能破壞表格或隱藏工具失效，不能只比較成本。",
+      "issue": "1272",
+      "activity": "HTML 資料頁可能失去表格結構；另有 native runtime 升級後空回應的回報，需納入回歸測試。"
+    },
+    {
+      "name": "nashsu/llm_wiki",
+      "category": "Watch",
+      "purpose": "讓 LLM 從來源逐步建立並維護互連 wiki，含來源追蹤、增量快取與選用向量搜尋。",
+      "relevance": "與 know metabiz wiki 最直接相關：可用公開文件比較增量更新、回到來源、匯出與人工審稿流程；也能做 Adam「RAG 與持久 wiki」課程對照。",
+      "risk": "API 授權標示 NOASSERTION，商用條件待確認；最新推送與 release 較舊。長文件成本與記憶體使用是正式採用前的門檻。",
+      "issue": "816",
+      "activity": "最新 issue 回報 OOM；另有長文件 ingest token 上限與週期掃描 CPU 使用問題，先小樣本觀察。"
+    },
+    {
+      "name": "ruvnet/ruflo",
+      "category": "Watch",
+      "purpose": "在 Claude Code／Codex 外加多 agent 協作、記憶、路由與工具編排的 meta-harness。",
+      "relevance": "可供 Adam 說明單 agent 與多 agent 的成本／可靠度差異；辦公自動化先從有限步驟的研究→整理→審查流程開始，wiki 僅接收經審閱的結果。",
+      "risk": "協作、記憶與 hook 增加維運面；README agent 數量不代表實際任務收益。近期 PR 涉及執行權限與並行一致性，需讀取變更後再試用。",
+      "issue": "4217",
+      "activity": "記憶／intelligence 計數有並行更新遺失的回報；近期 release 並不表示這些開放問題已解決。"
+    }
+  ]
+}
