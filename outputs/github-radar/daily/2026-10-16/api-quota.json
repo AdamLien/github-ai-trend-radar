@@ -1,0 +1,17 @@
+{
+  "observed_at": "2026-10-16T16:15:04.356751+00:00",
+  "resources": {
+    "core": {
+      "limit": 5000,
+      "remaining": 4628,
+      "used": 372,
+      "reset": 1792169342
+    },
+    "search": {
+      "limit": 30,
+      "remaining": 30,
+      "used": 0,
+      "reset": 1792167364
+    }
+  }
+}

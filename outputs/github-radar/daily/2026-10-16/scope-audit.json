@@ -1,0 +1,84 @@
+{
+  "raw_record_count": 359,
+  "retained_count": 342,
+  "excluded": [
+    {
+      "full_name": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，未證實以 AI 或開發自動化為主要用途。"
+    },
+    {
+      "full_name": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理轉送，未證實 AI／agent 整合。"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "reason": "一般行情平台，未證實 AI／LLM 工作流程。"
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "reason": "一般 3D 紋理繪圖工具，現有描述未證實 AI 功能。"
+    },
+    {
+      "full_name": "kiali/kiali",
+      "reason": "Istio service mesh 可觀測性，未見本期主題整合。"
+    },
+    {
+      "full_name": "llvm/llvm-project",
+      "reason": "通用編譯器工具鏈，非本期 AI／agent 自動化焦點。"
+    },
+    {
+      "full_name": "localsend/localsend",
+      "reason": "一般跨裝置檔案傳輸。"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "reason": "一般郵件 OSINT 工具，未見 MCP 或 AI 整合。"
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "reason": "傳統技術指標選股自動化，未證實 AI／LLM 或開發自動化。"
+    },
+    {
+      "full_name": "tailscale/tailcat",
+      "reason": "一般網路連線工具，未見 AI／agent 整合。"
+    },
+    {
+      "full_name": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全函式庫資源清單，非 AI／agent 或自動化焦點。"
+    },
+    {
+      "full_name": "xyflow/xyflow",
+      "reason": "通用節點 UI 函式庫，不能單憑 workflow 字樣視為 LLM 編排。"
+    }
+  ],
+  "canonical_duplicates_merged": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "Twigpine/openclaude",
+    "career-ops-hq/career-ops",
+    "feder-cr/invisible_dots"
+  ],
+  "trending_rejected": [
+    {
+      "full_name": "hmjz100/LinkSwift",
+      "reason": "一般網盤直連下載工具，未見 AI、MCP、Skills、知識管理或開發自動化用途。"
+    }
+  ],
+  "trending_manual_scope_additions": [
+    {
+      "full_name": "debpalash/VoiceStudio",
+      "reason": "AI 語音生成、配音與轉錄；既有追蹤保留了資料，本期人工補上 Trending 來源與當日星數。"
+    }
+  ],
+  "metadata_404_retained": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "developer_automation_reference": [
+    "checkstyle/checkstyle",
+    "dsherret/ts-morph"
+  ],
+  "scope_note": "AI 模型／訓練、MCP、Skills、agent、LLM、RAG、wiki／knowledge 與開發自動化納入；一般 UI、網路、行情與通用基礎設施未憑模糊子字串納入。checkstyle 與 ts-morph 以靜態檢查／程式碼修改自動化用途保留。"
+}

@@ -1,0 +1,556 @@
+[
+  {
+    "full_name": "anthropics/claude-plugins-official",
+    "observed_at": "2026-10-16T16:11:46.433921+00:00",
+    "recent_items": [
+      {
+        "number": 6717,
+        "html_url": "https://github.com/anthropics/claude-plugins-official/issues/6717",
+        "title": "plugin-dev: validate-agent.sh exits early on first validation error (set -e + ((count++)))",
+        "state": "open",
+        "created_at": "2026-10-16T16:00:18Z",
+        "updated_at": "2026-10-16T16:00:18Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 6447,
+        "html_url": "https://github.com/anthropics/claude-plugins-official/pull/6447",
+        "title": "bump(convex): 6ca54f6e → 4fdf6fc4",
+        "state": "open",
+        "created_at": "2026-10-11T07:45:30Z",
+        "updated_at": "2026-10-16T15:46:49Z",
+        "closed_at": null,
+        "comments": 2,
+        "is_pull_request": true
+      },
+      {
+        "number": 4349,
+        "html_url": "https://github.com/anthropics/claude-plugins-official/issues/4349",
+        "title": "telegram plugin: forum-topic messages lose their topic (replies, typing, and permission prompts all land in General)",
+        "state": "open",
+        "created_at": "2026-07-21T23:48:27Z",
+        "updated_at": "2026-10-16T14:58:30Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": false
+      },
+      {
+        "number": 836,
+        "html_url": "https://github.com/anthropics/claude-plugins-official/issues/836",
+        "title": "feat(telegram): supergroup topic routing for multi-project sessions",
+        "state": "open",
+        "created_at": "2026-03-20T23:29:20Z",
+        "updated_at": "2026-10-16T14:58:14Z",
+        "closed_at": null,
+        "comments": 5,
+        "is_pull_request": false
+      },
+      {
+        "number": 1158,
+        "html_url": "https://github.com/anthropics/claude-plugins-official/issues/1158",
+        "title": "Telegram plugin: Add forum topics (message_thread_id) support",
+        "state": "open",
+        "created_at": "2026-03-29T19:22:22Z",
+        "updated_at": "2026-10-16T14:54:58Z",
+        "closed_at": null,
+        "comments": 6,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "full_name": "K-Dense-AI/scientific-agent-skills",
+    "observed_at": "2026-10-16T16:11:47.004072+00:00",
+    "recent_items": [
+      {
+        "number": 325,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/325",
+        "title": "paper-lookup: correct OpenAlex rate limits and keyless cursor paging",
+        "state": "open",
+        "created_at": "2026-10-16T14:13:28Z",
+        "updated_at": "2026-10-16T14:14:10Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 324,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/issues/324",
+        "title": "[Bug]: security-triage.md describes an outdated security scan",
+        "state": "open",
+        "created_at": "2026-10-16T11:52:06Z",
+        "updated_at": "2026-10-16T11:52:06Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 310,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/310",
+        "title": "fix(docs): repair 404 documentation links in pacsomatic, scanpy, pennylane, scientific-slides",
+        "state": "open",
+        "created_at": "2026-10-14T16:24:49Z",
+        "updated_at": "2026-10-16T10:58:17Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 312,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/312",
+        "title": "fix(research-lookup): preserve short PubMed identifiers",
+        "state": "open",
+        "created_at": "2026-10-15T00:36:28Z",
+        "updated_at": "2026-10-16T10:43:58Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 305,
+        "html_url": "https://github.com/K-Dense-AI/scientific-agent-skills/pull/305",
+        "title": "fix(tooling): read and write reports and manifests as UTF-8",
+        "state": "open",
+        "created_at": "2026-10-14T16:01:59Z",
+        "updated_at": "2026-10-16T10:13:22Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      }
+    ]
+  },
+  {
+    "full_name": "affaan-m/ECC",
+    "observed_at": "2026-10-16T16:11:47.549332+00:00",
+    "recent_items": [
+      {
+        "number": 3614,
+        "html_url": "https://github.com/affaan-m/ECC/pull/3614",
+        "title": "fix(opencode): declined-hooks plugin stub fails the V2 loader schema (refs #3537)",
+        "state": "open",
+        "created_at": "2026-10-16T15:01:20Z",
+        "updated_at": "2026-10-16T15:21:02Z",
+        "closed_at": null,
+        "comments": 10,
+        "is_pull_request": true
+      },
+      {
+        "number": 3613,
+        "html_url": "https://github.com/affaan-m/ECC/pull/3613",
+        "title": "feat(skills): add OpenAlex database skill",
+        "state": "open",
+        "created_at": "2026-10-16T14:23:15Z",
+        "updated_at": "2026-10-16T15:04:53Z",
+        "closed_at": null,
+        "comments": 14,
+        "is_pull_request": true
+      },
+      {
+        "number": 3537,
+        "html_url": "https://github.com/affaan-m/ECC/issues/3537",
+        "title": "OpenCode V2 fails to load ECC plugin (V1 format: needs id + setup)",
+        "state": "open",
+        "created_at": "2026-10-12T07:17:21Z",
+        "updated_at": "2026-10-16T15:01:33Z",
+        "closed_at": null,
+        "comments": 8,
+        "is_pull_request": false
+      },
+      {
+        "number": 3598,
+        "html_url": "https://github.com/affaan-m/ECC/pull/3598",
+        "title": "feat(skill): add ECC contribution review workflow",
+        "state": "open",
+        "created_at": "2026-10-15T21:23:48Z",
+        "updated_at": "2026-10-16T14:52:57Z",
+        "closed_at": null,
+        "comments": 39,
+        "is_pull_request": true
+      },
+      {
+        "number": 3612,
+        "html_url": "https://github.com/affaan-m/ECC/pull/3612",
+        "title": "feat(skills): add Godot 4 pack (godot-patterns, godot-testing, gdscript-reviewer)",
+        "state": "open",
+        "created_at": "2026-10-16T14:05:41Z",
+        "updated_at": "2026-10-16T14:34:43Z",
+        "closed_at": null,
+        "comments": 21,
+        "is_pull_request": true
+      }
+    ]
+  },
+  {
+    "full_name": "HKUDS/CLI-Anything",
+    "observed_at": "2026-10-16T16:11:48.110010+00:00",
+    "recent_items": [
+      {
+        "number": 565,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/issues/565",
+        "title": "[Bug]: obsidian: note paths are not percent-encoded — names with '#' or '?' hit the wrong note; create/update can silently overwrite a different note",
+        "state": "open",
+        "created_at": "2026-10-16T14:25:04Z",
+        "updated_at": "2026-10-16T14:25:04Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 564,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/issues/564",
+        "title": "[Bug]: nslogger merge crashes with TypeError when any message lacks a timestamp part (naive vs aware datetime in sort key)",
+        "state": "open",
+        "created_at": "2026-10-16T14:24:18Z",
+        "updated_at": "2026-10-16T14:24:18Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 563,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/563",
+        "title": "feat: register standalone ASUS Router Agent CLI",
+        "state": "open",
+        "created_at": "2026-10-15T20:38:49Z",
+        "updated_at": "2026-10-15T20:44:19Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": true
+      },
+      {
+        "number": 562,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/562",
+        "title": "fix(blender): fall back to copies for live preview on Windows",
+        "state": "open",
+        "created_at": "2026-10-15T04:50:04Z",
+        "updated_at": "2026-10-15T04:50:38Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": true
+      },
+      {
+        "number": 561,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/561",
+        "title": "docs: correct Inkscape and OBS install instructions",
+        "state": "open",
+        "created_at": "2026-10-15T04:25:43Z",
+        "updated_at": "2026-10-15T04:37:09Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": true
+      }
+    ]
+  },
+  {
+    "full_name": "mksglu/context-mode",
+    "observed_at": "2026-10-16T16:11:48.653994+00:00",
+    "recent_items": []
+  },
+  {
+    "full_name": "ruvnet/ruflo",
+    "observed_at": "2026-10-16T16:11:49.048739+00:00",
+    "recent_items": [
+      {
+        "number": 4189,
+        "html_url": "https://github.com/ruvnet/ruflo/pull/4189",
+        "title": "release: 3.56.10",
+        "state": "closed",
+        "created_at": "2026-10-14T14:25:44Z",
+        "updated_at": "2026-10-16T14:52:36Z",
+        "closed_at": "2026-10-14T16:21:55Z",
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 3950,
+        "html_url": "https://github.com/ruvnet/ruflo/pull/3950",
+        "title": "feat(marketplace): install Agentic QE (agentic-qe-fleet) from the ruflo marketplace",
+        "state": "open",
+        "created_at": "2026-10-09T18:06:09Z",
+        "updated_at": "2026-10-16T11:05:08Z",
+        "closed_at": null,
+        "comments": 20,
+        "is_pull_request": true
+      },
+      {
+        "number": 4232,
+        "html_url": "https://github.com/ruvnet/ruflo/issues/4232",
+        "title": "toni",
+        "state": "open",
+        "created_at": "2026-10-16T10:09:59Z",
+        "updated_at": "2026-10-16T10:09:59Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 4226,
+        "html_url": "https://github.com/ruvnet/ruflo/issues/4226",
+        "title": "MCP bridge on loopback accepts tool calls from any web page",
+        "state": "open",
+        "created_at": "2026-10-16T01:54:25Z",
+        "updated_at": "2026-10-16T08:53:32Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": false
+      },
+      {
+        "number": 4216,
+        "html_url": "https://github.com/ruvnet/ruflo/pull/4216",
+        "title": "fix(policy): authenticate retained ledgers and stream full audits with fenced writers",
+        "state": "open",
+        "created_at": "2026-10-15T09:33:09Z",
+        "updated_at": "2026-10-16T07:57:53Z",
+        "closed_at": null,
+        "comments": 3,
+        "is_pull_request": true
+      }
+    ]
+  },
+  {
+    "full_name": "obra/superpowers",
+    "observed_at": "2026-10-16T16:11:49.642080+00:00",
+    "recent_items": [
+      {
+        "number": 2533,
+        "html_url": "https://github.com/obra/superpowers/pull/2533",
+        "title": "fix(muse): invoke session-start hook via bash instead of sh (#2528)",
+        "state": "open",
+        "created_at": "2026-10-16T05:10:06Z",
+        "updated_at": "2026-10-16T14:20:14Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": true
+      },
+      {
+        "number": 2538,
+        "html_url": "https://github.com/obra/superpowers/pull/2538",
+        "title": "fix(lint-shell): print full header comment for --help",
+        "state": "open",
+        "created_at": "2026-10-16T08:29:02Z",
+        "updated_at": "2026-10-16T10:18:47Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 2505,
+        "html_url": "https://github.com/obra/superpowers/issues/2505",
+        "title": "SessionStart hook never runs in Claude desktop SSH remote sessions; naming the hooks file in plugin.json fixes it",
+        "state": "open",
+        "created_at": "2026-10-12T17:30:02Z",
+        "updated_at": "2026-10-16T10:09:38Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 2504,
+        "html_url": "https://github.com/obra/superpowers/pull/2504",
+        "title": "fix(codex): fall back to sha256sum when shasum is unavailable",
+        "state": "open",
+        "created_at": "2026-10-12T15:48:47Z",
+        "updated_at": "2026-10-16T10:01:28Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 2530,
+        "html_url": "https://github.com/obra/superpowers/issues/2530",
+        "title": "v7's brainstorm questions are rather annoying",
+        "state": "open",
+        "created_at": "2026-10-16T03:32:58Z",
+        "updated_at": "2026-10-16T10:00:27Z",
+        "closed_at": null,
+        "comments": 1,
+        "is_pull_request": false
+      }
+    ]
+  },
+  {
+    "full_name": "xerj-org/xerj",
+    "observed_at": "2026-10-16T16:11:50.192575+00:00",
+    "recent_items": [
+      {
+        "number": 1397,
+        "html_url": "https://github.com/xerj-org/xerj/pull/1397",
+        "title": "release(rc.96): version stamp, CHANGELOG, ROADMAP roll, landing + footer sweep",
+        "state": "closed",
+        "created_at": "2026-10-14T09:28:25Z",
+        "updated_at": "2026-10-16T16:02:15Z",
+        "closed_at": "2026-10-16T16:02:15Z",
+        "comments": 4,
+        "is_pull_request": true
+      },
+      {
+        "number": 1505,
+        "html_url": "https://github.com/xerj-org/xerj/pull/1505",
+        "title": "hub: set HUB_PUBKEY_HEX to the public half of HUB_SIGNING_SEED",
+        "state": "open",
+        "created_at": "2026-10-16T11:07:39Z",
+        "updated_at": "2026-10-16T16:02:23Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 1467,
+        "html_url": "https://github.com/xerj-org/xerj/pull/1467",
+        "title": "fix(api,common): escalate low-confidence history votes to local decide tier (#1094)",
+        "state": "closed",
+        "created_at": "2026-10-15T23:43:41Z",
+        "updated_at": "2026-10-16T13:44:15Z",
+        "closed_at": "2026-10-16T13:44:15Z",
+        "comments": 2,
+        "is_pull_request": true
+      },
+      {
+        "number": 1094,
+        "html_url": "https://github.com/xerj-org/xerj/issues/1094",
+        "title": "decision flywheel: write-back freezes once the history index has BM25 support — 12 of 2,000 fill answers cached",
+        "state": "closed",
+        "created_at": "2026-10-01T00:47:18Z",
+        "updated_at": "2026-10-16T13:44:09Z",
+        "closed_at": "2026-10-16T13:44:09Z",
+        "comments": 2,
+        "is_pull_request": false
+      },
+      {
+        "number": 1503,
+        "html_url": "https://github.com/xerj-org/xerj/pull/1503",
+        "title": "fix(api,common): escalate low-confidence history votes to the local decide tier (carries #1467)",
+        "state": "closed",
+        "created_at": "2026-10-16T08:28:18Z",
+        "updated_at": "2026-10-16T13:44:08Z",
+        "closed_at": "2026-10-16T13:44:08Z",
+        "comments": 0,
+        "is_pull_request": true
+      }
+    ]
+  },
+  {
+    "full_name": "MadsLorentzen/ai-job-search",
+    "observed_at": "2026-10-16T16:11:50.869048+00:00",
+    "recent_items": [
+      {
+        "number": 591,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/591",
+        "title": "fix(upstream): preserve selected refs in companion commands",
+        "state": "open",
+        "created_at": "2026-10-16T14:50:56Z",
+        "updated_at": "2026-10-16T14:55:24Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 592,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/592",
+        "title": "fix(salary): parse Unicode whitespace grouping",
+        "state": "open",
+        "created_at": "2026-10-16T14:52:58Z",
+        "updated_at": "2026-10-16T14:52:58Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 587,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/587",
+        "title": "fix(upstream): use UTF-8 for framework version checks",
+        "state": "open",
+        "created_at": "2026-10-16T14:43:45Z",
+        "updated_at": "2026-10-16T14:52:30Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 590,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/590",
+        "title": "fix(salary): skip chart-only workbook tabs",
+        "state": "open",
+        "created_at": "2026-10-16T14:49:15Z",
+        "updated_at": "2026-10-16T14:49:15Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 561,
+        "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/561",
+        "title": "fix(freehire-search): reject empty facet filters before searching",
+        "state": "closed",
+        "created_at": "2026-10-13T17:25:27Z",
+        "updated_at": "2026-10-16T14:47:43Z",
+        "closed_at": "2026-10-15T16:16:00Z",
+        "comments": 1,
+        "is_pull_request": true
+      }
+    ]
+  },
+  {
+    "full_name": "nashsu/llm_wiki",
+    "observed_at": "2026-10-16T16:11:51.468984+00:00",
+    "recent_items": [
+      {
+        "number": 817,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/817",
+        "title": "feat: Add Vietnamese (vi.json) + README_VI.md",
+        "state": "open",
+        "created_at": "2026-10-15T09:55:16Z",
+        "updated_at": "2026-10-15T09:55:16Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 816,
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/816",
+        "title": "oom killed",
+        "state": "open",
+        "created_at": "2026-10-15T01:18:21Z",
+        "updated_at": "2026-10-15T01:18:21Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": false
+      },
+      {
+        "number": 815,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/815",
+        "title": "feat: add GitHub Copilot device-auth text provider",
+        "state": "open",
+        "created_at": "2026-10-13T06:25:26Z",
+        "updated_at": "2026-10-13T06:25:26Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      },
+      {
+        "number": 645,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/645",
+        "title": "feat: add option to ignore ssl cert error behind http proxy",
+        "state": "closed",
+        "created_at": "2026-08-04T14:49:43Z",
+        "updated_at": "2026-10-13T03:31:48Z",
+        "closed_at": "2026-10-13T03:31:47Z",
+        "comments": 1,
+        "is_pull_request": true
+      },
+      {
+        "number": 814,
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/814",
+        "title": "fix(file-sync): ignore read-only watcher events to stop a self-triggered rescan loop",
+        "state": "open",
+        "created_at": "2026-10-10T17:26:53Z",
+        "updated_at": "2026-10-10T17:26:53Z",
+        "closed_at": null,
+        "comments": 0,
+        "is_pull_request": true
+      }
+    ]
+  }
+]
