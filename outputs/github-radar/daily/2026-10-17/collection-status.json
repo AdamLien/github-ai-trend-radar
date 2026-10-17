@@ -1,0 +1,25 @@
+{
+  "target_date": "2026-10-17",
+  "started_at": "2026-10-17T16:10:58.938844+00:00",
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "trending_url": "https://github.com/trending?since=daily"
+}

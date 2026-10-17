@@ -1,0 +1,34 @@
+{
+  "raw_count": 360,
+  "retained_count": 343,
+  "merged_duplicate_names": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "Twigpine/openclaude",
+    "career-ops-hq/career-ops",
+    "feder-cr/invisible_dots"
+  ],
+  "excluded": {
+    "ByteByteGoHq/system-design-101": "一般系統設計教材，非 AI／agent／開發自動化專案",
+    "InterceptSuite/ProxyBridge": "一般網路代理工具",
+    "Open-Dev-Society/OpenStock": "一般市場追蹤平台，未見 AI 或指定主題證據",
+    "armory3d/armorpaint": "一般圖像創作軟體",
+    "kiali/kiali": "一般 service mesh 觀測工具",
+    "llvm/llvm-project": "一般編譯器與工具鏈",
+    "localsend/localsend": "一般檔案傳輸工具",
+    "megadose/holehe": "一般帳號調查工具",
+    "sngyai/Sequoia-X": "技術形態股票掃描，未見 AI 或開發自動化證據",
+    "tailscale/tailcat": "一般網路連線工具",
+    "tldrsec/awesome-secure-defaults": "一般安全程式庫清單",
+    "xyflow/xyflow": "通用節點 UI 程式庫，未見本專案專注 AI／agent 編排證據"
+  },
+  "retained_stale": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "trending_additions": {
+    "debpalash/VoiceStudio": "AI 語音生成及轉錄，符合 AI 範圍；補上榜單訊號"
+  }
+}
