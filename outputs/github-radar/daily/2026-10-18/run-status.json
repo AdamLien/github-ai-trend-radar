@@ -1,0 +1,36 @@
+{
+  "target_date": "2026-10-18",
+  "observed_at": "2026-10-18T16:10:51.539987+00:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false
+    }
+  ],
+  "repository_count": 358,
+  "stale_404_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "trending_evidence_file": "trending-evidence.json",
+  "supplemented_trending_repos": [
+    "debpalash/VoiceStudio",
+    "Comfy-Org/ComfyUI"
+  ]
+}

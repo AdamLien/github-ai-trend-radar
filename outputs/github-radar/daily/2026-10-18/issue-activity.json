@@ -1,0 +1,505 @@
+{
+  "observed_at": "2026-10-18T16:12:38.344689+00:00",
+  "repos": {
+    "MadsLorentzen/ai-job-search": {
+      "source_url": "https://api.github.com/repos/MadsLorentzen/ai-job-search/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 638,
+          "url": "https://github.com/MadsLorentzen/ai-job-search/pull/638",
+          "title": "docs(rank): clarify posting search during retrieval",
+          "state": "open",
+          "updated_at": "2026-10-18T15:12:11Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 637,
+          "url": "https://github.com/MadsLorentzen/ai-job-search/pull/637",
+          "title": "fix(job-key): fold Latin letters without an NFKD decomposition and add --audit --migrate",
+          "state": "open",
+          "updated_at": "2026-10-18T14:49:26Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 636,
+          "url": "https://github.com/MadsLorentzen/ai-job-search/pull/636",
+          "title": "fix(rank): report a non-object seen_jobs.json entry instead of a traceback",
+          "state": "open",
+          "updated_at": "2026-10-18T13:10:20Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 635,
+          "url": "https://github.com/MadsLorentzen/ai-job-search/pull/635",
+          "title": "fix(rank): report malformed scoring results in apply instead of a traceback",
+          "state": "open",
+          "updated_at": "2026-10-18T13:05:19Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 634,
+          "url": "https://github.com/MadsLorentzen/ai-job-search/pull/634",
+          "title": "fix(job-key): report a non-string url in --audit instead of a traceback",
+          "state": "open",
+          "updated_at": "2026-10-18T13:03:06Z",
+          "comments": 0,
+          "is_pull_request": true
+        }
+      ]
+    },
+    "debpalash/VoiceStudio": {
+      "source_url": "https://api.github.com/repos/debpalash/VoiceStudio/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 2988,
+          "url": "https://github.com/debpalash/VoiceStudio/issues/2988",
+          "title": "[Bug] The Python environment in C:\\Windows\\System32\\VoiceStudio is missing (no .venv\\S",
+          "state": "open",
+          "updated_at": "2026-10-18T16:11:08Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "number": 2987,
+          "url": "https://github.com/debpalash/VoiceStudio/issues/2987",
+          "title": "✅ [Install & FIX] VoiceStudio — Backend, CUDA & Python Errors Fixed",
+          "state": "open",
+          "updated_at": "2026-10-18T15:52:46Z",
+          "comments": 5,
+          "is_pull_request": false
+        },
+        {
+          "number": 2986,
+          "url": "https://github.com/debpalash/VoiceStudio/pull/2986",
+          "title": "fix(dub): stop segment time fields from committing their rounding",
+          "state": "open",
+          "updated_at": "2026-10-18T13:58:25Z",
+          "comments": 4,
+          "is_pull_request": true
+        },
+        {
+          "number": 2586,
+          "url": "https://github.com/debpalash/VoiceStudio/issues/2586",
+          "title": "Contributor License Agreement: sign here",
+          "state": "open",
+          "updated_at": "2026-10-18T13:51:34Z",
+          "comments": 43,
+          "is_pull_request": false
+        },
+        {
+          "number": 2985,
+          "url": "https://github.com/debpalash/VoiceStudio/issues/2985",
+          "title": "[Bug] Backend did not answer on port 3900 within 300 s (OMNIVOICE_STARTUP_BUDGET_S). C",
+          "state": "open",
+          "updated_at": "2026-10-18T13:07:43Z",
+          "comments": 0,
+          "is_pull_request": false
+        }
+      ]
+    },
+    "anthropics/claude-plugins-official": {
+      "source_url": "https://api.github.com/repos/anthropics/claude-plugins-official/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 6785,
+          "url": "https://github.com/anthropics/claude-plugins-official/pull/6785",
+          "title": "math-proof: web access and Python checks on by default; record the final round before writing the proof",
+          "state": "open",
+          "updated_at": "2026-10-18T16:06:55Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 6784,
+          "url": "https://github.com/anthropics/claude-plugins-official/issues/6784",
+          "title": "✅ [Easy Install] claude-plugins-official — Latest Stable Release",
+          "state": "open",
+          "updated_at": "2026-10-18T15:56:03Z",
+          "comments": 6,
+          "is_pull_request": false
+        },
+        {
+          "number": 6783,
+          "url": "https://github.com/anthropics/claude-plugins-official/issues/6783",
+          "title": "✅ [Easy Install] claude-plugins-official — Latest Stable Release",
+          "state": "open",
+          "updated_at": "2026-10-18T15:54:56Z",
+          "comments": 9,
+          "is_pull_request": false
+        },
+        {
+          "number": 6782,
+          "url": "https://github.com/anthropics/claude-plugins-official/issues/6782",
+          "title": "✅ [Easy Install] claude-plugins-official — Latest Stable Release",
+          "state": "open",
+          "updated_at": "2026-10-18T15:54:32Z",
+          "comments": 9,
+          "is_pull_request": false
+        },
+        {
+          "number": 6781,
+          "url": "https://github.com/anthropics/claude-plugins-official/issues/6781",
+          "title": "✅ [Easy Install] claude-plugins-official — Latest Stable Release",
+          "state": "open",
+          "updated_at": "2026-10-18T15:27:55Z",
+          "comments": 9,
+          "is_pull_request": false
+        }
+      ]
+    },
+    "stablyai/orca": {
+      "source_url": "https://api.github.com/repos/stablyai/orca/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 30373,
+          "url": "https://github.com/stablyai/orca/pull/30373",
+          "title": "refactor(runtime): import runtime helpers from their owning modules, not re-export shims",
+          "state": "open",
+          "updated_at": "2026-10-18T16:08:49Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 30209,
+          "url": "https://github.com/stablyai/orca/pull/30209",
+          "title": "feat(settings): add global default worktree hook scripts",
+          "state": "open",
+          "updated_at": "2026-10-18T16:08:37Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 30370,
+          "url": "https://github.com/stablyai/orca/pull/30370",
+          "title": "refactor: import renderer runtime, shared remote-runtime and orcad helpers from their owning modules",
+          "state": "open",
+          "updated_at": "2026-10-18T16:06:23Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 21791,
+          "url": "https://github.com/stablyai/orca/issues/21791",
+          "title": "Generated worker preamble teaches the bare `orchestration check`, which hides newer coordinator mail (#16522)",
+          "state": "open",
+          "updated_at": "2026-10-18T16:05:07Z",
+          "comments": 3,
+          "is_pull_request": false
+        },
+        {
+          "number": 21226,
+          "url": "https://github.com/stablyai/orca/issues/21226",
+          "title": "[Bug]: orchestration inbox --terminal returns a bare count:0 when fenced or differently scoped, byte-identical to an empty mailbox",
+          "state": "open",
+          "updated_at": "2026-10-18T16:03:41Z",
+          "comments": 3,
+          "is_pull_request": false
+        }
+      ]
+    },
+    "akitaonrails/ai-memory": {
+      "source_url": "https://api.github.com/repos/akitaonrails/ai-memory/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 1423,
+          "url": "https://github.com/akitaonrails/ai-memory/pull/1423",
+          "title": "fix(store): omit TTL-expired pages from memory health counts and details",
+          "state": "open",
+          "updated_at": "2026-10-18T15:52:56Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 1422,
+          "url": "https://github.com/akitaonrails/ai-memory/pull/1422",
+          "title": "fix(store): verify latest unexpired pages in cross_project_degree",
+          "state": "open",
+          "updated_at": "2026-10-18T15:51:06Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 1421,
+          "url": "https://github.com/akitaonrails/ai-memory/pull/1421",
+          "title": "fix(hooks): require write access to record a project's [profile] flags",
+          "state": "open",
+          "updated_at": "2026-10-18T12:41:49Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 1420,
+          "url": "https://github.com/akitaonrails/ai-memory/pull/1420",
+          "title": "fix(hooks): never read server-side files named in a hook payload",
+          "state": "open",
+          "updated_at": "2026-10-18T12:41:46Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 1419,
+          "url": "https://github.com/akitaonrails/ai-memory/pull/1419",
+          "title": "fix(wiki): fall back to the target when an exported wikilink's label is empty",
+          "state": "open",
+          "updated_at": "2026-10-18T12:28:43Z",
+          "comments": 0,
+          "is_pull_request": true
+        }
+      ]
+    },
+    "cursor/plugins": {
+      "source_url": "https://api.github.com/repos/cursor/plugins/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 649,
+          "url": "https://github.com/cursor/plugins/pull/649",
+          "title": "[directmailamerica] Add DirectMailAmerica plugin",
+          "state": "open",
+          "updated_at": "2026-10-18T14:06:38Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 711,
+          "url": "https://github.com/cursor/plugins/pull/711",
+          "title": "Add Kimi Code plugin manifest for pstack",
+          "state": "closed",
+          "updated_at": "2026-10-18T12:09:42Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 710,
+          "url": "https://github.com/cursor/plugins/pull/710",
+          "title": "chore(pstack): bump to 0.15.26",
+          "state": "closed",
+          "updated_at": "2026-10-18T07:31:09Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 709,
+          "url": "https://github.com/cursor/plugins/pull/709",
+          "title": "feat(pstack): add /create-formal-verification-skill",
+          "state": "closed",
+          "updated_at": "2026-10-18T06:20:28Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 708,
+          "url": "https://github.com/cursor/plugins/pull/708",
+          "title": "fix(pstack): say outright that ketchup never cuts items to stay under a word count",
+          "state": "closed",
+          "updated_at": "2026-10-18T05:57:19Z",
+          "comments": 0,
+          "is_pull_request": true
+        }
+      ]
+    },
+    "HKUDS/CLI-Anything": {
+      "source_url": "https://api.github.com/repos/HKUDS/CLI-Anything/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 586,
+          "url": "https://github.com/HKUDS/CLI-Anything/pull/586",
+          "title": "fix(3mf): preserve float64 vertex precision",
+          "state": "open",
+          "updated_at": "2026-10-18T09:50:10Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 584,
+          "url": "https://github.com/HKUDS/CLI-Anything/pull/584",
+          "title": "fix(freecad): export part-based boolean operations",
+          "state": "open",
+          "updated_at": "2026-10-18T09:45:42Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 585,
+          "url": "https://github.com/HKUDS/CLI-Anything/pull/585",
+          "title": "fix(qgis): support field enums on QGIS 3.34",
+          "state": "open",
+          "updated_at": "2026-10-18T09:43:54Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 580,
+          "url": "https://github.com/HKUDS/CLI-Anything/pull/580",
+          "title": "fix(freecad): correct primitive center-of-mass",
+          "state": "open",
+          "updated_at": "2026-10-18T07:52:44Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 583,
+          "url": "https://github.com/HKUDS/CLI-Anything/issues/583",
+          "title": "qgis: layer create-vector fails on QGIS 3.34",
+          "state": "open",
+          "updated_at": "2026-10-18T00:43:01Z",
+          "comments": 0,
+          "is_pull_request": false
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "source_url": "https://api.github.com/repos/nashsu/llm_wiki/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 821,
+          "url": "https://github.com/nashsu/llm_wiki/issues/821",
+          "title": "phase 3: add private read-only WikiToolServer for Pi",
+          "state": "open",
+          "updated_at": "2026-10-17T08:02:16Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "number": 823,
+          "url": "https://github.com/nashsu/llm_wiki/issues/823",
+          "title": "phase 5: accept Phase 1 Pi read-only Chat and prepare release",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:34Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "number": 822,
+          "url": "https://github.com/nashsu/llm_wiki/issues/822",
+          "title": "phase 4: unify Pi events, cancellation, errors, and fallback",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:31Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "number": 820,
+          "url": "https://github.com/nashsu/llm_wiki/issues/820",
+          "title": "phase 2: implement Pi RPC text Chat",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:26Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "number": 819,
+          "url": "https://github.com/nashsu/llm_wiki/issues/819",
+          "title": "phase 1: define HarnessAdapter contract and test adapter",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:23Z",
+          "comments": 0,
+          "is_pull_request": false
+        }
+      ]
+    },
+    "ruvnet/ruflo": {
+      "source_url": "https://api.github.com/repos/ruvnet/ruflo/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 4276,
+          "url": "https://github.com/ruvnet/ruflo/pull/4276",
+          "title": "fix(ruflo-console): stop pre-#4237 missions leaking into every project (#4254), console 0.44.4",
+          "state": "open",
+          "updated_at": "2026-10-18T15:55:49Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "number": 4278,
+          "url": "https://github.com/ruvnet/ruflo/pull/4278",
+          "title": "chore(deps): pin @ruvector/rvf to 0.3.4",
+          "state": "open",
+          "updated_at": "2026-10-18T15:34:35Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 4277,
+          "url": "https://github.com/ruvnet/ruflo/pull/4277",
+          "title": "fix: rebuild codex-mod native bundles and improve Windows compatibility",
+          "state": "open",
+          "updated_at": "2026-10-18T15:31:51Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 4275,
+          "url": "https://github.com/ruvnet/ruflo/pull/4275",
+          "title": "Fix command examples in the user guide that fail when copied",
+          "state": "open",
+          "updated_at": "2026-10-18T15:29:10Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "number": 4254,
+          "url": "https://github.com/ruvnet/ruflo/issues/4254",
+          "title": "ruflo-console: mission-ledger.active is global, bleeds a mission from one project into every other project's cockpit",
+          "state": "open",
+          "updated_at": "2026-10-18T15:05:35Z",
+          "comments": 1,
+          "is_pull_request": false
+        }
+      ]
+    },
+    "anomalyco/opencode": {
+      "source_url": "https://api.github.com/repos/anomalyco/opencode/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 56837,
+          "url": "https://github.com/anomalyco/opencode/issues/56837",
+          "title": "[FEATURE]: Desktop: add quick access to MCP server toggles",
+          "state": "open",
+          "updated_at": "2026-10-18T16:12:14Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "number": 56816,
+          "url": "https://github.com/anomalyco/opencode/issues/56816",
+          "title": "Config: custom provider under \"providers\" is accepted but silently drops npm and options.baseURL (v2.0.32)",
+          "state": "open",
+          "updated_at": "2026-10-18T16:11:24Z",
+          "comments": 2,
+          "is_pull_request": false
+        },
+        {
+          "number": 56602,
+          "url": "https://github.com/anomalyco/opencode/issues/56602",
+          "title": "config: V2 silently ignores MCP servers defined directly under `mcp` instead of `mcp.servers`",
+          "state": "closed",
+          "updated_at": "2026-10-18T16:10:41Z",
+          "comments": 3,
+          "is_pull_request": false
+        },
+        {
+          "number": 56836,
+          "url": "https://github.com/anomalyco/opencode/issues/56836",
+          "title": "[FEATURE]: Reply to a chat selection with a quote in the Desktop app",
+          "state": "open",
+          "updated_at": "2026-10-18T16:10:24Z",
+          "comments": 1,
+          "is_pull_request": false
+        },
+        {
+          "number": 56115,
+          "url": "https://github.com/anomalyco/opencode/issues/56115",
+          "title": "Plugin host API: expose inbox cancel and a busy query to plugins",
+          "state": "open",
+          "updated_at": "2026-10-18T16:08:38Z",
+          "comments": 2,
+          "is_pull_request": false
+        }
+      ]
+    }
+  }
+}
