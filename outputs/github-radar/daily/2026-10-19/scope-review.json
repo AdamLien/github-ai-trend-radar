@@ -1,0 +1,61 @@
+{
+  "excluded": [
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "現有用途為一般網路、繪圖、基礎開發、金融或 UI 工具，缺乏直接 AI／agent／知識庫／開發自動化用途證據。"
+    }
+  ],
+  "trending_supplements": [
+    "Comfy-Org/ComfyUI",
+    "Kruk2/jasna",
+    "shiyu-coder/Kronos"
+  ],
+  "historical_fallbacks": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "canonical_deduplication": true,
+  "retained_count": 349
+}

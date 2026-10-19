@@ -1,0 +1,6 @@
+{
+  "upstream": "origin/main",
+  "ssh_remote": true,
+  "ssh_read_authorized": true,
+  "preflight_exit_code": 0
+}

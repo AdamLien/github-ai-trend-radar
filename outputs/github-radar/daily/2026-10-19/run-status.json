@@ -1,0 +1,34 @@
+{
+  "target_date": "2026-10-19",
+  "collected_at": "2026-10-20T00:10:50.908384+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "collection_finished": true,
+  "analysis_repos": 10,
+  "retained_repos": 349,
+  "issue_evidence_requests": 10,
+  "issue_evidence_errors": 0,
+  "required_artifacts": "PASS",
+  "dashboard_build": "PASS",
+  "dashboard_build_warning": "Vite chunk exceeds 500 kB; build succeeded",
+  "preexisting_files_preserved": true,
+  "finished_at": "2026-10-20T00:23:15.036433+08:00"
+}
