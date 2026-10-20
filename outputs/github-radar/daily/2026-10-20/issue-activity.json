@@ -1,0 +1,1525 @@
+{
+  "observed_at": "2026-10-20T16:20:46.949643+00:00",
+  "repos": {
+    "MadsLorentzen/ai-job-search": {
+      "source": "https://api.github.com/repos/MadsLorentzen/ai-job-search/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 672,
+          "title": "fix(portal-clis): reject foreign detail URLs in Jobbank and Jobnet",
+          "state": "closed",
+          "updated_at": "2026-10-20T15:47:15Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/672",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 706,
+          "title": "fix(jobnet-search): keep canonical portal url and emit destination in applyUrl (closes #701)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:30:54Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/706",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 671,
+          "title": "test(reset): select a working Bash instead of an unusable WSL launcher",
+          "state": "closed",
+          "updated_at": "2026-10-20T15:26:56Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/671",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 664,
+          "title": "fix(salary): skip Excel logical cells instead of importing them as numbers",
+          "state": "open",
+          "updated_at": "2026-10-20T15:25:44Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/664",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 701,
+          "title": "jobnet external ads: the employer URL in `url` (#557) trips /scrape's degraded scan and routes the ad away from `jobnet detail` under #562's host routing",
+          "state": "open",
+          "updated_at": "2026-10-20T15:18:42Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/issues/701",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 653,
+          "title": "fix(scrape): send one plain term per CLI call and make portals state their query syntax (#536)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:01:57Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/653",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 696,
+          "title": "fix(job-scraper): separate CLI terms from fallback and add per-portal query syntax (closes #536)",
+          "state": "closed",
+          "updated_at": "2026-10-20T14:49:29Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/696",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 705,
+          "title": "fetch_page.py fails on every Windows fetch: System32 curl.exe rejects --compressed",
+          "state": "open",
+          "updated_at": "2026-10-20T14:29:11Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/issues/705",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 550,
+          "title": "fix(jobnet-search): emit source: search-fallback on stdout for external ads (#549)",
+          "state": "open",
+          "updated_at": "2026-10-20T14:16:32Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/550",
+          "is_pull_request": true,
+          "comments": 4
+        },
+        {
+          "number": 704,
+          "title": "fix(posting-guard): quote the part of a long line that triggered the flag",
+          "state": "open",
+          "updated_at": "2026-10-20T14:12:28Z",
+          "html_url": "https://github.com/MadsLorentzen/ai-job-search/pull/704",
+          "is_pull_request": true,
+          "comments": 0
+        }
+      ]
+    },
+    "stablyai/orca": {
+      "source": "https://api.github.com/repos/stablyai/orca/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 21745,
+          "title": "[Bug]: orchestration mail pointer answers a Claude AskUserQuestion — the delayed Enter selects the highlighted option while the pane reads as idle",
+          "state": "open",
+          "updated_at": "2026-10-20T16:14:56Z",
+          "html_url": "https://github.com/stablyai/orca/issues/21745",
+          "is_pull_request": false,
+          "comments": 6
+        },
+        {
+          "number": 31162,
+          "title": "[Bug] Antigravity CLI sessions are not rendered correctly in iOS app",
+          "state": "open",
+          "updated_at": "2026-10-20T16:13:46Z",
+          "html_url": "https://github.com/stablyai/orca/issues/31162",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 31151,
+          "title": "feat(dsh): support native session options and terminal reuse",
+          "state": "open",
+          "updated_at": "2026-10-20T16:12:16Z",
+          "html_url": "https://github.com/stablyai/orca/pull/31151",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 30937,
+          "title": "feat(native-chat): Codex chats list and run the skills Codex loaded",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:57Z",
+          "html_url": "https://github.com/stablyai/orca/pull/30937",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 31164,
+          "title": "feat(git): opt-in ASCII-only branch and worktree folder names",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:14Z",
+          "html_url": "https://github.com/stablyai/orca/pull/31164",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 30930,
+          "title": "A chat never starts writing a conversation a terminal is still writing, and restored panes respect open chats",
+          "state": "open",
+          "updated_at": "2026-10-20T16:10:23Z",
+          "html_url": "https://github.com/stablyai/orca/pull/30930",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 31163,
+          "title": "[Bug]: A workspace named in a non-Latin script becomes the git branch name verbatim",
+          "state": "open",
+          "updated_at": "2026-10-20T16:09:23Z",
+          "html_url": "https://github.com/stablyai/orca/issues/31163",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 31150,
+          "title": "Show stable sidebar lists after startup loading",
+          "state": "open",
+          "updated_at": "2026-10-20T16:08:34Z",
+          "html_url": "https://github.com/stablyai/orca/pull/31150",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 30783,
+          "title": "[Bug]: Bitbucket remotes on ssh.bitbucket.org aren't recognized",
+          "state": "open",
+          "updated_at": "2026-10-20T16:06:22Z",
+          "html_url": "https://github.com/stablyai/orca/issues/30783",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 30800,
+          "title": "CLI agent launch over a paired environment fails with agent_launch_replay_unsupported (1.4.230)",
+          "state": "open",
+          "updated_at": "2026-10-20T16:06:21Z",
+          "html_url": "https://github.com/stablyai/orca/issues/30800",
+          "is_pull_request": false,
+          "comments": 2
+        }
+      ]
+    },
+    "akitaonrails/ai-memory": {
+      "source": "https://api.github.com/repos/akitaonrails/ai-memory/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 1487,
+          "title": "feat(qwen): Added first-party Qwen Code support",
+          "state": "open",
+          "updated_at": "2026-10-20T16:05:13Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1487",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1486,
+          "title": "fix(run): launch the wrapper named by a claude* harness spelling",
+          "state": "open",
+          "updated_at": "2026-10-20T14:18:06Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1486",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1485,
+          "title": "fix(hooks): invoke Gemini CLI Windows commands in PowerShell",
+          "state": "open",
+          "updated_at": "2026-10-20T13:48:26Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1485",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1481,
+          "title": "fix(install.ps1): copy the release into place instead of moving it",
+          "state": "open",
+          "updated_at": "2026-10-20T13:48:23Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1481",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1484,
+          "title": "Gemini CLI Windows hooks omit PowerShell's call operator, so every hook fails to parse",
+          "state": "open",
+          "updated_at": "2026-10-20T13:30:50Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/issues/1484",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1483,
+          "title": "fix(deps): drop the unmaintained basic-toml from the askama build",
+          "state": "open",
+          "updated_at": "2026-10-20T12:54:06Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1483",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1482,
+          "title": "cargo-deny fails on every pull request: basic-toml is unmaintained (RUSTSEC-2026-0374)",
+          "state": "open",
+          "updated_at": "2026-10-20T12:51:49Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/issues/1482",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1478,
+          "title": "fix(wikisync): accept ordinary Windows destination prefixes",
+          "state": "open",
+          "updated_at": "2026-10-20T12:44:59Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1478",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 1480,
+          "title": "install.ps1 fails with MoveFileInfoItemIOError (file in use by another process) on Windows     ",
+          "state": "open",
+          "updated_at": "2026-10-20T12:12:01Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/issues/1480",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1479,
+          "title": "fix(wikisync): report appended and removed lines in diff summaries",
+          "state": "open",
+          "updated_at": "2026-10-20T09:16:11Z",
+          "html_url": "https://github.com/akitaonrails/ai-memory/pull/1479",
+          "is_pull_request": true,
+          "comments": 0
+        }
+      ]
+    },
+    "HKUDS/CLI-Anything": {
+      "source": "https://api.github.com/repos/HKUDS/CLI-Anything/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 600,
+          "title": "fix(minimax): default text requests to M3.1 Flash",
+          "state": "open",
+          "updated_at": "2026-10-20T06:43:09Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/600",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 598,
+          "title": "fix(shotcut): round instead of truncate in seconds_to_frames",
+          "state": "open",
+          "updated_at": "2026-10-20T06:21:20Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/598",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 599,
+          "title": "fix(kdenlive): reject negative and non-finite seconds in timecode_to_seconds",
+          "state": "open",
+          "updated_at": "2026-10-20T06:21:01Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/599",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 589,
+          "title": "[Bug]: wiremock stub import exits 1 after a successful import; request/stub tables read the wrong response keys",
+          "state": "open",
+          "updated_at": "2026-10-20T06:20:26Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/589",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 591,
+          "title": "[Bug]: pm2 lifecycle and logs commands exit 0 when pm2 fails",
+          "state": "open",
+          "updated_at": "2026-10-20T06:20:12Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/591",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 596,
+          "title": "feat: register Notion CLI",
+          "state": "open",
+          "updated_at": "2026-10-20T03:22:36Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/596",
+          "is_pull_request": true,
+          "comments": 3
+        },
+        {
+          "number": 597,
+          "title": "fix(kdenlive): carry rounded milliseconds into seconds in seconds_to_timecode",
+          "state": "open",
+          "updated_at": "2026-10-20T03:15:20Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/597",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 595,
+          "title": "feat: add Betaflight CLI harness",
+          "state": "open",
+          "updated_at": "2026-10-19T23:45:56Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/595",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 582,
+          "title": "krita: export render reports success but writes no file",
+          "state": "open",
+          "updated_at": "2026-10-19T19:21:24Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/582",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 583,
+          "title": "qgis: layer create-vector fails on QGIS 3.34",
+          "state": "open",
+          "updated_at": "2026-10-19T19:21:16Z",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/583",
+          "is_pull_request": false,
+          "comments": 0
+        }
+      ]
+    },
+    "headroomlabs-ai/headroom": {
+      "source": "https://api.github.com/repos/headroomlabs-ai/headroom/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 4305,
+          "title": "fix(memory): preserve parent scopes when clearing memories",
+          "state": "open",
+          "updated_at": "2026-10-20T16:13:13Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4305",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 4307,
+          "title": "fix(proxy): recognise mixed and CR-only SSE event terminators",
+          "state": "open",
+          "updated_at": "2026-10-20T16:13:11Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4307",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4311,
+          "title": "Fix dashboard settings access behind trusted reverse proxies",
+          "state": "open",
+          "updated_at": "2026-10-20T16:13:10Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4311",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 4310,
+          "title": "ci: Bump aiohttp from 3.14.3 to 3.14.4 in the uv group across 1 directory",
+          "state": "open",
+          "updated_at": "2026-10-20T16:12:05Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4310",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 4316,
+          "title": "fix(wrap): route Claude Code's Bedrock mode through Headroom",
+          "state": "open",
+          "updated_at": "2026-10-20T16:09:02Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4316",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4308,
+          "title": "fix(proxy): route /v1/models to the x-headroom-base-url upstream",
+          "state": "open",
+          "updated_at": "2026-10-20T16:08:38Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4308",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4306,
+          "title": "fix(proxy): strip only one leading space from SSE field values",
+          "state": "open",
+          "updated_at": "2026-10-20T16:08:37Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4306",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4301,
+          "title": "fix(cache): reject nonpositive semantic cache capacities",
+          "state": "open",
+          "updated_at": "2026-10-20T16:08:35Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4301",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4304,
+          "title": "feat(savings): show the proxy's model-routing savings in headroom savings",
+          "state": "open",
+          "updated_at": "2026-10-20T16:04:45Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4304",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4314,
+          "title": "fix(proxy): keep Claude Code orchestration and interactive tools resident (#4313)",
+          "state": "open",
+          "updated_at": "2026-10-20T16:02:36Z",
+          "html_url": "https://github.com/headroomlabs-ai/headroom/pull/4314",
+          "is_pull_request": true,
+          "comments": 1
+        }
+      ]
+    },
+    "ruvnet/ruflo": {
+      "source": "https://api.github.com/repos/ruvnet/ruflo/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 3513,
+          "title": "feat(teams): Codex and generic command hosts for the team bus (ADR-402)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:45:09Z",
+          "html_url": "https://github.com/ruvnet/ruflo/pull/3513",
+          "is_pull_request": true,
+          "comments": 6
+        },
+        {
+          "number": 4250,
+          "title": "dream(intelligence): #4249 agentdb-backend.ts calls a native HNSW controller that has never existed in the real agentdb package (evaluated, ACCEPT)",
+          "state": "closed",
+          "updated_at": "2026-10-20T15:11:07Z",
+          "html_url": "https://github.com/ruvnet/ruflo/pull/4250",
+          "is_pull_request": true,
+          "comments": 3
+        },
+        {
+          "number": 4249,
+          "title": "[Dream Cycle 2026-10-17] intelligence: agentdb-backend.ts calls a native HNSW controller that has never existed in the real agentdb package + capabilities,memory scan",
+          "state": "closed",
+          "updated_at": "2026-10-20T15:10:49Z",
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4249",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 3341,
+          "title": "feat(cli): restore the `pair` command the pair-programming skill depends on",
+          "state": "open",
+          "updated_at": "2026-10-20T15:09:41Z",
+          "html_url": "https://github.com/ruvnet/ruflo/pull/3341",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 3369,
+          "title": "fix(hooks): resolve globally-installed ruflo before falling back to npx (#3368)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:08:35Z",
+          "html_url": "https://github.com/ruvnet/ruflo/pull/3369",
+          "is_pull_request": true,
+          "comments": 6
+        },
+        {
+          "number": 4201,
+          "title": "anyone can re-sign a witness manifest: the signing seed is derived from the public commit hash",
+          "state": "closed",
+          "updated_at": "2026-10-20T14:59:53Z",
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4201",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 4326,
+          "title": "fix(witness): support pinned signing keys and label legacy signatures",
+          "state": "closed",
+          "updated_at": "2026-10-20T14:59:27Z",
+          "html_url": "https://github.com/ruvnet/ruflo/pull/4326",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 4200,
+          "title": "`ruflo init` wires 6 hooks that `hook-handler.cjs` has no handler for",
+          "state": "closed",
+          "updated_at": "2026-10-20T14:46:09Z",
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4200",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 4238,
+          "title": "daemon: `--ttl 0` is dropped by the background launcher, and `daemon status` reports a TTL the daemon doesn't have",
+          "state": "closed",
+          "updated_at": "2026-10-20T14:45:18Z",
+          "html_url": "https://github.com/ruvnet/ruflo/issues/4238",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 3519,
+          "title": "feat(cli): add durable missions with typed waits and receipts",
+          "state": "open",
+          "updated_at": "2026-10-20T14:44:08Z",
+          "html_url": "https://github.com/ruvnet/ruflo/pull/3519",
+          "is_pull_request": true,
+          "comments": 4
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "source": "https://api.github.com/repos/nashsu/llm_wiki/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 811,
+          "title": "Ingest fails on long / entity-dense documents: hard-coded 8,192-token analysis cap + unbounded entity-enumeration prompt",
+          "state": "open",
+          "updated_at": "2026-10-20T13:16:20Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/811",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 824,
+          "title": "Model-name allow-lists silently drop reasoning/token params for newer model ids (deepseek-flash, gpt-6-*) and generic gateways (DashScope Qwen)",
+          "state": "open",
+          "updated_at": "2026-10-19T04:47:58Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/824",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 821,
+          "title": "phase 3: add private read-only WikiToolServer for Pi",
+          "state": "open",
+          "updated_at": "2026-10-17T08:02:16Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/821",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 823,
+          "title": "phase 5: accept Phase 1 Pi read-only Chat and prepare release",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:34Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/823",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 822,
+          "title": "phase 4: unify Pi events, cancellation, errors, and fallback",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:31Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/822",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 820,
+          "title": "phase 2: implement Pi RPC text Chat",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:26Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/820",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 819,
+          "title": "phase 1: define HarnessAdapter contract and test adapter",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:23Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/819",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 818,
+          "title": "spec: freeze Phase 1 Pi external Harness read-only Chat scope",
+          "state": "open",
+          "updated_at": "2026-10-17T08:01:20Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/818",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 817,
+          "title": "feat: Add Vietnamese (vi.json) + README_VI.md",
+          "state": "open",
+          "updated_at": "2026-10-15T09:55:16Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/817",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 816,
+          "title": "oom killed",
+          "state": "open",
+          "updated_at": "2026-10-15T01:18:21Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/816",
+          "is_pull_request": false,
+          "comments": 0
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "source": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 86,
+          "title": "fix(health): decode percent-encoded index links",
+          "state": "open",
+          "updated_at": "2026-10-20T12:40:51Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 85,
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 81,
+          "title": "Handle absolute output path display",
+          "state": "open",
+          "updated_at": "2026-09-24T11:43:08Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/81",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 80,
+          "title": "An absolute output path aborts before conversion",
+          "state": "open",
+          "updated_at": "2026-09-24T11:12:44Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/80",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 79,
+          "title": "Help output fails in a Windows cp1252 terminal",
+          "state": "open",
+          "updated_at": "2026-09-24T10:46:53Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/79",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 78,
+          "title": "[Feature] Integrate Jev (TypeSafe AI) as a fast decision layer for lint triage, ingest classification, and query routing",
+          "state": "open",
+          "updated_at": "2026-09-22T06:49:21Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/78",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 77,
+          "title": "Q: does this support `npx`?",
+          "state": "open",
+          "updated_at": "2026-09-11T11:43:53Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/77",
+          "is_pull_request": false,
+          "comments": 2
+        }
+      ]
+    },
+    "obra/superpowers": {
+      "source": "https://api.github.com/repos/obra/superpowers/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 2530,
+          "title": "v7's brainstorm questions are rather annoying",
+          "state": "open",
+          "updated_at": "2026-10-20T15:43:51Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2530",
+          "is_pull_request": false,
+          "comments": 19
+        },
+        {
+          "number": 2565,
+          "title": "subagent-driven-development: move situational guidance into references/ and test that skills stay under 20k",
+          "state": "open",
+          "updated_at": "2026-10-20T15:31:16Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2565",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 2564,
+          "title": "writing-skills: move supporting docs and situational guidance into references/",
+          "state": "open",
+          "updated_at": "2026-10-20T15:31:13Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2564",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 2563,
+          "title": "executing-plans: drop the redundant Example Workflow so SKILL.md fits under the compaction cut",
+          "state": "open",
+          "updated_at": "2026-10-20T15:31:11Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2563",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 2562,
+          "title": "Thank you for Superpowers, now integrated into the Buildomator mash-up",
+          "state": "open",
+          "updated_at": "2026-10-20T10:10:21Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2562",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 2561,
+          "title": "Create CLAUDE.md",
+          "state": "open",
+          "updated_at": "2026-10-20T09:43:29Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2561",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 2560,
+          "title": "brainstorming: look before asking, play back what they want, and only offer to skip when they didn't ask (#2530)",
+          "state": "closed",
+          "updated_at": "2026-10-20T06:37:51Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2560",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 2558,
+          "title": "Resource loading failure: writing-good-tests.md in installed marketplace plugin",
+          "state": "open",
+          "updated_at": "2026-10-20T03:39:06Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2558",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 2514,
+          "title": "1% chance skill overfiring",
+          "state": "open",
+          "updated_at": "2026-10-20T01:56:36Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2514",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 2559,
+          "title": "ChatGPT marketplace import rejects .agents/plugins/marketplace.json source URL './' ",
+          "state": "open",
+          "updated_at": "2026-10-20T01:33:48Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2559",
+          "is_pull_request": false,
+          "comments": 0
+        }
+      ]
+    },
+    "activepieces/activepieces": {
+      "source": "https://api.github.com/repos/activepieces/activepieces/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 16674,
+          "title": "feat(sender): add AI actions and output schemas",
+          "state": "open",
+          "updated_at": "2026-10-20T16:14:32Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16674",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 16629,
+          "title": "feat(close): let agents manage leads, deals, tasks, activities and sequences",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:12:45Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16629",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 16654,
+          "title": "feat(web): admin button clicks are now recorded on every page",
+          "state": "open",
+          "updated_at": "2026-10-20T16:08:08Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16654",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 16673,
+          "title": "feat(cognito-forms): let AI agents create, read, update and delete entries and fetch documents",
+          "state": "open",
+          "updated_at": "2026-10-20T16:06:47Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16673",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 16205,
+          "title": "feat(billing): give a 7-day seat grace when the trial ends, then deactivate the extra users",
+          "state": "open",
+          "updated_at": "2026-10-20T16:03:48Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16205",
+          "is_pull_request": true,
+          "comments": 7
+        },
+        {
+          "number": 16628,
+          "title": "feat(posthog): let agents query insights, flags, cohorts and surveys",
+          "state": "open",
+          "updated_at": "2026-10-20T15:53:39Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16628",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 16672,
+          "title": "feat(web): redesign the worker groups page",
+          "state": "open",
+          "updated_at": "2026-10-20T15:53:35Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16672",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 16460,
+          "title": "feat(discourse): manage topics, posts, users and groups from flows and AI agents, with webhook triggers and SSRF fixes",
+          "state": "open",
+          "updated_at": "2026-10-20T15:53:28Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16460",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 16524,
+          "title": "feat(matrix): let AI agents message, react and manage rooms and members",
+          "state": "open",
+          "updated_at": "2026-10-20T15:53:08Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16524",
+          "is_pull_request": true,
+          "comments": 4
+        },
+        {
+          "number": 16523,
+          "title": "feat(invoiceninja): let AI agents manage invoices, clients, payments and reports",
+          "state": "open",
+          "updated_at": "2026-10-20T15:52:57Z",
+          "html_url": "https://github.com/activepieces/activepieces/pull/16523",
+          "is_pull_request": true,
+          "comments": 3
+        }
+      ]
+    },
+    "anomalyco/opencode": {
+      "source": "https://api.github.com/repos/anomalyco/opencode/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 57443,
+          "title": "Expose installed package version beside running service version after upgrade",
+          "state": "open",
+          "updated_at": "2026-10-20T16:13:59Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/57443",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 57389,
+          "title": "core: read injects AGENTS.md from sibling project directories outside the workspace",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:09:19Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/57389",
+          "is_pull_request": false,
+          "comments": 5
+        },
+        {
+          "number": 57129,
+          "title": "Issue with installment/payment, plan just purchased",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:08:51Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/57129",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 31130,
+          "title": "Design consistent EventV2 payloads for aggregate replay and live events",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:08:35Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/31130",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 57392,
+          "title": "[Bug] Auto-compaction fires at ~447k on a 1M-context model after model switch and fails with compaction.interrupted",
+          "state": "open",
+          "updated_at": "2026-10-20T16:05:38Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/57392",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 57442,
+          "title": "tui: Session crashes with \"Failed to drain Session\" error",
+          "state": "open",
+          "updated_at": "2026-10-20T16:00:24Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/57442",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 45278,
+          "title": "Payment Declined After 3 Months Despite No Issue With Card or Bank",
+          "state": "open",
+          "updated_at": "2026-10-20T15:56:57Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/45278",
+          "is_pull_request": false,
+          "comments": 37
+        },
+        {
+          "number": 47646,
+          "title": "openai: ChatGPT OAuth reports 400k context for long-context models",
+          "state": "open",
+          "updated_at": "2026-10-20T15:55:15Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/47646",
+          "is_pull_request": false,
+          "comments": 13
+        },
+        {
+          "number": 57441,
+          "title": "desktop: review diff pane is blank for modified files (new files render fine)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:53:47Z",
+          "html_url": "https://github.com/anomalyco/opencode/issues/57441",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 57440,
+          "title": "release to production",
+          "state": "closed",
+          "updated_at": "2026-10-20T15:51:34Z",
+          "html_url": "https://github.com/anomalyco/opencode/pull/57440",
+          "is_pull_request": true,
+          "comments": 0
+        }
+      ]
+    },
+    "xerj-org/xerj": {
+      "source": "https://api.github.com/repos/xerj-org/xerj/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 1961,
+          "title": "MCP xerj_search plain-string query 400s strict_unknown_fields on prose corpora (CLI fixed in #1602, MCP path not)",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:20:35Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1961",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 1976,
+          "title": "fix(mcp): xerj_search reads the target mapping before a plain-string query (#1961)",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:20:20Z",
+          "html_url": "https://github.com/xerj-org/xerj/pull/1976",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 1968,
+          "title": "compare: four best-of-2026 pages with light covers",
+          "state": "open",
+          "updated_at": "2026-10-20T16:13:18Z",
+          "html_url": "https://github.com/xerj-org/xerj/pull/1968",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1986,
+          "title": "xerj code: weak nearest-neighbour results read like real hits; flag low-confidence matches or answer no-match",
+          "state": "open",
+          "updated_at": "2026-10-20T16:12:36Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1986",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1972,
+          "title": "Agent field report (API): Grok 4.7 — autoindex a one-file script folder then lexical search",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:19Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1972",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 1979,
+          "title": "Agent field report (API): Claude Code (claude-opus-5-5) — reference coding + autoindex of a private multi-repo workspace",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:18Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1979",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 1957,
+          "title": "Agent field report (API): deepseek-v4-1-flash-260910 — installed XERJ on Windows, indexed an Android Compose/Kotlin pill-reminder project (1107 files) plus a 4-repo reference corpus (MedTimer, Fossify",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:16Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1957",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 1958,
+          "title": "Agent field report (API): OpenAI Codex — Bounded local source and reference retrieval",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:15Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1958",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 1985,
+          "title": "corpus index: skip bulky data files (CSV/HDF/test output) by default for reference corpora",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:08Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1985",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1984,
+          "title": "autoindex: schema-only SQL migrations are classified as SQL dumps, yield no rows and are skipped",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:07Z",
+          "html_url": "https://github.com/xerj-org/xerj/issues/1984",
+          "is_pull_request": false,
+          "comments": 0
+        }
+      ]
+    },
+    "cloudflare/security-audit-skill": {
+      "source": "https://api.github.com/repos/cloudflare/security-audit-skill/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 83,
+          "title": "docs: align completion gates and carried record validation",
+          "state": "open",
+          "updated_at": "2026-10-20T13:04:24Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/83",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 80,
+          "title": "Completion gate and carried-record handling contradict the phase rules",
+          "state": "open",
+          "updated_at": "2026-10-20T06:26:24Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/80",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 82,
+          "title": "fix: allow artifact sharing within an archived attempt",
+          "state": "open",
+          "updated_at": "2026-10-20T04:17:28Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/82",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 81,
+          "title": "validate-coverage-ledger.cjs rejects artifact sharing within a single attempt",
+          "state": "open",
+          "updated_at": "2026-10-20T02:14:42Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/81",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 72,
+          "title": "Skill",
+          "state": "open",
+          "updated_at": "2026-10-19T19:22:05Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/72",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 77,
+          "title": "Sol 6.1 prevents the output and asks me to signup for Daybreak",
+          "state": "open",
+          "updated_at": "2026-10-19T19:21:29Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/77",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 79,
+          "title": "A never-returned hunter assignment is a dead-end state, and 'complete' does not require the ledger to be free of in_progress/blocked units",
+          "state": "open",
+          "updated_at": "2026-10-19T19:17:47Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/79",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 71,
+          "title": "git clone https://github.com/farhmandakbar26/dotnet-codespaces",
+          "state": "open",
+          "updated_at": "2026-10-19T19:17:28Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/71",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 43,
+          "title": "README: state that dependency advisory/CVE coverage is out of scope",
+          "state": "open",
+          "updated_at": "2026-10-18T04:40:24Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/43",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 33,
+          "title": "Add CI workflow to run the validator test suites",
+          "state": "open",
+          "updated_at": "2026-10-18T04:40:22Z",
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/33",
+          "is_pull_request": true,
+          "comments": 1
+        }
+      ]
+    },
+    "Graphify-Labs/graphify": {
+      "source": "https://api.github.com/repos/Graphify-Labs/graphify/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 2225,
+          "title": "Skill-path extraction silently truncates files >2000 lines; replace-on-re-extract then deletes the unread tail",
+          "state": "closed",
+          "updated_at": "2026-10-20T16:16:27Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/issues/2225",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 4589,
+          "title": "docs(contributing): optional Model D code map for contributors' agents",
+          "state": "open",
+          "updated_at": "2026-10-20T16:14:11Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4589",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 4576,
+          "title": "fix: render node rationale in query, get_node and explain output (#2821)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:24:54Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4576",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4588,
+          "title": "[Bug]: vbnet: no calls edge through field receivers or With blocks (WinForms-style forms)",
+          "state": "open",
+          "updated_at": "2026-10-20T15:23:03Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/issues/4588",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 4466,
+          "title": "feat(llm): add LiteLLM backend via the [litellm] extra",
+          "state": "open",
+          "updated_at": "2026-10-20T14:54:04Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4466",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 4573,
+          "title": "fix(vbnet): resolve cross-file calls to Module members, typed locals and C# statics (#4570)",
+          "state": "open",
+          "updated_at": "2026-10-20T13:50:41Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4573",
+          "is_pull_request": true,
+          "comments": 3
+        },
+        {
+          "number": 4587,
+          "title": "fix(swift): model a macro declaration and its freestanding call (#4551)",
+          "state": "open",
+          "updated_at": "2026-10-20T12:46:42Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4587",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 4586,
+          "title": "fix(cpp): blank Metal and CUDA qualifiers tree sitter cpp cannot parse (#4550)",
+          "state": "open",
+          "updated_at": "2026-10-20T12:46:46Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4586",
+          "is_pull_request": true,
+          "comments": 2
+        },
+        {
+          "number": 4585,
+          "title": "fix(csharp): model a delegate declaration as a node, not a sourceless stub (#4552)",
+          "state": "open",
+          "updated_at": "2026-10-20T12:22:33Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/pull/4585",
+          "is_pull_request": true,
+          "comments": 1
+        },
+        {
+          "number": 4584,
+          "title": "[Bug]: csharp: overloads of a method collapse into one node; the second definition and its calls are attributed to the first",
+          "state": "open",
+          "updated_at": "2026-10-20T12:16:32Z",
+          "html_url": "https://github.com/Graphify-Labs/graphify/issues/4584",
+          "is_pull_request": false,
+          "comments": 1
+        }
+      ]
+    },
+    "anthropics/knowledge-work-plugins": {
+      "source": "https://api.github.com/repos/anthropics/knowledge-work-plugins/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 1364,
+          "title": "bump(incident-io): 00f7d1dc → 208e1760",
+          "state": "open",
+          "updated_at": "2026-10-20T07:38:42Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1364",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1363,
+          "title": "bump(modern-web-guidance): b31dc0a4 → 65e7edd6",
+          "state": "open",
+          "updated_at": "2026-10-20T07:38:36Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1363",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1362,
+          "title": "bump(qodo-standards): b8c21854 → 134c518f",
+          "state": "open",
+          "updated_at": "2026-10-20T07:38:29Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1362",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1361,
+          "title": "bump(qodo): b8c21854 → 134c518f",
+          "state": "open",
+          "updated_at": "2026-10-20T07:38:22Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1361",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1360,
+          "title": "bump(figma): f2789420 → 7047cb45",
+          "state": "open",
+          "updated_at": "2026-10-20T07:38:16Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/pull/1360",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1306,
+          "title": "engineering/documentation and the built-in docs skill trigger on the same requests",
+          "state": "open",
+          "updated_at": "2026-10-19T19:21:59Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/issues/1306",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1296,
+          "title": "generate_samplesheet.py emits malformed CSV when FASTQ paths contain commas",
+          "state": "open",
+          "updated_at": "2026-10-19T19:21:03Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/issues/1296",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 1298,
+          "title": "package_data_skill.py reports success with an empty ZIP under .claude",
+          "state": "open",
+          "updated_at": "2026-10-19T19:20:53Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/issues/1298",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 1308,
+          "title": "small-business / cash-flow-snapshot: confidence band flips or collapses when net cash is negative or near zero",
+          "state": "open",
+          "updated_at": "2026-10-19T19:20:11Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/issues/1308",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 1320,
+          "title": "Proposal: agent-runtime-boundaries skill plus README plugin table fix and docs CI",
+          "state": "open",
+          "updated_at": "2026-10-19T19:19:19Z",
+          "html_url": "https://github.com/anthropics/knowledge-work-plugins/issues/1320",
+          "is_pull_request": false,
+          "comments": 0
+        }
+      ]
+    },
+    "DietrichGebert/ponytail": {
+      "source": "https://api.github.com/repos/DietrichGebert/ponytail/issues?state=all&sort=updated&direction=desc&per_page=10",
+      "items": [
+        {
+          "number": 1193,
+          "title": "fix(review): prove the case itself and try it on the base (#1187)",
+          "state": "open",
+          "updated_at": "2026-10-20T16:20:14Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/1193",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1192,
+          "title": "fix(band): name the project after its folder when the root uses backslashes",
+          "state": "open",
+          "updated_at": "2026-10-20T16:11:41Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/1192",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1191,
+          "title": "Band on Windows: project name keeps the full path, so each project gets two ledgers and shows twice on the board",
+          "state": "open",
+          "updated_at": "2026-10-20T15:57:50Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/1191",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1190,
+          "title": "fix(band): read the transcript path from classic.Stop too",
+          "state": "open",
+          "updated_at": "2026-10-20T15:47:03Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/1190",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1186,
+          "title": "Band: classic.UserPromptSubmit handler is skipped on the first prompt of every session (\"cc-plugin-sec-default\" runs first)",
+          "state": "open",
+          "updated_at": "2026-10-20T14:23:37Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/1186",
+          "is_pull_request": false,
+          "comments": 2
+        },
+        {
+          "number": 1189,
+          "title": "fix(band): resumed sessions book work on the day it was done and show their totals at once",
+          "state": "open",
+          "updated_at": "2026-10-20T12:37:34Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/pull/1189",
+          "is_pull_request": true,
+          "comments": 0
+        },
+        {
+          "number": 1188,
+          "title": "Band: a resumed session books its work on its first day and shows $0 until its first turn",
+          "state": "open",
+          "updated_at": "2026-10-20T12:30:30Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/1188",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1187,
+          "title": "ponytail-review: a finding can rest on a step toward the failure, and nothing checks the base",
+          "state": "open",
+          "updated_at": "2026-10-20T08:50:59Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/1187",
+          "is_pull_request": false,
+          "comments": 0
+        },
+        {
+          "number": 1183,
+          "title": "Band: compact mode spreads over several lines in the Claude Code desktop app",
+          "state": "open",
+          "updated_at": "2026-10-20T04:04:29Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/1183",
+          "is_pull_request": false,
+          "comments": 1
+        },
+        {
+          "number": 1178,
+          "title": "Band: quieter compact line, tidier detail view, and 5-hour / weekly quota (proposal)",
+          "state": "open",
+          "updated_at": "2026-10-20T03:26:27Z",
+          "html_url": "https://github.com/DietrichGebert/ponytail/issues/1178",
+          "is_pull_request": false,
+          "comments": 0
+        }
+      ]
+    }
+  }
+}

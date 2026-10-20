@@ -1,0 +1,16 @@
+{
+  "CONTEXT.md": "270fa7f207c48b0bc5181444d38423cb29f67a76096410eebd2c7256167916c3",
+  "README.md": "c7120729b3534c93ddaf381430d81605c26b8739ce6021ae7fe658ccc9e62f80",
+  "docs/backlog/ai-content-and-skills-backlog.md": "89bef7cedc60915bcac5f73592b6db7201f309e06f4ceb4160c40306dba8521b",
+  "docs/wiki/llm-wiki.md": "4e1bd16f1959774f5f04a12560bfc0b1edb38a0ad386fbf6d2eab73e6062ba97",
+  "skills/github-trend-radar/scripts/collect_github_trends.py": "04f85a781edbcaa56e9c35e5894f7722b7e2ead9480e6b4d26ef635562139af6",
+  "skills/github-trend-radar/scripts/test_collect_github_trends.py": "b7992825057743cc3bb7980c9f7f01e8c536986e15f8ab07ddfd23148a06c3d2",
+  "automation/README.md": "072d861542808bb637d876fc1a63621f6dc878778a8050e2bb8c0de2ed1a1633",
+  "automation/daily-prompt.md": "1b4d197c9b787e5117507342f61d8a3b265fb5084e112cd6ef9a5aad2e27b104",
+  "automation/run-daily.sh": "291b6cbb8d1e08b7272205ccdce631572e6d3045c939a0b9f92f8bf34634c90d",
+  "skills/github-trend-radar/SKILL.md": "c3d885d7a513268380eb8899e74598c57f6ae14e3164324a77e75119c0385b36",
+  "skills/github-trend-radar/scripts/backfill_gharchive_watch_events.py": "ef236a91e2d85025d04c4ad3031796b4ddc0c579d084fec0a0b4bd46982f9597",
+  "skills/github-trend-radar/scripts/backfill_recent_stars.py": "a51d264f2f4eea0fa0412300a8648ae5f2ed0ef366ea5ccfdb76ff77e6dcfa2a",
+  "skills/github-trend-radar/scripts/test_validate_daily_output.py": "8f6f7cf33995a496dd1d0c477c27ad65328a3dfd4c94756df5bacf6d5eeba06a",
+  "skills/github-trend-radar/scripts/validate_daily_output.py": "6eb5ed7fba5a9ae1c599b83f6f97b2aeb449f9403bd8a8ca0360d73e3d0d4086"
+}

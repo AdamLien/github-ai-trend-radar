@@ -1,0 +1,58 @@
+{
+  "excluded": [
+    {
+      "full_name": "ByteByteGoHq/system-design-101",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "InterceptSuite/ProxyBridge",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "kiali/kiali",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "llvm/llvm-project",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "localsend/localsend",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "tailscale/tailcat",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "tldrsec/awesome-secure-defaults",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    },
+    {
+      "full_name": "xyflow/xyflow",
+      "reason": "本次已收集的用途、topics 與 README 摘錄未提供足夠的 AI／agent／知識庫或開發自動化直接關聯；排除一般基礎設施、UI、金融、資安清單與通用教材。"
+    }
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ]
+}

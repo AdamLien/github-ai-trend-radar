@@ -1,0 +1,11 @@
+{
+  "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+  "working_directory": "/home/metabiz-admin/Documents/workspace/adam-codex-skills/dashboard",
+  "exit_code": 0,
+  "artifacts": {
+    "dashboard/dist/index.html": 1370,
+    "dashboard/src/generated/radarData.json": 2975933
+  },
+  "warning": "Vite reports a minified chunk larger than 500 kB",
+  "preexisting_file_hashes_unchanged": true
+}
