@@ -1,0 +1,398 @@
+{
+  "MadsLorentzen/ai-job-search": {
+    "recent_items": [
+      {
+        "number": 652,
+        "title": "fix(jobdanmark-search): reject unknown job types while keeping offered filters",
+        "updated_at": "2026-10-21T16:05:08Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/MadsLorentzen/ai-job-search/pull/652"
+      },
+      {
+        "number": 750,
+        "title": "fix(freehire): join a repeated facet flag and refuse any other repeated flag",
+        "updated_at": "2026-10-21T12:58:47Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/MadsLorentzen/ai-job-search/pull/750"
+      },
+      {
+        "number": 749,
+        "title": "fix(cli): refuse a repeated single-value option in the bunli portal CLIs",
+        "updated_at": "2026-10-21T12:21:06Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/MadsLorentzen/ai-job-search/pull/749"
+      },
+      {
+        "number": 748,
+        "title": "docs(readme): list every shipped tool and workflow in the repo tree",
+        "updated_at": "2026-10-21T12:16:11Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/MadsLorentzen/ai-job-search/pull/748"
+      },
+      {
+        "number": 747,
+        "title": "fix(scrape): validate first_seen, posted_date and deadline in store",
+        "updated_at": "2026-10-21T12:16:07Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/MadsLorentzen/ai-job-search/pull/747"
+      }
+    ]
+  },
+  "cloudflare/security-audit-skill": {
+    "recent_items": [
+      {
+        "number": 90,
+        "title": "feat: add CWE, CVSS base vector, and references to findings",
+        "updated_at": "2026-10-21T06:44:41Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/90"
+      },
+      {
+        "number": 89,
+        "title": "Remediation should name and preserve legitimate uses of the refused path",
+        "updated_at": "2026-10-21T06:43:31Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/89"
+      },
+      {
+        "number": 88,
+        "title": "Remediation should prove the legitimate use still works, not only that the attack fails",
+        "updated_at": "2026-10-21T05:51:43Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/cloudflare/security-audit-skill/issues/88"
+      },
+      {
+        "number": 86,
+        "title": "Add CWE, optional CVSS, and references to findings",
+        "updated_at": "2026-10-21T05:28:14Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/cloudflare/security-audit-skill/issues/86"
+      },
+      {
+        "number": 87,
+        "title": "fix: allow checks in one attempt to share a promoted artifact",
+        "updated_at": "2026-10-21T04:24:08Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/cloudflare/security-audit-skill/pull/87"
+      }
+    ]
+  },
+  "stablyai/orca": {
+    "recent_items": [
+      {
+        "number": 30804,
+        "title": "fix(terminal): the chat view returns to the terminal when the agent quits to the shell",
+        "updated_at": "2026-10-21T16:11:41Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/stablyai/orca/pull/30804"
+      },
+      {
+        "number": 31568,
+        "title": "feat(cli): add --agent default to launch the configured default agent",
+        "updated_at": "2026-10-21T16:11:02Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/stablyai/orca/pull/31568"
+      },
+      {
+        "number": 31182,
+        "title": "fix(terminal): an app's own prompt markers no longer forget a live agent when its pane is hidden or shown",
+        "updated_at": "2026-10-21T16:10:32Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/stablyai/orca/pull/31182"
+      },
+      {
+        "number": 31534,
+        "title": "feat(chat): add draft-only next prompts for Codex native chat",
+        "updated_at": "2026-10-21T16:08:58Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/stablyai/orca/pull/31534"
+      },
+      {
+        "number": 31209,
+        "title": "feat(tab-bar): open a terminal on another host from \"+\" and keep it as a tab in this project",
+        "updated_at": "2026-10-21T16:07:40Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/stablyai/orca/pull/31209"
+      }
+    ]
+  },
+  "headroomlabs-ai/headroom": {
+    "recent_items": [
+      {
+        "number": 1531,
+        "title": "[FEATURE] Per-Model Provider Configuration for Flexible Provider Routing",
+        "updated_at": "2026-10-21T15:29:43Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/headroomlabs-ai/headroom/issues/1531"
+      },
+      {
+        "number": 2503,
+        "title": "docs: add guide for using Headroom with OpenCode Go",
+        "updated_at": "2026-10-21T15:29:24Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/headroomlabs-ai/headroom/pull/2503"
+      },
+      {
+        "number": 3049,
+        "title": "fix(codex): match the User-Agents Codex actually sends",
+        "updated_at": "2026-10-21T15:29:11Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/headroomlabs-ai/headroom/pull/3049"
+      },
+      {
+        "number": 3178,
+        "title": "[BUG] Native GIL hold in single-cache-miss compression starves /readyz for 60s+; the in-process watchdog cannot fire by construction",
+        "updated_at": "2026-10-21T15:29:08Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/headroomlabs-ai/headroom/issues/3178"
+      },
+      {
+        "number": 3184,
+        "title": "[FEATURE] Build and test the `redis` CCR backend in CI against both Redis and Valkey, and document the storage backends",
+        "updated_at": "2026-10-21T15:29:06Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/headroomlabs-ai/headroom/issues/3184"
+      }
+    ]
+  },
+  "DietrichGebert/ponytail": {
+    "recent_items": [
+      {
+        "number": 1178,
+        "title": "Band: quieter compact line, tidier detail view, and 5-hour / weekly quota (proposal)",
+        "updated_at": "2026-10-21T13:34:24Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/DietrichGebert/ponytail/issues/1178"
+      },
+      {
+        "number": 1211,
+        "title": "probar",
+        "updated_at": "2026-10-21T13:33:15Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/DietrichGebert/ponytail/issues/1211"
+      },
+      {
+        "number": 1210,
+        "title": "fix(band): a malformed ledger number is not a zero",
+        "updated_at": "2026-10-21T13:24:14Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/DietrichGebert/ponytail/pull/1210"
+      },
+      {
+        "number": 1209,
+        "title": "fix(band): find the transcript when classic.UserPromptSubmit is skipped",
+        "updated_at": "2026-10-21T13:17:37Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/DietrichGebert/ponytail/pull/1209"
+      },
+      {
+        "number": 1208,
+        "title": "Built with Ponytail: Visor, a macOS notch app",
+        "updated_at": "2026-10-21T12:49:37Z",
+        "state": "open",
+        "is_pr": false,
+        "url": "https://github.com/DietrichGebert/ponytail/issues/1208"
+      }
+    ]
+  },
+  "akitaonrails/ai-memory": {
+    "recent_items": [
+      {
+        "number": 1508,
+        "title": "docs: point contributors to the release/3.2 feature branch",
+        "updated_at": "2026-10-21T15:56:03Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/akitaonrails/ai-memory/pull/1508"
+      },
+      {
+        "number": 1509,
+        "title": "install.ps1 and the desktop installer rewrite the user PATH with every %VAR% entry expanded, as REG_SZ",
+        "updated_at": "2026-10-21T15:30:22Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/akitaonrails/ai-memory/issues/1509"
+      },
+      {
+        "number": 1506,
+        "title": "Default config: uncommenting the `[ingest]` or `[run.profiles.work.env]` example captures the top-level keys below it",
+        "updated_at": "2026-10-21T15:30:22Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/akitaonrails/ai-memory/issues/1506"
+      },
+      {
+        "number": 1510,
+        "title": "fix(install.ps1): keep the user PATH's %VAR% entries and registry type",
+        "updated_at": "2026-10-21T15:30:21Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/akitaonrails/ai-memory/pull/1510"
+      },
+      {
+        "number": 1507,
+        "title": "fix(config): keep the default config's example tables below its top-level keys",
+        "updated_at": "2026-10-21T15:30:21Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/akitaonrails/ai-memory/pull/1507"
+      }
+    ]
+  },
+  "Graphify-Labs/graphify": {
+    "recent_items": [
+      {
+        "number": 4637,
+        "title": "docs: use discord.gg/graphify for the community invite",
+        "updated_at": "2026-10-21T15:15:54Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4637"
+      },
+      {
+        "number": 4636,
+        "title": "fix(js): resolve ns.fn() calls through namespace imports (#4619)",
+        "updated_at": "2026-10-21T14:02:34Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4636"
+      },
+      {
+        "number": 4634,
+        "title": "fix(extract): a require binding does not shadow the required class",
+        "updated_at": "2026-10-21T13:42:24Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4634"
+      },
+      {
+        "number": 4632,
+        "title": "fix(php): never resolve a plain function call to a class method",
+        "updated_at": "2026-10-21T13:41:11Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4632"
+      },
+      {
+        "number": 4530,
+        "title": "feat: pilot offline Jev memory relevance for Graphify queries",
+        "updated_at": "2026-10-21T13:40:12Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/Graphify-Labs/graphify/pull/4530"
+      }
+    ]
+  },
+  "langgenius/dify": {
+    "recent_items": [
+      {
+        "number": 44507,
+        "title": "Bump bundled Weaviate to 1.39.13 (CVE-2026-111943, leaked eMudhra intermediates)",
+        "updated_at": "2026-10-21T16:04:37Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/langgenius/dify/issues/44507"
+      },
+      {
+        "number": 44508,
+        "title": "chore(weaviate): bump bundled Weaviate to 1.39.13 (CVE-2026-111943)",
+        "updated_at": "2026-10-21T16:04:35Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/langgenius/dify/pull/44508"
+      },
+      {
+        "number": 43621,
+        "title": "fix(web): make document metadata panel scrollable",
+        "updated_at": "2026-10-21T15:44:22Z",
+        "state": "open",
+        "is_pr": true,
+        "url": "https://github.com/langgenius/dify/pull/43621"
+      },
+      {
+        "number": 44510,
+        "title": "refactor(ui): split toast stories and align app toaster naming",
+        "updated_at": "2026-10-21T15:34:11Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/langgenius/dify/pull/44510"
+      },
+      {
+        "number": 44509,
+        "title": "Split Toast Storybook examples into independently inspectable scenarios",
+        "updated_at": "2026-10-21T15:34:10Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/langgenius/dify/issues/44509"
+      }
+    ]
+  },
+  "nashsu/llm_wiki": {
+    "recent_items": [
+      {
+        "number": 707,
+        "title": "摄取队列没有批量删除",
+        "updated_at": "2026-10-21T07:50:00Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/nashsu/llm_wiki/issues/707"
+      },
+      {
+        "number": 712,
+        "title": "feat: remove stopped ingest tasks from the queue",
+        "updated_at": "2026-10-21T07:49:59Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/nashsu/llm_wiki/pull/712"
+      },
+      {
+        "number": 718,
+        "title": "Codex CLI spawn timeout is reported as exit code -1, with the cause buried at the end of stderr",
+        "updated_at": "2026-10-21T07:49:40Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/nashsu/llm_wiki/issues/718"
+      },
+      {
+        "number": 719,
+        "title": "fix(codex-cli): report spawn timeouts as timeouts, not exit code -1",
+        "updated_at": "2026-10-21T07:49:39Z",
+        "state": "closed",
+        "is_pr": true,
+        "url": "https://github.com/nashsu/llm_wiki/pull/719"
+      },
+      {
+        "number": 793,
+        "title": "File name too long (os error 36)",
+        "updated_at": "2026-10-21T07:49:28Z",
+        "state": "closed",
+        "is_pr": false,
+        "url": "https://github.com/nashsu/llm_wiki/issues/793"
+      }
+    ]
+  }
+}

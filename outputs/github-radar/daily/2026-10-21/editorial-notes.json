@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "cloudflare/security-audit-skill",
+    "category": "Skill candidate",
+    "purpose": "以分階段 Agent 進行程式庫安全稽核，將候選問題、獨立驗證與結構化報告串起來。",
+    "relevance": "適合 Adam 的 Agent 工作流程課程；可轉成 metabiz 開發交付前的證據稽核範本。",
+    "risk": "多 Agent 耗時與誤報仍需評估；修補建議要證明合法使用情境仍可運作，不能只阻止攻擊。",
+    "activity_source": "https://github.com/cloudflare/security-audit-skill/issues/88"
+  },
+  {
+    "repo": "MadsLorentzen/ai-job-search",
+    "category": "Demo content",
+    "purpose": "以 Claude Code 串接職缺評估、履歷調整、求職信與面試準備。",
+    "relevance": "適合拍攝一份輸入轉成多份工作產物的內容；辦公自動化可借用資料擷取、篩選、個人化文件的流程。",
+    "risk": "履歷與個資需遮罩，網站擷取及職缺真實性仍需驗證；目前多筆開放 PR 涉及 CLI 輸入與欄位驗證。",
+    "activity_source": "https://github.com/MadsLorentzen/ai-job-search/pull/749"
+  },
+  {
+    "repo": "Graphify-Labs/graphify",
+    "category": "Deep research",
+    "purpose": "把程式碼與相關文件整理成可查詢的知識圖譜，供 coding agents 理解專案。",
+    "relevance": "與 know metabiz wiki 的來源追溯、文件關係與程式碼連結直接相關；可研究圖譜查詢和 RAG 的差異。",
+    "risk": "靜態解析無法完整覆蓋動態行為；README 說明文件語意處理可呼叫外部後端，需確認資料邊界。",
+    "activity_source": "https://github.com/Graphify-Labs/graphify/pull/4636"
+  },
+  {
+    "repo": "stablyai/orca",
+    "category": "Deep research",
+    "purpose": "將多個 coding agents 集中在工作台，支援桌面、行動與遠端工作環境。",
+    "relevance": "適合 Adam 多 Agent 協作示範與 metabiz 平行開發工作流程；先用非敏感專案驗證工作隔離與可觀測性。",
+    "risk": "遠端執行、權限及不同訂閱的使用限制需查核；近期終端狀態相關 PR 顯示互動可靠性仍在改善。",
+    "activity_source": "https://github.com/stablyai/orca/pull/30804"
+  },
+  {
+    "repo": "DietrichGebert/ponytail",
+    "category": "Skill candidate",
+    "purpose": "以偏精簡的工程決策指引減少 Agent 不必要的程式碼與工作量。",
+    "relevance": "適合課程比較同一任務加入 Skill 前後的修改量、耗時與可維護性，也能支援內部 Skill 設計。",
+    "risk": "README 的節省成本與品質數字屬作者測試，尚未獨立重現；需防止過度精簡省略必要驗證。",
+    "activity_source": "https://github.com/DietrichGebert/ponytail/pull/1210"
+  },
+  {
+    "repo": "headroomlabs-ai/headroom",
+    "category": "Deep research",
+    "purpose": "在工具輸出、日誌與 RAG 片段送入 LLM 前進行內容壓縮，提供函式庫、代理與 MCP 整合。",
+    "relevance": "可研究 AI 辦公自動化與 know metabiz wiki 的長文件成本，課程可比較壓縮前後答案與來源完整性。",
+    "risk": "不能直接採信不影響答案的宣稱；開放 Issue 提出原生壓縮可能阻塞健康檢查，導入前需驗證延遲與資訊保真。",
+    "activity_source": "https://github.com/headroomlabs-ai/headroom/issues/3178"
+  },
+  {
+    "repo": "akitaonrails/ai-memory",
+    "category": "Watch",
+    "purpose": "為不同 coding CLI 提供長期記憶與跨工具交接。",
+    "relevance": "可作為 Claude Code／Codex 接續工作的內容題材；know metabiz wiki 可借鏡記憶匯入、搜尋與來源邊界。",
+    "risk": "記憶可能保存敏感對話與過時指示；Windows PATH 改寫問題已有關閉 Issue 與修補 PR，仍需確認發行版本是否包含修補。",
+    "activity_source": "https://github.com/akitaonrails/ai-memory/issues/1509"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "將來源文件逐步攝取為互連 Wiki，結合知識圖譜、對話與人工審閱。",
+    "relevance": "與 know metabiz wiki 最直接相關，適合比較 Wiki 編譯式知識整理與傳統 RAG，並設計人工核准的辦公文件流程。",
+    "risk": "內容攝取可能放大錯誤或提示注入；刪除同步、檔名長度與 CLI timeout 處理須用真實資料測試。",
+    "activity_source": "https://github.com/nashsu/llm_wiki/issues/718"
+  },
+  {
+    "repo": "langgenius/dify",
+    "category": "Reference only",
+    "purpose": "以視覺化流程組合 Agent、工具與 RAG 知識庫應用。",
+    "relevance": "適合當作 AI 辦公自動化與 Wiki 問答的既有基準，供 Adam 課程對照自行編排與平台化流程。",
+    "risk": "部署與相依服務維護成本較高；近期相依服務版本更新 Issue 已關閉，實際部署仍應核對版本與授權條款。",
+    "activity_source": "https://github.com/langgenius/dify/issues/44507"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "raw_record_count": 369,
+  "retained_count": 359,
+  "excluded": {
+    "checkstyle/checkstyle": "一般 Java 程式風格檢查，沒有明確 AI／Agent 整合證據",
+    "dsherret/ts-morph": "一般 TypeScript Compiler API wrapper，沒有明確 AI／Agent 整合證據",
+    "rustfs/rustfs": "一般 S3 儲存基礎設施，不以 AI／MCP／Agent 工作流為核心",
+    "DuarteSantos8/openGym": "一般健身與體重追蹤，缺乏本次主題的明確關聯",
+    "supabase/supabase": "一般 Postgres 開發平台，僅泛稱 AI 應用，本次不以通用基礎設施充數"
+  },
+  "duplicate_canonical_names": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "Twigpine/openclaude",
+    "career-ops-hq/career-ops",
+    "feder-cr/invisible_dots"
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ]
+}

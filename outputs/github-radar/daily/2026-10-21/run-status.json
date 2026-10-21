@@ -1,0 +1,26 @@
+{
+  "target_date": "2026-10-21",
+  "collected_at": "2026-10-22T00:10:52.357776+08:00",
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "build": {
+    "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+    "working_directory": "dashboard",
+    "exit_code": 0,
+    "verified_nonempty": [
+      "dashboard/dist/index.html",
+      "dashboard/src/generated/radarData.json"
+    ],
+    "warning": "Vite bundle exceeds 500 kB; build succeeded"
+  },
+  "required_artifacts_verified": true,
+  "preexisting_files_preserved": 28,
+  "retained_repositories": 359,
+  "selected_repositories": 9
+}
