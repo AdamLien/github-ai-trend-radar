@@ -1,0 +1,12 @@
+{
+  "target_date": "2026-10-23",
+  "started_at": "2026-10-24T00:11:00.664371+08:00",
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ]
+}
