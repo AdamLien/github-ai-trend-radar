@@ -1,0 +1,455 @@
+{
+  "observed_at": "2026-10-26T00:18:30.869122+00:00",
+  "records": [
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 107,
+          "title": "Asymmetric parser hardening: validate-findings.cjs lacks pre-parse and in-memory objectFields limits, exposing parent workflow to key-amplification DoS",
+          "updated_at": "2026-10-25T17:12:56Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/107"
+        },
+        {
+          "number": 111,
+          "title": "Enforce the 1,000-field object limit in validate-findings.cjs",
+          "updated_at": "2026-10-25T17:06:50Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/111"
+        },
+        {
+          "number": 67,
+          "title": "security review skill",
+          "updated_at": "2026-10-25T15:18:24Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/67"
+        },
+        {
+          "number": 110,
+          "title": "Add plugin.json so the repo loads as an Agent Plugin",
+          "updated_at": "2026-10-25T15:14:38Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/110"
+        },
+        {
+          "number": 109,
+          "title": "Move fix design out of discovery into a separate remediation step",
+          "updated_at": "2026-10-25T11:57:05Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/109"
+        }
+      ]
+    },
+    {
+      "repo": "Nutlope/hallmark",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 89,
+          "title": "fix: fail on unreadable lint inputs and stabilize theme index builds",
+          "updated_at": "2026-10-25T21:22:59Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/Nutlope/hallmark/pull/89"
+        },
+        {
+          "number": 88,
+          "title": "Name the theme in the app scaffold command",
+          "updated_at": "2026-10-25T17:47:24Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/Nutlope/hallmark/pull/88"
+        },
+        {
+          "number": 87,
+          "title": "Read --scope as a flag instead of a slug",
+          "updated_at": "2026-10-25T17:46:28Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/Nutlope/hallmark/pull/87"
+        },
+        {
+          "number": 86,
+          "title": "Run the mechanical width checks at 1440 too",
+          "updated_at": "2026-10-25T17:41:52Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/Nutlope/hallmark/pull/86"
+        },
+        {
+          "number": 85,
+          "title": "fix: reject invalid hook settings before rewriting configuration",
+          "updated_at": "2026-10-25T17:29:22Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/Nutlope/hallmark/pull/85"
+        }
+      ]
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 1174,
+          "title": "[Feature] Multiple Design Systems in One Repository",
+          "updated_at": "2026-10-25T20:49:21Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/pbakaus/impeccable/issues/1174"
+        },
+        {
+          "number": 1142,
+          "title": "[Bug] Static detector resolves absolute CSS units (pt, pc, in, cm, mm, Q) as em → false oversized-h1 / tight-leading on print pages",
+          "updated_at": "2026-10-25T20:46:28Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/pbakaus/impeccable/issues/1142"
+        },
+        {
+          "number": 1164,
+          "title": "Row-stripe side-tab: three gaps Greptile found after #1133/#1156",
+          "updated_at": "2026-10-25T18:44:49Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "html_url": "https://github.com/pbakaus/impeccable/issues/1164"
+        },
+        {
+          "number": 1173,
+          "title": "Fix: resolve project tokens from the file's own package first (#1164)",
+          "updated_at": "2026-10-25T18:04:40Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/1173"
+        },
+        {
+          "number": 806,
+          "title": "Static engine: pixel-sample image backgrounds behind text",
+          "updated_at": "2026-10-25T17:27:59Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/pbakaus/impeccable/pull/806"
+        }
+      ]
+    },
+    {
+      "repo": "makecindy/cindy",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 7163,
+          "title": "bug(media): userData 经 junction/symlink 重定向后媒体全部无法入库（cindy-media: blob ancestor is a symlink），且完全静默",
+          "updated_at": "2026-10-26T00:00:06Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/makecindy/cindy/issues/7163"
+        },
+        {
+          "number": 6590,
+          "title": "bug: 同一伙伴在另一台设备聊天后，本机伙伴被标记 demoted/shadowed 而消失，接管因 AVATAR_UNAVAILABLE 一直失败",
+          "updated_at": "2026-10-25T23:59:46Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/makecindy/cindy/issues/6590"
+        },
+        {
+          "number": 7167,
+          "title": "维护者确认：PR #7166 新增 OpenCode CLI provider 预设与动态模型发现（feat）",
+          "updated_at": "2026-10-25T23:41:01Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/makecindy/cindy/issues/7167"
+        },
+        {
+          "number": 7166,
+          "title": "feat(model-providers): add OpenCode CLI provider preset and dynamic model discovery",
+          "updated_at": "2026-10-25T23:37:32Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/makecindy/cindy/pull/7166"
+        },
+        {
+          "number": 6472,
+          "title": "希望新增 opencode agent 支持，让多 Worker 协同和普通会话都能选用 opencode 的免费模型",
+          "updated_at": "2026-10-25T23:24:14Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/makecindy/cindy/issues/6472"
+        }
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-seo",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 375,
+          "title": "fix(fetch): ignore charset= hidden in another meta attribute",
+          "updated_at": "2026-10-25T20:03:51Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-seo/pull/375"
+        },
+        {
+          "number": 374,
+          "title": "fix(content): do not score a filler phrase inside a longer one",
+          "updated_at": "2026-10-25T20:01:02Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-seo/pull/374"
+        },
+        {
+          "number": 373,
+          "title": "fix(sitemap): keep Sitemap URLs when a comment follows",
+          "updated_at": "2026-10-25T19:56:45Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-seo/pull/373"
+        },
+        {
+          "number": 372,
+          "title": "fix(schema): accept a list of offer priceSpecification objects",
+          "updated_at": "2026-10-25T17:33:56Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-seo/pull/372"
+        },
+        {
+          "number": 371,
+          "title": "fix(indexnow): compare the key file host, not a URL substring",
+          "updated_at": "2026-10-25T17:30:52Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-seo/pull/371"
+        }
+      ]
+    },
+    {
+      "repo": "AgriciDaniel/claude-obsidian",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 211,
+          "title": "chore(ci): bump the github-actions group across 1 directory with 4 updates",
+          "updated_at": "2026-10-25T22:24:35Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/211"
+        },
+        {
+          "number": 205,
+          "title": "chore(ci): bump the github-actions group with 2 updates",
+          "updated_at": "2026-10-25T22:24:32Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/205"
+        },
+        {
+          "number": 210,
+          "title": "fix(lint): resolve links across NFC/NFD Unicode spellings",
+          "updated_at": "2026-10-23T19:24:24Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/210"
+        },
+        {
+          "number": 209,
+          "title": "docs(readme): add a star history chart above Author",
+          "updated_at": "2026-10-22T16:47:23Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/209"
+        },
+        {
+          "number": 208,
+          "title": "docs(think): replace em dashes in the step headings",
+          "updated_at": "2026-10-22T16:20:31Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/208"
+        }
+      ]
+    },
+    {
+      "repo": "nashsu/llm_wiki",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 829,
+          "title": "search: /api/v1/projects/{id}/search is not topK-stable — same document changes score and rank with topK",
+          "updated_at": "2026-10-24T15:26:49Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/829"
+        },
+        {
+          "number": 655,
+          "title": "ci: build and release macOS Intel (x86_64) bundle",
+          "updated_at": "2026-10-24T05:40:43Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/655"
+        },
+        {
+          "number": 795,
+          "title": "Feature Request: Resolve Review Queries Using Relevant Wiki Pages Instead of External Search",
+          "updated_at": "2026-10-23T16:23:00Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/795"
+        },
+        {
+          "number": 231,
+          "title": "feat: Allow HTTP API server to bind to 0.0.0.0 and run headlessly / as a system service",
+          "updated_at": "2026-10-23T09:02:23Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/231"
+        },
+        {
+          "number": 828,
+          "title": "[Bug] Large pages always fail to embed against local Ollama: EMBEDDING_BATCH_SIZE(64) x maxChunkChars(1000) overruns the 8s HTTP timeout",
+          "updated_at": "2026-10-22T23:50:12Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/828"
+        }
+      ]
+    },
+    {
+      "repo": "langgenius/dify",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 44757,
+          "title": "feat(api): add a generic archive writer and a per-route request body cap",
+          "updated_at": "2026-10-25T23:57:05Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/44757"
+        },
+        {
+          "number": 44716,
+          "title": "fix(web): retain dataset deletion confirmation on failure",
+          "updated_at": "2026-10-25T22:30:12Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/44716"
+        },
+        {
+          "number": 44451,
+          "title": "Builder backend integration and full CI validation",
+          "updated_at": "2026-10-25T21:31:54Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/44451"
+        },
+        {
+          "number": 44756,
+          "title": "fix(api): escape SQL LIKE wildcard characters in skill and snippet search",
+          "updated_at": "2026-10-25T20:19:28Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/44756"
+        },
+        {
+          "number": 44753,
+          "title": "fix: include documents without the metadata key in negative metadata filters",
+          "updated_at": "2026-10-25T18:40:16Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/langgenius/dify/pull/44753"
+        }
+      ]
+    },
+    {
+      "repo": "ChromeDevTools/chrome-devtools-mcp",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 3341,
+          "title": "fix: avoid splitting percent-encoded characters when truncating URLs",
+          "updated_at": "2026-10-25T19:55:40Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3341"
+        },
+        {
+          "number": 3340,
+          "title": "Truncating a page URL can split a percent-encoded character",
+          "updated_at": "2026-10-25T18:28:17Z",
+          "state": "open",
+          "is_pull_request": false,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3340"
+        },
+        {
+          "number": 3220,
+          "title": "fix: resolve error causes on the session that reported the exception",
+          "updated_at": "2026-10-25T18:12:12Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3220"
+        },
+        {
+          "number": 3276,
+          "title": "feat: add configure_webauthn tool for virtual authenticators",
+          "updated_at": "2026-10-25T18:09:29Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3276"
+        },
+        {
+          "number": 825,
+          "title": "Feature request: Allow persisting remote debugging permission approval",
+          "updated_at": "2026-10-25T15:54:48Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/825"
+        }
+      ]
+    },
+    {
+      "repo": "stablyai/orca",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 33702,
+          "title": "fix(ssh): a migrated host's old session no longer brings closed tabs back on restart",
+          "updated_at": "2026-10-26T00:18:21Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/33702"
+        },
+        {
+          "number": 20815,
+          "title": "fix(status-bar): raise resource-manager confirms above the popover",
+          "updated_at": "2026-10-26T00:18:20Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/20815"
+        },
+        {
+          "number": 33665,
+          "title": "refactor(renderer): group agent-status records and reducers",
+          "updated_at": "2026-10-26T00:17:46Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/33665"
+        },
+        {
+          "number": 32076,
+          "title": "Unify terminal starts under one host operation",
+          "updated_at": "2026-10-26T00:17:43Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/32076"
+        },
+        {
+          "number": 33700,
+          "title": "fix(orcad): bundle jsonc-parser's ESM build into the shipped CLI",
+          "updated_at": "2026-10-26T00:17:41Z",
+          "state": "open",
+          "is_pull_request": true,
+          "html_url": "https://github.com/stablyai/orca/pull/33700"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "exit": 0,
+  "rate_limit": false,
+  "limit": 10,
+  "target_date": "2026-10-25",
+  "observed_at": "2026-10-26T00:26:28.651084+00:00",
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "trending_scope_exclusions": {
+    "Renhuai123/ziwei-doushu": "排盤及古籍資料，未見 AI、agent 或開發自動化用途",
+    "coollabsio/coolify": "一般自架部署平台，未見此 Trending 描述有 AI 用途",
+    "pollen-robotics/microduck": "一般雙足機器人，未見此 Trending 描述有 AI 用途"
+  },
+  "removed_from_records": [
+    "Renhuai123/ziwei-doushu"
+  ],
+  "repo_count": 376
+}

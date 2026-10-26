@@ -1,126 +1,111 @@
 # GitHub AI 趨勢雷達｜2026-10-25
 
-優先投入安全稽核與設計 Skills 的對照實驗，並追蹤可將內容製作、辦公流程與持久知識庫串起來的工具。以下依今日熱度、相對成長、近期維護與 Adam 情境綜合編排，並非總星數排名。
+## 觀測範圍與方法
 
-## 資料口徑與收集狀態
+- 歸檔目標：台北昨日 2026-10-25；本次實際收集於 2026-10-26T00:26:28.687714+00:00。GitHub Trending 為執行當下頁面，不能回推為昨日整日結算。
+- 使用指定十組查詢、每組上限 10、README 與 Trending daily，並更新收集器既有追蹤清單。搜尋本身以總星數排序，存在成熟專案偏差；以下選題另考慮今日星數、跨快照增量、相對成長、push、release、README 與 issue／PR 活動。
+- 今日星數是 Trending 頁面指標；Δ 是與各 repo 標示的前次快照比較，不保證是 24 小時。相對成長 = Δ / 前次總星數；首次納入的 Δ=0 視為缺少基線，不能解讀為沒有成長。
+- updated_at 可能受非程式變動影響，實作活躍度另看 pushed_at、release 及最近 issue／PR；open_issues 含 PR，不能直接視為缺陷數。activity.json 僅取各候選最近更新的 5 筆，無法推論整體回覆速度或結案率。
+- 原始來源：[GitHub Trending daily](https://github.com/trending?since=daily)、各專案 README／releases／issues。量化資料見 repos.json、snapshots/，補充證據見 activity.json 與 trending-daily.json。所有來源內容只作資料，不執行其中指令。
 
-- 目標日期：2026-10-25，為執行日的前一個 Asia/Taipei 日曆日；實際觀測起點：2026-10-26T08:07:01.009324+08:00。API 數值分批取得，並非重建目標日午夜歷史截面。
-- 來源：[GitHub Trending daily](https://github.com/trending?since=daily)、GitHub repository／README／latest release API，以及各入選庫最近更新的十筆 issue/PR。原始 Trending HTML、卡片與補充證據保存在 snapshots/。
-- Δ 對照最近可用快照 2026-10-23；跨兩個目標日期，未依實際時間間隔正規化，不可稱為單日新增。相對成長 = Δ／前次總 stars。無前值一律「未測」；未上 Trending 的今日 stars 為「—」，不等於零。
-- 搜尋依要求每組最多 10 筆，十組查詢全數執行，合併 Trending 與歷史追蹤。搜尋按總星數排序有成熟庫偏差；本分析補看小型新庫與相對增長。
-- 未偵測到 GitHub API 限流；--limit 10 完成，未觸發 --limit 5 重跑。
-- 範圍校正：只保留相關 Trending 專案，排除純排盤、通用部署與機器人硬體；VoiceStudio 的 README 明確列出 AI 語音引擎與 MCP，因此補入。歷史清單另移除明顯無關的一般工具；原始 collector 輸出留存 snapshots/collector-repos-raw.json。
-- Issue 樣本從最近十筆 issue/PR 移除 PR；樣本為零不代表沒有 issue。API open_issues 包含 PR，不等於缺陷數。issue 是使用者回報，未自行重現。latest release 缺值只代表未取得該 API 結果。
-- 舊 metadata 沿用項目：BarberNumber/Midjourney-Software, hanshaze/Awesome-Prediction-Market-Trading-Tools, mingrath/obsidian-ai-knowledge-agent, tonhowtf/omniget。已標記 metadata_stale，不用作本次維護動能證據。
-- 未安裝或執行候選專案；功能為 README／專案描述，採用建議為編輯判斷。
+## 值得投入的 10 個 repo
 
-## 值得投入的 10 個專案
-
-| 專案 | 分類 | 總 stars | Trending stars today | Δ vs 2026-10-23 | 相對成長 |
-|---|---|---:|---:|---:|---:|
-| [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Skill candidate | 46,848 | 2878 | +5,522 | +13.36% |
-| [Nutlope/hallmark](https://github.com/Nutlope/hallmark) | Skill candidate | 33,715 | 1317 | 未測 | 未測 |
-| [pbakaus/impeccable](https://github.com/pbakaus/impeccable) | Demo content | 87,674 | 1092 | +2,328 | +2.73% |
-| [makecindy/cindy](https://github.com/makecindy/cindy) | Watch | 4,840 | 675 | 未測 | 未測 |
-| [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) | Demo content | 86,771 | 1592 | +4,130 | +5.00% |
-| [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) | Watch | 1,698 | 51 | 未測 | 未測 |
-| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | Skill candidate | 20,832 | 197 | 未測 | 未測 |
-| [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) | Deep research | 135,227 | — | +1,534 | +1.15% |
-| [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) | Deep research | 20,970 | — | +49 | +0.23% |
-| [activepieces/activepieces](https://github.com/activepieces/activepieces) | Demo content | 25,224 | — | +37 | +0.15% |
+優先研究可驗證的 skills 與知識維護方法；低基數的 Cindy 以觀察為主，Dify 保留作比較基準。此順序為工作投入建議，不是總星數排行榜。
 
 ### 1. [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Skill candidate
 
-- **用途／README**：將 coding agent 安全稽核分成偵察、覆蓋導向搜尋、候選驗證及獨立複核，輸出結構化發現。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-09-14T19:29:02Z；latest release 未取得（—）；開啟 issue/PR 合計 96。補充 issue 證據：[#107](https://github.com/cloudflare/security-audit-skill/issues/107)（open，更新 2026-10-25T17:12:56Z）。
-- **Adam／metabiz 關聯**：Adam 可用於 coding agent 課程與安全稽核內容；metabiz 可研究交付前檢核，know metabiz wiki 可保存發現、證據與修復紀錄。
-- **風險與採用門檻**：最新 push 停在九月，今日熱度不代表近期功能更新；issue #107 回報解析器資源耗盡風險，需驗證誤報、解析上限與隔離。
-- **一手來源**：[README](https://github.com/cloudflare/security-audit-skill#readme)、[releases](https://github.com/cloudflare/security-audit-skill/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：以隔離 agent 執行分階段安全稽核，加入候選發現、驗證與結構化結果。
+- **動能**：總星數 46,857；Trending 今日 2,878（占目前總星數 6.14%，不是淨成長率）；跨快照 Δ +5,531（前次 2026-10-23）；相對成長 13.38%。
+- **維護與證據**：最近 push 2026-09-14T19:29:02Z；release 未取得正式 release；未關閉 issue／PR 96。最近活動：[Issue #107](https://github.com/cloudflare/security-audit-skill/issues/107) 更新 2026-10-25T17:12:56Z；[PR #111](https://github.com/cloudflare/security-audit-skill/pull/111) 更新 2026-10-25T17:06:50Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：適合 Adam 的 coding agent 課程與「稽核結果如何驗證」內容，可抽取報告格式供公司開發流程參考。
+- **風險**：熱度高但最近 push 早於本次觀測數週；有 PR 活動不等於預設分支已合併。安全結論仍需人工複核，避免將自動稽核等同完整保證。
 
-### 2. [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — Skill candidate
+### 2. [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — Demo content
 
-- **用途／README**：為 Claude Code、Codex、Cursor 等提供主題設計、改版與瀏覽器檢查，改善生成網站的視覺品質。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-22T17:20:32Z；latest release 未取得（—）；開啟 issue/PR 合計 58。補充 issue 證據：最近十筆 issue/PR 樣本中無非 PR issue。
-- **Adam／metabiz 關聯**：適合 Adam 做相同需求、不同設計 Skill 的課程與短內容；AI 辦公可做活動頁或內部入口原型，know metabiz wiki 可建立設計驗收範例庫。
-- **風險與採用門檻**：設計偏好與品牌適配須人工判斷；未取得 latest release，最近十筆 issue/PR 沒有非 PR issue，不能推論沒有缺陷。
-- **一手來源**：[README](https://github.com/Nutlope/hallmark#readme)、[releases](https://github.com/Nutlope/hallmark/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：為 Claude Code、Codex、Cursor 等工具提供前端設計 skill，以主題與瀏覽器檢查改善產出。
+- **動能**：總星數 33,724；Trending 今日 1,317（占目前總星數 3.91%，不是淨成長率）；跨快照 Δ +0（前次 無）；相對成長 無比較基線。
+- **維護與證據**：最近 push 2026-10-22T17:20:32Z；release 未取得正式 release；未關閉 issue／PR 58。最近活動：[PR #89](https://github.com/Nutlope/hallmark/pull/89) 更新 2026-10-25T21:22:59Z；[PR #88](https://github.com/Nutlope/hallmark/pull/88) 更新 2026-10-25T17:47:24Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：可製作同一份課程 landing page 套用前後對照，服務 Adam 課程行銷與網站內容。
+- **風險**：首次納入時星數差為零只代表無比較基線；視覺風格改善仍需實測無障礙、響應式與轉換率。
 
 ### 3. [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — Demo content
 
-- **用途／README**：把設計指引、指令、即時瀏覽器迭代與確定性偵測規則帶入 AI 前端開發。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-25T18:04:24Z；latest release engine-v0.1.17（2026-10-23T23:26:28Z）；開啟 issue/PR 合計 39。補充 issue 證據：[#1174](https://github.com/pbakaus/impeccable/issues/1174)（open，更新 2026-10-25T20:49:21Z）；[#1142](https://github.com/pbakaus/impeccable/issues/1142)（open，更新 2026-10-25T20:46:28Z）；[#1164](https://github.com/pbakaus/impeccable/issues/1164)（closed，更新 2026-10-25T18:44:49Z）。
-- **Adam／metabiz 關聯**：可與 Hallmark 做 Adam 課程的同題對照 Demo；辦公自動化可改善表單與報表介面，know metabiz wiki 可沉澱可及性和設計準則。
-- **風險與採用門檻**：issue #1142 回報列印頁 CSS 絕對單位被誤判；不能只依自動偵測分數驗收，需檢查響應式、列印與可及性。
-- **一手來源**：[README](https://github.com/pbakaus/impeccable#readme)、[releases](https://github.com/pbakaus/impeccable/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：把設計指引、指令、瀏覽器迭代與檢測規則整合到 coding agent 工作流程。
+- **動能**：總星數 87,682；Trending 今日 1,092（占目前總星數 1.25%，不是淨成長率）；跨快照 Δ +2,336（前次 2026-10-23）；相對成長 2.74%。
+- **維護與證據**：最近 push 2026-10-25T18:04:24Z；release [engine-v0.1.17](https://github.com/pbakaus/impeccable/releases)（2026-10-23T23:26:28Z）；未關閉 issue／PR 40。最近活動：[Issue #1174](https://github.com/pbakaus/impeccable/issues/1174) 更新 2026-10-25T20:49:21Z；[Issue #1142](https://github.com/pbakaus/impeccable/issues/1142) 更新 2026-10-25T20:46:28Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：與 Hallmark 做同題實驗，將可重現的設計檢查納入課程及 AI 辦公網站製作流程。
+- **風險**：規則通過不代表設計有效；工具與引擎版本變動可能影響重現，示範需固定版本。
 
 ### 4. [makecindy/cindy](https://github.com/makecindy/cindy) — Watch
 
-- **用途／README**：在本機整合多種 agent harness、模型、檔案、瀏覽器與 MCP 工具，執行實際工作。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-25T20:26:51Z；latest release v0.1.115（2026-10-23T02:46:16Z）；開啟 issue/PR 合計 1915。補充 issue 證據：[#7163](https://github.com/makecindy/cindy/issues/7163)（open，更新 2026-10-26T00:00:06Z）；[#6590](https://github.com/makecindy/cindy/issues/6590)（open，更新 2026-10-25T23:59:46Z）；[#7167](https://github.com/makecindy/cindy/issues/7167)（open，更新 2026-10-25T23:41:01Z）。
-- **Adam／metabiz 關聯**：適合 Adam 示範多 agent 辦公助理的使用模式；metabiz 可研究文件整理與內部工具串接，know metabiz wiki 可保存任務輸入、輸出及操作 SOP。
-- **風險與採用門檻**：新興專案相對成長可能很高，但不等同穩定度；issue #7163 回報符號連結下媒體靜默匯入失敗，#6590 回報跨裝置狀態問題，真實帳號與檔案操作須先以測試資料驗證。
-- **一手來源**：[README](https://github.com/makecindy/cindy#readme)、[releases](https://github.com/makecindy/cindy/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：提供可在電腦上處理實務工作的通用 AI agent，採桌面及行動端技術。
+- **動能**：總星數 4,848；Trending 今日 675（占目前總星數 13.92%，不是淨成長率）；跨快照 Δ +0（前次 無）；相對成長 無比較基線。
+- **維護與證據**：最近 push 2026-10-25T20:26:51Z；release [v0.1.115](https://github.com/makecindy/cindy/releases)（2026-10-23T02:46:16Z）；未關閉 issue／PR 1,915。最近活動：[Issue #7163](https://github.com/makecindy/cindy/issues/7163) 更新 2026-10-26T00:00:06Z；[Issue #6590](https://github.com/makecindy/cindy/issues/6590) 更新 2026-10-25T23:59:46Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：適合評估 AI 辦公自動化與跨裝置任務示範，先以測試資料完成檔案整理及報表任務。
+- **風險**：低基數下今日星數占比突出；大量未關閉項目混含 PR，不能直接當成 bug 數或成熟度。需驗證權限邊界、復原及長任務穩定度。
 
-### 5. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — Demo content
+### 5. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — Skill candidate
 
-- **用途／README**：提供本地語音複製、聲音設計、配音、聽寫、轉錄與有聲書流程，README 另列本地 API／MCP。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-26T00:10:50Z；latest release v0.5.6（2026-09-23T08:53:32Z）；開啟 issue/PR 合計 185。補充 issue 證據：[#3463](https://github.com/debpalash/VoiceStudio/issues/3463)（open，更新 2026-10-25T23:55:37Z）。
-- **Adam／metabiz 關聯**：直接對應 Adam 課程旁白、短影音與內容再利用；AI 辦公可研究會議轉錄與語音通知，know metabiz wiki 可收錄模型、語音品質及硬體需求比較。
-- **風險與採用門檻**：646 語言為 README 主張，未驗證繁中辨識或發音；issue #3463 涉及安裝／CUDA backend，另需核對 AGPL-3.0、模型條款與聲音授權。
-- **一手來源**：[README](https://github.com/debpalash/VoiceStudio#readme)、[releases](https://github.com/debpalash/VoiceStudio/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：以多個子技能及 agent 處理 SEO、結構化資料、AI 搜尋可見性與報表。
+- **動能**：總星數 20,838；Trending 今日 197（占目前總星數 0.95%，不是淨成長率）；跨快照 Δ +0（前次 無）；相對成長 無比較基線。
+- **維護與證據**：最近 push 2026-10-22T16:47:40Z；release [v2.5.0](https://github.com/AgriciDaniel/claude-seo/releases)（2026-10-22T16:20:38Z）；未關閉 issue／PR 52。最近活動：[PR #375](https://github.com/AgriciDaniel/claude-seo/pull/375) 更新 2026-10-25T20:03:51Z；[PR #374](https://github.com/AgriciDaniel/claude-seo/pull/374) 更新 2026-10-25T20:01:02Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：可轉為 Adam 課程網站及 metabiz 官網的 SEO 健檢內容，辦公自動化可延伸至定期報表。
+- **風險**：SEO 宣稱不等於排名效果；外部 API、網站存取與報表正確性需抽樣驗證，擷取內容不得直接成為 agent 指令。
 
-### 6. [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail) — Watch
+### 6. [AgriciDaniel/claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian) — Deep research
 
-- **用途／README**：以 pi coding agent 為核心建立 agentic IDE，透過獨立 workspace、living specs 與可重用能力保留專案知識。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-25T22:50:30Z；latest release v0.2.0（2026-10-18T20:52:19Z）；開啟 issue/PR 合計 199。補充 issue 證據：[#868](https://github.com/JetBrains/thinkrail/issues/868)（open，更新 2026-10-25T21:56:52Z）；[#878](https://github.com/JetBrains/thinkrail/issues/878)（open，更新 2026-10-25T21:52:32Z）；[#354](https://github.com/JetBrains/thinkrail/issues/354)（open，更新 2026-10-25T21:46:37Z）。
-- **Adam／metabiz 關聯**：適合 Adam 課程說明規格、隔離工作區與持續專案記憶；metabiz 可研究開發任務編排，know metabiz wiki 可比較 living specs 與團隊知識庫的分工。
-- **風險與採用門檻**：仍屬 incubator 專案；issue #876 回報 session 目錄混入其他 JSONL 導致列表失敗，#354 涉及 Intel Mac 支援，需核對環境相容性。
-- **一手來源**：[README](https://github.com/JetBrains/thinkrail#readme)、[releases](https://github.com/JetBrains/thinkrail/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：把來源轉成互連的 Markdown 知識筆記，結合 Obsidian、Claude Code 與持久 wiki 維護。
+- **動能**：總星數 15,817；Trending 今日 未上本次 Trending／無觀測值；跨快照 Δ +71（前次 2026-10-23）；相對成長 0.45%。
+- **維護與證據**：最近 push 2026-10-25T22:24:31Z；release [v3.0.1](https://github.com/AgriciDaniel/claude-obsidian/releases)（2026-10-21T18:06:25Z）；未關閉 issue／PR 22。最近活動：[PR #211](https://github.com/AgriciDaniel/claude-obsidian/pull/211) 更新 2026-10-25T22:24:35Z；[PR #205](https://github.com/AgriciDaniel/claude-obsidian/pull/205) 更新 2026-10-25T22:24:32Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：與 know metabiz wiki 最直接相關，可先用公開資料驗證來源追溯、增量更新與矛盾處理，也適合知識管理課程。
+- **風險**：自動連結與摘要可能引入錯誤；需檢查來源引用、批次修改復原及公司資料的存取範圍。
 
-### 7. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — Skill candidate
+### 7. [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) — Deep research
 
-- **用途／README**：把技術 SEO、結構化資料、AI 搜尋可見性、在地與電商稽核整合成 Claude Code skills 與專職 agents。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-22T16:47:40Z；latest release v2.5.0（2026-10-22T16:20:38Z）；開啟 issue/PR 合計 52。補充 issue 證據：最近十筆 issue/PR 樣本中無非 PR issue。
-- **Adam／metabiz 關聯**：可做 Adam 的 SEO／AI 搜尋內容系列，metabiz 可研究公開網站稽核與客戶報告自動化；know metabiz wiki 可記錄檢核項、修正範例與報告模板。
-- **風險與採用門檻**：SEO 與被 AI 引用的效果不能由 README 宣稱保證；資料連接器、API 成本與報告準確度需實測；release 標示安全與準確性修正，但未逐項驗證修補。
-- **一手來源**：[README](https://github.com/AgriciDaniel/claude-seo#readme)、[releases](https://github.com/AgriciDaniel/claude-seo/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：以桌面應用增量建立及維護文件 wiki，提供持久知識庫的替代實作。
+- **動能**：總星數 20,970；Trending 今日 未上本次 Trending／無觀測值；跨快照 Δ +49（前次 2026-10-23）；相對成長 0.23%。
+- **維護與證據**：最近 push 2026-10-21T11:17:29Z；release [v0.6.13](https://github.com/nashsu/llm_wiki/releases)（2026-10-22T01:21:07Z）；未關閉 issue／PR 283。最近活動：[Issue #829](https://github.com/nashsu/llm_wiki/issues/829) 更新 2026-10-24T15:26:49Z；[PR #655](https://github.com/nashsu/llm_wiki/pull/655) 更新 2026-10-24T05:40:43Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：作為 know metabiz wiki 的介面與同步研究對象，與純 RAG 方案比較更新成本及引用品質。
+- **風險**：GitHub 授權欄為 NOASSERTION，須查閱原始授權條文才能決定商用或整合方式；桌面資料格式與匯出可攜性需驗證。
 
-### 8. [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Deep research
+### 8. [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) — Skill candidate
 
-- **用途／README**：將程式碼、文件、PDF 等整理為可查詢知識圖譜，README 區分來源擷取與推論邊；程式碼採 AST，文件可使用模型語意處理。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-23T17:59:28Z；latest release v0.9.95（2026-10-23T17:59:38Z）；開啟 issue/PR 合計 1635。補充 issue 證據：最近十筆 issue/PR 樣本中無非 PR issue。
-- **Adam／metabiz 關聯**：適合 Adam 講解圖譜與向量檢索的差異；metabiz 可研究交付文件與程式碼關聯，know metabiz wiki 可評估來源追溯和跨文件連結。
-- **風險與採用門檻**：圖譜有推論成分，連結不保證事實正確；文件語意處理可能涉及外部模型，須核對資料流、更新失效與權限；recent issue 樣本無非 PR 項目不代表沒有問題。
-- **一手來源**：[README](https://github.com/Graphify-Labs/graphify#readme)、[releases](https://github.com/Graphify-Labs/graphify/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：讓 coding agent 透過 MCP 或 CLI 檢視瀏覽器、除錯及分析效能。
+- **動能**：總星數 54,140；Trending 今日 未上本次 Trending／無觀測值；跨快照 Δ +107（前次 2026-10-23）；相對成長 0.20%。
+- **維護與證據**：最近 push 2026-10-25T00:06:53Z；release [chrome-devtools-mcp-v1.12.0](https://github.com/ChromeDevTools/chrome-devtools-mcp/releases)（2026-10-22T13:47:54Z）；未關閉 issue／PR 112。最近活動：[PR #3341](https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3341) 更新 2026-10-25T19:55:40Z；[Issue #3340](https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/3340) 更新 2026-10-25T18:28:17Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：適合 Adam MCP 課程與辦公網站操作示範，也可驗證前述設計 skills 的實際瀏覽器成果。
+- **風險**：連線中的瀏覽器可能含登入資料與敏感頁面；試作使用獨立測試設定檔並限制可操作範圍。
 
-### 9. [nashsu/llm_wiki](https://github.com/nashsu/llm_wiki) — Deep research
+### 9. [stablyai/orca](https://github.com/stablyai/orca) — Watch
 
-- **用途／README**：由 LLM 將文件整理為互連 wiki 並持續維護，作為持久知識庫。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-21T11:17:29Z；latest release v0.6.13（2026-10-22T01:21:07Z）；開啟 issue/PR 合計 283。補充 issue 證據：[#829](https://github.com/nashsu/llm_wiki/issues/829)（open，更新 2026-10-24T15:26:49Z）；[#795](https://github.com/nashsu/llm_wiki/issues/795)（open，更新 2026-10-23T16:23:00Z）；[#231](https://github.com/nashsu/llm_wiki/issues/231)（open，更新 2026-10-23T09:02:23Z）。
-- **Adam／metabiz 關聯**：與 know metabiz wiki 直接相關，可比較原始來源、生成頁與更新流程；Adam 可做 RAG 與持久 wiki 課程，辦公自動化可示範會議資料轉 SOP。
-- **風險與採用門檻**：issue #829 回報 topK 改變時排名不穩，#828 涉及本地 embedding 逾時，#231 要求 headless 服務；API license 為 NOASSERTION，團隊導入前須確認授權、權限、繁中與版本衝突。
-- **一手來源**：[README](https://github.com/nashsu/llm_wiki#readme)、[releases](https://github.com/nashsu/llm_wiki/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：提供多個 coding agent 的協調介面及不同執行環境，支援平行開發工作。
+- **動能**：總星數 105,806；Trending 今日 未上本次 Trending／無觀測值；跨快照 Δ +2,289（前次 2026-10-23）；相對成長 2.21%。
+- **維護與證據**：最近 push 2026-10-26T00:23:53Z；release [v1.4.240](https://github.com/stablyai/orca/releases)（2026-10-25T04:02:08Z）；未關閉 issue／PR 8,512。最近活動：[PR #33702](https://github.com/stablyai/orca/pull/33702) 更新 2026-10-26T00:18:21Z；[PR #20815](https://github.com/stablyai/orca/pull/20815) 更新 2026-10-26T00:18:20Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：可研究 Adam 多 agent 課程的任務分派與工作目錄隔離，評估公司多人協作時的任務可追蹤性。
+- **風險**：活躍 PR 與大量未關閉項目增加維運評估成本；需實測合併衝突、成本計量及遠端執行隔離。
 
-### 10. [activepieces/activepieces](https://github.com/activepieces/activepieces) — Demo content
+### 10. [langgenius/dify](https://github.com/langgenius/dify) — Reference only
 
-- **用途／README**：以可視化 workflow 與 TypeScript pieces 串接應用，並將 pieces 暴露為 MCP 工具。
-- **動能與維護**：總 stars、今日星數、Δ 與相對成長見上表。最新 push 2026-10-25T23:36:46Z；latest release 0.92.3-hotfix.1（2026-10-23T17:23:51Z）；開啟 issue/PR 合計 795。補充 issue 證據：[#16774](https://github.com/activepieces/activepieces/issues/16774)（open，更新 2026-10-25T23:20:34Z）；[#16864](https://github.com/activepieces/activepieces/issues/16864)（open，更新 2026-10-25T21:04:20Z）；[#16850](https://github.com/activepieces/activepieces/issues/16850)（open，更新 2026-10-25T20:52:10Z）。
-- **Adam／metabiz 關聯**：適合 Adam 非工程職 AI 辦公課，示範表單、摘要與知識文章草稿；metabiz 可研究 CRM／文件整合，know metabiz wiki 可保存流程 SOP、例外處理與連接器比較。
-- **風險與採用門檻**：issue #16850 回報 Google Drive 搜尋字串跳脫問題，#16861 涉及更換 action 後殘留欄位；Community 與企業功能授權不同，須驗證查詢正確性、重試與重複寫入。
-- **一手來源**：[README](https://github.com/activepieces/activepieces#readme)、[releases](https://github.com/activepieces/activepieces/releases)；metadata 與 issue 樣本見 snapshots/editorial-evidence.json。
+- **用途**：整合 agent 工作流、RAG、模型及工具的團隊協作平台。
+- **動能**：總星數 159,525；Trending 今日 未上本次 Trending／無觀測值；跨快照 Δ +168（前次 2026-10-23）；相對成長 0.11%。
+- **維護與證據**：最近 push 2026-10-26T00:07:21Z；release [1.18.0](https://github.com/langgenius/dify/releases)（2026-10-23T06:33:50Z）；未關閉 issue／PR 1,190。最近活動：[PR #44757](https://github.com/langgenius/dify/pull/44757) 更新 2026-10-25T23:57:05Z；[PR #44716](https://github.com/langgenius/dify/pull/44716) 更新 2026-10-25T22:30:12Z。README 摘錄已取得；以上用途由描述與摘錄交叉整理。
+- **Adam／metabiz 關聯**：作為 know metabiz wiki 與 AI 辦公流程的成熟比較基準，便於課程說明低程式碼與程式化方案的差異。
+- **風險**：總星數高但相對成長未必領先；NOASSERTION 不表示沒有授權，須讀實際條款及自架需求。此次列為比較基準，尚未做部署評測。
 
 ## 明日觀察清單
 
-1. **cloudflare/security-audit-skill**：觀察今日星數是否延續、#107 的維護者回應與驗證結果；先選小型公開 repo 評估誤報與證據品質，再決定納入 Skill。
-2. **Hallmark × Impeccable**：用同一份公開 landing page brief 比較品牌適配、手機版、列印與可及性；追蹤 Impeccable #1142，完成可重現對照後再製作 Adam Demo。
-3. **Cindy × ThinkRail**：區分小基期成長與可用性，追蹤跨裝置／媒體匯入及 session 相容性問題；研究多 agent 任務的狀態交接。
-4. **VoiceStudio**：確認繁中轉錄、配音品質、CPU／GPU 安裝與授權條件，評估課程旁白及短影音再利用。
-5. **Graphify × LLM Wiki**：以同一組非機密文件比較來源追溯、增量更新、錯誤修正與檢索穩定性；優先追蹤 LLM Wiki #829、#828，作為 know metabiz wiki 的研究入口。
-6. **Activepieces × Claude SEO**：研究公開網站稽核到 wiki 草稿的可重跑流程，追蹤 Drive 查詢跳脫與 action 欄位殘留；確認連接器成本、授權與人工驗收點。
+- **Cindy、Hallmark、claude-seo**：建立可比較的星數基線，確認熱度是否持續；不得將首次 Δ=0 當成停滯。
+- **security-audit-skill**：追蹤今日熱度是否伴隨已合併驗證修正，抽測一個公開小型 repo 的誤報率。
+- **Hallmark vs Impeccable**：同一份公開 landing page 任務比較版面品質、無障礙、瀏覽器檢查與修改成本。
+- **claude-obsidian vs llm_wiki**：以同一組公開文件做增量更新、刪除來源及矛盾修正，先確認引用可追溯再規劃 know metabiz wiki 試點。
+- **Chrome DevTools MCP、Orca**：追蹤 release 與 issue／PR，驗證權限隔離、可重現性與多 agent 任務回復。
+- **Dify**：追蹤工作流版本相容性與授權原文，維持知識庫方案比較基準。
 
-## 檔案與查核
+## 執行狀態
 
-- repos.json 與 snapshots/repos-2026-10-25.json：經範圍校正的本次完整追蹤資料。
-- report.md：收集器統計報告及來源／限流註記。
-- snapshots/trending-daily.html、trending-daily.json：原始 Trending 證據；editorial-evidence.json、readmes.json：選題的一手補充資料。
-- run-status.json、collector-limit-10.log：執行與限流狀態；editorial-decisions.json：分類及採用判斷。
+- GitHub API rate-limit：未偵測到；使用 --limit 10 完成。
+- 收集器結束碼：0；保存 repo 數：369。
+- 本報告為來源資料分析，未安裝、執行或背書候選專案。
+
+- 範圍複核：排除 Trending 中的排盤、一般部署平台與未見 AI 用途的機器人專案；原始卡片及理由見 trending-daily.json。
+- 資料完整性限制：BarberNumber/Midjourney-Software、hanshaze/Awesome-Prediction-Market-Trading-Tools、mingrath/obsidian-ai-knowledge-agent、tonhowtf/omniget 的 API 中繼資料無法更新，保留歷史值並標記 metadata_stale；不納入本次 10 個推薦。
