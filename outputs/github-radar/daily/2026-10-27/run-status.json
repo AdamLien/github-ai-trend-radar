@@ -1,0 +1,38 @@
+{
+  "target_date": "2026-10-27",
+  "observed_at": "2026-10-28T00:10:43.613309+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "collected_count": 383,
+  "retained_count": 373,
+  "excluded_count": 10,
+  "stale_repos": [
+    "BarberNumber/Midjourney-Software",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "baseline_date": "2026-10-25",
+  "collection_completed_at": "2026-10-28T00:21:48.900296+08:00",
+  "artifact_verification": "passed",
+  "dashboard_build": "passed",
+  "dashboard_build_warning": "Vite bundle exceeds 500 kB; non-fatal",
+  "preexisting_files_preserved": 28
+}

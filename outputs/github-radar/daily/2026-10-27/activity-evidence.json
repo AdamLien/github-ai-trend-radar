@@ -1,0 +1,392 @@
+{
+  "Nutlope/hallmark": {
+    "issues_and_prs": [
+      {
+        "number": 76,
+        "url": "https://github.com/Nutlope/hallmark/issues/76",
+        "updated_at": "2026-10-27T15:12:44Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 96,
+        "url": "https://github.com/Nutlope/hallmark/pull/96",
+        "updated_at": "2026-10-27T15:05:54Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 93,
+        "url": "https://github.com/Nutlope/hallmark/pull/93",
+        "updated_at": "2026-10-27T12:23:32Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 92,
+        "url": "https://github.com/Nutlope/hallmark/pull/92",
+        "updated_at": "2026-10-27T12:23:31Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 89,
+        "url": "https://github.com/Nutlope/hallmark/pull/89",
+        "updated_at": "2026-10-27T10:36:07Z",
+        "state": "closed",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "pbakaus/impeccable": {
+    "issues_and_prs": [
+      {
+        "number": 1184,
+        "url": "https://github.com/pbakaus/impeccable/pull/1184",
+        "updated_at": "2026-10-27T16:05:48Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 1167,
+        "url": "https://github.com/pbakaus/impeccable/pull/1167",
+        "updated_at": "2026-10-27T15:31:41Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 1126,
+        "url": "https://github.com/pbakaus/impeccable/pull/1126",
+        "updated_at": "2026-10-27T15:31:38Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 1079,
+        "url": "https://github.com/pbakaus/impeccable/pull/1079",
+        "updated_at": "2026-10-27T15:31:35Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 1185,
+        "url": "https://github.com/pbakaus/impeccable/pull/1185",
+        "updated_at": "2026-10-27T15:31:32Z",
+        "state": "open",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "makecindy/cindy": {
+    "issues_and_prs": [
+      {
+        "number": 7558,
+        "url": "https://github.com/makecindy/cindy/pull/7558",
+        "updated_at": "2026-10-27T16:15:42Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 6752,
+        "url": "https://github.com/makecindy/cindy/pull/6752",
+        "updated_at": "2026-10-27T16:14:46Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 7149,
+        "url": "https://github.com/makecindy/cindy/pull/7149",
+        "updated_at": "2026-10-27T16:14:28Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 7557,
+        "url": "https://github.com/makecindy/cindy/issues/7557",
+        "updated_at": "2026-10-27T16:13:56Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 7336,
+        "url": "https://github.com/makecindy/cindy/pull/7336",
+        "updated_at": "2026-10-27T16:14:34Z",
+        "state": "open",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "nightly-labs/openbot": {
+    "issues_and_prs": [
+      {
+        "number": 3463,
+        "url": "https://github.com/nightly-labs/openbot/issues/3463",
+        "updated_at": "2026-10-27T16:14:10Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 3461,
+        "url": "https://github.com/nightly-labs/openbot/pull/3461",
+        "updated_at": "2026-10-27T16:12:48Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 3462,
+        "url": "https://github.com/nightly-labs/openbot/issues/3462",
+        "updated_at": "2026-10-27T16:11:23Z",
+        "state": "closed",
+        "is_pull_request": false
+      },
+      {
+        "number": 3460,
+        "url": "https://github.com/nightly-labs/openbot/issues/3460",
+        "updated_at": "2026-10-27T16:09:50Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 3459,
+        "url": "https://github.com/nightly-labs/openbot/issues/3459",
+        "updated_at": "2026-10-27T16:08:50Z",
+        "state": "closed",
+        "is_pull_request": false
+      }
+    ]
+  },
+  "JetBrains/thinkrail": {
+    "issues_and_prs": [
+      {
+        "number": 954,
+        "url": "https://github.com/JetBrains/thinkrail/pull/954",
+        "updated_at": "2026-10-27T16:15:28Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 869,
+        "url": "https://github.com/JetBrains/thinkrail/pull/869",
+        "updated_at": "2026-10-27T16:11:00Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 808,
+        "url": "https://github.com/JetBrains/thinkrail/pull/808",
+        "updated_at": "2026-10-27T16:10:31Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 956,
+        "url": "https://github.com/JetBrains/thinkrail/pull/956",
+        "updated_at": "2026-10-27T16:04:48Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 817,
+        "url": "https://github.com/JetBrains/thinkrail/pull/817",
+        "updated_at": "2026-10-27T15:25:38Z",
+        "state": "open",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "affaan-m/ECC": {
+    "issues_and_prs": [
+      {
+        "number": 3694,
+        "url": "https://github.com/affaan-m/ECC/issues/3694",
+        "updated_at": "2026-10-27T16:01:02Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 3759,
+        "url": "https://github.com/affaan-m/ECC/pull/3759",
+        "updated_at": "2026-10-27T15:57:57Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 3638,
+        "url": "https://github.com/affaan-m/ECC/pull/3638",
+        "updated_at": "2026-10-27T15:40:11Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 3189,
+        "url": "https://github.com/affaan-m/ECC/pull/3189",
+        "updated_at": "2026-10-27T15:27:00Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 3722,
+        "url": "https://github.com/affaan-m/ECC/issues/3722",
+        "updated_at": "2026-10-27T14:51:02Z",
+        "state": "open",
+        "is_pull_request": false
+      }
+    ]
+  },
+  "obra/superpowers": {
+    "issues_and_prs": [
+      {
+        "number": 2294,
+        "url": "https://github.com/obra/superpowers/pull/2294",
+        "updated_at": "2026-10-27T13:25:54Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 2548,
+        "url": "https://github.com/obra/superpowers/pull/2548",
+        "updated_at": "2026-10-27T09:44:02Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 2543,
+        "url": "https://github.com/obra/superpowers/pull/2543",
+        "updated_at": "2026-10-27T09:42:58Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 2538,
+        "url": "https://github.com/obra/superpowers/pull/2538",
+        "updated_at": "2026-10-27T09:42:49Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 2595,
+        "url": "https://github.com/obra/superpowers/pull/2595",
+        "updated_at": "2026-10-27T04:38:42Z",
+        "state": "open",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "gitroomhq/postiz-app": {
+    "issues_and_prs": [
+      {
+        "number": 1124,
+        "url": "https://github.com/gitroomhq/postiz-app/issues/1124",
+        "updated_at": "2026-10-27T15:23:21Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 2336,
+        "url": "https://github.com/gitroomhq/postiz-app/pull/2336",
+        "updated_at": "2026-10-27T12:16:19Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 2337,
+        "url": "https://github.com/gitroomhq/postiz-app/pull/2337",
+        "updated_at": "2026-10-27T11:46:52Z",
+        "state": "closed",
+        "is_pull_request": true
+      },
+      {
+        "number": 866,
+        "url": "https://github.com/gitroomhq/postiz-app/issues/866",
+        "updated_at": "2026-10-27T10:46:56Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 1758,
+        "url": "https://github.com/gitroomhq/postiz-app/issues/1758",
+        "updated_at": "2026-10-27T10:39:20Z",
+        "state": "open",
+        "is_pull_request": false
+      }
+    ]
+  },
+  "nashsu/llm_wiki": {
+    "issues_and_prs": [
+      {
+        "number": 831,
+        "url": "https://github.com/nashsu/llm_wiki/pull/831",
+        "updated_at": "2026-10-27T03:32:53Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 830,
+        "url": "https://github.com/nashsu/llm_wiki/pull/830",
+        "updated_at": "2026-10-26T19:26:22Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 796,
+        "url": "https://github.com/nashsu/llm_wiki/pull/796",
+        "updated_at": "2026-10-26T10:20:59Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 829,
+        "url": "https://github.com/nashsu/llm_wiki/issues/829",
+        "updated_at": "2026-10-24T15:26:49Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 655,
+        "url": "https://github.com/nashsu/llm_wiki/pull/655",
+        "updated_at": "2026-10-26T09:43:48Z",
+        "state": "open",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "SamurAIGPT/llm-wiki-agent": {
+    "issues_and_prs": [
+      {
+        "number": 86,
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+        "updated_at": "2026-10-20T12:40:51Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 85,
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+        "updated_at": "2026-10-08T14:04:06Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 84,
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+        "updated_at": "2026-09-24T14:01:36Z",
+        "state": "open",
+        "is_pull_request": true
+      },
+      {
+        "number": 83,
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+        "updated_at": "2026-09-24T13:43:30Z",
+        "state": "open",
+        "is_pull_request": false
+      },
+      {
+        "number": 82,
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+        "updated_at": "2026-09-24T12:10:11Z",
+        "state": "open",
+        "is_pull_request": true
+      }
+    ]
+  }
+}

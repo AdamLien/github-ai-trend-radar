@@ -1,0 +1,72 @@
+[
+  {
+    "repo": "Nutlope/hallmark",
+    "category": "Skill candidate",
+    "purpose": "為 Claude Code、Cursor、Codex 提供避免制式 AI 風格的設計 skill。",
+    "relevance": "適合 Adam 的 AI 網站設計課與前後對照短影音；可做 metabiz 官網／辦公介面設計檢核。",
+    "risk": "設計偏好不等於可用性與無障礙；匯入 skill 前仍須逐條審查指令與工具權限。"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "category": "Demo content",
+    "purpose": "以設計語言及指令改善 AI coding harness 的 UI 輸出。",
+    "relevance": "適合與 hallmark 做相同 prompt 的盲測內容，產出 AI 設計課可重複的示範。",
+    "risk": "指令適用平台與版本可能不同；視覺改善須用實際成品驗證。"
+  },
+  {
+    "repo": "makecindy/cindy",
+    "category": "Deep research",
+    "purpose": "提供開箱即用的開源 AI agent。",
+    "relevance": "可研究 AI 辦公助理如何把任務轉為可執行流程，作為 Adam 辦公自動化課案例。",
+    "risk": "執行能力涉及檔案、外部服務與憑證；先用測試資料評估權限、可觀測性與成本。"
+  },
+  {
+    "repo": "nightly-labs/openbot",
+    "category": "Demo content",
+    "purpose": "以本機優先桌面工作區管理持續運作的 AI 隊友、任務佇列及獨立工作區。",
+    "relevance": "可示範 Codex／Claude 任務排程與辦公分工，評估 metabiz 多任務操作流程。",
+    "risk": "長時間執行的代理可能累積成本與狀態錯誤；需驗證復原、隔離與人工接手。"
+  },
+  {
+    "repo": "JetBrains/thinkrail",
+    "category": "Watch",
+    "purpose": "以 pi 為基礎的輕量 AI 開發 IDE。",
+    "relevance": "適合 Adam 的 coding agent 工具比較；觀察它與既有 Cursor／Codex 工作流的差異。",
+    "risk": "新 IDE 的平台、外掛相容性及設定遷移成本仍須實測；熱門不代表適合現有開發環境。"
+  },
+  {
+    "repo": "affaan-m/ECC",
+    "category": "Skill candidate",
+    "purpose": "整理 agent harness 的 skills、記憶、安全及研究優先開發方法。",
+    "relevance": "適合 Adam skills 教學與 metabiz 開發工作流檢核，挑選小範圍可驗證的實作。",
+    "risk": "大型設定集合容易引入互相衝突的 hooks／權限與記憶設定；避免整包套用。"
+  },
+  {
+    "repo": "obra/superpowers",
+    "category": "Reference only",
+    "purpose": "將 agentic 軟體開發方法整理為技能框架。",
+    "relevance": "可作 Adam 規劃、驗證與開發流程教材的參考基準，對照現有 skills。",
+    "risk": "方法論可能增加流程負擔；須依任務規模取捨並檢查指令是否符合既有授權。"
+  },
+  {
+    "repo": "gitroomhq/postiz-app",
+    "category": "Demo content",
+    "purpose": "提供社群內容排程與自動化發布平台，並標榜 agentic 工作流程。",
+    "relevance": "直接對應 Adam 課程／短影音內容排程與 metabiz 行銷辦公自動化。",
+    "risk": "社群 API、帳號權限與發布行為受平台限制；先以草稿流程驗證，避免直接對外發布。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "將來源文件逐步整理成可互連的 wiki 知識庫。",
+    "relevance": "優先對照 know metabiz wiki 的來源追溯、增量更新與知識連結需求，也適合知識管理課。",
+    "risk": "來源引用、刪除同步、錯誤合併、資料隱私與授權條款須逐項驗證。"
+  },
+  {
+    "repo": "SamurAIGPT/llm-wiki-agent",
+    "category": "Watch",
+    "purpose": "讓 coding agent 維護持久且互連的個人 wiki。",
+    "relevance": "適合以 know metabiz wiki 的少量去識別 Markdown 文件驗證低成本維護流程。",
+    "risk": "近期活動較低；須檢查來源可追溯、覆寫保護與長期維護能力，不能把生成內容當成事實。"
+  }
+]
