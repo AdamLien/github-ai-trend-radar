@@ -1,0 +1,51 @@
+{
+  "target_date": "2026-10-28",
+  "timezone": "Asia/Taipei",
+  "completed_at": "2026-10-28T16:21:16.656273+00:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "initial_limit": 10,
+  "effective_limit": 10,
+  "rate_limit_detected": false,
+  "rate_limit_retry": false,
+  "scope_excluded": [
+    "xiaolai/the-craft-of-selfteaching"
+  ],
+  "scope_added": [
+    "HKUDS/DeepTutor"
+  ],
+  "stale_metadata": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": 404,
+      "status": "retained_previous_metadata"
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": 404,
+      "status": "retained_previous_metadata"
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": 404,
+      "status": "retained_previous_metadata"
+    },
+    {
+      "repo": "tonhowtf/omniget",
+      "http_status": 404,
+      "status": "retained_previous_metadata"
+    }
+  ],
+  "repository_count": 387,
+  "trending_daily_count": 11
+}

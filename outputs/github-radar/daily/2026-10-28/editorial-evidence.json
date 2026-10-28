@@ -1,0 +1,740 @@
+{
+  "observed_at": "2026-10-28T16:12:04.534692+00:00",
+  "repos": [
+    {
+      "full_name": "JetBrains/thinkrail",
+      "html_url": "https://github.com/JetBrains/thinkrail",
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 4743,
+      "forks": 246,
+      "open_issues": 235,
+      "watchers": 13,
+      "created_at": "2026-07-08T07:40:43Z",
+      "updated_at": "2026-10-28T16:11:28Z",
+      "pushed_at": "2026-10-28T15:27:24Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent",
+        "agent-skills",
+        "agentic-ai",
+        "agentic-workflow",
+        "ai-coding",
+        "ai-tools",
+        "pi-agent",
+        "pi-agent-extension",
+        "spec-driven",
+        "spec-driven-coding",
+        "spec-driven-development",
+        "vibe-coding",
+        "vibecoding"
+      ],
+      "latest_release": {
+        "name": "v0.2.0",
+        "tag_name": "v0.2.0",
+        "published_at": "2026-10-18T20:52:19Z"
+      },
+      "readme_excerpt": "# ThinkRail [![JetBrains incubator project](https://jb.gg/badges/incubator-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub) [![GitHub stars](https://img.shields.io/github/stars/JetBrains/thinkrail?style=social)](https://star-history.com/#JetBrains/thinkrail&Date) [![Discord](https://img.shields.io/badge/Discord-Join%20the%20chat-5865F2?logo=discord&logoColor=white)](https://thinkrail.ai/discord) ThinkRail is the agentic IDE that gets better every time you use it — learning your project through living specs today, and building its own capabilities tomorrow. We built a rich interface around the [`pi`](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)",
+      "recent_issue_activity": [
+        {
+          "number": 545,
+          "title": "Subagents can't use user/project pi extensions, packages, or the main session's skill pool",
+          "state": "open",
+          "updated_at": "2026-10-28T16:10:39Z",
+          "html_url": "https://github.com/JetBrains/thinkrail/issues/545",
+          "is_pull_request": false
+        },
+        {
+          "number": 991,
+          "title": "Blog: GUI overview",
+          "state": "open",
+          "updated_at": "2026-10-28T15:44:18Z",
+          "html_url": "https://github.com/JetBrains/thinkrail/pull/991",
+          "is_pull_request": true
+        },
+        {
+          "number": 992,
+          "title": "fix(server): only ask for a plan review on steps that changed files",
+          "state": "open",
+          "updated_at": "2026-10-28T15:42:32Z",
+          "html_url": "https://github.com/JetBrains/thinkrail/pull/992",
+          "is_pull_request": true
+        },
+        {
+          "number": 861,
+          "title": "fix(terminal): give shells the user's environment and real account name instead of the launcher's",
+          "state": "closed",
+          "updated_at": "2026-10-28T15:22:22Z",
+          "html_url": "https://github.com/JetBrains/thinkrail/pull/861",
+          "is_pull_request": true
+        },
+        {
+          "number": 427,
+          "title": "Terminal shells can run as the wrong user: pty inherits a stale utmpx record, so `LOGNAME=root`",
+          "state": "closed",
+          "updated_at": "2026-10-28T15:22:10Z",
+          "html_url": "https://github.com/JetBrains/thinkrail/issues/427",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "elayadesign/ai-design-skills",
+      "html_url": "https://github.com/elayadesign/ai-design-skills",
+      "description": "",
+      "language": "",
+      "license": "MIT",
+      "stars": 10806,
+      "forks": 768,
+      "open_issues": 7,
+      "watchers": 38,
+      "created_at": "2026-07-29T06:43:16Z",
+      "updated_at": "2026-10-28T16:09:44Z",
+      "pushed_at": "2026-10-27T16:02:10Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "# AI Design Skills A growing collection of design skills for AI coding tools — Claude Code, Cursor, Codex, Windsurf, and anything else that reads a markdown rules file. Each skill is a self-contained folder. Install the ones you need. --- ## Skills | Skill | What it does | |---|---| | [`landing-page-design`](./skills/landing-page-design/SKILL.md) | Builds a landing page from scratch — intake questions, page structure, conversion copy, plus a full visual system (type, spacing, radius, motion) | More on the way. [Upgrading an existing site instead of building new?](https://github.com/elayadesign/redesign-skill) That one lives in its own repo since it predates this collection. --- ## Install Pi",
+      "recent_issue_activity": [
+        {
+          "number": 8,
+          "title": "Update SKILL.md",
+          "state": "open",
+          "updated_at": "2026-10-28T15:15:08Z",
+          "html_url": "https://github.com/elayadesign/ai-design-skills/pull/8",
+          "is_pull_request": true
+        },
+        {
+          "number": 5,
+          "title": "B7 \"animate only transform and opacity\" conflicts with hover color shifts and B11",
+          "state": "open",
+          "updated_at": "2026-10-28T12:44:35Z",
+          "html_url": "https://github.com/elayadesign/ai-design-skills/issues/5",
+          "is_pull_request": false
+        },
+        {
+          "number": 7,
+          "title": "Best Travel Agency in Delhi for Memorable Holidays",
+          "state": "open",
+          "updated_at": "2026-10-28T08:52:10Z",
+          "html_url": "https://github.com/elayadesign/ai-design-skills/issues/7",
+          "is_pull_request": false
+        },
+        {
+          "number": 6,
+          "title": "Add CI check that validates SKILL.md frontmatter",
+          "state": "open",
+          "updated_at": "2026-10-28T00:43:02Z",
+          "html_url": "https://github.com/elayadesign/ai-design-skills/pull/6",
+          "is_pull_request": true
+        },
+        {
+          "number": 4,
+          "title": "Update SKILL.md",
+          "state": "open",
+          "updated_at": "2026-10-27T17:49:39Z",
+          "html_url": "https://github.com/elayadesign/ai-design-skills/pull/4",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 307154,
+      "forks": 27333,
+      "open_issues": 366,
+      "watchers": 1109,
+      "created_at": "2025-10-09T19:45:18Z",
+      "updated_at": "2026-10-28T16:11:33Z",
+      "pushed_at": "2026-10-23T03:48:57Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "latest_release": {
+        "name": "v7.0.1",
+        "tag_name": "v7.0.1",
+        "published_at": "2026-10-21T21:05:11Z"
+      },
+      "readme_excerpt": "# Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. ## Table of Contents - [How it works](#how-it-works) - [Commercial Services](#commercial-services) - [Getting Started](#installation) - [Claude Code](#claude-code) - [Antigravity](#antigravity) - [Codex App](#codex-app) - [Codex CLI](#codex-cli) - [Cursor](#cursor) - [Devin CLI](#devin-cli) - [Factory Droid](#factory-droid) - [Gemini CLI](#gemini-cli) - [GitHub Copilot CLI](#github-copilot-cli) - [Grok Build CLI](#grok-build-cli) - [Kimi Code](#kimi-code) - [OpenCode](#opencode) - [Pi](#p",
+      "recent_issue_activity": [
+        {
+          "number": 2634,
+          "title": "Some skills don't follow Anthropic's skill authoring best practices (size, test files, contents lists)",
+          "state": "open",
+          "updated_at": "2026-10-28T13:56:56Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2634",
+          "is_pull_request": false
+        },
+        {
+          "number": 2632,
+          "title": "perf(skills): cut 1,462 tokens of context per load by dropping trigger-only \"When to Use\" sections",
+          "state": "open",
+          "updated_at": "2026-10-28T13:33:53Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2632",
+          "is_pull_request": true
+        },
+        {
+          "number": 2530,
+          "title": "v7's brainstorm questions are rather annoying",
+          "state": "open",
+          "updated_at": "2026-10-28T12:25:48Z",
+          "html_url": "https://github.com/obra/superpowers/issues/2530",
+          "is_pull_request": false
+        },
+        {
+          "number": 1,
+          "title": "Add problem-solving skills from amplifier patterns",
+          "state": "closed",
+          "updated_at": "2026-10-28T09:14:33Z",
+          "html_url": "https://github.com/obra/superpowers/pull/1",
+          "is_pull_request": true
+        },
+        {
+          "number": 2633,
+          "title": "feat(tests): add native PowerShell Antigravity test runner for Windows",
+          "state": "open",
+          "updated_at": "2026-10-28T08:54:29Z",
+          "html_url": "https://github.com/obra/superpowers/pull/2633",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "macro-inc/macro",
+      "html_url": "https://github.com/macro-inc/macro",
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "language": "Rust",
+      "license": "AGPL-3.0",
+      "stars": 5277,
+      "forks": 513,
+      "open_issues": 425,
+      "watchers": 35,
+      "created_at": "2025-11-08T15:18:27Z",
+      "updated_at": "2026-10-28T16:10:14Z",
+      "pushed_at": "2026-10-28T16:08:16Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "all-in-one",
+        "crm",
+        "crm-system",
+        "email",
+        "linear",
+        "mcp",
+        "messaging",
+        "notes",
+        "notion",
+        "office",
+        "rust",
+        "slack",
+        "slack-alternative",
+        "startup",
+        "startup-tools",
+        "typescript",
+        "workspace"
+      ],
+      "latest_release": {
+        "name": "v2026.10.27.2",
+        "tag_name": "v2026.10.27.2",
+        "published_at": "2026-10-28T02:09:30Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <a target=\"_blank\" href=\"https://macro.com\"> <img width=\"2195\" height=\"721\" alt=\"Frame 11\" src=\"https://github.com/user-attachments/assets/50405352-785e-4984-b24f-544e89731acb\" /> </a> <br /> <br /> <p> <a href=\"https://macro.com/app\">Sign up</a> · <a href=\"https://docs.macro.com\">Docs</a> · <a href=\"https://macro.com/app/book/6de4003c-15e4-549f-b5a9-0e930bbf56e4/demo\">Book demo</a> · <a href=\"https://macro.com\">Website</a> · <a href=\"mailto:contact@macro.com\">Feature requests</a> · <a href=\"CONTRIBUTING.md\">Contribute</a> · <a href=\"mailto:teo@macro.com\">Hiring</a> </p> </div> <br /> Macro is the all-in-one workspace for you and your team. It unifies email + messages + ",
+      "recent_issue_activity": [
+        {
+          "number": 9033,
+          "title": "feat(channels): add the whole team to support channels and group additions",
+          "state": "open",
+          "updated_at": "2026-10-28T16:11:45Z",
+          "html_url": "https://github.com/macro-inc/macro/pull/9033",
+          "is_pull_request": true
+        },
+        {
+          "number": 9032,
+          "title": "feat(board): add a zoomable board of company activity in five variants",
+          "state": "open",
+          "updated_at": "2026-10-28T16:04:33Z",
+          "html_url": "https://github.com/macro-inc/macro/pull/9032",
+          "is_pull_request": true
+        },
+        {
+          "number": 9029,
+          "title": "fix(command): keep matching channels visible and prioritized",
+          "state": "open",
+          "updated_at": "2026-10-28T16:01:39Z",
+          "html_url": "https://github.com/macro-inc/macro/pull/9029",
+          "is_pull_request": true
+        },
+        {
+          "number": 7383,
+          "title": "fix(web): drop the composer microphone on touch devices",
+          "state": "closed",
+          "updated_at": "2026-10-28T16:01:17Z",
+          "html_url": "https://github.com/macro-inc/macro/pull/7383",
+          "is_pull_request": true
+        },
+        {
+          "number": 9020,
+          "title": "fix(web): stop cached queries from keeping closed views in memory",
+          "state": "closed",
+          "updated_at": "2026-10-28T15:58:10Z",
+          "html_url": "https://github.com/macro-inc/macro/pull/9020",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "Nutlope/hallmark",
+      "html_url": "https://github.com/Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "license": "MIT",
+      "stars": 40284,
+      "forks": 2095,
+      "open_issues": 66,
+      "watchers": 76,
+      "created_at": "2026-04-27T20:47:10Z",
+      "updated_at": "2026-10-28T16:11:34Z",
+      "pushed_at": "2026-10-28T14:52:03Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "# Hallmark **A design skill for Claude Code, Codex, Cursor and OpenCode that refuses to look AI-generated.** [usehallmark.com](https://www.usehallmark.com) &nbsp;·&nbsp; fifty themes &nbsp;·&nbsp; custom on request &nbsp;·&nbsp; redesign and audit by name Made by Together AI. <p align=\"center\"> <img src=\"site/OG-hallmark.png\" alt=\"Hallmark, the design skill that ends AI slop\" /> </p> Hallmark holds a hard floor and then gets out of the way. It deals three themes from a catalog of fifty materials, builds the page around what the visitor came to do, and lints the result in a real browser against the tells that read as machine-made: the eyebrow above every heading, tracked-capital labels, one c",
+      "recent_issue_activity": [
+        {
+          "number": 102,
+          "title": "fix(photos): validate orientation option",
+          "state": "open",
+          "updated_at": "2026-10-28T14:59:31Z",
+          "html_url": "https://github.com/Nutlope/hallmark/pull/102",
+          "is_pull_request": true
+        },
+        {
+          "number": 101,
+          "title": "обучающий портал",
+          "state": "open",
+          "updated_at": "2026-10-28T13:17:56Z",
+          "html_url": "https://github.com/Nutlope/hallmark/issues/101",
+          "is_pull_request": false
+        },
+        {
+          "number": 52,
+          "title": "Feature Request: Add a Dashboard / SaaS Application UI Skill",
+          "state": "closed",
+          "updated_at": "2026-10-28T01:37:33Z",
+          "html_url": "https://github.com/Nutlope/hallmark/issues/52",
+          "is_pull_request": false
+        },
+        {
+          "number": 100,
+          "title": "fix(photos): print usable URLs for saved image markup",
+          "state": "open",
+          "updated_at": "2026-10-27T21:02:31Z",
+          "html_url": "https://github.com/Nutlope/hallmark/pull/100",
+          "is_pull_request": true
+        },
+        {
+          "number": 99,
+          "title": "fix(imagegen): reuse complete numbered image batches",
+          "state": "open",
+          "updated_at": "2026-10-27T20:38:29Z",
+          "html_url": "https://github.com/Nutlope/hallmark/pull/99",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "pbakaus/impeccable",
+      "html_url": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars": 91985,
+      "forks": 5437,
+      "open_issues": 45,
+      "watchers": 201,
+      "created_at": "2025-11-16T01:52:04Z",
+      "updated_at": "2026-10-28T16:11:20Z",
+      "pushed_at": "2026-10-28T15:22:56Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "latest_release": {
+        "name": "CLI 4.8.0",
+        "tag_name": "cli-v4.8.0",
+        "published_at": "2026-10-26T23:41:55Z"
+      },
+      "readme_excerpt": "# Impeccable Design guidance for AI coding agents. 1 skill, 24 commands, live browser iteration, and 62 deterministic detector rules for AI-generated frontend design. > **Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: [impeccable.style](https://impeccable.style). ## Why Impeccable? Anthropic's [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, p",
+      "recent_issue_activity": [
+        {
+          "number": 1165,
+          "title": "Run CI on Bun 1.4.4",
+          "state": "open",
+          "updated_at": "2026-10-28T15:23:35Z",
+          "html_url": "https://github.com/pbakaus/impeccable/pull/1165",
+          "is_pull_request": true
+        },
+        {
+          "number": 1152,
+          "title": "text-occlusion: a card laid over a sibling card's text",
+          "state": "open",
+          "updated_at": "2026-10-28T15:23:33Z",
+          "html_url": "https://github.com/pbakaus/impeccable/pull/1152",
+          "is_pull_request": true
+        },
+        {
+          "number": 1058,
+          "title": "generate-image: honor OPENAI_BASE_URL for OpenAI-compatible endpoints (#832)",
+          "state": "open",
+          "updated_at": "2026-10-28T15:23:29Z",
+          "html_url": "https://github.com/pbakaus/impeccable/pull/1058",
+          "is_pull_request": true
+        },
+        {
+          "number": 1118,
+          "title": "Fix: reference cost trims approved in #985",
+          "state": "open",
+          "updated_at": "2026-10-28T15:23:28Z",
+          "html_url": "https://github.com/pbakaus/impeccable/pull/1118",
+          "is_pull_request": true
+        },
+        {
+          "number": 1045,
+          "title": "feat(ci): check skill commands against pinned engine",
+          "state": "open",
+          "updated_at": "2026-10-28T15:23:27Z",
+          "html_url": "https://github.com/pbakaus/impeccable/pull/1045",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "nightly-labs/openbot",
+      "html_url": "https://github.com/nightly-labs/openbot",
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 3034,
+      "forks": 300,
+      "open_issues": 273,
+      "watchers": 10,
+      "created_at": "2026-08-12T21:32:03Z",
+      "updated_at": "2026-10-28T16:09:49Z",
+      "pushed_at": "2026-10-28T16:08:56Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-agents",
+        "bun",
+        "codex",
+        "electron",
+        "local-first",
+        "macos",
+        "solidjs",
+        "typescript"
+      ],
+      "latest_release": {
+        "name": "OpenBot v0.52.1",
+        "tag_name": "v0.52.1",
+        "published_at": "2026-10-27T18:06:59Z"
+      },
+      "readme_excerpt": "# OpenBot [![CI](https://github.com/nightly-labs/openbot/actions/workflows/ci.yml/badge.svg)](https://github.com/nightly-labs/openbot/actions/workflows/ci.yml) [![License](https://img.shields.io/badge/license-PolyForm_Noncommercial_1.0.0-blue.svg)](LICENSE) OpenBot is a local-first desktop workspace for persistent AI teammates. It supports the local [Codex App Server](https://learn.chatgpt.com/docs/app-server) and [Claude Code](https://code.claude.com/docs/en/overview), plus [Grok CLI](https://docs.x.ai/build/overview), OpenCode, Gemini, [Cursor CLI](https://cursor.com/cli), and [Cline CLI](https://cline.bot/cli) through ACP. It gives every agent its own workspace and conversation, and provi",
+      "recent_issue_activity": [
+        {
+          "number": 3684,
+          "title": "[Bug]: Rapid routine-run-event loop inserts 100k+ duplicate messages into projection_thread_messages, causing context explosion (50M tokens/turn), 8.2GB RAM, and 1.7GB DB bloat",
+          "state": "closed",
+          "updated_at": "2026-10-28T16:10:50Z",
+          "html_url": "https://github.com/nightly-labs/openbot/issues/3684",
+          "is_pull_request": false
+        },
+        {
+          "number": 3679,
+          "title": "[Bug]: Browser policy enforced inconsistently; openbot_browser shows a black screen on some LAN sites",
+          "state": "open",
+          "updated_at": "2026-10-28T16:08:42Z",
+          "html_url": "https://github.com/nightly-labs/openbot/issues/3679",
+          "is_pull_request": false
+        },
+        {
+          "number": 3683,
+          "title": "[Feature]: Show visible feedback (or open Settings) when clicking 'Check for Updates…' in the macOS application menu",
+          "state": "open",
+          "updated_at": "2026-10-28T16:08:17Z",
+          "html_url": "https://github.com/nightly-labs/openbot/issues/3683",
+          "is_pull_request": false
+        },
+        {
+          "number": 3673,
+          "title": "[Bug]: Channel blocked forever by a message left at \"streaming\" after its turn completed; every assignment fails with \"provider could not start\"",
+          "state": "open",
+          "updated_at": "2026-10-28T16:05:19Z",
+          "html_url": "https://github.com/nightly-labs/openbot/issues/3673",
+          "is_pull_request": false
+        },
+        {
+          "number": 3681,
+          "title": "Let upload_files answer a file chooser opened by a button",
+          "state": "open",
+          "updated_at": "2026-10-28T16:02:12Z",
+          "html_url": "https://github.com/nightly-labs/openbot/pull/3681",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "expo/skills",
+      "html_url": "https://github.com/expo/skills",
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 3431,
+      "forks": 219,
+      "open_issues": 99,
+      "watchers": 21,
+      "created_at": "2025-11-30T03:57:18Z",
+      "updated_at": "2026-10-28T16:09:57Z",
+      "pushed_at": "2026-10-28T16:11:17Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "<p align=\"center\"> <a href=\"https://docs.expo.dev/skills/\" target=\"_blank\"> <img src=\"assets/expo-skills.png\" alt=\"Expo Skills\" width=\"100%\" /> </a> </p> <h3 align=\"center\">Expo Skills</h3> <p align=\"center\"> <a href=\"https://skills.sh/expo/skills\"><img src=\"https://skills.sh/b/expo/skills\" alt=\"skills.sh installs\" /></a> <img src=\"https://img.shields.io/badge/Expo-official-000020\" alt=\"Official Expo\" /> <img src=\"https://img.shields.io/badge/license-MIT-blue\" alt=\"MIT license\" /> </p> <p align=\"center\"> Official AI agent skills from the Expo team for building, deploying, upgrading, and debugging Expo apps. </p> ## How It Works Skills give AI agents focused Expo knowledge: when to use Expo A",
+      "recent_issue_activity": [
+        {
+          "number": 266,
+          "title": "Remove per-skill version from SKILL.md frontmatter",
+          "state": "open",
+          "updated_at": "2026-10-28T16:11:22Z",
+          "html_url": "https://github.com/expo/skills/pull/266",
+          "is_pull_request": true
+        },
+        {
+          "number": 265,
+          "title": "[eas-agentic-workflows] Add a skill for Expo agentic workflows",
+          "state": "open",
+          "updated_at": "2026-10-28T16:10:21Z",
+          "html_url": "https://github.com/expo/skills/pull/265",
+          "is_pull_request": true
+        },
+        {
+          "number": 248,
+          "title": "[expo-ui] State the lowercase docs slug for per-component URLs",
+          "state": "open",
+          "updated_at": "2026-10-28T15:16:36Z",
+          "html_url": "https://github.com/expo/skills/pull/248",
+          "is_pull_request": true
+        },
+        {
+          "number": 262,
+          "title": "[expo-simulators] Make Expo Simulators the canonical skill name",
+          "state": "open",
+          "updated_at": "2026-10-28T14:20:57Z",
+          "html_url": "https://github.com/expo/skills/pull/262",
+          "is_pull_request": true
+        },
+        {
+          "number": 264,
+          "title": "fix(scripts): count a skill body's real lines, not the trailing newline",
+          "state": "open",
+          "updated_at": "2026-10-28T14:19:48Z",
+          "html_url": "https://github.com/expo/skills/pull/264",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "HKUDS/DeepTutor",
+      "html_url": "https://github.com/HKUDS/DeepTutor",
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 47583,
+      "forks": 5916,
+      "open_issues": 234,
+      "watchers": 210,
+      "created_at": "2025-12-28T15:35:54Z",
+      "updated_at": "2026-10-28T16:10:29Z",
+      "pushed_at": "2026-10-28T15:55:19Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-agents",
+        "ai-tutor",
+        "clawbot",
+        "cli-tool",
+        "deepresearch",
+        "interactive-learning",
+        "learning",
+        "multi-agent-systems",
+        "rag"
+      ],
+      "latest_release": {
+        "name": "v1.7.0",
+        "tag_name": "v1.7.0",
+        "published_at": "2026-10-28T14:13:12Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <p align=\"center\"><img src=\"assets/figs/logo/color-full.png\" alt=\"DeepTutor\" width=\"480\"></p> <h1 align=\"center\">DeepTutor: Lifelong Personalized Tutoring</h1> <p align=\"center\"> <a href=\"https://deeptutor.info\" target=\"_blank\"><img alt=\"Docs — deeptutor.info\" src=\"https://img.shields.io/badge/Docs-deeptutor.info%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a>&nbsp; <a href=\"https://deeptutor.info/collaborate/\" target=\"_blank\"><img alt=\"Collaborate — work with us\" src=\"https://img.shields.io/badge/Collaborate-work%20with%20us%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a> </p> <p align=\"center\"> <a href=\"https://www.",
+      "recent_issue_activity": [
+        {
+          "number": 2105,
+          "title": "[Bug]: Resend silently ignores the current model and explicit reply-language selection",
+          "state": "open",
+          "updated_at": "2026-10-28T15:52:02Z",
+          "html_url": "https://github.com/HKUDS/DeepTutor/issues/2105",
+          "is_pull_request": false
+        },
+        {
+          "number": 2124,
+          "title": "fix(web): edited questions pick up the live model and reply language",
+          "state": "open",
+          "updated_at": "2026-10-28T15:50:36Z",
+          "html_url": "https://github.com/HKUDS/DeepTutor/pull/2124",
+          "is_pull_request": true
+        },
+        {
+          "number": 2123,
+          "title": "[Bug] Math Animator visual QA (VisualReviewAgent) is unreachable: enable_visual_review defaults to False and no caller passes it",
+          "state": "open",
+          "updated_at": "2026-10-28T15:24:29Z",
+          "html_url": "https://github.com/HKUDS/DeepTutor/issues/2123",
+          "is_pull_request": false
+        },
+        {
+          "number": 2122,
+          "title": "fix: use the current model and reply language when editing or resending",
+          "state": "open",
+          "updated_at": "2026-10-28T14:59:14Z",
+          "html_url": "https://github.com/HKUDS/DeepTutor/pull/2122",
+          "is_pull_request": true
+        },
+        {
+          "number": 2034,
+          "title": "[Bug]: Single-worker backend restart leaves turns running until a new submission; UI remains in Exploring",
+          "state": "closed",
+          "updated_at": "2026-10-28T14:13:09Z",
+          "html_url": "https://github.com/HKUDS/DeepTutor/issues/2034",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "infiniflow/ragflow",
+      "html_url": "https://github.com/infiniflow/ragflow",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "language": "Go",
+      "license": "Apache-2.0",
+      "stars": 93017,
+      "forks": 11142,
+      "open_issues": 1316,
+      "watchers": 360,
+      "created_at": "2023-12-12T06:13:13Z",
+      "updated_at": "2026-10-28T15:29:20Z",
+      "pushed_at": "2026-10-28T13:29:49Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent-harness",
+        "agentic-ai",
+        "agentic-nagive",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
+        "ai-agents",
+        "context-engine",
+        "context-engineering",
+        "context-management",
+        "harness-engineering",
+        "knowledge-compilation",
+        "rag",
+        "retrieval-augmented-generation",
+        "search-harness"
+      ],
+      "latest_release": {
+        "name": "v1.0.0-rc2",
+        "tag_name": "v1.0.0-rc2",
+        "published_at": "2026-10-16T09:49:48Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <a href=\"https://cloud.ragflow.io/\"> <img src=\"https://raw.githubusercontent.com/infiniflow/ragflow/main/web/src/assets/logo-with-text.svg\" width=\"520\" alt=\"ragflow logo\"> </a> </div> <p align=\"center\"> <a href=\"./README.md\"><img alt=\"README in English\" src=\"https://img.shields.io/badge/English-DBEDFA\"></a> <a href=\"./README_zh.md\"><img alt=\"简体中文版自述文件\" src=\"https://img.shields.io/badge/简体中文-DFE0E5\"></a> <a href=\"./README_tzh.md\"><img alt=\"繁體版中文自述文件\" src=\"https://img.shields.io/badge/繁體中文-DFE0E5\"></a> <a href=\"./README_ja.md\"><img alt=\"日本語のREADME\" src=\"https://img.shields.io/badge/日本語-DFE0E5\"></a> <a href=\"./README_ko.md\"><img alt=\"한국어\" src=\"https://img.shields.io/badge/한",
+      "recent_issue_activity": [
+        {
+          "number": 21640,
+          "title": "fix: accept .tiff files in upload whitelist",
+          "state": "open",
+          "updated_at": "2026-10-28T15:21:11Z",
+          "html_url": "https://github.com/infiniflow/ragflow/pull/21640",
+          "is_pull_request": true
+        },
+        {
+          "number": 21639,
+          "title": "feat: add Obscurify.ai as a model provider",
+          "state": "open",
+          "updated_at": "2026-10-28T14:56:38Z",
+          "html_url": "https://github.com/infiniflow/ragflow/pull/21639",
+          "is_pull_request": true
+        },
+        {
+          "number": 21638,
+          "title": "fix(anthropic): support struct json schema in tool parameters",
+          "state": "open",
+          "updated_at": "2026-10-28T14:29:40Z",
+          "html_url": "https://github.com/infiniflow/ragflow/pull/21638",
+          "is_pull_request": true
+        },
+        {
+          "number": 21637,
+          "title": "[Bug]: Agent fails to retrieve knowledge base when using Anthropic models due to tool parameter schema rejection",
+          "state": "open",
+          "updated_at": "2026-10-28T14:08:17Z",
+          "html_url": "https://github.com/infiniflow/ragflow/issues/21637",
+          "is_pull_request": false
+        },
+        {
+          "number": 21331,
+          "title": "fix(parser): recognize a Table of Contents heading when removing a TOC",
+          "state": "closed",
+          "updated_at": "2026-10-28T13:29:50Z",
+          "html_url": "https://github.com/infiniflow/ragflow/pull/21331",
+          "is_pull_request": true
+        }
+      ]
+    }
+  ]
+}
