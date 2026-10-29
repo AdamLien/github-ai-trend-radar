@@ -1,0 +1,57 @@
+{
+  "target_date": "2026-10-29",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "initial_limit": 10,
+  "effective_limit": 10,
+  "rate_limit_encountered": false,
+  "collector_exit_code": 0,
+  "collected_at": "2026-10-30T00:20:54.242869+08:00",
+  "scope_corrections": [
+    {
+      "repo": "HKUDS/DeepTutor",
+      "reason": "Relevant AI repo missed by collector keyword scope filter",
+      "stars_today": 1926
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "reason": "Relevant AI repo missed by collector keyword scope filter",
+      "stars_today": 1190
+    }
+  ],
+  "metadata_fallbacks": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": 404,
+      "metadata_fresh": false
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": 404,
+      "metadata_fresh": false
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": 404,
+      "metadata_fresh": false
+    },
+    {
+      "repo": "tonhowtf/omniget",
+      "http_status": 404,
+      "metadata_fresh": false
+    }
+  ],
+  "final_repo_count": 382,
+  "collector_record_count": 389,
+  "canonical_duplicate_records_removed": 8
+}
