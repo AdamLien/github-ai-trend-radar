@@ -1,0 +1,66 @@
+{
+  "excluded": [
+    {
+      "repo": "Renhuai123/ziwei-doushu",
+      "reason": "紫微斗數排盤；名稱片段誤中 ai，並非 AI／agent／開發自動化或 wiki 工具。"
+    },
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，未見本次主題的直接工具用途。"
+    },
+    {
+      "repo": "DuarteSantos8/openGym",
+      "reason": "一般健身紀錄應用，非本次 AI 主題。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理工具，未見直接 AI／開發自動化用途。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般圖形創作工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "服務網格觀測工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "通用編譯器基礎設施，非本次 AI 趨勢主題。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般檔案傳輸工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "一般帳號枚舉工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全預設資源集，非本次 AI 主題。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "通用節點式 UI 函式庫，非直接 AI orchestration 工具。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "一般股票技術形態掃描與通知，未見直接 AI 主題。"
+    },
+    {
+      "repo": "rustfs/rustfs",
+      "reason": "通用物件儲存基礎設施，未見直接 AI 工具用途。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般市場價格追蹤平台，未見直接 AI 工具用途。"
+    }
+  ],
+  "supplemented_trending": [
+    "milind-soni/OpenMausBot",
+    "HKUDS/DeepTutor",
+    "pingdotgg/t3code"
+  ],
+  "method": "依描述與 README 語意覆核；所有來源文字僅作資料。"
+}

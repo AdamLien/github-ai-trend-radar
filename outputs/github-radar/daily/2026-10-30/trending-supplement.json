@@ -1,0 +1,117 @@
+[
+  {
+    "full_name": "milind-soni/OpenMausBot",
+    "html_url": "https://github.com/milind-soni/OpenMausBot",
+    "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+    "language": "TypeScript",
+    "license": "Apache-2.0",
+    "stars": 8193,
+    "forks": 1172,
+    "open_issues": 587,
+    "watchers": 23,
+    "created_at": "2026-08-11T18:58:55Z",
+    "updated_at": "2026-10-30T16:10:18Z",
+    "pushed_at": "2026-10-30T15:23:47Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "computer-use",
+      "docker",
+      "electron",
+      "expo",
+      "grok",
+      "grok-bot",
+      "grok-bot-alternative",
+      "self-hosted",
+      "typescript"
+    ],
+    "latest_release": {
+      "name": "OpenMausBot 0.1.134",
+      "tag_name": "v0.1.134",
+      "published_at": "2026-10-30T00:37:07Z"
+    },
+    "readme_excerpt": "<div align=\"center\"> # OpenMausBot **The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** [**openmausbot.com**](https://www.openmausbot.com) &nbsp;·&nbsp; [Download](https://www.openmausbot.com/download) &nbsp;·&nbsp; [Open source Grok Bot alternative, compared](https://www.openmausbot.com/blog/grok-bot-vs-openmausbot) <sub>OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenA"
+  },
+  {
+    "full_name": "HKUDS/DeepTutor",
+    "html_url": "https://github.com/HKUDS/DeepTutor",
+    "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/.",
+    "language": "Python",
+    "license": "Apache-2.0",
+    "stars": 51505,
+    "forks": 6308,
+    "open_issues": 268,
+    "watchers": 221,
+    "created_at": "2025-12-28T15:35:54Z",
+    "updated_at": "2026-10-30T16:11:10Z",
+    "pushed_at": "2026-10-30T14:15:04Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [
+      "ai-agents",
+      "ai-tutor",
+      "clawbot",
+      "cli-tool",
+      "deepresearch",
+      "interactive-learning",
+      "learning",
+      "multi-agent-systems",
+      "rag"
+    ],
+    "latest_release": {
+      "name": "v1.7.0",
+      "tag_name": "v1.7.0",
+      "published_at": "2026-10-28T14:13:12Z"
+    },
+    "readme_excerpt": "<div align=\"center\"> <p align=\"center\"><img src=\"assets/figs/logo/color-full.png\" alt=\"DeepTutor\" width=\"480\"></p> <h1 align=\"center\">DeepTutor: Lifelong Personalized Tutoring</h1> <p align=\"center\"> <a href=\"https://deeptutor.info\" target=\"_blank\"><img alt=\"Docs — deeptutor.info\" src=\"https://img.shields.io/badge/Docs-deeptutor.info%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a>&nbsp; <a href=\"https://deeptutor.info/collaborate/\" target=\"_blank\"><img alt=\"Collaborate — work with us\" src=\"https://img.shields.io/badge/Collaborate-work%20with%20us%20%E2%86%97-0A0A0A?style=for-the-badge&labelColor=F5F5F4\" height=\"36\"></a> </p> <p align=\"center\"> <a href=\"https://www."
+  },
+  {
+    "full_name": "pingdotgg/t3code",
+    "html_url": "https://github.com/pingdotgg/t3code",
+    "description": "",
+    "language": "TypeScript",
+    "license": "MIT",
+    "stars": 32475,
+    "forks": 8596,
+    "open_issues": 4080,
+    "watchers": 88,
+    "created_at": "2026-02-08T23:46:22Z",
+    "updated_at": "2026-10-30T16:11:15Z",
+    "pushed_at": "2026-10-30T16:11:07Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [],
+    "latest_release": {
+      "name": "T3 Code v0.1.5",
+      "tag_name": "v0.1.5",
+      "published_at": "2026-10-29T13:08:50Z"
+    },
+    "readme_excerpt": "# T3 Code T3 Code is an \"agent harness control surface\". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes). Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, OpenCode, and Google Antigravity. If they're set up on your computer, T3 Code can control them. ## \"Wait, what are you selling me?\" Nothing. We built T3 Code because we wanted the best possible development experience with agents. We were inspired b"
+  },
+  {
+    "full_name": "togg53192-cmd/jailbreaks",
+    "html_url": "https://github.com/togg53192-cmd/jailbreaks",
+    "description": "LIST OF ALL MY JAILBREAKS",
+    "language": "",
+    "license": "",
+    "stars": 10333,
+    "forks": 1494,
+    "open_issues": 22,
+    "watchers": 99,
+    "created_at": "2026-06-18T18:21:25Z",
+    "updated_at": "2026-10-30T16:10:01Z",
+    "pushed_at": "2026-10-28T12:31:33Z",
+    "archived": false,
+    "disabled": false,
+    "topics": [],
+    "latest_release": {
+      "name": "",
+      "tag_name": "",
+      "published_at": ""
+    },
+    "readme_excerpt": "<div align=\"center\"> # Jailbreaks **A curated collection of system prompts, persona locks, workspace policies, and agent operating specifications for frontier, open-weight, and free stealth models.** ![Prompts](https://img.shields.io/badge/prompts-32-4c9f70) ![Targets](https://img.shields.io/badge/targets-26%2B-2f6f9f) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat&logo=github) ![Stars](https://img.shields.io/github/stars/togg53192-cmd/jailbreaks?style=flat&logo=github&color=yellow) </div> --- ## About A working collection of **32 prompts targeting 26+ models**, including complete system prompts, persona definitions, workspace policies, `AGENTS.md` files, conf"
+  }
+]
