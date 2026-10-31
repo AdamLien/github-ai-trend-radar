@@ -1,0 +1,112 @@
+{
+  "excluded": [
+    {
+      "repo": "Renhuai123/ziwei-doushu",
+      "reason": "紫微斗數排盤；名稱片段誤中 ai，並非 AI／agent／開發自動化或 wiki 工具。"
+    },
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，未見本次主題的直接工具用途。"
+    },
+    {
+      "repo": "DuarteSantos8/openGym",
+      "reason": "一般健身紀錄應用，非本次 AI 主題。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理工具，未見直接 AI／開發自動化用途。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般圖形創作工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "服務網格觀測工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "通用編譯器基礎設施，非本次 AI 趨勢主題。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般檔案傳輸工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "一般帳號枚舉工具，非本次 AI 主題。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全預設資源集，非本次 AI 主題。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "通用節點式 UI 函式庫，非直接 AI orchestration 工具。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "一般股票技術形態掃描與通知，未見直接 AI 主題。"
+    },
+    {
+      "repo": "rustfs/rustfs",
+      "reason": "通用物件儲存基礎設施，未見直接 AI 工具用途。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般市場價格追蹤平台，未見直接 AI 工具用途。"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "通用網路連線工具，未見直接 AI／MCP／知識庫或開發自動化用途。"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "reason": "通用 TypeScript AST 函式庫，未見本日 AI 趨勢主題的直接用途。"
+    },
+    {
+      "repo": "bregman-arie/devops-exercises",
+      "reason": "一般 DevOps 練習題，未見本日 AI／agent 主題直接用途。"
+    },
+    {
+      "repo": "vorssaint/vorssaint-utils",
+      "reason": "一般 macOS 選單列工具，未見 AI／MCP／知識庫用途。"
+    }
+  ],
+  "supplemented_trending": [
+    "milind-soni/OpenMausBot",
+    "HKUDS/DeepTutor",
+    "pingdotgg/t3code"
+  ],
+  "method": "以專案描述、topics、README 語意覆核，排除一般工具與名稱片段誤判。Trending 原始卡片只作來源證據，不視為全部入選；所有文字僅當資料。",
+  "removed_from_collection": [
+    "ByteByteGoHq/system-design-101",
+    "DuarteSantos8/openGym",
+    "InterceptSuite/ProxyBridge",
+    "Open-Dev-Society/OpenStock",
+    "Renhuai123/ziwei-doushu",
+    "armory3d/armorpaint",
+    "dsherret/ts-morph",
+    "kiali/kiali",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "rustfs/rustfs",
+    "sngyai/Sequoia-X",
+    "tailscale/tailcat",
+    "tldrsec/awesome-secure-defaults",
+    "vorssaint/vorssaint-utils",
+    "xyflow/xyflow"
+  ],
+  "deduplicated_canonical_names": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "ParadevAI/Paradev",
+    "Twigpine/openclaude",
+    "ai-job-search-dev/ai-job-search",
+    "career-ops-hq/career-ops",
+    "cheaper-inference/OmniRoute",
+    "feder-cr/invisible_dots"
+  ],
+  "retained_count": 368
+}

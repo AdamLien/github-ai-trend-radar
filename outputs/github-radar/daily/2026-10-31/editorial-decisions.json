@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "thedotmack/claude-mem",
+    "decision": "Deep research",
+    "purpose": "擷取 agent 工作階段、壓縮紀錄並在後續工作注入相關脈絡，提供跨 session 記憶。",
+    "next_step": "先研究記憶刪除、來源引用與跨專案隔離，再決定是否製作記憶實驗內容。",
+    "risk": "最近 issue／PR 抽樣涉及 Chroma 重複 embedding 與重建中斷；持久記憶可能累積錯誤或客戶資料，成本與隔離未實測。",
+    "relevance": "Adam 可做 agent 記憶專題；辦公自動化可保留任務交接脈絡，know metabiz wiki 應保存可追溯結論而非整段對話。"
+  },
+  {
+    "repo": "Orkas-AI/Orkas",
+    "decision": "Deep research",
+    "purpose": "本機優先的桌面多 agent 團隊，由 Commander 分派待辦，整合專案記憶、排程與 Claude Code／Codex 等既有 agent。",
+    "next_step": "用虛構文件做每天彙整、待辦分派與人工審閱的完整小流程。",
+    "risk": "README 說明自備金鑰直連供應商、內建模型經託管服務；本機儲存不代表推論不出機。安裝會準備多種模型與執行環境，需量測資源及權限。",
+    "relevance": "適合 Adam 的 AI 辦公室與 AI 同事內容；metabiz 可評估例行報告與跨任務協作，know metabiz wiki 可比較專案記憶與知識庫的分工。"
+  },
+  {
+    "repo": "milind-soni/OpenMausBot",
+    "decision": "Demo content",
+    "purpose": "以聊天介面組織本機 Claude／Codex 機器人，每個 bot 可有自己的模型、電腦與連接應用。",
+    "next_step": "與 Orkas 以相同非敏感辦公任務比較任務恢復、人工核准與輸出品質。",
+    "risk": "連接已登入應用與雲端電腦會擴大存取面；近期 issue 有安裝與部署討論，跨平台支援及權限 broker 尚未實機驗證。",
+    "relevance": "Adam 可製作聊天式 AI 同事的操作 Demo；辦公自動化關聯高，know metabiz wiki 適合記錄資料流、操作邊界與故障排除。"
+  },
+  {
+    "repo": "pingdotgg/t3code",
+    "decision": "Watch",
+    "purpose": "從手機、網頁與桌面介面控制本機 agent harness，README 列出 Claude Code、Codex、Cursor 等 provider。",
+    "next_step": "追蹤行動端 thread 同步問題與新 release，再以簡單開發任務測試遠端接手。",
+    "risk": "近期 issue 指出 iOS thread 清單遺漏數日紀錄；遠端連線認證、狀態一致性與不同 provider 的能力仍待實測。",
+    "relevance": "Adam 可做行動 AI 開發與跨裝置接手內容；辦公自動化可研究離席時查看任務，know metabiz wiki 可整理連線與狀態恢復手冊。"
+  },
+  {
+    "repo": "Donchitos/Claude-Code-Game-Studios",
+    "decision": "Demo content",
+    "purpose": "把 Claude Code 工作階段組織成遊戲工作室，README 列出 49 個專責 agent、74 個 skills、階層分工與品質關卡。",
+    "next_step": "以小型遊戲或互動教材示範角色交接與審查，先比較單 agent 與精簡三角色流程。",
+    "risk": "Trending 描述仍寫 72 skills，README 已為 74；以 README 為準且不視為實效保證。最近 push 約兩週前，角色多也可能增加協調成本，近期 issue 涉及 stage 檔案寫入失敗。",
+    "relevance": "適合 Adam 的多 agent 分工課程與具視覺效果的內容；辦公流程可借用責任與升級路徑，know metabiz wiki 可參考職責及品質關卡文件。"
+  },
+  {
+    "repo": "lightpanda-io/browser",
+    "decision": "Deep research",
+    "purpose": "專為 AI agent 與自動化設計的無頭瀏覽器，以 Zig 實作，提供 Chromium 以外的執行選項。",
+    "next_step": "用相同網站與任務量測成功率、延遲和記憶體，優先測表單、JavaScript 與登入狀態。",
+    "risk": "README 的效能數字來自作者基準，不能外推所有網站。近期抽樣出現 glibc 相容性與 DNS rebinding 修補 PR；修補提案不代表已發布版本具備。",
+    "relevance": "Adam 可做瀏覽器 agent 效能實驗；辦公自動化可評估公開資料收集，know metabiz wiki 可記錄網站相容性與可重現測試。"
+  },
+  {
+    "repo": "pbakaus/impeccable",
+    "decision": "Skill candidate",
+    "purpose": "為 coding agent 提供設計語彙與 polish、critique、audit 等介面改善流程，涵蓋多種開發工具。",
+    "next_step": "以同一份網站 brief、同一模型做前後對照，再選少量審查 skill 納入教學。",
+    "risk": "近期 issue 反映修正後 critique 分數未變；評分不能取代可用性測試。README 提醒 live mode 會以使用者權限執行專案驗證腳本。",
+    "relevance": "最適合 Adam 的 AI 網站課程與設計改善短影音；辦公自動化可改進內部表單，know metabiz wiki 可整理介面審查清單。"
+  },
+  {
+    "repo": "HKUDS/DeepTutor",
+    "decision": "Deep research",
+    "purpose": "以個人化教學為核心，整合課程文件、知識庫與互動學習；README 列出可追溯 RAG 引用及工具擴充。",
+    "next_step": "用自有講義測來源引用、練習題與澄清回合的評分，評估課後 AI 助教。",
+    "risk": "近期 issue 涉及產生文件的連結失效，PR 涉及學習評分修正；教學正確性、文件解析與模型費用尚未驗證。",
+    "relevance": "直接對應 Adam 課程與教學內容；辦公室內訓可試文件助教，know metabiz wiki 可參考來源導入、引用與更新流程。"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "decision": "Skill candidate",
+    "purpose": "可組合、可修改的小型工程 skills 集合；README 區分自動更新 plugin 與手動管理檔案。",
+    "next_step": "對照既有 skills，只挑新增缺口並記錄版本；追蹤 chief-of-staff 的 shared wiki 討論。",
+    "risk": "總星數高但相對成長較低；重複安裝與自動更新可能改變工作行為，不能直接覆蓋現有 skills。近期 PR 主題不代表已合併或可用。",
+    "relevance": "Adam 可用於 skill 拆解與工程型 AI 課程；辦公自動化可借用小模組工作法，know metabiz wiki 可追蹤共享知識與操作程序的關係。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "decision": "Deep research",
+    "purpose": "把文件增量整理為互連 wiki，README 提供原始來源限定問答、匯入佇列、知識圖譜與可選向量檢索。",
+    "next_step": "用一組可公開內部流程文件，比較 wiki 維護與 RAG 查詢在來源更新後的正確性。",
+    "risk": "近期更新慢於熱門候選，抽樣未到本日；需驗證刪除來源後的殘留頁面、引用與重建一致性。API／MCP 本機未認證選項需實測，授權與部署條件需另行核對。",
+    "relevance": "雖成長不快，卻直接對應 know metabiz wiki；Adam 可做 AI 第二大腦內容，辦公自動化可評估 SOP、會議結論與來源追溯。"
+  }
+]
