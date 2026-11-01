@@ -1,0 +1,12 @@
+{
+  "target_date": "2026-11-01",
+  "collected_at": "2026-11-01T16:11:22.416406+00:00",
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "rate_limit_encountered": false
+}

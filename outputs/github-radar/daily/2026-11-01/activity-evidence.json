@@ -1,0 +1,741 @@
+{
+  "observed_at": "2026-11-01T16:12:51.080455+00:00",
+  "repos": {
+    "pingdotgg/t3code": [
+      {
+        "number": 28719,
+        "title": "fix(desktop): providers are found on the first launch after an update",
+        "state": "open",
+        "created_at": "2026-11-01T15:58:26Z",
+        "updated_at": "2026-11-01T16:12:16Z",
+        "closed_at": null,
+        "html_url": "https://github.com/pingdotgg/t3code/pull/28719",
+        "pull_request": {
+          "url": "https://api.github.com/repos/pingdotgg/t3code/pulls/28719",
+          "html_url": "https://github.com/pingdotgg/t3code/pull/28719",
+          "diff_url": "https://github.com/pingdotgg/t3code/pull/28719.diff",
+          "patch_url": "https://github.com/pingdotgg/t3code/pull/28719.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 28708,
+        "title": "fix(mobile): stop showing \"cannot control this task\" while permissions load or after a network blip",
+        "state": "open",
+        "created_at": "2026-11-01T15:13:26Z",
+        "updated_at": "2026-11-01T16:12:11Z",
+        "closed_at": null,
+        "html_url": "https://github.com/pingdotgg/t3code/pull/28708",
+        "pull_request": {
+          "url": "https://api.github.com/repos/pingdotgg/t3code/pulls/28708",
+          "html_url": "https://github.com/pingdotgg/t3code/pull/28708",
+          "diff_url": "https://github.com/pingdotgg/t3code/pull/28708.diff",
+          "patch_url": "https://github.com/pingdotgg/t3code/pull/28708.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 28461,
+        "title": "fix(web): sidebar arrows line up with the search row buttons",
+        "state": "open",
+        "created_at": "2026-11-01T01:11:46Z",
+        "updated_at": "2026-11-01T16:11:46Z",
+        "closed_at": null,
+        "html_url": "https://github.com/pingdotgg/t3code/pull/28461",
+        "pull_request": {
+          "url": "https://api.github.com/repos/pingdotgg/t3code/pulls/28461",
+          "html_url": "https://github.com/pingdotgg/t3code/pull/28461",
+          "diff_url": "https://github.com/pingdotgg/t3code/pull/28461.diff",
+          "patch_url": "https://github.com/pingdotgg/t3code/pull/28461.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 23878,
+        "title": "fix(server): t3 service install no longer moves a --base-dir service onto an empty ~/.t3",
+        "state": "open",
+        "created_at": "2026-10-22T21:58:33Z",
+        "updated_at": "2026-11-01T16:11:46Z",
+        "closed_at": null,
+        "html_url": "https://github.com/pingdotgg/t3code/pull/23878",
+        "pull_request": {
+          "url": "https://api.github.com/repos/pingdotgg/t3code/pulls/23878",
+          "html_url": "https://github.com/pingdotgg/t3code/pull/23878",
+          "diff_url": "https://github.com/pingdotgg/t3code/pull/23878.diff",
+          "patch_url": "https://github.com/pingdotgg/t3code/pull/23878.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 28723,
+        "title": "[Bug][Mobile]: iOS search filter cannot be cleared after navigating to a page",
+        "state": "open",
+        "created_at": "2026-11-01T16:11:30Z",
+        "updated_at": "2026-11-01T16:11:30Z",
+        "closed_at": null,
+        "html_url": "https://github.com/pingdotgg/t3code/issues/28723",
+        "pull_request": null
+      }
+    ],
+    "thedotmack/claude-mem": [
+      {
+        "number": 5254,
+        "title": "fix(claude-cli): skip the extensionless npm sh shim when discovering candidates on Windows (#5163)",
+        "state": "open",
+        "created_at": "2026-11-01T15:43:01Z",
+        "updated_at": "2026-11-01T16:02:40Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/5254",
+        "pull_request": {
+          "url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/5254",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5254",
+          "diff_url": "https://github.com/thedotmack/claude-mem/pull/5254.diff",
+          "patch_url": "https://github.com/thedotmack/claude-mem/pull/5254.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5249,
+        "title": "feat(work-view): add manual refresh trigger",
+        "state": "open",
+        "created_at": "2026-11-01T10:42:39Z",
+        "updated_at": "2026-11-01T15:10:43Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/5249",
+        "pull_request": {
+          "url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/5249",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5249",
+          "diff_url": "https://github.com/thedotmack/claude-mem/pull/5249.diff",
+          "patch_url": "https://github.com/thedotmack/claude-mem/pull/5249.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5253,
+        "title": "fix(launcher): rebuild a launcher the OS killed instead of keeping it foreign (#5247)",
+        "state": "open",
+        "created_at": "2026-11-01T13:42:31Z",
+        "updated_at": "2026-11-01T15:04:32Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/5253",
+        "pull_request": {
+          "url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/5253",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5253",
+          "diff_url": "https://github.com/thedotmack/claude-mem/pull/5253.diff",
+          "patch_url": "https://github.com/thedotmack/claude-mem/pull/5253.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 3853,
+        "title": "feat(copilot-cli): capture lifecycle hooks instead of MCP-only",
+        "state": "open",
+        "created_at": "2026-09-03T01:34:39Z",
+        "updated_at": "2026-11-01T14:31:05Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/3853",
+        "pull_request": {
+          "url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/3853",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/3853",
+          "diff_url": "https://github.com/thedotmack/claude-mem/pull/3853.diff",
+          "patch_url": "https://github.com/thedotmack/claude-mem/pull/3853.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5252,
+        "title": "fix(observer): preserve batches on verification holds",
+        "state": "open",
+        "created_at": "2026-11-01T12:56:15Z",
+        "updated_at": "2026-11-01T12:58:17Z",
+        "closed_at": null,
+        "html_url": "https://github.com/thedotmack/claude-mem/pull/5252",
+        "pull_request": {
+          "url": "https://api.github.com/repos/thedotmack/claude-mem/pulls/5252",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5252",
+          "diff_url": "https://github.com/thedotmack/claude-mem/pull/5252.diff",
+          "patch_url": "https://github.com/thedotmack/claude-mem/pull/5252.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "lightpanda-io/browser": [
+      {
+        "number": 4349,
+        "title": "fix: observe token mutations during DOMTokenList forEach",
+        "state": "open",
+        "created_at": "2026-11-01T13:54:39Z",
+        "updated_at": "2026-11-01T14:37:38Z",
+        "closed_at": null,
+        "html_url": "https://github.com/lightpanda-io/browser/pull/4349",
+        "pull_request": {
+          "url": "https://api.github.com/repos/lightpanda-io/browser/pulls/4349",
+          "html_url": "https://github.com/lightpanda-io/browser/pull/4349",
+          "diff_url": "https://github.com/lightpanda-io/browser/pull/4349.diff",
+          "patch_url": "https://github.com/lightpanda-io/browser/pull/4349.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 4348,
+        "title": "DOMTokenList.forEach reads stale tokens after callback mutations",
+        "state": "open",
+        "created_at": "2026-11-01T13:44:16Z",
+        "updated_at": "2026-11-01T13:44:16Z",
+        "closed_at": null,
+        "html_url": "https://github.com/lightpanda-io/browser/issues/4348",
+        "pull_request": null
+      },
+      {
+        "number": 4336,
+        "title": "fix: support Bash 3.2 filename completion",
+        "state": "open",
+        "created_at": "2026-10-31T18:55:43Z",
+        "updated_at": "2026-11-01T12:49:39Z",
+        "closed_at": null,
+        "html_url": "https://github.com/lightpanda-io/browser/pull/4336",
+        "pull_request": {
+          "url": "https://api.github.com/repos/lightpanda-io/browser/pulls/4336",
+          "html_url": "https://github.com/lightpanda-io/browser/pull/4336",
+          "diff_url": "https://github.com/lightpanda-io/browser/pull/4336.diff",
+          "patch_url": "https://github.com/lightpanda-io/browser/pull/4336.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 4301,
+        "title": "cache: add experimental flag for caching responses with Set-Cookie",
+        "state": "open",
+        "created_at": "2026-10-30T04:52:20Z",
+        "updated_at": "2026-11-01T12:43:02Z",
+        "closed_at": null,
+        "html_url": "https://github.com/lightpanda-io/browser/pull/4301",
+        "pull_request": {
+          "url": "https://api.github.com/repos/lightpanda-io/browser/pulls/4301",
+          "html_url": "https://github.com/lightpanda-io/browser/pull/4301",
+          "diff_url": "https://github.com/lightpanda-io/browser/pull/4301.diff",
+          "patch_url": "https://github.com/lightpanda-io/browser/pull/4301.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 4284,
+        "title": "macOS: startup is ~6× slower since 0.3.7",
+        "state": "closed",
+        "created_at": "2026-10-29T13:54:30Z",
+        "updated_at": "2026-11-01T12:20:41Z",
+        "closed_at": "2026-10-31T00:01:07Z",
+        "html_url": "https://github.com/lightpanda-io/browser/issues/4284",
+        "pull_request": null
+      }
+    ],
+    "milind-soni/OpenMausBot": [
+      {
+        "number": 4099,
+        "title": "feat(i18n): complete Simplified and Traditional Chinese coverage",
+        "state": "open",
+        "created_at": "2026-11-01T15:50:39Z",
+        "updated_at": "2026-11-01T16:11:38Z",
+        "closed_at": null,
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4099",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/4099",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4099",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/4099.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/4099.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 4096,
+        "title": "fix(keys): say when a saved key's engine can't run and how to install it",
+        "state": "open",
+        "created_at": "2026-11-01T15:32:47Z",
+        "updated_at": "2026-11-01T16:11:06Z",
+        "closed_at": null,
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4096",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/4096",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4096",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/4096.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/4096.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 4100,
+        "title": "Add support for Mistral Vibe as a provider, not just the Mistral API",
+        "state": "open",
+        "created_at": "2026-11-01T16:02:21Z",
+        "updated_at": "2026-11-01T16:02:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/milind-soni/OpenMausBot/issues/4100",
+        "pull_request": null
+      },
+      {
+        "number": 4097,
+        "title": "Desktop app can't enable notifications on remote self-hosted servers",
+        "state": "open",
+        "created_at": "2026-11-01T15:40:06Z",
+        "updated_at": "2026-11-01T16:01:04Z",
+        "closed_at": null,
+        "html_url": "https://github.com/milind-soni/OpenMausBot/issues/4097",
+        "pull_request": null
+      },
+      {
+        "number": 4098,
+        "title": "Android app: unsent text in the chat bar is lost on back gesture or app restart",
+        "state": "open",
+        "created_at": "2026-11-01T15:42:18Z",
+        "updated_at": "2026-11-01T15:42:18Z",
+        "closed_at": null,
+        "html_url": "https://github.com/milind-soni/OpenMausBot/issues/4098",
+        "pull_request": null
+      }
+    ],
+    "Donchitos/Claude-Code-Game-Studios": [
+      {
+        "number": 153,
+        "title": "Feat/alicomert/p2 okan integration",
+        "state": "open",
+        "created_at": "2026-11-01T09:44:20Z",
+        "updated_at": "2026-11-01T09:44:20Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/153",
+        "pull_request": {
+          "url": "https://api.github.com/repos/Donchitos/Claude-Code-Game-Studios/pulls/153",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/153",
+          "diff_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/153.diff",
+          "patch_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/153.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 152,
+        "title": "docs(godot): correct Windows rendering default and Compositor type for 4.7.2",
+        "state": "open",
+        "created_at": "2026-11-01T04:51:21Z",
+        "updated_at": "2026-11-01T04:51:22Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/152",
+        "pull_request": {
+          "url": "https://api.github.com/repos/Donchitos/Claude-Code-Game-Studios/pulls/152",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/152",
+          "diff_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/152.diff",
+          "patch_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/152.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 148,
+        "title": "fix(set-stage): keep stage files paired on write failure",
+        "state": "open",
+        "created_at": "2026-10-30T03:10:08Z",
+        "updated_at": "2026-11-01T03:24:18Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/148",
+        "pull_request": {
+          "url": "https://api.github.com/repos/Donchitos/Claude-Code-Game-Studios/pulls/148",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/148",
+          "diff_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/148.diff",
+          "patch_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/148.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 151,
+        "title": "feat: add OpenCode dual-harness adapter and open-model support",
+        "state": "closed",
+        "created_at": "2026-10-31T23:21:45Z",
+        "updated_at": "2026-10-31T23:22:07Z",
+        "closed_at": "2026-10-31T23:22:07Z",
+        "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/151",
+        "pull_request": {
+          "url": "https://api.github.com/repos/Donchitos/Claude-Code-Game-Studios/pulls/151",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/151",
+          "diff_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/151.diff",
+          "patch_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/151.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 149,
+        "title": "Feat/alicomert/p1 a02",
+        "state": "closed",
+        "created_at": "2026-10-30T14:49:43Z",
+        "updated_at": "2026-10-30T16:38:45Z",
+        "closed_at": "2026-10-30T16:38:45Z",
+        "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/149",
+        "pull_request": {
+          "url": "https://api.github.com/repos/Donchitos/Claude-Code-Game-Studios/pulls/149",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/149",
+          "diff_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/149.diff",
+          "patch_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/149.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "beenuar/AiSOC": [
+      {
+        "number": 1590,
+        "title": "Lane A: identity context that changes the verdict — effective permissions, access review, sub-principal baselines, change timeline and identity resolution",
+        "state": "open",
+        "created_at": "2026-11-01T09:04:47Z",
+        "updated_at": "2026-11-01T15:59:07Z",
+        "closed_at": null,
+        "html_url": "https://github.com/beenuar/AiSOC/pull/1590",
+        "pull_request": {
+          "url": "https://api.github.com/repos/beenuar/AiSOC/pulls/1590",
+          "html_url": "https://github.com/beenuar/AiSOC/pull/1590",
+          "diff_url": "https://github.com/beenuar/AiSOC/pull/1590.diff",
+          "patch_url": "https://github.com/beenuar/AiSOC/pull/1590.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1589,
+        "title": "feat(1.3): HR and device context connectors, synced on schedule, cited in triage",
+        "state": "open",
+        "created_at": "2026-11-01T09:39:57Z",
+        "updated_at": "2026-11-01T15:54:40Z",
+        "closed_at": null,
+        "html_url": "https://github.com/beenuar/AiSOC/pull/1589",
+        "pull_request": {
+          "url": "https://api.github.com/repos/beenuar/AiSOC/pulls/1589",
+          "html_url": "https://github.com/beenuar/AiSOC/pull/1589",
+          "diff_url": "https://github.com/beenuar/AiSOC/pull/1589.diff",
+          "patch_url": "https://github.com/beenuar/AiSOC/pull/1589.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1599,
+        "title": "depth2 Lane E: land Phase 7 provider coverage, hosted agents and the AI rule pack on main",
+        "state": "open",
+        "created_at": "2026-11-01T11:03:55Z",
+        "updated_at": "2026-11-01T15:54:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/beenuar/AiSOC/pull/1599",
+        "pull_request": {
+          "url": "https://api.github.com/repos/beenuar/AiSOC/pulls/1599",
+          "html_url": "https://github.com/beenuar/AiSOC/pull/1599",
+          "diff_url": "https://github.com/beenuar/AiSOC/pull/1599.diff",
+          "patch_url": "https://github.com/beenuar/AiSOC/pull/1599.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1587,
+        "title": "Lane D: response that finishes — verb breadth 89 → 165, a bounded model step, time gates, and a ticket-sync defect",
+        "state": "open",
+        "created_at": "2026-11-01T09:24:26Z",
+        "updated_at": "2026-11-01T15:42:09Z",
+        "closed_at": null,
+        "html_url": "https://github.com/beenuar/AiSOC/pull/1587",
+        "pull_request": {
+          "url": "https://api.github.com/repos/beenuar/AiSOC/pulls/1587",
+          "html_url": "https://github.com/beenuar/AiSOC/pull/1587",
+          "diff_url": "https://github.com/beenuar/AiSOC/pull/1587.diff",
+          "patch_url": "https://github.com/beenuar/AiSOC/pull/1587.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1601,
+        "title": "depth2 7.3 + 7.4: agent identity, sub-principal baselines, and the four AI rules they unblock",
+        "state": "open",
+        "created_at": "2026-11-01T11:37:31Z",
+        "updated_at": "2026-11-01T15:37:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/beenuar/AiSOC/pull/1601",
+        "pull_request": {
+          "url": "https://api.github.com/repos/beenuar/AiSOC/pulls/1601",
+          "html_url": "https://github.com/beenuar/AiSOC/pull/1601",
+          "diff_url": "https://github.com/beenuar/AiSOC/pull/1601.diff",
+          "patch_url": "https://github.com/beenuar/AiSOC/pull/1601.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "CopilotKit/OpenBot": [
+      {
+        "number": 938,
+        "title": "Support a custom/fixed OAuth callback URL instead of a new one each time",
+        "state": "open",
+        "created_at": "2026-11-01T11:01:05Z",
+        "updated_at": "2026-11-01T11:01:05Z",
+        "closed_at": null,
+        "html_url": "https://github.com/CopilotKit/OpenBot/issues/938",
+        "pull_request": null
+      },
+      {
+        "number": 937,
+        "title": "Support storing/securing SSH keys in Vault",
+        "state": "open",
+        "created_at": "2026-11-01T06:11:11Z",
+        "updated_at": "2026-11-01T06:11:11Z",
+        "closed_at": null,
+        "html_url": "https://github.com/CopilotKit/OpenBot/issues/937",
+        "pull_request": null
+      },
+      {
+        "number": 936,
+        "title": "How to share a group with members?",
+        "state": "open",
+        "created_at": "2026-11-01T06:06:04Z",
+        "updated_at": "2026-11-01T06:06:04Z",
+        "closed_at": null,
+        "html_url": "https://github.com/CopilotKit/OpenBot/issues/936",
+        "pull_request": null
+      },
+      {
+        "number": 932,
+        "title": "fix(agents): trust the deployment-run managed agent address",
+        "state": "open",
+        "created_at": "2026-10-31T18:08:01Z",
+        "updated_at": "2026-11-01T05:02:06Z",
+        "closed_at": null,
+        "html_url": "https://github.com/CopilotKit/OpenBot/pull/932",
+        "pull_request": {
+          "url": "https://api.github.com/repos/CopilotKit/OpenBot/pulls/932",
+          "html_url": "https://github.com/CopilotKit/OpenBot/pull/932",
+          "diff_url": "https://github.com/CopilotKit/OpenBot/pull/932.diff",
+          "patch_url": "https://github.com/CopilotKit/OpenBot/pull/932.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 933,
+        "title": "fix(server): the server image carries agent-computer/src/egress.ts",
+        "state": "open",
+        "created_at": "2026-10-31T23:52:36Z",
+        "updated_at": "2026-11-01T03:42:17Z",
+        "closed_at": null,
+        "html_url": "https://github.com/CopilotKit/OpenBot/pull/933",
+        "pull_request": {
+          "url": "https://api.github.com/repos/CopilotKit/OpenBot/pulls/933",
+          "html_url": "https://github.com/CopilotKit/OpenBot/pull/933",
+          "diff_url": "https://github.com/CopilotKit/OpenBot/pull/933.diff",
+          "patch_url": "https://github.com/CopilotKit/OpenBot/pull/933.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "patchy631/ai-engineering-hub": [
+      {
+        "number": 271,
+        "title": "pixeltable-mcp: replace eval/exec with an AST-allowlisted expression parser (#269)",
+        "state": "open",
+        "created_at": "2026-11-01T04:42:45Z",
+        "updated_at": "2026-11-01T04:53:05Z",
+        "closed_at": null,
+        "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/271",
+        "pull_request": {
+          "url": "https://api.github.com/repos/patchy631/ai-engineering-hub/pulls/271",
+          "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/271",
+          "diff_url": "https://github.com/patchy631/ai-engineering-hub/pull/271.diff",
+          "patch_url": "https://github.com/patchy631/ai-engineering-hub/pull/271.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 270,
+        "title": "pixeltable-mcp/base-sdk: pin mcp 1.30.0 / pixeltable 0.7.22, fix create_table kwarg, bump to Python 3.12",
+        "state": "open",
+        "created_at": "2026-11-01T04:36:57Z",
+        "updated_at": "2026-11-01T04:41:59Z",
+        "closed_at": null,
+        "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/270",
+        "pull_request": {
+          "url": "https://api.github.com/repos/patchy631/ai-engineering-hub/pulls/270",
+          "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/270",
+          "diff_url": "https://github.com/patchy631/ai-engineering-hub/pull/270.diff",
+          "patch_url": "https://github.com/patchy631/ai-engineering-hub/pull/270.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 269,
+        "title": "Security: replace eval/exec in Pixeltable MCP tools with a safe expression parser",
+        "state": "open",
+        "created_at": "2026-10-30T20:06:45Z",
+        "updated_at": "2026-11-01T04:18:16Z",
+        "closed_at": null,
+        "html_url": "https://github.com/patchy631/ai-engineering-hub/issues/269",
+        "pull_request": null
+      },
+      {
+        "number": 268,
+        "title": "Add YouTube Research Agent with CrewAI and Apify",
+        "state": "open",
+        "created_at": "2026-10-29T18:35:51Z",
+        "updated_at": "2026-10-29T18:40:43Z",
+        "closed_at": null,
+        "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/268",
+        "pull_request": {
+          "url": "https://api.github.com/repos/patchy631/ai-engineering-hub/pulls/268",
+          "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/268",
+          "diff_url": "https://github.com/patchy631/ai-engineering-hub/pull/268.diff",
+          "patch_url": "https://github.com/patchy631/ai-engineering-hub/pull/268.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 267,
+        "title": "Replace retired gpt-3.5-turbo in the real-time voicebot",
+        "state": "open",
+        "created_at": "2026-10-25T15:49:38Z",
+        "updated_at": "2026-10-25T15:51:53Z",
+        "closed_at": null,
+        "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/267",
+        "pull_request": {
+          "url": "https://api.github.com/repos/patchy631/ai-engineering-hub/pulls/267",
+          "html_url": "https://github.com/patchy631/ai-engineering-hub/pull/267",
+          "diff_url": "https://github.com/patchy631/ai-engineering-hub/pull/267.diff",
+          "patch_url": "https://github.com/patchy631/ai-engineering-hub/pull/267.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "SamurAIGPT/llm-wiki-agent": [
+      {
+        "number": 86,
+        "title": "fix(health): decode percent-encoded index links",
+        "state": "open",
+        "created_at": "2026-10-20T12:40:51Z",
+        "updated_at": "2026-10-20T12:40:51Z",
+        "closed_at": null,
+        "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+        "pull_request": {
+          "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/86",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+          "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86.diff",
+          "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 85,
+        "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+        "state": "open",
+        "created_at": "2026-10-08T14:04:00Z",
+        "updated_at": "2026-10-08T14:04:06Z",
+        "closed_at": null,
+        "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+        "pull_request": {
+          "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/85",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+          "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85.diff",
+          "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 84,
+        "title": "Prevent ingestion from overwriting existing Markdown files",
+        "state": "open",
+        "created_at": "2026-09-24T14:01:36Z",
+        "updated_at": "2026-09-24T14:01:36Z",
+        "closed_at": null,
+        "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+        "pull_request": {
+          "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/84",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+          "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84.diff",
+          "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 83,
+        "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+        "state": "open",
+        "created_at": "2026-09-24T13:42:38Z",
+        "updated_at": "2026-09-24T13:43:30Z",
+        "closed_at": null,
+        "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+        "pull_request": null
+      },
+      {
+        "number": 82,
+        "title": "Clarify CJK showcase contents",
+        "state": "open",
+        "created_at": "2026-09-24T12:10:11Z",
+        "updated_at": "2026-09-24T12:10:11Z",
+        "closed_at": null,
+        "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+        "pull_request": {
+          "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/82",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+          "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82.diff",
+          "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "mattpocock/skills": [
+      {
+        "number": 1068,
+        "title": "grill-with-docs: gpt-6-Astra-low skips to-spec and to-tickets",
+        "state": "open",
+        "created_at": "2026-09-10T16:14:00Z",
+        "updated_at": "2026-11-01T13:37:49Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/1068",
+        "pull_request": null
+      },
+      {
+        "number": 1369,
+        "title": "chief-of-staff: work toward a revisable destination (from wayfinder)",
+        "state": "open",
+        "created_at": "2026-11-01T11:42:54Z",
+        "updated_at": "2026-11-01T11:43:01Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/pull/1369",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mattpocock/skills/pulls/1369",
+          "html_url": "https://github.com/mattpocock/skills/pull/1369",
+          "diff_url": "https://github.com/mattpocock/skills/pull/1369.diff",
+          "patch_url": "https://github.com/mattpocock/skills/pull/1369.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1368,
+        "title": "feat: publish skills to npm as @mattpocock/skills",
+        "state": "open",
+        "created_at": "2026-11-01T10:51:25Z",
+        "updated_at": "2026-11-01T10:51:29Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/pull/1368",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mattpocock/skills/pulls/1368",
+          "html_url": "https://github.com/mattpocock/skills/pull/1368",
+          "diff_url": "https://github.com/mattpocock/skills/pull/1368.diff",
+          "patch_url": "https://github.com/mattpocock/skills/pull/1368.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1366,
+        "title": "code-review: reads only the diff, so a change that meets the spec but doesn't solve the problem passes",
+        "state": "open",
+        "created_at": "2026-11-01T06:37:11Z",
+        "updated_at": "2026-11-01T09:03:55Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/1366",
+        "pull_request": null
+      },
+      {
+        "number": 1367,
+        "title": "implement-spec: Support Sequential Ticket Execution Without Worktrees",
+        "state": "open",
+        "created_at": "2026-11-01T06:44:30Z",
+        "updated_at": "2026-11-01T06:44:39Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mattpocock/skills/issues/1367",
+        "pull_request": null
+      }
+    ]
+  }
+}

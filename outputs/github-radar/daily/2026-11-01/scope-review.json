@@ -1,0 +1,25 @@
+{
+  "trending_observed_at": "2026-11-01T16:12:06.637408+00:00",
+  "retained": [
+    "thedotmack/claude-mem",
+    "lightpanda-io/browser",
+    "shiyu-coder/Kronos",
+    "pingdotgg/t3code",
+    "milind-soni/OpenMausBot",
+    "cjpais/Handy",
+    "Donchitos/Claude-Code-Game-Studios",
+    "kornia/kornia",
+    "beenuar/AiSOC",
+    "anomalyco/hex",
+    "CopilotKit/OpenBot",
+    "togg53192-cmd/jailbreaks",
+    "patchy631/ai-engineering-hub",
+    "FlashML-org/FreeToken"
+  ],
+  "excluded": {
+    "public-apis/public-apis": "一般 API 清單，未見本次指定 AI／agent 主題定位。",
+    "Renhuai123/ziwei-doushu": "紫微斗數排盤與古籍資料，未見 AI／LLM 知識管理用途。",
+    "hyprwm/Hyprland": "一般 Wayland compositor，非本次 AI／開發自動化主題。"
+  },
+  "note": "人工校正名稱子字串誤判與空白簡介漏判；未修改收集器。"
+}
