@@ -1,0 +1,62 @@
+{
+  "retained_count": 381,
+  "supplemented_trending": [
+    "JustVugg/colibri",
+    "karpathy/nanochat"
+  ],
+  "excluded": [
+    {
+      "full_name": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，未見 AI／agent 主題證據"
+    },
+    {
+      "full_name": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理轉送工具"
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "reason": "一般材質繪圖工具"
+    },
+    {
+      "full_name": "checkstyle/checkstyle",
+      "reason": "一般 Java 靜態規範檢查，非 AI 開發自動化"
+    },
+    {
+      "full_name": "dsherret/ts-morph",
+      "reason": "一般 TypeScript AST 工具"
+    },
+    {
+      "full_name": "kiali/kiali",
+      "reason": "一般 Istio 服務網格觀測工具"
+    },
+    {
+      "full_name": "llvm/llvm-project",
+      "reason": "一般編譯器基礎設施"
+    },
+    {
+      "full_name": "localsend/localsend",
+      "reason": "一般跨平台檔案傳送"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "reason": "一般 OSINT 工具，未見 AI／MCP 整合證據"
+    },
+    {
+      "full_name": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全程式庫清單"
+    },
+    {
+      "full_name": "xyflow/xyflow",
+      "reason": "一般節點 UI 程式庫，未見 AI 特定工作流證據"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "reason": "一般市場監控工具，未見 AI 主題證據"
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "reason": "傳統技術形態選股自動化，非 AI 開發或辦公工作流"
+    }
+  ],
+  "method": "Manual topic review of descriptions, topics and README; general-purpose tools without evidenced AI/MCP/agent relevance excluded."
+}

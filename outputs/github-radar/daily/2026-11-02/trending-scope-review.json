@@ -1,0 +1,111 @@
+{
+  "source": "https://github.com/trending?since=daily",
+  "observed_at": "2026-11-03T00:11:58.737713+08:00",
+  "review": [
+    {
+      "full_name": "vercel-labs/agent-desktop",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 2243,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "thedotmack/claude-mem",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 1799,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 858,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "hyprwm/Hyprland",
+      "include": false,
+      "reason": "一般桌面 compositor，非本次 AI／agent／開發自動化主題",
+      "stars_today": 508,
+      "metadata_collected": false
+    },
+    {
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 1380,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "FlashML-org/FreeToken",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 654,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "pingdotgg/t3code",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 3216,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "shiyu-coder/Kronos",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 855,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "kornia/kornia",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 412,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "JustVugg/colibri",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 655,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 970,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 136,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "paperclipai/paperclip",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 451,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "karpathy/nanochat",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 325,
+      "metadata_collected": true
+    },
+    {
+      "full_name": "p-e-w/heretic",
+      "include": true,
+      "reason": "依簡介、README 與 GitHub metadata 確認 AI、LLM、Skills、MCP 或 agent 工作流相關",
+      "stars_today": 404,
+      "metadata_collected": true
+    }
+  ]
+}
