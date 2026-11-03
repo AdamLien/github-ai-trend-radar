@@ -1,0 +1,686 @@
+{
+  "observed_at": "2026-11-03T16:12:12.449370+00:00",
+  "repos": [
+    {
+      "full_name": "vercel-labs/agent-desktop",
+      "html_url": "https://github.com/vercel-labs/agent-desktop",
+      "description": "Computer use CLI for AI agents",
+      "language": "Rust",
+      "license": "Apache-2.0",
+      "stars": 12012,
+      "forks": 822,
+      "open_issues": 140,
+      "watchers": 27,
+      "created_at": "2026-02-19T18:00:49Z",
+      "updated_at": "2026-11-03T16:11:52Z",
+      "pushed_at": "2026-11-03T12:24:46Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "accessibility",
+        "accessibility-api",
+        "ai-agents",
+        "automation",
+        "cli",
+        "computer-use",
+        "computer-use-agent",
+        "computer-use-agents",
+        "desktop-automation",
+        "macos",
+        "mcp",
+        "rust"
+      ],
+      "latest_release": {
+        "name": "v1.1.0",
+        "tag_name": "v1.1.0",
+        "published_at": "2026-11-03T04:13:45Z"
+      },
+      "readme_excerpt": "# agent-desktop Computer use for AI agents: read and operate desktop apps through the OS accessibility tree. <p> <a href=\"https://vercel.com/labs#labs-products\"><img alt=\"Vercel Labs Product\" src=\"https://img.shields.io/badge/LABS-PRODUCT-0a0a0a.svg?style=for-the-badge&amp;logo=Vercel&amp;labelColor=000000\" height=\"28\"></a> <a href=\"https://www.npmjs.com/package/agent-desktop\"><img alt=\"npm version: agent-desktop\" src=\"https://img.shields.io/npm/v/agent-desktop.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a> <a href=\"https://github.com/vercel-labs/agent-desktop/blob/main/LICENSE\"><img alt=\"License: Apache-2.0\" src=\"https://img.shields.io/github/license/vercel-labs/agent-deskt",
+      "recent_issues_and_prs": [
+        {
+          "number": 374,
+          "title": "[Bug]: macOS: an app whose launchDate is more than 5 s off its process start fails every list-windows and window screenshot",
+          "state": "open",
+          "updated_at": "2026-11-03T16:07:55Z",
+          "html_url": "https://github.com/vercel-labs/agent-desktop/issues/374",
+          "is_pull_request": false
+        },
+        {
+          "number": 487,
+          "title": "[Bug]: Window commands disagree on how to target an app — close-app takes a positional argument, restore takes --app",
+          "state": "open",
+          "updated_at": "2026-11-03T15:51:20Z",
+          "html_url": "https://github.com/vercel-labs/agent-desktop/issues/487",
+          "is_pull_request": false
+        },
+        {
+          "number": 361,
+          "title": "feat: colour the cursor with the accent unless a fill is set",
+          "state": "closed",
+          "updated_at": "2026-11-03T15:42:47Z",
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/361",
+          "is_pull_request": true
+        },
+        {
+          "number": 138,
+          "title": "feat: add cursor overlay and harden native observation",
+          "state": "closed",
+          "updated_at": "2026-11-03T15:31:46Z",
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/138",
+          "is_pull_request": true
+        },
+        {
+          "number": 531,
+          "title": "fix(windows): suggest set-value when headless type is refused",
+          "state": "open",
+          "updated_at": "2026-11-03T15:10:37Z",
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/531",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "mattpocock/skills",
+      "html_url": "https://github.com/mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 311064,
+      "forks": 26160,
+      "open_issues": 208,
+      "watchers": 1598,
+      "created_at": "2026-02-03T11:15:53Z",
+      "updated_at": "2026-11-03T16:11:00Z",
+      "pushed_at": "2026-11-01T11:42:33Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "v1.3.2",
+        "tag_name": "v1.3.2",
+        "published_at": "2026-10-29T10:27:41Z"
+      },
+      "readme_excerpt": "<p> <a href=\"https://www.aihero.dev/s/skills-newsletter\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\"> <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\"> </picture> </a> </p> # Skills For Real Engineers [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills) My agent skills that I use every day to do real engineering - not",
+      "recent_issues_and_prs": [
+        {
+          "number": 1380,
+          "title": "research: the findings file has no naming rule and no fallback, so 7 of 7 background agents had `findings.md` refused and their findings ended up in 3 different places",
+          "state": "open",
+          "updated_at": "2026-11-03T14:40:28Z",
+          "html_url": "https://github.com/mattpocock/skills/issues/1380",
+          "is_pull_request": false
+        },
+        {
+          "number": 1379,
+          "title": "retro: earlier accepted changes are never re-checked, so ones that failed go unnoticed",
+          "state": "open",
+          "updated_at": "2026-11-03T13:40:18Z",
+          "html_url": "https://github.com/mattpocock/skills/issues/1379",
+          "is_pull_request": false
+        },
+        {
+          "number": 508,
+          "title": "/implement has no completion step, finished tickets are never marked done",
+          "state": "closed",
+          "updated_at": "2026-11-03T12:39:09Z",
+          "html_url": "https://github.com/mattpocock/skills/issues/508",
+          "is_pull_request": false
+        },
+        {
+          "number": 1378,
+          "title": "Make default markdown format more diff-friendly",
+          "state": "open",
+          "updated_at": "2026-11-03T11:40:13Z",
+          "html_url": "https://github.com/mattpocock/skills/issues/1378",
+          "is_pull_request": false
+        },
+        {
+          "number": 1377,
+          "title": "implement-spec: clarify the orchestrator’s implementation and debugging boundary",
+          "state": "open",
+          "updated_at": "2026-11-03T10:30:11Z",
+          "html_url": "https://github.com/mattpocock/skills/issues/1377",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "thedotmack/claude-mem",
+      "html_url": "https://github.com/thedotmack/claude-mem",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 111518,
+      "forks": 9714,
+      "open_issues": 153,
+      "watchers": 350,
+      "created_at": "2025-08-31T20:50:03Z",
+      "updated_at": "2026-11-03T16:10:21Z",
+      "pushed_at": "2026-11-03T03:52:52Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "latest_release": {
+        "name": "v15.9.0",
+        "tag_name": "v15.9.0",
+        "published_at": "2026-11-02T18:03:43Z"
+      },
+      "readme_excerpt": "<h1 align=\"center\"> <br> <a href=\"https://github.com/thedotmack/claude-mem\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/public/claude-mem-logo-for-dark-mode.webp\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"docs/public/claude-mem-logo-for-light-mode.webp\"> <img src=\"docs/public/claude-mem-logo-for-light-mode.webp\" alt=\"Claude-Mem\" width=\"400\"> </picture> </a> </h1> <p align=\"center\"> <img alt=\"Vercel OSS Program\" src=\"https://vercel.com/oss/program-badge-2026.svg\" height=\"24\" /> &nbsp;&nbsp;&nbsp; <img alt=\"Greptile\" src=\"docs/public/greptile-wordmark-green.svg\" height=\"24\" /> &nbsp;&nbsp;&nbsp; <img alt=\"SerpApi\" src=\"docs/public/serpapi-logo-with-wordmar",
+      "recent_issues_and_prs": [
+        {
+          "number": 5339,
+          "title": "fix(worker): accept decimal-string observation ids",
+          "state": "open",
+          "updated_at": "2026-11-03T16:02:40Z",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5339",
+          "is_pull_request": true
+        },
+        {
+          "number": 5341,
+          "title": "fix(worker): reject empty URL request modifiers",
+          "state": "open",
+          "updated_at": "2026-11-03T16:01:44Z",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5341",
+          "is_pull_request": true
+        },
+        {
+          "number": 5340,
+          "title": "fix(providers): release capped error-body reader locks",
+          "state": "open",
+          "updated_at": "2026-11-03T16:01:21Z",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5340",
+          "is_pull_request": true
+        },
+        {
+          "number": 5245,
+          "title": "fix(work-view): confine auto-refresh to configured provider to prevent codex fallback (#5241)",
+          "state": "open",
+          "updated_at": "2026-11-03T15:43:12Z",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5245",
+          "is_pull_request": true
+        },
+        {
+          "number": 5342,
+          "title": "fix(redaction): redact Google OAuth access tokens (ya29.)",
+          "state": "open",
+          "updated_at": "2026-11-03T15:15:04Z",
+          "html_url": "https://github.com/thedotmack/claude-mem/pull/5342",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "max-sixty/worktrunk",
+      "html_url": "https://github.com/max-sixty/worktrunk",
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "language": "Rust",
+      "license": "NOASSERTION",
+      "stars": 10336,
+      "forks": 372,
+      "open_issues": 64,
+      "watchers": 23,
+      "created_at": "2025-10-17T22:13:14Z",
+      "updated_at": "2026-11-03T16:09:02Z",
+      "pushed_at": "2026-11-03T15:43:30Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agents",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "git",
+        "worktrees"
+      ],
+      "latest_release": {
+        "name": "0.81.0",
+        "tag_name": "v0.81.0",
+        "published_at": "2026-10-20T21:28:34Z"
+      },
+      "readme_excerpt": "<!-- markdownlint-disable MD033 --> <h1><img src=\"docs/public/logo.png\" alt=\"Worktrunk logo\" width=\"50\" align=\"absmiddle\">&nbsp;&nbsp;Worktrunk</h1> <!-- Crates.io badge below disabled while shields.io is rate-limited by crates.io (renders \"CRATES.IO: INVALID\"). Tracking: badges/shields#11879. Restore once fixed. [![Crates.io](https://img.shields.io/crates/v/worktrunk?style=for-the-badge&logo=rust)](https://crates.io/crates/worktrunk) --> [![Docs](https://img.shields.io/badge/docs-worktrunk.dev-blue?style=for-the-badge&logo=gitbook)](https://worktrunk.dev) [![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue?style=for-the-badge)](https://opensource.",
+      "recent_issues_and_prs": [
+        {
+          "number": 4142,
+          "title": "Hook failure always suggests --no-hooks, including for pre-merge gates",
+          "state": "open",
+          "updated_at": "2026-11-03T15:44:25Z",
+          "html_url": "https://github.com/max-sixty/worktrunk/issues/4142",
+          "is_pull_request": false
+        },
+        {
+          "number": 4636,
+          "title": "Show success feedback after Alt-x removes a worktree in the picker",
+          "state": "closed",
+          "updated_at": "2026-11-03T15:43:32Z",
+          "html_url": "https://github.com/max-sixty/worktrunk/issues/4636",
+          "is_pull_request": false
+        },
+        {
+          "number": 4669,
+          "title": "fix(picker): flash success feedback after alt-x removes worktree",
+          "state": "closed",
+          "updated_at": "2026-11-03T15:43:31Z",
+          "html_url": "https://github.com/max-sixty/worktrunk/pull/4669",
+          "is_pull_request": true
+        },
+        {
+          "number": 4682,
+          "title": "fix(list): measure truncated cells by grapheme cluster so VS16 emoji don't overflow",
+          "state": "closed",
+          "updated_at": "2026-11-03T12:33:52Z",
+          "html_url": "https://github.com/max-sixty/worktrunk/pull/4682",
+          "is_pull_request": true
+        },
+        {
+          "number": 4681,
+          "title": "wt list: VS16 emoji in commit subjects (♻️, ⬆️) overflow the Message column, so rows wrap and the live table stacks stale frames",
+          "state": "closed",
+          "updated_at": "2026-11-03T12:33:51Z",
+          "html_url": "https://github.com/max-sixty/worktrunk/issues/4681",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "spotify/portal-ai-plugins",
+      "html_url": "https://github.com/spotify/portal-ai-plugins",
+      "description": "",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 2954,
+      "forks": 232,
+      "open_issues": 13,
+      "watchers": 19,
+      "created_at": "2026-07-23T21:17:21Z",
+      "updated_at": "2026-11-03T16:08:12Z",
+      "pushed_at": "2026-10-23T07:08:57Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "# Spotify Portal AI Plugins Bring [Spotify Portal](https://portal.spotify.com) into Claude Code, Codex, Cursor, and pi. This plugin provides focused workflows for the [Portal CLI](https://www.npmjs.com/package/@spotify/portal-cli): set up authentication, search your software catalog, build service briefings, run diagnostics, and invoke Portal actions. ## Highlights - Set up the Portal CLI for your current coding-agent environment. - Run read-only diagnostics to verify plugin, CLI, authentication, and action readiness. - Search the software catalog and technical documentation using natural language queries. - Generate concise service briefings with available ownership, health, incident, and d",
+      "recent_issues_and_prs": [
+        {
+          "number": 26,
+          "title": "shunt 0.2.0: hooks emit {\"decision\": \"allow\"}, which fails Claude Code hook validation",
+          "state": "open",
+          "updated_at": "2026-11-02T20:27:09Z",
+          "html_url": "https://github.com/spotify/portal-ai-plugins/issues/26",
+          "is_pull_request": false
+        },
+        {
+          "number": 25,
+          "title": "Portal CLI: actions-registry rejects valid CLI login token (reported as \"authentication has expired\")",
+          "state": "open",
+          "updated_at": "2026-10-31T21:46:36Z",
+          "html_url": "https://github.com/spotify/portal-ai-plugins/issues/25",
+          "is_pull_request": false
+        },
+        {
+          "number": 24,
+          "title": "fix(fleetshift-run-shift): stop kill-switch loop on rejected jobs",
+          "state": "closed",
+          "updated_at": "2026-10-23T07:08:58Z",
+          "html_url": "https://github.com/spotify/portal-ai-plugins/pull/24",
+          "is_pull_request": true
+        },
+        {
+          "number": 23,
+          "title": "feat: add Fleetshift skills to the portal plugin",
+          "state": "closed",
+          "updated_at": "2026-10-21T18:47:19Z",
+          "html_url": "https://github.com/spotify/portal-ai-plugins/pull/23",
+          "is_pull_request": true
+        },
+        {
+          "number": 22,
+          "title": "feat: add pi package manifest for portal skills",
+          "state": "closed",
+          "updated_at": "2026-10-12T14:04:52Z",
+          "html_url": "https://github.com/spotify/portal-ai-plugins/pull/22",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "D4Vinci/Scrapling",
+      "html_url": "https://github.com/D4Vinci/Scrapling",
+      "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
+      "language": "Python",
+      "license": "BSD-3-Clause",
+      "stars": 94072,
+      "forks": 9878,
+      "open_issues": 12,
+      "watchers": 327,
+      "created_at": "2024-10-13T20:29:53Z",
+      "updated_at": "2026-11-03T16:11:44Z",
+      "pushed_at": "2026-11-02T20:16:23Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "ai-scraping",
+        "automation",
+        "crawler",
+        "crawling",
+        "crawling-python",
+        "data",
+        "data-extraction",
+        "mcp",
+        "mcp-server",
+        "playwright",
+        "python",
+        "scraping",
+        "selectors",
+        "stealth",
+        "web-scraper",
+        "web-scraping",
+        "web-scraping-python",
+        "webscraping",
+        "xpath"
+      ],
+      "latest_release": {
+        "name": "Release v0.5",
+        "tag_name": "v0.5",
+        "published_at": "2026-10-17T21:43:59Z"
+      },
+      "readme_excerpt": "<!-- mcp-name: io.github.D4Vinci/Scrapling --> <h1 align=\"center\"> <a href=\"https://scrapling.readthedocs.io\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_dark.svg?sanitize=true\"> <img alt=\"Scrapling Poster\" src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/docs/assets/cover_light.svg?sanitize=true\"> </picture> </a> <br> <small>Effortless Web Scraping for the Modern Web</small> </h1> <p align=\"center\"> <a href=\"https://trendshift.io/repositories/14244\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/14244\" alt=\"D4Vinci%2FScrapling | Trendshift\" style=\"width: 250px;",
+      "recent_issues_and_prs": [
+        {
+          "number": 104,
+          "title": "Python 3.14 issue: Problem with CamoufoxConfig",
+          "state": "closed",
+          "updated_at": "2026-11-03T13:41:13Z",
+          "html_url": "https://github.com/D4Vinci/Scrapling/issues/104",
+          "is_pull_request": false
+        },
+        {
+          "number": 540,
+          "title": "Cookie strings with spaces or quotes in a value silently lose cookies (uncurl, extract --cookies)",
+          "state": "open",
+          "updated_at": "2026-11-03T10:54:29Z",
+          "html_url": "https://github.com/D4Vinci/Scrapling/issues/540",
+          "is_pull_request": false
+        },
+        {
+          "number": 548,
+          "title": "fix(spiders): skip malformed links during extraction",
+          "state": "open",
+          "updated_at": "2026-11-03T10:29:21Z",
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/548",
+          "is_pull_request": true
+        },
+        {
+          "number": 542,
+          "title": "fix: validate URL schemes to prevent local file disclosure",
+          "state": "open",
+          "updated_at": "2026-11-03T06:42:33Z",
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/542",
+          "is_pull_request": true
+        },
+        {
+          "number": 547,
+          "title": "fix(spiders): sanitize Unicode keys using XML name rules",
+          "state": "open",
+          "updated_at": "2026-11-03T05:21:58Z",
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/547",
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "Donchitos/Claude-Code-Game-Studios",
+      "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 34367,
+      "forks": 4576,
+      "open_issues": 93,
+      "watchers": 231,
+      "created_at": "2026-02-12T05:21:38Z",
+      "updated_at": "2026-11-03T16:11:52Z",
+      "pushed_at": "2026-10-19T02:43:42Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-agents",
+        "ai-assisted-development",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "game-design",
+        "game-development",
+        "gamedev",
+        "godot",
+        "indie-game-dev",
+        "unity",
+        "unreal-engine"
+      ],
+      "latest_release": {
+        "name": "v1.2.0 — the main path, rebuilt and tested",
+        "tag_name": "v1.2.0",
+        "published_at": "2026-10-19T02:44:23Z"
+      },
+      "readme_excerpt": "<p align=\"center\"> <h1 align=\"center\">Claude Code Game Studios</h1> <p align=\"center\"> Turn a single Claude Code session into a full game development studio. <br /> 49 agents. 74 skills. One coordinated AI team. </p> </p> <p align=\"center\"> <a href=\"LICENSE\"><img src=\"https://img.shields.io/badge/license-MIT-blue.svg\" alt=\"MIT License\"></a> <a href=\".claude/agents\"><img src=\"https://img.shields.io/badge/agents-49-blueviolet\" alt=\"49 Agents\"></a> <a href=\".claude/skills\"><img src=\"https://img.shields.io/badge/skills-74-green\" alt=\"74 Skills\"></a> <a href=\".claude/hooks\"><img src=\"https://img.shields.io/badge/hooks-15-orange\" alt=\"15 Hooks\"></a> <a href=\".claude/rules\"><img src=\"https://img.sh",
+      "recent_issues_and_prs": [
+        {
+          "number": 173,
+          "title": "fix: count bugs once across directory aliases",
+          "state": "open",
+          "updated_at": "2026-11-03T10:22:00Z",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/173",
+          "is_pull_request": true
+        },
+        {
+          "number": 172,
+          "title": "[Bug] ",
+          "state": "open",
+          "updated_at": "2026-11-03T06:55:07Z",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/issues/172",
+          "is_pull_request": false
+        },
+        {
+          "number": 171,
+          "title": "fix: apply root-relative exclusions to absolute scan operands",
+          "state": "open",
+          "updated_at": "2026-11-03T02:21:00Z",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/171",
+          "is_pull_request": true
+        },
+        {
+          "number": 170,
+          "title": "fix: observe origin configuration in linked worktrees",
+          "state": "open",
+          "updated_at": "2026-11-03T02:15:56Z",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/pull/170",
+          "is_pull_request": true
+        },
+        {
+          "number": 169,
+          "title": "[Feature] Add Bevy (Rust) as a fourth engine",
+          "state": "open",
+          "updated_at": "2026-11-03T01:37:05Z",
+          "html_url": "https://github.com/Donchitos/Claude-Code-Game-Studios/issues/169",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "nashsu/llm_wiki",
+      "html_url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 21338,
+      "forks": 2429,
+      "open_issues": 297,
+      "watchers": 86,
+      "created_at": "2026-04-08T11:24:01Z",
+      "updated_at": "2026-11-03T15:57:16Z",
+      "pushed_at": "2026-10-21T11:17:29Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "LLM Wiki v0.6.13",
+        "tag_name": "v0.6.13",
+        "published_at": "2026-10-22T01:21:07Z"
+      },
+      "readme_excerpt": "# LLM Wiki <p align=\"center\"> <img src=\"logo.jpg\" width=\"128\" height=\"128\" style=\"border-radius: 22%;\" alt=\"LLM Wiki Logo\"> </p> <p align=\"center\"> <strong>A personal knowledge base that builds itself.</strong><br> LLM reads your documents, builds a structured wiki, and keeps it current. </p> <p align=\"center\"> <a href=\"#what-is-this\">What is this?</a> • <a href=\"#what-we-changed--added\">Features</a> • <a href=\"#tech-stack\">Tech Stack</a> • <a href=\"#installation\">Installation</a> • <a href=\"#credits\">Credits</a> • <a href=\"#license\">License</a> </p> <p align=\"center\"> English | <a href=\"README_CN.md\">中文</a> | <a href=\"README_JA.md\">日本語</a> | <a href=\"README_KO.md\">한국어</a> </p> --- <p align=",
+      "recent_issues_and_prs": [
+        {
+          "number": 835,
+          "title": "feat: make side panels freely resizable",
+          "state": "open",
+          "updated_at": "2026-11-03T14:50:22Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/835",
+          "is_pull_request": true
+        },
+        {
+          "number": 845,
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "updated_at": "2026-11-03T14:21:45Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "is_pull_request": true
+        },
+        {
+          "number": 841,
+          "title": "feat(search): add DeepSeek Search and research Fetch",
+          "state": "open",
+          "updated_at": "2026-11-03T05:07:43Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/841",
+          "is_pull_request": true
+        },
+        {
+          "number": 840,
+          "title": "feat(search): add DeepSeek Search and research Fetch",
+          "state": "closed",
+          "updated_at": "2026-11-03T04:39:13Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/840",
+          "is_pull_request": true
+        },
+        {
+          "number": 837,
+          "title": "Re-ingest shortens single-source pages and creates duplicates",
+          "state": "open",
+          "updated_at": "2026-11-03T04:38:39Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/837",
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "SamurAIGPT/llm-wiki-agent",
+      "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent",
+      "description": "A personal knowledge base that builds and maintains itself. Drop in sources — Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API key needed.",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 3671,
+      "forks": 425,
+      "open_issues": 13,
+      "watchers": 34,
+      "created_at": "2023-04-21T08:31:00Z",
+      "updated_at": "2026-11-03T08:56:18Z",
+      "pushed_at": "2026-11-02T11:11:47Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-agent",
+        "ai-tools",
+        "automation",
+        "claude-code",
+        "codex",
+        "gemini",
+        "generative-ai",
+        "knowledge-base",
+        "knowledge-graph",
+        "llm",
+        "markdown",
+        "muapi",
+        "note-taking",
+        "obsidian",
+        "open-source",
+        "personal-knowledge-management",
+        "rag",
+        "research",
+        "second-brain",
+        "wiki"
+      ],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "# LLM Wiki Agent [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) **A coding agent skill.** Drop source documents into `raw/` and tell the agent to ingest them — it reads them, extracts knowledge, and builds a persistent interlinked wiki. Every new source makes the wiki richer. You never write it. > Most knowledge tools make you search your own notes. This one reads everything you've collected and writes a structured wiki that compounds over time — cross-references already built, contradictions already flagged, synthesis already done. ``` ingest raw/papers/attention-is-all-you-need.md ``` ``` wiki/ ├── index.md catalog of all pages — updated on every ingest ├── log.md",
+      "recent_issues_and_prs": [
+        {
+          "number": 86,
+          "title": "fix(health): decode percent-encoded index links",
+          "state": "open",
+          "updated_at": "2026-10-20T12:40:51Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+          "is_pull_request": true
+        },
+        {
+          "number": 85,
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+          "is_pull_request": true
+        },
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+          "is_pull_request": true
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+          "is_pull_request": false
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+          "is_pull_request": true
+        }
+      ]
+    }
+  ]
+}

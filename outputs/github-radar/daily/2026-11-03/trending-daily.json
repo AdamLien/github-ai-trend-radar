@@ -1,0 +1,33 @@
+{
+  "source": "https://github.com/trending?since=daily",
+  "observed_at": "2026-11-03T16:11:45.890348+00:00",
+  "repos": {
+    "thedotmack/claude-mem": {
+      "trending_stars_today": 1138
+    },
+    "vercel-labs/agent-desktop": {
+      "trending_stars_today": 3792
+    },
+    "max-sixty/worktrunk": {
+      "trending_stars_today": 437
+    },
+    "mattpocock/skills": {
+      "trending_stars_today": 1164
+    },
+    "p-e-w/heretic": {
+      "trending_stars_today": 699
+    },
+    "spotify/portal-ai-plugins": {
+      "trending_stars_today": 94
+    },
+    "Usagi-org/ai-goofish-monitor": {
+      "trending_stars_today": 204
+    },
+    "D4Vinci/Scrapling": {
+      "trending_stars_today": 1658
+    },
+    "Donchitos/Claude-Code-Game-Studios": {
+      "trending_stars_today": 1181
+    }
+  }
+}
