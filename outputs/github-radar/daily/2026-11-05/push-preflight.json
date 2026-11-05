@@ -1,0 +1,8 @@
+{
+  "existing_upstream": "origin/main",
+  "transport": "SSH",
+  "strict_host_key_checking": true,
+  "batch_mode": true,
+  "read_authorization_ok": true,
+  "exit_code": 0
+}

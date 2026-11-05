@@ -1,0 +1,45 @@
+{
+  "excluded_historical_entries": [
+    {
+      "full_name": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，未見本次 AI／agent／開發自動化用途"
+    },
+    {
+      "full_name": "InterceptSuite/ProxyBridge",
+      "reason": "一般應用程式流量代理，未見 AI／agent 工作流證據"
+    },
+    {
+      "full_name": "armory3d/armorpaint",
+      "reason": "一般圖形創作工具，未見 AI／agent 工作流證據"
+    },
+    {
+      "full_name": "kiali/kiali",
+      "reason": "一般 service mesh 可觀測性工具"
+    },
+    {
+      "full_name": "llvm/llvm-project",
+      "reason": "一般編譯器工具鏈，非本次 AI 或開發自動化專題"
+    },
+    {
+      "full_name": "localsend/localsend",
+      "reason": "一般跨裝置檔案傳輸工具"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "reason": "一般帳號查詢資安工具，非本次 AI／agent 主題"
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "reason": "一般股票掃描自動化，非本次 AI／開發自動化用途"
+    },
+    {
+      "full_name": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全預設程式庫清單，未見 AI／agent 工作流證據"
+    },
+    {
+      "full_name": "xyflow/xyflow",
+      "reason": "一般節點介面元件，不能因可用來畫 AI 流程而直接列為 AI 專案"
+    }
+  ],
+  "note": "僅過濾本次產物，未修改過去快照或收集器。"
+}

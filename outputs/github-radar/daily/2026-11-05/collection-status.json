@@ -1,0 +1,29 @@
+{
+  "target_date": "2026-11-05",
+  "collected_at": "2026-11-06T00:11:16.720802+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false
+    }
+  ],
+  "rate_limit_encountered": false,
+  "collector_success": true,
+  "completed_at": "2026-11-05T16:23:20.683865+00:00",
+  "retained_repo_count": 404,
+  "build": "passed",
+  "pre_existing_files_preserved": 28
+}

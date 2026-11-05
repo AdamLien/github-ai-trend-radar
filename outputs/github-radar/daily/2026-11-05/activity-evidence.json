@@ -1,0 +1,410 @@
+{
+  "observed_at": "2026-11-05T16:12:13.695835+00:00",
+  "repos": {
+    "NVIDIA/auto-ontology": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 428,
+          "title": "Docs: `SQLDatabase` documents a `dialect` constructor argument that does not exist",
+          "state": "open",
+          "updated_at": "2026-11-05T14:51:54Z",
+          "url": "https://github.com/NVIDIA/auto-ontology/issues/428",
+          "type": "issue"
+        },
+        {
+          "number": 426,
+          "title": "Bump version to 1.2.0",
+          "state": "closed",
+          "updated_at": "2026-11-05T14:45:31Z",
+          "url": "https://github.com/NVIDIA/auto-ontology/pull/426",
+          "type": "pull_request"
+        },
+        {
+          "number": 425,
+          "title": "Bump version to 1.2.0 (release/v1.2.0)",
+          "state": "closed",
+          "updated_at": "2026-11-05T14:45:03Z",
+          "url": "https://github.com/NVIDIA/auto-ontology/pull/425",
+          "type": "pull_request"
+        },
+        {
+          "number": 427,
+          "title": "Integrate RLS and CLS",
+          "state": "open",
+          "updated_at": "2026-11-05T14:33:48Z",
+          "url": "https://github.com/NVIDIA/auto-ontology/issues/427",
+          "type": "issue"
+        },
+        {
+          "number": 424,
+          "title": "feat: Add Qdrant vector store backend",
+          "state": "open",
+          "updated_at": "2026-11-05T13:28:34Z",
+          "url": "https://github.com/NVIDIA/auto-ontology/pull/424",
+          "type": "pull_request"
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 1389,
+          "title": "Make promoted skills explicit-only for users who want manual control",
+          "state": "open",
+          "updated_at": "2026-11-05T15:43:23Z",
+          "url": "https://github.com/mattpocock/skills/issues/1389",
+          "type": "issue"
+        },
+        {
+          "number": 1388,
+          "title": "wayfinder: new work that comes up mid-session isn't charted unless the user asks",
+          "state": "open",
+          "updated_at": "2026-11-05T10:54:12Z",
+          "url": "https://github.com/mattpocock/skills/issues/1388",
+          "type": "issue"
+        },
+        {
+          "number": 1387,
+          "title": "chief-of-staff: when to hand work to the software factory",
+          "state": "closed",
+          "updated_at": "2026-11-05T10:40:02Z",
+          "url": "https://github.com/mattpocock/skills/pull/1387",
+          "type": "pull_request"
+        },
+        {
+          "number": 1386,
+          "title": "grilling: every question looks equally important, so the high-stakes ones are hard to spot",
+          "state": "open",
+          "updated_at": "2026-11-05T10:18:34Z",
+          "url": "https://github.com/mattpocock/skills/issues/1386",
+          "type": "issue"
+        },
+        {
+          "number": 1385,
+          "title": "Codex pushes screenshots into repo when creating PRs",
+          "state": "open",
+          "updated_at": "2026-11-05T08:43:18Z",
+          "url": "https://github.com/mattpocock/skills/issues/1385",
+          "type": "issue"
+        }
+      ]
+    },
+    "garrytan/gstack": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 4023,
+          "title": "fix(evidence): count node --test summaries in tests_ran",
+          "state": "closed",
+          "updated_at": "2026-11-05T16:09:58Z",
+          "url": "https://github.com/garrytan/gstack/pull/4023",
+          "type": "pull_request"
+        },
+        {
+          "number": 4016,
+          "title": "gstack-evidence: node --test summaries are never counted (tests_ran=unknown), so guard and lane reuse never fire for node:test commands",
+          "state": "closed",
+          "updated_at": "2026-11-05T16:09:55Z",
+          "url": "https://github.com/garrytan/gstack/issues/4016",
+          "type": "issue"
+        },
+        {
+          "number": 4015,
+          "title": "pregate: no way to declare extra test-file patterns, so a repo's *.emulator.js suites are PREGATE_NO_LANE (and a guard doesn't clear it)",
+          "state": "closed",
+          "updated_at": "2026-11-05T16:09:54Z",
+          "url": "https://github.com/garrytan/gstack/issues/4015",
+          "type": "issue"
+        },
+        {
+          "number": 4037,
+          "title": "fix(codex): name only the skill install paths in the filesystem boundary (#3924)",
+          "state": "open",
+          "updated_at": "2026-11-05T16:09:33Z",
+          "url": "https://github.com/garrytan/gstack/pull/4037",
+          "type": "pull_request"
+        },
+        {
+          "number": 4026,
+          "title": "fix(redact): a property read in code is not an internal hostname (#3987)",
+          "state": "open",
+          "updated_at": "2026-11-05T16:09:32Z",
+          "url": "https://github.com/garrytan/gstack/pull/4026",
+          "type": "pull_request"
+        }
+      ]
+    },
+    "vercel-labs/agent-desktop": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 437,
+          "title": "feat(linux): control windows through the wayland foreign toplevel protocol",
+          "state": "open",
+          "updated_at": "2026-11-05T14:00:11Z",
+          "url": "https://github.com/vercel-labs/agent-desktop/pull/437",
+          "type": "pull_request"
+        },
+        {
+          "number": 513,
+          "title": "[Bug]: Windows press rejects punctuation keys and drops Shift on navigation keys",
+          "state": "open",
+          "updated_at": "2026-11-05T13:38:06Z",
+          "url": "https://github.com/vercel-labs/agent-desktop/issues/513",
+          "type": "issue"
+        },
+        {
+          "number": 578,
+          "title": "[Bug]: Windows Qt modal settings open via InvokePattern but time out and become unreadable; keyboard opening works",
+          "state": "open",
+          "updated_at": "2026-11-05T13:37:51Z",
+          "url": "https://github.com/vercel-labs/agent-desktop/issues/578",
+          "type": "issue"
+        },
+        {
+          "number": 402,
+          "title": "[Bug]: macOS: list-apps always fails when a nested app runs under XPCServices (ps output rejected as malformed)",
+          "state": "open",
+          "updated_at": "2026-11-05T11:03:01Z",
+          "url": "https://github.com/vercel-labs/agent-desktop/issues/402",
+          "type": "issue"
+        },
+        {
+          "number": 576,
+          "title": "fix(status): tolerate missing snapshot file when reading latest snapshot (#537)",
+          "state": "open",
+          "updated_at": "2026-11-05T09:38:41Z",
+          "url": "https://github.com/vercel-labs/agent-desktop/pull/576",
+          "type": "pull_request"
+        }
+      ]
+    },
+    "max-sixty/worktrunk": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 4689,
+          "title": "fix: let /wt-diff tool.call throws reach the hook engine; test the subagent path",
+          "state": "open",
+          "updated_at": "2026-11-05T15:12:21Z",
+          "url": "https://github.com/max-sixty/worktrunk/pull/4689",
+          "type": "pull_request"
+        },
+        {
+          "number": 4699,
+          "title": "feat(list): expose worktree last activity in schema 2 JSON",
+          "state": "open",
+          "updated_at": "2026-11-05T13:43:04Z",
+          "url": "https://github.com/max-sixty/worktrunk/pull/4699",
+          "type": "pull_request"
+        },
+        {
+          "number": 4711,
+          "title": "docs: add Trendoday trending badge",
+          "state": "open",
+          "updated_at": "2026-11-05T13:22:20Z",
+          "url": "https://github.com/max-sixty/worktrunk/pull/4711",
+          "type": "pull_request"
+        },
+        {
+          "number": 4710,
+          "title": "fix(switch): pass a GitHub Enterprise remote's host to gh api when gh is logged in to it",
+          "state": "closed",
+          "updated_at": "2026-11-05T08:57:29Z",
+          "url": "https://github.com/max-sixty/worktrunk/pull/4710",
+          "type": "pull_request"
+        },
+        {
+          "number": 4708,
+          "title": "fix(picker): keep a superseded refresh from overwriting the alt-x layout",
+          "state": "closed",
+          "updated_at": "2026-11-05T08:27:48Z",
+          "url": "https://github.com/max-sixty/worktrunk/pull/4708",
+          "type": "pull_request"
+        }
+      ]
+    },
+    "google/skills": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 242,
+          "title": "`gcloud services list` False Negatives When Combining `--limit` and `--filter`",
+          "state": "open",
+          "updated_at": "2026-11-05T10:04:36Z",
+          "url": "https://github.com/google/skills/issues/242",
+          "type": "issue"
+        },
+        {
+          "number": 228,
+          "title": "Bump datasets from 2.18.0 to 5.0.1 in /skills/cloud/agent-platform-tuning/references in the pip group across 1 directory",
+          "state": "open",
+          "updated_at": "2026-11-05T06:52:42Z",
+          "url": "https://github.com/google/skills/pull/228",
+          "type": "pull_request"
+        },
+        {
+          "number": 231,
+          "title": "feat: update data cloud plugin submodules",
+          "state": "closed",
+          "updated_at": "2026-11-04T02:09:46Z",
+          "url": "https://github.com/google/skills/pull/231",
+          "type": "pull_request"
+        },
+        {
+          "number": 227,
+          "title": "[dbt-sf-to-bq-translator] Replace SAFE_CAST with standard CAST across SQL translation and migration patterns",
+          "state": "closed",
+          "updated_at": "2026-11-03T10:25:32Z",
+          "url": "https://github.com/google/skills/issues/227",
+          "type": "issue"
+        },
+        {
+          "number": 241,
+          "title": "secops-detection-engineering: validate_yaral_rule.py rejects constant literals in outcome: when match: is present",
+          "state": "open",
+          "updated_at": "2026-11-02T14:07:26Z",
+          "url": "https://github.com/google/skills/issues/241",
+          "type": "issue"
+        }
+      ]
+    },
+    "scenario-labs/skills": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 371,
+          "title": "chore(tooling): fail empty except clauses in shipped scripts",
+          "state": "open",
+          "updated_at": "2026-11-05T15:57:36Z",
+          "url": "https://github.com/scenario-labs/skills/pull/371",
+          "type": "pull_request"
+        },
+        {
+          "number": 314,
+          "title": "feat(skills)!: version skills and release plugins through a stable branch",
+          "state": "open",
+          "updated_at": "2026-11-05T15:53:04Z",
+          "url": "https://github.com/scenario-labs/skills/pull/314",
+          "type": "pull_request"
+        },
+        {
+          "number": 342,
+          "title": "chore: release skills 0.61.0",
+          "state": "open",
+          "updated_at": "2026-11-05T15:46:55Z",
+          "url": "https://github.com/scenario-labs/skills/pull/342",
+          "type": "pull_request"
+        },
+        {
+          "number": 375,
+          "title": "chore(tooling): review the S110 waivers in the expert scripts",
+          "state": "open",
+          "updated_at": "2026-11-05T15:46:37Z",
+          "url": "https://github.com/scenario-labs/skills/issues/375",
+          "type": "issue"
+        },
+        {
+          "number": 368,
+          "title": "fix(skills): close the file handles skill scripts left open",
+          "state": "closed",
+          "updated_at": "2026-11-05T15:39:19Z",
+          "url": "https://github.com/scenario-labs/skills/pull/368",
+          "type": "pull_request"
+        }
+      ]
+    },
+    "ConardLi/garden-skills": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 42,
+          "title": "[web-design-engineer][beautiful-article] 建议：可选接入 Firecrawl，用于品牌素材采集和 URL 正文抓取",
+          "state": "open",
+          "updated_at": "2026-10-31T01:32:40Z",
+          "url": "https://github.com/ConardLi/garden-skills/issues/42",
+          "type": "issue"
+        },
+        {
+          "number": 37,
+          "title": "feat(web-video-presentation): portrait stages (--ratio), full-bleed recording pipeline, viz library, 3 themes",
+          "state": "open",
+          "updated_at": "2026-10-30T02:45:33Z",
+          "url": "https://github.com/ConardLi/garden-skills/pull/37",
+          "type": "pull_request"
+        },
+        {
+          "number": 41,
+          "title": "feat: add agent-qa application QA skill",
+          "state": "open",
+          "updated_at": "2026-10-25T15:59:02Z",
+          "url": "https://github.com/ConardLi/garden-skills/pull/41",
+          "type": "pull_request"
+        },
+        {
+          "number": 40,
+          "title": "Add experimental product-design-harness skill",
+          "state": "open",
+          "updated_at": "2026-10-23T20:40:13Z",
+          "url": "https://github.com/ConardLi/garden-skills/pull/40",
+          "type": "pull_request"
+        },
+        {
+          "number": 35,
+          "title": "docs: update stale four-skill count to match current collection",
+          "state": "open",
+          "updated_at": "2026-10-15T05:39:10Z",
+          "url": "https://github.com/ConardLi/garden-skills/pull/35",
+          "type": "pull_request"
+        }
+      ]
+    },
+    "vercel-labs/agent-browser": {
+      "status": "ok",
+      "recent_issue_or_pr_activity": [
+        {
+          "number": 2430,
+          "title": "fix(mcp): scope tool session under pinned server session",
+          "state": "open",
+          "updated_at": "2026-11-05T15:21:20Z",
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2430",
+          "type": "pull_request"
+        },
+        {
+          "number": 2427,
+          "title": "fix(cli): print page error text in errors output",
+          "state": "open",
+          "updated_at": "2026-11-05T13:51:19Z",
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2427",
+          "type": "pull_request"
+        },
+        {
+          "number": 2428,
+          "title": "fix(cli): label storage clear as storage, not the request log",
+          "state": "open",
+          "updated_at": "2026-11-05T13:50:55Z",
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2428",
+          "type": "pull_request"
+        },
+        {
+          "number": 2429,
+          "title": "fix(daemon): keep security settings across daemon restarts",
+          "state": "open",
+          "updated_at": "2026-11-05T13:50:41Z",
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2429",
+          "type": "pull_request"
+        },
+        {
+          "number": 2208,
+          "title": "feat(firefox): dashboard live view, bidi module and docs",
+          "state": "open",
+          "updated_at": "2026-11-05T13:50:21Z",
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2208",
+          "type": "pull_request"
+        }
+      ]
+    }
+  }
+}
