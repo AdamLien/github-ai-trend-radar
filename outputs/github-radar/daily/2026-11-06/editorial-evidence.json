@@ -1,0 +1,719 @@
+{
+  "observed_at": "2026-11-06T16:12:29.499804+00:00",
+  "repos": [
+    {
+      "repo": "NVIDIA/auto-ontology",
+      "issues": [
+        {
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/436",
+          "title": "Docs: fix SQLDatabase class docstring for dialect property and schemas parameter",
+          "state": "open",
+          "created_at": "2026-11-06T11:29:19Z",
+          "updated_at": "2026-11-06T13:11:56Z",
+          "comments": 2,
+          "pull_request": {
+            "url": "https://api.github.com/repos/NVIDIA/auto-ontology/pulls/436",
+            "html_url": "https://github.com/NVIDIA/auto-ontology/pull/436",
+            "diff_url": "https://github.com/NVIDIA/auto-ontology/pull/436.diff",
+            "patch_url": "https://github.com/NVIDIA/auto-ontology/pull/436.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/437",
+          "title": "fix: upgrade better-auth to 1.7.7 (CVE-2026-114607)",
+          "state": "open",
+          "created_at": "2026-11-06T13:04:10Z",
+          "updated_at": "2026-11-06T13:10:29Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/NVIDIA/auto-ontology/pulls/437",
+            "html_url": "https://github.com/NVIDIA/auto-ontology/pull/437",
+            "diff_url": "https://github.com/NVIDIA/auto-ontology/pull/437.diff",
+            "patch_url": "https://github.com/NVIDIA/auto-ontology/pull/437.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/NVIDIA/auto-ontology/issues/431",
+          "title": "[Integration]: Query Python repositories through DuckDB and model import",
+          "state": "open",
+          "created_at": "2026-11-05T20:49:22Z",
+          "updated_at": "2026-11-06T13:09:33Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/244",
+          "title": "Add install, ontology, and agent skills for partners and coding agents.",
+          "state": "closed",
+          "created_at": "2026-09-08T18:04:36Z",
+          "updated_at": "2026-11-06T12:54:18Z",
+          "comments": 2,
+          "pull_request": {
+            "url": "https://api.github.com/repos/NVIDIA/auto-ontology/pulls/244",
+            "html_url": "https://github.com/NVIDIA/auto-ontology/pull/244",
+            "diff_url": "https://github.com/NVIDIA/auto-ontology/pull/244.diff",
+            "patch_url": "https://github.com/NVIDIA/auto-ontology/pull/244.patch",
+            "merged_at": "2026-09-29T17:16:16Z"
+          }
+        },
+        {
+          "html_url": "https://github.com/NVIDIA/auto-ontology/issues/435",
+          "title": "[Integration]: Power BI semantic-model validation with swift-pbi and Apache Ossie",
+          "state": "open",
+          "created_at": "2026-11-06T08:35:31Z",
+          "updated_at": "2026-11-06T09:11:22Z",
+          "comments": 0,
+          "pull_request": null
+        }
+      ],
+      "release_error": "GitHub API 404 for https://api.github.com/repos/NVIDIA/auto-ontology/releases/latest: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}"
+    },
+    {
+      "repo": "google/skills",
+      "issues": [
+        {
+          "html_url": "https://github.com/google/skills/issues/218",
+          "title": "Security hardening: Genkit skills execute an unverified remote installer",
+          "state": "open",
+          "created_at": "2026-08-31T22:14:47Z",
+          "updated_at": "2026-11-05T19:39:02Z",
+          "comments": 1,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/google/skills/issues/241",
+          "title": "secops-detection-engineering: validate_yaral_rule.py rejects constant literals in outcome: when match: is present",
+          "state": "open",
+          "created_at": "2026-11-02T14:07:26Z",
+          "updated_at": "2026-11-05T19:38:35Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/google/skills/issues/240",
+          "title": "Link Checker Report",
+          "state": "open",
+          "created_at": "2026-10-26T22:57:59Z",
+          "updated_at": "2026-11-05T19:38:04Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/google/skills/issues/236",
+          "title": "DPoP adoption skill recommends deterministic `jti` values derived from authorization codes",
+          "state": "open",
+          "created_at": "2026-10-22T06:10:20Z",
+          "updated_at": "2026-11-05T19:37:36Z",
+          "comments": 1,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/google/skills/issues/224",
+          "title": "Feature request: adk-multi-agent-supervisor-patterns",
+          "state": "open",
+          "created_at": "2026-09-14T03:09:28Z",
+          "updated_at": "2026-11-05T19:37:15Z",
+          "comments": 1,
+          "pull_request": null
+        }
+      ],
+      "release_error": "GitHub API 404 for https://api.github.com/repos/google/skills/releases/latest: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "issues": [
+        {
+          "html_url": "https://github.com/mattpocock/skills/issues/1392",
+          "title": "teach: make quiz options clear and feedback question-specific",
+          "state": "open",
+          "created_at": "2026-11-06T14:46:59Z",
+          "updated_at": "2026-11-06T14:51:35Z",
+          "comments": 1,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/mattpocock/skills/issues/649",
+          "title": "Proposal: Add pacing guardrails & hybrid syntax highlighting to teach skill",
+          "state": "closed",
+          "created_at": "2026-07-23T12:34:29Z",
+          "updated_at": "2026-11-06T07:29:43Z",
+          "comments": 1,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/mattpocock/skills/issues/948",
+          "title": "grilling: hold on asking questions until any prep or exploration work is done",
+          "state": "open",
+          "created_at": "2026-08-24T12:55:29Z",
+          "updated_at": "2026-11-06T01:06:14Z",
+          "comments": 3,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/mattpocock/skills/issues/1245",
+          "title": "grilling: round asked while exploration runs gets rewritten when it reports",
+          "state": "open",
+          "created_at": "2026-10-10T04:31:15Z",
+          "updated_at": "2026-11-06T01:04:46Z",
+          "comments": 2,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/mattpocock/skills/issues/1345",
+          "title": "wizard: write_env quotes apostrophes as shell syntax that dotenv readers do not decode",
+          "state": "open",
+          "created_at": "2026-10-29T14:48:50Z",
+          "updated_at": "2026-11-05T18:57:22Z",
+          "comments": 2,
+          "pull_request": null
+        }
+      ],
+      "release": {
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.2",
+        "tag_name": "v1.3.2",
+        "published_at": "2026-10-29T10:27:41Z",
+        "body": "### Patch Changes\n\n- [#1194](https://github.com/mattpocock/skills/pull/1194) [`b645f47`](https://github.com/mattpocock/skills/commit/b645f47de3e17ed3bf60586c9bebb8092e0f79fd) Thanks [@mattpocock](https://github.com/mattpocock)! - `ask-matt` now reads a skill's `SKILL.md` before stating what it does or recommending a step be skipped, instead of trusting its own one-line summaries ([#614](https://github.com/mattpocock/skills/issues/614)).\n\n- [#1304](https://github.com/mattpocock/skills/pull/1304) [`5beb35b`](https://github.com/mattpocock/skills/commit/5beb35b040e3de97e54fa9e386d7e42d15c295c2) Thanks [@mattpocock](https://github.com/mattpocock)! - `chief-of-staff` now keeps its memory in an LLM wiki (an `index.md` plus one page per topic, maintained through ingest, query and lint) and writes it as a historical record: every claim is dated, and every claim about code cites the commit it was true at.\n\n- [#1208](https://github.com/mattpocock/skills/pull/1208) [`3da8c01`](https://github.com/mattpocock/skills/commit/3da8c01116264675eeefbd6e9d59c734de9095cc) Thanks [@mattpocock](https://github.com/mattpocock)! - `code-review` now searches the repo for standards files and always hands `CODING_STANDARDS.md` / `CONTRIBUTING.md` to the Standards sub-agent ([#1065](https://github.com/mattpocock/skills/issues/1065)), runs both sub-agents in the foreground and uses their returned reports ([#1073](https://github.com/mattpocock/skills/issues/1073)), and resolves the issue tracker through the provided tracker doc instead of a hard-coded path ([#937](https://github.com/mattpocock/skills/issues/937)).\n\n- [#1209](https://github.com/mattpocock/skills/pull/1209) [`f3fc563`](https://github.com/mattpocock/skills/commit/f3fc5632f401156837ee3872f14fe33ccf1024ea) Thanks [@mattpocock](https://github.com/mattpocock)! - `diagnosing-bugs` Phase 5 now has the agent `diff` a forced mutation against a pristine copy before trusting the red, so an edit that silently changed nothing can't pass as a failing test ([#955](https://github.com/mattpocock/skills/issues/955)).\n\n- [#1187](https://github.com/mattpocock/skills/pull/1187) [`e0efb6e`](https://github.com/mattpocock/skills/commit/e0efb6e7435ebb420d8a25d6816ed1ebaa2d23d2) Thanks [@mattpocock](https://github.com/mattpocock)! - Fixed the GitHub tracker template's external-PR listing, which failed on `authorAssociation` ([#468](https://github.com/mattpocock/skills/issues/468), thanks @lofi-coding). Re-run `/setup-matt-pocock-skills` to refresh `docs/agents/issue-tracker.md`.\n\n- [#1169](https://github.com/mattpocock/skills/pull/1169) [`59db609`](https://github.com/mattpocock/skills/commit/59db609eb1e18aaf59b63284d0e52255aff0c63c) Thanks [@mattpocock](https://github.com/mattpocock)! - The GitHub issue tracker template that `setup-matt-pocock-skills` writes now tells agents to file issues only into the user's own repo, never into `mattpocock/skills`, and to check the target repo before the first `gh issue create`. Agents working in a clone or fork of this repo had filed their specs and tickets here ([#541](https://github.com/mattpocock/skills/issues/541) to [#550](https://github.com/mattpocock/skills/issues/550)).\n\n- [#1193](https://github.com/mattpocock/skills/pull/1193) [`95249b0`](https://github.com/mattpocock/skills/commit/95249b0b49782349740fd9b8c6ce32b4e59e497a) Thanks [@mattpocock](https://github.com/mattpocock)! - `grilling` words each question so \"yes\" accepts the recommended answer, so agreeing never means answering \"no\" ([#706](https://github.com/mattpocock/skills/issues/706)).\n\n- [#1184](https://github.com/mattpocock/skills/pull/1184) [`4f4e943`](https://github.com/mattpocock/skills/commit/4f4e9433bbb7c4957ef33b1ea26686fb7c2a4cf4) Thanks [@mattpocock](https://github.com/mattpocock)! - `handoff` now names where the OS temp directory is (`$TMPDIR`, else `/tmp`; `%TEMP%` on Windows), so agents stop guessing ([#272](https://github.com/mattpocock/skills/issues/272)).\n\n- [#1189](https://github.com/mattpocock/skills/pull/1189) [`e48341a`](https://github.com/mattpocock/skills/commit/e48341a3d412cfeba4b9a79d3fd0331fc376ba82) Thanks [@mattpocock](https://github.com/mattpocock)! - `implement` now calls the Skill tool for `tdd` and `code-review` instead of bare `/skill` prose, matching [#878](https://github.com/mattpocock/skills/issues/878).\n\n- [#1196](https://github.com/mattpocock/skills/pull/1196) [`6d6a5b9`](https://github.com/mattpocock/skills/commit/6d6a5b9072f47ee7ba1d972d8ce0ee98b7ed4394) Thanks [@mattpocock](https://github.com/mattpocock)! - `implement` fetches a passed ticket reference from the issue tracker and states its title before starting, asking when the reference is ambiguous ([#700](https://github.com/mattpocock/skills/issues/700)).\n\n- [#1228](https://github.com/mattpocock/skills/pull/1228) [`ed0de59`](https://github.com/mattpocock/skills/commit/ed0de59eb5de8c2730a650cc69f588ffa64c1040) Thanks [@mattpocock](https://github.com/mattpocock)! - `setup-matt-pocock-skills` now wires up a git remote before writing a GitHub/GitLab tracker that nothing can reach ([#1201](https://github.com/mattpocock/skills/issues/1201)), and offers to `git mv` a legacy `CONTEXT.md` / `CONTEXT-MAP.md` to its `GLOSSARY` name ([#1176](https://github.com/mattpocock/skills/issues/1176)). The GitHub template comments before closing ([#873](https://github.com/mattpocock/skills/issues/873)), reads a PR's body as well as its comments ([#1138](https://github.com/mattpocock/skills/issues/1138)), moves **Blocking** into Conventions with the native `gh` flags ([#855](https://github.com/mattpocock/skills/issues/855)), and names the command that counts open blockers ([#1118](https://github.com/mattpocock/skills/issues/1118)). The GitLab template lists MRs with `-O json` and names the frontier query's command ([#1143](https://github.com/mattpocock/skills/issues/1143)). Re-run `/setup-matt-pocock-skills` to refresh `docs/agents/`.\n\n- [#1197](https://github.com/mattpocock/skills/pull/1197) [`5b7cade`](https://github.com/mattpocock/skills/commit/5b7cade4d68947f34dae71326a0ce89f09e22c9c) Thanks [@mattpocock](https://github.com/mattpocock)! - `setup-matt-pocock-skills` now creates missing triage labels on GitHub/GitLab ([#616](https://github.com/mattpocock/skills/issues/616)), fixes the GitLab template's `glab` commands ([#635](https://github.com/mattpocock/skills/issues/635)), reads GitHub issues with `--json` so labels and body come through ([#733](https://github.com/mattpocock/skills/issues/733)), and names the \"Label in our tracker\" column in `triage-labels.md` ([#801](https://github.com/mattpocock/skills/issues/801)). Re-run `/setup-matt-pocock-skills` to refresh `docs/agents/`.\n\n- [#1341](https://github.com/mattpocock/skills/pull/1341) [`7739eae`](https://github.com/mattpocock/skills/commit/7739eaed7f8f3915437a8def198a6d0d7206dbc7) Thanks [@mattpocock](https://github.com/mattpocock)! - Skills that dispatch subagents (`implement-spec`, `code-review`, `codebase-design`, `improve-codebase-architecture`, `wayfinder`, `research`, `grilling`, `chief-of-staff`) now say to start each one with a fresh context window rather than forking the current conversation, which some harnesses (Codex) do by default and which throws away the clean context a subagent exists for.\n\n- [#1192](https://github.com/mattpocock/skills/pull/1192) [`3f59913`](https://github.com/mattpocock/skills/commit/3f599139104dfceabc7754eeb91319802f85e042) Thanks [@mattpocock](https://github.com/mattpocock)! - `tdd` now gives each proposed seam a one-line note on what it catches and what it misses, so choosing between seams is no longer a guess ([#607](https://github.com/mattpocock/skills/issues/607)).\n\n- [#1183](https://github.com/mattpocock/skills/pull/1183) [`ad5400b`](https://github.com/mattpocock/skills/commit/ad5400b930b297b0c0cb231ff1ffe42a7da666aa) Thanks [@mattpocock](https://github.com/mattpocock)! - `teach` quizzes vary which position holds the correct answer ([#611](https://github.com/mattpocock/skills/issues/611)).\n\n- [#1183](https://github.com/mattpocock/skills/pull/1183) [`ad5400b`](https://github.com/mattpocock/skills/commit/ad5400b930b297b0c0cb231ff1ffe42a7da666aa) Thanks [@mattpocock](https://github.com/mattpocock)! - `teach` writes its workspace to the directory you ran it in, not the skill folder ([#377](https://github.com/mattpocock/skills/issues/377)).\n\n- [#1188](https://github.com/mattpocock/skills/pull/1188) [`cffab50`](https://github.com/mattpocock/skills/commit/cffab50350e3d96688f63f890f4d7ca0e6007cfe) Thanks [@mattpocock](https://github.com/mattpocock)! - `to-tickets` makes each ticket a sub-issue of its source issue (the GitHub tracker template now gives the command), and omits `## Blocked by` when blockers are native edges. Re-run `/setup-matt-pocock-skills` to refresh `docs/agents/issue-tracker.md`. Thanks @richardwhatever ([#554](https://github.com/mattpocock/skills/issues/554)) and @adamslowe ([#262](https://github.com/mattpocock/skills/issues/262)).\n\n- [#1181](https://github.com/mattpocock/skills/pull/1181) [`8295b8e`](https://github.com/mattpocock/skills/commit/8295b8e10d4cdb6cce772a56dda7b7c37075074d) Thanks [@mattpocock](https://github.com/mattpocock)! - `wayfinder` no longer labels maps or tickets `ready-for-agent` ([#518](https://github.com/mattpocock/skills/issues/518)), writes cross-references only with real issue ids ([#507](https://github.com/mattpocock/skills/issues/507)), opens no PR from research branches ([#576](https://github.com/mattpocock/skills/issues/576)), and resolves each ticket as the type its label names ([#625](https://github.com/mattpocock/skills/issues/625)). Thanks @jcwayne, @baob, @rynz and @sponge-b0b.\n\n- [#1237](https://github.com/mattpocock/skills/pull/1237) [`49dd158`](https://github.com/mattpocock/skills/commit/49dd158d1076134a641b33efb035946536778336) Thanks [@mattpocock](https://github.com/mattpocock)! - `wizard` template fixes: `_existing` decodes a double-quoted `.env` value, so Enter-keeps-current no longer stores the quotes ([#1220](https://github.com/mattpocock/skills/issues/1220)); stages run inside `run_wizard`, so editing the script mid-run can't kill it ([#1142](https://github.com/mattpocock/skills/issues/1142)); `_clear` falls back to ANSI when `tput clear` fails ([#1081](https://github.com/mattpocock/skills/issues/1081)); `write_env` sets the shell variable too ([#1041](https://github.com/mattpocock/skills/issues/1041)); drop the unused `RED` ([#1003](https://github.com/mattpocock/skills/issues/1003)).\n\n- [#1198](https://github.com/mattpocock/skills/pull/1198) [`868c4cf`](https://github.com/mattpocock/skills/commit/868c4cf20cb7e08bc805c388ff1f305dbedd261a) Thanks [@mattpocock](https://github.com/mattpocock)! - `wizard` template fixes: `ask` uses Readline so arrow keys move the cursor ([#741](https://github.com/mattpocock/skills/issues/741)); `write_env` single-quotes values so spaces, `#`, `$` and quotes survive `source` and dotenv ([#770](https://github.com/mattpocock/skills/issues/770)); `open_url` prints the open-it-yourself warning when no browser opener exists ([#774](https://github.com/mattpocock/skills/issues/774)); `write_env` writes through a symlinked `.env` and keeps an existing file's mode ([#811](https://github.com/mattpocock/skills/issues/811)); `ask` and `ask_secret` fail at EOF instead of looping ([#852](https://github.com/mattpocock/skills/issues/852))."
+      }
+    },
+    {
+      "repo": "cloudflare/security-audit-skill",
+      "issues": [
+        {
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/133",
+          "title": "Require wildcard audit coverage",
+          "state": "closed",
+          "created_at": "2026-11-05T01:01:33Z",
+          "updated_at": "2026-11-06T04:44:48Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/cloudflare/security-audit-skill/pulls/133",
+            "html_url": "https://github.com/cloudflare/security-audit-skill/pull/133",
+            "diff_url": "https://github.com/cloudflare/security-audit-skill/pull/133.diff",
+            "patch_url": "https://github.com/cloudflare/security-audit-skill/pull/133.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/135",
+          "title": "validate-coverage-ledger accepts an archived verifier's check; seven CLI tests fail where safe-open flags are missing",
+          "state": "open",
+          "created_at": "2026-11-06T02:23:06Z",
+          "updated_at": "2026-11-06T02:23:06Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/134",
+          "title": "Findings cite a file and a line but no bytes, so a made-up finding passes validation",
+          "state": "open",
+          "created_at": "2026-11-05T23:44:27Z",
+          "updated_at": "2026-11-05T23:47:54Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/122",
+          "title": "보안",
+          "state": "open",
+          "created_at": "2026-10-30T09:52:40Z",
+          "updated_at": "2026-11-05T19:39:28Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/130",
+          "title": "Deployment controls named in reconnaissance can skip the coverage ledger",
+          "state": "open",
+          "created_at": "2026-11-02T18:13:51Z",
+          "updated_at": "2026-11-05T19:39:15Z",
+          "comments": 2,
+          "pull_request": null
+        }
+      ],
+      "release_error": "GitHub API 404 for https://api.github.com/repos/cloudflare/security-audit-skill/releases/latest: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}"
+    },
+    {
+      "repo": "vercel-labs/agent-desktop",
+      "issues": [
+        {
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/443",
+          "title": "feat(macos): expose menu item shortcuts in snapshots",
+          "state": "open",
+          "created_at": "2026-11-01T11:43:25Z",
+          "updated_at": "2026-11-06T15:53:28Z",
+          "comments": 2,
+          "pull_request": {
+            "url": "https://api.github.com/repos/vercel-labs/agent-desktop/pulls/443",
+            "html_url": "https://github.com/vercel-labs/agent-desktop/pull/443",
+            "diff_url": "https://github.com/vercel-labs/agent-desktop/pull/443.diff",
+            "patch_url": "https://github.com/vercel-labs/agent-desktop/pull/443.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/455",
+          "title": "feat(macos): fall back to AXOpen when a menu item does not take AXPress",
+          "state": "open",
+          "created_at": "2026-11-01T14:05:46Z",
+          "updated_at": "2026-11-06T15:50:52Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/vercel-labs/agent-desktop/pulls/455",
+            "html_url": "https://github.com/vercel-labs/agent-desktop/pull/455",
+            "diff_url": "https://github.com/vercel-labs/agent-desktop/pull/455.diff",
+            "patch_url": "https://github.com/vercel-labs/agent-desktop/pull/455.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/591",
+          "title": "fix(wait): explain a missed event instead of a busy app",
+          "state": "open",
+          "created_at": "2026-11-06T09:35:58Z",
+          "updated_at": "2026-11-06T13:22:52Z",
+          "comments": 2,
+          "pull_request": {
+            "url": "https://api.github.com/repos/vercel-labs/agent-desktop/pulls/591",
+            "html_url": "https://github.com/vercel-labs/agent-desktop/pull/591",
+            "diff_url": "https://github.com/vercel-labs/agent-desktop/pull/591.diff",
+            "patch_url": "https://github.com/vercel-labs/agent-desktop/pull/591.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/590",
+          "title": "fix: keep the interaction lock out of a directory other accounts can create",
+          "state": "open",
+          "created_at": "2026-11-06T08:13:39Z",
+          "updated_at": "2026-11-06T08:14:02Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/vercel-labs/agent-desktop/pulls/590",
+            "html_url": "https://github.com/vercel-labs/agent-desktop/pull/590",
+            "diff_url": "https://github.com/vercel-labs/agent-desktop/pull/590.diff",
+            "patch_url": "https://github.com/vercel-labs/agent-desktop/pull/590.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/vercel-labs/agent-desktop/pull/589",
+          "title": "docs: say every local account can reach the --cdp port",
+          "state": "open",
+          "created_at": "2026-11-06T08:09:47Z",
+          "updated_at": "2026-11-06T08:10:28Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/vercel-labs/agent-desktop/pulls/589",
+            "html_url": "https://github.com/vercel-labs/agent-desktop/pull/589",
+            "diff_url": "https://github.com/vercel-labs/agent-desktop/pull/589.diff",
+            "patch_url": "https://github.com/vercel-labs/agent-desktop/pull/589.patch",
+            "merged_at": null
+          }
+        }
+      ],
+      "release": {
+        "html_url": "https://github.com/vercel-labs/agent-desktop/releases/tag/v1.2.0",
+        "tag_name": "v1.2.0",
+        "published_at": "2026-11-05T02:43:54Z",
+        "body": "## What's Changed\n* feat(macos): select list rows that only their container can select by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/503\n* fix(macos): draw the cursor overlay above menus and system panels by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/511\n* docs: simplify the README and repo docs by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/481\n* docs: document the homebrew-core install by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/524\n* feat: agent-desktop mcp by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/519\n* fix(macos): ignore exited apps in the workspace inventory by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/371\n* fix: preserve partial snapshots after observation expires by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/372\n* feat: accept stdin for text commands by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/373\n* fix: start the macos cursor overlay outside the caller's directory by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/381\n* chore: release 1.2.0 with mcp support by @lahfir in https://github.com/vercel-labs/agent-desktop/pull/568\n\n\n**Full Changelog**: https://github.com/vercel-labs/agent-desktop/compare/v1.1.0...v1.2.0"
+      }
+    },
+    {
+      "repo": "nashsu/llm_wiki",
+      "issues": [
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/846",
+          "title": "fix: generate long sources section by section",
+          "state": "open",
+          "created_at": "2026-11-03T20:59:35Z",
+          "updated_at": "2026-11-05T05:45:43Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/846",
+            "html_url": "https://github.com/nashsu/llm_wiki/pull/846",
+            "diff_url": "https://github.com/nashsu/llm_wiki/pull/846.diff",
+            "patch_url": "https://github.com/nashsu/llm_wiki/pull/846.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/847",
+          "title": "Linux: startup panic in libappindicator-sys when libayatana-appindicator3 is not installed",
+          "state": "open",
+          "created_at": "2026-11-04T13:09:04Z",
+          "updated_at": "2026-11-04T13:09:04Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/835",
+          "title": "feat: make side panels freely resizable",
+          "state": "open",
+          "created_at": "2026-11-03T02:52:13Z",
+          "updated_at": "2026-11-03T20:53:41Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/835",
+            "html_url": "https://github.com/nashsu/llm_wiki/pull/835",
+            "diff_url": "https://github.com/nashsu/llm_wiki/pull/835.diff",
+            "patch_url": "https://github.com/nashsu/llm_wiki/pull/835.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "created_at": "2026-11-03T14:21:12Z",
+          "updated_at": "2026-11-03T14:21:45Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/845",
+            "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+            "diff_url": "https://github.com/nashsu/llm_wiki/pull/845.diff",
+            "patch_url": "https://github.com/nashsu/llm_wiki/pull/845.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/841",
+          "title": "feat(search): add DeepSeek Search and research Fetch",
+          "state": "open",
+          "created_at": "2026-11-03T04:36:50Z",
+          "updated_at": "2026-11-03T05:07:43Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/841",
+            "html_url": "https://github.com/nashsu/llm_wiki/pull/841",
+            "diff_url": "https://github.com/nashsu/llm_wiki/pull/841.diff",
+            "patch_url": "https://github.com/nashsu/llm_wiki/pull/841.patch",
+            "merged_at": null
+          }
+        }
+      ],
+      "release": {
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.13",
+        "tag_name": "v0.6.13",
+        "published_at": "2026-10-22T01:21:07Z",
+        "body": "See the assets below for download links."
+      }
+    },
+    {
+      "repo": "SamurAIGPT/llm-wiki-agent",
+      "issues": [
+        {
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+          "title": "fix(health): decode percent-encoded index links",
+          "state": "open",
+          "created_at": "2026-10-20T12:40:51Z",
+          "updated_at": "2026-10-20T12:40:51Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/86",
+            "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+            "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86.diff",
+            "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "created_at": "2026-10-08T14:04:00Z",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/85",
+            "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+            "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85.diff",
+            "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "created_at": "2026-09-24T14:01:36Z",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/84",
+            "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+            "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84.diff",
+            "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "created_at": "2026-09-24T13:42:38Z",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "created_at": "2026-09-24T12:10:11Z",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/pulls/82",
+            "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+            "diff_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82.diff",
+            "patch_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82.patch",
+            "merged_at": null
+          }
+        }
+      ],
+      "release_error": "GitHub API 404 for https://api.github.com/repos/SamurAIGPT/llm-wiki-agent/releases/latest: {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}"
+    },
+    {
+      "repo": "DeusData/codebase-memory-mcp",
+      "issues": [
+        {
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/issues/2916",
+          "title": "Linux: CBM 0.12.1 exits before MCP initialization when Landlock denies reading /",
+          "state": "open",
+          "created_at": "2026-11-05T02:26:51Z",
+          "updated_at": "2026-11-06T15:40:50Z",
+          "comments": 1,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1725",
+          "title": "feat(index): enforce opt-in storage resource limits",
+          "state": "open",
+          "created_at": "2026-08-19T06:50:23Z",
+          "updated_at": "2026-11-06T11:47:46Z",
+          "comments": 4,
+          "pull_request": {
+            "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/1725",
+            "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1725",
+            "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1725.diff",
+            "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1725.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1728",
+          "title": "feat(mcp): warn on answers served from a failed rebuild",
+          "state": "open",
+          "created_at": "2026-08-19T06:50:39Z",
+          "updated_at": "2026-11-06T11:47:24Z",
+          "comments": 3,
+          "pull_request": {
+            "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/1728",
+            "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1728",
+            "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1728.diff",
+            "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1728.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1727",
+          "title": "feat(index): record and report the latest index attempt",
+          "state": "open",
+          "created_at": "2026-08-19T06:50:36Z",
+          "updated_at": "2026-11-06T11:47:20Z",
+          "comments": 3,
+          "pull_request": {
+            "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/1727",
+            "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1727",
+            "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1727.diff",
+            "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1727.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1726",
+          "title": "feat(index): add opt-in index resource profiles",
+          "state": "open",
+          "created_at": "2026-08-19T06:50:32Z",
+          "updated_at": "2026-11-06T11:47:16Z",
+          "comments": 4,
+          "pull_request": {
+            "url": "https://api.github.com/repos/DeusData/codebase-memory-mcp/pulls/1726",
+            "html_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1726",
+            "diff_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1726.diff",
+            "patch_url": "https://github.com/DeusData/codebase-memory-mcp/pull/1726.patch",
+            "merged_at": null
+          }
+        }
+      ],
+      "release": {
+        "html_url": "https://github.com/DeusData/codebase-memory-mcp/releases/tag/v0.12.1",
+        "tag_name": "v0.12.1",
+        "published_at": "2026-10-16T23:35:48Z",
+        "body": "# v0.12.1\n\n**Every install path works again, and Helm charts join the graph.**\n\nv0.12.1 fixes v0.12.0's package installs and the other install paths we found broken while checking every channel. It also links Helm charts to what they deploy, and stops the graph from inventing a registry for container images.\n\n> **Upgrading?** The first index of each existing project after the upgrade is a full rebuild, once (image identities changed; see below).\n\n## Fixed: installs\n\n- **npm, PyPI and Go installs.** `npm i`, `pnpm add`, `pip install` and the Go wrapper could not install v0.12.0 on any platform. Each wrapper refused an archive member above 256 MiB, and every v0.12.0 binary is 331-335 MB. The size limits are gone from all three wrappers. The archive is still verified against the release's `checksums.txt` before it is unpacked, its contents must be exactly the expected files, and the binary must answer `--version`. Thank you, @hydroplexus, for the precise report (#2657).\n- **Homebrew.** The formula was still at 0.10.3, and on Linux it installed the dynamically linked build, which needs glibc 2.38 (Ubuntu 22.04, Debian 12 and RHEL 9 do not have it). It now installs the current release, and on Linux the static `-portable` build that runs on any distribution.\n- **`go install`.** A pinned `go install .../pkg/go/cmd/codebase-memory-mcp@vX.Y.Z` never worked, and `@latest` installed a stale version. Releases now carry `pkg/go/vX.Y.Z` tags, and the wrapper installs the release matching its own version.\n- **npm `next`.** The `next` dist-tag no longer points to an old release candidate; a stable release moves it.\n- **Docs.** winget and Chocolatey were listed as install channels but are not published; they are removed until they are. Windows arm64 builds ship and are now listed.\n\n**Install-path smoke tests.** Every pull request and every release now installs the npm, PyPI and Go wrappers, the way a user's package manager does, against the real release archives, and runs the binary each one installed. A release is published only after these installs pass, so an installer that cannot install what we ship can no longer reach you.\n\n## Helm charts in the graph\n\nA Helm chart used to be an isolated node. Now it links to what it deploys (#2663):\n\n- **Chart → objects** (`DEPLOYS`, `via: chart`): every Kubernetes object rendered from the chart's `templates/` (a subchart's objects belong to the subchart).\n- **values file → Chart** (`CONFIGURES`): `values.yaml` and `values-<x>.yaml` beside `Chart.yaml`.\n- **Chart → images** (`DEPLOYS`, `ref: image`): every image its objects name literally (a templated image names none).\n\n`HelmRelease → Chart → Deployment → Image` is now one traversable path. On 20 infrastructure repositories, charts with no outgoing edge dropped from 238 of 260 to 109, and 2,511 chart-to-object links appeared; every other edge stayed identical.\n\n## Images keep the registry the code names\n\nAn image without a registry host used to be stored under an invented `docker.io/library/...` (#2654). Docker Hub is only Docker's default: Podman and CRI-O resolve short names through a search list, mirrors rewrite them, and a local build tag may exist on no registry at all. An image now keeps its name as written, with `registry: unknown` when no host is stated; a stated host is kept (Docker Hub's spellings become `docker.io`). `FROM nginx` and `image: docker.io/library/nginx` are now two Image nodes. This changes image identities, which is why each project is rebuilt once after the upgrade.\n\n## Upgrade notes\n\n- The first index of each existing project after the upgrade is a full rebuild, once.\n- Image nodes without a stated registry now carry `registry: unknown` and the name as written, instead of `docker.io/library/...`.\n\n<!-- cbm-security-verification:start -->\n## Security Verification\n\nEvery binary published below was scanned by VirusTotal before smoke and soak testing, and the verdict for the exact shipped bytes is linked per product (decisive engines: 61–69).\nEvery shipped binary was clean.\n\n| Product | Shipped binary | VirusTotal verdict |\n|---|---|---|\n| `linux-amd64` | `6761236d038de87bf49da5695dd52d7928180d814624d4ceb8d8e849ba07f4c8` | [clean](https://www.virustotal.com/gui/file/6761236d038de87bf49da5695dd52d7928180d814624d4ceb8d8e849ba07f4c8/detection) |\n| `linux-arm64` | `43a096f3655a9ea0606146da1dbd92aece344e24248e305fc007d239e3b891ae` | [clean](https://www.virustotal.com/gui/file/43a096f3655a9ea0606146da1dbd92aece344e24248e305fc007d239e3b891ae/detection) |\n| `linux-amd64-portable` | `77745491f0a9c346d6da23eed4d92b5feaa31a27a883c9faa4fa9f47c8183705` | [clean](https://www.virustotal.com/gui/file/77745491f0a9c346d6da23eed4d92b5feaa31a27a883c9faa4fa9f47c8183705/detection) |\n| `linux-arm64-portable` | `6a64e20e2ca8dc15b4a412e981e5aea60804ed3e952d693ab491c93ccd36ed45` | [clean](https://www.virustotal.com/gui/file/6a64e20e2ca8dc15b4a412e981e5aea60804ed3e952d693ab491c93ccd36ed45/detection) |\n| `darwin-amd64` | `f3ba4d7dd462be868eff85f0dccb7375405f58084da800826065df2312b028ab` | [clean](https://www.virustotal.com/gui/file/f3ba4d7dd462be868eff85f0dccb7375405f58084da800826065df2312b028ab/detection) |\n| `darwin-arm64` | `a36cfa1f5d10d8c4762501d63feef082711aae4704b9e8f9066db52779a8601e` | [clean](https://www.virustotal.com/gui/file/a36cfa1f5d10d8c4762501d63feef082711aae4704b9e8f9066db52779a8601e/detection) |\n| `windows-amd64` | `39f6a789cd858d7428561ac5afaefb9a47b018dcba0ad6fa41ae71a45e0ed656` | [clean](https://www.virustotal.com/gui/file/39f6a789cd858d7428561ac5afaefb9a47b018dcba0ad6fa41ae71a45e0ed656/detection) |\n| `windows-arm64` | `b19816bb88ef3145a0f4b81856665c67a684cc038e06ae696e76960277c67b41` | [clean](https://www.virustotal.com/gui/file/b19816bb88ef3145a0f4b81856665c67a684cc038e06ae696e76960277c67b41/detection) |\n\nSelection is tuple-local and defaults to stripped. The selected executable SHA-256 was verified again after packaging; archive containers were not redundantly submitted to VirusTotal. Their hashes remain available in `checksums.txt`.\n\nDurable evidence: [candidate provenance](https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.12.1/release-candidates.tsv), [candidate VirusTotal results](https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.12.1/virustotal-candidate-results.tsv), [selection decisions](https://github.com/DeusData/codebase-memory-mcp/releases/download/v0.12.1/release-selection.tsv).\n<!-- cbm-security-verification:end -->\n"
+      }
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "issues": [
+        {
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/567",
+          "title": "zensical.uk.yml",
+          "state": "open",
+          "created_at": "2026-11-06T10:08:04Z",
+          "updated_at": "2026-11-06T10:43:49Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/D4Vinci/Scrapling/pulls/567",
+            "html_url": "https://github.com/D4Vinci/Scrapling/pull/567",
+            "diff_url": "https://github.com/D4Vinci/Scrapling/pull/567.diff",
+            "patch_url": "https://github.com/D4Vinci/Scrapling/pull/567.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/556",
+          "title": "v0.5.1",
+          "state": "closed",
+          "created_at": "2026-11-04T20:19:14Z",
+          "updated_at": "2026-11-06T03:29:14Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/D4Vinci/Scrapling/pulls/556",
+            "html_url": "https://github.com/D4Vinci/Scrapling/pull/556",
+            "diff_url": "https://github.com/D4Vinci/Scrapling/pull/556.diff",
+            "patch_url": "https://github.com/D4Vinci/Scrapling/pull/556.patch",
+            "merged_at": "2026-11-04T20:28:59Z"
+          }
+        },
+        {
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/560",
+          "title": "fix(spiders): reject malformed URLs in matches",
+          "state": "open",
+          "created_at": "2026-11-05T04:53:07Z",
+          "updated_at": "2026-11-06T01:18:20Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/D4Vinci/Scrapling/pulls/560",
+            "html_url": "https://github.com/D4Vinci/Scrapling/pull/560",
+            "diff_url": "https://github.com/D4Vinci/Scrapling/pull/560.diff",
+            "patch_url": "https://github.com/D4Vinci/Scrapling/pull/560.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/565",
+          "title": "fix(spiders): gunzip template bodies by magic bytes only, not when Content-Type says gzip",
+          "state": "open",
+          "created_at": "2026-11-05T20:06:39Z",
+          "updated_at": "2026-11-05T20:06:39Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/D4Vinci/Scrapling/pulls/565",
+            "html_url": "https://github.com/D4Vinci/Scrapling/pull/565",
+            "diff_url": "https://github.com/D4Vinci/Scrapling/pull/565.diff",
+            "patch_url": "https://github.com/D4Vinci/Scrapling/pull/565.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/D4Vinci/Scrapling/pull/564",
+          "title": "fix(parser): resolve relative URLs against the document's <base href>",
+          "state": "open",
+          "created_at": "2026-11-05T18:12:03Z",
+          "updated_at": "2026-11-05T18:12:03Z",
+          "comments": 0,
+          "pull_request": {
+            "url": "https://api.github.com/repos/D4Vinci/Scrapling/pulls/564",
+            "html_url": "https://github.com/D4Vinci/Scrapling/pull/564",
+            "diff_url": "https://github.com/D4Vinci/Scrapling/pull/564.diff",
+            "patch_url": "https://github.com/D4Vinci/Scrapling/pull/564.patch",
+            "merged_at": null
+          }
+        }
+      ],
+      "release": {
+        "html_url": "https://github.com/D4Vinci/Scrapling/releases/tag/v0.5.1",
+        "tag_name": "v0.5.1",
+        "published_at": "2026-11-04T20:29:16Z",
+        "body": "**Small version bump, big browser upgrade! This version lets AI agents follow motion and control drag and drop, adds dedicated remote browser sessions, and brings fixes across parsing, spiders, proxies, and the shell 🚀**\r\n\r\n**With this update, we extend the limits of current AI models** 🔥 \r\n\r\n> [!NOTE]\r\n> **[Follow us on X for daily tips and tricks](https://x.com/Scrapling_dev)**\r\n\r\n> [!WARNING]\r\n> **This release introduces breaking changes to remote browser connections. Connecting to remote browsers now requires a new browser session class. Check the [remote-session migration guide](https://scrapling.readthedocs.io/en/latest/migrating-to-v0.5.html#move-cdp-connections-to-remote-sessions) before updating.**\r\n\r\n## 🚀 New Stuff and quality of life changes\r\n\r\n- **AI agents can now follow motion and take finer control of the mouse** (Check the [docs](https://scrapling.readthedocs.io/en/latest/ai/mcp-server.html)):\r\n\r\n    - **Watch the page in motion**: record a short video and share it as a sequence of frames with timestamps to help the agent understand animations, moving controls, and changes that a single screenshot can miss. Pair this with the existing ability to chain actions!\r\n    - **Drag, inspect, adjust, and drop**: hold a mouse button, move an item or slider, inspect the page while still holding it, then adjust and release. Supports left, right, and middle buttons.\r\n    - **Reuse a logged-in remote browser** or start with a separate browser context, so the agent can choose the right session for the job.\r\n    - **Spend fewer tokens on tool descriptions** with shorter text and less repeated guidance.\r\n\r\n- **Dedicated remote browser sessions with control over login reuse**. `RemoteSession` and `AsyncRemoteSession` connect to an existing Chromium browser through an HTTP or WebSocket CDP endpoint. They support the usual stealth session features, including Cloudflare solving. Both classes are also available in the interactive shell. (Check the [docs](https://scrapling.readthedocs.io/en/latest/fetching/stealthy.html#3-cdp-connection))\r\n\r\n    ```python\r\n    from scrapling.fetchers import RemoteSession\r\n\r\n    with RemoteSession(cdp_url=\"http://localhost:9222\", new_context=False) as session:\r\n        page = session.fetch(\"https://example.com\")\r\n    ```\r\n\r\n    - `new_context=False` reuses the browser's existing default context and login state. Its context settings stay in use, and its existing tabs remain open when Scrapling disconnects.\r\n    - The default, `new_context=True`, creates a separate context and closes it when the session ends. Scrapling uses its own tabs in either mode.\r\n\r\n- **Choose your spider's log file encoding** with `log_file_encoding=\"utf-8\"` or another encoding. The default, `None`, keeps Python's default encoding. (Check the [docs](https://scrapling.readthedocs.io/en/latest/spiders/advanced.html#logging))\r\n\r\n## 🐛 Bug Fixes\r\n\r\n- **XPath expressions now return their values correctly**, including `string()`, `count()`, and `boolean()`. Empty strings, zero, and false remain available through the usual selector API, by @jayhemnani9910 in [#552](https://github.com/D4Vinci/Scrapling/pull/552).\r\n- **Fixed parsing of HTML with no root element**, including whitespace-only, comment-only, and doctype-only input, by @rushilnimbalker250 in [#536](https://github.com/D4Vinci/Scrapling/pull/536).\r\n- **Fixed `find_similar(similarity_threshold=0)` when the reference has no attributes to compare**, by @Master-Norna in [#539](https://github.com/D4Vinci/Scrapling/pull/539).\r\n\r\n- **Fixed duplicate robots.txt fetches when concurrent requests reach the same domain**, by @RayenMlayeh in [#538](https://github.com/D4Vinci/Scrapling/pull/538).\r\n- **Fixed temporary-file collisions during concurrent development-cache writes**, by @xixihaha-ha in [#546](https://github.com/D4Vinci/Scrapling/pull/546).\r\n- **Malformed links no longer stop extraction of valid links on the same page**, by @dajiaohuang in [#548](https://github.com/D4Vinci/Scrapling/pull/548).\r\n- **Fixed CSV feeds that use carriage returns as row separators**, while preserving line breaks inside quoted fields, by @xunguangzlj-cloud in [#551](https://github.com/D4Vinci/Scrapling/pull/551).\r\n- **Truncated or damaged gzip feeds now follow the normal warning-and-skip path** in sitemap, XML-feed, and CSV-feed spiders, by @cangen185-sudo in [#522](https://github.com/D4Vinci/Scrapling/pull/522).\r\n\r\n- **Fixed browser proxy authentication with percent-encoded usernames and passwords**, by @kevin9327 in [#545](https://github.com/D4Vinci/Scrapling/pull/545).\r\n- **Improved browser cleanup when session setup or context closing fails**, releasing owned resources while keeping borrowed remote contexts open.\r\n- **Stopped shell and HTTP CLI cookie parsing from dropping browser cookie values with spaces or quotes**, including the cookies that follow them, by @waw666waw666 in [#541](https://github.com/D4Vinci/Scrapling/pull/541). Fixes [#540](https://github.com/D4Vinci/Scrapling/issues/540).\r\n- **Curl conversion now accepts `-L` and `--location`**, keeping the existing redirect behavior, by @jayhemnani9910 in [#554](https://github.com/D4Vinci/Scrapling/pull/554).\r\n- **Fixed `scrapling extract fetch --ai-targeted` not enabling ad blocking as documented**, by @postoso in [#527](https://github.com/D4Vinci/Scrapling/pull/527).\r\n\r\n_🙏 Special thanks to the community for all the continuous testing and feedback_\r\n\r\n---\r\n\r\n### Big shoutout to our Platinum Sponsors\r\n\r\n<div style=\"text-align: center;\">\r\n  <a href=\"https://go.nodemaven.com/scraplingoctober\" target=\"_blank\" title=\"Proxies with the Highest IP Scores\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/NodeMaven.jpg\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://hypersolutions.co/?utm_source=github&utm_medium=readme&utm_campaign=scrapling\" target=\"_blank\" title=\"Bot Protection Bypass API for Akamai, DataDome, Incapsula & Kasada\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/HyperSolutions.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://evomi.com?utm_source=github&utm_medium=banner&utm_campaign=d4vinci-scrapling\" target=\"_blank\" title=\"Evomi is your Swiss Quality Proxy Provider, starting at $0.49/GB\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/evomi.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://tikhub.io/?utm_source=github.com/D4Vinci/Scrapling&utm_medium=marketing_social&utm_campaign=retargeting&utm_content=carousel_ad\" target=\"_blank\" title=\"Unlock the Power of Social Media Data & AI\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/TikHub.jpg\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://substack.thewebscraping.club/p/scrapling-hands-on-guide?utm_source=github&utm_medium=repo&utm_campaign=scrapling\" target=\"_blank\" title=\"The #1 newsletter dedicated to Web Scraping\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/TWSC.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://www.swiftproxy.net/?ref=D4Vinci\" target=\"_blank\" title=\"Scalable Solutions for Web Data Access\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/SwiftProxy.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://byteful.com/?utm_source=github&utm_medium=github-sponsor&utm_campaign=scrapling_github_sponsor\" target=\"_blank\" title=\"Ethically sourced residential proxy infrastructure powering web scraping and AI agents\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/byteful.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://proxylane.dev/scrapling?utm_source=scrapling&utm_medium=affiliate&utm_campaign=scrapling_platinum_202609&utm_content=github_readme\" target=\"_blank\" title=\"90% fewer CAPTCHAs on your Scrapling runs.\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/proxylane.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://www.lundproxy.com/unlimited-residential-bandwidth.html?utm_source=github&utm_medium=sponsorship&utm_campaign=scrapling&utm_content=banner\" target=\"_blank\" title=\"Unlimited residential traffic, sized only by bandwidth.\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/lundproxy.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://resolvr.com/?ref=scrapling\" target=\"_blank\" title=\"Captcha and Browser challenges, solved on real devices loading the page.\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/resolvr.jpg\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://nonecap.com/solutions/scrapling/?ref=scrapling\" target=\"_blank\" title=\"hCaptcha solver as an API.\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/Nonecap.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n  <a href=\"https://dataimpulse.com/?utm_source=website&utm_medium=github_readme&utm_campaign=scrapling_platinum\" target=\"_blank\" title=\"Buy Pay-as-you-go proxies from $1/GB\">\r\n    <img src=\"https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/DataImpulse_Platinum.png\" width=\"240\" height=\"100\">\r\n  </a>\r\n</div>"
+      }
+    },
+    {
+      "repo": "garrytan/gstack",
+      "issues": [
+        {
+          "html_url": "https://github.com/garrytan/gstack/pull/4080",
+          "title": "ship-policy: refuse a floor above stable; doctor floor row uses runningGstackVersion (GST-1637)",
+          "state": "open",
+          "created_at": "2026-11-06T15:23:25Z",
+          "updated_at": "2026-11-06T16:11:18Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/garrytan/gstack/pulls/4080",
+            "html_url": "https://github.com/garrytan/gstack/pull/4080",
+            "diff_url": "https://github.com/garrytan/gstack/pull/4080.diff",
+            "patch_url": "https://github.com/garrytan/gstack/pull/4080.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/garrytan/gstack/pull/4085",
+          "title": "free-ci-health: a split shard's overrun compares wall time with its prediction over jobs (GST-1653)",
+          "state": "open",
+          "created_at": "2026-11-06T16:11:11Z",
+          "updated_at": "2026-11-06T16:11:17Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/garrytan/gstack/pulls/4085",
+            "html_url": "https://github.com/garrytan/gstack/pull/4085",
+            "diff_url": "https://github.com/garrytan/gstack/pull/4085.diff",
+            "patch_url": "https://github.com/garrytan/gstack/pull/4085.patch",
+            "merged_at": null
+          }
+        },
+        {
+          "html_url": "https://github.com/garrytan/gstack/issues/4084",
+          "title": "env.kv flags TLS key filesystem references as credential contents",
+          "state": "open",
+          "created_at": "2026-11-06T16:09:26Z",
+          "updated_at": "2026-11-06T16:09:26Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/garrytan/gstack/issues/3721",
+          "title": "Deferred review finding: lib/gate-diff/tags.ts:64 — SUPPRESSION_IDIOMS matches eslint-disable but not oxlint-disable, so",
+          "state": "closed",
+          "created_at": "2026-10-31T18:41:33Z",
+          "updated_at": "2026-11-06T16:07:55Z",
+          "comments": 0,
+          "pull_request": null
+        },
+        {
+          "html_url": "https://github.com/garrytan/gstack/pull/4083",
+          "title": "release: daily stable check: important gated changes reach stable within a day, forced cut at 7 days (GST-1646, R74)",
+          "state": "open",
+          "created_at": "2026-11-06T16:01:12Z",
+          "updated_at": "2026-11-06T16:06:42Z",
+          "comments": 1,
+          "pull_request": {
+            "url": "https://api.github.com/repos/garrytan/gstack/pulls/4083",
+            "html_url": "https://github.com/garrytan/gstack/pull/4083",
+            "diff_url": "https://github.com/garrytan/gstack/pull/4083.diff",
+            "patch_url": "https://github.com/garrytan/gstack/pull/4083.patch",
+            "merged_at": null
+          }
+        }
+      ],
+      "release": {
+        "html_url": "https://github.com/garrytan/gstack/releases/tag/v1.96.0.0",
+        "tag_name": "v1.96.0.0",
+        "published_at": "2026-11-05T14:05:48Z",
+        "body": "## gstack v1.96.0.0 (regular release)\n\n123 versions since v1.92.55.0, one line each. [Compare](https://github.com/garrytan/gstack/compare/v1.92.55.0...v1.96.0.0) or read the [full changelog](https://github.com/garrytan/gstack/blob/v1.96.0.0/CHANGELOG.md).\n\nTeam-mode installs follow the stable branch, which now points here; gstack-config set update_channel main follows every merge instead ([docs/releases.md](https://github.com/garrytan/gstack/blob/v1.96.0.0/docs/releases.md)).\n- **1.96.0.0** (2026-11-05): Claude Code and Cursor no longer start /land-and-deploy or /modernize on their own. Type `/land-and-deploy` or `/modernize` to run them; a request in plain words like \"land it\" now gets a pointer to the command instead of a mistaken merge or rewrite of an old branch. Both skills already stopped for your approval before merging or pushing, so this removes surprise rather than a missing safeguard. /ship, /careful, /freeze, /guard and /unfreeze still start from plain words like \"ship it\". gstack's router and the CLAUDE.md routing block now tell the model to point you to these two commands instead of invoking them. Under the hood, a new `manual_only: true` template flag maps to `disable-model-invocation: true` on the Claude and Cursor hosts, and host `conditionalFields` now work in denylist mode too.\n- **1.95.5.0** (2026-11-04): see CHANGELOG.md\n- **1.95.4.0** (2026-11-04): see CHANGELOG.md\n- **1.95.3.0** (2026-11-04): A crew thread no longer creates threads itself. It asks its Captain, so every new thread joins a crew from the start (R68). docs/captain.md also warns that `tools.capy.read` returns a cut-down view of long files.\n- **1.95.2.0** (2026-11-04): see CHANGELOG.md\n- **1.95.1.0** (2026-11-04): /ship's review depth now follows what the code does, not what a file is named (GST-1177).\n- **1.95.0.0** (2026-11-03): see CHANGELOG.md\n- **1.94.44.0** (2026-11-03): see CHANGELOG.md\n- **1.94.43.0** (2026-11-03): see CHANGELOG.md\n- **1.94.42.0** (2026-11-03): see CHANGELOG.md\n- **1.94.41.0** (2026-11-03): /ship's receipt counts its review findings by id, keeps every run, and a small change after review gets one reader instead of a second /ship (GSTA-258 L4; GST-1136, GST-1168, GST-1179).\n- **1.94.40.0** (2026-11-03): see CHANGELOG.md\n- **1.94.39.0** (2026-11-03): A base merge next to a reviewed hunk no longer forces a second full review because of the base's own lines.\n- **1.94.38.0** (2026-11-03): see CHANGELOG.md\n- **1.94.37.0** (2026-11-03): see CHANGELOG.md\n- **1.94.36.0** (2026-11-03): Fixes to the contract checker (GST-1242). An `agent_dispatch` item with a `marker:` used to count as met once the marker line was printed and any Agent call followed it, even an unrelated one. A contract that gives `agent_dispatch` a `marker` is now rejected as invalid until the checker can bind a marker to the dispatch it names, and the item is met only by an Agent dispatch that matches its `match`. No shipped contract used a marker there. The Stop hook's block message and `gstack-skill-contract check` now name the waive command by the full path of the installed `gstack-skill-contract`, because a standard install does not put the bare name on PATH and the old hint failed with exit 127. /review's calibration note now points at the preamble's Operational Self-Improvement rule, which carries the logging command, instead of a section a skill diet may remove.\n- **1.94.35.0** (2026-11-03): /investigate's and /review's \"Done means\" list now runs the contract checker through gstack's own bin path (GST-1088 lane B follow-up).\n- **1.94.34.0** (2026-11-03): see CHANGELOG.md\n- **1.94.33.0** (2026-11-03): Follow-ups to the skill routing and contract hooks (GST-1088). `gstack-ship-queue ready` no longer misreads files a PR adds as deleted when the installed gstack is older than the checkout: the paid-case selector now derives dependencies from the checkout under review. Each of the two hook switches now has one default, `SWITCH_DEFAULT` in `lib/skill-route.ts` (both still off), which setup, both hooks, `gstack-config get|list|defaults` and the new `gstack-skill-route --default <switch>` all read, so changing a default is a one-line edit; `gstack-config list` and `defaults` now show both switches, an unrecognized value takes the default in the hooks as it already did in setup, and a config file that exists but cannot be read turns both hooks off in setup and in the hooks whatever the default. The contract checker no longer counts installs, builds or version probes (`bun install`, `go build`, `node --version`, `make clean`) as a test run after an edit, while option values (`make -C web test`, `pnpm --filter app test`) and `node --test` still count, and the Stop hook lets a final stop through while Agent dispatches are still running, recording the run as `deferred`, then checks the contract once the same agents have been running for 10 minutes; `gstack-skill-contract report` re-checks deferred runs.\n- **1.94.32.0** (2026-11-03): see CHANGELOG.md\n- **1.94.31.0** (2026-11-03): gstack's browser now runs Chromium 156, which fixes CVE-2026-106378, a macOS sandbox escape ([#3907](https://github.com/garrytan/gstack/issues/3907)).\n- **1.94.30.0** (2026-11-03): /ship sends more diffs to full review: spend-binding code, eval scorers, a repo's own risk paths and docs that print secrets now count as risk, and a lane can declare a class the matchers miss (GSTA-258 build C).\n- **1.94.29.0** (2026-11-03): Every part of gstack now has to earn its place.\n- **1.94.28.0** (2026-11-03): `gstack-ship-preflight --timeout` reaches Step 5's pregate (GST-1196).\n- **1.94.27.0** (2026-11-03): On main, all five new tests fail.\n- **1.94.26.0** (2026-11-03): see CHANGELOG.md\n- **1.94.25.0** (2026-11-03): see CHANGELOG.md\n- **1.94.24.0** (2026-11-03): see CHANGELOG.md\n- **1.94.23.0** (2026-11-03): Two `gstack-pregate` preflight false positives fixed (GST-1211).\n- **1.94.22.0** (2026-11-03): /investigate, /review, /qa and /verify now say when to use them, and /investigate and /review declare what \"done\" means (GST-1088 lane B).\n- **1.94.21.0** (2026-11-03): see CHANGELOG.md\n- **1.94.20.0** (2026-11-03): see CHANGELOG.md\n- **1.94.19.0** (2026-11-03): see CHANGELOG.md\n- **1.94.18.0** (2026-11-03): The Windows-safe test subset is green again on current main.\n- **1.94.17.0** (2026-11-03): see CHANGELOG.md\n- **1.94.16.0** (2026-11-03): A declared placeholder restamped to the new version is a stamp, and a carried receipt names the head's version (GST-1026, GST-1030).\n- **1.94.15.0** (2026-11-03): see CHANGELOG.md\n- **1.94.14.0** (2026-11-03): `review_exclude_paths` keeps code it used to exclude, and the docs say exactly what the receipt check stops (GST-972).\n- **1.94.13.0** (2026-11-03): see CHANGELOG.md\n- **1.94.12.0** (2026-11-03): see CHANGELOG.md\n- **1.94.11.0** (2026-11-03): A granted fix-check's clean read now counts at Step 16.\n- **1.94.10.0** (2026-11-03): Windows checks now run by path.\n- **1.94.9.0** (2026-11-03): A pull request can clear its remote gate obligation from a run with named flaky failures, once the owner grants it (GST-1096).\n- **1.94.8.0** (2026-11-03): `gstack-approvals render` no longer puts the owner's exact words, autoplan run ids or plan hashes into PR bodies on public repositories (GST-1160).\n- **1.94.7.0** (2026-11-03): see CHANGELOG.md\n- **1.94.6.0** (2026-11-03): Two opt-in Claude Code hooks so a model actually runs gstack's skills, both off by default (GST-1088). `./setup --skill-routing` adds a UserPromptSubmit hook that names the gstack skill a prompt fits, scored against each installed skill's `triggers:` with no model call. `./setup --skill-contracts` adds a Stop hook that blocks once when a skill with a `contract:` block ends without its required outputs (a report with real values, a test after the last edit, the specialist and adversarial dispatches). `gstack-skill-route --explain` shows how a prompt scores; `gstack-skill-contract check|report|waive` checks a transcript, lists misses and acknowledges a waiver. Turn either off with `gstack-config set skill_routing off` or `gstack-config set skill_contracts off`. Docs: docs/skill-routing-and-contracts.md.\n- **1.94.5.0** (2026-11-03): Security: the lean /autoplan reviewer no longer gets `.envrc`, `.env-production` or a key pasted into an ordinary file (GST-1164, #3914).\n- **1.94.4.0** (2026-11-03): see CHANGELOG.md\n- **1.94.3.0** (2026-11-03): `gstack-ship-preflight` no longer trusts a local `origin/HEAD` when origin can't say its default branch.\n- **1.94.2.0** (2026-11-03): see CHANGELOG.md\n- **1.94.1.0** (2026-11-03): see CHANGELOG.md\n- **1.94.0.0** (2026-11-03): see CHANGELOG.md\n- **1.93.42.0** (2026-11-03): The stamp checks name the branch's lines by position, and the carry and finish accept a kept VERSION claim (GST-979, GST-980).\n- **1.93.41.0** (2026-11-03): Codex outside reviews report their token usage (#2948).\n- **1.93.40.0** (2026-11-03): see CHANGELOG.md\n- **1.93.39.0** (2026-11-03): /ship on Capy stops an outside voice that hangs and records it as missing, never as converged or as an unavailable Codex CLI (GST-1104).\n- **1.93.38.0** (2026-11-03): see CHANGELOG.md\n- **1.93.37.0** (2026-11-03): Eval planning prices Claude Haiku 5.5, GPT-6 Luna and Gemini 4 Argon, and the Codex docs name the current OpenAI tiers (#3640, #2943).\n- **1.93.36.0** (2026-11-03): see CHANGELOG.md\n- **1.93.35.0** (2026-11-03): pregate no longer kills a quiet test suite that is busy working.\n- **1.93.34.0** (2026-11-03): The docsync fault-callback replays and the runShadow deadline test stop failing on loaded remote pregate VMs.\n- **1.93.33.0** (2026-11-03): The /ship receipt now carries the targeted reader's record.\n- **1.93.32.0** (2026-11-03): see CHANGELOG.md\n- **1.93.31.0** (2026-11-03): A CSO hardening test now fails at the Git step that broke instead of passing without testing anything.\n- **1.93.30.0** (2026-11-03): `browse` starts again when proxy credentials come from `BROWSE_PROXY_USER` and `BROWSE_PROXY_PASS`.\n- **1.93.29.0** (2026-11-03): A `gbrain serve --http` on this machine's loopback address now counts as a local brain, so transcripts get imported again.\n- **1.93.28.0** (2026-11-03): `test/cso-snapshot-state.test.ts` no longer hangs when a paused contender is resumed too early.\n- **1.93.27.0** (2026-11-02): A test can keep an old value on purpose without turning off `literals` (#3490).\n- **1.93.26.0** (2026-11-02): Editing the GBrain setup guide no longer runs every paid eval case on a PR screen.\n- **1.93.25.0** (2026-11-02): /setup-browser-cookies now warns that the fallback browser still trusts the compromised eMudhra intermediates (#3338).\n- **1.93.24.0** (2026-11-02): The /ship workflow judge loses the contradiction it cited in every recorded red sample.\n- **1.93.23.0** (2026-11-02): Four tests from the 2026-11-02 flaky pass stop failing correct runs, and one more names its cause when it fails.\n- **1.93.22.0** (2026-11-02): see CHANGELOG.md\n- **1.93.21.0** (2026-11-02): /ship's finding collector lets the native reviewer's own Severity field decide outside gate and risk reviews.\n- **1.93.20.0** (2026-11-02): see CHANGELOG.md\n- **1.93.19.0** (2026-11-02): `gstack-ship-receipt read --check-prose` no longer reads the Documentation exception line or code fences as counter claims (GST-983, GST-984).\n- **1.93.18.0** (2026-11-02): A green Free Tests run at the pregate tree now clears gstack's remote gate, so a slow Ubicloud VM no longer blocks a PR whose CI already passed (GST-1024).\n- **1.93.17.0** (2026-11-02): see CHANGELOG.md\n- **1.93.16.0** (2026-11-02): see CHANGELOG.md\n- **1.93.15.0** (2026-11-02): Pregate stops blaming a clean branch for a missing pytest, Playwright specs and mixed-language root tests, and the literals check stops flagging stray digits (#3598, #3492, gstack-evals#97).\n- **1.93.14.0** (2026-11-02): Free Tests no longer goes red with no named file when one test hangs. Each `free-suite` job's GitHub timeout used to be a fixed 20 minutes, shorter than the runner's own wall for a 10-shard plan (about 37 minutes), so GitHub killed the job before the runner could name the hung file or retry it, and no shard result was uploaded. The plan now emits each shard's job timeout as its runner wall plus the flaky-retry pass plus the job's measured setup (`--ci-plan --job-setup-seconds`), 49 minutes per shard today, and fails loudly above 90 minutes instead of truncating. See docs/TESTING_INTERNALS.md#runners-how-the-suites-execute-2026-08-overhaul. Closes #3850.\n- **1.93.13.0** (2026-11-02): gstack's own tests no longer write into a developer's real gbrain.\n- **1.93.12.0** (2026-11-02): The Opus 5.5 `lite` skills now keep the install's gbrain blocks, disabled skills and the Claims Need Evidence rule (GST-944).\n- **1.93.11.0** (2026-11-02): Capy sessions get their model's loadout again without a sentence in the skill (GST-982).\n- **1.93.10.0** (2026-11-02): A test that keeps flaking while someone fixes it can be quarantined instead of skipped, and it still can't turn a red run green.\n- **1.93.9.0** (2026-11-02): `gstack-ship-receipt read --check-prose` no longer reads the required Review-loop exception line as counter claims (GST-977).\n- **1.93.8.0** (2026-11-02): /ship now runs Step 11's voices before any gate-class stop, and a recorded owner grant runs its fix-check.\n- **1.93.7.0** (2026-11-02): A version stamp the branch added at its fork point's version now counts as stale after the base moves (GST-963).\n- **1.93.6.0** (2026-11-02): /plan-tune now learns from answers to questions that aren't in its registry, when the skill says which preference the question is about (#3442).\n- **1.93.5.0** (2026-11-02): The weekly OSV scan is clean again: qs and @hono/node-server are pinned past two Medium advisories (#3843).\n- **1.93.4.0** (2026-11-02): /ship's finding collector reads severity from a finding's own Severity field, so a severity word in the finding's text no longer raises it.\n- **1.93.3.0** (2026-11-02): The queue now refuses a head whose required targeted review is missing or failed (GST-966).\n- **1.93.2.0** (2026-11-02): Native cookie import now waits for its browser to actually exit before it reports cleanup, and three more flaky tests from the 2026-11-01 flaky pass are repaired.\n- **1.93.1.0** (2026-11-02): see CHANGELOG.md\n- **1.93.0.0** (2026-11-02): `gstack-clean` reclaims the throwaway files that pile up in a repository's `.gstack/` folder, and changes nothing unless you pass `--apply`\n- **1.92.83.0** (2026-11-02): The sealed guard no longer rescans commits the destination already holds, so a stacked branch retargeted after its parent squash-landed stops being refused for the parent's history.\n- **1.92.82.0** (2026-11-02): `gstack-review-dispatch verify` now catches a merged findings file edited after collect.\n- **1.92.81.0** (2026-11-02): `gstack-ship-release finish` now accepts the owner's edit after a fix-check instead of asking for another review round (GST-965).\n- **1.92.80.0** (2026-11-02): On a Capy machine, the git fixture tests no longer fail locally because of Capy's git shim log.\n- **1.92.79.0** (2026-11-02): /plan-tune no longer reports a mismatch between your stated and observed preferences when it has no observed answers behind it (#3436).\n- **1.92.78.0** (2026-11-02): Seven flaky tests from the 2026-11-01 flaky pass stop failing correct runs, and six more now name their cause when they fail.\n- **1.92.77.0** (2026-11-02): The weekly marathon evals can run /design-motion again: the CI eval image now ships ffmpeg (#3687).\n- **1.92.76.0** (2026-11-02): /retro now remembers its history across git worktrees, so a run in a linked worktree compares against last week instead of announcing \"First retro recorded\".\n- **1.92.75.0** (2026-11-02): see CHANGELOG.md\n- **1.92.74.0** (2026-11-02): see CHANGELOG.md\n- **1.92.73.0** (2026-11-02): see CHANGELOG.md\n- **1.92.72.0** (2026-11-02): The sealed guard can now refuse a published record that puts a label next to an identifier.\n- **1.92.71.0** (2026-11-02): Four free-suite waits now end when the thing they wait for happens: the six files involved spend 18–29 s less in summed per-file runtime, with every assertion intact.\n- **1.92.70.0** (2026-11-02): Five free-test files stop rebuilding the same git repositories for every test: they spend 17–24 s less in summed per-file runtime, with every assertion intact.\n- **1.92.69.0** (2026-11-02): Background `--derive` runs no longer drop /office-hours sessions or fail with ENOENT when they overlap (#3437).\n- **1.92.68.0** (2026-11-02): `/health` now finds its tools with gstack's detector, the same one `/verify` uses, and a test proves it still finds every check it found before.\n- **1.92.67.0** (2026-11-02): `./setup` no longer starts a handful of processes per skill just to read its name (#2120).\n- **1.92.66.0** (2026-11-02): The secrets check reads Python and Dart string context from what git diffed, and a quote inside an interpolation no longer ends a string (GST-738).\n- **1.92.65.0** (2026-11-02): see CHANGELOG.md\n- **1.92.64.0** (2026-11-02): /ship's Step 11 outside voice now defaults to the model it was tested with, and a same-family outside voice is refused.\n- **1.92.63.0** (2026-11-02): A slot restamp after the docs audit no longer stops `finish` with `DOCS: stale (CHANGELOG.md)` (GST-906).\n- **1.92.62.0** (2026-11-02): see CHANGELOG.md\n- **1.92.61.0** (2026-11-02): see CHANGELOG.md\n- **1.92.60.0** (2026-11-02): Free test shards can now run their files as several sub-shards side by side inside one CI job. `bun run scripts/test-free-shards.ts --ci-run <plan> --shard <i> --result <file> --jobs <k>` splits the shard into k parts that each run in their own sandboxed `bun test` process. The default stays at 1, so CI runs exactly as before until a workflow opts in. Bad `--jobs` values stop with `FREE_JOBS_INVALID`, a sub-shard that runs out of time prints `FREE_SUBSHARD_TIMEOUT` with a serial reproduce command, and every CI shard result now records per-file test and `expect()` counts. See docs/TESTING_INTERNALS.md#sub-shards-inside-one-ci-job.\n- **1.92.59.0** (2026-11-02): `test:health` and the factory scorecard leave reused main pushes out of their free-suite flake counts (#3725).\n- **1.92.58.0** (2026-11-02): A parent agent can now run the CEO-only review through the driver: `gstack-autoplan next --ceo-only` (GST-537).\n- **1.92.57.0** (2026-11-02): Hermes can start gstack skills again (GST-882).\n- **1.92.56.0** (2026-11-02): `gstack-ship-receipt write` records the session kind on Windows.\n"
+      }
+    }
+  ]
+}

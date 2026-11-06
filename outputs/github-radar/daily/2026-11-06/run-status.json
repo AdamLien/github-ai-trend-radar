@@ -1,0 +1,96 @@
+{
+  "target_date": "2026-11-06",
+  "observed_at": "2026-11-06T16:22:48.791282+00:00",
+  "limit": 10,
+  "rate_limit_status": "No observed rate-limit errors; limit-5 retry not triggered",
+  "excluded": [
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "遊戲 trainer／預啟用安裝器，AI 關聯證據不足，且本次 404"
+    },
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，無直接 AI 或自動化用途證據"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理工具"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般金融行情平台"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般圖像創作工具，未確認 AI 用途"
+    },
+    {
+      "repo": "block/buzz",
+      "reason": "通訊平台，現有描述不足以確認 AI 用途"
+    },
+    {
+      "repo": "cactus-compute/needle",
+      "reason": "僅有搬遷說明，無法確認目前用途"
+    },
+    {
+      "repo": "jessefreitas/OmniCompress",
+      "reason": "描述與用途證據不足"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "一般 service mesh 可觀測工具"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "一般編譯器基礎設施"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般檔案傳輸工具"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "帳號查詢工具，未確認 AI 或開發自動化用途"
+    },
+    {
+      "repo": "rails/rails",
+      "reason": "一般網頁框架；ai 子字串造成誤收"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "一般股票技術形態掃描"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "一般網路工具"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "一般節點式 UI 函式庫"
+    }
+  ],
+  "duplicate_full_names_removed": [
+    "HarnessMD/munder-difflin",
+    "HunYiSage/dsh-purge",
+    "LibreChat-AI/LibreChat",
+    "ParadevAI/Paradev",
+    "Twigpine/openclaude",
+    "ai-job-search-dev/ai-job-search",
+    "career-ops-hq/career-ops",
+    "cheaper-inference/OmniRoute",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "feder-cr/Jobs_Applier_AI_Agent"
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "retained_count": 392,
+  "supplemental_trending_repos": [
+    "zed-industries/zed",
+    "microsoft/vscode"
+  ]
+}
