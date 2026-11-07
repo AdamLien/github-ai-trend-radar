@@ -1,0 +1,174 @@
+{
+  "target_date": "2026-11-07",
+  "timezone": "Asia/Taipei",
+  "completed_at": "2026-11-08T00:25:00.784508+08:00",
+  "collector_exit_code": 0,
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "limit": 10,
+  "include_trending_daily": true,
+  "include_readme": true,
+  "rate_limit": {
+    "encountered": false,
+    "retried_with_limit_5": false,
+    "status": "No observed rate-limit error; limit 10 retained."
+  },
+  "collector_raw_rows": 421,
+  "deduplicated_alias_rows": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "ParadevAI/Paradev",
+    "Twigpine/openclaude",
+    "ai-job-search-dev/ai-job-search",
+    "career-ops-hq/career-ops",
+    "cheaper-inference/OmniRoute",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "tryatlas/atlas"
+  ],
+  "final_repo_count": 390,
+  "unavailable_404": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "excluded_repositories": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "YuJunZhiXue/dsh-purge",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "cactus-compute/needle",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "mihail911/modern-software-dev-assignments",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "tailwindlabs/tailwindcss",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    },
+    {
+      "repo": "tonhowtf/omniget",
+      "reason": "HTTP 404; stale retained metadata excluded"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "No explicit evidence of requested AI/agent/knowledge/developer-automation scope in captured metadata"
+    }
+  ],
+  "scope_manual_inclusions": {
+    "abhigyanpatwari/GitNexus": "Full README: coding-agent MCP tools and agent skills.",
+    "Kruk2/jasna": "Full README: AI image/video restoration models.",
+    "jessefreitas/OmniCompress": "Full README: agent-to-LLM context compression.",
+    "harry7557558/spirula-studio": "Full README: AI masking and SAM models.",
+    "pollen-robotics/microduck_rl": "AI reinforcement-learning training environments.",
+    "leninejunior/troglodita": "Portuguese description: token compression for AI agents.",
+    "microsoft/vscode": "Official agent documentation: https://code.visualstudio.com/docs/agents/overview",
+    "zed-industries/zed": "Official agent documentation: https://zed.dev/docs/ai/agents",
+    "ranxianglei/billion-context": "Full README: LLM/coding-agent context compression."
+  },
+  "supplemental_repositories": [
+    "ranxianglei/billion-context"
+  ],
+  "trending_source": "https://github.com/trending?since=daily",
+  "trending_retained": [
+    "vercel-labs/agent-browser",
+    "cloudflare/security-audit-skill",
+    "google/skills",
+    "mattpocock/skills",
+    "anthropics/skills",
+    "meta/astryx",
+    "milind-soni/OpenMausBot",
+    "zed-industries/zed",
+    "ranxianglei/billion-context",
+    "dsx-ai-factory/nvke"
+  ],
+  "trending_excluded": [
+    "prometheus/prometheus",
+    "sherlock-project/sherlock",
+    "astral-sh/ruff",
+    "tailwindlabs/tailwindcss",
+    "mbillow/localthings"
+  ],
+  "measurement_note": "Live observations on execution date, filed under previous Taipei target date; snapshot deltas are not necessarily exact 24-hour growth."
+}

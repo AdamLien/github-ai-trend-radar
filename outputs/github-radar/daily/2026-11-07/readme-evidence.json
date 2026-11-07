@@ -1,0 +1,56 @@
+{
+  "cloudflare/security-audit-skill": {
+    "url": "https://github.com/cloudflare/security-audit-skill/blob/main/README.md",
+    "characters": 6946,
+    "sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+    "excerpt": "# security-audit A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting. This is the skill that seeded Cloudflare's vulnerability discovery harness, described in [Build your own vulnerability harness](https://blog.cloudflare.com/build-your-own-vulnerability-harness). The harness grew into a multi-stage, fleet-wide system; this skill is the single-repo starting point it evolved from. ## What it does The skill runs a structured audit in six phases: 1. **Reconnaissance** -- map architecture, trust bounda"
+  },
+  "mattpocock/skills": {
+    "url": "https://github.com/mattpocock/skills/blob/main/README.md",
+    "characters": 16449,
+    "sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+    "excerpt": "<p> <a href=\"https://www.aihero.dev/s/skills-newsletter\"> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skills-repo-dark_2x.png\"> <source media=\"(prefers-color-scheme: light)\" srcset=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\"> <img alt=\"Skills\" src=\"https://res.cloudinary.com/total-typescript/image/upload/v1777382277/skill-repo-light_2x.png\" width=\"369\"> </picture> </a> </p> # Skills For Real Engineers [![skills.sh](https://skills.sh/b/mattpocock/skills)](https://skills.sh/mattpocock/skills) My agent skills that I use every day to do real engineering - not"
+  },
+  "google/skills": {
+    "url": "https://github.com/google/skills/blob/main/README.md",
+    "characters": 20565,
+    "sha256": "2b367ff758b55ac2e82b657aa5f229d748ce43f0943e2f07ad889ae7e563bbd8",
+    "excerpt": "# Agent Skills [![Install via skills.sh](https://img.shields.io/badge/skills.sh-install-green)](https://skills.sh/google/skills) This repository contains [Agent Skills](https://agentskills.io/home) for Google products and technologies, including [Google Cloud](https://cloud.google.com). ## Installation ```bash npx skills add google/skills ``` When prompted, select specific skills or all skills, the target agents to configure, and the installation scope (project or global). If `npx` is not available in your environment, install [Node.js](https://nodejs.org/en/download), which includes `npm` and `npx`. ## Updating Skills To update previously installed skills to the latest versions, run the fol"
+  },
+  "anthropics/skills": {
+    "url": "https://github.com/anthropics/skills/blob/main/README.md",
+    "characters": 5547,
+    "sha256": "1fca448ca17ccf901bd068c661209b15300bc5be3f039ba1a616c3a13a374ccb",
+    "excerpt": "> **Note:** This repository contains Anthropic's implementation of skills for Claude. For information about the Agent Skills standard, see [agentskills.io](http://agentskills.io). [![skills.sh](https://skills.sh/b/anthropics/skills)](https://skills.sh/anthropics/skills) # Skills Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Skills teach Claude how to complete specific tasks in a repeatable way, whether that's creating documents with your company's brand guidelines, analyzing data using your organization's specific workflows, or automating personal tasks. For more information, check out: - [What are skills"
+  },
+  "milind-soni/OpenMausBot": {
+    "url": "https://github.com/milind-soni/OpenMausBot/blob/main/README.md",
+    "characters": 32492,
+    "sha256": "5b7274e878174549c04ca2faab34ccfc348ce13ed69b599f7bd9eb454ba587f6",
+    "excerpt": "<div align=\"center\"> # OpenMausBot **The open-source Grok Bot alternative: your own team of AI bots, in a chat app.** [**openmausbot.com**](https://www.openmausbot.com) &nbsp;·&nbsp; [Download](https://www.openmausbot.com/download) &nbsp;·&nbsp; [Open source Grok Bot alternative, compared](https://www.openmausbot.com/blog/grok-bot-vs-openmausbot) <sub>OpenMausBot is an open-source Grok Bot alternative: an independent project inspired by **Grok Bot**, and the open-source alternative to **Meta Muse**, **OpenAI dots** and **Cue by Manus** — bring-your-own-agent, local-first, on the models you already have. Also known as **MausBot**; formerly **OpenGrokBot**. Not affiliated with xAI, Meta, OpenA"
+  },
+  "vercel-labs/agent-browser": {
+    "url": "https://github.com/vercel-labs/agent-browser/blob/main/README.md",
+    "characters": 8780,
+    "sha256": "a96587f37a6e624a56ceba9402892f072229b49f50dc6f56b1c128ce9a2126b2",
+    "excerpt": "# agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell. <p> <a href=\"https://vercel.com/labs#labs-products\"><img alt=\"Vercel Labs Product\" src=\"https://img.shields.io/badge/LABS-PRODUCT-0a0a0a.svg?style=for-the-badge&amp;logo=Vercel&amp;labelColor=000000\" height=\"28\"></a> <a href=\"https://www.npmjs.com/package/agent-browser\"><img alt=\"npm version: agent-browser\" src=\"https://img.shields.io/npm/v/agent-browser.svg?style=for-the-badge&amp;labelColor=000000\" height=\"28\"></a> <a href=\"https://github.com/vercel-labs/agent-browser/blob/main/LICENSE\"><img alt=\"License: Apache-2.0\" src=\"https://img.shields.io/github/licens"
+  },
+  "NVIDIA/auto-ontology": {
+    "url": "https://github.com/NVIDIA/auto-ontology/blob/main/README.md",
+    "characters": 23955,
+    "sha256": "a2d3f9388c0a9f9a4c66581db59a1d3702524fa1601a2474caa06aac6eaf5128",
+    "excerpt": "<!-- SPDX-FileCopyrightText: Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved. SPDX-License-Identifier: Apache-2.0 --> # Auto Ontology Agents can retrieve documents and query databases, but reliability gates agentic analytics: a revenue metric answered faster is worth nothing if the number is wrong. Agents need a context layer that tells them where data lives, what it means, whether to use it, how to use it, where it came from, and what is similar. NVIDIA Auto Ontology is an open library that builds that layer from enterprise metadata, reconciles definitions across systems, and exposes it to any agent harness through MCP, CLI, and API. It complements the semantic mode"
+  },
+  "nashsu/llm_wiki": {
+    "url": "https://github.com/nashsu/llm_wiki/blob/main/README.md",
+    "characters": 31543,
+    "sha256": "1d5e91a86372a3497fd593d34f9343763b4474f4e369c4849cc14056bb424a0e",
+    "excerpt": "# LLM Wiki <p align=\"center\"> <img src=\"logo.jpg\" width=\"128\" height=\"128\" style=\"border-radius: 22%;\" alt=\"LLM Wiki Logo\"> </p> <p align=\"center\"> <strong>A personal knowledge base that builds itself.</strong><br> LLM reads your documents, builds a structured wiki, and keeps it current. </p> <p align=\"center\"> <a href=\"#what-is-this\">What is this?</a> • <a href=\"#what-we-changed--added\">Features</a> • <a href=\"#tech-stack\">Tech Stack</a> • <a href=\"#installation\">Installation</a> • <a href=\"#credits\">Credits</a> • <a href=\"#license\">License</a> </p> <p align=\"center\"> English | <a href=\"README_CN.md\">中文</a> | <a href=\"README_JA.md\">日本語</a> | <a href=\"README_KO.md\">한국어</a> </p> --- <p align="
+  },
+  "ranxianglei/billion-context": {
+    "url": "https://github.com/ranxianglei/billion-context/blob/master/README.md",
+    "characters": 76511,
+    "sha256": "85a1ba5e1a3721b63466f5a5a63aee63224fe28072c0ff85dda21f672d0a2622",
+    "excerpt": "# billion-context <p align=\"center\"><a href=\"./README.md\">English</a> | <a href=\"./README.zh-CN.md\">中文</a></p> <p align=\"center\"><strong>Context-compression plugin</strong> — <em>billion-context is all you need.</em></p> <p align=\"center\"><sub>small context windows (100K is enough) · <em>5× fewer tokens</em> · month-long single sessions (billions of tokens) · high compression quality</sub></p> <p align=\"center\"> <a href=\"https://www.npmjs.com/package/billion-context\"><img src=\"https://img.shields.io/npm/v/billion-context.svg?style=flat-square\" alt=\"npm\"></a> <a href=\"https://github.com/ranxianglei/billion-context/blob/master/LICENSE\"><img src=\"https://img.shields.io/npm/l/billion-context.svg"
+  }
+}

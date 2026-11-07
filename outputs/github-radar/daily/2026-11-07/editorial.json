@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "cloudflare/security-audit-skill",
+    "action": "Deep research",
+    "purpose": "以多階段代理執行程式碼安全稽核，包含偵察、覆蓋追蹤、候選漏洞驗證與結構化報告。",
+    "relevance": "適合 Adam 的 coding agent 進階課：用同一份測試程式比較『產生漏洞敘述』與『提出可重現證據』，也能轉為 metabiz 開發稽核流程研究。",
+    "risk": "不能把機器可讀報告視為已驗證漏洞。#135 回報 archived verifier 與測試失敗，#134 質疑缺少原始位元組證據；這些仍是提報者的說法，須實際重現。近期 issue／PR 活躍不等於核心程式已修復。",
+    "evidence": "https://github.com/cloudflare/security-audit-skill/issues/135"
+  },
+  {
+    "repo": "NVIDIA/auto-ontology",
+    "action": "Deep research",
+    "purpose": "從企業 metadata 建立語意與圖譜脈絡層，透過 MCP、CLI、API 供代理查詢資料定義、來源與關係。",
+    "relevance": "直接對應 know metabiz wiki 的『名詞定義、資料來源、跨系統關係』需求。可設計一堂比較文件 RAG 與語意資料層的課，用 CRM／報價欄位的匿名範例測試口徑一致性。",
+    "risk": "資料定義對齊與 connector 建置成本高，README 的 benchmark 不能直接推論到 metabiz 資料。#456 的 reset API 資料庫名稱修正屬 PR 訊號，需確認合併與測試結果；有 issue 活動不代表已正式發版。",
+    "evidence": "https://github.com/NVIDIA/auto-ontology/pull/456"
+  },
+  {
+    "repo": "milind-soni/OpenMausBot",
+    "action": "Demo content",
+    "purpose": "讓多個 AI bots 透過聊天介面、獨立電腦環境、排程與外部應用連接器協作。",
+    "relevance": "適合 Adam 的 AI 辦公自動化內容：用測試信箱與假資料示範資料收集、草稿與儀表板任務，呈現『一個部門、多個代理』的工作分配。",
+    "risk": "電腦控制、排程與應用連接涉及真實寫入權限。README 說明 Ubuntu 仍為 beta，Wayland 本機 bot 控制受限；enterprise/ 另有授權條款。#4790 提到 Email 開關儲存修正，錄製前須驗證自己平台的連接器狀態，不能只憑跨平台宣傳。",
+    "evidence": "https://github.com/milind-soni/OpenMausBot/pull/4790"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "action": "Skill candidate",
+    "purpose": "把工程師常用的需求釐清、設計、測試與生產力方法整理成可重用的 agent skills。",
+    "relevance": "適合 Adam 的 Skills 課程與內容製作；先與現有技能比對重疊，再挑一個實際工作情境，量測需求往返次數與產出可用性。可將『技能不是提示詞收藏』做成教學案例。",
+    "risk": "跨 runtime 的依賴載入與圖表格式可能失效。#1393 討論 runtime-neutral dependency loading，#1394 回報 Mermaid 特殊字元解析問題，#1318 涉及個別 skill 目錄的 MIT notice；移植與再散布前需逐項核對。",
+    "evidence": "https://github.com/mattpocock/skills/issues/1393"
+  },
+  {
+    "repo": "vercel-labs/agent-browser",
+    "action": "Demo content",
+    "purpose": "提供 AI agent 可呼叫的瀏覽器自動化 CLI，支援以瀏覽器狀態與元素資訊完成操作。",
+    "relevance": "適合 AI 辦公自動化入門示範：用測試網站完成表單草稿、資料擷取與截圖存證；也能與 MCP 型瀏覽器工具比較操作步驟與維護成本。",
+    "risk": "登入狀態、網域邊界與 CDP 附加模式需測試。#2449 回報附加 session 所開啟來源未完整存入 state，#2410 涉及 allowedDomains 與 worker 訊息；不能假設儲存 session 即完整保留所有網站狀態。",
+    "evidence": "https://github.com/vercel-labs/agent-browser/issues/2449"
+  },
+  {
+    "repo": "google/skills",
+    "action": "Reference only",
+    "purpose": "Google 產品與技術的 Agent Skills，README 包含 Google Cloud 等領域的技能與插件目錄。",
+    "relevance": "可作 Adam 官方技能來源與企業 AI 整合課的教材；依實際 Google 技術需求挑選。此集合以產品技術技能為主，不能直接當成完整 Google Workspace 辦公自動化方案。",
+    "risk": "官方來源仍需檢查每個技能的外部安裝步驟與權限。#218 提報 Genkit skills 執行未驗證遠端安裝器；該 issue 是待查證風險訊號，不能據此宣稱整個集合已遭入侵。",
+    "evidence": "https://github.com/google/skills/issues/218"
+  },
+  {
+    "repo": "anthropics/skills",
+    "action": "Skill candidate",
+    "purpose": "提供 Agent Skills 範例與文件、設計及其他任務的技能集合，展示技能封裝與使用方式。",
+    "relevance": "適合 Adam 的 Skills 入門與文件工作流課程：以匿名文件評估範例結構、驗收要求與可重複性，再整理為辦公自動化教案。",
+    "risk": "範例不能取代實際版本與輸出品質驗證。不同子目錄的使用及再散布條款須逐項閱讀；#2152 的 internal-comms clarification 修改也顯示自然語言規則會影響行為，不宜整包安裝後視為固定規格。",
+    "evidence": "https://github.com/anthropics/skills/pull/2152"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "action": "Deep research",
+    "purpose": "把來源文件持續整理成互連 wiki，提供桌面介面、知識圖譜、review、MCP 與 agent skill 整合。",
+    "relevance": "與 know metabiz wiki 最直接相關。用同一批匿名來源比較『每次檢索回答』與『先維護 wiki 再回答』，驗證來源追溯、內容更新、刪除與人工覆核流程。",
+    "risk": "#837 回報重複匯入導致頁面縮短與重複，#847 回報 Linux 啟動依賴問題；#846 的分段長文件修正屬 PR，未經本次執行驗證。研究優先於搬入正式知識庫，需先測試重複匯入與刪除後一致性。",
+    "evidence": "https://github.com/nashsu/llm_wiki/issues/837"
+  },
+  {
+    "repo": "ranxianglei/billion-context",
+    "action": "Watch",
+    "purpose": "為長時間 coding-agent session 提供內容壓縮與脈絡管理插件／代理層。",
+    "relevance": "適合 Adam 的 agent 成本與長任務可靠性研究，亦可觀察 wiki 大量來源處理時的上下文保留。先以固定任務比對 token、成本、正確率與壓縮後來源證據是否保留。",
+    "risk": "README 的月級 session 與節省 token 數字屬作者主張，本次未重現。#5894 回報批次壓縮輸出不足，#5892 要求 session index 重建；README 另提醒網路服務的認證限制，並載有額外署名條款，不能只看 MIT 標籤即判定使用條件。",
+    "evidence": "https://github.com/ranxianglei/billion-context/issues/5894"
+  }
+]

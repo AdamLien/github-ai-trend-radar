@@ -1,0 +1,842 @@
+{
+  "observed_at": "2026-11-08T00:12:12.236271+08:00",
+  "repositories": {
+    "cloudflare/security-audit-skill": {
+      "source": "https://api.github.com/repos/cloudflare/security-audit-skill/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 138,
+          "title": "Reject archived verifier check owner reuse",
+          "state": "open",
+          "created_at": "2026-11-07T08:55:51Z",
+          "updated_at": "2026-11-07T08:55:51Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/138",
+          "is_pull_request": true
+        },
+        {
+          "number": 22,
+          "title": "feat(hunting): add modern full-stack, Next.js, and ORM attack classes",
+          "state": "closed",
+          "created_at": "2026-09-17T07:04:22Z",
+          "updated_at": "2026-11-07T08:36:57Z",
+          "closed_at": "2026-11-07T08:36:57Z",
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/22",
+          "is_pull_request": true
+        },
+        {
+          "number": 137,
+          "title": "节点",
+          "state": "open",
+          "created_at": "2026-11-07T07:55:14Z",
+          "updated_at": "2026-11-07T07:55:14Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/137",
+          "is_pull_request": false
+        },
+        {
+          "number": 135,
+          "title": "validate-coverage-ledger accepts an archived verifier's check; seven CLI tests fail where safe-open flags are missing",
+          "state": "open",
+          "created_at": "2026-11-06T02:23:06Z",
+          "updated_at": "2026-11-07T01:02:30Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/135",
+          "is_pull_request": false
+        },
+        {
+          "number": 136,
+          "title": "New modification on README",
+          "state": "closed",
+          "created_at": "2026-11-06T21:44:06Z",
+          "updated_at": "2026-11-06T21:44:17Z",
+          "closed_at": "2026-11-06T21:44:17Z",
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/136",
+          "is_pull_request": true
+        },
+        {
+          "number": 95,
+          "title": "Derive run paths and prior-run identity from a sanitized repo ID, not the raw repo name",
+          "state": "open",
+          "created_at": "2026-10-23T15:48:07Z",
+          "updated_at": "2026-11-06T19:15:42Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/95",
+          "is_pull_request": true
+        },
+        {
+          "number": 133,
+          "title": "Require wildcard audit coverage",
+          "state": "closed",
+          "created_at": "2026-11-05T01:01:33Z",
+          "updated_at": "2026-11-06T04:44:48Z",
+          "closed_at": "2026-11-06T04:44:07Z",
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/pull/133",
+          "is_pull_request": true
+        },
+        {
+          "number": 134,
+          "title": "Findings cite a file and a line but no bytes, so a made-up finding passes validation",
+          "state": "open",
+          "created_at": "2026-11-05T23:44:27Z",
+          "updated_at": "2026-11-05T23:47:54Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/cloudflare/security-audit-skill/issues/134",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "source": "https://api.github.com/repos/mattpocock/skills/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 1318,
+          "title": "Include MIT notice in individually distributable skill directories",
+          "state": "open",
+          "created_at": "2026-10-21T21:22:39Z",
+          "updated_at": "2026-11-07T16:08:39Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/mattpocock/skills/issues/1318",
+          "is_pull_request": false
+        },
+        {
+          "number": 1394,
+          "title": "improve-codebase-architecture: Mermaid node labels with | or () fail to parse",
+          "state": "open",
+          "created_at": "2026-11-07T12:23:46Z",
+          "updated_at": "2026-11-07T12:24:30Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/mattpocock/skills/issues/1394",
+          "is_pull_request": false
+        },
+        {
+          "number": 1393,
+          "title": "Make architecture skill dependency loading runtime-neutral",
+          "state": "open",
+          "created_at": "2026-11-07T09:11:04Z",
+          "updated_at": "2026-11-07T09:11:14Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/mattpocock/skills/issues/1393",
+          "is_pull_request": false
+        },
+        {
+          "number": 1369,
+          "title": "chief-of-staff: work toward a revisable destination (from wayfinder)",
+          "state": "open",
+          "created_at": "2026-11-01T11:42:54Z",
+          "updated_at": "2026-11-06T22:00:12Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/mattpocock/skills/pull/1369",
+          "is_pull_request": true
+        },
+        {
+          "number": 1392,
+          "title": "teach: make quiz options clear and feedback question-specific",
+          "state": "open",
+          "created_at": "2026-11-06T14:46:59Z",
+          "updated_at": "2026-11-06T14:51:35Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/mattpocock/skills/issues/1392",
+          "is_pull_request": false
+        },
+        {
+          "number": 649,
+          "title": "Proposal: Add pacing guardrails & hybrid syntax highlighting to teach skill",
+          "state": "closed",
+          "created_at": "2026-07-23T12:34:29Z",
+          "updated_at": "2026-11-06T07:29:43Z",
+          "closed_at": "2026-10-06T17:56:30Z",
+          "comments": 1,
+          "html_url": "https://github.com/mattpocock/skills/issues/649",
+          "is_pull_request": false
+        },
+        {
+          "number": 948,
+          "title": "grilling: hold on asking questions until any prep or exploration work is done",
+          "state": "open",
+          "created_at": "2026-08-24T12:55:29Z",
+          "updated_at": "2026-11-06T01:06:14Z",
+          "closed_at": null,
+          "comments": 3,
+          "html_url": "https://github.com/mattpocock/skills/issues/948",
+          "is_pull_request": false
+        },
+        {
+          "number": 1245,
+          "title": "grilling: round asked while exploration runs gets rewritten when it reports",
+          "state": "open",
+          "created_at": "2026-10-10T04:31:15Z",
+          "updated_at": "2026-11-06T01:04:46Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/mattpocock/skills/issues/1245",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "google/skills": {
+      "source": "https://api.github.com/repos/google/skills/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 228,
+          "title": "Bump datasets from 2.18.0 to 5.0.1 in /skills/cloud/agent-platform-tuning/references in the pip group across 1 directory",
+          "state": "open",
+          "created_at": "2026-10-05T17:24:41Z",
+          "updated_at": "2026-11-07T05:00:38Z",
+          "closed_at": null,
+          "comments": 3,
+          "html_url": "https://github.com/google/skills/pull/228",
+          "is_pull_request": true
+        },
+        {
+          "number": 243,
+          "title": "Update README.md",
+          "state": "open",
+          "created_at": "2026-11-06T20:02:49Z",
+          "updated_at": "2026-11-06T20:02:49Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/google/skills/issues/243",
+          "is_pull_request": false
+        },
+        {
+          "number": 218,
+          "title": "Security hardening: Genkit skills execute an unverified remote installer",
+          "state": "open",
+          "created_at": "2026-08-31T22:14:47Z",
+          "updated_at": "2026-11-05T19:39:02Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/google/skills/issues/218",
+          "is_pull_request": false
+        },
+        {
+          "number": 241,
+          "title": "secops-detection-engineering: validate_yaral_rule.py rejects constant literals in outcome: when match: is present",
+          "state": "open",
+          "created_at": "2026-11-02T14:07:26Z",
+          "updated_at": "2026-11-05T19:38:35Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/google/skills/issues/241",
+          "is_pull_request": false
+        },
+        {
+          "number": 240,
+          "title": "Link Checker Report",
+          "state": "open",
+          "created_at": "2026-10-26T22:57:59Z",
+          "updated_at": "2026-11-05T19:38:04Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/google/skills/issues/240",
+          "is_pull_request": false
+        },
+        {
+          "number": 236,
+          "title": "DPoP adoption skill recommends deterministic `jti` values derived from authorization codes",
+          "state": "open",
+          "created_at": "2026-10-22T06:10:20Z",
+          "updated_at": "2026-11-05T19:37:36Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/google/skills/issues/236",
+          "is_pull_request": false
+        },
+        {
+          "number": 224,
+          "title": "Feature request: adk-multi-agent-supervisor-patterns",
+          "state": "open",
+          "created_at": "2026-09-14T03:09:28Z",
+          "updated_at": "2026-11-05T19:37:15Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/google/skills/issues/224",
+          "is_pull_request": false
+        },
+        {
+          "number": 242,
+          "title": "`gcloud services list` False Negatives When Combining `--limit` and `--filter`",
+          "state": "open",
+          "created_at": "2026-11-05T10:04:36Z",
+          "updated_at": "2026-11-05T19:35:41Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/google/skills/issues/242",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "anthropics/skills": {
+      "source": "https://api.github.com/repos/anthropics/skills/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 2153,
+          "title": "excl",
+          "state": "open",
+          "created_at": "2026-11-07T14:46:06Z",
+          "updated_at": "2026-11-07T14:46:06Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/issues/2153",
+          "is_pull_request": false
+        },
+        {
+          "number": 2152,
+          "title": "Fix internal-comms clarification instruction",
+          "state": "open",
+          "created_at": "2026-11-07T14:10:13Z",
+          "updated_at": "2026-11-07T14:10:13Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/pull/2152",
+          "is_pull_request": true
+        },
+        {
+          "number": 2150,
+          "title": "Add CrakSEO MCP connect skills",
+          "state": "open",
+          "created_at": "2026-11-07T09:27:03Z",
+          "updated_at": "2026-11-07T13:30:10Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/anthropics/skills/issues/2150",
+          "is_pull_request": false
+        },
+        {
+          "number": 2149,
+          "title": "Remove rsid attributes from all XML elements in document.xml",
+          "state": "open",
+          "created_at": "2026-11-07T04:35:34Z",
+          "updated_at": "2026-11-07T04:35:34Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/pull/2149",
+          "is_pull_request": true
+        },
+        {
+          "number": 2148,
+          "title": "docs(pdf): fix qpdf examples and Windows crop fallback",
+          "state": "open",
+          "created_at": "2026-11-07T04:33:36Z",
+          "updated_at": "2026-11-07T04:33:36Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/pull/2148",
+          "is_pull_request": true
+        },
+        {
+          "number": 2147,
+          "title": "fix(docx): use a platform-safe LibreOffice profile URL",
+          "state": "open",
+          "created_at": "2026-11-07T00:10:49Z",
+          "updated_at": "2026-11-07T00:10:49Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/pull/2147",
+          "is_pull_request": true
+        },
+        {
+          "number": 2146,
+          "title": "Move Office skills to the Apache 2.0 license",
+          "state": "closed",
+          "created_at": "2026-11-06T22:16:42Z",
+          "updated_at": "2026-11-06T22:32:33Z",
+          "closed_at": "2026-11-06T22:32:30Z",
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/pull/2146",
+          "is_pull_request": true
+        },
+        {
+          "number": 2145,
+          "title": "pdf: five qpdf commands in reference.md fail on qpdf 12, and forms.md's convert fallback is Windows' disk converter",
+          "state": "open",
+          "created_at": "2026-11-06T18:03:19Z",
+          "updated_at": "2026-11-06T18:03:19Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/anthropics/skills/issues/2145",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "milind-soni/OpenMausBot": {
+      "source": "https://api.github.com/repos/milind-soni/OpenMausBot/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 4767,
+          "title": "feat(apps): live folder pages for dashboards (show_html/publish_page live)",
+          "state": "open",
+          "created_at": "2026-11-07T13:26:19Z",
+          "updated_at": "2026-11-07T16:10:50Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4767",
+          "is_pull_request": true
+        },
+        {
+          "number": 4790,
+          "title": "fix(apps): save the built-in Email switch when connected apps are set up",
+          "state": "open",
+          "created_at": "2026-11-07T15:52:56Z",
+          "updated_at": "2026-11-07T16:10:01Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4790",
+          "is_pull_request": true
+        },
+        {
+          "number": 4791,
+          "title": "Arabic language pack, and the layout mirrors for right-to-left languages",
+          "state": "open",
+          "created_at": "2026-11-07T15:56:33Z",
+          "updated_at": "2026-11-07T16:05:20Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4791",
+          "is_pull_request": true
+        },
+        {
+          "number": 4792,
+          "title": "chore(release): bump version to 0.1.147",
+          "state": "open",
+          "created_at": "2026-11-07T16:03:16Z",
+          "updated_at": "2026-11-07T16:03:51Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4792",
+          "is_pull_request": true
+        },
+        {
+          "number": 4776,
+          "title": "feat(device-auth): Grok signs out through its CLI's logout; Kimi removes its stored sign-in",
+          "state": "open",
+          "created_at": "2026-11-07T14:22:30Z",
+          "updated_at": "2026-11-07T15:56:35Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4776",
+          "is_pull_request": true
+        },
+        {
+          "number": 4789,
+          "title": "fix(bot-panel): keep the Usage label readable and line up thread link chips",
+          "state": "open",
+          "created_at": "2026-11-07T15:18:15Z",
+          "updated_at": "2026-11-07T15:46:31Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4789",
+          "is_pull_request": true
+        },
+        {
+          "number": 4784,
+          "title": "fix(sidebar): calmer working line without raw commands",
+          "state": "open",
+          "created_at": "2026-11-07T14:34:00Z",
+          "updated_at": "2026-11-07T15:37:30Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4784",
+          "is_pull_request": true
+        },
+        {
+          "number": 4785,
+          "title": "fix(routines): read the newest account when several Gmail accounts are connected",
+          "state": "open",
+          "created_at": "2026-11-07T14:38:54Z",
+          "updated_at": "2026-11-07T15:37:20Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/4785",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "vercel-labs/agent-browser": {
+      "source": "https://api.github.com/repos/vercel-labs/agent-browser/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 2449,
+          "title": "The state a launching session saves does not include origins that only an attached (--cdp) session opened",
+          "state": "open",
+          "created_at": "2026-11-07T15:22:24Z",
+          "updated_at": "2026-11-07T15:22:24Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/vercel-labs/agent-browser/issues/2449",
+          "is_pull_request": false
+        },
+        {
+          "number": 2410,
+          "title": "fix(network): keep early module worker messages under allowedDomains",
+          "state": "open",
+          "created_at": "2026-11-04T13:02:53Z",
+          "updated_at": "2026-11-07T09:27:23Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2410",
+          "is_pull_request": true
+        },
+        {
+          "number": 2197,
+          "title": "fix(keyboard): dispatch modifier key events for chords",
+          "state": "open",
+          "created_at": "2026-10-22T19:21:53Z",
+          "updated_at": "2026-11-07T09:23:16Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2197",
+          "is_pull_request": true
+        },
+        {
+          "number": 2103,
+          "title": "fix(cli): held modifiers from keydown reach later mouse commands",
+          "state": "open",
+          "created_at": "2026-10-12T07:05:03Z",
+          "updated_at": "2026-11-07T09:23:14Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2103",
+          "is_pull_request": true
+        },
+        {
+          "number": 2448,
+          "title": "fix(press): send the key code of F1 through F12",
+          "state": "open",
+          "created_at": "2026-11-07T08:39:14Z",
+          "updated_at": "2026-11-07T08:39:23Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2448",
+          "is_pull_request": true
+        },
+        {
+          "number": 2207,
+          "title": "feat(firefox): network control and emulation on Firefox",
+          "state": "open",
+          "created_at": "2026-10-23T16:35:44Z",
+          "updated_at": "2026-11-07T07:21:34Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2207",
+          "is_pull_request": true
+        },
+        {
+          "number": 2208,
+          "title": "feat(firefox): dashboard live view, bidi module and docs",
+          "state": "open",
+          "created_at": "2026-10-23T16:35:49Z",
+          "updated_at": "2026-11-07T06:47:32Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2208",
+          "is_pull_request": true
+        },
+        {
+          "number": 2206,
+          "title": "feat(firefox): snapshots, refs and element commands on Firefox",
+          "state": "open",
+          "created_at": "2026-10-23T16:35:40Z",
+          "updated_at": "2026-11-07T06:46:40Z",
+          "closed_at": null,
+          "comments": 2,
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2206",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "NVIDIA/auto-ontology": {
+      "source": "https://api.github.com/repos/NVIDIA/auto-ontology/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 456,
+          "title": "Forward database_name on POST /api/semantic-compilation/reset",
+          "state": "open",
+          "created_at": "2026-11-07T13:53:12Z",
+          "updated_at": "2026-11-07T14:01:12Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/456",
+          "is_pull_request": true
+        },
+        {
+          "number": 455,
+          "title": "Read INGEST_INTERVAL_HOURS in DataScheduler",
+          "state": "open",
+          "created_at": "2026-11-07T13:53:08Z",
+          "updated_at": "2026-11-07T14:00:43Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/455",
+          "is_pull_request": true
+        },
+        {
+          "number": 457,
+          "title": "Order relationship rows in the model export",
+          "state": "open",
+          "created_at": "2026-11-07T13:53:15Z",
+          "updated_at": "2026-11-07T13:58:25Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/457",
+          "is_pull_request": true
+        },
+        {
+          "number": 458,
+          "title": "Drop the phantom dialect argument from the SQLDatabase docstring",
+          "state": "open",
+          "created_at": "2026-11-07T13:53:18Z",
+          "updated_at": "2026-11-07T13:56:13Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/458",
+          "is_pull_request": true
+        },
+        {
+          "number": 412,
+          "title": "Add an Elasticsearch vector store with an opt-in hybrid search mode",
+          "state": "open",
+          "created_at": "2026-11-04T14:58:20Z",
+          "updated_at": "2026-11-07T10:30:37Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/412",
+          "is_pull_request": true
+        },
+        {
+          "number": 454,
+          "title": "Resolve implicit and case-mismatched SQLite foreign key references",
+          "state": "open",
+          "created_at": "2026-11-07T09:04:28Z",
+          "updated_at": "2026-11-07T09:15:38Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/454",
+          "is_pull_request": true
+        },
+        {
+          "number": 453,
+          "title": "SQLite connector drops foreign keys written without a column list or in a different case",
+          "state": "open",
+          "created_at": "2026-11-07T09:03:32Z",
+          "updated_at": "2026-11-07T09:03:32Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/issues/453",
+          "is_pull_request": false
+        },
+        {
+          "number": 452,
+          "title": "Send guided_json at the payload top level for ChatNVIDIA structured output",
+          "state": "open",
+          "created_at": "2026-11-07T08:47:52Z",
+          "updated_at": "2026-11-07T08:56:24Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/452",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "source": "https://api.github.com/repos/nashsu/llm_wiki/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 846,
+          "title": "fix: generate long sources section by section",
+          "state": "open",
+          "created_at": "2026-11-03T20:59:35Z",
+          "updated_at": "2026-11-05T05:45:43Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/846",
+          "is_pull_request": true
+        },
+        {
+          "number": 847,
+          "title": "Linux: startup panic in libappindicator-sys when libayatana-appindicator3 is not installed",
+          "state": "open",
+          "created_at": "2026-11-04T13:09:04Z",
+          "updated_at": "2026-11-04T13:09:04Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/847",
+          "is_pull_request": false
+        },
+        {
+          "number": 835,
+          "title": "feat: make side panels freely resizable",
+          "state": "open",
+          "created_at": "2026-11-03T02:52:13Z",
+          "updated_at": "2026-11-03T20:53:41Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/835",
+          "is_pull_request": true
+        },
+        {
+          "number": 845,
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "created_at": "2026-11-03T14:21:12Z",
+          "updated_at": "2026-11-03T14:21:45Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "is_pull_request": true
+        },
+        {
+          "number": 841,
+          "title": "feat(search): add DeepSeek Search and research Fetch",
+          "state": "open",
+          "created_at": "2026-11-03T04:36:50Z",
+          "updated_at": "2026-11-03T05:07:43Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/841",
+          "is_pull_request": true
+        },
+        {
+          "number": 840,
+          "title": "feat(search): add DeepSeek Search and research Fetch",
+          "state": "closed",
+          "created_at": "2026-11-03T04:00:37Z",
+          "updated_at": "2026-11-03T04:39:13Z",
+          "closed_at": "2026-11-03T04:39:13Z",
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/840",
+          "is_pull_request": true
+        },
+        {
+          "number": 837,
+          "title": "Re-ingest shortens single-source pages and creates duplicates",
+          "state": "open",
+          "created_at": "2026-11-03T03:06:13Z",
+          "updated_at": "2026-11-03T04:38:39Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/837",
+          "is_pull_request": false
+        },
+        {
+          "number": 844,
+          "title": "fix: tell the model the exact link for the source page",
+          "state": "open",
+          "created_at": "2026-11-03T04:38:37Z",
+          "updated_at": "2026-11-03T04:38:37Z",
+          "closed_at": null,
+          "comments": 0,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/844",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "ranxianglei/billion-context": {
+      "source": "https://api.github.com/repos/ranxianglei/billion-context/issues?state=all&sort=updated&direction=desc&per_page=8",
+      "items": [
+        {
+          "number": 5892,
+          "title": "[Feature | 功能请求] 会话索引重建命令 / bili reindex: rebuild one session's index",
+          "state": "open",
+          "created_at": "2026-11-07T14:08:10Z",
+          "updated_at": "2026-11-07T16:11:24Z",
+          "closed_at": null,
+          "comments": 4,
+          "html_url": "https://github.com/ranxianglei/billion-context/issues/5892",
+          "is_pull_request": false
+        },
+        {
+          "number": 5178,
+          "title": "[PR] fix(#5175): strip drifted open-tag names and mid-turn draft envelopes",
+          "state": "open",
+          "created_at": "2026-10-29T21:53:05Z",
+          "updated_at": "2026-11-07T16:10:21Z",
+          "closed_at": null,
+          "comments": 144,
+          "html_url": "https://github.com/ranxianglei/billion-context/pull/5178",
+          "is_pull_request": true
+        },
+        {
+          "number": 4898,
+          "title": "[PR] kernel: keep signed thinking with its tool_use across folds (#4885)",
+          "state": "open",
+          "created_at": "2026-10-27T02:19:00Z",
+          "updated_at": "2026-11-07T16:06:11Z",
+          "closed_at": null,
+          "comments": 6,
+          "html_url": "https://github.com/ranxianglei/billion-context/pull/4898",
+          "is_pull_request": true
+        },
+        {
+          "number": 5888,
+          "title": "[PR] fix: stop naming sub-gate residue as foldable work in compress receipts (#5872)",
+          "state": "open",
+          "created_at": "2026-11-07T13:09:42Z",
+          "updated_at": "2026-11-07T16:05:57Z",
+          "closed_at": null,
+          "comments": 6,
+          "html_url": "https://github.com/ranxianglei/billion-context/pull/5888",
+          "is_pull_request": true
+        },
+        {
+          "number": 4032,
+          "title": "[PR] fix(kernel): stub plain-text line-form compress calls in consumed-call cleanup (#3975)",
+          "state": "open",
+          "created_at": "2026-10-20T17:25:20Z",
+          "updated_at": "2026-11-07T15:57:49Z",
+          "closed_at": null,
+          "comments": 13,
+          "html_url": "https://github.com/ranxianglei/billion-context/pull/4032",
+          "is_pull_request": true
+        },
+        {
+          "number": 5897,
+          "title": "[PR] Empty-turn continuation retry: off by default (opt-in switch) + neutral nudge wording",
+          "state": "open",
+          "created_at": "2026-11-07T15:37:20Z",
+          "updated_at": "2026-11-07T15:56:07Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/ranxianglei/billion-context/pull/5897",
+          "is_pull_request": true
+        },
+        {
+          "number": 5855,
+          "title": "[PR] Re-land v6 composite-identity fastpath lane — inverse of #5854 revert (base for snapshot-centric rework, #5643)",
+          "state": "open",
+          "created_at": "2026-11-07T05:42:49Z",
+          "updated_at": "2026-11-07T15:55:16Z",
+          "closed_at": null,
+          "comments": 11,
+          "html_url": "https://github.com/ranxianglei/billion-context/pull/5855",
+          "is_pull_request": true
+        },
+        {
+          "number": 5894,
+          "title": "Batch compression failed: insufficient output for individual paragraphs. | 批量压缩个别自然段输出过少失败",
+          "state": "open",
+          "created_at": "2026-11-07T15:17:41Z",
+          "updated_at": "2026-11-07T15:54:15Z",
+          "closed_at": null,
+          "comments": 1,
+          "html_url": "https://github.com/ranxianglei/billion-context/issues/5894",
+          "is_pull_request": false
+        }
+      ]
+    }
+  }
+}

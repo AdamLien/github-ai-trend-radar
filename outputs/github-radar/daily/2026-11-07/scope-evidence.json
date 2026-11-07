@@ -1,0 +1,54 @@
+{
+  "abhigyanpatwari/GitNexus": {
+    "url": "https://github.com/abhigyanpatwari/GitNexus/blob/main/README.md",
+    "evidence": [
+      "and execution flows. Use it through your coding agent's MCP tools, the CLI, or a",
+      "`analyze` builds the index, installs agent skills, registers Claude Code hooks,",
+      "and writes `AGENTS.md` / `CLAUDE.md` context files. `setup` configures MCP for your",
+      "Ask your agent questions such as “What calls this function?” or “What would this",
+      "For multiple concurrent agents, use one `gitnexus mcp --http --port 3111` server"
+    ]
+  },
+  "Kruk2/jasna": {
+    "url": "https://github.com/Kruk2/jasna/blob/main/README.md",
+    "evidence": [
+      "| Radeon RX 9060/9070, Radeon AI PRO R9700 | yes | yes (Windows: beta) |",
+      "| Radeon 740M/760M/780M/880M/890M, Ryzen AI Max (8050S/8060S) | yes, untested | yes, untested |",
+      "still ask to download its model again after an update. On AMD, only UNet 4x",
+      "| **$15 USD** (Ko-fi: **14 EUR**) or more in total | **UNet 4x**: makes restored areas sharper.<br>**SD 1.5**: experimental model for still images. |",
+      "| **$25 USD** (Ko-fi: **23 EUR**) | **UNet 4x** and **SD 1.5**, plus<br>**LTX**: much slower than BasicVSR++, but more detail. Includes future updates of this LTX model. |"
+    ]
+  },
+  "cactus-compute/needle": {
+    "url": "https://github.com/cactus-compute/needle/blob/main/README.md",
+    "evidence": []
+  },
+  "jessefreitas/OmniCompress": {
+    "url": "https://github.com/jessefreitas/OmniCompress/blob/main/README.md",
+    "evidence": [
+      "seu agente  →  [ OmniCompress comprime aqui ]  →  LLM (Anthropic · OpenAI · …)"
+    ]
+  },
+  "mihail911/modern-software-dev-assignments": {
+    "url": "https://github.com/mihail911/modern-software-dev-assignments/blob/master/README.md",
+    "evidence": []
+  },
+  "harry7557558/spirula-studio": {
+    "url": "https://github.com/harry7557558/spirula-studio/blob/master/README.md",
+    "evidence": [
+      "- Built-in **lightning-fast SfM**, **AI masking**, frame extraction from videos &ndash; No need to wait for COLMAP or run separate scripts",
+      "| Vulkan | NVIDIA, AMD, Intel, Apple Silicon | Windows, Linux, macOS | Vulkan/MoltenVK, CMake/Ninja | Native support for SfM, frame extraction from videos, and AI masking |",
+      "Masking needs a SAM checkpoint, which the GUI downloads on first use and caches. The checkpoints are Meta's models under Meta's licenses &ndash; SAM 2.1 is Apache-2.0, SAM 3 is under Meta's own, non-standard license. They are never bundled, and the GUI shows the terms before fetching anything. On the command line, point `--model` at a file you downloaded yourself."
+    ]
+  },
+  "pollen-robotics/microduck_rl": {
+    "url": "https://github.com/pollen-robotics/microduck_rl/blob/develop/README.md",
+    "evidence": [
+      "(see [AGENTS.md](AGENTS.md) for the distilled playbook).",
+      "    --agent.run-name resume --agent.load-checkpoint model_29999.pt --agent.resume True",
+      "The servos are simulated with the same BAM M6 XL330 model the policies are",
+      "Every main task has a **Backlash** twin that trains on a model with ±1° of gear",
+      "## Actuator model"
+    ]
+  }
+}
