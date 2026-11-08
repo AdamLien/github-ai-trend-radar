@@ -1,0 +1,132 @@
+{
+  "target_date": "2026-11-08",
+  "completed_at": "2026-11-09T00:22:56+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "limit": 10,
+  "include_trending_daily": true,
+  "include_readme": true,
+  "raw_records": 423,
+  "retained_records": 389,
+  "duplicate_canonical_names": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "OpenMontageInc/OpenMontage",
+    "ParadevAI/Paradev",
+    "Twigpine/openclaude",
+    "ai-job-search-dev/ai-job-search",
+    "career-ops-hq/career-ops",
+    "cheaper-inference/OmniRoute",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "tryatlas/atlas"
+  ],
+  "excluded": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "YuJunZhiXue/dsh-purge",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "dsx-ai-factory/nvke",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "rustfs/rustfs",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    },
+    {
+      "repo": "tonhowtf/omniget",
+      "reason": "404；排除沿用的舊資料"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "本次 metadata／README 摘要未提供直接 AI、MCP、agent、知識庫或 AI 開發自動化用途證據"
+    }
+  ],
+  "rate_limit_observed": false,
+  "retry_limit_5": false,
+  "scope_note": "以直接 AI／MCP／Skills／agent／LLM／RAG／wiki／coding-agent／AI 開發自動化為範圍；一般基礎設施與工具不因名稱含 ai 而納入。",
+  "evidence_note": "數據為執行當下取得，歸檔至昨日目標日；issue／PR 是樣本與提報，未實跑候選工具。"
+}

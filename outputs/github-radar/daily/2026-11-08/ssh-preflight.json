@@ -1,0 +1,6 @@
+{
+  "upstream": "origin/main",
+  "ssh_read_access": true,
+  "exit_code": 0,
+  "status": "Existing SSH remote is readable without interaction; push authorization will be checked by git push."
+}

@@ -1,0 +1,121 @@
+{
+  "url": "https://github.com/trending?since=daily",
+  "observed_at": "2026-11-08T16:12:07.553337+00:00",
+  "cards": [
+    {
+      "repo": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "stars_today": "2372"
+    },
+    {
+      "repo": "dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "stars_today": "345"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "stars_today": "1437"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "stars_today": "28"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stars_today": "812"
+    },
+    {
+      "repo": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stars_today": "863"
+    },
+    {
+      "repo": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": "793"
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "stars_today": "26"
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "stars_today": "460"
+    }
+  ],
+  "collector_in_scope": {
+    "dsx-ai-factory/nvke": {
+      "trending_stars_today": 345
+    },
+    "anthropics/claude-quickstarts": {
+      "trending_stars_today": 28
+    },
+    "vercel-labs/agent-browser": {
+      "trending_stars_today": 812
+    },
+    "meta/astryx": {
+      "trending_stars_today": 863
+    },
+    "anthropics/skills": {
+      "trending_stars_today": 793
+    }
+  },
+  "editorial_in_scope": [
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "stars_today": "1437"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "stars_today": "28"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stars_today": "812"
+    },
+    {
+      "repo": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stars_today": "863"
+    },
+    {
+      "repo": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": "793"
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "stars_today": "460"
+    }
+  ],
+  "editorial_excluded": [
+    {
+      "repo": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "stars_today": "2372",
+      "reason": "一般帳號搜尋、GPU Kubernetes 管理或通用物理模擬；本次未見直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "dsx-ai-factory/nvke",
+      "description": "NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.",
+      "stars_today": "345",
+      "reason": "一般帳號搜尋、GPU Kubernetes 管理或通用物理模擬；本次未見直接 AI／agent／知識庫／開發自動化用途證據。"
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "stars_today": "26",
+      "reason": "一般帳號搜尋、GPU Kubernetes 管理或通用物理模擬；本次未見直接 AI／agent／知識庫／開發自動化用途證據。"
+    }
+  ],
+  "scope_note": "billion-context 雖未命中收集器簡單關鍵字，README 證實為 coding-agent 脈絡壓縮，故編輯補納。meta/astryx 因 agent-ready 設計系統納入；基礎設施與一般工具需直接用途證據。"
+}

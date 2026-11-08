@@ -1,0 +1,101 @@
+[
+  {
+    "repo": "vercel-labs/agent-browser",
+    "category": "Demo content",
+    "purpose": "以 Rust CLI 讀取瀏覽器無障礙樹並操作元素，適合逐步驗證網站工作流。",
+    "relevance": "Adam 可製作「查詢→填寫→驗證結果」的 AI 辦公自動化教案；metabiz 可用匿名測試資料示範後台操作。",
+    "risk": "iframe、冷啟動與卡住分頁仍有相容性回報；#2472 描述跨來源 iframe 無法定位，須以自己的網站重現。避免把成功呼叫當成操作完成。",
+    "issue": 2472,
+    "tomorrow": "以登入後測試頁驗證 iframe 與頁面改版後 ref 是否失效，記錄成功率與重試次數。",
+    "issue_url": "https://github.com/vercel-labs/agent-browser/issues/2472",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "milind-soni/OpenMausBot",
+    "category": "Demo content",
+    "purpose": "在聊天式介面調度 Claude／Codex 等多個 bots，為代理提供獨立電腦與應用連接。",
+    "relevance": "適合 Adam 的 AI 辦公室系列：研究、整理資料與產出報告分工；metabiz 可先模擬知識整理交接。",
+    "risk": "版本快速變動、外部連接器與電腦權限增加維護面；#4913 回報背景任務完成後多 bot 工作流仍停滯，不能預設長任務可無人值守。",
+    "issue": 4913,
+    "tomorrow": "在隔離測試環境跑兩個代理交接，驗證背景工作完成通知、權限與取消流程。",
+    "issue_url": "https://github.com/milind-soni/OpenMausBot/issues/4913",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "ranxianglei/billion-context",
+    "category": "Watch",
+    "purpose": "在 agent 與模型 API 間壓縮與重寫脈絡，支援長時間 coding session。",
+    "relevance": "Adam 可製作長任務的成本與記憶品質比較；know metabiz wiki 可借鏡摘要分層，但不直接拿對話摘要取代來源文件。",
+    "risk": "README 的節省成本與 benchmark 是專案主張，本次未重跑；#5968 回報 fork 後保留的壓縮區塊遺失，API 串流、工具呼叫與模型切換需驗證。授權辨識為 NOASSERTION。",
+    "issue": 5968,
+    "tomorrow": "固定模型與任務，比較原始對話、壓縮與 RAG 的關鍵事實保留率、token 與錯誤率。",
+    "issue_url": "https://github.com/ranxianglei/billion-context/issues/5968",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "NVIDIA/auto-ontology",
+    "category": "Deep research",
+    "purpose": "從企業 metadata 建立語意與圖譜脈絡層，透過 MCP、CLI 與 API 供代理查詢名詞、定義與關係。",
+    "relevance": "直接對應 know metabiz wiki 的欄位口徑與跨系統關係；Adam 可用匿名 CRM 欄位示範 RAG 與語意資料層的差異。",
+    "risk": "跨資料源定義對齊需要人工維護；#463 回報 PostgreSQL connector 遺漏跨 schema 外鍵，#462 關注無法回答時的判斷。README 表示目前不接受外部貢獻，須評估修復依賴。",
+    "issue": 463,
+    "tomorrow": "以兩個 schema 的匿名資料測試外鍵、口徑衝突與來源追溯，觀察 connector 修復。",
+    "issue_url": "https://github.com/NVIDIA/auto-ontology/issues/463",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "cloudflare/security-audit-skill",
+    "category": "Deep research",
+    "purpose": "以多階段代理進行偵察、覆蓋追蹤、漏洞候選驗證與結構化稽核報告。",
+    "relevance": "適合 Adam 的進階 coding-agent 課與 metabiz 稽核研究：用已知缺陷程式測試證據、覆蓋與誤報。",
+    "risk": "本次星數持續上升，但最近 push 仍在九月；#135 的驗證器與測試失敗回報仍值得追查。PR #141 提議強制逐字證據，不代表主分支已修復。",
+    "issue": 135,
+    "tomorrow": "追蹤 #141 與 #138 的合併情況，以已知案例量測誤報及證據可重現性。",
+    "issue_url": "https://github.com/cloudflare/security-audit-skill/issues/135",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "category": "Skill candidate",
+    "purpose": "將工程設計、需求釐清與開發方法整理成可組合的 agent skills。",
+    "relevance": "適合 Adam 的 Skills 封裝與工程工作流課程；可挑單一需求釐清技能，轉成 metabiz 內部需求訪談教材。",
+    "risk": "高總星數不等同高相對成長；#1399 回報 implement-spec 留下標籤與 ticket 殘留，#1398 回報 grilling 脈絡遺失。安裝前應按平台檢查工具依賴。",
+    "issue": 1399,
+    "tomorrow": "挑單一技能檢查輸入、輸出與停止條件，驗證任務完成後 ticket／標籤清理。",
+    "issue_url": "https://github.com/mattpocock/skills/issues/1399",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "anthropics/skills",
+    "category": "Skill candidate",
+    "purpose": "提供動態載入指令、腳本與資源的 Agent Skills 範例，涵蓋文件、設計與企業工作流。",
+    "relevance": "適合 Adam 的文件自動化與 Skills 入門；以匿名報價表、簡報與報告設計可重複的驗收案例。",
+    "risk": "範例仍需環境驗證；#2155 是拒絕重算含 Excel data tables 工作簿的修正提案，#1352 回報評估工作者交叉配對。API 未辨識到授權；README 宣稱多數與文件技能採 Apache 2.0，實際採用前仍應核對各子目錄 LICENSE。",
+    "issue": 2155,
+    "tomorrow": "觀察試算表與技能評估修正是否合併，再用含資料表的測試檔驗證輸出。",
+    "issue_url": "https://github.com/anthropics/skills/pull/2155",
+    "issue_kind": "PR"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "將多格式來源持續匯入為互連 wiki，支援來源追溯、知識圖譜與增量更新。",
+    "relevance": "與 know metabiz wiki 最直接相關；Adam 可用同一批匿名文件比較傳統 RAG 與持久 wiki 的維護成本與答案可追溯性。",
+    "risk": "最近程式 push 與 release 比熱門代理工具慢；#837 回報重新匯入縮短頁面並產生重複，#847 回報 Linux 啟動依賴。API 授權為 NOASSERTION，未核定商用條款。",
+    "issue": 837,
+    "tomorrow": "測試重複匯入、來源刪除、長文件與匯出還原；追蹤分段匯入 PR #846。",
+    "issue_url": "https://github.com/nashsu/llm_wiki/issues/837",
+    "issue_kind": "issue"
+  },
+  {
+    "repo": "google/skills",
+    "category": "Reference only",
+    "purpose": "彙整 Google 產品與技術的 Agent Skills，包含 Cloud IAM、解決方案與產品工作流。",
+    "relevance": "Adam 可參考官方技能目錄與情境寫法；對辦公自動化的價值取決於實際使用的 Google 產品，Cloud 技能不直接等同 Workspace 自動化。",
+    "risk": "#245 回報過寬 IAM 建議，#244 質疑 eval 動態執行；均是尚未重現的提報。應逐個技能檢查依賴與權限，不能只因官方來源而整包採用。",
+    "issue": 245,
+    "tomorrow": "優先檢查與現有工具相關的單一技能，追蹤 IAM 與動態執行回報的處理。",
+    "issue_url": "https://github.com/google/skills/issues/245",
+    "issue_kind": "issue"
+  }
+]
