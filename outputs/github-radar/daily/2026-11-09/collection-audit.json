@@ -1,0 +1,98 @@
+{
+  "raw_count": 425,
+  "retained_count": 391,
+  "excluded_stale_names": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "merged_redirect_duplicates": [
+    "HarnessMD/munder-difflin",
+    "LibreChat-AI/LibreChat",
+    "OpenMontageInc/OpenMontage",
+    "ParadevAI/Paradev",
+    "Twigpine/openclaude",
+    "ai-job-search-dev/ai-job-search",
+    "career-ops-hq/career-ops",
+    "cheaper-inference/OmniRoute",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "feder-cr/Jobs_Applier_AI_Agent",
+    "tryatlas/atlas"
+  ],
+  "excluded_trending_names": [
+    "google-deepmind/mujoco",
+    "ruvnet/RuView",
+    "sherlock-project/sherlock"
+  ],
+  "observed_at": "2026-11-10T00:22:48.859158+08:00",
+  "excluded_out_of_scope": [
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "dsx-ai-factory/nvke",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "rustfs/rustfs",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "本次 metadata、topics 與 README 摘要未呈現直接 LLM、MCP、agent、Skills、RAG、wiki 或 AI 開發自動化用途；一般工具與基礎設施不因名稱或可能被 AI 使用而納入。"
+    }
+  ]
+}

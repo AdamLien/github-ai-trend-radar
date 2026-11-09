@@ -1,0 +1,1217 @@
+[
+  {
+    "full_name": "meta/astryx",
+    "observed_at": "2026-11-10T00:11:53.364176+08:00",
+    "metadata": {
+      "full_name": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stargazers_count": 18988,
+      "pushed_at": "2026-11-09T16:11:32Z",
+      "open_issues_count": 625,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/meta__astryx.md",
+    "releases": [
+      {
+        "tag_name": "v0.7.11",
+        "published_at": "2026-11-07T15:00:47Z",
+        "html_url": "https://github.com/meta/astryx/releases/tag/v0.7.11",
+        "name": "Astryx v0.7.11"
+      },
+      {
+        "tag_name": "v0.7.10",
+        "published_at": "2026-11-06T18:53:38Z",
+        "html_url": "https://github.com/meta/astryx/releases/tag/v0.7.10",
+        "name": "Astryx v0.7.10"
+      },
+      {
+        "tag_name": "v0.7.9",
+        "published_at": "2026-11-06T04:17:11Z",
+        "html_url": "https://github.com/meta/astryx/releases/tag/v0.7.9",
+        "name": "Astryx v0.7.9"
+      }
+    ],
+    "issues": [
+      {
+        "number": 10824,
+        "title": "chore(release): version packages for v0.7.12",
+        "state": "open",
+        "created_at": "2026-11-09T16:11:34Z",
+        "updated_at": "2026-11-09T16:11:46Z",
+        "html_url": "https://github.com/meta/astryx/pull/10824",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10824",
+          "html_url": "https://github.com/meta/astryx/pull/10824",
+          "diff_url": "https://github.com/meta/astryx/pull/10824.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10824.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10819,
+        "title": "docs(records): LayoutPanel publishes its applied inset; Lightbox's gaps for 0, announcements and Tab are closed",
+        "state": "open",
+        "created_at": "2026-11-09T15:54:55Z",
+        "updated_at": "2026-11-09T16:11:14Z",
+        "html_url": "https://github.com/meta/astryx/pull/10819",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10819",
+          "html_url": "https://github.com/meta/astryx/pull/10819",
+          "diff_url": "https://github.com/meta/astryx/pull/10819.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10819.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10823,
+        "title": "test(BottomSheet): timestamp the reduced-motion mouse close",
+        "state": "open",
+        "created_at": "2026-11-09T16:09:01Z",
+        "updated_at": "2026-11-09T16:11:11Z",
+        "html_url": "https://github.com/meta/astryx/pull/10823",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10823",
+          "html_url": "https://github.com/meta/astryx/pull/10823",
+          "diff_url": "https://github.com/meta/astryx/pull/10823.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10823.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10821,
+        "title": "fix(SideNav): a collapsed rail's child menu paints one surface",
+        "state": "open",
+        "created_at": "2026-11-09T16:08:45Z",
+        "updated_at": "2026-11-09T16:10:52Z",
+        "html_url": "https://github.com/meta/astryx/pull/10821",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10821",
+          "html_url": "https://github.com/meta/astryx/pull/10821",
+          "diff_url": "https://github.com/meta/astryx/pull/10821.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10821.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10822,
+        "title": "fix(core): a swizzled overlay and the package's share one page scroll lock (AST-110 FR3)",
+        "state": "open",
+        "created_at": "2026-11-09T16:08:51Z",
+        "updated_at": "2026-11-09T16:10:47Z",
+        "html_url": "https://github.com/meta/astryx/pull/10822",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10822",
+          "html_url": "https://github.com/meta/astryx/pull/10822",
+          "diff_url": "https://github.com/meta/astryx/pull/10822.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10822.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10817,
+        "title": "feat(core): shared-realm helpers hold every kind of cross-module state (AST-110 FR3)",
+        "state": "open",
+        "created_at": "2026-11-09T15:50:30Z",
+        "updated_at": "2026-11-09T16:10:44Z",
+        "html_url": "https://github.com/meta/astryx/pull/10817",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10817",
+          "html_url": "https://github.com/meta/astryx/pull/10817",
+          "diff_url": "https://github.com/meta/astryx/pull/10817.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10817.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10807,
+        "title": "test(core): a source check fails on module-scope cross-module identity outside a shared key (AST-110 FR3)",
+        "state": "open",
+        "created_at": "2026-11-09T14:58:26Z",
+        "updated_at": "2026-11-09T16:10:42Z",
+        "html_url": "https://github.com/meta/astryx/pull/10807",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10807",
+          "html_url": "https://github.com/meta/astryx/pull/10807",
+          "diff_url": "https://github.com/meta/astryx/pull/10807.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10807.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 10788,
+        "title": "test(interaction-harness): too little to judge is named starvation",
+        "state": "open",
+        "created_at": "2026-11-09T13:33:35Z",
+        "updated_at": "2026-11-09T16:10:03Z",
+        "html_url": "https://github.com/meta/astryx/pull/10788",
+        "pull_request": {
+          "url": "https://api.github.com/repos/meta/astryx/pulls/10788",
+          "html_url": "https://github.com/meta/astryx/pull/10788",
+          "diff_url": "https://github.com/meta/astryx/pull/10788.diff",
+          "patch_url": "https://github.com/meta/astryx/pull/10788.patch",
+          "merged_at": null
+        }
+      }
+    ]
+  },
+  {
+    "full_name": "garrytan/gbrain",
+    "observed_at": "2026-11-10T00:11:53.363585+08:00",
+    "metadata": {
+      "full_name": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "stargazers_count": 31971,
+      "pushed_at": "2026-11-09T16:11:03Z",
+      "open_issues_count": 777,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/garrytan__gbrain.md",
+    "releases": [
+      {
+        "tag_name": "v0.60.623.0",
+        "published_at": "2026-11-09T14:34:14Z",
+        "html_url": "https://github.com/garrytan/gbrain/releases/tag/v0.60.623.0",
+        "name": "v0.60.623.0"
+      },
+      {
+        "tag_name": "v0.60.622.0",
+        "published_at": "2026-11-09T13:16:04Z",
+        "html_url": "https://github.com/garrytan/gbrain/releases/tag/v0.60.622.0",
+        "name": "v0.60.622.0"
+      },
+      {
+        "tag_name": "v0.60.621.0",
+        "published_at": "2026-11-09T11:58:32Z",
+        "html_url": "https://github.com/garrytan/gbrain/releases/tag/v0.60.621.0",
+        "name": "v0.60.621.0"
+      }
+    ],
+    "issues": [
+      {
+        "number": 9009,
+        "title": "repair file-drift agrees with sync on a held origin-twin page (no false no_drift)",
+        "state": "open",
+        "created_at": "2026-11-09T16:11:44Z",
+        "updated_at": "2026-11-09T16:11:49Z",
+        "html_url": "https://github.com/garrytan/gbrain/pull/9009",
+        "pull_request": {
+          "url": "https://api.github.com/repos/garrytan/gbrain/pulls/9009",
+          "html_url": "https://github.com/garrytan/gbrain/pull/9009",
+          "diff_url": "https://github.com/garrytan/gbrain/pull/9009.diff",
+          "patch_url": "https://github.com/garrytan/gbrain/pull/9009.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 9008,
+        "title": "doctor: follow-ups from the #8989 probe-deadline review",
+        "state": "open",
+        "created_at": "2026-11-09T16:07:29Z",
+        "updated_at": "2026-11-09T16:07:29Z",
+        "html_url": "https://github.com/garrytan/gbrain/issues/9008",
+        "pull_request": null
+      },
+      {
+        "number": 9007,
+        "title": "v0.60.623.0 fix(doctor): distinguish repaired oversize audit events",
+        "state": "open",
+        "created_at": "2026-11-09T16:06:40Z",
+        "updated_at": "2026-11-09T16:06:44Z",
+        "html_url": "https://github.com/garrytan/gbrain/pull/9007",
+        "pull_request": {
+          "url": "https://api.github.com/repos/garrytan/gbrain/pulls/9007",
+          "html_url": "https://github.com/garrytan/gbrain/pull/9007",
+          "diff_url": "https://github.com/garrytan/gbrain/pull/9007.diff",
+          "patch_url": "https://github.com/garrytan/gbrain/pull/9007.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 8983,
+        "title": "Large-page salvage wave 1: streamed fences, git maintenance, streaming reads, embedding at scale (ports #7605 #7648 #7638 #7650)",
+        "state": "open",
+        "created_at": "2026-11-09T12:04:35Z",
+        "updated_at": "2026-11-09T16:00:40Z",
+        "html_url": "https://github.com/garrytan/gbrain/pull/8983",
+        "pull_request": {
+          "url": "https://api.github.com/repos/garrytan/gbrain/pulls/8983",
+          "html_url": "https://github.com/garrytan/gbrain/pull/8983",
+          "diff_url": "https://github.com/garrytan/gbrain/pull/8983.diff",
+          "patch_url": "https://github.com/garrytan/gbrain/pull/8983.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 9006,
+        "title": "v0.60.623.0 fix(whoknows): abstain without supporting retrieval evidence",
+        "state": "open",
+        "created_at": "2026-11-09T15:57:19Z",
+        "updated_at": "2026-11-09T15:57:33Z",
+        "html_url": "https://github.com/garrytan/gbrain/pull/9006",
+        "pull_request": {
+          "url": "https://api.github.com/repos/garrytan/gbrain/pulls/9006",
+          "html_url": "https://github.com/garrytan/gbrain/pull/9006",
+          "diff_url": "https://github.com/garrytan/gbrain/pull/9006.diff",
+          "patch_url": "https://github.com/garrytan/gbrain/pull/9006.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 9005,
+        "title": "get --json timeline is empty for a ## Timeline section that mixes plain lines and dated bullets",
+        "state": "open",
+        "created_at": "2026-11-09T15:44:16Z",
+        "updated_at": "2026-11-09T15:44:16Z",
+        "html_url": "https://github.com/garrytan/gbrain/issues/9005",
+        "pull_request": null
+      },
+      {
+        "number": 9004,
+        "title": "repair file-drift and sync disagree on read-only mirror sources (needs a resolution policy)",
+        "state": "open",
+        "created_at": "2026-11-09T15:44:14Z",
+        "updated_at": "2026-11-09T15:44:14Z",
+        "html_url": "https://github.com/garrytan/gbrain/issues/9004",
+        "pull_request": null
+      },
+      {
+        "number": 9003,
+        "title": "v0.60.623.0 fix(serve): bound optional skillpack startup discovery",
+        "state": "open",
+        "created_at": "2026-11-09T15:44:03Z",
+        "updated_at": "2026-11-09T15:46:29Z",
+        "html_url": "https://github.com/garrytan/gbrain/pull/9003",
+        "pull_request": {
+          "url": "https://api.github.com/repos/garrytan/gbrain/pulls/9003",
+          "html_url": "https://github.com/garrytan/gbrain/pull/9003",
+          "diff_url": "https://github.com/garrytan/gbrain/pull/9003.diff",
+          "patch_url": "https://github.com/garrytan/gbrain/pull/9003.patch",
+          "merged_at": null
+        }
+      }
+    ]
+  },
+  {
+    "full_name": "anthropics/skills",
+    "observed_at": "2026-11-10T00:11:53.363974+08:00",
+    "metadata": {
+      "full_name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stargazers_count": 190474,
+      "pushed_at": "2026-11-06T22:32:32Z",
+      "open_issues_count": 1504,
+      "license": null,
+      "archived": false
+    },
+    "readme_path": "readmes/anthropics__skills.md",
+    "releases": [],
+    "issues": [
+      {
+        "number": 2169,
+        "title": "Add oss-ready skill",
+        "state": "open",
+        "created_at": "2026-11-09T16:02:41Z",
+        "updated_at": "2026-11-09T16:02:41Z",
+        "html_url": "https://github.com/anthropics/skills/pull/2169",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/skills/pulls/2169",
+          "html_url": "https://github.com/anthropics/skills/pull/2169",
+          "diff_url": "https://github.com/anthropics/skills/pull/2169.diff",
+          "patch_url": "https://github.com/anthropics/skills/pull/2169.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2168,
+        "title": "fix(pdf): process rendered pages one at a time",
+        "state": "open",
+        "created_at": "2026-11-09T13:30:59Z",
+        "updated_at": "2026-11-09T13:30:59Z",
+        "html_url": "https://github.com/anthropics/skills/pull/2168",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/skills/pulls/2168",
+          "html_url": "https://github.com/anthropics/skills/pull/2168",
+          "diff_url": "https://github.com/anthropics/skills/pull/2168.diff",
+          "patch_url": "https://github.com/anthropics/skills/pull/2168.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2167,
+        "title": "pdf: convert_pdf_to_images.py retains all rendered pages in memory",
+        "state": "open",
+        "created_at": "2026-11-09T13:17:45Z",
+        "updated_at": "2026-11-09T13:17:45Z",
+        "html_url": "https://github.com/anthropics/skills/issues/2167",
+        "pull_request": null
+      },
+      {
+        "number": 2166,
+        "title": "Remotion Best Pratices To Use For Beginners.",
+        "state": "open",
+        "created_at": "2026-11-09T13:10:40Z",
+        "updated_at": "2026-11-09T13:10:40Z",
+        "html_url": "https://github.com/anthropics/skills/issues/2166",
+        "pull_request": null
+      },
+      {
+        "number": 2155,
+        "title": "fix(xlsx): refuse to recalculate workbooks with Excel data tables",
+        "state": "open",
+        "created_at": "2026-11-07T17:10:04Z",
+        "updated_at": "2026-11-09T02:43:21Z",
+        "html_url": "https://github.com/anthropics/skills/pull/2155",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/skills/pulls/2155",
+          "html_url": "https://github.com/anthropics/skills/pull/2155",
+          "diff_url": "https://github.com/anthropics/skills/pull/2155.diff",
+          "patch_url": "https://github.com/anthropics/skills/pull/2155.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2164,
+        "title": "Add uploaded files",
+        "state": "open",
+        "created_at": "2026-11-08T23:51:50Z",
+        "updated_at": "2026-11-08T23:51:58Z",
+        "html_url": "https://github.com/anthropics/skills/pull/2164",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/skills/pulls/2164",
+          "html_url": "https://github.com/anthropics/skills/pull/2164",
+          "diff_url": "https://github.com/anthropics/skills/pull/2164.diff",
+          "patch_url": "https://github.com/anthropics/skills/pull/2164.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2140,
+        "title": "xlsx: recalculate formulas without LibreOffice (xlcalc backend)",
+        "state": "open",
+        "created_at": "2026-11-05T11:43:42Z",
+        "updated_at": "2026-11-08T23:47:59Z",
+        "html_url": "https://github.com/anthropics/skills/pull/2140",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/skills/pulls/2140",
+          "html_url": "https://github.com/anthropics/skills/pull/2140",
+          "diff_url": "https://github.com/anthropics/skills/pull/2140.diff",
+          "patch_url": "https://github.com/anthropics/skills/pull/2140.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2163,
+        "title": "mcp-builder: teach v2 of the MCP Python SDK",
+        "state": "open",
+        "created_at": "2026-11-08T19:52:29Z",
+        "updated_at": "2026-11-08T19:52:29Z",
+        "html_url": "https://github.com/anthropics/skills/pull/2163",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/skills/pulls/2163",
+          "html_url": "https://github.com/anthropics/skills/pull/2163",
+          "diff_url": "https://github.com/anthropics/skills/pull/2163.diff",
+          "patch_url": "https://github.com/anthropics/skills/pull/2163.patch",
+          "merged_at": null
+        }
+      }
+    ]
+  },
+  {
+    "full_name": "vercel-labs/agent-browser",
+    "observed_at": "2026-11-10T00:11:55.492641+08:00",
+    "metadata": {
+      "full_name": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stargazers_count": 48248,
+      "pushed_at": "2026-11-09T14:24:19Z",
+      "open_issues_count": 536,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/vercel-labs__agent-browser.md",
+    "releases": [
+      {
+        "tag_name": "v0.41.2",
+        "published_at": "2026-11-03T23:46:27Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.2",
+        "name": "v0.41.2"
+      },
+      {
+        "tag_name": "v0.41.1",
+        "published_at": "2026-11-01T15:29:56Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.1",
+        "name": "v0.41.1"
+      },
+      {
+        "tag_name": "v0.41.0",
+        "published_at": "2026-10-29T02:52:55Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/releases/tag/v0.41.0",
+        "name": "v0.41.0"
+      }
+    ],
+    "issues": [
+      {
+        "number": 1612,
+        "title": "Action policy ignores the documented categories: the docs' own example denies 14 of 15 allowed actions",
+        "state": "open",
+        "created_at": "2026-07-27T18:49:56Z",
+        "updated_at": "2026-11-09T15:11:15Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/issues/1612",
+        "pull_request": null
+      },
+      {
+        "number": 2505,
+        "title": "Omitting --allow-file-access on a later command silently drops a file:// page to about:blank",
+        "state": "open",
+        "created_at": "2026-11-09T15:11:14Z",
+        "updated_at": "2026-11-09T15:11:14Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/issues/2505",
+        "pull_request": null
+      },
+      {
+        "number": 2504,
+        "title": "Keep the dashboard usable when browser storage is unavailable",
+        "state": "open",
+        "created_at": "2026-11-09T14:55:31Z",
+        "updated_at": "2026-11-09T14:55:36Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/pull/2504",
+        "pull_request": {
+          "url": "https://api.github.com/repos/vercel-labs/agent-browser/pulls/2504",
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2504",
+          "diff_url": "https://github.com/vercel-labs/agent-browser/pull/2504.diff",
+          "patch_url": "https://github.com/vercel-labs/agent-browser/pull/2504.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2503,
+        "title": "Discard stale dashboard frames and release decoded image bitmaps",
+        "state": "open",
+        "created_at": "2026-11-09T14:55:15Z",
+        "updated_at": "2026-11-09T14:55:20Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/pull/2503",
+        "pull_request": {
+          "url": "https://api.github.com/repos/vercel-labs/agent-browser/pulls/2503",
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2503",
+          "diff_url": "https://github.com/vercel-labs/agent-browser/pull/2503.diff",
+          "patch_url": "https://github.com/vercel-labs/agent-browser/pull/2503.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2502,
+        "title": "Stop overlapping dashboard session polls and cancel them on cleanup",
+        "state": "open",
+        "created_at": "2026-11-09T14:55:07Z",
+        "updated_at": "2026-11-09T14:55:12Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/pull/2502",
+        "pull_request": {
+          "url": "https://api.github.com/repos/vercel-labs/agent-browser/pulls/2502",
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2502",
+          "diff_url": "https://github.com/vercel-labs/agent-browser/pull/2502.diff",
+          "patch_url": "https://github.com/vercel-labs/agent-browser/pull/2502.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2501,
+        "title": "Keep dashboard network responses attached to their selected request",
+        "state": "open",
+        "created_at": "2026-11-09T14:54:50Z",
+        "updated_at": "2026-11-09T14:54:55Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/pull/2501",
+        "pull_request": {
+          "url": "https://api.github.com/repos/vercel-labs/agent-browser/pulls/2501",
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2501",
+          "diff_url": "https://github.com/vercel-labs/agent-browser/pull/2501.diff",
+          "patch_url": "https://github.com/vercel-labs/agent-browser/pull/2501.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2500,
+        "title": "Allow retrying dashboard session closes after a failure",
+        "state": "open",
+        "created_at": "2026-11-09T14:54:44Z",
+        "updated_at": "2026-11-09T14:54:49Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/pull/2500",
+        "pull_request": {
+          "url": "https://api.github.com/repos/vercel-labs/agent-browser/pulls/2500",
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2500",
+          "diff_url": "https://github.com/vercel-labs/agent-browser/pull/2500.diff",
+          "patch_url": "https://github.com/vercel-labs/agent-browser/pull/2500.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2499,
+        "title": "Keep stale storage requests from replacing the active session data",
+        "state": "open",
+        "created_at": "2026-11-09T14:54:36Z",
+        "updated_at": "2026-11-09T14:54:42Z",
+        "html_url": "https://github.com/vercel-labs/agent-browser/pull/2499",
+        "pull_request": {
+          "url": "https://api.github.com/repos/vercel-labs/agent-browser/pulls/2499",
+          "html_url": "https://github.com/vercel-labs/agent-browser/pull/2499",
+          "diff_url": "https://github.com/vercel-labs/agent-browser/pull/2499.diff",
+          "patch_url": "https://github.com/vercel-labs/agent-browser/pull/2499.patch",
+          "merged_at": null
+        }
+      }
+    ]
+  },
+  {
+    "full_name": "milind-soni/OpenMausBot",
+    "observed_at": "2026-11-10T00:11:55.655894+08:00",
+    "metadata": {
+      "full_name": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "stargazers_count": 19389,
+      "pushed_at": "2026-11-09T16:10:03Z",
+      "open_issues_count": 916,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/milind-soni__OpenMausBot.md",
+    "releases": [
+      {
+        "tag_name": "v0.1.150",
+        "published_at": "2026-11-09T03:26:23Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.150",
+        "name": "OpenMausBot 0.1.150"
+      },
+      {
+        "tag_name": "v0.1.149",
+        "published_at": "2026-11-08T12:36:46Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.149",
+        "name": "OpenMausBot 0.1.149"
+      },
+      {
+        "tag_name": "v0.1.148",
+        "published_at": "2026-11-07T21:50:56Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/releases/tag/v0.1.148",
+        "name": "OpenMausBot 0.1.148"
+      }
+    ],
+    "issues": [
+      {
+        "number": 5102,
+        "title": "Finish the move to My Cloud on big workspaces and slow Clouds",
+        "state": "open",
+        "created_at": "2026-11-09T15:35:42Z",
+        "updated_at": "2026-11-09T16:11:47Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5102",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5102",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5102",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5102.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5102.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5093,
+        "title": "fix(browser): Linux servers download Chrome for Testing when no Chrome is installed",
+        "state": "open",
+        "created_at": "2026-11-09T15:10:49Z",
+        "updated_at": "2026-11-09T16:11:50Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5093",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5093",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5093",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5093.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5093.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5112,
+        "title": "Let a person turn an Ollama model's thinking off, or pick its level",
+        "state": "open",
+        "created_at": "2026-11-09T16:08:06Z",
+        "updated_at": "2026-11-09T16:11:21Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5112",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5112",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5112",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5112.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5112.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5106,
+        "title": "Open a computer from another one over Tailscale, and say why when it can't",
+        "state": "open",
+        "created_at": "2026-11-09T16:01:02Z",
+        "updated_at": "2026-11-09T16:11:19Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5106",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5106",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5106",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5106.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5106.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5101,
+        "title": "Memory: edit the whole MEMORY.md as text from What it remembers",
+        "state": "open",
+        "created_at": "2026-11-09T15:30:24Z",
+        "updated_at": "2026-11-09T16:11:13Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5101",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5101",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5101",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5101.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5101.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5099,
+        "title": "Outbound: at Full access, Send without asking also sends code runs without a card",
+        "state": "open",
+        "created_at": "2026-11-09T15:28:45Z",
+        "updated_at": "2026-11-09T16:11:50Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5099",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5099",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5099",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5099.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5099.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5103,
+        "title": "Let a teammate's hand-off move to the built-in browser",
+        "state": "open",
+        "created_at": "2026-11-09T15:55:50Z",
+        "updated_at": "2026-11-09T16:10:56Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5103",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5103",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5103",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5103.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5103.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5113,
+        "title": "Train nov9-a: 29 PRs (19 from Aditya, 9 small fixes, relay test flake)",
+        "state": "open",
+        "created_at": "2026-11-09T16:09:01Z",
+        "updated_at": "2026-11-09T16:10:40Z",
+        "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5113",
+        "pull_request": {
+          "url": "https://api.github.com/repos/milind-soni/OpenMausBot/pulls/5113",
+          "html_url": "https://github.com/milind-soni/OpenMausBot/pull/5113",
+          "diff_url": "https://github.com/milind-soni/OpenMausBot/pull/5113.diff",
+          "patch_url": "https://github.com/milind-soni/OpenMausBot/pull/5113.patch",
+          "merged_at": null
+        }
+      }
+    ]
+  },
+  {
+    "full_name": "nashsu/llm_wiki",
+    "observed_at": "2026-11-10T00:11:55.856463+08:00",
+    "metadata": {
+      "full_name": "nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "stargazers_count": 21529,
+      "pushed_at": "2026-10-21T11:17:29Z",
+      "open_issues_count": 300,
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/nashsu__llm_wiki.md",
+    "releases": [
+      {
+        "tag_name": "v0.6.13",
+        "published_at": "2026-10-22T01:21:07Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.13",
+        "name": "LLM Wiki v0.6.13"
+      },
+      {
+        "tag_name": "v0.6.12",
+        "published_at": "2026-09-28T02:58:13Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.12",
+        "name": "LLM Wiki v0.6.12"
+      },
+      {
+        "tag_name": "v0.6.11",
+        "published_at": "2026-08-25T07:08:04Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/releases/tag/v0.6.11",
+        "name": "LLM Wiki v0.6.11"
+      }
+    ],
+    "issues": [
+      {
+        "number": 806,
+        "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+        "state": "open",
+        "created_at": "2026-10-05T06:36:04Z",
+        "updated_at": "2026-11-09T04:35:19Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/806",
+        "pull_request": null
+      },
+      {
+        "number": 848,
+        "title": "Bug: Review \"Create Page\" and Lint \"Fix\" buttons don't actually apply changes to the target file",
+        "state": "open",
+        "created_at": "2026-11-09T04:20:05Z",
+        "updated_at": "2026-11-09T04:20:05Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/848",
+        "pull_request": null
+      },
+      {
+        "number": 158,
+        "title": "开发者好像没有建立一个微信群，试建个微信群欢迎感兴趣者加入交流",
+        "state": "open",
+        "created_at": "2026-05-10T13:17:58Z",
+        "updated_at": "2026-11-09T00:32:44Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/158",
+        "pull_request": null
+      },
+      {
+        "number": 846,
+        "title": "fix: generate long sources section by section",
+        "state": "open",
+        "created_at": "2026-11-03T20:59:35Z",
+        "updated_at": "2026-11-05T05:45:43Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/846",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/846",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/846",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/846.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/846.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 847,
+        "title": "Linux: startup panic in libappindicator-sys when libayatana-appindicator3 is not installed",
+        "state": "open",
+        "created_at": "2026-11-04T13:09:04Z",
+        "updated_at": "2026-11-04T13:09:04Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/issues/847",
+        "pull_request": null
+      },
+      {
+        "number": 835,
+        "title": "feat: make side panels freely resizable",
+        "state": "open",
+        "created_at": "2026-11-03T02:52:13Z",
+        "updated_at": "2026-11-03T20:53:41Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/835",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/835",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/835",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/835.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/835.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 845,
+        "title": "feat(search): add Keenable web search provider (key-free by default)",
+        "state": "open",
+        "created_at": "2026-11-03T14:21:12Z",
+        "updated_at": "2026-11-03T14:21:45Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/845",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/845.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/845.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 841,
+        "title": "feat(search): add DeepSeek Search and research Fetch",
+        "state": "open",
+        "created_at": "2026-11-03T04:36:50Z",
+        "updated_at": "2026-11-03T05:07:43Z",
+        "html_url": "https://github.com/nashsu/llm_wiki/pull/841",
+        "pull_request": {
+          "url": "https://api.github.com/repos/nashsu/llm_wiki/pulls/841",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/841",
+          "diff_url": "https://github.com/nashsu/llm_wiki/pull/841.diff",
+          "patch_url": "https://github.com/nashsu/llm_wiki/pull/841.patch",
+          "merged_at": null
+        }
+      }
+    ]
+  },
+  {
+    "full_name": "NVIDIA/auto-ontology",
+    "observed_at": "2026-11-10T00:11:57.986616+08:00",
+    "metadata": {
+      "full_name": "NVIDIA/auto-ontology",
+      "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "stargazers_count": 10890,
+      "pushed_at": "2026-11-07T21:54:29Z",
+      "open_issues_count": 94,
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/NVIDIA__auto-ontology.md",
+    "releases": [],
+    "issues": [
+      {
+        "number": 456,
+        "title": "Forward database_name on POST /api/semantic-compilation/reset",
+        "state": "open",
+        "created_at": "2026-11-07T13:53:12Z",
+        "updated_at": "2026-11-09T15:51:03Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/pull/456",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/auto-ontology/pulls/456",
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/456",
+          "diff_url": "https://github.com/NVIDIA/auto-ontology/pull/456.diff",
+          "patch_url": "https://github.com/NVIDIA/auto-ontology/pull/456.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 455,
+        "title": "Read INGEST_INTERVAL_HOURS in DataScheduler",
+        "state": "open",
+        "created_at": "2026-11-07T13:53:08Z",
+        "updated_at": "2026-11-09T15:44:51Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/pull/455",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/auto-ontology/pulls/455",
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/455",
+          "diff_url": "https://github.com/NVIDIA/auto-ontology/pull/455.diff",
+          "patch_url": "https://github.com/NVIDIA/auto-ontology/pull/455.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 472,
+        "title": "Catalog search never matches non-ASCII synonyms",
+        "state": "open",
+        "created_at": "2026-11-09T03:19:35Z",
+        "updated_at": "2026-11-09T14:07:14Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/issues/472",
+        "pull_request": null
+      },
+      {
+        "number": 448,
+        "title": "Forward database_name through POST /api/semantic-compilation/reset",
+        "state": "open",
+        "created_at": "2026-11-07T07:36:54Z",
+        "updated_at": "2026-11-09T08:41:02Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/pull/448",
+        "pull_request": {
+          "url": "https://api.github.com/repos/NVIDIA/auto-ontology/pulls/448",
+          "html_url": "https://github.com/NVIDIA/auto-ontology/pull/448",
+          "diff_url": "https://github.com/NVIDIA/auto-ontology/pull/448.diff",
+          "patch_url": "https://github.com/NVIDIA/auto-ontology/pull/448.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 475,
+        "title": "[Integration]: proposal for human-reviewed approval of Auto Ontology outputs (ODAP)",
+        "state": "open",
+        "created_at": "2026-11-09T05:28:58Z",
+        "updated_at": "2026-11-09T05:28:58Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/issues/475",
+        "pull_request": null
+      },
+      {
+        "number": 443,
+        "title": "Model export returns foreign_keys, joins, and semantic_fks without ORDER BY",
+        "state": "open",
+        "created_at": "2026-11-07T07:04:29Z",
+        "updated_at": "2026-11-09T04:37:55Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/issues/443",
+        "pull_request": null
+      },
+      {
+        "number": 474,
+        "title": "Chart CSV export opens garbled in Excel and drops non-ASCII titles from the filename",
+        "state": "open",
+        "created_at": "2026-11-09T03:19:42Z",
+        "updated_at": "2026-11-09T03:19:42Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/issues/474",
+        "pull_request": null
+      },
+      {
+        "number": 473,
+        "title": "Date format inference misses `YYYY.MM.DD` and East Asian date forms",
+        "state": "open",
+        "created_at": "2026-11-09T03:19:39Z",
+        "updated_at": "2026-11-09T03:19:39Z",
+        "html_url": "https://github.com/NVIDIA/auto-ontology/issues/473",
+        "pull_request": null
+      }
+    ]
+  },
+  {
+    "full_name": "mattpocock/skills",
+    "observed_at": "2026-11-10T00:11:58.021800+08:00",
+    "metadata": {
+      "full_name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stargazers_count": 319375,
+      "pushed_at": "2026-11-09T14:03:07Z",
+      "open_issues_count": 227,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/mattpocock__skills.md",
+    "releases": [
+      {
+        "tag_name": "v1.3.2",
+        "published_at": "2026-10-29T10:27:41Z",
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.2",
+        "name": "v1.3.2"
+      },
+      {
+        "tag_name": "v1.3.1",
+        "published_at": "2026-10-04T12:48:18Z",
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.1",
+        "name": "v1.3.1"
+      },
+      {
+        "tag_name": "v1.3.0",
+        "published_at": "2026-10-04T12:47:22Z",
+        "html_url": "https://github.com/mattpocock/skills/releases/tag/v1.3.0",
+        "name": "v1.3.0"
+      }
+    ],
+    "issues": [
+      {
+        "number": 1123,
+        "title": "Remove the harness-specific Skill tool dependency from grill-me and grill-with-docs",
+        "state": "open",
+        "created_at": "2026-09-24T15:20:12Z",
+        "updated_at": "2026-11-09T15:30:41Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1123",
+        "pull_request": null
+      },
+      {
+        "number": 1405,
+        "title": "/implement gets lazy and each [x] AC turns into many continue prompts",
+        "state": "open",
+        "created_at": "2026-11-09T14:54:14Z",
+        "updated_at": "2026-11-09T14:58:38Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1405",
+        "pull_request": null
+      },
+      {
+        "number": 1376,
+        "title": "domain-modeling: never reads the domain-docs pointer when the glossary filename already matches",
+        "state": "open",
+        "created_at": "2026-11-02T19:27:26Z",
+        "updated_at": "2026-11-09T03:59:29Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1376",
+        "pull_request": null
+      },
+      {
+        "number": 1403,
+        "title": "to-tickets: gh targets the upstream repo in a fork clone, and the generated tracker doc does not warn",
+        "state": "open",
+        "created_at": "2026-11-08T23:13:47Z",
+        "updated_at": "2026-11-08T23:13:54Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1403",
+        "pull_request": null
+      },
+      {
+        "number": 1402,
+        "title": "grilling: a confirmation that brings new facts is treated as the end of the session",
+        "state": "open",
+        "created_at": "2026-11-08T23:13:42Z",
+        "updated_at": "2026-11-08T23:13:50Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1402",
+        "pull_request": null
+      },
+      {
+        "number": 1401,
+        "title": "grilling: a recommendation built on a pending fact gets retracted",
+        "state": "open",
+        "created_at": "2026-11-08T23:13:37Z",
+        "updated_at": "2026-11-08T23:13:45Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1401",
+        "pull_request": null
+      },
+      {
+        "number": 1399,
+        "title": "implement-spec: resolved tickets keep ready-for-agent labels and ticket debris after the run",
+        "state": "open",
+        "created_at": "2026-11-08T15:41:44Z",
+        "updated_at": "2026-11-08T15:41:52Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1399",
+        "pull_request": null
+      },
+      {
+        "number": 1373,
+        "title": "software-factory: YAML parse error due to unquoted colon in description front matter",
+        "state": "open",
+        "created_at": "2026-11-02T11:49:21Z",
+        "updated_at": "2026-11-08T15:16:41Z",
+        "html_url": "https://github.com/mattpocock/skills/issues/1373",
+        "pull_request": null
+      }
+    ]
+  },
+  {
+    "full_name": "anthropics/claude-quickstarts",
+    "observed_at": "2026-11-10T00:11:58.057173+08:00",
+    "metadata": {
+      "full_name": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "stargazers_count": 19838,
+      "pushed_at": "2026-11-06T19:37:57Z",
+      "open_issues_count": 238,
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "readme_path": "readmes/anthropics__claude-quickstarts.md",
+    "releases": [],
+    "issues": [
+      {
+        "number": 544,
+        "title": "Pin install-command versions, block file:// in browser-use-demo, and harden the autonomous-coding bash hook (SkillSpector + security-audit findings)",
+        "state": "open",
+        "created_at": "2026-11-09T12:38:04Z",
+        "updated_at": "2026-11-09T14:02:10Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/issues/544",
+        "pull_request": null
+      },
+      {
+        "number": 545,
+        "title": "fix(browser-toolset): redact password values from read_page",
+        "state": "open",
+        "created_at": "2026-11-09T13:38:43Z",
+        "updated_at": "2026-11-09T13:38:43Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/pull/545",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/claude-quickstarts/pulls/545",
+          "html_url": "https://github.com/anthropics/claude-quickstarts/pull/545",
+          "diff_url": "https://github.com/anthropics/claude-quickstarts/pull/545.diff",
+          "patch_url": "https://github.com/anthropics/claude-quickstarts/pull/545.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 519,
+        "title": "browser-toolset: read_page exposes masked password input values",
+        "state": "open",
+        "created_at": "2026-10-21T11:49:35Z",
+        "updated_at": "2026-11-09T13:15:02Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/issues/519",
+        "pull_request": null
+      },
+      {
+        "number": 543,
+        "title": "Handle zero- and one-turn trajectories in the viewer",
+        "state": "open",
+        "created_at": "2026-11-09T10:49:41Z",
+        "updated_at": "2026-11-09T10:49:41Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/pull/543",
+        "pull_request": {
+          "url": "https://api.github.com/repos/anthropics/claude-quickstarts/pulls/543",
+          "html_url": "https://github.com/anthropics/claude-quickstarts/pull/543",
+          "diff_url": "https://github.com/anthropics/claude-quickstarts/pull/543.diff",
+          "patch_url": "https://github.com/anthropics/claude-quickstarts/pull/543.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 527,
+        "title": "agents: run() returns an unfinished server-tool turn on pause_turn",
+        "state": "open",
+        "created_at": "2026-10-24T17:25:30Z",
+        "updated_at": "2026-11-09T10:28:44Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/issues/527",
+        "pull_request": null
+      },
+      {
+        "number": 427,
+        "title": "It don't work",
+        "state": "open",
+        "created_at": "2026-06-20T03:32:24Z",
+        "updated_at": "2026-11-09T10:27:33Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/issues/427",
+        "pull_request": null
+      },
+      {
+        "number": 538,
+        "title": "Open-source MCP runtime behavior security tools available",
+        "state": "open",
+        "created_at": "2026-11-08T10:05:14Z",
+        "updated_at": "2026-11-09T10:26:58Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/issues/538",
+        "pull_request": null
+      },
+      {
+        "number": 535,
+        "title": "computer-use-demo: the bash tool never reports the exit status, so `is_error` is decided by stderr alone",
+        "state": "open",
+        "created_at": "2026-11-05T22:19:51Z",
+        "updated_at": "2026-11-09T10:26:18Z",
+        "html_url": "https://github.com/anthropics/claude-quickstarts/issues/535",
+        "pull_request": null
+      }
+    ]
+  }
+]

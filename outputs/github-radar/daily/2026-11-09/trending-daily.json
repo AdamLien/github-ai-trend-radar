@@ -1,0 +1,84 @@
+{
+  "observed_at": "2026-11-10T00:11:28.435662+08:00",
+  "url": "https://github.com/trending?since=daily",
+  "cards": [
+    {
+      "repo": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": "1052",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stars_today": "3324",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "stars_today": "4294",
+      "retained": false,
+      "scope_reason": "帳號搜尋工具，本次頁面未呈現 AI、MCP 或開發代理用途。"
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "stars_today": "579",
+      "retained": false,
+      "scope_reason": "通用物理模擬器，本次雷達聚焦 LLM 與代理工作流，不因組織名稱而納入。"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "stars_today": "560",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "stars_today": "215",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stars_today": "914",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "stars_today": "245",
+      "retained": false,
+      "scope_reason": "WiFi 感測與空間監測，未呈現本次聚焦的 LLM、MCP 或辦公開發自動化用途。"
+    },
+    {
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "stars_today": "505",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "stars_today": "31",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    },
+    {
+      "repo": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
+      "stars_today": "1589",
+      "retained": true,
+      "scope_reason": "描述直接涉及 Agent Skills、coding agent、LLM、MCP、agent 記憶或 AI 自動化。"
+    }
+  ],
+  "retained_count": 8
+}

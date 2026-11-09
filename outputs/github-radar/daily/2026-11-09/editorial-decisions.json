@@ -1,0 +1,83 @@
+[
+  {
+    "repo": "meta/astryx",
+    "recommendation": "Demo content",
+    "purpose": "為人與 coding agent 協作設計的 React／StyleX 元件、主題與設計系統。",
+    "relevance": "Adam 可示範以同一份設計規格產出 AI 辦公室後台；metabiz 可評估 CRM 與 wiki 介面一致性。",
+    "risk": "README 標示 Beta，依賴 React 19+ 與 StyleX；元件可用性與升級成本須實測，不能因高熱度直接遷移。",
+    "next_step": "用表格、表單、側欄各做一個案例，驗證鍵盤操作及繁中排版。",
+    "issue": 10821
+  },
+  {
+    "repo": "milind-soni/OpenMausBot",
+    "recommendation": "Demo content",
+    "purpose": "聊天式多 bot 工作台；README 描述 Claude／Codex agent 各自使用電腦與連接應用。",
+    "relevance": "適合 Adam 的 AI 辦公室多代理分工內容，示範研究、整理及報告交接；metabiz 先以匿名 wiki 資料測試。",
+    "risk": "快速版本更新與電腦、連接器權限提高維護面；近期討論涉及大型 workspace 遷移與跨電腦交接，不能預設長任務穩定完成。",
+    "next_step": "跑兩個 agent 交接任務，記錄權限、等待、取消與結果驗證。",
+    "issue": 5102
+  },
+  {
+    "repo": "vercel-labs/agent-browser",
+    "recommendation": "Demo content",
+    "purpose": "以 CLI 讀取瀏覽器無障礙樹並操作元素，適合可重複的網站自動化。",
+    "relevance": "Adam 可製作查詢、填表、驗證結果的辦公自動化教案；metabiz 可用測試後台檢驗流程可靠性。",
+    "risk": "issue #1612 回報 action policy 與文件分類不符；#2505 回報 file access 旗標影響後續頁面。需驗證允許清單，不能把工具回傳成功當工作完成。",
+    "next_step": "以測試頁驗證 action policy、檔案頁與頁面重載後元素定位。",
+    "issue": 1612
+  },
+  {
+    "repo": "NVIDIA/auto-ontology",
+    "recommendation": "Deep research",
+    "purpose": "從企業 metadata 建立語意與知識圖譜脈絡層，透過 MCP、CLI、API 提供資料定義、關係與來源。",
+    "relevance": "直接對應 know metabiz wiki 的業務名詞與跨系統欄位定義；Adam 可比較一般 RAG 與具語意定義的查詢。",
+    "risk": "issue #472 回報非 ASCII 同義詞搜尋無法匹配，對繁中尤其相關；README 表示目前不接受外部貢獻，修復仍依賴維護者。",
+    "next_step": "用繁中、英文同義詞及跨 schema 關係建立小型匿名測試集。",
+    "issue": 472
+  },
+  {
+    "repo": "garrytan/gbrain",
+    "recommendation": "Watch",
+    "purpose": "為既有 agent 提供可控記憶，保存明確事實、來源、修正與撤回，支援跨 agent 共用。",
+    "relevance": "可作為 know metabiz wiki 的來源記憶與撤回機制參考；Adam 可示範同一知識在不同 agent 間如何維持一致。",
+    "risk": "本日首次納入、沒有前日基準；release 頻繁不等於成熟。近期 file-drift 修復 PR 尚未合併，需測試同步、撤回與個人內容界線。",
+    "next_step": "測試一筆事實新增、修正、撤回後，兩個 agent 的檢索結果。",
+    "issue": 9009
+  },
+  {
+    "repo": "anthropics/skills",
+    "recommendation": "Skill candidate",
+    "purpose": "提供可動態載入指令、腳本與資源的 skills 範例，涵蓋文件、設計、開發與企業流程。",
+    "relevance": "Adam 可用來教可重複工作法與驗收；metabiz 可挑選文件輸出流程，再補公司範本與人工檢查。",
+    "risk": "各目錄授權不同，須逐項查閱；#2167 回報 PDF 轉圖保留全部頁面造成記憶體問題，相關 PR 不等於已修復。",
+    "next_step": "選一個文件 skill 用長 PDF 測試記憶體、版面與輸出驗收。",
+    "issue": 2167
+  },
+  {
+    "repo": "mattpocock/skills",
+    "recommendation": "Skill candidate",
+    "purpose": "將需求釐清、工程設計與開發方法拆成小型、可組合的 agent skills。",
+    "relevance": "適合 Adam 的 coding-agent 課程設計與內容案例；metabiz 可用於需求拆解、驗收與 wiki 術語整理。",
+    "risk": "#1123 涉及 harness 專用 Skill tool 依賴；#1405 回報實作需多次提示才繼續。先驗證現用 agent 的工具與持續執行行為。",
+    "next_step": "比較需求到實作的一輪完成率，確認輸出可追溯到驗收條件。",
+    "issue": 1405
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "recommendation": "Deep research",
+    "purpose": "將多格式來源增量整理成互連 wiki，包含來源追溯、來源限定檢索與知識圖譜。",
+    "relevance": "與 know metabiz wiki 最直接相關；Adam 可用同一組文件比較臨時 RAG 回答與持久 wiki 的更新、查證成本。",
+    "risk": "近期 push 較慢且授權 API 回傳 NOASSERTION；#806 回報 PDF 內容解析偏差，#848 回報頁面操作未真正寫回，須實測來源與持久化。",
+    "next_step": "用繁中 PDF、含表格文件與來源刪改測試引用正確率及 wiki 更新。",
+    "issue": 806
+  },
+  {
+    "repo": "anthropics/claude-quickstarts",
+    "recommendation": "Reference only",
+    "purpose": "提供客服知識庫、資料分析、computer use 與瀏覽器操作等 Claude 應用起始範例。",
+    "relevance": "可為 Adam 的教學與 AI 辦公自動化 demo 提供結構參考，metabiz 可借鏡客服連接知識庫的流程。",
+    "risk": "#519 回報 read_page 暴露密碼欄位值，#545 是尚未合併的遮罩 PR；範例仍需權限、依賴與輸出遮罩設計後才適合實際資料。",
+    "next_step": "追蹤密碼遮罩與安裝版本固定的修復狀態，先用合成資料示範。",
+    "issue": 519
+  }
+]
