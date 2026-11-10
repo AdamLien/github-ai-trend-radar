@@ -1,0 +1,123 @@
+{
+  "url": "https://github.com/trending?since=daily",
+  "observed_at": "2026-11-10T16:11:46.769796+00:00",
+  "cards": [
+    {
+      "repo": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stars_today": "3111"
+    },
+    {
+      "repo": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "stars_today": "1676"
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": "465"
+    },
+    {
+      "repo": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "stars_today": "530"
+    },
+    {
+      "repo": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "stars_today": "453"
+    },
+    {
+      "repo": "we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "stars_today": "184"
+    },
+    {
+      "repo": "homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "stars_today": "792"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
+      "stars_today": "775"
+    },
+    {
+      "repo": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "stars_today": "2387"
+    },
+    {
+      "repo": "tokio-rs/topcoat",
+      "description": "A batteries-included framework for building web apps",
+      "stars_today": "192"
+    },
+    {
+      "repo": "ranxianglei/billion-context",
+      "description": "A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话， 兼顾小窗口(100k上下文足矣)省token(省5倍token) . billion-context is all you need",
+      "stars_today": "374"
+    },
+    {
+      "repo": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "stars_today": "1223"
+    }
+  ],
+  "keyword_filtered": {
+    "meta/astryx": {
+      "trending_stars_today": 3111
+    },
+    "anthropics/skills": {
+      "trending_stars_today": 1676
+    },
+    "addyosmani/agent-skills": {
+      "trending_stars_today": 465
+    },
+    "anthropics/claude-quickstarts": {
+      "trending_stars_today": 530
+    },
+    "homeassistant-ai/ha-mcp": {
+      "trending_stars_today": 792
+    },
+    "vercel-labs/agent-browser": {
+      "trending_stars_today": 775
+    },
+    "mattpocock/skills": {
+      "trending_stars_today": 1223
+    }
+  },
+  "scope_review": {
+    "included": [
+      "meta/astryx",
+      "anthropics/skills",
+      "addyosmani/agent-skills",
+      "anthropics/claude-quickstarts",
+      "homeassistant-ai/ha-mcp",
+      "vercel-labs/agent-browser",
+      "ranxianglei/billion-context",
+      "mattpocock/skills"
+    ],
+    "excluded": [
+      {
+        "repo": "google-deepmind/mujoco",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      },
+      {
+        "repo": "we-promise/sure",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      },
+      {
+        "repo": "sherlock-project/sherlock",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      },
+      {
+        "repo": "tokio-rs/topcoat",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      }
+    ],
+    "keyword_false_negative": [
+      "ranxianglei/billion-context"
+    ],
+    "note": "人工語意篩選將 LLM 上下文壓縮納入；不把一般框架、個人財務、帳號搜尋或通用物理模擬當成 AI 候選。"
+  }
+}

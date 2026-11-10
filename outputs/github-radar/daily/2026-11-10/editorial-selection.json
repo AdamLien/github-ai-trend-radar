@@ -1,0 +1,72 @@
+[
+  {
+    "repo": "meta/astryx",
+    "decision": "Deep research",
+    "purpose": "可供 coding agent 使用的 React／StyleX 設計系統，適合研究一致的元件與介面生成。",
+    "relevance": "Adam 可製作同一規格跨 agent 生成 UI 的課程；metabiz 後台先做隔離原型，不直接替換既有元件。",
+    "risk": "README 標示 Beta；React 19+／StyleX 導入成本與行動裝置輸入體驗仍需驗證。近期 PR 不代表已發布修正。"
+  },
+  {
+    "repo": "anthropics/skills",
+    "decision": "Skill candidate",
+    "purpose": "將任務指令、腳本與資源封裝成可重複執行的 Agent Skills，涵蓋文件與專業流程。",
+    "relevance": "優先整理 Adam 的課程實作與 AI 辦公文件範例，為 metabiz 的報價、知識整理挑選可測量的單一 skill。",
+    "risk": "API 未提供統一 SPDX 授權，須逐目錄核對；文件 diff 編碼與 GIF 寫入修正顯示仍需輸出檢查。"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "decision": "Skill candidate",
+    "purpose": "日常軟體工程的研究、規劃、審查與實作 skills 集合。",
+    "relevance": "可轉成 Adam 的 AI 工程工作流課程；先比對現有 skills，採用一個可驗證的研究或審查流程，降低重複規範。",
+    "risk": "近期 issue 回報研究後殘留 app／server／branch／暫存目錄，以及 review 只讀 committed changes；需驗證清理與未提交差異的處理。"
+  },
+  {
+    "repo": "vercel-labs/agent-browser",
+    "decision": "Demo content",
+    "purpose": "以命令列與可存取性樹讓 agent 讀取並操作瀏覽器。",
+    "relevance": "適合 Adam 示範資料擷取到表格的 AI 辦公流程；metabiz 可先用測試帳號驗證後台資料整理。",
+    "risk": "近期 issue 回報 0.42.0 daemon 指令卡住；token budget 與 HTML 解析修正仍在 PR，需以固定版本測試逾時、登入狀態與結果。"
+  },
+  {
+    "repo": "homeassistant-ai/ha-mcp",
+    "decision": "Demo content",
+    "purpose": "透過 MCP 將 Claude 等助理接到 Home Assistant 的設定與自動化能力。",
+    "relevance": "適合 Adam 的 MCP 辦公空間自動化示範，將會議室設備狀態和規則串接；對 know metabiz wiki 可記錄設備與流程。",
+    "risk": "README 提到 YAML 設定工具移至 beta；native Core API／trace 工具仍有變動。寫入設備前需測試狀態讀取、權限與回復流程。"
+  },
+  {
+    "repo": "addyosmani/agent-skills",
+    "decision": "Skill candidate",
+    "purpose": "將定義、規劃、建置、驗證、審查與交付串成工程 skills。",
+    "relevance": "Adam 可與 mattpocock 的工作流做對照課程；metabiz 可挑選架構教學或驗證步驟改善團隊知識交接。",
+    "risk": "近期 issue 指向自動模式未觸發；架構教學只是未合併 PR，不能當成可用正式功能；避免同時安裝互相重疊的技能。"
+  },
+  {
+    "repo": "ranxianglei/billion-context",
+    "decision": "Watch",
+    "purpose": "為長時間 coding agent 工作階段壓縮上下文與儲存記憶的插件。",
+    "relevance": "可設計 Adam 的成本與記憶品質實驗；know metabiz wiki 可研究長任務摘要，但應保留原始來源作為事實依據。",
+    "risk": "README 的五倍 token 節省與月級工作階段是作者主張，尚未自行重現；壓縮會遺失細節。授權辨識為 NOASSERTION，資料表與 handoff 行為亦需追蹤。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "decision": "Deep research",
+    "purpose": "將來源文件整理為持續更新、互相連結的個人 Wiki 桌面應用。",
+    "relevance": "與 know metabiz wiki 最直接相關；Adam 可比較 RAG 查詢與預先整理 Wiki，先用公開文件測試中文、引文與增量更新。",
+    "risk": "近期 issue 回報 PDF 解析嚴重偏差，以及建立頁面／修正按鈕未實際套用。NOASSERTION 不是可直接判定的商用授權，須閱讀授權條款。"
+  },
+  {
+    "repo": "SamurAIGPT/llm-wiki-agent",
+    "decision": "Watch",
+    "purpose": "以 coding agent skill 將 raw 來源轉為持久互連的 Markdown Wiki。",
+    "relevance": "適合 know metabiz wiki 的小範圍原型；Adam 可用相同公開資料與桌面 Wiki 對照，測試來源追溯、矛盾處理與覆寫控制。",
+    "risk": "近期活動較慢；歷史 PR 涉及避免覆寫 Markdown 與索引連結解碼。README 對自動綜整的描述不等於準確度驗證。"
+  },
+  {
+    "repo": "anthropics/claude-quickstarts",
+    "decision": "Reference only",
+    "purpose": "提供 Claude API 應用的起始範例，含客服與電腦操作場景。",
+    "relevance": "可作為 Adam 客服／AI 辦公課程的教學底稿，metabiz 以合成客服問題比較流程，不直接視作正式系統。",
+    "risk": "需要自行處理 API 成本、個資與失敗復原；近期修正目錄名稱處理及同秒軌跡衝突，範例仍需工程化。"
+  }
+]

@@ -1,0 +1,495 @@
+{
+  "observed_at": "2026-11-10T16:12:19.838038+00:00",
+  "repos": {
+    "meta/astryx": {
+      "recent_issues_or_prs": [
+        {
+          "number": 9650,
+          "title": "feat(core): PowerSearch suggests per-field values for free text via valueMatchBehavior",
+          "state": "open",
+          "updated_at": "2026-11-10T16:11:37Z",
+          "comments": 19,
+          "is_pr": true,
+          "url": "https://github.com/meta/astryx/pull/9650"
+        },
+        {
+          "number": 8125,
+          "title": "feat(ContextMenu): open from a held finger on iOS 26's timeline",
+          "state": "open",
+          "updated_at": "2026-11-10T16:11:12Z",
+          "comments": 40,
+          "is_pr": true,
+          "url": "https://github.com/meta/astryx/pull/8125"
+        },
+        {
+          "number": 9777,
+          "title": "feat(TextInput, TextArea, NumberInput): fields stay above the keyboard",
+          "state": "open",
+          "updated_at": "2026-11-10T16:11:02Z",
+          "comments": 21,
+          "is_pr": true,
+          "url": "https://github.com/meta/astryx/pull/9777"
+        },
+        {
+          "number": 10043,
+          "title": "feat(charts): add MetricTile",
+          "state": "open",
+          "updated_at": "2026-11-10T16:10:57Z",
+          "comments": 10,
+          "is_pr": true,
+          "url": "https://github.com/meta/astryx/pull/10043"
+        },
+        {
+          "number": 10831,
+          "title": "fix(core): focus traps and the keyboard model are one per page across swizzled copies (AST-110 FR3)",
+          "state": "open",
+          "updated_at": "2026-11-10T16:10:37Z",
+          "comments": 9,
+          "is_pr": true,
+          "url": "https://github.com/meta/astryx/pull/10831"
+        }
+      ]
+    },
+    "anthropics/skills": {
+      "recent_issues_or_prs": [
+        {
+          "number": 2179,
+          "title": "Fix GIFBuilder.save() overwriting the builder's frames and size",
+          "state": "open",
+          "updated_at": "2026-11-10T16:00:15Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/skills/pull/2179"
+        },
+        {
+          "number": 1765,
+          "title": "fix(office): decode redlining diffs as UTF-8",
+          "state": "closed",
+          "updated_at": "2026-11-10T14:44:56Z",
+          "comments": 3,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/skills/pull/1765"
+        },
+        {
+          "number": 1768,
+          "title": "fix(skill-creator): continue when report browser is unavailable",
+          "state": "closed",
+          "updated_at": "2026-11-10T14:44:43Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/skills/pull/1768"
+        },
+        {
+          "number": 2181,
+          "title": "Added github folder to hold github copilot skill versions",
+          "state": "closed",
+          "updated_at": "2026-11-10T14:39:02Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/skills/pull/2181"
+        },
+        {
+          "number": 2176,
+          "title": "slack-gif-creator: GIFBuilder.save() permanently changes the builder's frames and size, so a second save() writes the wrong GIF",
+          "state": "open",
+          "updated_at": "2026-11-10T14:14:20Z",
+          "comments": 2,
+          "is_pr": false,
+          "url": "https://github.com/anthropics/skills/issues/2176"
+        }
+      ]
+    },
+    "addyosmani/agent-skills": {
+      "recent_issues_or_prs": [
+        {
+          "number": 781,
+          "title": "hey 我来自中国 最近在研究您的这份coding agent workflow 但和matt skills对比下来 我有一个疑惑",
+          "state": "open",
+          "updated_at": "2026-11-10T01:07:25Z",
+          "comments": 1,
+          "is_pr": false,
+          "url": "https://github.com/addyosmani/agent-skills/issues/781"
+        },
+        {
+          "number": 775,
+          "title": "Add architecture-coaching skill (teach a human the architecture, verifiably)",
+          "state": "open",
+          "updated_at": "2026-11-08T06:51:50Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/addyosmani/agent-skills/pull/775"
+        },
+        {
+          "number": 776,
+          "title": "[skill-gap]: /build auto doesnt fire in auto mode",
+          "state": "open",
+          "updated_at": "2026-11-07T12:33:34Z",
+          "comments": 2,
+          "is_pr": false,
+          "url": "https://github.com/addyosmani/agent-skills/issues/776"
+        },
+        {
+          "number": 225,
+          "title": "لقد تم تعطيل حسابي فيسبوك ارجوكم استرداده",
+          "state": "closed",
+          "updated_at": "2026-11-07T08:58:56Z",
+          "comments": 9,
+          "is_pr": false,
+          "url": "https://github.com/addyosmani/agent-skills/issues/225"
+        },
+        {
+          "number": 780,
+          "title": "release(probity-rules): 0.4.66 with plugin 0.6.18",
+          "state": "closed",
+          "updated_at": "2026-11-07T08:09:17Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/addyosmani/agent-skills/pull/780"
+        }
+      ]
+    },
+    "mattpocock/skills": {
+      "recent_issues_or_prs": [
+        {
+          "number": 1412,
+          "title": "research: no teardown step, so research runs leave apps, servers, branches and scratch dirs behind",
+          "state": "open",
+          "updated_at": "2026-11-10T12:31:03Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/mattpocock/skills/issues/1412"
+        },
+        {
+          "number": 1411,
+          "title": "grilling: end each round with a blank answer sheet",
+          "state": "open",
+          "updated_at": "2026-11-10T11:06:00Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/mattpocock/skills/issues/1411"
+        },
+        {
+          "number": 1408,
+          "title": "`implement` reviews before committing, but `code-review` only sees committed changes",
+          "state": "open",
+          "updated_at": "2026-11-10T08:33:22Z",
+          "comments": 1,
+          "is_pr": false,
+          "url": "https://github.com/mattpocock/skills/issues/1408"
+        },
+        {
+          "number": 798,
+          "title": "grilling: ask via native structured-question UI where available (e.g. Claude Code's AskUserQuestion)",
+          "state": "closed",
+          "updated_at": "2026-11-10T03:47:05Z",
+          "comments": 2,
+          "is_pr": false,
+          "url": "https://github.com/mattpocock/skills/issues/798"
+        },
+        {
+          "number": 1406,
+          "title": "grilling: a partly answered round is treated as finished, and unanswered questions come back renumbered",
+          "state": "open",
+          "updated_at": "2026-11-09T23:57:43Z",
+          "comments": 2,
+          "is_pr": false,
+          "url": "https://github.com/mattpocock/skills/issues/1406"
+        }
+      ]
+    },
+    "homeassistant-ai/ha-mcp": {
+      "recent_issues_or_prs": [
+        {
+          "number": 3003,
+          "title": "feat(traces): move ha_get_automation_traces onto Core's trace data (#2632)",
+          "state": "open",
+          "updated_at": "2026-11-10T16:04:49Z",
+          "comments": 7,
+          "is_pr": true,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3003"
+        },
+        {
+          "number": 3044,
+          "title": "test: use real Core in webhook proxy liveness checks",
+          "state": "open",
+          "updated_at": "2026-11-10T15:58:54Z",
+          "comments": 3,
+          "is_pr": true,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3044"
+        },
+        {
+          "number": 2632,
+          "title": "[FEATURE] Use native HA Core APIs, schemas, and flows for read and write tools",
+          "state": "open",
+          "updated_at": "2026-11-10T14:56:16Z",
+          "comments": 22,
+          "is_pr": false,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/issues/2632"
+        },
+        {
+          "number": 3042,
+          "title": "fix: take a device's integration from its config entry and remove it with Core's own command (#2632)",
+          "state": "open",
+          "updated_at": "2026-11-10T14:05:33Z",
+          "comments": 6,
+          "is_pr": true,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3042"
+        },
+        {
+          "number": 3043,
+          "title": "test: match the busy-port error with the running C library's text, not a glibc literal",
+          "state": "closed",
+          "updated_at": "2026-11-10T13:13:17Z",
+          "comments": 4,
+          "is_pr": true,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3043"
+        }
+      ]
+    },
+    "vercel-labs/agent-browser": {
+      "recent_issues_or_prs": [
+        {
+          "number": 2491,
+          "title": "Make snapshot -c fit a token budget",
+          "state": "open",
+          "updated_at": "2026-11-10T16:05:42Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2491"
+        },
+        {
+          "number": 2539,
+          "title": "fix(read): respect quoted attributes and HTML comments",
+          "state": "open",
+          "updated_at": "2026-11-10T16:00:03Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2539"
+        },
+        {
+          "number": 2540,
+          "title": "Daemon hangs indefinitely on all commands after start, even when Chrome is alive (0.42.0)",
+          "state": "open",
+          "updated_at": "2026-11-10T15:34:37Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/vercel-labs/agent-browser/issues/2540"
+        },
+        {
+          "number": 2411,
+          "title": "[docs] Add the agent-browser homepage",
+          "state": "open",
+          "updated_at": "2026-11-10T15:34:28Z",
+          "comments": 2,
+          "is_pr": true,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2411"
+        },
+        {
+          "number": 2538,
+          "title": "fix(flow): normalize DNS names in host restrictions",
+          "state": "open",
+          "updated_at": "2026-11-10T15:02:52Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2538"
+        }
+      ]
+    },
+    "ranxianglei/billion-context": {
+      "recent_issues_or_prs": [
+        {
+          "number": 6121,
+          "title": "DSH: select models for native compaction with safe same-session handoff",
+          "state": "open",
+          "updated_at": "2026-11-10T16:07:53Z",
+          "comments": 4,
+          "is_pr": false,
+          "url": "https://github.com/ranxianglei/billion-context/issues/6121"
+        },
+        {
+          "number": 5901,
+          "title": "[PR] storage: snapshot table compression foundation P0+P1 (schema v12 4-table + shadow write, all off by default, zero behavi | storage: 快照表压缩底座 P0+P1（schema v12 四表 + 影子写，默认全关、零行为变化）",
+          "state": "open",
+          "updated_at": "2026-11-10T16:12:15Z",
+          "comments": 15,
+          "is_pr": true,
+          "url": "https://github.com/ranxianglei/billion-context/pull/5901"
+        },
+        {
+          "number": 6072,
+          "title": "All repository documentation is available in Japanese. | 仓库所有文档都提供日文版本",
+          "state": "open",
+          "updated_at": "2026-11-10T16:03:07Z",
+          "comments": 11,
+          "is_pr": false,
+          "url": "https://github.com/ranxianglei/billion-context/issues/6072"
+        },
+        {
+          "number": 6152,
+          "title": "Native attach: WS transport status 426 re-enables native compaction for virtual models",
+          "state": "open",
+          "updated_at": "2026-11-10T16:02:35Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/ranxianglei/billion-context/issues/6152"
+        },
+        {
+          "number": 6125,
+          "title": "[PR] feat: POC — carry fold summaries as CCR placeholders (default-off)",
+          "state": "open",
+          "updated_at": "2026-11-10T16:00:49Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/ranxianglei/billion-context/pull/6125"
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "recent_issues_or_prs": [
+        {
+          "number": 845,
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "updated_at": "2026-11-10T09:19:49Z",
+          "comments": 2,
+          "is_pr": true,
+          "url": "https://github.com/nashsu/llm_wiki/pull/845"
+        },
+        {
+          "number": 806,
+          "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+          "state": "open",
+          "updated_at": "2026-11-09T04:35:19Z",
+          "comments": 2,
+          "is_pr": false,
+          "url": "https://github.com/nashsu/llm_wiki/issues/806"
+        },
+        {
+          "number": 848,
+          "title": "Bug: Review \"Create Page\" and Lint \"Fix\" buttons don't actually apply changes to the target file",
+          "state": "open",
+          "updated_at": "2026-11-09T04:20:05Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/nashsu/llm_wiki/issues/848"
+        },
+        {
+          "number": 158,
+          "title": "开发者好像没有建立一个微信群，试建个微信群欢迎感兴趣者加入交流",
+          "state": "open",
+          "updated_at": "2026-11-09T00:32:44Z",
+          "comments": 15,
+          "is_pr": false,
+          "url": "https://github.com/nashsu/llm_wiki/issues/158"
+        },
+        {
+          "number": 846,
+          "title": "fix: generate long sources section by section",
+          "state": "open",
+          "updated_at": "2026-11-05T05:45:43Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/nashsu/llm_wiki/pull/846"
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "recent_issues_or_prs": [
+        {
+          "number": 86,
+          "title": "fix(health): decode percent-encoded index links",
+          "state": "open",
+          "updated_at": "2026-10-20T12:40:51Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86"
+        },
+        {
+          "number": 85,
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85"
+        },
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84"
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83"
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82"
+        }
+      ]
+    },
+    "anthropics/claude-quickstarts": {
+      "recent_issues_or_prs": [
+        {
+          "number": 550,
+          "title": "fix(agents): treat file-list directory names literally",
+          "state": "open",
+          "updated_at": "2026-11-10T15:53:32Z",
+          "comments": 1,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/claude-quickstarts/pull/550"
+        },
+        {
+          "number": 549,
+          "title": "cinematic-ai-film-studio",
+          "state": "open",
+          "updated_at": "2026-11-10T15:19:03Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/anthropics/claude-quickstarts/issues/549"
+        },
+        {
+          "number": 472,
+          "title": "fix(computer-use): keep same-second trajectories in separate directories",
+          "state": "closed",
+          "updated_at": "2026-11-10T14:45:17Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/claude-quickstarts/pull/472"
+        },
+        {
+          "number": 474,
+          "title": "fix(agents): reject lossy decoding before editing files",
+          "state": "closed",
+          "updated_at": "2026-11-10T14:45:14Z",
+          "comments": 0,
+          "is_pr": true,
+          "url": "https://github.com/anthropics/claude-quickstarts/pull/474"
+        },
+        {
+          "number": 548,
+          "title": "claude ",
+          "state": "open",
+          "updated_at": "2026-11-10T14:44:29Z",
+          "comments": 0,
+          "is_pr": false,
+          "url": "https://github.com/anthropics/claude-quickstarts/issues/548"
+        }
+      ]
+    }
+  }
+}

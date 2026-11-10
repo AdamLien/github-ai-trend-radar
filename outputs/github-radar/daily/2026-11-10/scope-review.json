@@ -1,0 +1,101 @@
+{
+  "raw_collector_count": 425,
+  "retained_count": 412,
+  "excluded": [
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "README 實際為遊戲作弊安裝器，與 AI 提示工程描述不符。"
+    },
+    {
+      "repo": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計教材，當次證據未指向 AI 自動化。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理工具。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "股市資訊應用；README 中 AI 描述屬贊助商，不能當成專案功能。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般繪圖工具。"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "reason": "一般 Java 程式風格檢查。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "一般服務網格可觀測性工具。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "一般編譯器工具鏈。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般檔案傳輸工具。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "帳號存在性查詢工具。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "技術指標選股自動化，當次證據未見 AI／agent 開發用途。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全程式庫清單。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "一般節點 UI 元件庫，未見直接 AI 用途證據。"
+    }
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "trending_scope_review": {
+    "included": [
+      "meta/astryx",
+      "anthropics/skills",
+      "addyosmani/agent-skills",
+      "anthropics/claude-quickstarts",
+      "homeassistant-ai/ha-mcp",
+      "vercel-labs/agent-browser",
+      "ranxianglei/billion-context",
+      "mattpocock/skills"
+    ],
+    "excluded": [
+      {
+        "repo": "google-deepmind/mujoco",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      },
+      {
+        "repo": "we-promise/sure",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      },
+      {
+        "repo": "sherlock-project/sherlock",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      },
+      {
+        "repo": "tokio-rs/topcoat",
+        "reason": "本次頁面描述未提供 AI／LLM／agent／開發自動化相關證據；不因一般軟體熱度納入。"
+      }
+    ],
+    "keyword_false_negative": [
+      "ranxianglei/billion-context"
+    ],
+    "note": "人工語意篩選將 LLM 上下文壓縮納入；不把一般框架、個人財務、帳號搜尋或通用物理模擬當成 AI 候選。"
+  }
+}
