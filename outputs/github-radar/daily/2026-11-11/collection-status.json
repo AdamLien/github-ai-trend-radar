@@ -1,0 +1,47 @@
+{
+  "target_date": "2026-11-11",
+  "timezone": "Asia/Taipei",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "initial_limit": 10,
+  "rate_limit_error_observed": false,
+  "fallback_limit_5_used": false,
+  "collector_exit_code": 0,
+  "raw_record_count": 426,
+  "retained_unique_count": 406,
+  "excluded": {
+    "ByteByteGoHq/system-design-101": "一般系統設計教材，本次資料無明確 AI／agent 自動化主題。",
+    "armory3d/armorpaint": "一般圖像與材質工具，本次資料無明確 AI 關聯。",
+    "kiali/kiali": "一般 service mesh 可觀測性工具，本次資料無明確 AI 關聯。",
+    "llvm/llvm-project": "一般編譯器工具鏈，本次資料無明確 AI 關聯。",
+    "localsend/localsend": "一般檔案傳輸工具。",
+    "megadose/holehe": "一般 OSINT 帳號查詢工具。",
+    "tailscale/tailcat": "一般網路連線工具。",
+    "rustfs/rustfs": "主要為通用物件儲存，AI 標籤不足以證明本次雷達用途。",
+    "tldrsec/awesome-secure-defaults": "一般安全函式庫清單，本次資料無明確 AI 關聯。",
+    "xyflow/xyflow": "通用節點介面函式庫，本次資料無明確 AI 專案主題。"
+  },
+  "stale_404_repositories": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent",
+    "tonhowtf/omniget"
+  ],
+  "supplemental_scope_inclusions": [
+    "shadcn/improve"
+  ],
+  "observed_at": "2026-11-11T16:24:41.122895+00:00"
+}

@@ -1,0 +1,557 @@
+{
+  "observed_at": "2026-11-11T16:12:30.888493+00:00",
+  "repos": {
+    "meta/astryx": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 11272,
+          "url": "https://github.com/meta/astryx/pull/11272",
+          "title": "ci: refresh the Node legs' recorded times, and require them to cover the suite",
+          "state": "open",
+          "updated_at": "2026-11-11T16:12:27Z",
+          "pull_request": true
+        },
+        {
+          "number": 11271,
+          "url": "https://github.com/meta/astryx/pull/11271",
+          "title": "fix(Calendar): number each week row by the ISO week of its Thursday",
+          "state": "open",
+          "updated_at": "2026-11-11T16:12:19Z",
+          "pull_request": true
+        },
+        {
+          "number": 11267,
+          "url": "https://github.com/meta/astryx/pull/11267",
+          "title": "fix(docsite): contain SideNav family showcases",
+          "state": "open",
+          "updated_at": "2026-11-11T16:12:02Z",
+          "pull_request": true
+        },
+        {
+          "number": 11269,
+          "url": "https://github.com/meta/astryx/pull/11269",
+          "title": "docs(i18n): show Calendars under Internationalization in the docsite sidebar",
+          "state": "open",
+          "updated_at": "2026-11-11T16:12:00Z",
+          "pull_request": true
+        },
+        {
+          "number": 11265,
+          "url": "https://github.com/meta/astryx/pull/11265",
+          "title": "perf(cli): skip the theme-alias codemod on files that name no removed target",
+          "state": "open",
+          "updated_at": "2026-11-11T16:11:59Z",
+          "pull_request": true
+        },
+        {
+          "number": 8125,
+          "url": "https://github.com/meta/astryx/pull/8125",
+          "title": "feat(ContextMenu): open from a held finger on iOS 26's timeline",
+          "state": "open",
+          "updated_at": "2026-11-11T16:11:35Z",
+          "pull_request": true
+        },
+        {
+          "number": 11270,
+          "url": "https://github.com/meta/astryx/pull/11270",
+          "title": "fix(core,richtext): bound email autolink regexes to RFC 5321 limits (#11257)",
+          "state": "open",
+          "updated_at": "2026-11-11T16:11:05Z",
+          "pull_request": true
+        },
+        {
+          "number": 8133,
+          "url": "https://github.com/meta/astryx/pull/8133",
+          "title": "feat(ContextMenu): where a coarse pointer's held finger opens the menu (presentation unset, or adaptive where it stays a popover), the same finger slides onto an item and its lift selects it",
+          "state": "open",
+          "updated_at": "2026-11-11T16:10:50Z",
+          "pull_request": true
+        }
+      ]
+    },
+    "addyosmani/agent-skills": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 783,
+          "url": "https://github.com/addyosmani/agent-skills/issues/783",
+          "title": "_",
+          "state": "open",
+          "updated_at": "2026-11-11T13:19:49Z",
+          "pull_request": false
+        },
+        {
+          "number": 782,
+          "url": "https://github.com/addyosmani/agent-skills/pull/782",
+          "title": "fix(validator): keep markup inside code spans in heading slugs",
+          "state": "open",
+          "updated_at": "2026-11-11T13:09:32Z",
+          "pull_request": true
+        },
+        {
+          "number": 225,
+          "url": "https://github.com/addyosmani/agent-skills/issues/225",
+          "title": "لقد تم تعطيل حسابي فيسبوك ارجوكم استرداده",
+          "state": "closed",
+          "updated_at": "2026-11-11T02:10:53Z",
+          "pull_request": false
+        },
+        {
+          "number": 667,
+          "url": "https://github.com/addyosmani/agent-skills/pull/667",
+          "title": "feat(evals): record behavioral runs for historical regrading",
+          "state": "open",
+          "updated_at": "2026-11-10T17:53:48Z",
+          "pull_request": true
+        },
+        {
+          "number": 433,
+          "url": "https://github.com/addyosmani/agent-skills/issues/433",
+          "title": "[Discussion] How the pack lands on Claude 5-generation models",
+          "state": "open",
+          "updated_at": "2026-11-10T17:44:17Z",
+          "pull_request": false
+        },
+        {
+          "number": 781,
+          "url": "https://github.com/addyosmani/agent-skills/issues/781",
+          "title": "hey 我来自中国 最近在研究您的这份coding agent workflow 但和matt skills对比下来 我有一个疑惑",
+          "state": "open",
+          "updated_at": "2026-11-10T01:07:25Z",
+          "pull_request": false
+        },
+        {
+          "number": 775,
+          "url": "https://github.com/addyosmani/agent-skills/pull/775",
+          "title": "Add architecture-coaching skill (teach a human the architecture, verifiably)",
+          "state": "open",
+          "updated_at": "2026-11-08T06:51:50Z",
+          "pull_request": true
+        },
+        {
+          "number": 776,
+          "url": "https://github.com/addyosmani/agent-skills/issues/776",
+          "title": "[skill-gap]: /build auto doesnt fire in auto mode",
+          "state": "open",
+          "updated_at": "2026-11-07T12:33:34Z",
+          "pull_request": false
+        }
+      ]
+    },
+    "vercel-labs/agent-browser": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 2227,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2227",
+          "title": "feat(firefox): attach to a running Firefox over WebDriver BiDi",
+          "state": "open",
+          "updated_at": "2026-11-11T15:47:00Z",
+          "pull_request": true
+        },
+        {
+          "number": 2572,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2572",
+          "title": "Fix: Record emulated device scales at full density",
+          "state": "open",
+          "updated_at": "2026-11-11T15:23:57Z",
+          "pull_request": true
+        },
+        {
+          "number": 2491,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2491",
+          "title": "Make snapshot -c fit a token budget",
+          "state": "open",
+          "updated_at": "2026-11-11T15:03:54Z",
+          "pull_request": true
+        },
+        {
+          "number": 2295,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2295",
+          "title": "fix(snapshot): give summary disclosure toggles refs",
+          "state": "open",
+          "updated_at": "2026-11-11T14:36:06Z",
+          "pull_request": true
+        },
+        {
+          "number": 1828,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/1828",
+          "title": "feat(codegen): capture successful commands as Recorder or Playwright tests",
+          "state": "open",
+          "updated_at": "2026-11-11T13:20:01Z",
+          "pull_request": true
+        },
+        {
+          "number": 2167,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2167",
+          "title": "fix(cdp): keep iframe attachments from initial connection",
+          "state": "open",
+          "updated_at": "2026-11-11T13:16:53Z",
+          "pull_request": true
+        },
+        {
+          "number": 2570,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2570",
+          "title": "fix(state): preserve partitioned cookie identities",
+          "state": "open",
+          "updated_at": "2026-11-11T10:25:58Z",
+          "pull_request": true
+        },
+        {
+          "number": 2569,
+          "url": "https://github.com/vercel-labs/agent-browser/pull/2569",
+          "title": "fix(flow): abort in-page requests when their budget expires",
+          "state": "open",
+          "updated_at": "2026-11-11T10:22:56Z",
+          "pull_request": true
+        }
+      ]
+    },
+    "homeassistant-ai/ha-mcp": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 3003,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3003",
+          "title": "feat(traces): move ha_get_automation_traces onto Core's trace data (#2632)",
+          "state": "open",
+          "updated_at": "2026-11-11T16:07:18Z",
+          "pull_request": true
+        },
+        {
+          "number": 3055,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3055",
+          "title": "feat(camera): support image entities in ha_get_camera_image",
+          "state": "open",
+          "updated_at": "2026-11-11T15:09:33Z",
+          "pull_request": true
+        },
+        {
+          "number": 3042,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3042",
+          "title": "fix: take a device's integration from its config entry and remove it with Core's own command (#2632)",
+          "state": "open",
+          "updated_at": "2026-11-11T15:07:57Z",
+          "pull_request": true
+        },
+        {
+          "number": 3063,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3063",
+          "title": "chore(deps): update dependency home-assistant/supervisor to v2026.11.0",
+          "state": "open",
+          "updated_at": "2026-11-11T15:06:29Z",
+          "pull_request": true
+        },
+        {
+          "number": 2974,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/2974",
+          "title": "feat(logs): honour hours_back for supervisor and system_service logs",
+          "state": "open",
+          "updated_at": "2026-11-11T15:02:27Z",
+          "pull_request": true
+        },
+        {
+          "number": 3060,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3060",
+          "title": "test: run 46 more unit test files on real Core and stop listed files gaining fakes",
+          "state": "closed",
+          "updated_at": "2026-11-11T15:17:29Z",
+          "pull_request": true
+        },
+        {
+          "number": 1237,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/issues/1237",
+          "title": "Dependency Dashboard",
+          "state": "open",
+          "updated_at": "2026-11-11T14:35:39Z",
+          "pull_request": false
+        },
+        {
+          "number": 3046,
+          "url": "https://github.com/homeassistant-ai/ha-mcp/pull/3046",
+          "title": "fix: serve Core's entity registry rows and refusals in the Entity Registry tools",
+          "state": "open",
+          "updated_at": "2026-11-11T14:29:05Z",
+          "pull_request": true
+        }
+      ]
+    },
+    "shadcn/improve": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 29,
+          "url": "https://github.com/shadcn/improve/issues/29",
+          "title": "Fix dropdown not showing correctly when dark mode is turned on",
+          "state": "open",
+          "updated_at": "2026-09-08T21:21:51Z",
+          "pull_request": false
+        },
+        {
+          "number": 23,
+          "url": "https://github.com/shadcn/improve/pull/23",
+          "title": "fix: require an explicit executor model on execute dispatch",
+          "state": "open",
+          "updated_at": "2026-09-05T22:34:40Z",
+          "pull_request": true
+        },
+        {
+          "number": 28,
+          "url": "https://github.com/shadcn/improve/pull/28",
+          "title": "docs: clarify executor subagents inherit the parent model",
+          "state": "closed",
+          "updated_at": "2026-09-04T06:38:24Z",
+          "pull_request": true
+        },
+        {
+          "number": 8,
+          "url": "https://github.com/shadcn/improve/pull/8",
+          "title": "security: propagate Hard Rules 4+6 to execute-dispatched subagents; safe non-interactive default for --issues",
+          "state": "open",
+          "updated_at": "2026-08-18T09:19:15Z",
+          "pull_request": true
+        },
+        {
+          "number": 22,
+          "url": "https://github.com/shadcn/improve/pull/22",
+          "title": "docs(improve): headless-CLI executor variant for execute",
+          "state": "open",
+          "updated_at": "2026-08-18T09:19:13Z",
+          "pull_request": true
+        },
+        {
+          "number": 20,
+          "url": "https://github.com/shadcn/improve/pull/20",
+          "title": "security: read the executor's diff before running its code",
+          "state": "open",
+          "updated_at": "2026-08-18T09:18:30Z",
+          "pull_request": true
+        },
+        {
+          "number": 27,
+          "url": "https://github.com/shadcn/improve/pull/27",
+          "title": "ci: validate plugin.json and marketplace.json manifests",
+          "state": "open",
+          "updated_at": "2026-08-16T15:12:11Z",
+          "pull_request": true
+        },
+        {
+          "number": 26,
+          "url": "https://github.com/shadcn/improve/pull/26",
+          "title": "feat: batch execute — one shared worktree, commit per plan, checkpoint gates",
+          "state": "open",
+          "updated_at": "2026-08-13T13:22:23Z",
+          "pull_request": true
+        }
+      ]
+    },
+    "openai/codex-security": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 2589,
+          "url": "https://github.com/openai/codex-security/pull/2589",
+          "title": "feat(imports): import CrowdStrike FCS IaC findings locally",
+          "state": "open",
+          "updated_at": "2026-11-11T15:39:49Z",
+          "pull_request": true
+        },
+        {
+          "number": 2431,
+          "url": "https://github.com/openai/codex-security/pull/2431",
+          "title": "fix(scans): resolve inventory and bulk tools outside selected sources",
+          "state": "open",
+          "updated_at": "2026-11-11T15:13:56Z",
+          "pull_request": true
+        },
+        {
+          "number": 2430,
+          "url": "https://github.com/openai/codex-security/pull/2430",
+          "title": "fix(sdk): resolve document links against selected sources",
+          "state": "open",
+          "updated_at": "2026-11-11T14:14:43Z",
+          "pull_request": true
+        },
+        {
+          "number": 2590,
+          "url": "https://github.com/openai/codex-security/pull/2590",
+          "title": "fix(cli): resolve saved scans in the current worktree",
+          "state": "open",
+          "updated_at": "2026-11-11T14:08:05Z",
+          "pull_request": true
+        },
+        {
+          "number": 2594,
+          "url": "https://github.com/openai/codex-security/pull/2594",
+          "title": "fix(cli): validate inputs and make plans and hooks reusable",
+          "state": "open",
+          "updated_at": "2026-11-11T14:07:03Z",
+          "pull_request": true
+        },
+        {
+          "number": 2512,
+          "url": "https://github.com/openai/codex-security/pull/2512",
+          "title": "chore(release): 0.10.0",
+          "state": "open",
+          "updated_at": "2026-11-11T13:59:29Z",
+          "pull_request": true
+        },
+        {
+          "number": 2335,
+          "url": "https://github.com/openai/codex-security/pull/2335",
+          "title": "chore(deps): bump promptfoo from 0.124.1 to 0.125.1 in /evals/triage-finding",
+          "state": "open",
+          "updated_at": "2026-11-11T13:58:54Z",
+          "pull_request": true
+        },
+        {
+          "number": 2603,
+          "url": "https://github.com/openai/codex-security/pull/2603",
+          "title": "feat(imports): publish versioned workbench findings through the shared Cloud transport",
+          "state": "open",
+          "updated_at": "2026-11-11T13:56:59Z",
+          "pull_request": true
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 845,
+          "url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "updated_at": "2026-11-10T09:19:49Z",
+          "pull_request": true
+        },
+        {
+          "number": 806,
+          "url": "https://github.com/nashsu/llm_wiki/issues/806",
+          "title": "上传的PDF内容解析出的结果出现了严重的偏差",
+          "state": "open",
+          "updated_at": "2026-11-09T04:35:19Z",
+          "pull_request": false
+        },
+        {
+          "number": 848,
+          "url": "https://github.com/nashsu/llm_wiki/issues/848",
+          "title": "Bug: Review \"Create Page\" and Lint \"Fix\" buttons don't actually apply changes to the target file",
+          "state": "open",
+          "updated_at": "2026-11-09T04:20:05Z",
+          "pull_request": false
+        },
+        {
+          "number": 158,
+          "url": "https://github.com/nashsu/llm_wiki/issues/158",
+          "title": "开发者好像没有建立一个微信群，试建个微信群欢迎感兴趣者加入交流",
+          "state": "open",
+          "updated_at": "2026-11-09T00:32:44Z",
+          "pull_request": false
+        },
+        {
+          "number": 846,
+          "url": "https://github.com/nashsu/llm_wiki/pull/846",
+          "title": "fix: generate long sources section by section",
+          "state": "open",
+          "updated_at": "2026-11-05T05:45:43Z",
+          "pull_request": true
+        },
+        {
+          "number": 847,
+          "url": "https://github.com/nashsu/llm_wiki/issues/847",
+          "title": "Linux: startup panic in libappindicator-sys when libayatana-appindicator3 is not installed",
+          "state": "open",
+          "updated_at": "2026-11-04T13:09:04Z",
+          "pull_request": false
+        },
+        {
+          "number": 835,
+          "url": "https://github.com/nashsu/llm_wiki/pull/835",
+          "title": "feat: make side panels freely resizable",
+          "state": "open",
+          "updated_at": "2026-11-03T20:53:41Z",
+          "pull_request": true
+        },
+        {
+          "number": 841,
+          "url": "https://github.com/nashsu/llm_wiki/pull/841",
+          "title": "feat(search): add DeepSeek Search and research Fetch",
+          "state": "open",
+          "updated_at": "2026-11-03T05:07:43Z",
+          "pull_request": true
+        }
+      ]
+    },
+    "activepieces/activepieces": {
+      "sample_size": 8,
+      "items": [
+        {
+          "number": 15624,
+          "url": "https://github.com/activepieces/activepieces/pull/15624",
+          "title": "feat(airtable): choose which fields Update Record writes, drop the \"(Agent)\" suffix",
+          "state": "open",
+          "updated_at": "2026-11-11T16:07:07Z",
+          "pull_request": true
+        },
+        {
+          "number": 15251,
+          "url": "https://github.com/activepieces/activepieces/pull/15251",
+          "title": "fix(pieces-baserow): link rows by primary field value, send dates without time",
+          "state": "open",
+          "updated_at": "2026-11-11T15:57:49Z",
+          "pull_request": true
+        },
+        {
+          "number": 17423,
+          "url": "https://github.com/activepieces/activepieces/pull/17423",
+          "title": "feat(tables): open tables update live when someone else, a flow or the AI changes them",
+          "state": "open",
+          "updated_at": "2026-11-11T15:33:51Z",
+          "pull_request": true
+        },
+        {
+          "number": 17374,
+          "url": "https://github.com/activepieces/activepieces/pull/17374",
+          "title": "feat(web): one app shell that stays mounted across pages",
+          "state": "open",
+          "updated_at": "2026-11-11T15:31:23Z",
+          "pull_request": true
+        },
+        {
+          "number": 17387,
+          "url": "https://github.com/activepieces/activepieces/pull/17387",
+          "title": "feat(web): the AI knows the page you are on and a sheen marks what it changed in the builder",
+          "state": "open",
+          "updated_at": "2026-11-11T15:31:15Z",
+          "pull_request": true
+        },
+        {
+          "number": 17386,
+          "url": "https://github.com/activepieces/activepieces/pull/17386",
+          "title": "feat(chat): phone sheet, shortcuts, and app links that open beside the chat",
+          "state": "open",
+          "updated_at": "2026-11-11T15:31:11Z",
+          "pull_request": true
+        },
+        {
+          "number": 17385,
+          "url": "https://github.com/activepieces/activepieces/pull/17385",
+          "title": "feat(ai): the chat opens what it edits and offers to when you are busy",
+          "state": "open",
+          "updated_at": "2026-11-11T15:31:07Z",
+          "pull_request": true
+        },
+        {
+          "number": 17384,
+          "url": "https://github.com/activepieces/activepieces/pull/17384",
+          "title": "feat(chat): composer polish: fill, one queued message per chat, restored cards",
+          "state": "open",
+          "updated_at": "2026-11-11T15:31:02Z",
+          "pull_request": true
+        }
+      ]
+    }
+  }
+}

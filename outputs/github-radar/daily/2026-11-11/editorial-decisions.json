@@ -1,0 +1,66 @@
+[
+  {
+    "repo": "meta/astryx",
+    "category": "Deep research",
+    "purpose": "可供人與 coding agent 協作的設計系統，README 標示 Beta、React 19+ 與 StyleX。",
+    "risk": "Beta 介面與依賴組合仍可能變動；大量 PR 代表活躍，也提高升級與回歸驗證成本。",
+    "relevance": "適合 Adam 製作「agent 如何沿用設計系統」課程與前後對照內容；可評估 metabiz 內部工具介面的一致性，與 know metabiz wiki 的直接關聯較低。",
+    "watch": "明日比較 stars today 是否延續，並追蹤行事曆與文件站修正的合併情況。"
+  },
+  {
+    "repo": "homeassistant-ai/ha-mcp",
+    "category": "Demo content",
+    "purpose": "透過 MCP 讓 AI 助理設定與操作 Home Assistant。",
+    "risk": "工具涉及真實設備與設定寫入；README 提到 YAML 設定工具移至 beta，示範需用測試設備與明確操作範圍。",
+    "relevance": "適合 Adam 的 MCP 入門與辦公室設備自動化示範；可將操作說明與設備變更紀錄整理入 know metabiz wiki。",
+    "watch": "追蹤 automation trace 與 image entity 支援是否合併，以及版本相容性回報。"
+  },
+  {
+    "repo": "vercel-labs/agent-browser",
+    "category": "Demo content",
+    "purpose": "以 CLI 將網頁呈現為可存取性樹，供 AI agent 讀取與操作。",
+    "risk": "登入態、頁面變動、裝置模擬與瀏覽器差異都可能讓自動化不穩；示範需記錄可重現條件。",
+    "relevance": "適合 Adam 的 AI 辦公自動化課程：由表單、後台查詢到資料整理；也能研究 know metabiz wiki 的網頁來源擷取流程。",
+    "watch": "觀察 Firefox WebDriver BiDi 與錄影縮放修正、最新 release 及未解決相容性議題。"
+  },
+  {
+    "repo": "addyosmani/agent-skills",
+    "category": "Skill candidate",
+    "purpose": "把工程流程、品質檢查與實務整理成 coding agent 可重複使用的 Skills。",
+    "risk": "技能說明不等同實測品質；匯入前需逐項檢閱工具呼叫、檔案寫入及現有工作流相容性。",
+    "relevance": "可挑一個工程品質流程改寫為 Adam 課程練習與技能示範；有助 metabiz 自動化開發，know metabiz wiki 可保存採用紀錄與適用條件。",
+    "watch": "觀察 validator 修正與 issue 回應，選一項 skill 以小型案例比較前後效果。"
+  },
+  {
+    "repo": "openai/codex-security",
+    "category": "Watch",
+    "purpose": "CLI 與 TypeScript SDK，支援發現、驗證與修復安全弱點。",
+    "risk": "安全掃描結果仍須人工核實；需評估程式碼存取範圍、執行隔離與誤報，不能用星數代替效果證據。",
+    "relevance": "可列入 Adam 的 AI coding 品質與安全內容；metabiz 開發流程可先用測試程式庫評估，再將驗證過的處理方式寫入 wiki。",
+    "watch": "觀察 IaC 匯入與掃描工具解析修正是否落版，另檢查使用前提與結果可重現性。"
+  },
+  {
+    "repo": "shadcn/improve",
+    "category": "Watch",
+    "purpose": "用能力較強的模型稽核程式碼並制定計畫，再交由成本較低的模型執行。",
+    "risk": "近期 issue／PR 樣本時間較舊，Trending 熱度未必代表維護加速；規劃與執行模型的交接也可能遺失條件。",
+    "relevance": "適合 Adam 製作「先規劃再執行」模型成本實驗，metabiz 可研究任務拆解；wiki 可保存計畫、執行與驗收的對照紀錄。",
+    "watch": "追蹤熱度能否轉成新提交、release 與維護者回應；暫不列為可直接採用的技能。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "將來源文件逐步整理為持久、互連的 Wiki，而非每次重新檢索與生成。",
+    "risk": "授權需閱讀原文確認；近期 PDF 解析偏差回報提醒必須驗證來源對應、內容正確性與更新衝突。",
+    "relevance": "直接關聯 know metabiz wiki：可用公開或去識別文件比較增量 Wiki 與 RAG，作為 Adam 的知識管理課程及 AI 辦公案例。",
+    "watch": "以固定 PDF 驗證解析、引用回溯與增量更新，追蹤解析偏差問題及搜尋 provider 提案。"
+  },
+  {
+    "repo": "activepieces/activepieces",
+    "category": "Demo content",
+    "purpose": "結合 AI agents、MCP 與視覺化流程的自動化平台。",
+    "risk": "需確認核心與企業功能授權界線；外部服務授權、重試與重複寫入會影響實際辦公流程。",
+    "relevance": "適合 Adam 示範表單、通知與資料更新的 AI 辦公自動化；可研究將已核准的工作流結果與維護資訊寫入 know metabiz wiki。",
+    "watch": "追蹤 Airtable／Baserow 欄位寫入修正，設計含失敗重試與去重的測試流程。"
+  }
+]

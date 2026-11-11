@@ -1,0 +1,27 @@
+{
+  "repos": [
+    {
+      "full_name": "shadcn/improve",
+      "html_url": "https://github.com/shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "",
+      "license": "MIT",
+      "stars": 10582,
+      "forks": 433,
+      "open_issues": 17,
+      "watchers": 29,
+      "created_at": "2026-06-10T11:06:58Z",
+      "updated_at": "2026-11-11T16:12:11Z",
+      "pushed_at": "2026-09-12T11:29:28Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "# improve An agent skill that audits any codebase and writes implementation plans for other agents to execute. The idea: use your most capable model for the part where intelligence compounds — understanding the codebase, judging what's worth doing, writing the spec — and hand execution to cheaper models. The skill never implements anything itself. The plan is the product. ``` you → /improve (expensive model, advises) plans/ → 001-fix-n-plus-one.md (self-contained specs) other agent → implements, tests, ships (cheap model, executes) ``` ## Install ```bash npx skills add shadcn/improve ``` Works in any agent that supports [Agent Skills](https://agentskills.io) format. The plans it writes are p"
+    }
+  ]
+}

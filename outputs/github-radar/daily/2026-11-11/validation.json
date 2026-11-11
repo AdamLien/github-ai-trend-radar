@@ -1,0 +1,9 @@
+{
+  "required_artifacts_nonempty": true,
+  "snapshot_matches_repos": true,
+  "dashboard_build_exit_code": 0,
+  "dashboard_index_nonempty": true,
+  "dashboard_generated_data_nonempty": true,
+  "preexisting_files_preserved": 28,
+  "build_warning": "Vite chunk exceeds 500 kB; build successful."
+}
