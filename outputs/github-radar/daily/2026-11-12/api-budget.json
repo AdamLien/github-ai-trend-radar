@@ -1,0 +1,14 @@
+{
+  "core": {
+    "limit": 5000,
+    "remaining": 4131,
+    "used": 869,
+    "reset": 1794501000
+  },
+  "search": {
+    "limit": 30,
+    "remaining": 30,
+    "used": 0,
+    "reset": 1794500545
+  }
+}

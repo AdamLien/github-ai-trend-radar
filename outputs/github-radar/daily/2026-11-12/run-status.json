@@ -1,0 +1,42 @@
+{
+  "target_date": "2026-11-12",
+  "started_at": "2026-11-13T00:11:45.815569+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_error": false
+    }
+  ],
+  "rate_limit_encountered": false,
+  "analysis_completed_at": "2026-11-13T00:25:44.979837+08:00",
+  "retained_repo_count": 418,
+  "editorial_repo_count": 10,
+  "scope_excluded_count": 3,
+  "carried_forward_count": 6,
+  "source_unavailable_count": 7,
+  "canonical_duplicate_records_merged": 12,
+  "build": {
+    "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+    "working_directory": "dashboard",
+    "exit_code": 0,
+    "verified_nonempty": [
+      "dashboard/dist/index.html",
+      "dashboard/src/generated/radarData.json"
+    ],
+    "repository_count": 418,
+    "warning": "Vite bundle-size advisory; build succeeded."
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "branch": "main",
+  "has_upstream": true,
+  "upstream": "origin/main",
+  "remote": "origin",
+  "all_push_urls_ssh": true,
+  "push_url_count": 1,
+  "ssh_read_authorized": true,
+  "ssh_preflight_exit_code": 0
+}

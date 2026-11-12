@@ -1,0 +1,84 @@
+{
+  "source_url": "https://github.com/trending?since=daily",
+  "observed_at": "2026-11-13T00:12:17.474641+08:00",
+  "cards": [
+    {
+      "repo": "GoogleChrome/modern-web-guidance-src",
+      "description": "",
+      "stars_today": "799",
+      "collector_in_scope": false
+    },
+    {
+      "repo": "openai/codex-security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
+      "stars_today": "663",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "nvm-sh/nvm",
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "stars_today": "79",
+      "collector_in_scope": false
+    },
+    {
+      "repo": "pookjw/HermesEnabler",
+      "description": "Enable Hermès Watch Faces on any Apple Watch devices",
+      "stars_today": "390",
+      "collector_in_scope": false
+    },
+    {
+      "repo": "we-promise/sure",
+      "description": "The personal finance app for everyone (by everyone)",
+      "stars_today": "974",
+      "collector_in_scope": false
+    },
+    {
+      "repo": "QwenLM/qwen-code",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "stars_today": "151",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "ashhart/TensorFold",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "stars_today": "58",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "stars_today": "133",
+      "collector_in_scope": false
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "stars_today": "812",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "stars_today": "1789",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "stars_today": "291",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "Alishahryar1/free-claude-code",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "stars_today": "461",
+      "collector_in_scope": true
+    },
+    {
+      "repo": "ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "stars_today": "287",
+      "collector_in_scope": true
+    }
+  ]
+}

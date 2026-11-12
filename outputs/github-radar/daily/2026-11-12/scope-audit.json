@@ -1,0 +1,76 @@
+{
+  "excluded": [
+    {
+      "full_name": "InterceptSuite/ProxyBridge",
+      "reason": "一般 TCP／UDP 代理工具，現有用途與 README 摘錄未顯示 AI 或開發自動化關聯。"
+    },
+    {
+      "full_name": "sngyai/Sequoia-X",
+      "reason": "規則式股票篩選與推播，現有說明未顯示 AI、LLM 或開發自動化用途。"
+    },
+    {
+      "full_name": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "README 實際為遊戲外掛與預先啟用安裝包，與描述中的 AI prompt engineering 不符；不屬本次範圍。"
+    }
+  ],
+  "trending_scope": "Retain only AI, MCP, Skills, agents, LLM, RAG, wiki/knowledge management, coding agents, or developer automation. Historical generic proxy and rule-based stock screener excluded.",
+  "retained_count": 418,
+  "canonical_duplicates_merged": [
+    {
+      "full_name": "HarnessMD/munder-difflin",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "LibreChat-AI/LibreChat",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "OpenMontageInc/OpenMontage",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "ParadevAI/Paradev",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "Twigpine/openclaude",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "ai-job-search-dev/ai-job-search",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "career-ops-hq/career-ops",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "cheaper-inference/OmniRoute",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "feder-cr/Jobs_Applier_AI_Agent",
+      "record_count": 3,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "obsidianmd/obsidian-skills",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    },
+    {
+      "full_name": "tryatlas/atlas",
+      "record_count": 2,
+      "strategy": "Keep the last fetched canonical record and merge discovery sources."
+    }
+  ],
+  "original_record_count_before_canonical_merge": 430
+}

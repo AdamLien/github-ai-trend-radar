@@ -1,0 +1,82 @@
+[
+  {
+    "full_name": "openai/codex-security",
+    "category": "Deep research",
+    "purpose": "以 CLI、SDK 與自動化流程進行漏洞搜尋、驗證、修補與結構化報告。",
+    "interpretation": "0.10.0 新增 Standard scan 續跑與批次掃描預算；有明確功能進展，可與 skill 型稽核工作流比較。",
+    "risk": "掃描仍可能誤報或漏報；需量測成本、覆蓋與修補驗證，避免把產生報告當作完整安全保證。",
+    "relevance": "Adam 課程／內容：展示「發現→驗證→修補」的證據鏈；AI 辦公：限工程稽核場景；know metabiz wiki：保存範圍、版本與修補紀錄。"
+  },
+  {
+    "full_name": "addyosmani/agent-skills",
+    "category": "Skill candidate",
+    "purpose": "把規格、規劃、實作、測試、審查與交付整理成 coding agent 可重用的工程 skills。",
+    "interpretation": "Trending 熱度應與程式推送日期分開看；0.6.15 修正 staged-secret 檢查輸出及品質閘門，適合挑單一流程測試。",
+    "risk": "既有 skills、hooks 與斜線指令可能重複或衝突；README 對品質的宣稱需用自己的任務驗證。",
+    "relevance": "Adam 課程／內容：示範把工程原則轉成可執行技能；AI 辦公：借用清單與驗證流程；know metabiz wiki：整理 skill 對照表、適用條件與測試紀錄。"
+  },
+  {
+    "full_name": "CopilotKit/OpenBot",
+    "category": "Deep research",
+    "purpose": "可自架的 AI 同事工作空間，整合模型、agent 與各自的電腦／工具環境。",
+    "interpretation": "有近期 release 與 PR，可用一個受控的瀏覽器研究→整理報告流程驗證；熱度與企業可用性分開評估。",
+    "risk": "1.0.2 的升級說明涉及 Podman machine、Docker／Podman 更新及舊版資料庫遷移；升級前需檢查資料備份與隔離。",
+    "relevance": "Adam 課程／內容：AI coworker 操作與審批案例；AI 辦公：資料蒐集、報表草稿與操作紀錄；know metabiz wiki：評估任務證據與知識歸檔銜接。"
+  },
+  {
+    "full_name": "stablyai/orca",
+    "category": "Demo content",
+    "purpose": "以獨立 worktree 平行調度 Claude Code、Codex 等 coding agents，結合聊天、終端、差異與瀏覽器。",
+    "interpretation": "1.4.257 聚焦多個長對話同時串流的效能與瀏覽器回饋保存；適合用相同任務比較單 agent 與編排流程。",
+    "risk": "agent 數量增加可能放大費用、訂閱配額與合併衝突；產品名稱的效率宣稱不是本次實測結果。",
+    "relevance": "Adam 課程／內容：多 agent 分工與合併示範；AI 辦公：偏工程交付編排；know metabiz wiki：記錄分工、決策與可重現的驗證結果。"
+  },
+  {
+    "full_name": "cloudflare/security-audit-skill",
+    "category": "Skill candidate",
+    "purpose": "用分階段、隔離的 agents 執行偵察、覆蓋導向搜尋、候選驗證與結構化安全稽核報告。",
+    "interpretation": "README 描述獨立複核與 coverage ledger；近期 #148／#149 聚焦目標工作區信任，值得先讀再決定是否採用。",
+    "risk": "沒有 latest release；稽核本身接觸不可信工作區與輸出，需以固定 commit、隔離樣本驗證其信任邊界。",
+    "relevance": "Adam 課程／內容：與 Codex Security 比較方法、成本及證據品質；AI 辦公：適用工程審查；know metabiz wiki：建立稽核覆蓋與待驗證項目模板。"
+  },
+  {
+    "full_name": "meta/astryx",
+    "category": "Demo content",
+    "purpose": "供人與 agents 共用的設計系統，包含可組合的 React 元件、主題、模板與 CLI。",
+    "interpretation": "Trending 動能與 0.7.14 的具體元件改善一起看；屬於 agent 開發工具鏈，不是獨立 LLM 平台。",
+    "risk": "仍標示 Beta，使用 React 19+，整合前需測試版本相容性、無障礙與既有樣式架構。",
+    "relevance": "Adam 課程／內容：用設計系統約束 coding agent 的 UI 輸出；AI 辦公：內部工具與報表介面；know metabiz wiki：保存元件用法與設計決策。"
+  },
+  {
+    "full_name": "QwenLM/qwen-code",
+    "category": "Watch",
+    "purpose": "跨終端、編輯器、桌面與瀏覽器的開源 AI coding agent。",
+    "interpretation": "本次新增追蹤，以 Trending 今日星數建立初始動能；latest release 是 TypeScript SDK 標籤，不能當成 CLI 的最新穩定版。",
+    "risk": "沒有前次快照，不能估算日增幅；1.0 Preview、CLI 與 SDK 的版本線不同，功能和模型成本需逐項確認。",
+    "relevance": "Adam 課程／內容：多 coding agent 的同題比較；AI 辦公：評估中文任務與工具整合；know metabiz wiki：保存安裝版本、模型與權限測試。"
+  },
+  {
+    "full_name": "activepieces/activepieces",
+    "category": "Demo content",
+    "purpose": "以 TypeScript pieces 串接 AI、自動化流程與 MCP 工具的視覺化平台。",
+    "interpretation": "0.93.0 與近期整合 PR 顯示持續交付；即使星數增量較小，與辦公自動化的直接關聯仍使其值得入選。",
+    "risk": "API 授權為 NOASSERTION，README 卻標示 MIT，需逐目錄核對 LICENSE 與企業功能；連接器權限、資料流向及雲端／自架差異也需確認。",
+    "relevance": "Adam 課程／內容：來源資料→AI 摘要→人工審閱的流程；AI 辦公：整合表單、CRM 與報表；know metabiz wiki：把審閱後的產物接入知識整理流程。"
+  },
+  {
+    "full_name": "SamurAIGPT/llm-wiki-agent",
+    "category": "Skill candidate",
+    "purpose": "讓 coding agent 從 raw 來源建立與維護互相連結的 Markdown wiki，保留來源頁、索引、操作紀錄與圖譜。",
+    "interpretation": "優先看知識工作流契合度，而非總星數；沒有 latest release，近期抽樣 Issue／PR 更新也較舊，適合小樣本驗證。",
+    "risk": "需防止重複匯入、錯誤引用、來源指令注入與矛盾知識擴散；「不需額外 API key」不代表既有 agent 沒有使用成本。",
+    "relevance": "Adam 課程／內容：從資料夾長出知識庫的實作；AI 辦公：文件整理與交接；know metabiz wiki：直接對照 raw、sources、概念頁、日誌及回溯引用。"
+  },
+  {
+    "full_name": "nashsu/llm_wiki",
+    "category": "Watch",
+    "purpose": "跨平台桌面知識庫，以增量方式把文件編譯成 wiki，提供圖譜、來源檢索與本機 API／MCP。",
+    "interpretation": "release 停在 0.6.13；相較當日星數，#849 的 MinerU 403、#806 的 PDF 解析偏差與 #848 的寫回失敗更影響是否適合導入。",
+    "risk": "授權 API 為 NOASSERTION；解析正確率、雲端文件上傳、寫回可靠性與來源追溯需先驗證。",
+    "relevance": "Adam 課程／內容：比較持久 wiki 與每次檢索的工作模式；AI 辦公：多格式文件整理；know metabiz wiki：以去識別樣本對照現有流程，尚不建議直接搬入正式資料。"
+  }
+]
