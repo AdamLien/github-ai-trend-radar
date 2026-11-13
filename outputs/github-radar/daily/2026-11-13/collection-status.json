@@ -1,0 +1,39 @@
+{
+  "target_date": "2026-11-13",
+  "observed_at": "2026-11-14T00:11:39.869110+08:00",
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "metadata_fallbacks": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": "404"
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "http_status": "404"
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "http_status": "404"
+    },
+    {
+      "repo": "YuJunZhiXue/dsh-purge",
+      "http_status": "404"
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": "404"
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": "404"
+    }
+  ],
+  "retained_repos": 437
+}

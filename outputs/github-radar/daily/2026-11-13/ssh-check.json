@@ -1,0 +1,7 @@
+{
+  "branch": "main",
+  "upstream": "origin/main",
+  "ssh_authorized": true,
+  "ssh_remote": true,
+  "check_exit_code": 0
+}
