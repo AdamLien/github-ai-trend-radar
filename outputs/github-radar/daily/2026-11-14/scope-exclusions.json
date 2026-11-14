@@ -1,0 +1,54 @@
+[
+  {
+    "repo": "ByteByteGoHq/system-design-101",
+    "reason": "通用系統設計教材，未見本次指定 AI 或自動化用途"
+  },
+  {
+    "repo": "InterceptSuite/ProxyBridge",
+    "reason": "一般網路代理工具"
+  },
+  {
+    "repo": "Open-Dev-Society/OpenStock",
+    "reason": "股市資訊平台；README 贊助文字不作為 AI 用途證據"
+  },
+  {
+    "repo": "armory3d/armorpaint",
+    "reason": "一般 3D 材質繪製工具"
+  },
+  {
+    "repo": "kiali/kiali",
+    "reason": "一般服務網格觀測工具"
+  },
+  {
+    "repo": "llvm/llvm-project",
+    "reason": "一般編譯器基礎設施"
+  },
+  {
+    "repo": "localsend/localsend",
+    "reason": "一般檔案傳輸工具"
+  },
+  {
+    "repo": "martin-olivier/airgorah",
+    "reason": "Wi-Fi 安全稽核工具，ai 子字串誤判"
+  },
+  {
+    "repo": "megadose/holehe",
+    "reason": "一般 OSINT 帳號查詢工具"
+  },
+  {
+    "repo": "tailscale/tailcat",
+    "reason": "一般 Tailscale 網路傳輸工具，名稱子字串誤判"
+  },
+  {
+    "repo": "tldrsec/awesome-secure-defaults",
+    "reason": "一般安全預設函式庫清單"
+  },
+  {
+    "repo": "xyflow/xyflow",
+    "reason": "通用節點 UI 函式庫，非專門 agent 或自動化工具"
+  },
+  {
+    "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+    "reason": "README 實為遊戲作弊預啟用安裝包，與描述中的 AI prompt 工具宣稱不符"
+  }
+]

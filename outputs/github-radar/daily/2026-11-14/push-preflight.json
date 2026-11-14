@@ -1,0 +1,10 @@
+{
+  "upstream": "origin/main",
+  "ssh_remote": true,
+  "authorized": true,
+  "remote_name": "origin",
+  "authorization_check_exit_code": 0,
+  "push_url_check_exit_codes": [
+    0
+  ]
+}

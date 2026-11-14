@@ -1,0 +1,74 @@
+[
+  {
+    "repo": "GoogleChrome/modern-web-guidance-src",
+    "decision": "Skill candidate",
+    "purpose": "將現代網頁平台、瀏覽器相容性與最佳實務整理成 coding agent 可用的 Skills；此處是內容撰寫、校準和評估的來源庫。",
+    "relevance": "Adam 可用同一個前端任務比較加入指引前後的品質，製作 Skills 評估課程；metabiz 辦公介面可採用經驗證的規範，know metabiz wiki 保存來源、版本與驗收案例。",
+    "risk": "來源庫與發佈庫不同；README 指向 GoogleChrome/modern-web-guidance，不能把本庫直接等同可安裝套件。近期 #3505 正在釐清 Built-in AI 的瀏覽器專屬細節，跨瀏覽器能力仍需驗證。",
+    "watch": "檢查 #3505 與 WebGPU 指引進展，觀察新增 stars 是否延續；準備一個跨瀏覽器前端測試題。"
+  },
+  {
+    "repo": "alibaba/open-code-review",
+    "decision": "Demo content",
+    "purpose": "以確定性規則和 LLM agent 共同審查程式碼，產生行級回饋與多語言檢查結果。",
+    "relevance": "Adam 可製作規則與模型審查互補的實驗內容，以刻意植入的錯誤檢驗漏報和誤報；metabiz 可評估 PR 檢查流程，wiki 保存測試案例與判斷依據。",
+    "risk": "README 的規模與精準度宣稱未經本次獨立重現。近期 #1925 處理 workspace review 的 resume 支援，顯示中斷恢復也應納入測試；審查成功執行不等於所有問題皆被找到。",
+    "watch": "追蹤 #1925 後續發版，以及 #1934 多規則檔組合；用同一個 PR 比較規則與 LLM 結果。"
+  },
+  {
+    "repo": "ChromeDevTools/chrome-devtools-mcp",
+    "decision": "Skill candidate",
+    "purpose": "透過 MCP server 或 CLI 讓 coding agent 操作真實 Chrome、讀取網路與 console、擷取畫面並分析效能。",
+    "relevance": "適合 Adam 的瀏覽器驗收課程與可重用 Skill：檢查 AI 生成表單、辦公流程與網頁效能；know metabiz wiki 可保存重現步驟、畫面和驗收證據。",
+    "risk": "README 表明 MCP client 能讀取與修改瀏覽器資料，且部分效能工具可能將 trace URL 送往 CrUX；示範應使用隔離測試帳號。近期 #3487 涉及 autoConnect 權限錯誤，環境相容性需實測；本次近期樣本全為 PR，不能推論 issue 回應品質。",
+    "watch": "觀察 #3487 的權限錯誤說明是否合併，並測試獨立 Chrome 設定檔下的穩定連線。"
+  },
+  {
+    "repo": "backnotprop/plannotator",
+    "decision": "Demo content",
+    "purpose": "提供本機瀏覽器審閱介面，讓使用者標註計畫、規格、HTML 和程式碼差異，再把回饋交回 agent。",
+    "relevance": "Adam 可示範先審計畫與產物再批准執行，將人機協作延伸到報價草稿、網頁與辦公文件；metabiz wiki 保存審閱理由與核准版本。",
+    "risk": "近期 #3331、#3347 仍在調整語意差異與審閱版面，需驗證呈現是否遺漏重要修改；支援多個 agent 不代表每種整合都已在本次測試。",
+    "watch": "追蹤語意差異審閱與新版面，確認標註回傳到正確的 agent 與檔案版本。"
+  },
+  {
+    "repo": "dream-num/univer",
+    "decision": "Deep research",
+    "purpose": "以可擴充的試算表、文件、公式、渲染和命令系統建立可編輯的辦公介面，並讓應用程式或 agent 操作內容。",
+    "relevance": "與 Adam 的 AI 辦公自動化主題直接相關，可研究報表整理、資料校對與操作後人工覆核；metabiz 可探索內部文件介面，wiki 保存開源與商業功能對照。",
+    "risk": "Apache-2.0 僅涵蓋本庫開源核心；README 說明商業插件、Server SDK 與部分 AI SDK 另行分發授權。展示能力不等於預設開源能力；需測試大型工作簿、公式與檔案往返相容性。",
+    "watch": "檢查 #8168 大型工作簿公式效能與 #8139 文件參照支援，先界定純開源可完成的最小辦公案例。"
+  },
+  {
+    "repo": "Tencent/LoopForge",
+    "decision": "Deep research",
+    "purpose": "自架 coding agent 協作工作區，以角色、Docker sandbox、可重複 SOP 和人工審批串起軟體交付，也提供本機工作流。",
+    "relevance": "Adam 可研究如何把一次性的 agent 提示變成可驗收 SOP；metabiz 可借鏡任務分派、執行證據與人工關卡，know metabiz wiki 保存 SOP 與執行紀錄的連結。",
+    "risk": "這是偏軟體交付的編排平台，轉用一般辦公需額外整合。自架仍須處理 sandbox、工具權限和執行憑證；#810 的慢 heartbeat 問題及 #829 的 runner 修正，提醒需測試長任務與失敗恢復。",
+    "watch": "建立後續快照基線，追蹤 #810、#829 與正式 release；挑一個有人工核准關卡的低權限 SOP 做評估。"
+  },
+  {
+    "repo": "QwenLM/qwen-code",
+    "decision": "Watch",
+    "purpose": "開源 coding agent，README 涵蓋終端機、編輯器、桌面、瀏覽器和聊天入口，並提供 SDK 與整合能力。",
+    "relevance": "Adam 可用固定測試題比較不同 coding agent 的任務完成率與操作成本；metabiz 可評估開發流程與聊天入口，wiki 保存安裝條件、版本及評測紀錄。",
+    "risk": "近期 #17266 回報 Windows Web Shell 產生大量 cmd 視窗與重疊 Git 輪詢，跨平台穩定性值得觀察。API latest release 可能是 SDK 元件版本，不能直接當主 CLI 版本；不同入口的權限也需分別驗證。",
+    "watch": "追蹤 #17266 與 SDK／主 CLI 版本對應，先確認環境穩定後再安排課程示範。"
+  },
+  {
+    "repo": "JuliusBrussee/caveman",
+    "decision": "Reference only",
+    "purpose": "透過精簡 agent 輸出、工具結果與上下文等方式減少 token 使用，提供 Skills、CLI 與中介整合。",
+    "relevance": "可作為 Adam 的 token 成本實驗素材，以相同任務比較費用、正確率與回覆可讀性；metabiz 辦公 SOP 可借鏡降低噪音，但 wiki 應保留完整原始依據。",
+    "risk": "README 的節省數字來自專案自身測試，不能當普遍效益；壓縮可能損失限制條件。README 說明 CLI 預設有使用統計，壓縮檔案也可能送往設定的模型供應商；近期另有 CLI panic 與設定讀寫問題整理。",
+    "watch": "以含數字、例外條件和來源的辦公文件做 A/B 測試，同時量測 token 與資訊保留率，再決定是否升級為 Skill 候選。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "decision": "Watch",
+    "purpose": "將文件逐步整理為持久、互相連結的 wiki，README 提供來源追溯、增量匯入、原始來源查詢與選用向量搜尋。",
+    "relevance": "直接對應 know metabiz wiki 的知識整理情境；Adam 可比較持久 wiki 與即時 RAG 在更新、追溯和回答品質上的差異，作為 AI 知識管理課程內容。",
+    "risk": "本次只驗證文件與活動資料，尚未重現引用正確率與增量更新品質。#849 回報 Windows 的 MinerU 雲端連線 403，#155 回報新增欄位顯示異常；license 的 NOASSERTION 代表 API 無法辨識，採用前需人工核對。",
+    "watch": "追蹤 #849、#155 與下一次程式更新；以一批非機密文件測試引用、重複匯入、更新及刪除後的一致性。"
+  }
+]

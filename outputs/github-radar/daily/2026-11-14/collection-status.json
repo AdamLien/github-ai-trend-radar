@@ -1,0 +1,45 @@
+{
+  "target_date": "2026-11-14",
+  "collected_at": "2026-11-15T00:11:38.605869+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "completed_at": "2026-11-15T00:23:29.609435+08:00",
+  "retained_repo_count": 416,
+  "scope_excluded_count": 13,
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ],
+  "trending_repo_count": 12,
+  "selected_repo_count": 9,
+  "deduplicated_rows": 14,
+  "retained_stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ]
+}

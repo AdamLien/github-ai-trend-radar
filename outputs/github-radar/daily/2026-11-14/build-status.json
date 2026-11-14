@@ -1,0 +1,12 @@
+{
+  "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+  "cwd": "/home/metabiz-admin/Documents/workspace/adam-codex-skills/dashboard",
+  "exit_code": 0,
+  "verified_nonempty": {
+    "dashboard/dist/index.html": 1370,
+    "dashboard/src/generated/radarData.json": 4022506
+  },
+  "warnings": [
+    "Vite generated JS chunk exceeds 500 kB."
+  ]
+}

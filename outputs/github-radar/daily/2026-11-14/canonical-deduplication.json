@@ -1,0 +1,19 @@
+{
+  "duplicates": {
+    "HarnessMD/munder-difflin": 2,
+    "LibreChat-AI/LibreChat": 2,
+    "OpenMontageInc/OpenMontage": 2,
+    "ParadevAI/Paradev": 2,
+    "Twigpine/openclaude": 2,
+    "ai-job-search-dev/ai-job-search": 2,
+    "career-ops-hq/career-ops": 2,
+    "cheaper-inference/OmniRoute": 2,
+    "feder-cr/Jobs_Applier_AI_Agent": 3,
+    "obsidianmd/obsidian-skills": 2,
+    "oss-invisible/dots": 2,
+    "oss-invisible/playwright_mcp": 2,
+    "tryatlas/atlas": 2
+  },
+  "removed_duplicate_rows": 14,
+  "strategy": "Merge source labels, retain highest observed stars metadata per canonical full_name."
+}
