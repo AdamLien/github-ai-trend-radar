@@ -1,0 +1,58 @@
+{
+  "target_date": "2026-11-15",
+  "collected_at": "2026-11-16T00:11:32.030341+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "returncode": 0,
+      "rate_limit": false
+    }
+  ],
+  "completed_at": "2026-11-16T00:23:49.527846+08:00",
+  "repo_count": 432,
+  "trending_count": 12,
+  "stale_metadata": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": "404"
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "http_status": "404"
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "http_status": "404"
+    },
+    {
+      "repo": "YuJunZhiXue/dsh-purge",
+      "http_status": "404"
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": "404"
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": "404"
+    }
+  ],
+  "supplemented_trending": [
+    "ggml-org/ggml"
+  ],
+  "collector_raw_record_count": 445,
+  "normalized_duplicate_records": 14
+}

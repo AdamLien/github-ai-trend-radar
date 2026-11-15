@@ -1,0 +1,34 @@
+{
+  "repos": [
+    {
+      "full_name": "ggml-org/ggml",
+      "html_url": "https://github.com/ggml-org/ggml",
+      "description": "Tensor library for machine learning",
+      "language": "C++",
+      "license": "MIT",
+      "stars": 15822,
+      "forks": 1966,
+      "open_issues": 386,
+      "watchers": 150,
+      "created_at": "2022-09-18T17:07:19Z",
+      "updated_at": "2026-11-15T16:11:26Z",
+      "pushed_at": "2026-11-13T08:34:20Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "machine-learning"
+      ],
+      "latest_release": {
+        "name": "v1.0.0",
+        "tag_name": "v1.0.0",
+        "published_at": "2026-11-13T08:34:21Z"
+      },
+      "readme_excerpt": "# ggml <div align=\"center\"> <img src=\"https://raw.githubusercontent.com/ggml-org/media/refs/heads/master/logo/ggml-logo.jpg\" width=\"256\" height=\"256\" alt=\"ggml logo\" /> <b>Tensor library for machine learning</b> [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![Release](https://img.shields.io/github/v/release/ggml-org/ggml?filter=v*)](https://github.com/ggml-org/ggml/releases) [![CI](https://github.com/ggml-org/ggml/actions/workflows/build-cpu.yml/badge.svg)](https://github.com/ggml-org/ggml/actions/workflows/build-cpu.yml) </div> ## Quick start Build from source: ```bash git clone https://github.com/ggml-org/ggml cd ggml mkdir build",
+      "snapshot_date": "2026-11-15",
+      "sources": [
+        "trending_daily"
+      ],
+      "trending_stars_today": 154
+    }
+  ]
+}

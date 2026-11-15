@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "NVIDIA/SkillEvaluator",
+    "category": "Deep research",
+    "purpose": "分層檢查 agent skills，結合品質、語意重複與實際任務對照評測。",
+    "relevance": "把 Skills 教學從安裝數量推進到有效性驗證；可替 Adam 課程與辦公自動化 SOP 建立有／無 Skill 的對照實驗。",
+    "risk": "靜態分數不等於任務效益；live evaluation 需要 agent、模型與 sandbox，可能產生費用。",
+    "next_step": "驗證一個 wiki 匯入 Skill 是否提高來源引用正確率，先用匿名資料比較任務成功率與成本。"
+  },
+  {
+    "repo": "dream-num/univer",
+    "category": "Demo content",
+    "purpose": "可嵌入產品的試算表與文件 SDK，提供公式、編輯、外掛及程式介面。",
+    "relevance": "適合 Adam 示範「AI 產生資料→人員在表格覆核→系統回寫」；對 metabiz 報價、營運報表與辦公流程有直接價值。",
+    "risk": "開源核心與商業 Web／Server／AI SDK 授權不同；Excel 相容性與複雜公式仍須實測。",
+    "next_step": "以匿名營運資料製作可編輯週報 demo，再查核匯入匯出與所需商業功能。"
+  },
+  {
+    "repo": "GoogleChrome/modern-web-guidance-src",
+    "category": "Skill candidate",
+    "purpose": "維護供 coding agents 使用的現代 Web 平台知識、相容性資料與評測來源。",
+    "relevance": "可作 Adam 的 agent 前端課程內容與 Skill 品質案例；改善 metabiz wiki／管理介面的前端產出。",
+    "risk": "此庫是編寫與評測來源，實際安裝入口另有發佈庫；近期修正不代表每個建議均已發佈。",
+    "next_step": "取一個舊式前端範例，比較套用 guidance 前後的相容性與可維護性。"
+  },
+  {
+    "repo": "backnotprop/plannotator",
+    "category": "Demo content",
+    "purpose": "讓人員標註計畫、文件、HTML、程式差異並將回饋送回 coding agent。",
+    "relevance": "適合 Adam 示範需求澄清、審稿與人員覆核；know metabiz wiki 可借用內容審閱回饋模式。",
+    "risk": "近期開發密集；新 PR 不能當成已發佈能力，分享計畫或差異時也要檢查敏感內容。",
+    "next_step": "測試一輪「計畫→標註→agent 修改→覆核」，另追蹤排程 routines PR 是否合併與發版。"
+  },
+  {
+    "repo": "Tencent/LoopForge",
+    "category": "Deep research",
+    "purpose": "自架 coding-agent 工作台，結合角色、Docker workspace、SOP、腳本與人工關卡。",
+    "relevance": "適合 Adam 的多 agent 課程與 metabiz 內部交付 SOP；可示範研究、實作、覆核與交付責任鏈。",
+    "risk": "README 說明預設 Docker socket 可控制主機 daemon，不適合作為不可信多租戶隔離；還有維運與模型成本。",
+    "next_step": "先用內建 script／approval 示範驗證關卡、退回與紀錄，再評估接入真實專案。"
+  },
+  {
+    "repo": "ChromeDevTools/chrome-devtools-mcp",
+    "category": "Demo content",
+    "purpose": "以 MCP 與 CLI 讓 coding agent 檢視 Chrome、網路請求、console 與效能 trace。",
+    "relevance": "適合 Adam 錄製瀏覽器除錯案例；可用於 metabiz wiki、CRM 與辦公表單的前端驗收。",
+    "risk": "連線的瀏覽器內容可被 client 讀取或修改；cookie 匯入等尚未合併 PR 不應視為穩定功能。",
+    "next_step": "使用乾淨測試 profile 重現一個效能或表單問題，比較 agent 診斷品質。"
+  },
+  {
+    "repo": "alibaba/open-code-review",
+    "category": "Deep research",
+    "purpose": "以確定性分析管線結合 LLM agent 的程式碼審查工具。",
+    "relevance": "適合 Adam 示範「規則＋AI」審查方法；可評估 metabiz 自動化腳本與 wiki 工具的 PR 初審。",
+    "risk": "模型可能誤報、漏報；程式碼傳輸邊界與不同平台取消行為需驗證，不能替代人工審核。",
+    "next_step": "用已知缺陷的測試 PR 衡量誤報與漏報，再比較規則及 LLM 各自的貢獻。"
+  },
+  {
+    "repo": "google-labs-code/stitch-skills",
+    "category": "Skill candidate",
+    "purpose": "為 Stitch 設計流程提供跨 coding agent 的 skills 與 plugins。",
+    "relevance": "適合 Adam 示範設計稿到元件的工作流，並作 metabiz wiki／內部工具介面提案。",
+    "risk": "README 說明並非正式支援的 Google 產品；現有 issue 提及資源下載轉登入頁與 uploader 路徑，須確認目前可重現性。",
+    "next_step": "驗證設計資源取得與安裝流程，成功後再選一個 Skill 改編成可教學範例。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "將多格式來源增量整理成持續維護的 wiki，包含來源追溯與檢索。",
+    "relevance": "直接對應 know metabiz wiki；可作 Adam「文件堆變成可維護知識庫」課程與 AI 辦公教材。",
+    "risk": "多格式解析、模型與雲端服務帶來成本及資料邊界；目前有 schema 顯示與 MinerU 連線相關問題。",
+    "next_step": "用少量匿名會議紀錄測試來源追溯、重複匯入、矛盾更新與刪除後的一致性。"
+  },
+  {
+    "repo": "SamurAIGPT/llm-wiki-agent",
+    "category": "Watch",
+    "purpose": "以 coding agent skill 將 raw 文件整理成來源頁、實體、概念、綜整與操作紀錄。",
+    "relevance": "最貼近 Adam 現有 Skills 與 know metabiz wiki 的 Markdown 流程，可作最小可行的內容整理原型。",
+    "risk": "近期活動較慢；尚有避免覆寫既有 Markdown 的未合併 PR，匯入前須驗證可回復性。",
+    "next_step": "只在複本測試重複匯入與既有頁保留，觀察維護者是否處理資料覆寫問題。"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "trending_source": "https://github.com/trending?since=daily",
+  "retained": [
+    "dream-num/univer",
+    "ag-ui-protocol/ag-ui",
+    "google-labs-code/stitch-skills",
+    "backnotprop/plannotator",
+    "ChromeDevTools/chrome-devtools-mcp",
+    "alibaba/open-code-review",
+    "Tencent/LoopForge",
+    "ggml-org/ggml",
+    "elementalsouls/Claude-BugHunter",
+    "GoogleChrome/modern-web-guidance-src",
+    "tradermonty/claude-trading-skills",
+    "NVIDIA/SkillEvaluator"
+  ],
+  "excluded": [],
+  "note": "All 12 observed cards match AI, coding agents, skills, or agent orchestration. ggml is an AI tensor library; include despite the collector keyword filter missing machine learning."
+}
