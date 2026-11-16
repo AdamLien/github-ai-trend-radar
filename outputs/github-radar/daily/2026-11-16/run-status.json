@@ -1,0 +1,64 @@
+{
+  "target_date": "2026-11-16",
+  "observed_at": "2026-11-17T00:11:39.308635+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "rate_limit_encountered": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit": false
+    }
+  ],
+  "finished_at": "2026-11-16T16:24:30.198854+00:00",
+  "raw_repo_count": 448,
+  "retained_repo_count": 435,
+  "excluded_repo_count": 13,
+  "fallback_records": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": 404
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "http_status": 404
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "http_status": 404
+    },
+    {
+      "repo": "YuJunZhiXue/dsh-purge",
+      "http_status": 404
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": 404
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": 404
+    }
+  ],
+  "issue_activity_rate_limit": false,
+  "dashboard_build": {
+    "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+    "exit_code": 0,
+    "artifacts_verified": [
+      "dashboard/dist/index.html",
+      "dashboard/src/generated/radarData.json"
+    ],
+    "warning": "Vite bundle exceeds 500 kB minified"
+  }
+}

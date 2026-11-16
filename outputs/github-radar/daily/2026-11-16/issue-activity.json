@@ -1,0 +1,505 @@
+{
+  "observed_at": "2026-11-16T16:12:52.120994+00:00",
+  "repos": {
+    "dream-num/univer": {
+      "url": "https://api.github.com/repos/dream-num/univer/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 8239,
+          "title": "fix(core): parse parenthesised numbers as accounting negatives",
+          "state": "open",
+          "updated_at": "2026-11-16T15:37:24Z",
+          "comments": 1,
+          "html_url": "https://github.com/dream-num/univer/pull/8239",
+          "is_pull_request": true
+        },
+        {
+          "number": 8232,
+          "title": "fix(formula): read ? and * as wildcards in SEARCH and SEARCHB",
+          "state": "open",
+          "updated_at": "2026-11-16T15:21:52Z",
+          "comments": 4,
+          "html_url": "https://github.com/dream-num/univer/pull/8232",
+          "is_pull_request": true
+        },
+        {
+          "number": 8227,
+          "title": "fix(sheets-sort): compare text by locale collation when sorting a range",
+          "state": "open",
+          "updated_at": "2026-11-16T15:13:17Z",
+          "comments": 3,
+          "html_url": "https://github.com/dream-num/univer/pull/8227",
+          "is_pull_request": true
+        },
+        {
+          "number": 8216,
+          "title": "fix(sheets-conditional-formatting): highlight every number when a bottom N rule's N exceeds the count",
+          "state": "open",
+          "updated_at": "2026-11-16T14:56:49Z",
+          "comments": 3,
+          "html_url": "https://github.com/dream-num/univer/pull/8216",
+          "is_pull_request": true
+        },
+        {
+          "number": 8168,
+          "title": "perf(formula): reduce formula data work for large workbooks (#6062)",
+          "state": "open",
+          "updated_at": "2026-11-16T13:48:58Z",
+          "comments": 1,
+          "html_url": "https://github.com/dream-num/univer/pull/8168",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "NVIDIA/SkillEvaluator": {
+      "url": "https://api.github.com/repos/NVIDIA/SkillEvaluator/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 668,
+          "title": "fix(tier3): end the rich progress table's line off a terminal, and find a case's trials by its recorded case",
+          "state": "open",
+          "updated_at": "2026-11-16T15:59:53Z",
+          "comments": 0,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/668",
+          "is_pull_request": true
+        },
+        {
+          "number": 611,
+          "title": "feat(tier1): start yaml setup for Efficiency, Discoverability and Correctness",
+          "state": "open",
+          "updated_at": "2026-11-16T15:53:41Z",
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/611",
+          "is_pull_request": true
+        },
+        {
+          "number": 669,
+          "title": "docs(ci): say the first Tier 1 run installs SkillSpector and Gitleaks",
+          "state": "open",
+          "updated_at": "2026-11-16T15:05:15Z",
+          "comments": 0,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/669",
+          "is_pull_request": true
+        },
+        {
+          "number": 564,
+          "title": "fix(tier1): keep the missing-reference line check and its warning accurate",
+          "state": "open",
+          "updated_at": "2026-11-16T14:59:56Z",
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/564",
+          "is_pull_request": true
+        },
+        {
+          "number": 563,
+          "title": "fix(tier1): keep the hook gate failure FAIL beside an incomplete scan under a policy override",
+          "state": "open",
+          "updated_at": "2026-11-16T14:59:54Z",
+          "comments": 1,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/563",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "backnotprop/plannotator": {
+      "url": "https://api.github.com/repos/backnotprop/plannotator/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 3527,
+          "title": "Inbox: the Plans page (list, plan page, versions, diff)",
+          "state": "open",
+          "updated_at": "2026-11-16T16:06:17Z",
+          "comments": 0,
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3527",
+          "is_pull_request": true
+        },
+        {
+          "number": 1665,
+          "title": "Review: preview images stored in Git LFS (follow-up to #1598)",
+          "state": "open",
+          "updated_at": "2026-11-16T16:01:51Z",
+          "comments": 1,
+          "html_url": "https://github.com/backnotprop/plannotator/issues/1665",
+          "is_pull_request": false
+        },
+        {
+          "number": 3503,
+          "title": "Inbox: agent icons from the project name",
+          "state": "closed",
+          "updated_at": "2026-11-16T16:01:19Z",
+          "comments": 0,
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3503",
+          "is_pull_request": true
+        },
+        {
+          "number": 3528,
+          "title": "Inbox: free layout of thread panes (behind inboxSplitView)",
+          "state": "open",
+          "updated_at": "2026-11-16T15:53:55Z",
+          "comments": 0,
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3528",
+          "is_pull_request": true
+        },
+        {
+          "number": 3526,
+          "title": "Inbox: mention a thread in a reply (drag a row, row menu, pasted link)",
+          "state": "open",
+          "updated_at": "2026-11-16T14:53:58Z",
+          "comments": 0,
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3526",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "google-labs-code/stitch-skills": {
+      "url": "https://api.github.com/repos/google-labs-code/stitch-skills/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 97,
+          "title": "fix: resolve the uploader from the installed Stitch plugin",
+          "state": "open",
+          "updated_at": "2026-11-16T08:14:27Z",
+          "comments": 1,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+          "is_pull_request": true
+        },
+        {
+          "number": 96,
+          "title": "manage-design-system: uploader path only works from a repo checkout",
+          "state": "open",
+          "updated_at": "2026-11-06T12:07:03Z",
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/96",
+          "is_pull_request": false
+        },
+        {
+          "number": 95,
+          "title": "extract-design-md: optional live-URL input mode using Firecrawl branding and screenshot",
+          "state": "open",
+          "updated_at": "2026-10-31T01:33:48Z",
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/95",
+          "is_pull_request": false
+        },
+        {
+          "number": 94,
+          "title": "Screen downloadUrl (htmlCode / screenshot) now redirects to Google sign-in — API-key MCP clients can no longer download screens",
+          "state": "open",
+          "updated_at": "2026-10-15T20:24:48Z",
+          "comments": 5,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/94",
+          "is_pull_request": false
+        },
+        {
+          "number": 49,
+          "title": "Update Google Stitch URL in taste-design skill",
+          "state": "closed",
+          "updated_at": "2026-10-07T07:40:58Z",
+          "comments": 1,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/49",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "alibaba/open-code-review": {
+      "url": "https://api.github.com/repos/alibaba/open-code-review/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 1909,
+          "title": "gitcmd: bound Wait after cancellation with WaitDelay",
+          "state": "open",
+          "updated_at": "2026-11-16T14:07:59Z",
+          "comments": 11,
+          "html_url": "https://github.com/alibaba/open-code-review/pull/1909",
+          "is_pull_request": true
+        },
+        {
+          "number": 1774,
+          "title": "feat: support OCR_HOME for user storage",
+          "state": "open",
+          "updated_at": "2026-11-16T13:48:45Z",
+          "comments": 13,
+          "html_url": "https://github.com/alibaba/open-code-review/pull/1774",
+          "is_pull_request": true
+        },
+        {
+          "number": 1030,
+          "title": "fix(cmd): return non-zero for partial operational failures",
+          "state": "open",
+          "updated_at": "2026-11-16T13:04:43Z",
+          "comments": 4,
+          "html_url": "https://github.com/alibaba/open-code-review/pull/1030",
+          "is_pull_request": true
+        },
+        {
+          "number": 1750,
+          "title": "fix(session): compare sessions recorded under different path spellings",
+          "state": "closed",
+          "updated_at": "2026-11-16T12:12:40Z",
+          "comments": 1,
+          "html_url": "https://github.com/alibaba/open-code-review/pull/1750",
+          "is_pull_request": true
+        },
+        {
+          "number": 1928,
+          "title": "fix(mcp): pass embedded text resources from tool results to the model",
+          "state": "open",
+          "updated_at": "2026-11-16T12:07:38Z",
+          "comments": 4,
+          "html_url": "https://github.com/alibaba/open-code-review/pull/1928",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "ChromeDevTools/chrome-devtools-mcp": {
+      "url": "https://api.github.com/repos/ChromeDevTools/chrome-devtools-mcp/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 3030,
+          "title": "fix: validate heap snapshot className regex",
+          "state": "open",
+          "updated_at": "2026-11-16T14:00:18Z",
+          "comments": 4,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3030",
+          "is_pull_request": true
+        },
+        {
+          "number": 3462,
+          "title": "chore(main): release chrome-devtools-mcp 1.14.0",
+          "state": "open",
+          "updated_at": "2026-11-16T13:40:05Z",
+          "comments": 0,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3462",
+          "is_pull_request": true
+        },
+        {
+          "number": 2983,
+          "title": "Tool commands fail with `Timeout waiting for daemon response` after 60 s even when the tool's own `--timeout` is longer",
+          "state": "closed",
+          "updated_at": "2026-11-16T13:39:34Z",
+          "comments": 0,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/issues/2983",
+          "is_pull_request": false
+        },
+        {
+          "number": 3443,
+          "title": "fix: respect tool timeouts in CLI daemon responses",
+          "state": "closed",
+          "updated_at": "2026-11-16T13:39:32Z",
+          "comments": 2,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3443",
+          "is_pull_request": true
+        },
+        {
+          "number": 3437,
+          "title": "fix(config): reject --browserUrl values without an http(s) scheme",
+          "state": "closed",
+          "updated_at": "2026-11-16T13:29:45Z",
+          "comments": 1,
+          "html_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/3437",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "ag-ui-protocol/ag-ui": {
+      "url": "https://api.github.com/repos/ag-ui-protocol/ag-ui/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 3360,
+          "title": "feat(codex-sdk): add community adapter and Flutter-compatible server",
+          "state": "open",
+          "updated_at": "2026-11-16T16:08:22Z",
+          "comments": 3,
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3360",
+          "is_pull_request": true
+        },
+        {
+          "number": 3350,
+          "title": "fix(go): preserve message identity in example server snapshots",
+          "state": "open",
+          "updated_at": "2026-11-16T16:01:30Z",
+          "comments": 2,
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3350",
+          "is_pull_request": true
+        },
+        {
+          "number": 3215,
+          "title": "Swift SDK 1.0 Parity",
+          "state": "open",
+          "updated_at": "2026-11-16T15:58:44Z",
+          "comments": 5,
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3215",
+          "is_pull_request": true
+        },
+        {
+          "number": 3128,
+          "title": "chore(deps): update github actions",
+          "state": "open",
+          "updated_at": "2026-11-16T15:28:13Z",
+          "comments": 2,
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3128",
+          "is_pull_request": true
+        },
+        {
+          "number": 3409,
+          "title": "docs: fix Mastra logo in README and add OpenBot to docs sidebar",
+          "state": "closed",
+          "updated_at": "2026-11-16T15:21:37Z",
+          "comments": 2,
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3409",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "kajisho5/ffmpeg-skill": {
+      "url": "https://api.github.com/repos/kajisho5/ffmpeg-skill/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 565,
+          "title": "Improve comments and structure in _harness.py",
+          "state": "open",
+          "updated_at": "2026-11-16T15:29:01Z",
+          "comments": 1,
+          "html_url": "https://github.com/kajisho5/ffmpeg-skill/pull/565",
+          "is_pull_request": true
+        },
+        {
+          "number": 563,
+          "title": "Resolved concat inputs bypass saved-plan protection (sequence and join --list --copy)",
+          "state": "open",
+          "updated_at": "2026-11-16T05:51:52Z",
+          "comments": 0,
+          "html_url": "https://github.com/kajisho5/ffmpeg-skill/issues/563",
+          "is_pull_request": false
+        },
+        {
+          "number": 564,
+          "title": "Saved plans: --flag=FILE skips side-input fingerprints and can overwrite the source",
+          "state": "open",
+          "updated_at": "2026-11-16T05:49:51Z",
+          "comments": 0,
+          "html_url": "https://github.com/kajisho5/ffmpeg-skill/issues/564",
+          "is_pull_request": false
+        },
+        {
+          "number": 562,
+          "title": "Multi-file output muxers overwrite existing files without --overwrite before verification fails",
+          "state": "open",
+          "updated_at": "2026-11-16T05:49:31Z",
+          "comments": 0,
+          "html_url": "https://github.com/kajisho5/ffmpeg-skill/issues/562",
+          "is_pull_request": false
+        },
+        {
+          "number": 561,
+          "title": "fix: keep the render cache read-only during dry runs",
+          "state": "open",
+          "updated_at": "2026-11-16T01:41:08Z",
+          "comments": 1,
+          "html_url": "https://github.com/kajisho5/ffmpeg-skill/pull/561",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "mvanhorn/last30days-skill": {
+      "url": "https://api.github.com/repos/mvanhorn/last30days-skill/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 1484,
+          "title": "fix(reddit): read the arctic comment tree in the comment fallback",
+          "state": "open",
+          "updated_at": "2026-11-16T16:06:56Z",
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1484",
+          "is_pull_request": true
+        },
+        {
+          "number": 1467,
+          "title": "fix(reddit): read the arctic comment tree so busy threads keep their top replies",
+          "state": "closed",
+          "updated_at": "2026-11-16T16:03:31Z",
+          "comments": 3,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1467",
+          "is_pull_request": true
+        },
+        {
+          "number": 1443,
+          "title": "fix: stop recommending YouTube comments as a ScrapeCreators opt-in",
+          "state": "closed",
+          "updated_at": "2026-11-16T16:00:12Z",
+          "comments": 2,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1443",
+          "is_pull_request": true
+        },
+        {
+          "number": 1468,
+          "title": "fix(skill): capture comparison topics outside command substitution",
+          "state": "closed",
+          "updated_at": "2026-11-16T16:00:04Z",
+          "comments": 2,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1468",
+          "is_pull_request": true
+        },
+        {
+          "number": 1469,
+          "title": "fix(github): rank human issue comments locally by reactions",
+          "state": "closed",
+          "updated_at": "2026-11-16T16:00:01Z",
+          "comments": 2,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1469",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "AgriciDaniel/claude-obsidian": {
+      "url": "https://api.github.com/repos/AgriciDaniel/claude-obsidian/issues?state=all&sort=updated&direction=desc&per_page=5",
+      "items": [
+        {
+          "number": 211,
+          "title": "chore(ci): bump the github-actions group across 1 directory with 4 updates",
+          "state": "open",
+          "updated_at": "2026-11-15T22:23:03Z",
+          "comments": 0,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/211",
+          "is_pull_request": true
+        },
+        {
+          "number": 217,
+          "title": "Scaling issues under automated capture: lock PID check not namespace-aware, no way to prune transactions, per-page chunk scan cost",
+          "state": "open",
+          "updated_at": "2026-11-12T02:02:06Z",
+          "comments": 0,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/issues/217",
+          "is_pull_request": false
+        },
+        {
+          "number": 216,
+          "title": "[feature] Opt-in Firecrawl runner for the url capture adapter",
+          "state": "open",
+          "updated_at": "2026-11-05T00:10:00Z",
+          "comments": 1,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/issues/216",
+          "is_pull_request": false
+        },
+        {
+          "number": 215,
+          "title": "feat(vault)!: host-neutral workspace config and env var names",
+          "state": "closed",
+          "updated_at": "2026-10-28T23:21:20Z",
+          "comments": 1,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/215",
+          "is_pull_request": true
+        },
+        {
+          "number": 214,
+          "title": "feat!: host-neutral config, env vars and docs (obsidian-plugin fork)",
+          "state": "closed",
+          "updated_at": "2026-10-28T21:44:13Z",
+          "comments": 1,
+          "html_url": "https://github.com/AgriciDaniel/claude-obsidian/pull/214",
+          "is_pull_request": true
+        }
+      ]
+    }
+  }
+}

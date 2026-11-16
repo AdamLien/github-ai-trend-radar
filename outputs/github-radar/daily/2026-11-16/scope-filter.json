@@ -1,0 +1,58 @@
+{
+  "before": 448,
+  "after": 435,
+  "excluded": [
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "遊戲 trainer 與預啟用安裝器定位，未取得可信 AI 開發用途證據。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般系統代理工具，無明確 AI／agent 或開發自動化用途。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般股價追蹤平台，未見明確 AI／agent 用途。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般繪圖工具，未見 AI／agent 用途。"
+    },
+    {
+      "repo": "block/buzz",
+      "reason": "一般通訊平台描述不足以確認 AI／agent 範圍。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "一般 service mesh 觀測工具，未見 AI／agent 用途。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "通用編譯器工具鏈，本輪不納入泛用開發基礎設施。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般檔案傳輸工具，未見 AI／agent 用途。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "一般帳號調查工具，未見 AI／agent 用途。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "規則式股票掃描與通知，未見 AI／agent 或開發自動化用途。"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "一般網路連線工具，未見 AI／agent 用途。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全函式庫清單，未見 AI／agent 用途。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "通用節點 UI 函式庫，非 AI／agent 編排專案本身。"
+    }
+  ]
+}
