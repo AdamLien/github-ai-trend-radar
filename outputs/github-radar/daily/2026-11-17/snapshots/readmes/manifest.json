@@ -1,0 +1,52 @@
+{
+  "Tencent/LoopForge": {
+    "bytes": 22632,
+    "html_url": "https://github.com/Tencent/LoopForge/blob/main/README.md",
+    "sha": "8141eec354b8852ef67a908ef2547232a2e4bf9d"
+  },
+  "dream-num/univer": {
+    "bytes": 51661,
+    "html_url": "https://github.com/dream-num/univer/blob/dev/README.md",
+    "sha": "3244196198837cd4b1a8d4eb0d3350273af9a260"
+  },
+  "backnotprop/plannotator": {
+    "bytes": 29444,
+    "html_url": "https://github.com/backnotprop/plannotator/blob/main/README.md",
+    "sha": "34bbdf47dbf2ba9367c5c8a660085071e167b595"
+  },
+  "google-research/paper-orchestra": {
+    "bytes": 4967,
+    "html_url": "https://github.com/google-research/paper-orchestra/blob/main/README.md",
+    "sha": "c79a45651aaf5f9ff5b9ec977c69ffd0c3e02095"
+  },
+  "mvanhorn/last30days-skill": {
+    "bytes": 34959,
+    "html_url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
+    "sha": "9ee9f329b10c8baa2d4cb53ead64a10e47363411"
+  },
+  "google-labs-code/stitch-skills": {
+    "bytes": 11076,
+    "html_url": "https://github.com/google-labs-code/stitch-skills/blob/main/README.md",
+    "sha": "baecaabfa0fc08d596e3d5921479321eaacac02a"
+  },
+  "ag-ui-protocol/ag-ui": {
+    "bytes": 19476,
+    "html_url": "https://github.com/ag-ui-protocol/ag-ui/blob/main/README.md",
+    "sha": "511991757bea32ccb96348a311469f0fd345c88b"
+  },
+  "elementalsouls/Claude-BugHunter": {
+    "bytes": 22872,
+    "html_url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/README.md",
+    "sha": "4182889da32bba8e37c28e1d5bec4231bf5046db"
+  },
+  "SamurAIGPT/llm-wiki-agent": {
+    "bytes": 13284,
+    "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/blob/main/README.md",
+    "sha": "bd7d1dbf0788b1208defa225ad6ed95210533416"
+  },
+  "nashsu/llm_wiki": {
+    "bytes": 32048,
+    "html_url": "https://github.com/nashsu/llm_wiki/blob/main/README.md",
+    "sha": "89d124047f93cb8a9d73adbe1c9a92ffdd71ecea"
+  }
+}

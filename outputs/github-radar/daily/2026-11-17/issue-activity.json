@@ -1,0 +1,445 @@
+{
+  "observed_at": "2026-11-17T16:12:41.431817+00:00",
+  "repos": {
+    "Tencent/LoopForge": {
+      "items": [
+        {
+          "number": 949,
+          "title": "[Feature]: 沙箱磁盘占用缺少容量检查与预警，写满后故障无法定位",
+          "state": "open",
+          "updated_at": "2026-11-17T15:51:23Z",
+          "html_url": "https://github.com/Tencent/LoopForge/issues/949",
+          "is_pull_request": false
+        },
+        {
+          "number": 1019,
+          "title": "chore(deps): bump github.com/klauspost/compress from 1.20.3 to 1.20.4",
+          "state": "open",
+          "updated_at": "2026-11-17T15:35:37Z",
+          "html_url": "https://github.com/Tencent/LoopForge/pull/1019",
+          "is_pull_request": true
+        },
+        {
+          "number": 1018,
+          "title": "chore(deps): bump golang.org/x/crypto from 0.58.0 to 0.59.0",
+          "state": "open",
+          "updated_at": "2026-11-17T15:35:25Z",
+          "html_url": "https://github.com/Tencent/LoopForge/pull/1018",
+          "is_pull_request": true
+        },
+        {
+          "number": 1017,
+          "title": "fix(workspace): recover a conversation after its instance dies",
+          "state": "open",
+          "updated_at": "2026-11-17T15:24:58Z",
+          "html_url": "https://github.com/Tencent/LoopForge/pull/1017",
+          "is_pull_request": true
+        },
+        {
+          "number": 888,
+          "title": "feat(web): unify CLI/model pickers in roles and clarification (#441)",
+          "state": "open",
+          "updated_at": "2026-11-17T15:24:25Z",
+          "html_url": "https://github.com/Tencent/LoopForge/pull/888",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "dream-num/univer": {
+      "items": [
+        {
+          "number": 8302,
+          "title": "feat(formula): implement EUROCONVERT",
+          "state": "open",
+          "updated_at": "2026-11-17T16:12:16Z",
+          "html_url": "https://github.com/dream-num/univer/pull/8302",
+          "is_pull_request": true
+        },
+        {
+          "number": 8301,
+          "title": "docs(readme): add \"When to choose Univer\" and a short comparison",
+          "state": "open",
+          "updated_at": "2026-11-17T16:06:18Z",
+          "html_url": "https://github.com/dream-num/univer/pull/8301",
+          "is_pull_request": true
+        },
+        {
+          "number": 8300,
+          "title": "fix(formula): read start_num as a byte position in SEARCHB and FINDB",
+          "state": "open",
+          "updated_at": "2026-11-17T15:56:31Z",
+          "html_url": "https://github.com/dream-num/univer/pull/8300",
+          "is_pull_request": true
+        },
+        {
+          "number": 8168,
+          "title": "perf(formula): reduce formula data work for large workbooks (#6062)",
+          "state": "open",
+          "updated_at": "2026-11-17T15:35:20Z",
+          "html_url": "https://github.com/dream-num/univer/pull/8168",
+          "is_pull_request": true
+        },
+        {
+          "number": 8299,
+          "title": "perf(sheets): reuse rich-text glyph rasters and skip clipped text",
+          "state": "open",
+          "updated_at": "2026-11-17T14:23:16Z",
+          "html_url": "https://github.com/dream-num/univer/pull/8299",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "backnotprop/plannotator": {
+      "items": [
+        {
+          "number": 3598,
+          "title": "Inbox: the person's rules in each agent's note, delivered once",
+          "state": "open",
+          "updated_at": "2026-11-17T16:09:08Z",
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3598",
+          "is_pull_request": true
+        },
+        {
+          "number": 3595,
+          "title": "Inbox: start T3 Code from New message, in a new worktree",
+          "state": "open",
+          "updated_at": "2026-11-17T16:01:08Z",
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3595",
+          "is_pull_request": true
+        },
+        {
+          "number": 3597,
+          "title": "Inbox: allow an exact https origin to frame the Inbox (config-only, opt-in), for a self-hosted proxy host",
+          "state": "open",
+          "updated_at": "2026-11-17T15:48:08Z",
+          "html_url": "https://github.com/backnotprop/plannotator/issues/3597",
+          "is_pull_request": false
+        },
+        {
+          "number": 3596,
+          "title": "Routines: Edit and Runs tabs on a routine",
+          "state": "open",
+          "updated_at": "2026-11-17T15:38:09Z",
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3596",
+          "is_pull_request": true
+        },
+        {
+          "number": 3567,
+          "title": "fix(inbox): send the person's Inbox rules and reminder to MCP sessions",
+          "state": "open",
+          "updated_at": "2026-11-17T15:36:52Z",
+          "html_url": "https://github.com/backnotprop/plannotator/pull/3567",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "google-research/paper-orchestra": {
+      "items": [
+        {
+          "number": 27,
+          "title": "utils: send images with their real MIME type",
+          "state": "open",
+          "updated_at": "2026-11-17T14:56:41Z",
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/27",
+          "is_pull_request": true
+        },
+        {
+          "number": 45,
+          "title": "LA TS",
+          "state": "open",
+          "updated_at": "2026-11-17T07:47:05Z",
+          "html_url": "https://github.com/google-research/paper-orchestra/issues/45",
+          "is_pull_request": false
+        },
+        {
+          "number": 44,
+          "title": "Add Claude-only writing pipeline and scholarly retrieval",
+          "state": "open",
+          "updated_at": "2026-11-17T06:59:37Z",
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/44",
+          "is_pull_request": true
+        },
+        {
+          "number": 43,
+          "title": "Default the CVPR template to double-blind review mode",
+          "state": "open",
+          "updated_at": "2026-11-16T18:15:56Z",
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/43",
+          "is_pull_request": true
+        },
+        {
+          "number": 42,
+          "title": "Keep the generated figures gallery usable when an image is missing",
+          "state": "open",
+          "updated_at": "2026-11-16T18:15:36Z",
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/42",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "mvanhorn/last30days-skill": {
+      "items": [
+        {
+          "number": 1501,
+          "title": "feat(exa): highlights plus company-site and competitor lookups",
+          "state": "closed",
+          "updated_at": "2026-11-17T15:56:56Z",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1501",
+          "is_pull_request": true
+        },
+        {
+          "number": 1510,
+          "title": "chore(release): bump version to 4.3.2",
+          "state": "closed",
+          "updated_at": "2026-11-17T15:55:46Z",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1510",
+          "is_pull_request": true
+        },
+        {
+          "number": 1509,
+          "title": "feat(exa): highlights, official-site fallback, and company competitor search",
+          "state": "closed",
+          "updated_at": "2026-11-17T15:52:56Z",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1509",
+          "is_pull_request": true
+        },
+        {
+          "number": 1508,
+          "title": "fix(windows): resolve Printing Press CLIs from the managed bin dir",
+          "state": "closed",
+          "updated_at": "2026-11-17T15:48:56Z",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1508",
+          "is_pull_request": true
+        },
+        {
+          "number": 1434,
+          "title": "Windows: Printing Press CLIs install off PATH, so Digg/arXiv/Techmeme/Yahoo Finance stay off; setup hides the \"Go is required\" cause; doctor's fix uses bash syntax",
+          "state": "closed",
+          "updated_at": "2026-11-17T15:48:55Z",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/issues/1434",
+          "is_pull_request": false
+        }
+      ]
+    },
+    "google-labs-code/stitch-skills": {
+      "items": [
+        {
+          "number": 100,
+          "title": "docs: add missing site-md skill to README",
+          "state": "open",
+          "updated_at": "2026-11-17T11:41:06Z",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/100",
+          "is_pull_request": true
+        },
+        {
+          "number": 99,
+          "title": "احذف المكونات الإضافية/تصميم غرزة/مهارات/إدارة تصميم-نظام/أمثالات/ميت...",
+          "state": "open",
+          "updated_at": "2026-11-17T03:16:30Z",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/99",
+          "is_pull_request": true
+        },
+        {
+          "number": 94,
+          "title": "Screen downloadUrl (htmlCode / screenshot) now redirects to Google sign-in — API-key MCP clients can no longer download screens",
+          "state": "closed",
+          "updated_at": "2026-11-16T18:23:36Z",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/94",
+          "is_pull_request": false
+        },
+        {
+          "number": 98,
+          "title": "1",
+          "state": "closed",
+          "updated_at": "2026-11-16T18:23:12Z",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/98",
+          "is_pull_request": false
+        },
+        {
+          "number": 97,
+          "title": "fix: resolve the uploader from the installed Stitch plugin",
+          "state": "open",
+          "updated_at": "2026-11-16T08:14:27Z",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "ag-ui-protocol/ag-ui": {
+      "items": [
+        {
+          "number": 3365,
+          "title": "feat(cloudflare-agents)!: serve AG-UI from Cloudflare Agents with withAGUI",
+          "state": "closed",
+          "updated_at": "2026-11-17T16:12:27Z",
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3365",
+          "is_pull_request": true
+        },
+        {
+          "number": 3128,
+          "title": "chore(deps): update github actions",
+          "state": "open",
+          "updated_at": "2026-11-17T16:11:26Z",
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3128",
+          "is_pull_request": true
+        },
+        {
+          "number": 3414,
+          "title": "release: sdk-ts",
+          "state": "closed",
+          "updated_at": "2026-11-17T16:04:42Z",
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3414",
+          "is_pull_request": true
+        },
+        {
+          "number": 3406,
+          "title": "feat(client): replay recorded event streams with ReplayAgent",
+          "state": "open",
+          "updated_at": "2026-11-17T15:50:54Z",
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3406",
+          "is_pull_request": true
+        },
+        {
+          "number": 3214,
+          "title": "rust 1.0 parity",
+          "state": "open",
+          "updated_at": "2026-11-17T15:50:38Z",
+          "html_url": "https://github.com/ag-ui-protocol/ag-ui/pull/3214",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "elementalsouls/Claude-BugHunter": {
+      "items": [
+        {
+          "number": 155,
+          "title": "fix(scope): reduce URL bullets in scope.md to their host",
+          "state": "open",
+          "updated_at": "2026-11-17T14:14:36Z",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/155",
+          "is_pull_request": true
+        },
+        {
+          "number": 153,
+          "title": "Add high-impact prioritization and BugHunter launcher upgrades",
+          "state": "open",
+          "updated_at": "2026-11-17T12:02:36Z",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/153",
+          "is_pull_request": true
+        },
+        {
+          "number": 154,
+          "title": "docs: regenerate skill catalog report counts",
+          "state": "open",
+          "updated_at": "2026-11-17T12:02:32Z",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/154",
+          "is_pull_request": true
+        },
+        {
+          "number": 152,
+          "title": "Proposal: add a focused high-severity prioritization skill",
+          "state": "open",
+          "updated_at": "2026-11-17T02:44:45Z",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/152",
+          "is_pull_request": false
+        },
+        {
+          "number": 136,
+          "title": "fix(engine): close coverage only after every endpoint work item has a verdict",
+          "state": "closed",
+          "updated_at": "2026-11-16T23:40:07Z",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/136",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "SamurAIGPT/llm-wiki-agent": {
+      "items": [
+        {
+          "number": 86,
+          "title": "fix(health): decode percent-encoded index links",
+          "state": "open",
+          "updated_at": "2026-10-20T12:40:51Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+          "is_pull_request": true
+        },
+        {
+          "number": 85,
+          "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+          "state": "open",
+          "updated_at": "2026-10-08T14:04:06Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+          "is_pull_request": true
+        },
+        {
+          "number": 84,
+          "title": "Prevent ingestion from overwriting existing Markdown files",
+          "state": "open",
+          "updated_at": "2026-09-24T14:01:36Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/84",
+          "is_pull_request": true
+        },
+        {
+          "number": 83,
+          "title": "Ingestion conversion can overwrite an existing Markdown sibling",
+          "state": "open",
+          "updated_at": "2026-09-24T13:43:30Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/83",
+          "is_pull_request": false
+        },
+        {
+          "number": 82,
+          "title": "Clarify CJK showcase contents",
+          "state": "open",
+          "updated_at": "2026-09-24T12:10:11Z",
+          "html_url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/82",
+          "is_pull_request": true
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "items": [
+        {
+          "number": 667,
+          "title": "fix: caption images in the configured output language",
+          "state": "closed",
+          "updated_at": "2026-11-16T23:20:13Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/667",
+          "is_pull_request": true
+        },
+        {
+          "number": 845,
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "updated_at": "2026-11-16T08:58:30Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "is_pull_request": true
+        },
+        {
+          "number": 155,
+          "title": "增加个 people 字段后，显示总是出错，希望获得您的帮助",
+          "state": "open",
+          "updated_at": "2026-11-13T13:22:51Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/155",
+          "is_pull_request": false
+        },
+        {
+          "number": 850,
+          "title": "fix: default the Anthropic preset to claude-sonnet-4-6",
+          "state": "open",
+          "updated_at": "2026-11-13T08:51:12Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/850",
+          "is_pull_request": true
+        },
+        {
+          "number": 849,
+          "title": "[Bug] MinerU cloud connection fails with HTTP 403 “Invalid CORS request” on Windows",
+          "state": "open",
+          "updated_at": "2026-11-12T08:55:05Z",
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/849",
+          "is_pull_request": false
+        }
+      ]
+    }
+  }
+}

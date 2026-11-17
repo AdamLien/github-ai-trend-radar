@@ -1,0 +1,45 @@
+{
+  "target_date": "2026-11-17",
+  "observed_at": "2026-11-18T00:11:33.769778+08:00",
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false
+    }
+  ],
+  "rate_limit_encountered": false,
+  "completed_at": "2026-11-17T16:24:52.622227+00:00",
+  "raw_repo_records": 448,
+  "unique_in_scope_repos": 433,
+  "duplicate_alias_records_removed": 14,
+  "excluded": [
+    {
+      "full_name": "ByteByteGoHq/system-design-101",
+      "reason": "一般系統設計／面試教材；本次描述、topics 與 README 摘要未提供 AI、MCP、Skills、Agent、知識庫或開發自動化的明確證據。"
+    }
+  ],
+  "metadata_fallbacks": {
+    "BarberNumber/Midjourney-Software": "404",
+    "BrickOrioleLoad/aion-2-trainer-tool": "404",
+    "HunYiSage/dsh-purge": "404",
+    "YuJunZhiXue/dsh-purge": "404",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools": "404",
+    "mingrath/obsidian-ai-knowledge-agent": "404",
+    "onehumanbeing/esp32-iphone-agent": "404"
+  },
+  "trending_url": "https://github.com/trending?since=daily",
+  "trending_in_scope_count": 13
+}
