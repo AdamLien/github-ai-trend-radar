@@ -1,0 +1,69 @@
+{
+  "excluded": [
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "homarr-labs/dashboard-icons",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "lobehub/lobe-icons",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "非 AI／MCP／Skills／Agent／知識管理／AI 開發自動化的明確候選；排除一般工具或遊戲修改工具。"
+    }
+  ],
+  "duplicate_records_merged": 14,
+  "fallback_repos": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ]
+}

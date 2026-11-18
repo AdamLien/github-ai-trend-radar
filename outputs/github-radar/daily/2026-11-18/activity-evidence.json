@@ -1,0 +1,495 @@
+{
+  "captured_at": "2026-11-18T16:13:18.063426+00:00",
+  "repos": {
+    "NVIDIA/SkillEvaluator": {
+      "recent_issues_and_prs": [
+        {
+          "number": 727,
+          "title": "fix(tier3): preserve exit status for quoted script paths",
+          "state": "open",
+          "updated_at": "2026-11-18T12:33:02Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/727"
+        },
+        {
+          "number": 784,
+          "title": "[BUG]: Tier 1 security check fails as INCOMPLETE on a skill whose only gaps are two ES-module helpers (static_parse_limit)",
+          "state": "open",
+          "updated_at": "2026-11-18T10:47:51Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/issues/784"
+        },
+        {
+          "number": 783,
+          "title": "[FEA]: Add AI/ML API as a named provider (`aimlapi`)",
+          "state": "open",
+          "updated_at": "2026-11-18T09:52:04Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/issues/783"
+        },
+        {
+          "number": 771,
+          "title": "fix(tier3): flag HTTP uploads from interpreter code, xh, curl -K and .wgetrc",
+          "state": "open",
+          "updated_at": "2026-11-18T09:24:06Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/771"
+        },
+        {
+          "number": 782,
+          "title": "docs: clarify keyless validation and repository CI setup",
+          "state": "closed",
+          "updated_at": "2026-11-18T09:13:09Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/NVIDIA/SkillEvaluator/pull/782"
+        }
+      ]
+    },
+    "mvanhorn/last30days-skill": {
+      "recent_issues_and_prs": [
+        {
+          "number": 1486,
+          "title": "chore(release): bump version to 4.2.1",
+          "state": "closed",
+          "updated_at": "2026-11-18T15:00:11Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1486"
+        },
+        {
+          "number": 1534,
+          "title": "https://last30days.app/ is yours?",
+          "state": "closed",
+          "updated_at": "2026-11-18T14:51:31Z",
+          "comments": 2,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/issues/1534"
+        },
+        {
+          "number": 1383,
+          "title": "fix: recover complete browser cookie sets in automatic extraction",
+          "state": "open",
+          "updated_at": "2026-11-18T14:22:30Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1383"
+        },
+        {
+          "number": 1533,
+          "title": "feat(shortform): keyless TikTok/Instagram fallback via web discovery + yt-dlp",
+          "state": "open",
+          "updated_at": "2026-11-18T09:30:16Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1533"
+        },
+        {
+          "number": 1351,
+          "title": "ChatGPT Work installation blocked: “skill did not pass the safety scan” (v3.31.0)",
+          "state": "open",
+          "updated_at": "2026-11-18T00:59:03Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/issues/1351"
+        }
+      ]
+    },
+    "google-research/paper-orchestra": {
+      "recent_issues_and_prs": [
+        {
+          "number": 49,
+          "title": "Feature request: ACP (Agent Client Protocol) backend support",
+          "state": "open",
+          "updated_at": "2026-11-17T19:15:09Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/google-research/paper-orchestra/issues/49"
+        },
+        {
+          "number": 47,
+          "title": "Add Claude Code and Codex CLI backends, usage-limit handling and --resume",
+          "state": "closed",
+          "updated_at": "2026-11-17T17:08:19Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/47"
+        },
+        {
+          "number": 48,
+          "title": "Add Claude Code and Codex CLI backends, usage-limit handling and --resume",
+          "state": "open",
+          "updated_at": "2026-11-17T17:04:47Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/48"
+        },
+        {
+          "number": 27,
+          "title": "utils: send images with their real MIME type",
+          "state": "open",
+          "updated_at": "2026-11-17T14:56:41Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-research/paper-orchestra/pull/27"
+        },
+        {
+          "number": 45,
+          "title": "LA TS",
+          "state": "open",
+          "updated_at": "2026-11-17T07:47:05Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/google-research/paper-orchestra/issues/45"
+        }
+      ]
+    },
+    "elementalsouls/Claude-BugHunter": {
+      "recent_issues_and_prs": [
+        {
+          "number": 158,
+          "title": "fix(skills): move oversized skill bodies into references (#82)",
+          "state": "closed",
+          "updated_at": "2026-11-18T11:32:14Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/158"
+        },
+        {
+          "number": 173,
+          "title": "fix(skills): split report-writing body into references (#82)",
+          "state": "open",
+          "updated_at": "2026-11-18T10:42:34Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/173"
+        },
+        {
+          "number": 172,
+          "title": "fix(skills): split web3-audit body into references (#82)",
+          "state": "open",
+          "updated_at": "2026-11-18T10:42:28Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/172"
+        },
+        {
+          "number": 171,
+          "title": "fix(skills): split supply-chain-attack-recon body into references (#82)",
+          "state": "open",
+          "updated_at": "2026-11-18T10:42:25Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/171"
+        },
+        {
+          "number": 170,
+          "title": "fix(skills): split web2-recon body into references (#82)",
+          "state": "open",
+          "updated_at": "2026-11-18T10:42:23Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/170"
+        }
+      ]
+    },
+    "affaan-m/ECC": {
+      "recent_issues_and_prs": [
+        {
+          "number": 3961,
+          "title": "fix(project-detect): preserve extras in Python dependency arrays",
+          "state": "open",
+          "updated_at": "2026-11-18T15:20:14Z",
+          "comments": 18,
+          "is_pull_request": true,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3961"
+        },
+        {
+          "number": 3923,
+          "title": "fix(ck): keep saved sessions when a registered project is initialized again",
+          "state": "closed",
+          "updated_at": "2026-11-18T15:18:19Z",
+          "comments": 27,
+          "is_pull_request": true,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3923"
+        },
+        {
+          "number": 3899,
+          "title": "feat(copilot): extend ECC port and Windows acceptance coverage",
+          "state": "open",
+          "updated_at": "2026-11-18T15:12:35Z",
+          "comments": 21,
+          "is_pull_request": true,
+          "html_url": "https://github.com/affaan-m/ECC/pull/3899"
+        },
+        {
+          "number": 4027,
+          "title": "[Problem] OpenCode: 46 agents never installed, so /review-pr and 13 other commands can't run their agents",
+          "state": "open",
+          "updated_at": "2026-11-18T14:30:28Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/affaan-m/ECC/issues/4027"
+        },
+        {
+          "number": 4016,
+          "title": "perf(clv2): cut observe hook process launches",
+          "state": "open",
+          "updated_at": "2026-11-18T14:17:56Z",
+          "comments": 10,
+          "is_pull_request": true,
+          "html_url": "https://github.com/affaan-m/ECC/pull/4016"
+        }
+      ]
+    },
+    "obra/superpowers": {
+      "recent_issues_and_prs": [
+        {
+          "number": 2699,
+          "title": "using-superpowers: pressure wording over-triggers skills on current Claude models",
+          "state": "open",
+          "updated_at": "2026-11-18T14:04:28Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/obra/superpowers/issues/2699"
+        },
+        {
+          "number": 2715,
+          "title": "Drop compact from the SessionStart skill-reminder matcher",
+          "state": "open",
+          "updated_at": "2026-11-18T10:29:57Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/obra/superpowers/issues/2715"
+        },
+        {
+          "number": 1136,
+          "title": "feat: add native Qwen Code support for Agent Skills",
+          "state": "closed",
+          "updated_at": "2026-11-18T05:39:44Z",
+          "comments": 8,
+          "is_pull_request": true,
+          "html_url": "https://github.com/obra/superpowers/pull/1136"
+        },
+        {
+          "number": 3,
+          "title": "No marketplace.json?",
+          "state": "closed",
+          "updated_at": "2026-11-18T01:16:32Z",
+          "comments": 3,
+          "is_pull_request": false,
+          "html_url": "https://github.com/obra/superpowers/issues/3"
+        },
+        {
+          "number": 2714,
+          "title": "Pi extension: bootstrap message uses Date.now() timestamp, breaks prompt caching",
+          "state": "open",
+          "updated_at": "2026-11-17T20:19:11Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/obra/superpowers/issues/2714"
+        }
+      ]
+    },
+    "google-labs-code/stitch-skills": {
+      "recent_issues_and_prs": [
+        {
+          "number": 100,
+          "title": "docs: add missing site-md skill to README",
+          "state": "closed",
+          "updated_at": "2026-11-18T08:55:29Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/100"
+        },
+        {
+          "number": 101,
+          "title": "---",
+          "state": "open",
+          "updated_at": "2026-11-18T08:52:24Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/101"
+        },
+        {
+          "number": 60,
+          "title": "Support Codex plugins",
+          "state": "closed",
+          "updated_at": "2026-11-18T03:25:25Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/60"
+        },
+        {
+          "number": 97,
+          "title": "fix: resolve the uploader from the installed Stitch plugin",
+          "state": "open",
+          "updated_at": "2026-11-17T18:08:43Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97"
+        },
+        {
+          "number": 99,
+          "title": "احذف المكونات الإضافية/تصميم غرزة/مهارات/إدارة تصميم-نظام/أمثالات/ميت...",
+          "state": "open",
+          "updated_at": "2026-11-17T03:16:30Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/99"
+        }
+      ]
+    },
+    "HKUDS/CLI-Anything": {
+      "recent_issues_and_prs": [
+        {
+          "number": 641,
+          "title": "[Feature]: API-backed targets (closed-source / SaaS software with a public REST API)",
+          "state": "open",
+          "updated_at": "2026-11-18T11:23:50Z",
+          "comments": 1,
+          "is_pull_request": false,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/641"
+        },
+        {
+          "number": 648,
+          "title": "Add WireCat CLIs to the public registry",
+          "state": "open",
+          "updated_at": "2026-11-17T22:50:45Z",
+          "comments": 1,
+          "is_pull_request": true,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/648"
+        },
+        {
+          "number": 647,
+          "title": "feat(hermes-skill): vendor the methodology, add a harness verifier, and cover the installer in CI",
+          "state": "open",
+          "updated_at": "2026-11-17T15:10:50Z",
+          "comments": 2,
+          "is_pull_request": true,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/647"
+        },
+        {
+          "number": 586,
+          "title": "fix(3mf): preserve float64 vertex precision",
+          "state": "open",
+          "updated_at": "2026-11-17T12:57:35Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/586"
+        },
+        {
+          "number": 585,
+          "title": "fix(qgis): support field enums on QGIS 3.34",
+          "state": "open",
+          "updated_at": "2026-11-17T12:57:34Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/585"
+        }
+      ]
+    },
+    "n8n-io/n8n": {
+      "recent_issues_and_prs": [
+        {
+          "number": 44402,
+          "title": "fix(MCP): exclude parent item fields from tool arguments",
+          "state": "open",
+          "updated_at": "2026-11-18T16:12:00Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/n8n-io/n8n/pull/44402"
+        },
+        {
+          "number": 44246,
+          "title": "feat(editor): Show agent triggers first and restyle trigger section",
+          "state": "open",
+          "updated_at": "2026-11-18T16:10:56Z",
+          "comments": 4,
+          "is_pull_request": true,
+          "html_url": "https://github.com/n8n-io/n8n/pull/44246"
+        },
+        {
+          "number": 43853,
+          "title": "feat(engine): Use Redis work queues in the engine process (no-changelog)",
+          "state": "open",
+          "updated_at": "2026-11-18T16:09:34Z",
+          "comments": 4,
+          "is_pull_request": true,
+          "html_url": "https://github.com/n8n-io/n8n/pull/43853"
+        },
+        {
+          "number": 44408,
+          "title": "Pushbullet file uploads resolve the binary field name from item 0 for every item",
+          "state": "open",
+          "updated_at": "2026-11-18T16:08:57Z",
+          "comments": 4,
+          "is_pull_request": false,
+          "html_url": "https://github.com/n8n-io/n8n/issues/44408"
+        },
+        {
+          "number": 44404,
+          "title": "feat(core): Add runtime credentials for admin-managed credentials (no-changelog)",
+          "state": "open",
+          "updated_at": "2026-11-18T16:07:49Z",
+          "comments": 5,
+          "is_pull_request": true,
+          "html_url": "https://github.com/n8n-io/n8n/pull/44404"
+        }
+      ]
+    },
+    "nashsu/llm_wiki": {
+      "recent_issues_and_prs": [
+        {
+          "number": 667,
+          "title": "fix: caption images in the configured output language",
+          "state": "closed",
+          "updated_at": "2026-11-16T23:20:13Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/667"
+        },
+        {
+          "number": 845,
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "updated_at": "2026-11-16T08:58:30Z",
+          "comments": 3,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845"
+        },
+        {
+          "number": 155,
+          "title": "增加个 people 字段后，显示总是出错，希望获得您的帮助",
+          "state": "open",
+          "updated_at": "2026-11-13T13:22:51Z",
+          "comments": 2,
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/155"
+        },
+        {
+          "number": 850,
+          "title": "fix: default the Anthropic preset to claude-sonnet-4-6",
+          "state": "open",
+          "updated_at": "2026-11-13T08:51:12Z",
+          "comments": 0,
+          "is_pull_request": true,
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/850"
+        },
+        {
+          "number": 849,
+          "title": "[Bug] MinerU cloud connection fails with HTTP 403 “Invalid CORS request” on Windows",
+          "state": "open",
+          "updated_at": "2026-11-12T08:55:05Z",
+          "comments": 0,
+          "is_pull_request": false,
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/849"
+        }
+      ]
+    }
+  }
+}
