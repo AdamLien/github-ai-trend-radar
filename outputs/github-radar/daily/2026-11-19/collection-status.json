@@ -1,0 +1,19 @@
+{
+  "target_date": "2026-11-19",
+  "collected_at": "2026-11-20T00:23:37.443565+08:00",
+  "limit": 10,
+  "rate_limit_encountered": false,
+  "exit_code": 0,
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ]
+}

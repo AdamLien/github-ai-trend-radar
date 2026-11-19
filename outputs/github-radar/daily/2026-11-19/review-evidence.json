@@ -1,0 +1,749 @@
+{
+  "collected_at": "2026-11-19T16:12:48.946588+00:00",
+  "repos": [
+    {
+      "full_name": "obra/superpowers",
+      "html_url": "https://github.com/obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "language": "Shell",
+      "license": "MIT",
+      "stars": 321823,
+      "forks": 28605,
+      "open_issues": 360,
+      "watchers": 1172,
+      "created_at": "2025-10-09T19:45:18Z",
+      "updated_at": "2026-11-19T16:11:59Z",
+      "pushed_at": "2026-11-03T23:24:58Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "brainstorming",
+        "coding",
+        "obra",
+        "sdlc",
+        "skills",
+        "subagent-driven-development",
+        "superpowers"
+      ],
+      "latest_release": {
+        "name": "v7.0.2",
+        "tag_name": "v7.0.2",
+        "published_at": "2026-11-03T22:17:54Z"
+      },
+      "readme_excerpt": "# Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. ## Table of Contents - [How it works](#how-it-works) - [Commercial Services](#commercial-services) - [Getting Started](#installation) - [Claude Code](#claude-code) - [Antigravity](#antigravity) - [Codex App](#codex-app) - [Codex CLI](#codex-cli) - [Cursor](#cursor) - [Devin CLI](#devin-cli) - [Factory Droid](#factory-droid) - [Gemini CLI](#gemini-cli) - [GitHub Copilot CLI](#github-copilot-cli) - [Grok Build CLI](#grok-build-cli) - [Kimi Code](#kimi-code) - [OpenCode](#opencode) - [Pi](#p",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/obra/superpowers/issues/2716",
+          "title": "subagent-driven-development: the fix-loop model escalation (rounds 4-5) has no stated scope, so the escalated implementer carries on into later tasks",
+          "state": "open",
+          "updated_at": "2026-11-19T02:11:42Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/obra/superpowers/issues/2699",
+          "title": "using-superpowers: pressure wording over-triggers skills on current Claude models",
+          "state": "open",
+          "updated_at": "2026-11-18T14:04:28Z",
+          "comments": 1,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/obra/superpowers/issues/2715",
+          "title": "Drop compact from the SessionStart skill-reminder matcher",
+          "state": "open",
+          "updated_at": "2026-11-18T10:29:57Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/obra/superpowers/pull/1136",
+          "title": "feat: add native Qwen Code support for Agent Skills",
+          "state": "closed",
+          "updated_at": "2026-11-18T05:39:44Z",
+          "comments": 8,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/obra/superpowers/issues/3",
+          "title": "No marketplace.json?",
+          "state": "closed",
+          "updated_at": "2026-11-18T01:16:32Z",
+          "comments": 3,
+          "is_pull_request": false
+        }
+      ]
+    },
+    {
+      "full_name": "HKUDS/CLI-Anything",
+      "html_url": "https://github.com/HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "language": "Python",
+      "license": "Apache-2.0",
+      "stars": 60337,
+      "forks": 5473,
+      "open_issues": 265,
+      "watchers": 218,
+      "created_at": "2026-03-08T13:52:57Z",
+      "updated_at": "2026-11-19T16:09:44Z",
+      "pushed_at": "2026-09-22T02:01:29Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "v0.4.0",
+        "tag_name": "v0.4.0",
+        "published_at": "2026-06-25T15:17:49Z"
+      },
+      "readme_excerpt": "<h1 align=\"center\"><img src=\"assets/icon.png\" alt=\"\" width=\"64\" style=\"vertical-align: middle;\">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1> <div align=\"center\"> <a href=\"https://www.star-history.com/hkuds/cli-anything\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending&amp;theme=dark\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending\"><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending\" height=\"55\"></picture></a>&#32;<a href=\"https:/",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/671",
+          "title": "feat: add DaVinci Resolve CLI (standalone repo)",
+          "state": "open",
+          "updated_at": "2026-11-19T16:08:11Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/670",
+          "title": "fix(3mf): reject nonfinite resize diameters before replacing output",
+          "state": "open",
+          "updated_at": "2026-11-19T14:20:11Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/669",
+          "title": "3MF resize accepts NaN and infinite diameters and can overwrite output",
+          "state": "open",
+          "updated_at": "2026-11-19T14:17:57Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/664",
+          "title": "fix(3mf): complete normal repair in the editing pipeline",
+          "state": "open",
+          "updated_at": "2026-11-19T13:33:58Z",
+          "comments": 2,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/659",
+          "title": "fix(inkscape): render PNG exports with the native backend",
+          "state": "open",
+          "updated_at": "2026-11-19T13:14:24Z",
+          "comments": 1,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "cursor/plugins",
+      "html_url": "https://github.com/cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "language": "TypeScript",
+      "license": "",
+      "stars": 17475,
+      "forks": 1927,
+      "open_issues": 686,
+      "watchers": 79,
+      "created_at": "2026-01-23T01:57:42Z",
+      "updated_at": "2026-11-19T16:12:37Z",
+      "pushed_at": "2026-11-19T06:52:20Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "# Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products. Each plugin is a standalone directory at the repository root with its own `.cursor-plugin/plugin.json` manifest. ## Plugins | `name` | Plugin | Author | Category | `description` (from marketplace) | |:-------|:-------|:-------|:---------|:-------------------------------------| | `teaching` | [Teaching](teaching/) | Cursor | Utilities | Skill mapping, practice plans, and learning retrospectives. | | `continual-learning` | [Continual Learning](continual-learning/) | Eric Zakariasson | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points on",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/cursor/plugins/issues/1173",
+          "title": "pstack: poteto-mode can't start from a stored prompt (task cards, scheduled or headless sessions)",
+          "state": "open",
+          "updated_at": "2026-11-19T15:25:07Z",
+          "comments": 1,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/cursor/plugins/issues/1270",
+          "title": "pstack: poteto-agent's Cursor model slug makes Claude Code run it on a fallback model",
+          "state": "open",
+          "updated_at": "2026-11-19T15:24:18Z",
+          "comments": 2,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/cursor/plugins/issues/1289",
+          "title": "Add a CHANGELOG please",
+          "state": "open",
+          "updated_at": "2026-11-19T15:08:48Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/cursor/plugins/issues/1170",
+          "title": "statechart: silent exit on Windows — CRLF line endings break message parsing + POSIX-only process management",
+          "state": "open",
+          "updated_at": "2026-11-19T12:16:28Z",
+          "comments": 2,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/cursor/plugins/pull/1288",
+          "title": "fix(pstack): read statechart action names without the arguments TLC 1.8.0 adds",
+          "state": "open",
+          "updated_at": "2026-11-19T12:08:34Z",
+          "comments": 0,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "firecrawl/firecrawl",
+      "html_url": "https://github.com/firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "stars": 203800,
+      "forks": 10677,
+      "open_issues": 833,
+      "watchers": 504,
+      "created_at": "2024-04-15T21:02:29Z",
+      "updated_at": "2026-11-19T16:12:41Z",
+      "pushed_at": "2026-11-19T15:42:50Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-crawler",
+        "ai-scraping",
+        "ai-search",
+        "crawler",
+        "data-extraction",
+        "html-to-markdown",
+        "llm",
+        "markdown",
+        "scraper",
+        "scraping",
+        "web-crawler",
+        "web-data",
+        "web-data-extraction",
+        "web-scraper",
+        "web-scraping",
+        "web-search",
+        "webscraping"
+      ],
+      "latest_release": {
+        "name": "Firecrawl v2.11.0",
+        "tag_name": "v2.11.0",
+        "published_at": "2026-06-19T15:09:30Z"
+      },
+      "readme_excerpt": "<h3 align=\"center\"> <a name=\"readme-top\"></a> <img src=\"https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/firecrawl_logo.png\" height=\"200\" > </h3> <div align=\"center\"> <a href=\"https://github.com/firecrawl/firecrawl/blob/main/LICENSE\"> <img src=\"https://img.shields.io/github/license/firecrawl/firecrawl\" alt=\"License\"> </a> <a href=\"https://pepy.tech/project/firecrawl-py\"> <img src=\"https://static.pepy.tech/badge/firecrawl-py\" alt=\"Downloads\"> </a> <a href=\"https://GitHub.com/firecrawl/firecrawl/graphs/contributors\"> <img src=\"https://img.shields.io/github/contributors/firecrawl/firecrawl.svg\" alt=\"GitHub Contributors\"> </a> <a href=\"https://firecrawl.dev\"> <img src=\"https://img.",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5839",
+          "title": "feat(api): purge a deleted team's change tracking rows from Bigtable",
+          "state": "open",
+          "updated_at": "2026-11-19T15:45:16Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5873",
+          "title": "fix(scrape): reject profiles that the render browser cannot run",
+          "state": "open",
+          "updated_at": "2026-11-19T15:05:50Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5871",
+          "title": "feat(api): export BullMQ queue depth and overdue age from the reconciler",
+          "state": "closed",
+          "updated_at": "2026-11-19T14:36:02Z",
+          "comments": 7,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5872",
+          "title": "fix(python-sdk): reject nonpositive large-batch chunk sizes",
+          "state": "open",
+          "updated_at": "2026-11-19T14:23:51Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5859",
+          "title": "perf(python-sdk): reuse the metadata key normalization table",
+          "state": "open",
+          "updated_at": "2026-11-19T14:23:36Z",
+          "comments": 1,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "cathrynlavery/diagram-design",
+      "html_url": "https://github.com/cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "language": "HTML",
+      "license": "MIT",
+      "stars": 68463,
+      "forks": 4603,
+      "open_issues": 38,
+      "watchers": 160,
+      "created_at": "2026-04-16T18:01:16Z",
+      "updated_at": "2026-11-19T16:11:54Z",
+      "pushed_at": "2026-11-19T00:17:05Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "diagrams",
+        "drawio",
+        "mermaid",
+        "svg"
+      ],
+      "latest_release": {
+        "name": "",
+        "tag_name": "",
+        "published_at": ""
+      },
+      "readme_excerpt": "<div align=\"center\"> <h1> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/hero/hero-dark.webp\"> <img alt=\"Diagram Design. Editorial diagrams your designer won't hate.\" src=\"docs/hero/hero-light.webp\"> </picture> </h1> **An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.<br>51 diagram types. No shadows. No Mermaid slop.** [![GitHub stars](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat-square&color=bf4520)](https://github.com/cathrynlavery/diagram-design/stargazers) [![skills.sh installs](https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square)](https://skills.sh/cathrynlavery/diagram-design/diagr",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/190",
+          "title": "feat: host-aware install doctor for Playwright, Cowork, marketplace, and Pi",
+          "state": "open",
+          "updated_at": "2026-11-19T06:06:43Z",
+          "comments": 11,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/529",
+          "title": "fix(test): write ridgeline fixtures without write_text(newline=)",
+          "state": "open",
+          "updated_at": "2026-11-19T06:04:46Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/528",
+          "title": "fix(verify): read quoted selector text as selector text",
+          "state": "open",
+          "updated_at": "2026-11-19T06:04:18Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/523",
+          "title": "feat(type): add git graph for branch, merge and release flows",
+          "state": "open",
+          "updated_at": "2026-11-19T03:37:51Z",
+          "comments": 4,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/522",
+          "title": "feat(import): redraw Mermaid quadrantChart blocks as quadrant diagrams",
+          "state": "closed",
+          "updated_at": "2026-11-19T02:20:11Z",
+          "comments": 5,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "mvanhorn/last30days-skill",
+      "html_url": "https://github.com/mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 70612,
+      "forks": 6288,
+      "open_issues": 23,
+      "watchers": 222,
+      "created_at": "2026-01-23T20:37:37Z",
+      "updated_at": "2026-11-19T16:12:00Z",
+      "pushed_at": "2026-11-19T08:23:36Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-prompts",
+        "ai-skill",
+        "bluesky",
+        "claude",
+        "claude-code",
+        "clawhub",
+        "deep-research",
+        "hackernews",
+        "instagram",
+        "openclaw",
+        "polymarket",
+        "recency",
+        "reddit",
+        "research",
+        "social-media",
+        "tiktok",
+        "trends",
+        "twitter",
+        "web-search",
+        "youtube"
+      ],
+      "latest_release": {
+        "name": "v4.3.2",
+        "tag_name": "v4.3.2",
+        "published_at": "2026-11-17T15:56:44Z"
+      },
+      "readme_excerpt": "# /last30days English | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md) | [العربية](README.ar.md) | [فارسی](README.fa.md) | [Türkçe](README.tr.md) <p align=\"center\"> <img src=\"media/pr-assets/last30days-ad.gif\" width=\"720\" alt=\"last30days - an AI agent-led search engine that searches people, not editors\" /> </p> <p align=\"center\"> <a href=\"https://github.com/mvanhorn/last30days-skill\"> <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" /> </a> <br",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1471",
+          "title": "fix(reddit): free Reddit floor, one hydrator and honest path health",
+          "state": "closed",
+          "updated_at": "2026-11-19T15:25:30Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1419",
+          "title": "feat(digg): find Digg's biggest stories on a topic and drop the ones that are not about it",
+          "state": "closed",
+          "updated_at": "2026-11-19T10:45:42Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1466",
+          "title": "chore(release): bump version to 4.0.5",
+          "state": "closed",
+          "updated_at": "2026-11-19T10:09:32Z",
+          "comments": 2,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1533",
+          "title": "feat(shortform): keyless TikTok/Instagram fallback via web discovery + yt-dlp",
+          "state": "open",
+          "updated_at": "2026-11-19T09:48:32Z",
+          "comments": 4,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1465",
+          "title": "fix(x): read X's Top tab for topic searches",
+          "state": "closed",
+          "updated_at": "2026-11-19T09:15:44Z",
+          "comments": 3,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "google-labs-code/stitch-skills",
+      "html_url": "https://github.com/google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "stars": 10621,
+      "forks": 1380,
+      "open_issues": 21,
+      "watchers": 88,
+      "created_at": "2026-01-16T17:17:17Z",
+      "updated_at": "2026-11-19T16:08:38Z",
+      "pushed_at": "2026-11-18T05:00:25Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "Stitch Skills Plugins Release",
+        "tag_name": "v1.0",
+        "published_at": "2026-05-18T18:02:32Z"
+      },
+      "readme_excerpt": "# Stitch Design Skills A collection of agent skills and plugins for [Google Stitch](https://stitch.withgoogle.com), following the [Agent Skills](https://agentskills.io) open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). ## Quick Start ### 1. Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. #### Codex Add the Stitch Skills marketplace, then install the plugins you need. <details open> <summary><strong>Via CLI</strong> (recommended)</summary> ```bash codex plugin marketplace add google-labs-code/stitch-skills --ref main \\ --sparse .agents/plugins \\ --sparse plugin",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/100",
+          "title": "docs: add missing site-md skill to README",
+          "state": "closed",
+          "updated_at": "2026-11-18T08:55:29Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/google-labs-code/stitch-skills/issues/101",
+          "title": "---",
+          "state": "open",
+          "updated_at": "2026-11-18T08:52:24Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/60",
+          "title": "Support Codex plugins",
+          "state": "closed",
+          "updated_at": "2026-11-18T03:25:25Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+          "title": "fix: resolve the uploader from the installed Stitch plugin",
+          "state": "open",
+          "updated_at": "2026-11-17T18:08:43Z",
+          "comments": 1,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/99",
+          "title": "احذف المكونات الإضافية/تصميم غرزة/مهارات/إدارة تصميم-نظام/أمثالات/ميت...",
+          "state": "open",
+          "updated_at": "2026-11-17T03:16:30Z",
+          "comments": 1,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "toeverything/AFFiNE",
+      "html_url": "https://github.com/toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 74923,
+      "forks": 5550,
+      "open_issues": 841,
+      "watchers": 291,
+      "created_at": "2022-07-31T18:45:21Z",
+      "updated_at": "2026-11-19T16:12:39Z",
+      "pushed_at": "2026-11-18T09:58:41Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "app",
+        "crdt",
+        "editor",
+        "electron",
+        "knowledge-base",
+        "markdown",
+        "miro",
+        "notes",
+        "notion",
+        "notion-alternative",
+        "rust",
+        "rust-lang",
+        "rust-language",
+        "table",
+        "tableview",
+        "whiteboard",
+        "wiki",
+        "workspace"
+      ],
+      "latest_release": {
+        "name": "0.27.4",
+        "tag_name": "v0.27.4",
+        "published_at": "2026-08-18T16:51:39Z"
+      },
+      "readme_excerpt": "<div align=\"center\"> <h1 style=\"border-bottom: none\"> <b><a href=\"https://affine.pro\">AFFiNE.Pro</a></b><br /> Write, Draw and Plan All at Once <br> </h1> <a href=\"https://affine.pro/download\"> <img alt=\"affine logo\" src=\"https://cdn.affine.pro/Github_hero_image2.png\" style=\"width: 100%\"> </a> <br/> <p align=\"center\"> A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. <br /> One hyper-fused platform for wildly creative minds. </p> <br/> <br/> <a href=\"https://www.producthunt.com/posts/affine-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-affine&#0045;3\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/feature",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/toeverything/AFFiNE/issues/13903",
+          "title": "[Feature Request]: Use Kanban tile space better",
+          "state": "open",
+          "updated_at": "2026-11-19T08:59:00Z",
+          "comments": 5,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/toeverything/AFFiNE/issues/15872",
+          "title": "[Bug]: CPU \\GPU占用过高导致电脑发热严重",
+          "state": "open",
+          "updated_at": "2026-11-19T08:58:18Z",
+          "comments": 1,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/toeverything/AFFiNE/issues/15558",
+          "title": "[Bug]: *Connection failed* while adding Gemini AI Provider using AI BYOK (Beta)",
+          "state": "open",
+          "updated_at": "2026-11-19T04:46:10Z",
+          "comments": 12,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15835",
+          "title": "Pr/13 frame resize",
+          "state": "open",
+          "updated_at": "2026-11-18T18:52:34Z",
+          "comments": 3,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15837",
+          "title": "Pr/15 md html export import",
+          "state": "open",
+          "updated_at": "2026-11-18T18:51:23Z",
+          "comments": 3,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "zhouxiaoka/autoclip",
+      "html_url": "https://github.com/zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "language": "Python",
+      "license": "MIT",
+      "stars": 11039,
+      "forks": 1927,
+      "open_issues": 45,
+      "watchers": 45,
+      "created_at": "2025-07-08T04:51:15Z",
+      "updated_at": "2026-11-19T16:12:17Z",
+      "pushed_at": "2026-11-19T14:33:37Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [
+        "ai-agent",
+        "ai-video-editor",
+        "content-repurposing",
+        "desktop-app",
+        "douyin",
+        "instagram-reels",
+        "mcp",
+        "open-source",
+        "podcast",
+        "subtitles",
+        "tiktok",
+        "video-clipping",
+        "video-editing-software",
+        "xiaohongshu",
+        "youtube-shorts"
+      ],
+      "latest_release": {
+        "name": "AutoClip Desktop v1.5.8",
+        "tag_name": "v1.5.8",
+        "published_at": "2026-11-02T12:15:50Z"
+      },
+      "readme_excerpt": "<!-- mcp-name: io.github.zhouxiaoka/autoclip-mcp --> <div align=\"center\"> <img src=\"src-tauri/icons/128x128.png\" alt=\"AutoClip\" width=\"72\" height=\"72\"> # AutoClip ### 一个链接，一键出片 开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 <b>视频、封面和发布文案</b>，<br> 适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。<br> 软件免费，云端模型按量计费；需要调整时可进入编辑器。 <p> <a href=\"https://github.com/zhouxiaoka/autoclip/releases/latest\"><img src=\"https://img.shields.io/github/v/release/zhouxiaoka/autoclip?style=flat-square\" alt=\"GitHub release\"></a> <a href=\"https://github.com/zhouxiaoka/autoclip/stargazers\"><img src=\"https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square\" alt=\"GitHub stars\"></a> <a href=\"https://github.com/zhouxiao",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/620",
+          "title": "优化首次出片流程：新首屏、一键配模型和 2×2 默认模型布局",
+          "state": "closed",
+          "updated_at": "2026-11-19T14:33:38Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/618",
+          "title": "梳理剪辑结果和发布页，优化默认模型切换与诊断设置",
+          "state": "closed",
+          "updated_at": "2026-11-19T11:35:14Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/zhouxiaoka/autoclip/issues/619",
+          "title": "[反馈] 在服务商与模型的配置界面，我尝试使用了 OpenAI，88API和DeepSeek的三种API。余额确保充足，底下两个测",
+          "state": "open",
+          "updated_at": "2026-11-19T11:19:47Z",
+          "comments": 0,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/617",
+          "title": "修复 1.5.9 RC 审查发现的项目恢复、额度和诊断问题",
+          "state": "closed",
+          "updated_at": "2026-11-19T06:32:44Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/616",
+          "title": "字幕高光最短片段从 20 秒改为 10 秒",
+          "state": "closed",
+          "updated_at": "2026-11-19T05:28:13Z",
+          "comments": 0,
+          "is_pull_request": true
+        }
+      ]
+    },
+    {
+      "full_name": "nashsu/llm_wiki",
+      "html_url": "https://github.com/nashsu/llm_wiki",
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "language": "TypeScript",
+      "license": "NOASSERTION",
+      "stars": 21771,
+      "forks": 2466,
+      "open_issues": 300,
+      "watchers": 85,
+      "created_at": "2026-04-08T11:24:01Z",
+      "updated_at": "2026-11-19T14:57:24Z",
+      "pushed_at": "2026-10-21T11:17:29Z",
+      "archived": false,
+      "disabled": false,
+      "topics": [],
+      "latest_release": {
+        "name": "LLM Wiki v0.6.13",
+        "tag_name": "v0.6.13",
+        "published_at": "2026-10-22T01:21:07Z"
+      },
+      "readme_excerpt": "# LLM Wiki <p align=\"center\"> <img src=\"logo.jpg\" width=\"128\" height=\"128\" style=\"border-radius: 22%;\" alt=\"LLM Wiki Logo\"> </p> <p align=\"center\"> <strong>A personal knowledge base that builds itself.</strong><br> LLM reads your documents, builds a structured wiki, and keeps it current. </p> <p align=\"center\"> <a href=\"#what-is-this\">What is this?</a> • <a href=\"#what-we-changed--added\">Features</a> • <a href=\"#tech-stack\">Tech Stack</a> • <a href=\"#installation\">Installation</a> • <a href=\"#credits\">Credits</a> • <a href=\"#license\">License</a> </p> <p align=\"center\"> English | <a href=\"README_CN.md\">中文</a> | <a href=\"README_JA.md\">日本語</a> | <a href=\"README_KO.md\">한국어</a> </p> --- <p align=",
+      "recent_issue_activity": [
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/667",
+          "title": "fix: caption images in the configured output language",
+          "state": "closed",
+          "updated_at": "2026-11-16T23:20:13Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/845",
+          "title": "feat(search): add Keenable web search provider (key-free by default)",
+          "state": "open",
+          "updated_at": "2026-11-16T08:58:30Z",
+          "comments": 3,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/155",
+          "title": "增加个 people 字段后，显示总是出错，希望获得您的帮助",
+          "state": "open",
+          "updated_at": "2026-11-13T13:22:51Z",
+          "comments": 2,
+          "is_pull_request": false
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/pull/850",
+          "title": "fix: default the Anthropic preset to claude-sonnet-4-6",
+          "state": "open",
+          "updated_at": "2026-11-13T08:51:12Z",
+          "comments": 0,
+          "is_pull_request": true
+        },
+        {
+          "html_url": "https://github.com/nashsu/llm_wiki/issues/849",
+          "title": "[Bug] MinerU cloud connection fails with HTTP 403 “Invalid CORS request” on Windows",
+          "state": "open",
+          "updated_at": "2026-11-12T08:55:05Z",
+          "comments": 0,
+          "is_pull_request": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "excluded": [
+    {
+      "full_name": "ByteByteGoHq/system-design-101",
+      "reason": "通用系統設計教材，無直接 AI／agent／開發自動化焦點"
+    },
+    {
+      "full_name": "InterceptSuite/ProxyBridge",
+      "reason": "通用代理網路客戶端"
+    },
+    {
+      "full_name": "Open-Dev-Society/OpenStock",
+      "reason": "通用股票看盤平台"
+    },
+    {
+      "full_name": "kiali/kiali",
+      "reason": "通用 Istio 可觀測性平台"
+    },
+    {
+      "full_name": "megadose/holehe",
+      "reason": "通用電子郵件 OSINT 查詢"
+    },
+    {
+      "full_name": "rustfs/rustfs",
+      "reason": "通用物件儲存，僅 AI 儲存標籤不足以列入本日主題"
+    },
+    {
+      "full_name": "tldrsec/awesome-secure-defaults",
+      "reason": "通用資安函式庫清單"
+    },
+    {
+      "full_name": "xyflow/xyflow",
+      "reason": "通用節點式 UI 元件庫"
+    }
+  ],
+  "trending_excluded": [
+    "nginx/nginx",
+    "XiaoYouChR/Ghost-Downloader-3"
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ]
+}

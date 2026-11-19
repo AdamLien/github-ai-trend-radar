@@ -1,0 +1,129 @@
+{
+  "url": "https://github.com/trending?since=daily",
+  "cards": [
+    {
+      "repo": "elementalsouls/Claude-BugHunter",
+      "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+      "stars_today": "1353"
+    },
+    {
+      "repo": "obra/superpowers",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "stars_today": "2029"
+    },
+    {
+      "repo": "HKUDS/CLI-Anything",
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "stars_today": "899"
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+      "stars_today": "301"
+    },
+    {
+      "repo": "cursor/plugins",
+      "description": "Cursor plugin specification and official plugins",
+      "stars_today": "383"
+    },
+    {
+      "repo": "firecrawl/firecrawl",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "stars_today": "795"
+    },
+    {
+      "repo": "nginx/nginx",
+      "description": "The official NGINX Open Source repository.",
+      "stars_today": "66"
+    },
+    {
+      "repo": "openvinotoolkit/openvino",
+      "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+      "stars_today": "246"
+    },
+    {
+      "repo": "cathrynlavery/diagram-design",
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "stars_today": "332"
+    },
+    {
+      "repo": "mvanhorn/last30days-skill",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "stars_today": "952"
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "stars_today": "303"
+    },
+    {
+      "repo": "mjmirza/app-store-compliance",
+      "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 117 documented rejection patterns and fixes, privacy manifest and Data safety checks, 95 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+      "stars_today": "542"
+    },
+    {
+      "repo": "Tracer-Cloud/opensre",
+      "description": "The open-source agent for CI/CD reliability.",
+      "stars_today": "25"
+    },
+    {
+      "repo": "toeverything/AFFiNE",
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+      "stars_today": "170"
+    },
+    {
+      "repo": "XiaoYouChR/Ghost-Downloader-3",
+      "description": "The only downloader you need. 下载器的集大成者。",
+      "stars_today": "449"
+    },
+    {
+      "repo": "zhouxiaoka/autoclip",
+      "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+      "stars_today": "110"
+    }
+  ],
+  "collector_in_scope": {
+    "elementalsouls/Claude-BugHunter": {
+      "trending_stars_today": 1353
+    },
+    "obra/superpowers": {
+      "trending_stars_today": 2029
+    },
+    "HKUDS/CLI-Anything": {
+      "trending_stars_today": 899
+    },
+    "jingyaogong/minimind": {
+      "trending_stars_today": 301
+    },
+    "cursor/plugins": {
+      "trending_stars_today": 383
+    },
+    "firecrawl/firecrawl": {
+      "trending_stars_today": 795
+    },
+    "openvinotoolkit/openvino": {
+      "trending_stars_today": 246
+    },
+    "cathrynlavery/diagram-design": {
+      "trending_stars_today": 332
+    },
+    "mvanhorn/last30days-skill": {
+      "trending_stars_today": 952
+    },
+    "google-labs-code/stitch-skills": {
+      "trending_stars_today": 303
+    },
+    "mjmirza/app-store-compliance": {
+      "trending_stars_today": 542
+    },
+    "Tracer-Cloud/opensre": {
+      "trending_stars_today": 25
+    },
+    "toeverything/AFFiNE": {
+      "trending_stars_today": 170
+    },
+    "zhouxiaoka/autoclip": {
+      "trending_stars_today": 110
+    }
+  }
+}
