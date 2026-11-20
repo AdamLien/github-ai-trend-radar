@@ -1,0 +1,92 @@
+[
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "category": "Skill candidate",
+    "purpose": "跨 Reddit、X、YouTube、HN 與網頁彙整近況，將多來源結果整理為研究摘要。",
+    "risk": "平台存取、API 成本與可用來源會影響覆蓋；互動量可能放大熱門觀點，摘要仍須逐條回查原始來源。",
+    "relevance": "Adam 可用於課程更新、短影音選題與客戶會議前研究；AI 辦公自動化可產出每週產業簡報；know metabiz wiki 只保存已核對、有日期的結論與來源。",
+    "next": "以同一主題跑兩次，核對來源清單、去重與引用正確率，再決定是否建立本地研究 skill。",
+    "activity_number": 1541
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "category": "Skill candidate",
+    "purpose": "讓 coding agent 產生品牌一致的單檔 HTML／SVG 圖解，適合流程、架構與簡報素材。",
+    "risk": "README 宣稱的圖型數已超過 Trending 描述，顯示描述可能落後；CSS、字型與匯出結果仍需視覺檢查，尚無 GitHub release 可固定版本。",
+    "relevance": "Adam 課程與內容可示範把文字轉為可編輯圖解；辦公自動化可整理 SOP；know metabiz wiki 可加入系統架構與流程圖。",
+    "next": "以一份繁體中文 SOP 測試長標籤、SVG／PNG 匯出及品牌樣式，記錄人工修圖時間。",
+    "activity_number": 534
+  },
+  {
+    "repo": "zhouxiaoka/autoclip",
+    "category": "Demo content",
+    "purpose": "將長影片、課程與訪談轉成短片，產生字幕、封面與發布文案，提供桌面、CLI 與 MCP 入口。",
+    "risk": "本地剪輯不代表模型處理全程離線；雲端模型仍有費用與資料流向問題，字幕斷句、人物裁切及超時恢復需實測。",
+    "relevance": "直接對應 Adam 課程再製與 Shorts／Reels 內容管線；辦公自動化可剪輯內訓重點；know metabiz wiki 可索引原片、時間碼與審稿後摘要。",
+    "next": "用自有 10 分鐘中文課程測試三支短片，核對字幕、裁切、費用及完整輸出耗時。",
+    "activity_number": 627
+  },
+  {
+    "repo": "firecrawl/firecrawl",
+    "category": "Deep research",
+    "purpose": "將網頁擷取成乾淨 Markdown，提供本地工具、自架服務、雲端 API 與 MCP 連接。",
+    "risk": "Local、Cloud 與完整自架的能力和維運成本不同；去重、重新導向、動態頁與 sitemap 邊界仍有近期回報，需按實際授權與資料來源條件評估。",
+    "relevance": "Adam 可製作網頁資料到 AI 的課程範例；辦公自動化可監看公開產品文件；know metabiz wiki 可建立含來源 URL、擷取時間與增量比對的匯入流程。",
+    "next": "用同一組靜態頁、動態頁與重新導向頁比較 Local／Cloud，檢查重複文件與資料來源保留。",
+    "activity_number": 5925
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "category": "Demo content",
+    "purpose": "把既有軟體包裝成 agent 可呼叫的 CLI，透過可測試命令串接操作流程。",
+    "risk": "CLI 的覆蓋與正確性依賴各軟體 harness；近期字幕工具缺檔修補仍為未合併 PR，不能把展示等同完整功能。",
+    "relevance": "Adam 可示範 agent 如何操作既有桌面工具；辦公自動化可研究重複性操作的命令介面；know metabiz wiki 可保存可重現命令、相依條件與驗證紀錄。",
+    "next": "選一個不接觸正式資料的工具跑完整輸入、處理、匯出流程，核對實際產物。",
+    "activity_number": 682
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "category": "Deep research",
+    "purpose": "整合文件、白板與表格的 local-first 知識工作空間，可作為團隊知識庫介面研究對象。",
+    "risk": "近期發布清單包含 canary／beta，穩定版與預覽版須分開；多人權限、備份、匯出與各版本授權需先查明。",
+    "relevance": "Adam 可用於知識管理課程及 Notion／白板工作流比較；辦公自動化可整理協作 SOP；know metabiz wiki 可先測試文件結構與匯出可攜性。",
+    "next": "用去識別化樣本測試 Markdown 匯入匯出、關聯保留及多人權限，先不遷移既有 wiki。",
+    "activity_number": 15874
+  },
+  {
+    "repo": "google-labs-code/stitch-skills",
+    "category": "Skill candidate",
+    "purpose": "為 Google Stitch 提供設計、建置與工具型 skills，串接多種 coding agent 與 MCP。",
+    "risk": "不同宿主的 plugin／skill 安裝方式有差異；近期 PR 涉及原生元件標籤、色彩與資產路徑驗證，尚待確認合併及實際相容性。",
+    "relevance": "Adam 可製作設計到網站的實作課程；內容可比較跨 agent 工作流；辦公自動化可做內部入口原型；know metabiz wiki 可收錄設計規範與操作案例。",
+    "next": "以同一設計需求在兩個 agent 宿主測試，核對元件驗證、資產路徑與維護成本。",
+    "activity_number": 104
+  },
+  {
+    "repo": "obra/superpowers",
+    "category": "Reference only",
+    "purpose": "將需求釐清、計畫、測試與審查整理成可組合的 coding-agent 開發方法與 skills。",
+    "risk": "熱度不等於新版本發布；最新穩定 release 並非今日，較強的流程規則可能增加溝通與 token 成本，應量測適用任務。",
+    "relevance": "Adam 已有相關技能脈絡，可用於課程中的 agent 工作法比較；辦公自動化可借用驗收步驟；know metabiz wiki 可保存適用情境與實際案例，不必因高星數重複導入。",
+    "next": "比較一個小任務與一個複雜任務的完成率、耗時及互動次數，追蹤修復迴圈相關 PR。",
+    "activity_number": 2718
+  },
+  {
+    "repo": "Tracer-Cloud/opensre",
+    "category": "Watch",
+    "purpose": "以自架 CLI agent 讀取失敗 CI 執行、追查原因並提出修正，支援自備模型。",
+    "risk": "README 明示 public alpha；預設變更工具需確認的 PR 尚未合併，正式 repo 寫入權限與錯誤修復能力仍需隔離驗證。",
+    "relevance": "Adam 可製作 CI 除錯示範與進階 coding-agent 課程；辦公自動化團隊可減少維運診斷時間；know metabiz wiki 可整理事件、根因與核准後修復紀錄。",
+    "next": "在測試 repo 製造可重現的 CI 失敗，只讓 agent 提出修補，觀察 PR #7071 與文件修正進度。",
+    "activity_number": 7071
+  },
+  {
+    "repo": "elementalsouls/Claude-BugHunter",
+    "category": "Watch",
+    "purpose": "將漏洞研究、驗證與報告撰寫整理成 Claude Code skill bundle，搭配授權測試工作流。",
+    "risk": "Trending 與 README 的 skills 數量有差異；近期有報告洩漏 OS 登入名稱與 PowerShell 相容性修正。高熱度不能替代安全、範圍及報告品質檢查。",
+    "relevance": "Adam 可研究 skill 模組化與證據整理的教學方式；一般 AI 辦公自動化關聯較低；know metabiz wiki 可參考去識別化的驗證與報告結構。",
+    "next": "只在本地練習環境檢查報告去識別化與 Windows 修正，觀察熱度能否延續。",
+    "activity_number": 190
+  }
+]

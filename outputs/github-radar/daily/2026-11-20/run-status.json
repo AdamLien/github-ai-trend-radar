@@ -1,0 +1,27 @@
+{
+  "target_date": "2026-11-20",
+  "observed_at": "2026-11-20T16:23:27.825533+00:00",
+  "initial_limit": 10,
+  "rate_limit_detected": false,
+  "retry_limit": null,
+  "collector_exit_code": 0,
+  "queries": [
+    "mcp server ai",
+    "model context protocol",
+    "agent skills coding agent",
+    "claude code template",
+    "codex skills",
+    "coding agent llm",
+    "rag knowledge base",
+    "ai wiki knowledge management",
+    "llm orchestration agent",
+    "developer automation ai"
+  ],
+  "dashboard_build": "passed",
+  "dashboard_build_exit_code": 0,
+  "dashboard_warning": "Vite bundle exceeds 500 kB",
+  "required_artifacts_verified": true,
+  "preexisting_file_hashes_unchanged": true,
+  "unique_repositories": 432,
+  "reviewed_repositories": 10
+}

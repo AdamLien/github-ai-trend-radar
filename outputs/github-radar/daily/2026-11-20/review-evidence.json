@@ -1,0 +1,1712 @@
+[
+  {
+    "full_name": "elementalsouls/Claude-BugHunter",
+    "observed_at": "2026-11-20T16:12:31.105798+00:00",
+    "readme_url": "https://github.com/elementalsouls/Claude-BugHunter/blob/main/README.md",
+    "issues": [
+      {
+        "number": 193,
+        "title": "fix(cbh): report draft OS-login leak + steps heading + platform alias (#190)",
+        "state": "closed",
+        "created_at": "2026-11-20T15:46:30Z",
+        "updated_at": "2026-11-20T15:53:41Z",
+        "closed_at": "2026-11-20T15:53:35Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/193",
+        "pull_request": {
+          "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/pulls/193",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/193",
+          "diff_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/193.diff",
+          "patch_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/193.patch",
+          "merged_at": "2026-11-20T15:53:35Z"
+        }
+      },
+      {
+        "number": 190,
+        "title": "[bug] cbh report: Reporter line leaks the OS login name; '## Steps to reproduce' heading not parsed",
+        "state": "closed",
+        "created_at": "2026-11-20T11:41:47Z",
+        "updated_at": "2026-11-20T15:53:38Z",
+        "closed_at": "2026-11-20T15:53:38Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/190",
+        "pull_request": null
+      },
+      {
+        "number": 192,
+        "title": "fix(windows): ASCII-only PowerShell scripts — PS 5.1 parse crash (#183, #185)",
+        "state": "closed",
+        "created_at": "2026-11-20T15:32:09Z",
+        "updated_at": "2026-11-20T15:53:30Z",
+        "closed_at": "2026-11-20T15:53:27Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/192",
+        "pull_request": {
+          "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/pulls/192",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/192",
+          "diff_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/192.diff",
+          "patch_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/192.patch",
+          "merged_at": "2026-11-20T15:53:27Z"
+        }
+      },
+      {
+        "number": 185,
+        "title": "[bug] Fix Windows PowerShell 5.1 Compatibility: UTF-8 Encoding in PowerShell Scripts",
+        "state": "closed",
+        "created_at": "2026-11-20T01:18:53Z",
+        "updated_at": "2026-11-20T15:53:29Z",
+        "closed_at": "2026-11-20T15:53:29Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/185",
+        "pull_request": null
+      },
+      {
+        "number": 183,
+        "title": "[bug] hunt.ps1 breaks on Windows PowerShell 5.1 — em-dashes corrupted (no BOM)",
+        "state": "closed",
+        "created_at": "2026-11-19T18:45:51Z",
+        "updated_at": "2026-11-20T15:53:29Z",
+        "closed_at": "2026-11-20T15:53:29Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/183",
+        "pull_request": null
+      },
+      {
+        "number": 191,
+        "title": "fix(engine): utf-8 encoding for all I/O — Windows cp1252 crash (#189)",
+        "state": "closed",
+        "created_at": "2026-11-20T15:29:25Z",
+        "updated_at": "2026-11-20T15:53:25Z",
+        "closed_at": "2026-11-20T15:53:23Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/191",
+        "pull_request": {
+          "url": "https://api.github.com/repos/elementalsouls/Claude-BugHunter/pulls/191",
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/191",
+          "diff_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/191.diff",
+          "patch_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/191.patch",
+          "merged_at": "2026-11-20T15:53:22Z"
+        }
+      },
+      {
+        "number": 189,
+        "title": "[bug] engine crashes on Windows: UnicodeEncodeError when writing engine.log (open() without encoding)",
+        "state": "closed",
+        "created_at": "2026-11-20T11:41:36Z",
+        "updated_at": "2026-11-20T15:53:24Z",
+        "closed_at": "2026-11-20T15:53:24Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/189",
+        "pull_request": null
+      },
+      {
+        "number": 87,
+        "title": "[dx] <short summary>not installed",
+        "state": "closed",
+        "created_at": "2026-11-01T20:06:06Z",
+        "updated_at": "2026-11-20T15:48:50Z",
+        "closed_at": "2026-11-20T15:48:50Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/87",
+        "pull_request": null
+      },
+      {
+        "number": 184,
+        "title": "[bug] <short summary>",
+        "state": "closed",
+        "created_at": "2026-11-19T19:13:34Z",
+        "updated_at": "2026-11-20T15:48:46Z",
+        "closed_at": "2026-11-20T15:48:46Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/184",
+        "pull_request": null
+      },
+      {
+        "number": 188,
+        "title": "[bug] <short summary>",
+        "state": "closed",
+        "created_at": "2026-11-20T10:56:57Z",
+        "updated_at": "2026-11-20T15:48:43Z",
+        "closed_at": "2026-11-20T15:48:43Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/188",
+        "pull_request": null
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v2.1",
+        "name": "v2.1 — community skills · CI gate · security fixes",
+        "published_at": "2026-06-05T16:15:13Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.1",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.0",
+        "name": "v2.0 — report-curation + 5 missing surfaces + chains + engagements",
+        "published_at": "2026-05-25T21:00:22Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/releases/tag/v2.0",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "eb93e41e3363714b0c53b1486d7fa64f6f3ac8f79f266f52d443ca0ecaf097f8",
+    "readme_excerpt": "![claude-bughunter banner](assets/banner-v2.svg) # claude-bughunter > A self-contained Claude skill bundle for bug hunting and external red-team work · **83 skills** · 15 slash commands · **681 disclosed-report patterns** (433 now individually cited & auditable) across 24 core vulnerability classes · enterprise identity + infrastructure attack matrices · engagement-folder scaffolding · Burp MCP integration · battle-tested across authorized red-team and bug-hunting engagements, plus public training platforms (DVWA, OWASP Juice Shop, Hacker101, testphp.vulnweb.com). Built by **[Sachin Sharma](https://www.linkedin.com/in/sachinsharma8080/)** — Bug Hunting & GenAI Security Research. <p align=\"ce"
+  },
+  {
+    "full_name": "obra/superpowers",
+    "observed_at": "2026-11-20T16:12:31.106400+00:00",
+    "readme_url": "https://github.com/obra/superpowers/blob/main/README.md",
+    "issues": [
+      {
+        "number": 2703,
+        "title": "Dev of Souveraine - just reporting one of my users wanted this working and... it's working just fine, so you can add Souveraine to the list of supported IDE's already.",
+        "state": "open",
+        "created_at": "2026-11-14T16:47:14Z",
+        "updated_at": "2026-11-20T15:22:40Z",
+        "closed_at": null,
+        "html_url": "https://github.com/obra/superpowers/issues/2703",
+        "pull_request": null
+      },
+      {
+        "number": 2720,
+        "title": "brainstorming: add inversion (failure question, premortem) so designs account for how they could fail",
+        "state": "open",
+        "created_at": "2026-11-20T10:09:40Z",
+        "updated_at": "2026-11-20T10:10:20Z",
+        "closed_at": null,
+        "html_url": "https://github.com/obra/superpowers/issues/2720",
+        "pull_request": null
+      },
+      {
+        "number": 2719,
+        "title": "fix(opencode): recognize todowrite in V2 mapping when experimental.todo is enabled (#2701)",
+        "state": "open",
+        "created_at": "2026-11-20T09:05:20Z",
+        "updated_at": "2026-11-20T09:05:20Z",
+        "closed_at": null,
+        "html_url": "https://github.com/obra/superpowers/pull/2719",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2719",
+          "html_url": "https://github.com/obra/superpowers/pull/2719",
+          "diff_url": "https://github.com/obra/superpowers/pull/2719.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2719.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2718,
+        "title": "fix(sdd): scope fix-loop model escalation to current task (#2716)",
+        "state": "open",
+        "created_at": "2026-11-20T08:27:02Z",
+        "updated_at": "2026-11-20T08:27:02Z",
+        "closed_at": null,
+        "html_url": "https://github.com/obra/superpowers/pull/2718",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2718",
+          "html_url": "https://github.com/obra/superpowers/pull/2718",
+          "diff_url": "https://github.com/obra/superpowers/pull/2718.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2718.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2717,
+        "title": "fix(pi): use stable timestamp on injected bootstrap message to preserve prompt caching (#2714)",
+        "state": "open",
+        "created_at": "2026-11-20T08:14:24Z",
+        "updated_at": "2026-11-20T08:14:24Z",
+        "closed_at": null,
+        "html_url": "https://github.com/obra/superpowers/pull/2717",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2717",
+          "html_url": "https://github.com/obra/superpowers/pull/2717",
+          "diff_url": "https://github.com/obra/superpowers/pull/2717.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2717.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2583,
+        "title": "OpenCode: bootstrap instructs `superpowers:<skill>`, but the plugin registers bare ids - every session opens with failed skill calls",
+        "state": "closed",
+        "created_at": "2026-10-22T03:57:13Z",
+        "updated_at": "2026-11-20T01:02:22Z",
+        "closed_at": "2026-11-03T22:17:39Z",
+        "html_url": "https://github.com/obra/superpowers/issues/2583",
+        "pull_request": null
+      },
+      {
+        "number": 2664,
+        "title": "Finishing pr default rest",
+        "state": "closed",
+        "created_at": "2026-11-05T01:23:56Z",
+        "updated_at": "2026-11-19T20:38:29Z",
+        "closed_at": "2026-11-19T20:38:28Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2664",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2664",
+          "html_url": "https://github.com/obra/superpowers/pull/2664",
+          "diff_url": "https://github.com/obra/superpowers/pull/2664.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2664.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2658,
+        "title": "fix(codex): emit portal-compatible release metadata",
+        "state": "open",
+        "created_at": "2026-11-03T23:26:51Z",
+        "updated_at": "2026-11-19T20:37:35Z",
+        "closed_at": null,
+        "html_url": "https://github.com/obra/superpowers/pull/2658",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2658",
+          "html_url": "https://github.com/obra/superpowers/pull/2658",
+          "diff_url": "https://github.com/obra/superpowers/pull/2658.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2658.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2667,
+        "title": "feat(hermes): make bootstrap injection configurable",
+        "state": "closed",
+        "created_at": "2026-11-05T10:16:39Z",
+        "updated_at": "2026-11-19T20:36:31Z",
+        "closed_at": "2026-11-19T20:36:31Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2667",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2667",
+          "html_url": "https://github.com/obra/superpowers/pull/2667",
+          "diff_url": "https://github.com/obra/superpowers/pull/2667.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2667.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2666,
+        "title": "Hermes: allow manual skill use without automatic bootstrap injection",
+        "state": "closed",
+        "created_at": "2026-11-05T10:06:15Z",
+        "updated_at": "2026-11-19T20:36:29Z",
+        "closed_at": "2026-11-19T20:36:29Z",
+        "html_url": "https://github.com/obra/superpowers/issues/2666",
+        "pull_request": null
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v7.0.2",
+        "name": "v7.0.2",
+        "published_at": "2026-11-03T22:17:54Z",
+        "html_url": "https://github.com/obra/superpowers/releases/tag/v7.0.2",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v7.0.1",
+        "name": "v7.0.1",
+        "published_at": "2026-10-21T21:05:11Z",
+        "html_url": "https://github.com/obra/superpowers/releases/tag/v7.0.1",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v7.0.0",
+        "name": "v7.0.0",
+        "published_at": "2026-10-10T00:28:58Z",
+        "html_url": "https://github.com/obra/superpowers/releases/tag/v7.0.0",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "79f29f50c735862d2e304ea547b4c9aa67d9db6909ff6fb7b5ea922d7bcbc3e7",
+    "readme_excerpt": "# Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. ## Table of Contents - [How it works](#how-it-works) - [Commercial Services](#commercial-services) - [Getting Started](#installation) - [Claude Code](#claude-code) - [Antigravity](#antigravity) - [Codex App](#codex-app) - [Codex CLI](#codex-cli) - [Cursor](#cursor) - [Devin CLI](#devin-cli) - [Factory Droid](#factory-droid) - [Gemini CLI](#gemini-cli) - [GitHub Copilot CLI](#github-copilot-cli) - [Grok Build CLI](#grok-build-cli) - [Kimi Code](#kimi-code) - [OpenCode](#opencode) - [Pi](#p"
+  },
+  {
+    "full_name": "HKUDS/CLI-Anything",
+    "observed_at": "2026-11-20T16:12:31.107627+00:00",
+    "readme_url": "https://github.com/HKUDS/CLI-Anything/blob/main/README.md",
+    "issues": [
+      {
+        "number": 679,
+        "title": "fix(browser): anchor explicit root grep searches (#319)",
+        "state": "open",
+        "created_at": "2026-11-20T08:32:17Z",
+        "updated_at": "2026-11-20T15:14:35Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/679",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/679",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/679",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/679.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/679.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 682,
+        "title": "fix(videocaptioner): add missing core/review.py and allowlist videocaptioner/",
+        "state": "open",
+        "created_at": "2026-11-20T12:55:25Z",
+        "updated_at": "2026-11-20T13:01:33Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/682",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/682",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/682",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/682.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/682.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 649,
+        "title": "feat: add Alexa harness for controlling Amazon Echo devices",
+        "state": "open",
+        "created_at": "2026-11-18T16:38:15Z",
+        "updated_at": "2026-11-20T11:32:22Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/649",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/649",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/649",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/649.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/649.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 305,
+        "title": "Add TinyFish CLI Harness",
+        "state": "open",
+        "created_at": "2026-05-22T01:49:28Z",
+        "updated_at": "2026-11-20T10:05:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/305",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/305",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/305",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/305.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/305.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 299,
+        "title": "Harden CLI-Hub preview compatibility and installs",
+        "state": "open",
+        "created_at": "2026-05-20T05:08:27Z",
+        "updated_at": "2026-11-20T10:05:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/299",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/299",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/299",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/299.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/299.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 233,
+        "title": "fix(browser): add MCP timeout guard to prevent fs hangs",
+        "state": "open",
+        "created_at": "2026-04-19T18:46:58Z",
+        "updated_at": "2026-11-20T10:05:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/233",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/233",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/233",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/233.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/233.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 220,
+        "title": "fix(browser): harden bridge and sync REPL template",
+        "state": "open",
+        "created_at": "2026-04-15T08:30:29Z",
+        "updated_at": "2026-11-20T10:05:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/220",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/220",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/220",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/220.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/220.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 167,
+        "title": "feat(freecad): add FreeCAD 1.0.2 backward compatibility",
+        "state": "open",
+        "created_at": "2026-03-30T02:02:44Z",
+        "updated_at": "2026-11-20T10:05:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/167",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/167",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/167",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/167.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/167.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 106,
+        "title": "fix: split token-aware into default exclusions + optional --economic mode",
+        "state": "open",
+        "created_at": "2026-03-19T10:20:46Z",
+        "updated_at": "2026-11-20T10:05:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/106",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/106",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/106",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/106.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/106.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 474,
+        "title": "fix(blender): use explicit UTF-8 encoding for scene/render/session file I/O",
+        "state": "open",
+        "created_at": "2026-09-19T18:18:58Z",
+        "updated_at": "2026-11-20T10:05:20Z",
+        "closed_at": null,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/474",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/474",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/474",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/474.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/474.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v0.4.0",
+        "name": "v0.4.0",
+        "published_at": "2026-06-25T15:17:49Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v0.3.0",
+        "name": "v0.3.0",
+        "published_at": "2026-04-24T15:49:56Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/releases/tag/v0.3.0",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v0.2.0",
+        "name": "v0.2.0",
+        "published_at": "2026-03-30T09:17:46Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/releases/tag/v0.2.0",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+    "readme_excerpt": "<h1 align=\"center\"><img src=\"assets/icon.png\" alt=\"\" width=\"64\" style=\"vertical-align: middle;\">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1> <div align=\"center\"> <a href=\"https://www.star-history.com/hkuds/cli-anything\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending&amp;theme=dark\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending\"><img alt=\"GitHub Trending Repository of the Day\" src=\"https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending\" height=\"55\"></picture></a>&#32;<a href=\"https:/"
+  },
+  {
+    "full_name": "firecrawl/firecrawl",
+    "observed_at": "2026-11-20T16:12:32.716724+00:00",
+    "readme_url": "https://github.com/firecrawl/firecrawl/blob/main/README.md",
+    "issues": [
+      {
+        "number": 5926,
+        "title": "crawl CLI: add --sitemap include|skip|only (--max-depth does not limit sitemap URLs)",
+        "state": "open",
+        "created_at": "2026-11-20T15:36:23Z",
+        "updated_at": "2026-11-20T15:36:23Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/issues/5926",
+        "pull_request": null
+      },
+      {
+        "number": 5925,
+        "title": "crawl saves a page twice when the start URL redirects to a page that links to itself",
+        "state": "open",
+        "created_at": "2026-11-20T15:36:22Z",
+        "updated_at": "2026-11-20T15:36:22Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/issues/5925",
+        "pull_request": null
+      },
+      {
+        "number": 814,
+        "title": "[Community] Batch scrape support for Go SDK",
+        "state": "open",
+        "created_at": "2024-10-23T19:00:59Z",
+        "updated_at": "2026-11-20T14:23:21Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/issues/814",
+        "pull_request": null
+      },
+      {
+        "number": 5924,
+        "title": "fix(api): record sitemap completion when crawl lookup fails",
+        "state": "open",
+        "created_at": "2026-11-20T13:49:35Z",
+        "updated_at": "2026-11-20T14:07:35Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5924",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5924",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5924",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5924.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5924.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5915,
+        "title": "fix(python-sdk): retain documents in async watcher progress snapshots",
+        "state": "open",
+        "created_at": "2026-11-20T08:33:57Z",
+        "updated_at": "2026-11-20T14:07:04Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5915",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5915",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5915",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5915.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5915.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5923,
+        "title": "fix(api): recover NuQ RabbitMQ listeners after subscription failures",
+        "state": "open",
+        "created_at": "2026-11-20T13:46:15Z",
+        "updated_at": "2026-11-20T14:07:03Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5923",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5923",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5923",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5923.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5923.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5921,
+        "title": "fix(api): send the scrape deadline to the Exchange",
+        "state": "closed",
+        "created_at": "2026-11-20T11:37:24Z",
+        "updated_at": "2026-11-20T12:45:30Z",
+        "closed_at": "2026-11-20T12:45:30Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5921",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5921",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5921",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5921.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5921.patch",
+          "merged_at": "2026-11-20T12:45:30Z"
+        }
+      },
+      {
+        "number": 5907,
+        "title": "fix(api): fall back instead of shipping degenerate PDF extractions (#5759)",
+        "state": "open",
+        "created_at": "2026-11-20T07:36:14Z",
+        "updated_at": "2026-11-20T12:42:32Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5907",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5907",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5907",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5907.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5907.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5922,
+        "title": "fix(rust-sdk): surface APIError for success:false on status and cancel calls",
+        "state": "open",
+        "created_at": "2026-11-20T12:04:45Z",
+        "updated_at": "2026-11-20T12:08:25Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5922",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5922",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5922",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5922.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5922.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 5920,
+        "title": "fix(docker): check RabbitMQ port connectivity and add API restart policy",
+        "state": "open",
+        "created_at": "2026-11-20T10:33:20Z",
+        "updated_at": "2026-11-20T10:34:40Z",
+        "closed_at": null,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5920",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/5920",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5920",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/5920.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/5920.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v2.11.0",
+        "name": "Firecrawl v2.11.0",
+        "published_at": "2026-06-19T15:09:30Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.10",
+        "name": "Firecrawl v2.10",
+        "published_at": "2026-05-15T17:34:45Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.10",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v2.9.0",
+        "name": "v2.9.0",
+        "published_at": "2026-04-10T16:36:16Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.9.0",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "174b2fd91f1b7375c1312e7197c5772ccbb1a3a995d454c8b2e7ca85bd83fa25",
+    "readme_excerpt": "<h3 align=\"center\"> <a name=\"readme-top\"></a> <img src=\"https://raw.githubusercontent.com/firecrawl/firecrawl/main/img/firecrawl_logo.png\" height=\"200\" > </h3> <div align=\"center\"> <a href=\"https://github.com/firecrawl/firecrawl/blob/main/LICENSE\"> <img src=\"https://img.shields.io/github/license/firecrawl/firecrawl\" alt=\"License\"> </a> <a href=\"https://pepy.tech/project/firecrawl-py\"> <img src=\"https://static.pepy.tech/badge/firecrawl-py\" alt=\"Downloads\"> </a> <a href=\"https://GitHub.com/firecrawl/firecrawl/graphs/contributors\"> <img src=\"https://img.shields.io/github/contributors/firecrawl/firecrawl.svg\" alt=\"GitHub Contributors\"> </a> <a href=\"https://firecrawl.dev\"> <img src=\"https://img."
+  },
+  {
+    "full_name": "cathrynlavery/diagram-design",
+    "observed_at": "2026-11-20T16:12:32.825653+00:00",
+    "readme_url": "https://github.com/cathrynlavery/diagram-design/blob/main/README.md",
+    "issues": [
+      {
+        "number": 534,
+        "title": "fix(box-plot): match sibling combinators against document elements",
+        "state": "open",
+        "created_at": "2026-11-20T14:06:53Z",
+        "updated_at": "2026-11-20T15:27:31Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/534",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/534",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/534",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/534.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/534.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 535,
+        "title": "fix(box-plot): ignore leaf-shape selectors when collecting paper-mask paints",
+        "state": "open",
+        "created_at": "2026-11-20T15:08:44Z",
+        "updated_at": "2026-11-20T15:11:27Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/535",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/535",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/535",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/535.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/535.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 533,
+        "title": "fix(box-plot): scan selector escapes in linear time",
+        "state": "open",
+        "created_at": "2026-11-20T08:33:07Z",
+        "updated_at": "2026-11-20T14:06:06Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/533",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/533",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/533",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/533.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/533.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 532,
+        "title": "fix(box-plot): detect marks hidden after CSS animations",
+        "state": "open",
+        "created_at": "2026-11-20T02:04:34Z",
+        "updated_at": "2026-11-20T02:45:48Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/532",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/532",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/532",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/532.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/532.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 498,
+        "title": "feat(export): add --simplediagrams, an editable export for the SimpleDiagrams editor",
+        "state": "open",
+        "created_at": "2026-10-31T20:49:19Z",
+        "updated_at": "2026-11-20T00:10:10Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/498",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/498",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/498",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/498.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/498.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 531,
+        "title": "feat(package): build a Claude Desktop skill ZIP under the upload file limit",
+        "state": "open",
+        "created_at": "2026-11-19T18:23:48Z",
+        "updated_at": "2026-11-20T00:01:02Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/531",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/531",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/531",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/531.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/531.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 530,
+        "title": "fix(box-plot): recognise the accent in hwb, lab, oklch and currentColor",
+        "state": "open",
+        "created_at": "2026-11-19T18:22:27Z",
+        "updated_at": "2026-11-19T23:43:33Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/530",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/530",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/530",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/530.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/530.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 524,
+        "title": "fix(verify): reject escaped CSS property names",
+        "state": "closed",
+        "created_at": "2026-11-16T18:26:42Z",
+        "updated_at": "2026-11-19T17:00:29Z",
+        "closed_at": "2026-11-18T13:15:56Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/524",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/524",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/524",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/524.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/524.patch",
+          "merged_at": "2026-11-18T13:15:56Z"
+        }
+      },
+      {
+        "number": 190,
+        "title": "feat: host-aware install doctor for Playwright, Cowork, marketplace, and Pi",
+        "state": "open",
+        "created_at": "2026-09-06T15:46:22Z",
+        "updated_at": "2026-11-19T06:06:43Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/190",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/190",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/190",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/190.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/190.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 529,
+        "title": "fix(test): write ridgeline fixtures without write_text(newline=)",
+        "state": "open",
+        "created_at": "2026-11-19T06:01:39Z",
+        "updated_at": "2026-11-19T06:04:46Z",
+        "closed_at": null,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/529",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/529",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/529",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/529.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/529.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "releases": [],
+    "readme_sha256": "a7ac4982ed92987862aa0547589deaff4245c1b7ba02825f102261c7cf1db1e3",
+    "readme_excerpt": "<div align=\"center\"> <h1> <picture> <source media=\"(prefers-color-scheme: dark)\" srcset=\"docs/hero/hero-dark.webp\"> <img alt=\"Diagram Design. Editorial diagrams your designer won't hate.\" src=\"docs/hero/hero-light.webp\"> </picture> </h1> **An agent skill that draws diagrams as one self-contained HTML + SVG file, in your brand.<br>51 diagram types. No shadows. No Mermaid slop.** [![GitHub stars](https://img.shields.io/github/stars/cathrynlavery/diagram-design?style=flat-square&color=bf4520)](https://github.com/cathrynlavery/diagram-design/stargazers) [![skills.sh installs](https://skills.sh/b/cathrynlavery/diagram-design?style=flat-square)](https://skills.sh/cathrynlavery/diagram-design/diagr"
+  },
+  {
+    "full_name": "mvanhorn/last30days-skill",
+    "observed_at": "2026-11-20T16:12:32.859789+00:00",
+    "readme_url": "https://github.com/mvanhorn/last30days-skill/blob/main/README.md",
+    "issues": [
+      {
+        "number": 1541,
+        "title": "fix(planner): honor deliberate host-plan source omissions",
+        "state": "open",
+        "created_at": "2026-11-20T08:35:48Z",
+        "updated_at": "2026-11-20T14:09:52Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1541",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1541",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1541",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1541.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1541.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1542,
+        "title": "fix(clusters): share story caps across title and angle matches",
+        "state": "open",
+        "created_at": "2026-11-20T13:42:24Z",
+        "updated_at": "2026-11-20T14:08:52Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1542",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1542",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1542",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1542.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1542.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1537,
+        "title": "feat: OpenCode browse MCP lane for X and Reddit host data",
+        "state": "open",
+        "created_at": "2026-11-19T16:32:23Z",
+        "updated_at": "2026-11-20T14:05:29Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1537",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1537",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1537",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1537.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1537.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1459,
+        "title": "docs(plans): plan for the #1449 Grok Bot run fixes",
+        "state": "closed",
+        "created_at": "2026-11-15T19:24:31Z",
+        "updated_at": "2026-11-20T13:46:24Z",
+        "closed_at": "2026-11-15T19:39:08Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1459",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1459",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1459",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1459.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1459.patch",
+          "merged_at": "2026-11-15T19:39:08Z"
+        }
+      },
+      {
+        "number": 1540,
+        "title": "docs(hermes): fix the 404 Hermes link in Support",
+        "state": "open",
+        "created_at": "2026-11-20T07:07:19Z",
+        "updated_at": "2026-11-20T07:10:40Z",
+        "closed_at": null,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1540",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1540",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1540",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1540.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1540.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1480,
+        "title": "chore(release): bump version to 4.2.0",
+        "state": "closed",
+        "created_at": "2026-11-16T07:51:04Z",
+        "updated_at": "2026-11-20T06:50:45Z",
+        "closed_at": "2026-11-16T07:54:20Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1480",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1480",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1480",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1480.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1480.patch",
+          "merged_at": "2026-11-16T07:54:20Z"
+        }
+      },
+      {
+        "number": 1519,
+        "title": "fix(watchlist): persist structured comparison results",
+        "state": "closed",
+        "created_at": "2026-11-17T21:53:04Z",
+        "updated_at": "2026-11-20T06:31:25Z",
+        "closed_at": "2026-11-17T21:58:53Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1519",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1519",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1519",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1519.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1519.patch",
+          "merged_at": "2026-11-17T21:58:53Z"
+        }
+      },
+      {
+        "number": 1539,
+        "title": "chore(release): bump version to 4.4.0",
+        "state": "closed",
+        "created_at": "2026-11-20T05:41:59Z",
+        "updated_at": "2026-11-20T05:45:37Z",
+        "closed_at": "2026-11-20T05:45:35Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1539",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1539",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1539",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1539.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1539.patch",
+          "merged_at": "2026-11-20T05:45:35Z"
+        }
+      },
+      {
+        "number": 1538,
+        "title": "feat: person runs for working professionals (--employer, --linkedin, --email)",
+        "state": "closed",
+        "created_at": "2026-11-20T03:45:20Z",
+        "updated_at": "2026-11-20T05:41:12Z",
+        "closed_at": "2026-11-20T05:41:09Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1538",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1538",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1538",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1538.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1538.patch",
+          "merged_at": "2026-11-20T05:41:09Z"
+        }
+      },
+      {
+        "number": 1473,
+        "title": "feat(reddit): layered free Reddit, PR2: opt-in logged-in session",
+        "state": "closed",
+        "created_at": "2026-11-16T05:04:42Z",
+        "updated_at": "2026-11-20T03:58:39Z",
+        "closed_at": "2026-11-16T05:45:18Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1473",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1473",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1473",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1473.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1473.patch",
+          "merged_at": "2026-11-16T05:45:18Z"
+        }
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v4.4.0",
+        "name": "v4.4.0",
+        "published_at": "2026-11-20T05:46:34Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.4.0",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v4.3.2",
+        "name": "v4.3.2",
+        "published_at": "2026-11-17T15:56:44Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.2",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v4.3.1",
+        "name": "v4.3.1",
+        "published_at": "2026-11-17T15:28:40Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.3.1",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "d2c2e51e13b636db6d0c51a24e0112e8ff03b9a9b8db516b4bfe3e4eb375c8dc",
+    "readme_excerpt": "# /last30days English | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md) | [العربية](README.ar.md) | [فارسی](README.fa.md) | [Türkçe](README.tr.md) <p align=\"center\"> <img src=\"media/pr-assets/last30days-ad.gif\" width=\"720\" alt=\"last30days - an AI agent-led search engine that searches people, not editors\" /> </p> <p align=\"center\"> <a href=\"https://github.com/mvanhorn/last30days-skill\"> <img src=\"https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING\" alt=\"GitHub Trending #1 Repository Of The Day\" /> </a> <br"
+  },
+  {
+    "full_name": "google-labs-code/stitch-skills",
+    "observed_at": "2026-11-20T16:12:34.372599+00:00",
+    "readme_url": "https://github.com/google-labs-code/stitch-skills/blob/main/README.md",
+    "issues": [
+      {
+        "number": 106,
+        "title": "anorexia ",
+        "state": "open",
+        "created_at": "2026-11-20T12:29:14Z",
+        "updated_at": "2026-11-20T12:29:14Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/issues/106",
+        "pull_request": null
+      },
+      {
+        "number": 104,
+        "title": "fix: reject unsupported web tags in native components",
+        "state": "open",
+        "created_at": "2026-11-20T02:22:38Z",
+        "updated_at": "2026-11-20T02:33:31Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/104",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/104",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/104",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/104.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/104.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 103,
+        "title": "fix: validate hardcoded colors in className expressions",
+        "state": "open",
+        "created_at": "2026-11-20T02:22:35Z",
+        "updated_at": "2026-11-20T02:33:29Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/103",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/103",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/103",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/103.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/103.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 102,
+        "title": "fix: resolve encoded and versioned local asset URLs",
+        "state": "open",
+        "created_at": "2026-11-20T02:22:33Z",
+        "updated_at": "2026-11-20T02:33:27Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/102",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/102",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/102",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/102.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/102.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 105,
+        "title": "fix: recognize CSS-first Tailwind setups in verification",
+        "state": "open",
+        "created_at": "2026-11-20T02:22:40Z",
+        "updated_at": "2026-11-20T02:31:30Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/105",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/105",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/105",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/105.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/105.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 100,
+        "title": "docs: add missing site-md skill to README",
+        "state": "closed",
+        "created_at": "2026-11-17T11:41:00Z",
+        "updated_at": "2026-11-18T08:55:29Z",
+        "closed_at": "2026-11-18T05:00:25Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/100",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/100",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/100",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/100.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/100.patch",
+          "merged_at": "2026-11-18T05:00:25Z"
+        }
+      },
+      {
+        "number": 101,
+        "title": "---",
+        "state": "open",
+        "created_at": "2026-11-18T08:52:24Z",
+        "updated_at": "2026-11-18T08:52:24Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/issues/101",
+        "pull_request": null
+      },
+      {
+        "number": 60,
+        "title": "Support Codex plugins",
+        "state": "closed",
+        "created_at": "2026-05-20T06:46:23Z",
+        "updated_at": "2026-11-18T03:25:25Z",
+        "closed_at": "2026-05-20T16:00:43Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/60",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/60",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/60",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/60.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/60.patch",
+          "merged_at": "2026-05-20T16:00:42Z"
+        }
+      },
+      {
+        "number": 97,
+        "title": "fix: resolve the uploader from the installed Stitch plugin",
+        "state": "open",
+        "created_at": "2026-11-16T08:14:21Z",
+        "updated_at": "2026-11-17T18:08:43Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/97",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/97.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/97.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 99,
+        "title": "احذف المكونات الإضافية/تصميم غرزة/مهارات/إدارة تصميم-نظام/أمثالات/ميت...",
+        "state": "open",
+        "created_at": "2026-11-17T03:16:24Z",
+        "updated_at": "2026-11-17T03:16:30Z",
+        "closed_at": null,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/99",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/99",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/99",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/99.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/99.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v1.0",
+        "name": "Stitch Skills Plugins Release",
+        "published_at": "2026-05-18T18:02:32Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/releases/tag/v1.0",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v0.1",
+        "name": "v0.1 release",
+        "published_at": "2026-03-04T21:34:14Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/releases/tag/v0.1",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "140e9b91e9b69e33b7d2215d3fbcd184405aede97f7b2fb02f285d70578139f3",
+    "readme_excerpt": "# Stitch Design Skills A collection of agent skills and plugins for [Google Stitch](https://stitch.withgoogle.com), following the [Agent Skills](https://agentskills.io) open standard. Compatible with coding agents such as Codex, Antigravity, Gemini CLI, Claude Code, Cursor, and OpenCode (manual install). ## Quick Start ### 1. Install Plugins (Recommended) The fastest way to set up the full Stitch plugin suite globally. #### Codex Add the Stitch Skills marketplace, then install the plugins you need. <details open> <summary><strong>Via CLI</strong> (recommended)</summary> ```bash codex plugin marketplace add google-labs-code/stitch-skills --ref main \\ --sparse .agents/plugins \\ --sparse plugin"
+  },
+  {
+    "full_name": "toeverything/AFFiNE",
+    "observed_at": "2026-11-20T16:12:34.476031+00:00",
+    "readme_url": "https://github.com/toeverything/AFFiNE/blob/canary/README.md",
+    "issues": [
+      {
+        "number": 15875,
+        "title": "feat(data-view): add Israeli Shekel (ILS) currency format",
+        "state": "open",
+        "created_at": "2026-11-20T14:56:45Z",
+        "updated_at": "2026-11-20T14:59:38Z",
+        "closed_at": null,
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15875",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/15875",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15875",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/15875.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/15875.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 15843,
+        "title": "Pr/40 server compression",
+        "state": "open",
+        "created_at": "2026-11-10T17:57:12Z",
+        "updated_at": "2026-11-20T12:18:48Z",
+        "closed_at": null,
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15843",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/15843",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15843",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/15843.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/15843.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 15874,
+        "title": "[Feature Request]: Edgeless system",
+        "state": "open",
+        "created_at": "2026-11-20T12:09:00Z",
+        "updated_at": "2026-11-20T12:09:33Z",
+        "closed_at": null,
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15874",
+        "pull_request": null
+      },
+      {
+        "number": 649,
+        "title": "test: add e2e test for validation of editor version",
+        "state": "closed",
+        "created_at": "2023-01-01T16:16:05Z",
+        "updated_at": "2026-11-20T10:29:18Z",
+        "closed_at": "2023-01-02T02:18:03Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/649",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/649",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/649",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/649.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/649.patch",
+          "merged_at": "2023-01-02T02:18:03Z"
+        }
+      },
+      {
+        "number": 166,
+        "title": "Refactor/page tree styles",
+        "state": "closed",
+        "created_at": "2022-08-09T13:06:00Z",
+        "updated_at": "2026-11-20T10:29:17Z",
+        "closed_at": "2022-08-10T02:38:17Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/166",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/166",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/166",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/166.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/166.patch",
+          "merged_at": "2022-08-10T02:38:17Z"
+        }
+      },
+      {
+        "number": 215,
+        "title": "fix:setTimeout error",
+        "state": "closed",
+        "created_at": "2022-08-12T08:33:54Z",
+        "updated_at": "2026-11-20T10:29:16Z",
+        "closed_at": "2022-08-12T09:04:13Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/215",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/215",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/215",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/215.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/215.patch",
+          "merged_at": "2022-08-12T09:04:13Z"
+        }
+      },
+      {
+        "number": 303,
+        "title": "chore: v0.0.1-alpha.0.4.2",
+        "state": "closed",
+        "created_at": "2022-08-21T07:09:22Z",
+        "updated_at": "2026-11-20T10:29:14Z",
+        "closed_at": "2022-08-21T07:14:23Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/303",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/303",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/303",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/303.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/303.patch",
+          "merged_at": "2022-08-21T07:14:23Z"
+        }
+      },
+      {
+        "number": 15869,
+        "title": "MarketNow certification: affine-mcp-server — accepted (certified-L1.5, trust 44/100)",
+        "state": "closed",
+        "created_at": "2026-11-17T22:55:46Z",
+        "updated_at": "2026-11-20T10:27:07Z",
+        "closed_at": "2026-11-20T10:27:07Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15869",
+        "pull_request": null
+      },
+      {
+        "number": 15643,
+        "title": "[Bug]: Ctrl+A in latex editor doesn't work on Firefox",
+        "state": "closed",
+        "created_at": "2026-09-25T11:03:35Z",
+        "updated_at": "2026-11-20T10:23:39Z",
+        "closed_at": "2026-11-20T10:23:39Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15643",
+        "pull_request": null
+      },
+      {
+        "number": 15858,
+        "title": "fix(editor): keep select all in the equation editor on Firefox",
+        "state": "closed",
+        "created_at": "2026-11-15T14:31:17Z",
+        "updated_at": "2026-11-20T10:23:38Z",
+        "closed_at": "2026-11-20T10:23:37Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15858",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/15858",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15858",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/15858.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/15858.patch",
+          "merged_at": "2026-11-20T10:23:37Z"
+        }
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v2026.11.18-canary.905",
+        "name": "2026.11.18-canary.905",
+        "published_at": "2026-11-18T09:58:41Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/releases/tag/v2026.11.18-canary.905",
+        "prerelease": true
+      },
+      {
+        "tag_name": "v2026.11.17-canary.905",
+        "name": "2026.11.17-canary.905",
+        "published_at": "2026-11-17T09:51:22Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/releases/tag/v2026.11.17-canary.905",
+        "prerelease": true
+      },
+      {
+        "tag_name": "v0.27.5-beta.3",
+        "name": "0.27.5-beta.3",
+        "published_at": "2026-11-16T18:19:13Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.5-beta.3",
+        "prerelease": true
+      }
+    ],
+    "readme_sha256": "8d5be20062755f5b1ecc26bca4cf6d590efa28de7c4a64d2732bf26f66f78ae0",
+    "readme_excerpt": "<div align=\"center\"> <h1 style=\"border-bottom: none\"> <b><a href=\"https://affine.pro\">AFFiNE.Pro</a></b><br /> Write, Draw and Plan All at Once <br> </h1> <a href=\"https://affine.pro/download\"> <img alt=\"affine logo\" src=\"https://cdn.affine.pro/Github_hero_image2.png\" style=\"width: 100%\"> </a> <br/> <p align=\"center\"> A privacy-focused, local-first, open-source, and ready-to-use alternative for Notion & Miro. <br /> One hyper-fused platform for wildly creative minds. </p> <br/> <br/> <a href=\"https://www.producthunt.com/posts/affine-3?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-affine&#0045;3\" target=\"_blank\"><img src=\"https://api.producthunt.com/widgets/embed-image/v1/feature"
+  },
+  {
+    "full_name": "zhouxiaoka/autoclip",
+    "observed_at": "2026-11-20T16:12:34.489726+00:00",
+    "readme_url": "https://github.com/zhouxiaoka/autoclip/blob/main/README.md",
+    "issues": [
+      {
+        "number": 628,
+        "title": "统一成片卡片并修复发布工具编辑与封面刷新",
+        "state": "open",
+        "created_at": "2026-11-20T15:22:36Z",
+        "updated_at": "2026-11-20T16:12:09Z",
+        "closed_at": null,
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/628",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/628",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/628",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/628.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/628.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 629,
+        "title": "fix: give the settings-page connection test a short timeout (#603)",
+        "state": "open",
+        "created_at": "2026-11-20T15:53:06Z",
+        "updated_at": "2026-11-20T15:53:06Z",
+        "closed_at": null,
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/629",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/629",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/629",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/629.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/629.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 627,
+        "title": "修复完整包装超时恢复、待确认误持休眠锁及再做一版构图",
+        "state": "closed",
+        "created_at": "2026-11-20T13:50:24Z",
+        "updated_at": "2026-11-20T14:56:53Z",
+        "closed_at": "2026-11-20T14:56:53Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/627",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/627",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/627",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/627.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/627.patch",
+          "merged_at": "2026-11-20T14:56:53Z"
+        }
+      },
+      {
+        "number": 626,
+        "title": "出片时生成封面，修正长字幕预览及导出布局",
+        "state": "closed",
+        "created_at": "2026-11-20T13:42:48Z",
+        "updated_at": "2026-11-20T14:56:28Z",
+        "closed_at": "2026-11-20T14:56:28Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/626",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/626",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/626",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/626.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/626.patch",
+          "merged_at": "2026-11-20T14:56:28Z"
+        }
+      },
+      {
+        "number": 625,
+        "title": "在结果页完成「再做一版」，对齐文件导入控件",
+        "state": "closed",
+        "created_at": "2026-11-20T06:36:50Z",
+        "updated_at": "2026-11-20T07:05:59Z",
+        "closed_at": "2026-11-20T07:05:58Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/625",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/625",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/625",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/625.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/625.patch",
+          "merged_at": "2026-11-20T07:05:58Z"
+        }
+      },
+      {
+        "number": 624,
+        "title": "修复兼容连接密钥保存、重复模型测试和 OpenRouter 首次配置",
+        "state": "closed",
+        "created_at": "2026-11-20T03:47:31Z",
+        "updated_at": "2026-11-20T04:33:46Z",
+        "closed_at": "2026-11-20T04:33:46Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/624",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/624",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/624",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/624.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/624.patch",
+          "merged_at": "2026-11-20T04:33:46Z"
+        }
+      },
+      {
+        "number": 623,
+        "title": "修复 1.5.9 包装模板导出和超时降级",
+        "state": "closed",
+        "created_at": "2026-11-20T02:35:18Z",
+        "updated_at": "2026-11-20T03:26:17Z",
+        "closed_at": "2026-11-20T03:26:17Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/623",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/623",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/623",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/623.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/623.patch",
+          "merged_at": "2026-11-20T03:26:17Z"
+        }
+      },
+      {
+        "number": 622,
+        "title": "[反馈] I’m having trouble adding and saving my API key in AutoClip. Whenever I try to connect an AI provider, the API key",
+        "state": "open",
+        "created_at": "2026-11-19T16:58:29Z",
+        "updated_at": "2026-11-19T23:40:55Z",
+        "closed_at": null,
+        "html_url": "https://github.com/zhouxiaoka/autoclip/issues/622",
+        "pull_request": null
+      },
+      {
+        "number": 613,
+        "title": "test: 目录大小写和全局 urlopen 混记改为 CI 硬失败",
+        "state": "open",
+        "created_at": "2026-11-18T10:16:48Z",
+        "updated_at": "2026-11-19T22:43:54Z",
+        "closed_at": null,
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/613",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/613",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/613",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/613.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/613.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 620,
+        "title": "优化首次出片流程：新首屏、一键配模型和 2×2 默认模型布局",
+        "state": "closed",
+        "created_at": "2026-11-19T14:08:49Z",
+        "updated_at": "2026-11-19T14:33:38Z",
+        "closed_at": "2026-11-19T14:33:37Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/pull/620",
+        "pull_request": {
+          "url": "https://api.github.com/repos/zhouxiaoka/autoclip/pulls/620",
+          "html_url": "https://github.com/zhouxiaoka/autoclip/pull/620",
+          "diff_url": "https://github.com/zhouxiaoka/autoclip/pull/620.diff",
+          "patch_url": "https://github.com/zhouxiaoka/autoclip/pull/620.patch",
+          "merged_at": "2026-11-19T14:33:37Z"
+        }
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v1.5.8",
+        "name": "AutoClip Desktop v1.5.8",
+        "published_at": "2026-11-02T12:15:50Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/releases/tag/v1.5.8",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.5.7",
+        "name": "AutoClip Desktop v1.5.7",
+        "published_at": "2026-10-24T14:58:15Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/releases/tag/v1.5.7",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v1.5.6",
+        "name": "AutoClip Desktop v1.5.6",
+        "published_at": "2026-10-09T17:40:45Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/releases/tag/v1.5.6",
+        "prerelease": false
+      }
+    ],
+    "readme_sha256": "3c19d34dae9d9618172cff895b6c3577f6bbc4ab256f414c6c9e3172c83c5f4e",
+    "readme_excerpt": "<!-- mcp-name: io.github.zhouxiaoka/autoclip-mcp --> <div align=\"center\"> <img src=\"src-tauri/icons/128x128.png\" alt=\"AutoClip\" width=\"72\" height=\"72\"> # AutoClip ### 一个链接，一键出片 开源，在你的电脑上剪辑与渲染。贴一个链接，选好平台，生成 <b>视频、封面和发布文案</b>，<br> 适配抖音、小红书、TikTok、Reels、YouTube Shorts、B 站与 YouTube。<br> 软件免费，云端模型按量计费；需要调整时可进入编辑器。 <p> <a href=\"https://github.com/zhouxiaoka/autoclip/releases/latest\"><img src=\"https://img.shields.io/github/v/release/zhouxiaoka/autoclip?style=flat-square\" alt=\"GitHub release\"></a> <a href=\"https://github.com/zhouxiaoka/autoclip/stargazers\"><img src=\"https://img.shields.io/github/stars/zhouxiaoka/autoclip?style=flat-square\" alt=\"GitHub stars\"></a> <a href=\"https://github.com/zhouxiao"
+  },
+  {
+    "full_name": "Tracer-Cloud/opensre",
+    "observed_at": "2026-11-20T16:12:36.393663+00:00",
+    "readme_url": "https://github.com/Tracer-Cloud/opensre/blob/main/README.md",
+    "issues": [
+      {
+        "number": 7071,
+        "title": "fix: ask before mutating tools by default",
+        "state": "open",
+        "created_at": "2026-11-19T17:54:53Z",
+        "updated_at": "2026-11-20T13:04:59Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Tracer-Cloud/opensre/pull/7071",
+        "pull_request": {
+          "url": "https://api.github.com/repos/Tracer-Cloud/opensre/pulls/7071",
+          "html_url": "https://github.com/Tracer-Cloud/opensre/pull/7071",
+          "diff_url": "https://github.com/Tracer-Cloud/opensre/pull/7071.diff",
+          "patch_url": "https://github.com/Tracer-Cloud/opensre/pull/7071.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 7072,
+        "title": "[Docs] Align README, onboarding, and hosted integration setup",
+        "state": "open",
+        "created_at": "2026-11-20T08:32:28Z",
+        "updated_at": "2026-11-20T08:42:53Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7072",
+        "pull_request": null
+      },
+      {
+        "number": 7075,
+        "title": "[Docs] Align runtime settings, authentication, credential storage, and live-skills guidance",
+        "state": "open",
+        "created_at": "2026-11-20T08:32:40Z",
+        "updated_at": "2026-11-20T08:42:03Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7075",
+        "pull_request": null
+      },
+      {
+        "number": 7078,
+        "title": "[Docs] Correct contributor setup and required-reading instructions",
+        "state": "open",
+        "created_at": "2026-11-20T08:32:43Z",
+        "updated_at": "2026-11-20T08:41:39Z",
+        "closed_at": null,
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7078",
+        "pull_request": null
+      },
+      {
+        "number": 7080,
+        "title": "[BUG] docs: AGENTS.md requires a deleted persistence reference",
+        "state": "closed",
+        "created_at": "2026-11-20T08:32:45Z",
+        "updated_at": "2026-11-20T08:37:21Z",
+        "closed_at": "2026-11-20T08:37:21Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7080",
+        "pull_request": null
+      },
+      {
+        "number": 7079,
+        "title": "[IMPROVEMENT] docs: explain live-skills update defaults and operator controls",
+        "state": "closed",
+        "created_at": "2026-11-20T08:32:44Z",
+        "updated_at": "2026-11-20T08:37:16Z",
+        "closed_at": "2026-11-20T08:37:16Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7079",
+        "pull_request": null
+      },
+      {
+        "number": 7077,
+        "title": "[BUG] docs: correct stale LLM token and history character defaults",
+        "state": "closed",
+        "created_at": "2026-11-20T08:32:42Z",
+        "updated_at": "2026-11-20T08:37:12Z",
+        "closed_at": "2026-11-20T08:37:12Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7077",
+        "pull_request": null
+      },
+      {
+        "number": 7076,
+        "title": "[BUG] docs: Buzz guide incorrectly promises the private key is never written to .env",
+        "state": "closed",
+        "created_at": "2026-11-20T08:32:41Z",
+        "updated_at": "2026-11-20T08:37:07Z",
+        "closed_at": "2026-11-20T08:37:07Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7076",
+        "pull_request": null
+      },
+      {
+        "number": 7074,
+        "title": "[BUG] docs: correct enterprise guide's hosted integration availability and precedence",
+        "state": "closed",
+        "created_at": "2026-11-20T08:32:39Z",
+        "updated_at": "2026-11-20T08:37:03Z",
+        "closed_at": "2026-11-20T08:37:03Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7074",
+        "pull_request": null
+      },
+      {
+        "number": 7073,
+        "title": "[BUG] docs: align startup menu choices and launch frequency with current onboarding",
+        "state": "closed",
+        "created_at": "2026-11-20T08:32:38Z",
+        "updated_at": "2026-11-20T08:36:59Z",
+        "closed_at": "2026-11-20T08:36:59Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/issues/7073",
+        "pull_request": null
+      }
+    ],
+    "releases": [
+      {
+        "tag_name": "v0.1.2026.11.20",
+        "name": "OpenSRE 0.1.2026.11.20",
+        "published_at": "2026-11-20T00:57:26Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/releases/tag/v0.1.2026.11.20",
+        "prerelease": false
+      },
+      {
+        "tag_name": "v0.1.2026.11.19",
+        "name": "OpenSRE 0.1.2026.11.19",
+        "published_at": "2026-11-19T00:55:26Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/releases/tag/v0.1.2026.11.19",
+        "prerelease": false
+      },
+      {
+        "tag_name": "main-build",
+        "name": "Main",
+        "published_at": "2026-06-28T14:43:16Z",
+        "html_url": "https://github.com/Tracer-Cloud/opensre/releases/tag/main-build",
+        "prerelease": true
+      }
+    ],
+    "readme_sha256": "8f02ad52dd95b97fe36fc69092089752e792981a7358c29224581f9fcc49bd5c",
+    "readme_excerpt": "<div align=\"center\"> <p align=\"center\"> <img src=\"docs/logo/opensre-logo-white.svg\" alt=\"OpenSRE\" width=\"360\" /> </p> <h1>OpenSRE: The open-source agent for CI/CD reliability</h1> <p>Your CI tells you it broke, but not why or how to fix it. OpenSRE is a CLI agent that reads the failed run, traces the cause and pushes a fix for you to review. Self-hosted, with your own models.</p> <p align=\"center\"> <a href=\"https://github.com/Tracer-Cloud/opensre/actions/workflows/ci.yml?branch=main\"><img src=\"https://img.shields.io/github/actions/workflow/status/Tracer-Cloud/opensre/ci.yml?branch=main&style=for-the-badge\" alt=\"CI status\"></a> <a href=\"https://github.com/Tracer-Cloud/opensre/releases\"><img s"
+  }
+]

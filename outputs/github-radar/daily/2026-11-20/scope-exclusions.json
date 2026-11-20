@@ -1,0 +1,17 @@
+{
+  "method": "依專案描述、topics 與 README 人工複核；收集器廣泛關鍵字匹配後排除明確離題的歷史項目。",
+  "historical_exclusions": {
+    "BrickOrioleLoad/aion-2-trainer-tool": "README 實際為遊戲作弊安裝包，與 AI prompt 描述不符；非本雷達範圍。",
+    "armory3d/armorpaint": "一般 3D 材質繪圖軟體，現有資料未顯示 AI、agent 或知識庫相關功能。",
+    "checkstyle/checkstyle": "一般 Java 靜態程式風格檢查工具，未見 AI 開發自動化功能。",
+    "dsherret/ts-morph": "一般 TypeScript AST 操作函式庫，未見 AI 開發自動化功能。",
+    "llvm/llvm-project": "一般編譯器基礎設施，非 AI／agent 專案。",
+    "localsend/localsend": "一般區域網路檔案傳輸工具。",
+    "sngyai/Sequoia-X": "技術指標選股與排程推播，現有 README 未顯示 AI 或開發者自動化用途。",
+    "tailscale/tailcat": "一般網路連線工具，非 AI／agent／wiki 專案。"
+  },
+  "trending_exclusions": {
+    "nginx/nginx": "一般 Web server。",
+    "XiaoYouChR/Ghost-Downloader-3": "一般下載器，榜單描述未顯示 AI 功能。"
+  }
+}
