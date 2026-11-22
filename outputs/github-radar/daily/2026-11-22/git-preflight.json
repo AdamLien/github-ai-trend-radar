@@ -1,0 +1,5 @@
+{
+  "upstream": "origin/main",
+  "remote_name": "origin",
+  "ssh_push_remote": true
+}

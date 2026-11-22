@@ -1,0 +1,84 @@
+{
+  "collected": 457,
+  "retained": 439,
+  "excluded": [
+    {
+      "repo": "AvdLee/RocketSimApp",
+      "reason": "一般模擬器開發工具，未有明確 AI 關聯"
+    },
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "reason": "失效專案，僅回退歷史資料，無法核實目前用途與維護"
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "遊戲訓練器，且目前 API 404，與本次主題無關"
+    },
+    {
+      "repo": "DevCoreXOfficial/core-termux",
+      "reason": "一般 Termux 工具，未有明確 AI 關聯"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理工具，無明確 AI 或 agent 工作流"
+    },
+    {
+      "repo": "Kruk2/jasna",
+      "reason": "影片修復工具，當前描述不足以核實 AI 關聯"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般股票資訊平台，無明確 AI 或 agent 工作流"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般 3D 繪圖工具，無明確 AI 或 agent 工作流"
+    },
+    {
+      "repo": "checkstyle/checkstyle",
+      "reason": "一般 Java 程式碼風格檢查器，非 AI 開發自動化"
+    },
+    {
+      "repo": "dsherret/ts-morph",
+      "reason": "一般 TypeScript AST 包裝，非 AI 專案"
+    },
+    {
+      "repo": "jessefreitas/OmniCompress",
+      "reason": "描述不足，無法核實符合本次 AI 主題"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "Istio 一般觀測工具，無明確 AI 或 agent 工作流"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "一般編譯器工具鏈，非 AI 開發自動化專案"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般跨裝置檔案傳輸工具"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "電子郵件帳號列舉工具，非 AI 或 agent 工作流"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "股票技術形態掃描及通知，無明確 AI 關聯"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "一般網路通訊工具，非 AI 開發自動化"
+    },
+    {
+      "repo": "xyflow/xyflow",
+      "reason": "一般節點式 UI 函式庫，無直接 AI 工作流"
+    }
+  ],
+  "stale_retained": [
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ]
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "repo": "google-labs-code/stitch-skills",
+    "category": "Skill candidate",
+    "purpose": "把 Stitch MCP 的設計流程封裝為 Agent Skills；README 列出 Codex、Claude Code、Cursor 等相容工具。",
+    "momentum": "小基數的今日成長值得優先驗證；最新 PR 涉及安裝驗證失敗處理，顯示跨環境可靠性仍在改善。",
+    "risk": "需驗證 MCP 連線、帳號依賴與安裝腳本；有 release 不代表近期主線修改已進入該版本。",
+    "relevance": "Adam 可示範設計稿到前端的跨 agent 課程，延伸 metabiz 官網及 AI 辦公介面原型。"
+  },
+  {
+    "repo": "Tracer-Cloud/opensre",
+    "category": "Deep research",
+    "purpose": "自架 CI/CD 故障診斷 agent；README 描述讀取失敗 run、追查原因並產生可供審查的修正。",
+    "momentum": "同日 release、推送及近期 PR 同時存在，較只有 star 熱度更值得研究。",
+    "risk": "模型誤診、CI 權限及修正品質需實測；PR 標題中的修復不能推定所有使用版本都已安全。",
+    "relevance": "可做 Adam 開發自動化課程案例，驗證 metabiz CI 失敗到人工審核修復的完整流程。"
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "category": "Deep research",
+    "purpose": "把既有軟體能力轉為 agent 可操作的 CLI 介面。",
+    "momentum": "今日熱門且近期 PR 包含 LibreOffice Calc 公式命名空間修正；適合用真實辦公任務驗證，而非僅展示安裝。",
+    "risk": "軟體相依、版本差異及檔案寫入副作用；未合併的 Calc PR 尚不能視為可用修正。",
+    "relevance": "優先製作試算表與文件操作的 AI 辦公自動化課程，將可重現步驟整理成 metabiz 內部操作 wiki。"
+  },
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "category": "Skill candidate",
+    "purpose": "跨 Reddit、X、YouTube、HN 與網頁蒐集近期議題並彙整摘要的研究 skill。",
+    "momentum": "本日有新版與推送；近期 PR 涉及搜尋運算子和 webhook 憑證遮罩，需一併看資料品質與操作可靠度。",
+    "risk": "平台 API 可用性、費用、取樣偏差及來源可信度；自動摘要需回查原始來源。",
+    "relevance": "Adam 可把 GitHub 雷達延伸為選題研究、短影音腳本和課程需求探索，將可引用摘要收進 know metabiz wiki。"
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "category": "Demo content",
+    "purpose": "輸出自含 HTML 與 SVG 圖解的 coding-agent skill，可用於流程圖及架構說明。",
+    "momentum": "README 與 description 的圖型數量不同，應實測輸出而非轉述宣傳數字；近期 PR 持續修整文件與驗證工具。",
+    "risk": "字型、繁中排版及 SVG 匯出品質需檢查；目前未取得 latest release，不代表沒有開發活動。",
+    "relevance": "直接用來製作 Adam 課程的 MCP／RAG 流程圖、AI 辦公 SOP 與 know metabiz wiki 架構圖。"
+  },
+  {
+    "repo": "cursor/plugins",
+    "category": "Skill candidate",
+    "purpose": "Cursor 官方外掛與規格集合；README 顯示每個 plugin 有獨立 manifest，並含教學與持續學習案例。",
+    "momentum": "今日熱門、近期有推送與外掛擴充 PR；相對成長比僅看累積規模更有辨識力。",
+    "risk": "GitHub license 欄位未標明，複用前需逐插件確認；生態平台差異、外部 SaaS 權限及記憶寫入需審核。",
+    "relevance": "適合 Adam 比較 Cursor、Claude Code、Codex 的 plugin／skill 工作流，提取 AI 辦公學習回顧與知識維護的設計參考。"
+  },
+  {
+    "repo": "firecrawl/firecrawl",
+    "category": "Deep research",
+    "purpose": "提供網頁搜尋、擷取與資料來源存取，作為 agent 與知識庫的資料匯入層。",
+    "momentum": "今日 star 絕對增量高，但基數大，需與相對成長並看；近期 PR 涉及私有位址防護與 robots crawl-delay。",
+    "risk": "AGPL-3.0 的產品整合方式需另行核對；抓取合規、來源更新及內網存取控制需驗證，未合併 PR 不等於已修復。",
+    "relevance": "可用於 know metabiz wiki 的來源匯入實驗，也能示範網站轉結構化資料的辦公自動化內容。"
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "category": "Watch",
+    "purpose": "整合文件、白板與規劃的知識工作空間，README 主打 local-first 與隱私。",
+    "momentum": "今日熱門且有近期推送與 PR；latest release 較舊，應分清主線維護與穩定版交付。",
+    "risk": "license 為 NOASSERTION，需查實際授權；協作同步、備份、權限與既有 wiki 的搬遷成本仍需驗證。",
+    "relevance": "適合 Adam 的 AI 辦公工具比較；可評估作為 know metabiz wiki 的編輯與視覺規劃介面。"
+  },
+  {
+    "repo": "nashsu/llm_wiki",
+    "category": "Deep research",
+    "purpose": "把文件增量整理為持久、互相連結的 wiki，與每次重新檢索回答的 RAG 流程形成比較案例。",
+    "momentum": "非本次 Trending 候選，因與 know metabiz wiki 高度相關保留；近期有原始來源讀取 PR 活動，但推送與 release 較舊。",
+    "risk": "license 為 NOASSERTION；生成知識可能失真、來源追溯與衝突更新需測；closed PR 也不等於已合併或已發布。",
+    "relevance": "優先用公開 SOP 測試增量更新與引用追溯，形成 Adam 的 RAG 對比持久 wiki 課程及 metabiz 導入研究。"
+  },
+  {
+    "repo": "obra/superpowers",
+    "category": "Watch",
+    "purpose": "把 coding-agent 開發方法整理為可組合 skills 與工作流程。",
+    "momentum": "今日仍熱門，但累積規模很大；近期 issue 提到 skill 是否實際被觸發，採用效果須看任務結果。",
+    "risk": "工作流可能增加上下文與時間成本；自動套用規範需符合現有專案，不能把文件中的指令直接當執行授權。",
+    "relevance": "Adam 可錄製同題任務的品質與成本比較，萃取適合公司 AI 開發 SOP 的方法，再納入 know metabiz wiki。"
+  }
+]

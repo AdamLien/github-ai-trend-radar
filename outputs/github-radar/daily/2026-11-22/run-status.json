@@ -1,0 +1,19 @@
+{
+  "target_date": "2026-11-22",
+  "collection_finished_at": "2026-11-22T16:22:29.164582+00:00",
+  "collector_exit_code": 0,
+  "limit": 10,
+  "rate_limit_status": "No observed rate-limit errors",
+  "retried_with_limit_5": false,
+  "collected": 457,
+  "retained": 439,
+  "excluded": 18,
+  "stale_retained": 4,
+  "dashboard_build": {
+    "command": "/home/metabiz-admin/.local/bin/rtk --ultra-compact npm run build",
+    "exit_code": 0,
+    "dist_index_nonempty": true,
+    "generated_data_nonempty": true,
+    "warning": "JavaScript bundle exceeds 500 kB"
+  }
+}
