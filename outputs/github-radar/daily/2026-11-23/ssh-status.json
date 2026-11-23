@@ -1,0 +1,6 @@
+{
+  "remote": "origin",
+  "ssh_only": true,
+  "existing_ssh_authorized": true,
+  "authorization_check_exit_code": 0
+}

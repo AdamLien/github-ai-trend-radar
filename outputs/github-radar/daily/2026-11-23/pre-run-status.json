@@ -1,0 +1,27 @@
+{
+  "target_date": "2026-11-23",
+  "git_status": [
+    " M CONTEXT.md",
+    " M README.md",
+    " M docs/backlog/ai-content-and-skills-backlog.md",
+    " M docs/wiki/llm-wiki.md",
+    " M skills/github-trend-radar/scripts/collect_github_trends.py",
+    " M skills/github-trend-radar/scripts/test_collect_github_trends.py",
+    "?? automation/README.md",
+    "?? automation/daily-prompt.md",
+    "?? automation/run-daily.sh",
+    "?? docs/launch/",
+    "?? docs/superpowers/",
+    "?? docs/wiki/input/",
+    "?? skills/github-trend-radar/SKILL.md",
+    "?? skills/github-trend-radar/agents/",
+    "?? skills/github-trend-radar/references/",
+    "?? skills/github-trend-radar/scripts/backfill_gharchive_watch_events.py",
+    "?? skills/github-trend-radar/scripts/backfill_recent_stars.py",
+    "?? skills/github-trend-radar/scripts/test_validate_daily_output.py",
+    "?? skills/github-trend-radar/scripts/validate_daily_output.py",
+    "?? skills/video-captioning-workflow/",
+    "?? skills/youtube-shorts-pipeline/",
+    ""
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "category": "Deep research",
+    "purpose": "把既有軟體封裝成 agent 可呼叫的 CLI，README 展示從軟體操作到產出實際檔案的流程。",
+    "relevance": "Adam 的 AI 辦公自動化課程可用 LibreOffice 報表或圖像處理做端到端案例；將指令、輸入與結果驗證寫進 know metabiz wiki。",
+    "risk": "CLI 與軟體版本相依；GIMP 3 批次處理與 Calc 公式仍有修正提案，不能把所有軟體均可用的宣傳視為驗證結果。",
+    "activity": "近期 [GIMP 3 相容性 PR #694](https://github.com/HKUDS/CLI-Anything/pull/694) 與 [Calc 公式 PR #691](https://github.com/HKUDS/CLI-Anything/pull/691)；均為 open，修正尚不能視為已發佈。",
+    "next": "以固定輸入跑一份試算表，檢查公式計算與產物可重現性。",
+    "momentum_note": "兼具高今日增星與直接辦公應用，列為優先研究。"
+  },
+  {
+    "repo": "zhouxiaoka/autoclip",
+    "category": "Demo content",
+    "purpose": "將長影片切成短影音並生成字幕、封面與發布文案，提供桌面、CLI 與 MCP 工作流。",
+    "relevance": "直接對應 Adam 課程與訪談的 Shorts／Reels 內容再製；可在 know metabiz wiki 記錄每支素材的剪輯、校稿與發布 SOP。",
+    "risk": "雲端模型另有成本；中文字幕斷行、人物取景及成片品質需人工驗收，RC 提案不代表穩定版已推出。",
+    "activity": "[1.6.0-rc 發版 PR #677](https://github.com/zhouxiaoka/autoclip/pull/677) 仍 open；[字幕斷行 PR #669](https://github.com/zhouxiaoka/autoclip/pull/669) 顯示字幕相容性仍在調整。",
+    "next": "以一段自有繁中課程測試三支短片，量測校字幕及調整取景時間。",
+    "momentum_note": "基數較小、熱門程度高且能直接產出內容，適合先做可驗收 demo。"
+  },
+  {
+    "repo": "google-labs-code/stitch-skills",
+    "category": "Skill candidate",
+    "purpose": "將 Google Stitch 設計與元件工作流整理成可供多種 coding agent 使用的 skills／plugins。",
+    "relevance": "適合 Adam 的跨工具 Agent Skills 課程；可研究如何把 metabiz 辦公系統畫面設計、元件與驗收連成可重用流程。",
+    "risk": "依賴 Stitch 服務與宿主 plugin 結構；安裝成功不代表各種宿主、工作目錄都能運作。",
+    "activity": "[路徑解析 PR #112](https://github.com/google-labs-code/stitch-skills/pull/112) 仍 open，處理從 plugin root 或 repo clone 找 uploader 的問題。",
+    "next": "在獨立測試專案檢查跨工作目錄的腳本路徑與輸出，不直接安裝到正式環境。",
+    "momentum_note": "較小基數的相對成長比總星數更有參考價值，但近期主線及安裝修正仍需追蹤。"
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "category": "Skill candidate",
+    "purpose": "以單一 HTML＋SVG 產出品牌化圖解，README 現列 52 種圖表類型。",
+    "relevance": "可製作 Adam 課程架構圖、AI 辦公流程圖與 know metabiz wiki 的系統關係圖；適合比較圖解品質與人工調整成本。",
+    "risk": "HTML／SVG 的字型、匯出、列印與跨平台效果需驗證；README 的圖種數量屬作者陳述。",
+    "activity": "[Desktop ZIP PR #531](https://github.com/cathrynlavery/diagram-design/pull/531) 與 [Windows／路徑 PR #540](https://github.com/cathrynlavery/diagram-design/pull/540) 已 closed；closed 本身不證明已合併或發佈。",
+    "next": "用同一份中文流程規格產圖，檢查溢字、箭頭語義、SVG／PNG 匯出。",
+    "momentum_note": "今日熱度配合具體封裝改進，適合做圖解產物驗收。"
+  },
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "category": "Deep research",
+    "purpose": "跨社群與網路來源研究近期話題，以互動訊號輔助彙整。",
+    "relevance": "可支援 Adam 課程選題、影片腳本前置研究與公司競品觀察；know metabiz wiki 應保留來源、日期和可追溯主張。",
+    "risk": "互動量不能代表資訊正確；來源 API、登入與 cookie 使用影響可用性及資料界線。",
+    "activity": "[cookie 同意 PR #1440](https://github.com/mvanhorn/last30days-skill/pull/1440) 已 closed；[日期解析 PR #1570](https://github.com/mvanhorn/last30days-skill/pull/1570) 仍 open，研究時間窗需抽查。",
+    "next": "用同一選題比對來源完整度、日期正確率與結論引文，不只比較摘要流暢度。",
+    "momentum_note": "今日熱度之外亦有近期 release，值得檢查研究品質是否跟上功能擴張。"
+  },
+  {
+    "repo": "firecrawl/firecrawl",
+    "category": "Deep research",
+    "purpose": "把網站轉成可供 agent 與 RAG 使用的資料，README 區分 Local、Cloud 與完整自架服務。",
+    "relevance": "可作 know metabiz wiki 的公開來源攝取層；Adam 課程可展示擷取、清理、來源標記與知識更新的完整流程。",
+    "risk": "AGPL-3.0 與不同部署模式需分別確認使用條件；動態頁、重導向、雲端用量與內容更新都會影響品質。",
+    "activity": "[Python SDK 文件 PR #5990](https://github.com/firecrawl/firecrawl/pull/5990) 仍 open；[API routing PR #5984](https://github.com/firecrawl/firecrawl/pull/5984) 已 closed。近期樣本也有宣傳型 Issue，不能把所有活動都當成維護成果。",
+    "next": "用一組公開文件測來源 URL、重複內容與增量更新；比較 Local／自架需求。",
+    "momentum_note": "絕對增星高，但應同時看大基數下的相對增幅，以及資料攝取實用性。"
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "category": "Watch",
+    "purpose": "整合文件、白板及表格的知識工作空間，涵蓋 wiki 與數位資產管理。",
+    "relevance": "適合評估 know metabiz wiki 的編輯及視覺化入口；Adam 可做「文件＋白板如何接到 AI 知識工作」的案例。",
+    "risk": "API 的 license 為 NOASSERTION，不能直接當成無限制商用；權限、匯出及現有 wiki 搬遷成本仍需評估。",
+    "activity": "[逐頁讀寫權限 PR #15522](https://github.com/toeverything/AFFiNE/pull/15522) 與 [台灣繁中 PR #15852](https://github.com/toeverything/AFFiNE/pull/15852) 仍 open，與公司協作落地直接相關。",
+    "next": "以小型非敏感文件測讀寫權限、繁中與 Markdown 匯出完整度。",
+    "momentum_note": "知識庫需求與近期協作功能 PR 有直接關聯，先觀察權限及資料可攜性。"
+  },
+  {
+    "repo": "cursor/plugins",
+    "category": "Reference only",
+    "purpose": "Cursor 官方 plugin 與 manifest 範例集合，含教學、持續學習與團隊工作流。",
+    "relevance": "作 Adam 跨宿主 plugin 教學與 metabiz skill 包裝的參考；know metabiz wiki 可記錄 manifest、宿主差異與移植限制。",
+    "risk": "API 未提供明確 SPDX 授權；不同 plugin 的授權、腳本與 MCP 權限須個別查驗，不宜整包搬用。",
+    "activity": "[多宿主 ports PR #1322](https://github.com/cursor/plugins/pull/1322) 已 closed；[新 plugin PR #1256](https://github.com/cursor/plugins/pull/1256) 仍 open。",
+    "next": "挑單一 teaching 或 compatibility 範例比較結構，先補授權與宿主相容性證據。",
+    "momentum_note": "相對增幅值得注意，但授權及宿主相容性證據不足，維持參考用途。"
+  },
+  {
+    "repo": "obra/superpowers",
+    "category": "Watch",
+    "purpose": "把需求釐清、規劃與開發驗證組成可重複使用的 coding agent skills 方法。",
+    "relevance": "可供 Adam Agent 工程課程比較開發工作法；metabiz 團隊可評估較小任務的採用成本，將實測結果寫入 wiki。",
+    "risk": "總星數高但不能證明適合長任務；額外協調、執行權限與 context 成本可能抵消效益。",
+    "activity": "[Issue #2612](https://github.com/obra/superpowers/issues/2612) 回報多次 session limit 與大量 context；[Issue #2723](https://github.com/obra/superpowers/issues/2723) 回報腳本執行權限問題，皆為使用者回報，尚未獨立重現。",
+    "next": "以固定小任務比對耗時、token 與缺陷數，追蹤 #2612 的維護者回覆。",
+    "momentum_note": "總星數領先，但主線推送較久，搭配成本回報後採觀察，不因規模直接排首位。"
+  },
+  {
+    "repo": "elementalsouls/Claude-BugHunter",
+    "category": "Watch",
+    "purpose": "面向安全研究的 Claude Code skill bundle，將漏洞案例與 scope 控制整理成工作流。",
+    "relevance": "適合 Adam 進階課程講解安全 agent 的邊界設計；metabiz 可參考 scope 控制與稽核紀錄，不將其當成通用辦公工具。",
+    "risk": "高熱度與大量技能不等於可靠；近期 scope fail-open、重導向越界修正顯示控制邊界仍是重點。",
+    "activity": "[scope import PR #208](https://github.com/elementalsouls/Claude-BugHunter/pull/208) 仍 open；[fail-open PR #182](https://github.com/elementalsouls/Claude-BugHunter/pull/182) 與 [redirect PR #181](https://github.com/elementalsouls/Claude-BugHunter/pull/181) 已 closed，不能只由狀態推定修正已發佈。",
+    "next": "只閱讀 scope 設計與公開測試紀錄，觀察修正版本及回歸證據。",
+    "momentum_note": "今日增星最高且小基數放大相對成長，但與日常辦公適配較低，安全邊界修正比熱度更重要。"
+  }
+]

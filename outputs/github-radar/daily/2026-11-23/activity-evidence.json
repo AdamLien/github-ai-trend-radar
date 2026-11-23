@@ -1,0 +1,422 @@
+{
+  "elementalsouls/Claude-BugHunter": [
+    {
+      "number": 208,
+      "title": "feat(cbh): `cbh scope import` — fill scope.md from a program's published scope (fails closed)",
+      "state": "open",
+      "updated_at": "2026-11-23T16:08:40Z",
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/208",
+      "kind": "pull_request"
+    },
+    {
+      "number": 222,
+      "title": "[CI TRIAL — do not merge] #208 scope import rebased onto main",
+      "state": "open",
+      "updated_at": "2026-11-23T15:45:52Z",
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/222",
+      "kind": "pull_request"
+    },
+    {
+      "number": 181,
+      "title": "fix(engine): keep recon redirects inside scope",
+      "state": "closed",
+      "updated_at": "2026-11-23T15:23:19Z",
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/181",
+      "kind": "pull_request"
+    },
+    {
+      "number": 198,
+      "title": "fix(scope): stop recon-seeded hosts from becoming in-scope rules",
+      "state": "closed",
+      "updated_at": "2026-11-23T15:23:17Z",
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/198",
+      "kind": "pull_request"
+    },
+    {
+      "number": 182,
+      "title": "fix(scope): stop out-of-scope rules from silently failing open",
+      "state": "closed",
+      "updated_at": "2026-11-23T15:23:16Z",
+      "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/182",
+      "kind": "pull_request"
+    }
+  ],
+  "obra/superpowers": [
+    {
+      "number": 2612,
+      "title": "subagent-driven-development: 15-task port of a ~2,000-line R script hit 5 session limits; coordinator context grew to 830k tokens (Claude Code)",
+      "state": "open",
+      "updated_at": "2026-11-23T05:34:43Z",
+      "html_url": "https://github.com/obra/superpowers/issues/2612",
+      "kind": "issue"
+    },
+    {
+      "number": 2723,
+      "title": "superpowers: executing-plans helpers still exec sibling scripts directly, so Native execution fails where exec bits are stripped",
+      "state": "open",
+      "updated_at": "2026-11-23T04:42:24Z",
+      "html_url": "https://github.com/obra/superpowers/issues/2723",
+      "kind": "issue"
+    },
+    {
+      "number": 2730,
+      "title": "Audit result: 15/15 skills passed clean (SkillDoctor, 777-skill audit)",
+      "state": "open",
+      "updated_at": "2026-11-23T03:04:07Z",
+      "html_url": "https://github.com/obra/superpowers/issues/2730",
+      "kind": "issue"
+    },
+    {
+      "number": 2729,
+      "title": "Session-start banner names Skill instead of Copilot's skill tool",
+      "state": "open",
+      "updated_at": "2026-11-22T20:03:22Z",
+      "html_url": "https://github.com/obra/superpowers/issues/2729",
+      "kind": "issue"
+    },
+    {
+      "number": 2728,
+      "title": "A 1VR skill health-check report for \"test-driven-development\" + a design-partner invitation",
+      "state": "open",
+      "updated_at": "2026-11-22T13:40:42Z",
+      "html_url": "https://github.com/obra/superpowers/issues/2728",
+      "kind": "issue"
+    }
+  ],
+  "HKUDS/CLI-Anything": [
+    {
+      "number": 694,
+      "title": "fix(gimp): support GIMP 3 batch rendering (interpreter flag, PDB names)",
+      "state": "open",
+      "updated_at": "2026-11-23T15:06:32Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything/pull/694",
+      "kind": "pull_request"
+    },
+    {
+      "number": 693,
+      "title": "docs: fix CLI-Hub link in contributing guide",
+      "state": "open",
+      "updated_at": "2026-11-23T14:19:03Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything/pull/693",
+      "kind": "pull_request"
+    },
+    {
+      "number": 692,
+      "title": "Add avy-cli to public registry",
+      "state": "open",
+      "updated_at": "2026-11-22T23:06:24Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything/pull/692",
+      "kind": "pull_request"
+    },
+    {
+      "number": 649,
+      "title": "feat: add Alexa harness for controlling Amazon Echo devices",
+      "state": "open",
+      "updated_at": "2026-11-22T11:33:19Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything/pull/649",
+      "kind": "pull_request"
+    },
+    {
+      "number": 691,
+      "title": "fix(libreoffice): declare xmlns:of so Calc formulas evaluate",
+      "state": "open",
+      "updated_at": "2026-11-22T07:44:11Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything/pull/691",
+      "kind": "pull_request"
+    }
+  ],
+  "cursor/plugins": [
+    {
+      "number": 1322,
+      "title": "feat(pstack): add harness ports for antigravity, zcode, opencode, and omp",
+      "state": "closed",
+      "updated_at": "2026-11-23T14:35:11Z",
+      "html_url": "https://github.com/cursor/plugins/pull/1322",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1256,
+      "title": "feat(third_party): add the Levea plugin",
+      "state": "open",
+      "updated_at": "2026-11-23T14:25:27Z",
+      "html_url": "https://github.com/cursor/plugins/pull/1256",
+      "kind": "pull_request"
+    },
+    {
+      "number": 561,
+      "title": "Add Kling plugin",
+      "state": "open",
+      "updated_at": "2026-11-23T08:25:36Z",
+      "html_url": "https://github.com/cursor/plugins/pull/561",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1321,
+      "title": "docs(pstack): add CHANGELOG.md (#1289)",
+      "state": "open",
+      "updated_at": "2026-11-23T04:59:13Z",
+      "html_url": "https://github.com/cursor/plugins/pull/1321",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1298,
+      "title": "Add FIU global financial data MCP plugin",
+      "state": "open",
+      "updated_at": "2026-11-23T01:54:31Z",
+      "html_url": "https://github.com/cursor/plugins/pull/1298",
+      "kind": "pull_request"
+    }
+  ],
+  "firecrawl/firecrawl": [
+    {
+      "number": 5991,
+      "title": "[Community] Featured Firecrawl on CookApps Directory",
+      "state": "open",
+      "updated_at": "2026-11-23T15:12:50Z",
+      "html_url": "https://github.com/firecrawl/firecrawl/issues/5991",
+      "kind": "issue"
+    },
+    {
+      "number": 5989,
+      "title": "fix(api): close unused redirect sanitizer draft",
+      "state": "closed",
+      "updated_at": "2026-11-23T14:59:31Z",
+      "html_url": "https://github.com/firecrawl/firecrawl/pull/5989",
+      "kind": "pull_request"
+    },
+    {
+      "number": 5984,
+      "title": "feat(api): route gov web-search to research proxy behind flag",
+      "state": "closed",
+      "updated_at": "2026-11-23T14:12:42Z",
+      "html_url": "https://github.com/firecrawl/firecrawl/pull/5984",
+      "kind": "pull_request"
+    },
+    {
+      "number": 5990,
+      "title": "docs(python-sdk): access Playwright URL as a property",
+      "state": "open",
+      "updated_at": "2026-11-23T14:10:37Z",
+      "html_url": "https://github.com/firecrawl/firecrawl/pull/5990",
+      "kind": "pull_request"
+    },
+    {
+      "number": 5982,
+      "title": "fix(api): name the lock on every firebill finalize confirm",
+      "state": "closed",
+      "updated_at": "2026-11-23T13:29:22Z",
+      "html_url": "https://github.com/firecrawl/firecrawl/pull/5982",
+      "kind": "pull_request"
+    }
+  ],
+  "cathrynlavery/diagram-design": [
+    {
+      "number": 525,
+      "title": "[Feature]: make the skill be imported into Claude Desktop",
+      "state": "closed",
+      "updated_at": "2026-11-23T11:00:12Z",
+      "html_url": "https://github.com/cathrynlavery/diagram-design/issues/525",
+      "kind": "issue"
+    },
+    {
+      "number": 531,
+      "title": "feat(package): build a Claude Desktop skill ZIP under the upload file limit",
+      "state": "closed",
+      "updated_at": "2026-11-23T11:00:11Z",
+      "html_url": "https://github.com/cathrynlavery/diagram-design/pull/531",
+      "kind": "pull_request"
+    },
+    {
+      "number": 540,
+      "title": "fix(package): format manifest paths as POSIX in version history and skip bash gate on Windows",
+      "state": "closed",
+      "updated_at": "2026-11-23T10:34:15Z",
+      "html_url": "https://github.com/cathrynlavery/diagram-design/pull/540",
+      "kind": "pull_request"
+    },
+    {
+      "number": 537,
+      "title": "feat(skin): ship blueprint, mono-print and graphite presets that load like profiles",
+      "state": "open",
+      "updated_at": "2026-11-23T10:03:32Z",
+      "html_url": "https://github.com/cathrynlavery/diagram-design/pull/537",
+      "kind": "pull_request"
+    },
+    {
+      "number": 532,
+      "title": "fix(box-plot): detect marks hidden after CSS animations",
+      "state": "open",
+      "updated_at": "2026-11-23T06:34:19Z",
+      "html_url": "https://github.com/cathrynlavery/diagram-design/pull/532",
+      "kind": "pull_request"
+    }
+  ],
+  "mvanhorn/last30days-skill": [
+    {
+      "number": 1523,
+      "title": "fix(x): scope live authentication checks to eligible research",
+      "state": "closed",
+      "updated_at": "2026-11-23T11:05:12Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1523",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1570,
+      "title": "fix(dates): guard parse_date and timestamp_to_date against overflow/non-finite timestamps",
+      "state": "open",
+      "updated_at": "2026-11-23T09:18:23Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1570",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1475,
+      "title": "fix(youtube): read the ScrapeCreators search fields the API returns",
+      "state": "closed",
+      "updated_at": "2026-11-23T09:12:48Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1475",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1440,
+      "title": "fix(agentcookie): require positive consent for sidecar cookie reads (from #1365 by @vincentkoc)",
+      "state": "closed",
+      "updated_at": "2026-11-23T07:26:52Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1440",
+      "kind": "pull_request"
+    },
+    {
+      "number": 1569,
+      "title": "fix: allow forcing local reasoning provider via LAST30DAYS_REASONING_…",
+      "state": "open",
+      "updated_at": "2026-11-23T06:20:38Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1569",
+      "kind": "pull_request"
+    }
+  ],
+  "google-labs-code/stitch-skills": [
+    {
+      "number": 112,
+      "title": "fix(manage-design-system): resolve uploader script from plugin root or repo clone (#96) ",
+      "state": "open",
+      "updated_at": "2026-11-23T06:57:38Z",
+      "html_url": "https://github.com/google-labs-code/stitch-skills/pull/112",
+      "kind": "pull_request"
+    },
+    {
+      "number": 110,
+      "title": "docs: fix upload-to-stitch path so it works outside a repo checkout (#96)",
+      "state": "open",
+      "updated_at": "2026-11-21T13:26:09Z",
+      "html_url": "https://github.com/google-labs-code/stitch-skills/pull/110",
+      "kind": "pull_request"
+    },
+    {
+      "number": 109,
+      "title": "docs: fix dead labs.google.com/stitch link in taste-design (#48)",
+      "state": "open",
+      "updated_at": "2026-11-21T13:24:59Z",
+      "html_url": "https://github.com/google-labs-code/stitch-skills/pull/109",
+      "kind": "pull_request"
+    },
+    {
+      "number": 108,
+      "title": "fix(extract-static-html): escape JSX output and preserve unitless styles",
+      "state": "open",
+      "updated_at": "2026-11-21T01:40:57Z",
+      "html_url": "https://github.com/google-labs-code/stitch-skills/pull/108",
+      "kind": "pull_request"
+    },
+    {
+      "number": 105,
+      "title": "fix: recognize CSS-first Tailwind setups in verification",
+      "state": "closed",
+      "updated_at": "2026-11-20T18:08:02Z",
+      "html_url": "https://github.com/google-labs-code/stitch-skills/pull/105",
+      "kind": "pull_request"
+    }
+  ],
+  "toeverything/AFFiNE": [
+    {
+      "number": 13051,
+      "title": "fix(core): use permanent delete icon consistently",
+      "state": "closed",
+      "updated_at": "2026-11-23T16:11:01Z",
+      "html_url": "https://github.com/toeverything/AFFiNE/pull/13051",
+      "kind": "pull_request"
+    },
+    {
+      "number": 15522,
+      "title": "fix(core): add per-page read/edit toggle in header",
+      "state": "open",
+      "updated_at": "2026-11-23T16:10:44Z",
+      "html_url": "https://github.com/toeverything/AFFiNE/pull/15522",
+      "kind": "pull_request"
+    },
+    {
+      "number": 14904,
+      "title": "fix(editor): prevent LaTeX escaping when pasting markdown",
+      "state": "open",
+      "updated_at": "2026-11-23T16:09:42Z",
+      "html_url": "https://github.com/toeverything/AFFiNE/pull/14904",
+      "kind": "pull_request"
+    },
+    {
+      "number": 15215,
+      "title": "feat(blocksuite): per-block automatic text direction (dir=auto)",
+      "state": "closed",
+      "updated_at": "2026-11-23T16:06:17Z",
+      "html_url": "https://github.com/toeverything/AFFiNE/pull/15215",
+      "kind": "pull_request"
+    },
+    {
+      "number": 15852,
+      "title": "chore(i18n): improve Traditional Chinese (Taiwan) coverage and wording",
+      "state": "open",
+      "updated_at": "2026-11-23T16:06:16Z",
+      "html_url": "https://github.com/toeverything/AFFiNE/pull/15852",
+      "kind": "pull_request"
+    }
+  ],
+  "zhouxiaoka/autoclip": [
+    {
+      "number": 677,
+      "title": "release(1.6.0-rc): live replays, game highlights, result cards & post-1.5.9 fixes",
+      "state": "open",
+      "updated_at": "2026-11-23T15:24:29Z",
+      "html_url": "https://github.com/zhouxiaoka/autoclip/pull/677",
+      "kind": "pull_request"
+    },
+    {
+      "number": 669,
+      "title": "fix(studio): count kana as full-width when breaking caption lines",
+      "state": "open",
+      "updated_at": "2026-11-23T15:01:23Z",
+      "html_url": "https://github.com/zhouxiaoka/autoclip/pull/669",
+      "kind": "pull_request"
+    },
+    {
+      "number": 673,
+      "title": "fix(studio): respect Arabic punctuation and vowel marks in captions",
+      "state": "closed",
+      "updated_at": "2026-11-23T11:39:12Z",
+      "html_url": "https://github.com/zhouxiaoka/autoclip/pull/673",
+      "kind": "pull_request"
+    },
+    {
+      "number": 658,
+      "title": "docs: add Turkish README (README-TR.md)",
+      "state": "closed",
+      "updated_at": "2026-11-23T11:39:07Z",
+      "html_url": "https://github.com/zhouxiaoka/autoclip/pull/658",
+      "kind": "pull_request"
+    },
+    {
+      "number": 676,
+      "title": "fix(framing): load YuNet ONNX and frame images from memory bytes (PYTHON-FASTAPI-68)",
+      "state": "closed",
+      "updated_at": "2026-11-23T09:49:21Z",
+      "html_url": "https://github.com/zhouxiaoka/autoclip/pull/676",
+      "kind": "pull_request"
+    }
+  ]
+}
