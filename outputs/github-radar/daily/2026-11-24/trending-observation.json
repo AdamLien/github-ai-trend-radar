@@ -1,0 +1,48 @@
+{
+  "url": "https://github.com/trending?since=daily",
+  "observed_at": "2026-11-24T16:11:34.642090+00:00",
+  "repos": {
+    "elementalsouls/Claude-BugHunter": {
+      "trending_stars_today": 1833
+    },
+    "obra/superpowers": {
+      "trending_stars_today": 1006
+    },
+    "HKUDS/CLI-Anything": {
+      "trending_stars_today": 1075
+    },
+    "jingyaogong/minimind": {
+      "trending_stars_today": 727
+    },
+    "cursor/plugins": {
+      "trending_stars_today": 359
+    },
+    "firecrawl/firecrawl": {
+      "trending_stars_today": 990
+    },
+    "openvinotoolkit/openvino": {
+      "trending_stars_today": 187
+    },
+    "cathrynlavery/diagram-design": {
+      "trending_stars_today": 794
+    },
+    "mvanhorn/last30days-skill": {
+      "trending_stars_today": 695
+    },
+    "google-labs-code/stitch-skills": {
+      "trending_stars_today": 401
+    },
+    "mjmirza/app-store-compliance": {
+      "trending_stars_today": 936
+    },
+    "Tracer-Cloud/opensre": {
+      "trending_stars_today": 408
+    },
+    "toeverything/AFFiNE": {
+      "trending_stars_today": 589
+    },
+    "zhouxiaoka/autoclip": {
+      "trending_stars_today": 981
+    }
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "observed_at": "2026-11-24T16:12:04.602843+00:00",
+  "repos": {
+    "elementalsouls/Claude-BugHunter": {
+      "items": [
+        {
+          "number": 232,
+          "title": "feat(docs): bespoke terminal-HUD landing page for GitHub Pages",
+          "updated_at": "2026-11-24T10:43:36Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/232"
+        },
+        {
+          "number": 224,
+          "title": "[bug] Unicode form of an imported IDN exclusion stays in scope (CWE-176)",
+          "updated_at": "2026-11-24T05:53:09Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 1,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/224"
+        },
+        {
+          "number": 231,
+          "title": "fix(scope): canonicalize IDN hosts before scope matching (#224)",
+          "updated_at": "2026-11-24T04:47:40Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/231"
+        },
+        {
+          "number": 230,
+          "title": "feat(engine): default data isolation + leak-proof attack metrics",
+          "updated_at": "2026-11-24T01:52:30Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/230"
+        },
+        {
+          "number": 229,
+          "title": "feat(skill): add exploit-completion + sync skill count 83 → 84",
+          "updated_at": "2026-11-24T01:01:32Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/229"
+        },
+        {
+          "number": 228,
+          "title": "feat(engine): deterministic, LLM-free evidence capture + corroboration tag",
+          "updated_at": "2026-11-24T00:55:26Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/228"
+        },
+        {
+          "number": 227,
+          "title": "fix(engine): tell hunt/validate agents which hosts are out of scope",
+          "updated_at": "2026-11-23T20:13:48Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/227"
+        },
+        {
+          "number": 226,
+          "title": "[bug] engine: hunt/validate agents are never told the out-of-scope hosts",
+          "updated_at": "2026-11-23T20:09:13Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/226"
+        },
+        {
+          "number": 225,
+          "title": "fix(hunt-dispatch): load the 10 hunt-* skills missing from the wapt set",
+          "updated_at": "2026-11-23T19:24:07Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/225"
+        },
+        {
+          "number": 222,
+          "title": "[CI TRIAL — do not merge] #208 scope import rebased onto main",
+          "updated_at": "2026-11-23T17:49:52Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/222"
+        }
+      ]
+    },
+    "HKUDS/CLI-Anything": {
+      "items": [
+        {
+          "number": 705,
+          "title": "fix: time out stalled CLI-Hub pip installs",
+          "updated_at": "2026-11-24T16:06:24Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/705"
+        },
+        {
+          "number": 698,
+          "title": "feat: add Ghidra CLI harness",
+          "updated_at": "2026-11-24T15:37:03Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/698"
+        },
+        {
+          "number": 704,
+          "title": "cli-hub install hangs silently — no output, no timeout, nothing installed",
+          "updated_at": "2026-11-24T14:36:45Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 0,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/issues/704"
+        },
+        {
+          "number": 649,
+          "title": "feat: add Alexa harness for controlling Amazon Echo devices",
+          "updated_at": "2026-11-24T11:37:03Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/649"
+        },
+        {
+          "number": 642,
+          "title": "feat: support API-backed harnesses and backend-aware skill generation",
+          "updated_at": "2026-11-24T11:26:57Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/642"
+        },
+        {
+          "number": 703,
+          "title": "feat(registry): add Aion CLI to public registry",
+          "updated_at": "2026-11-24T09:01:50Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/703"
+        },
+        {
+          "number": 202,
+          "title": "security: add user confirmation guard to meta-skill installation flow",
+          "updated_at": "2026-11-24T05:04:01Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 4,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/202"
+        },
+        {
+          "number": 702,
+          "title": "feat(registry): add Google Gemini Desktop CLI",
+          "updated_at": "2026-11-24T01:40:00Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/702"
+        },
+        {
+          "number": 699,
+          "title": "fix(unimol_tools): only unpickle metric.result from this run",
+          "updated_at": "2026-11-23T23:54:53Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/699"
+        },
+        {
+          "number": 701,
+          "title": "feat(registry): add XinYu AI CLI (@xinyuai/cli) to public registry",
+          "updated_at": "2026-11-23T21:01:16Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/701"
+        }
+      ]
+    },
+    "obra/superpowers": {
+      "items": [
+        {
+          "number": 2386,
+          "title": "test-driven-development is not invoked for a plain \"add a function\" request, even with the using-superpowers injection present",
+          "updated_at": "2026-11-24T12:39:35Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 8,
+          "html_url": "https://github.com/obra/superpowers/issues/2386"
+        },
+        {
+          "number": 2733,
+          "title": "fix(pi): prevent bootstrap marker collision",
+          "updated_at": "2026-11-24T11:07:16Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/2733"
+        },
+        {
+          "number": 2707,
+          "title": "Keep never-committed worktree files during cleanup; branch before executing a plan on main",
+          "updated_at": "2026-11-24T11:06:49Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/obra/superpowers/pull/2707"
+        },
+        {
+          "number": 2088,
+          "title": "fix(codex): restore Superpowers after compaction",
+          "updated_at": "2026-11-24T06:22:54Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/obra/superpowers/pull/2088"
+        },
+        {
+          "number": 1639,
+          "title": "feat(brainstorming): Alpine-driven interactive visual companion (SUP-215)",
+          "updated_at": "2026-11-24T06:22:42Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/1639"
+        },
+        {
+          "number": 2641,
+          "title": "Feature/trajectory hierarchy",
+          "updated_at": "2026-11-24T04:23:47Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/2641"
+        },
+        {
+          "number": 2730,
+          "title": "Audit result: 15/15 skills passed clean (SkillDoctor, 777-skill audit)",
+          "updated_at": "2026-11-24T03:13:12Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2730"
+        },
+        {
+          "number": 2732,
+          "title": "session: Kev tech eval used unasked rubric then explained instead of re-running (Hermes)",
+          "updated_at": "2026-11-24T03:13:02Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "comments": 1,
+          "html_url": "https://github.com/obra/superpowers/issues/2732"
+        },
+        {
+          "number": 2731,
+          "title": "Visual Companion replaces a full-document preview’s own .status text on connection",
+          "updated_at": "2026-11-23T22:44:29Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/issues/2731"
+        },
+        {
+          "number": 2727,
+          "title": "Feat/research and verification skills",
+          "updated_at": "2026-11-23T19:47:21Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/obra/superpowers/pull/2727"
+        }
+      ]
+    },
+    "cathrynlavery/diagram-design": {
+      "items": [
+        {
+          "number": 479,
+          "title": "fix(mermaid-import): keep hyphenated node ids intact",
+          "updated_at": "2026-11-24T15:46:49Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 4,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/479"
+        },
+        {
+          "number": 540,
+          "title": "fix(package): format manifest paths as POSIX in version history and skip bash gate on Windows",
+          "updated_at": "2026-11-24T14:43:02Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/540"
+        },
+        {
+          "number": 525,
+          "title": "[Feature]: make the skill be imported into Claude Desktop",
+          "updated_at": "2026-11-24T07:42:55Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/issues/525"
+        },
+        {
+          "number": 356,
+          "title": "fix(import): isolate HTML renderer permissions in Claude Code",
+          "updated_at": "2026-11-24T05:06:37Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/356"
+        },
+        {
+          "number": 528,
+          "title": "fix(verify): read quoted selector text as selector text",
+          "updated_at": "2026-11-24T04:47:27Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/528"
+        },
+        {
+          "number": 536,
+          "title": "fix(verify): mask selector string contents and remove Python 3.9 write_text newline kwarg",
+          "updated_at": "2026-11-24T04:23:56Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 2,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/536"
+        },
+        {
+          "number": 538,
+          "title": "feat(export): add print-ready vector PDF export (--pdf) for diagram HTML",
+          "updated_at": "2026-11-24T02:41:58Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/538"
+        },
+        {
+          "number": 534,
+          "title": "fix(box-plot): match sibling combinators against document elements",
+          "updated_at": "2026-11-23T20:14:09Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/534"
+        },
+        {
+          "number": 531,
+          "title": "feat(package): build a Claude Desktop skill ZIP under the upload file limit",
+          "updated_at": "2026-11-23T18:24:52Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 7,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/531"
+        },
+        {
+          "number": 537,
+          "title": "feat(skin): ship blueprint, mono-print and graphite presets that load like profiles",
+          "updated_at": "2026-11-23T10:03:32Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/537"
+        }
+      ]
+    },
+    "mvanhorn/last30days-skill": {
+      "items": [
+        {
+          "number": 1615,
+          "title": "fix(signals,relevance,rerank,cluster,fusion,dedupe): enforce monotonic scoring, active floors, tie-aware rescue, and URL dedupe",
+          "updated_at": "2026-11-24T16:10:41Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1615"
+        },
+        {
+          "number": 1616,
+          "title": "fix(x,bird-search): harden X backend parsing, error/403 propagation, UTF-8 decoding, and GraphQL null safety",
+          "updated_at": "2026-11-24T15:53:22Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1616"
+        },
+        {
+          "number": 1415,
+          "title": "feat(digg): search every Digg topic, rank by Digg Score, and confirm results that Digg stories cite",
+          "updated_at": "2026-11-24T15:51:29Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1415"
+        },
+        {
+          "number": 1613,
+          "title": "fix(pipeline,schema,dates): fix fetch_memo lifecycle, weighting, X floor, SSH yt-dlp, without_sources, and date parsing",
+          "updated_at": "2026-11-24T15:43:25Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1613"
+        },
+        {
+          "number": 1612,
+          "title": "fix(freshness,polymarket): harden verification grounding, cache/status logic, acronym matching, and outcome parsing",
+          "updated_at": "2026-11-24T15:42:45Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1612"
+        },
+        {
+          "number": 1603,
+          "title": "fix(reddit): honor SearXNG in web discovery",
+          "updated_at": "2026-11-24T15:24:15Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1603"
+        },
+        {
+          "number": 1614,
+          "title": "fix(youtube,bluesky,linkedin,corpus,mcp): harden comments, session concurrency, 404 isolation, PDF extraction, and MCP config",
+          "updated_at": "2026-11-24T15:10:02Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1614"
+        },
+        {
+          "number": 1507,
+          "title": "fix(doctor): stop prescribing a transcription key that does nothing",
+          "updated_at": "2026-11-24T14:27:47Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1507"
+        },
+        {
+          "number": 1604,
+          "title": "fix: keep provider keys off the proxy for loopback base-URL overrides",
+          "updated_at": "2026-11-24T14:27:03Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1604"
+        },
+        {
+          "number": 1611,
+          "title": "fix(jobs,hn,stocktwits,meta_ads): harden sitemap ownership, timeouts, query matching, symbol gating, and error handling",
+          "updated_at": "2026-11-24T14:16:40Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1611"
+        }
+      ]
+    },
+    "cursor/plugins": {
+      "items": [
+        {
+          "number": 1333,
+          "title": "Exercise the approval boundary in cursor-team-kit’s PR cleanup skill",
+          "updated_at": "2026-11-24T16:09:38Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 0,
+          "html_url": "https://github.com/cursor/plugins/issues/1333"
+        },
+        {
+          "number": 1184,
+          "title": "Add timeline media upload capability to the X plugin",
+          "updated_at": "2026-11-24T15:16:12Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 1,
+          "html_url": "https://github.com/cursor/plugins/issues/1184"
+        },
+        {
+          "number": 1332,
+          "title": "fix(pstack): make /setup-pstack typed-only like the other skills",
+          "updated_at": "2026-11-24T14:02:57Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/cursor/plugins/pull/1332"
+        },
+        {
+          "number": 1095,
+          "title": "Add RegDataLab plugin",
+          "updated_at": "2026-11-24T13:58:46Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/cursor/plugins/pull/1095"
+        },
+        {
+          "number": 561,
+          "title": "Add Kling by Ace Data Cloud to the third-party plugin catalog",
+          "updated_at": "2026-11-24T11:48:08Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 5,
+          "html_url": "https://github.com/cursor/plugins/pull/561"
+        },
+        {
+          "number": 562,
+          "title": "Add Nano Banana by Ace Data Cloud plugin",
+          "updated_at": "2026-11-24T11:42:38Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/cursor/plugins/pull/562"
+        },
+        {
+          "number": 552,
+          "title": "Add Happy Horse by Ace Data Cloud plugin",
+          "updated_at": "2026-11-24T11:42:21Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/cursor/plugins/pull/552"
+        },
+        {
+          "number": 549,
+          "title": "Add Seedance by Ace Data Cloud plugin",
+          "updated_at": "2026-11-24T11:42:09Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/cursor/plugins/pull/549"
+        },
+        {
+          "number": 548,
+          "title": "Add GPT Image by Ace Data Cloud plugin",
+          "updated_at": "2026-11-24T11:41:52Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/cursor/plugins/pull/548"
+        },
+        {
+          "number": 547,
+          "title": "Add Suno by Ace Data Cloud plugin",
+          "updated_at": "2026-11-24T11:41:36Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/cursor/plugins/pull/547"
+        }
+      ]
+    },
+    "firecrawl/firecrawl": {
+      "items": [
+        {
+          "number": 6026,
+          "title": "refactor(api): declare change-tracking, SIEM, threat-protection, DB, search-index, and MCP log env vars with defineEnv",
+          "updated_at": "2026-11-24T15:57:31Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6026"
+        },
+        {
+          "number": 6027,
+          "title": "refactor(api): register LLM providers on the service",
+          "updated_at": "2026-11-24T15:55:00Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6027"
+        },
+        {
+          "number": 6021,
+          "title": "chore(api): upgrade pdf-parse to 2.4.5 (#4050)",
+          "updated_at": "2026-11-24T15:55:00Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6021"
+        },
+        {
+          "number": 6025,
+          "title": "feat(api): soft-cap v2 scrape maxAge at 7 days",
+          "updated_at": "2026-11-24T15:48:08Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6025"
+        },
+        {
+          "number": 6023,
+          "title": "refactor(api): remove engpicker",
+          "updated_at": "2026-11-24T15:33:25Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6023"
+        },
+        {
+          "number": 6024,
+          "title": "perf(api): remove stale query_max_age lookup and root map double-query",
+          "updated_at": "2026-11-24T15:30:35Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6024"
+        },
+        {
+          "number": 6012,
+          "title": "refactor(api): register scrape engines and feature priorities on the service",
+          "updated_at": "2026-11-24T15:30:01Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6012"
+        },
+        {
+          "number": 6008,
+          "title": "refactor(api): declare worker and deterministic JSON env vars with defineEnv",
+          "updated_at": "2026-11-24T15:29:41Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6008"
+        },
+        {
+          "number": 5542,
+          "title": "feat(api): classify expected errors and record unhandled 500s on spans",
+          "updated_at": "2026-11-24T15:23:34Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/5542"
+        },
+        {
+          "number": 6009,
+          "title": "fix(api): keep error-serde free of config, database, and Redis imports",
+          "updated_at": "2026-11-24T15:21:01Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6009"
+        }
+      ]
+    },
+    "toeverything/AFFiNE": {
+      "items": [
+        {
+          "number": 15932,
+          "title": "fix(server): surface real doc_update errors instead of misleading not found",
+          "updated_at": "2026-11-24T16:06:25Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15932"
+        },
+        {
+          "number": 15933,
+          "title": "> This issue may have been opened accidentally. I'm going to close it now, but feel free to open a new issue with a more descriptive title! Make sure not to include full URLs in your issue titles, and use paths instead.",
+          "updated_at": "2026-11-24T16:01:30Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "comments": 1,
+          "html_url": "https://github.com/toeverything/AFFiNE/issues/15933"
+        },
+        {
+          "number": 15878,
+          "title": "fix(editor): allow moving row up in table",
+          "updated_at": "2026-11-24T14:35:55Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15878"
+        },
+        {
+          "number": 649,
+          "title": "test: add e2e test for validation of editor version",
+          "updated_at": "2026-11-24T14:20:35Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/649"
+        },
+        {
+          "number": 166,
+          "title": "Refactor/page tree styles",
+          "updated_at": "2026-11-24T14:20:34Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/166"
+        },
+        {
+          "number": 215,
+          "title": "fix:setTimeout error",
+          "updated_at": "2026-11-24T14:20:33Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/215"
+        },
+        {
+          "number": 303,
+          "title": "chore: v0.0.1-alpha.0.4.2",
+          "updated_at": "2026-11-24T14:20:31Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/303"
+        },
+        {
+          "number": 544,
+          "title": "Feat/demo page",
+          "updated_at": "2026-11-24T14:20:30Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/544"
+        },
+        {
+          "number": 1,
+          "title": "Feat/guideline",
+          "updated_at": "2026-11-24T14:20:29Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 4,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/1"
+        },
+        {
+          "number": 14559,
+          "title": "chore: bump up android.gradle.plugin to v9",
+          "updated_at": "2026-11-24T14:07:37Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/14559"
+        }
+      ]
+    },
+    "infiniflow/ragflow": {
+      "items": [
+        {
+          "number": 22187,
+          "title": "fix(ingestion): leave a task for redelivery while Infinity is starting",
+          "updated_at": "2026-11-24T16:12:00Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 17,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22187"
+        },
+        {
+          "number": 22181,
+          "title": "fix(dataset): prepare the chunk store when an empty dataset changes its embedding model",
+          "updated_at": "2026-11-24T16:05:10Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 41,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22181"
+        },
+        {
+          "number": 22559,
+          "title": "feat(ingestion): make the vision chat timeout configurable",
+          "updated_at": "2026-11-24T16:01:27Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 12,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22559"
+        },
+        {
+          "number": 22699,
+          "title": "fix(metafilter): keep NaN and Infinity filter values as strings",
+          "updated_at": "2026-11-24T15:28:14Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 3,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22699"
+        },
+        {
+          "number": 22749,
+          "title": "fix(chunker): decide the QA text delimiter the way the reference does",
+          "updated_at": "2026-11-24T14:21:30Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 2,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22749"
+        },
+        {
+          "number": 22716,
+          "title": "[Bug]: A metadata list with a non-string element keeps its combined values unsplit",
+          "updated_at": "2026-11-24T14:16:16Z",
+          "state": "closed",
+          "is_pull_request": false,
+          "comments": 1,
+          "html_url": "https://github.com/infiniflow/ragflow/issues/22716"
+        },
+        {
+          "number": 22748,
+          "title": "[Bug]: A quoted comma-separated Q&A text file produces no chunks",
+          "updated_at": "2026-11-24T14:14:11Z",
+          "state": "open",
+          "is_pull_request": false,
+          "comments": 0,
+          "html_url": "https://github.com/infiniflow/ragflow/issues/22748"
+        },
+        {
+          "number": 22723,
+          "title": "fix(build): make ONNX Runtime archive selection variant-aware",
+          "updated_at": "2026-11-24T12:42:00Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22723"
+        },
+        {
+          "number": 22740,
+          "title": "feat(ingestion): add one-screen progress summary with per-stage detail",
+          "updated_at": "2026-11-24T12:36:41Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22740"
+        },
+        {
+          "number": 22743,
+          "title": "fix(web): only underline doc citations that can be opened",
+          "updated_at": "2026-11-24T12:20:27Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/infiniflow/ragflow/pull/22743"
+        }
+      ]
+    },
+    "google-labs-code/stitch-skills": {
+      "items": [
+        {
+          "number": 113,
+          "title": "feat(extract-design-md): add optional live-URL input mode via Firecrawl branding",
+          "updated_at": "2026-11-24T14:12:32Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/113"
+        },
+        {
+          "number": 112,
+          "title": "fix(manage-design-system): resolve uploader script from plugin root or repo clone (#96) ",
+          "updated_at": "2026-11-23T18:49:37Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/112"
+        },
+        {
+          "number": 109,
+          "title": "docs: fix dead labs.google.com/stitch link in taste-design (#48)",
+          "updated_at": "2026-11-23T18:42:28Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/109"
+        },
+        {
+          "number": 108,
+          "title": "fix(extract-static-html): escape JSX output and preserve unitless styles",
+          "updated_at": "2026-11-23T18:40:03Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/108"
+        },
+        {
+          "number": 99,
+          "title": "احذف المكونات الإضافية/تصميم غرزة/مهارات/إدارة تصميم-نظام/أمثالات/ميت...",
+          "updated_at": "2026-11-23T18:32:54Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/99"
+        },
+        {
+          "number": 97,
+          "title": "fix: resolve the uploader from the installed Stitch plugin",
+          "updated_at": "2026-11-23T18:31:47Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97"
+        },
+        {
+          "number": 110,
+          "title": "docs: fix upload-to-stitch path so it works outside a repo checkout (#96)",
+          "updated_at": "2026-11-21T13:26:09Z",
+          "state": "open",
+          "is_pull_request": true,
+          "comments": 1,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/110"
+        },
+        {
+          "number": 105,
+          "title": "fix: recognize CSS-first Tailwind setups in verification",
+          "updated_at": "2026-11-20T18:08:02Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/105"
+        },
+        {
+          "number": 104,
+          "title": "fix: reject unsupported web tags in native components",
+          "updated_at": "2026-11-20T18:05:43Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/104"
+        },
+        {
+          "number": 103,
+          "title": "fix: validate hardcoded colors in className expressions",
+          "updated_at": "2026-11-20T18:03:24Z",
+          "state": "closed",
+          "is_pull_request": true,
+          "comments": 0,
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/103"
+        }
+      ]
+    }
+  }
+}
