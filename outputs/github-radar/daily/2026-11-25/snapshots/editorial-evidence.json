@@ -1,0 +1,784 @@
+[
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "metadata": {
+      "stargazers_count": 74877,
+      "pushed_at": "2026-11-25T06:31:14Z",
+      "open_issues_count": 31,
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "release": {
+      "tag_name": "v4.6.0",
+      "published_at": "2026-11-22T04:31:36Z",
+      "html_url": "https://github.com/mvanhorn/last30days-skill/releases/tag/v4.6.0",
+      "body": "## What's Changed\n* fix(comments): spend TikTok and Instagram comment calls on posts the report keeps by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1554\n* feat(tiktok): free top comments for every kept TikTok from the public comment endpoint by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1555\n* feat(library): silent multi-harness finished-brief capture and offline transcript harvest by @mvanhorn in https://github.com/mvanhorn/last30days-skill/pull/1556\n* feat(shortform): keyless TikTok/Instagram fallback via web discovery + yt-dlp by @grain-lu in https://github.com/mvanhorn/last30days-skill/pull/1533\n* chore(release): bump version to 4.6.0 by @github-actions[bot] in https://github.com/mvanhorn/last30days-skill/pull/1559\n\n## New Contributors\n* @grain-lu made their first contribution in https://github.com/mvanhorn/last30days-skill/pull/1533\n\n**Full Changelog**: https://github.com/mvanhorn/last30days-skill/compare/v4.5.0...v4.6.0"
+    },
+    "issues": [
+      {
+        "number": 1625,
+        "title": "fix(github): count open PRs correctly in person reports",
+        "state": "open",
+        "created_at": "2026-11-25T14:31:42Z",
+        "updated_at": "2026-11-25T14:33:50Z",
+        "comments": 1,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1625",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1625",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1625",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1625.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1625.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1624,
+        "title": "fix(watchlist): alert on first sightings per topic",
+        "state": "open",
+        "created_at": "2026-11-25T14:22:23Z",
+        "updated_at": "2026-11-25T14:24:58Z",
+        "comments": 1,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1624",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1624",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1624",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1624.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1624.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1565,
+        "title": "docs: document DeepSeek Harness as a supported host",
+        "state": "closed",
+        "created_at": "2026-11-22T22:16:59Z",
+        "updated_at": "2026-11-25T14:18:29Z",
+        "comments": 1,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1565",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1565",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1565",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1565.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1565.patch",
+          "merged_at": "2026-11-22T22:19:58Z"
+        }
+      },
+      {
+        "number": 1623,
+        "title": "Grok backend: signed-in audit pass gets a 404 and reports inconclusive, so a Grok plan login never works for X",
+        "state": "open",
+        "created_at": "2026-11-25T13:56:05Z",
+        "updated_at": "2026-11-25T13:56:05Z",
+        "comments": 0,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/issues/1623",
+        "pull_request": null
+      },
+      {
+        "number": 1553,
+        "title": "chore(release): bump version to 4.5.0",
+        "state": "closed",
+        "created_at": "2026-11-21T15:27:05Z",
+        "updated_at": "2026-11-25T12:05:57Z",
+        "comments": 1,
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1553",
+        "pull_request": {
+          "url": "https://api.github.com/repos/mvanhorn/last30days-skill/pulls/1553",
+          "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1553",
+          "diff_url": "https://github.com/mvanhorn/last30days-skill/pull/1553.diff",
+          "patch_url": "https://github.com/mvanhorn/last30days-skill/pull/1553.patch",
+          "merged_at": "2026-11-21T15:48:48Z"
+        }
+      }
+    ],
+    "readme_chars": 35478
+  },
+  {
+    "repo": "obra/superpowers",
+    "metadata": {
+      "stargazers_count": 326374,
+      "pushed_at": "2026-11-24T23:59:04Z",
+      "open_issues_count": 372,
+      "description": "An agentic skills framework & software development methodology that works.",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "release": {
+      "tag_name": "v7.0.2",
+      "published_at": "2026-11-03T22:17:54Z",
+      "html_url": "https://github.com/obra/superpowers/releases/tag/v7.0.2",
+      "body": "\nThis release further tunes brainstorming's questions. It asks fewer of them, starts by asking why, and when there's a choice to make it gives you options to pick from. It also fixes bootstrap problems on six harnesses, and makes the SDD and executing-plans helper scripts much harder to point at the wrong repository or the wrong task.\n\n### Brainstorming\n\n- **It asks a question only when the answer would change what gets built and nothing already answers it.** Otherwise it states its call as a proposal you can correct. It also stops asking about process: writing things up, where files go, whether to look further, and how to show you something are its own calls, and it tells you what it decided. (#2644)\n- **When you haven't said why you want something, that's the first thing it asks.** It asks openly, with no example answers to pick from. (#2644)\n- **When there's a choice it can name, it shows you the options with a recommendation.** In one of our test scenarios, where a spec gives Ctrl+K to two features, 7.0.1 found the conflict every time but asked a bare \"which one?\" in 8 of 8 runs. This release laid out the options and recommended one in 8 of 8. (#2644)\n- **It reads from how you talk whether you want to discuss the technical choices,** and when your request leaves nothing open, its first message is a short design for you to approve. (#2644)\n- In blind-graded test conversations, filler questions dropped from 41 with 7.0.1 to 23, the reason behind the request came out before any approach in 33 of 33 conversations (28 of 33 before), and nothing got built before approval (4 times before). Against 6.4.2's brainstorming in the same scenarios, it had fewer filler questions (23 against 34), drew out the why far more often (33 of 33 against 19 of 33), and matched it at building nothing before approval. (#2644)\n- **`start-server.sh --project-dir .` now works.** The script `cd`s into its own directory before starting the server, so every path it derived from a relative `--project-dir` pointed to the wrong place, and the server never started. It now resolves the directory first. Thanks @anchore-jesset for the report. (#2524, #2608)\n\nThanks to @mbcrawfo and everyone on #2530 who sent transcripts and tested 7.0.1. If brainstorming still asks you something it shouldn't, please tell us there, with what you asked and what it asked back.\n\n### Hooks\n\n- **Copilot on Windows now gets the bootstrap.** Copilot CLI and VS Code Copilot run hook commands through PowerShell, which rejected the SessionStart command with a ParserError. `hooks.json` now has a `powershell` form of the command. Thanks @ronpieper-engcp and @orty for the reports. (#2189, #1225, #2592)\n- **The SessionStart hook starts no child processes.** On Git Bash, each one costs tens of milliseconds, and the hook started six of them on every startup, `/clear` and compaction. Thanks @midirectiekade14-debug for the report and measurements. (#2081, #2593)\n- **On a Unix system without bash, `run-hook.cmd` falls back to zsh, or exits quietly.** It used to exit 127 with `bash: not found`, and the bootstrap was lost. (#2503, #2594)\n\n### Pi\n\n- **Every prompt now gets the bootstrap.** The extension turned the bootstrap off after the first prompt of a session, so every later prompt went without it. Because the first message of the request changed, Anthropic prompt caching also rewrote the whole conversation's cache on the second prompt. Over a day of sessions, @sjawhar measured 83% of first-to-second-prompt transitions rewriting the cache. Thanks @DKnight927 for the report. (#2083, #2595)\n- **The `skills` filter on the Superpowers package entry works.** The extension re-added the whole `skills/` directory after pi applied the filter, so `\"skills\": []` still loaded all 15 skills. Thanks @adrian-85 for the report and @m2dumpling for the fix. (#2394, #2402, #2598)\n\n### Hermes Agent\n\n- **`delegate_task` subagents no longer get the controller's bootstrap.** Every child started with an empty history, so each one looked like a new session and got the full bootstrap, and some started by loading `using-superpowers` instead of doing their task. Thanks @thealps01-netizen for the report. (#2536, #2596)\n\n### OpenCode\n\n- **The bootstrap tells the model to use bare skill ids.** OpenCode registers skills as `brainstorming`, not `superpowers:brainstorming`, so a model that copied the namespaced form from the bootstrap got \"skill not found\" and went on without the skill. Thanks @shiluoluo16 for the report. (#2583, #2597)\n- **A prompt that mentions `EXTREMELY_IMPORTANT` no longer turns the bootstrap off.** The plugin decided the bootstrap was already there if the first message contained that word, so asking \"is there an EXTREMELY_IMPORTANT block in your context?\" was enough to drop it. It now looks for the bootstrap's own first line. Thanks @Swift22 for the report. (#2197, #2600)\n- **OpenCode 2's compaction and generate requests carry the bootstrap.** Without it, the compaction request, the largest of the session, missed the prompt cache. Thanks @tpischke for the report and measurements. (#2391, #2601)\n\n### Muse\n\n- **The SessionStart hook now runs on Debian and Ubuntu.** Muse's manifest ran `hooks/session-start`, a bash script, with `sh`. Where `sh` is dash, the hook failed with exit 2 and the bootstrap never loaded. It now runs with `bash`. Thanks @rahul05ranjan for the report and @twotnguyen for the fix. (#2528, #2533)\n\n### Subagent-Driven Development and Executing Plans\n\n- **The helpers act on the repository of the current directory, as `git` does, and take `-C DIR` to point at another.** Outside a repository, `sdd-workspace` used to write its workspace into whatever directory the agent was in, often the plugin cache. All five helpers now stop with exit 2 and a message that tells your agent what to do. In a new project with no commits yet, your agent will need to run `git init` and make a first commit before it can start. `-C` also lets a controller review a worktree without a `cd … ;` prefix that Claude Code can't allowlist. Thanks @abat-kek, @rz1989s, and @jiyimeta for the reports. (#2429, #2242, #1799, #2606)\n- **The skills say to run the helpers by absolute path from your working tree.** They used to say \"from this skill's directory\", and agents that `cd`'d there ran the helpers against the plugin's own files. A test now fails if a skill names a helper by a relative path. Thanks @anchore-jesset for the report. (#2525, #2607)\n- **`task-brief` finds tasks with IDs like `A1`, `6b`, and `2.1`.** It used to reject letter-first IDs entirely, and asking for Task 6 also picked up Task 6b. When a plan's task headings aren't in English, it now says they must use the word \"Task\" and shows the headings it found. Thanks @rhuthik, @jnrod03-rgb, @christopherpconway, and @ferrous26 for the reports. (#2459, #2496, #2175, #2405, #2604)\n- **`task-brief` refuses a brief that an unclosed code fence ran to the end of the plan.** One missing closing fence hid every later task heading, and the reporter's 177-line task came back as a 1,159-line brief holding five tasks. Thanks @bobbykim89 for the report. (#2436, #2605)\n- **On Windows, the helpers print paths PowerShell can open.** They printed `/c/Users/…`, which PowerShell reads as `C:\\c\\Users\\…`. Thanks @sean-parent for the report. (#2307, #2602)\n\n### Systematic Debugging\n\n- **The skill no longer installs its own test scenarios.** `CREATION-LOG.md` and four pressure-test prompts, which open with \"This is a real scenario. You must choose and act\", installed next to `SKILL.md` and could be found by an agent mid-task. They now live under `tests/`, and a test keeps files like these out of every skill. Thanks @Caarles00 for the report. (#2277, #2654)\n\n### Maintenance\n\n- `scripts/package-codex-plugin.sh` and `scripts/sync-to-codex-plugin.sh` work from a linked git worktree. (#2609)\n\n"
+    },
+    "issues": [
+      {
+        "number": 2744,
+        "title": "fix(sdd,executing-plans): harden workspace claims, task-brief boundaries, review-package, and task-done",
+        "state": "open",
+        "created_at": "2026-11-24T21:27:46Z",
+        "updated_at": "2026-11-25T15:34:41Z",
+        "comments": 0,
+        "html_url": "https://github.com/obra/superpowers/pull/2744",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2744",
+          "html_url": "https://github.com/obra/superpowers/pull/2744",
+          "diff_url": "https://github.com/obra/superpowers/pull/2744.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2744.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2745,
+        "title": "fix(adapters): stabilize Pi bootstrap timestamp, fix session-start wording, and align harness tool mappings",
+        "state": "open",
+        "created_at": "2026-11-24T21:27:48Z",
+        "updated_at": "2026-11-25T15:34:38Z",
+        "comments": 0,
+        "html_url": "https://github.com/obra/superpowers/pull/2745",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2745",
+          "html_url": "https://github.com/obra/superpowers/pull/2745",
+          "diff_url": "https://github.com/obra/superpowers/pull/2745.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2745.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2733,
+        "title": "fix(pi): prevent bootstrap marker collision",
+        "state": "open",
+        "created_at": "2026-11-24T09:24:05Z",
+        "updated_at": "2026-11-25T12:51:27Z",
+        "comments": 1,
+        "html_url": "https://github.com/obra/superpowers/pull/2733",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2733",
+          "html_url": "https://github.com/obra/superpowers/pull/2733",
+          "diff_url": "https://github.com/obra/superpowers/pull/2733.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2733.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 2034,
+        "title": "Subagent dispatches outside SDD have no model guidance, so they inherit the session model",
+        "state": "open",
+        "created_at": "2026-07-24T19:24:54Z",
+        "updated_at": "2026-11-25T11:51:56Z",
+        "comments": 3,
+        "html_url": "https://github.com/obra/superpowers/issues/2034",
+        "pull_request": null
+      },
+      {
+        "number": 2737,
+        "title": "fix(hooks): remove run-hook.cmd heredoc and support POSIX sh/ash in session-start",
+        "state": "open",
+        "created_at": "2026-11-24T21:25:28Z",
+        "updated_at": "2026-11-25T11:09:33Z",
+        "comments": 0,
+        "html_url": "https://github.com/obra/superpowers/pull/2737",
+        "pull_request": {
+          "url": "https://api.github.com/repos/obra/superpowers/pulls/2737",
+          "html_url": "https://github.com/obra/superpowers/pull/2737",
+          "diff_url": "https://github.com/obra/superpowers/pull/2737.diff",
+          "patch_url": "https://github.com/obra/superpowers/pull/2737.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_chars": 14835
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "metadata": {
+      "stargazers_count": 72723,
+      "pushed_at": "2026-11-25T04:53:00Z",
+      "open_issues_count": 38,
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "license": {
+        "key": "mit",
+        "name": "MIT License",
+        "spdx_id": "MIT",
+        "url": "https://api.github.com/licenses/mit",
+        "node_id": "MDc6TGljZW5zZTEz"
+      },
+      "archived": false
+    },
+    "release": {
+      "error": "GitHub API 404 for https"
+    },
+    "issues": [
+      {
+        "number": 523,
+        "title": "feat(type): add git graph for branch, merge and release flows",
+        "state": "closed",
+        "created_at": "2026-11-15T18:53:26Z",
+        "updated_at": "2026-11-25T15:24:22Z",
+        "comments": 8,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/523",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/523",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/523",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/523.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/523.patch",
+          "merged_at": "2026-11-23T03:56:38Z"
+        }
+      },
+      {
+        "number": 535,
+        "title": "fix(box-plot): ignore leaf-shape selectors when collecting paper-mask paints",
+        "state": "closed",
+        "created_at": "2026-11-20T15:08:44Z",
+        "updated_at": "2026-11-25T08:09:35Z",
+        "comments": 2,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/535",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/535",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/535",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/535.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/535.patch",
+          "merged_at": "2026-11-23T03:27:32Z"
+        }
+      },
+      {
+        "number": 534,
+        "title": "fix(box-plot): match sibling combinators against document elements",
+        "state": "closed",
+        "created_at": "2026-11-20T14:06:53Z",
+        "updated_at": "2026-11-25T07:33:55Z",
+        "comments": 3,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/534",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/534",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/534",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/534.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/534.patch",
+          "merged_at": "2026-11-25T04:52:32Z"
+        }
+      },
+      {
+        "number": 548,
+        "title": "fix: quadrant point order, DUR singular label, and three example/doc defects (#547)",
+        "state": "open",
+        "created_at": "2026-11-25T05:12:00Z",
+        "updated_at": "2026-11-25T05:31:15Z",
+        "comments": 2,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/548",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/548",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/548",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/548.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/548.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 541,
+        "title": "docs: record Windows installation verification and setup",
+        "state": "closed",
+        "created_at": "2026-11-24T22:20:24Z",
+        "updated_at": "2026-11-25T04:41:36Z",
+        "comments": 2,
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/541",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cathrynlavery/diagram-design/pulls/541",
+          "html_url": "https://github.com/cathrynlavery/diagram-design/pull/541",
+          "diff_url": "https://github.com/cathrynlavery/diagram-design/pull/541.diff",
+          "patch_url": "https://github.com/cathrynlavery/diagram-design/pull/541.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_chars": 57378
+  },
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "metadata": {
+      "stargazers_count": 65470,
+      "pushed_at": "2026-11-20T10:05:15Z",
+      "open_issues_count": 303,
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    "release": {
+      "tag_name": "v0.4.0",
+      "published_at": "2026-06-25T15:17:49Z",
+      "html_url": "https://github.com/HKUDS/CLI-Anything/releases/tag/v0.4.0",
+      "body": "## Highlights\n* **CLI-Matrix** — a new `cli-hub matrix` command family that turns curated, multi-CLI workflow \"matrices\" into one-shot, capability-driven installs. Discover with `cli-hub matrix list/search` and `cli-hub can <task>`, inspect with `matrix info/doctor`, verify capability coverage with `matrix preflight`, and provision an entire workflow with `matrix install` (recipes, scoped installs, dry-run, resume). Ships `cli-anything-hub` **0.4.0** to PyPI with `matrix.py` / `matrix_skill.py` and unified install/preflight/discover analytics.\n* **30 new CLIs** added across creative, productivity, dev, and data domains — including ArcGIS Pro, Calibre, Stata, SiYuan, Joplin, Rekordbox, OpenRefine, Tigris, Mailchimp, MiniMax (chat + TTS), OpenWebUI, EEZ Studio, NSLogger, JumpServer, UEAtelier & smithue (Unreal Editor), s&box, WaveTone, Ink/Stitch, 3MF, quietshrink, and more — plus new agent-skill adapters (Hermes, Reasonix).\n* **17 bug fixes** hardening existing harnesses — LibreOffice headless conversion (macOS), Zoom recording downloads, Obsidian search, Godot GDScript validation, Browser/DOMShell MCP 2.0.0 migration, n8n REPL, Sketch, Zotero, and more.\n* **4 security hardenings** — routing untrusted XML through `defusedxml`, owner-only token/config permissions, and restricting token-file resolution against arbitrary file access.\n* **Docs & i18n** — new German README (`README_DE.md`), expanded troubleshooting, and contributor-guide fixes.\n* **42 new contributors** joined this release. 🎉\n\n## What's Changed\n* Feature/cli matrix multi approach by @yuh-yang in https://github.com/HKUDS/CLI-Anything/pull/355\n* fix(browser): propagate --json flag to REPL subcommands by @fuleinist in https://github.com/HKUDS/CLI-Anything/pull/239\n* test(zoom): add credential permission regression tests by @marcelsafin in https://github.com/HKUDS/CLI-Anything/pull/231\n* feat: enhance Nsight Graphics analysis by @AiMiDi in https://github.com/HKUDS/CLI-Anything/pull/246\n* docs: add unknown-skill troubleshooting for Claude Code by @marcelsafin in https://github.com/HKUDS/CLI-Anything/pull/232\n* feat: add quietshrink harness — Apple Silicon screen recording compressor by @achiya-automation in https://github.com/HKUDS/CLI-Anything/pull/254\n* feat: add s&box CLI harness by @KarandeepSWranch in https://github.com/HKUDS/CLI-Anything/pull/251\n* fix(libreoffice): import existing office files by @yuh-yang in https://github.com/HKUDS/CLI-Anything/pull/264\n* Fix license badge: Apache 2.0 not MIT by @hllqkb in https://github.com/HKUDS/CLI-Anything/pull/267\n* feat(registry): add Stata CLI harness (standalone repo) by @LI-Meng420 in https://github.com/HKUDS/CLI-Anything/pull/266\n* feat: add Ink/Stitch CLI harness (standalone) by @bobbymarko in https://github.com/HKUDS/CLI-Anything/pull/270\n* refactor(openclaw-skill→macrocli): rename, complete backends, add recorder and visual anchor — layered macro runtime that turns GUI workflows into agent-callable CLI commands by @haorui-harry in https://github.com/HKUDS/CLI-Anything/pull/237\n* feat: add ve-twini to registry by @collectivewinca in https://github.com/HKUDS/CLI-Anything/pull/259\n* feat: add hacker-feeds-cli to registry by @collectivewinca in https://github.com/HKUDS/CLI-Anything/pull/260\n* feat: add DeployHQ CLI (dhq) to CLI-Hub registry by @MartaKar in https://github.com/HKUDS/CLI-Anything/pull/277\n* fix(zotero_http): default Content-Type for raw data + raise connector import timeouts by @stevenpi140 in https://github.com/HKUDS/CLI-Anything/pull/274\n* feat: add Mailchimp CLI harness by @iGodly in https://github.com/HKUDS/CLI-Anything/pull/275\n* feat: mature lldb agent harness by @AiMiDi in https://github.com/HKUDS/CLI-Anything/pull/245\n* Feat/add firefly iii cli by @joyous-coder in https://github.com/HKUDS/CLI-Anything/pull/241\n* feat: add NSLogger CLI harness by @bazinga8023 in https://github.com/HKUDS/CLI-Anything/pull/238\n* feat: improve Unreal Insights live analysis by @AiMiDi in https://github.com/HKUDS/CLI-Anything/pull/244\n* fix: avoid mutating registry entries by @hiSandog in https://github.com/HKUDS/CLI-Anything/pull/281\n* Update README.md by @chaohuang-ai in https://github.com/HKUDS/CLI-Anything/pull/285\n* Update README.md by @chaohuang-ai in https://github.com/HKUDS/CLI-Anything/pull/286\n* fix(zoom): download recordings from direct URL by @sjh9714 in https://github.com/HKUDS/CLI-Anything/pull/294\n* fix(n8n): drop bogus arg from print_banner call to unbreak REPL by @akhilesharora in https://github.com/HKUDS/CLI-Anything/pull/280\n* fix(obsidian): use vendor Content-Type for /search/ (DQL + JsonLogic) by @Mubashirrrr in https://github.com/HKUDS/CLI-Anything/pull/289\n* fix(libreoffice): harden headless conversion on macOS (#221) by @Mubashirrrr in https://github.com/HKUDS/CLI-Anything/pull/290\n* fix(security): route untrusted XML parsing through defusedxml by @aaronjmars in https://github.com/HKUDS/CLI-Anything/pull/296\n* Add UEAtelier — Unreal Editor 5.6/5.7 MCP self-extension workbench by @edwinmeng163-oss in https://github.com/HKUDS/CLI-Anything/pull/297\n* feat: add 3MF mesh geometry editor CLI by @Gituheart in https://github.com/HKUDS/CLI-Anything/pull/209\n* feat: add MiniMax CLI harness (chat + TTS) by @octo-patch in https://github.com/HKUDS/CLI-Anything/pull/189\n* feat: add Calibre CLI harness for e-book library management by @OGRLEAF in https://github.com/HKUDS/CLI-Anything/pull/223\n* Add cli-anything-rekordbox: Pioneer Rekordbox 6/7 harness by @Moonwolf711 in https://github.com/HKUDS/CLI-Anything/pull/252\n* feat(Joplin): add a CLI-Anything harness for Joplin by @27494539a-hub in https://github.com/HKUDS/CLI-Anything/pull/300\n* fix(sketch): restrict token file resolution to prevent arbitrary file access by @RinZ27 in https://github.com/HKUDS/CLI-Anything/pull/304\n* feat: add obsidian-agent-cli to public registry by @ProxyLandLLC in https://github.com/HKUDS/CLI-Anything/pull/307\n* fix: support python pip module installs in registry dates by @hiSandog in https://github.com/HKUDS/CLI-Anything/pull/312\n* registry: add ArcGIS Pro harness (cli-anything-arcgis-pro) by @Jasper0122 in https://github.com/HKUDS/CLI-Anything/pull/318\n* feat: add Hermes Agent skill for CLI-Anything by @leockl in https://github.com/HKUDS/CLI-Anything/pull/320\n* feat: add Hermes Agent skill for CLI-Anything by @ligl0325 in https://github.com/HKUDS/CLI-Anything/pull/287\n* demos: add ArcGIS Pro live-bridge demo (registered arcgis-pro harness) by @Jasper0122 in https://github.com/HKUDS/CLI-Anything/pull/325\n* docs: add German translation (README_DE.md) and update language switchers by @flitzrrr in https://github.com/HKUDS/CLI-Anything/pull/291\n* feat: upgrade cli-anything-minimax default model to MiniMax-M3 by @octo-patch in https://github.com/HKUDS/CLI-Anything/pull/326\n* docs(readme): add Hermes Agent skill to platform list by @leockl in https://github.com/HKUDS/CLI-Anything/pull/322\n* fix(godot): detect GDScript parse errors via stderr in validate_script by @Rubiadragon in https://github.com/HKUDS/CLI-Anything/pull/335\n* feat: add CloakBrowser CLI to public registry by @dreamor in https://github.com/HKUDS/CLI-Anything/pull/336\n* Fix skill generator Click name parsing by @hiSandog in https://github.com/HKUDS/CLI-Anything/pull/321\n* fix(browser): migrate DOMShell MCP integration to @apireno/domshell 2.0.0 by @apireno in https://github.com/HKUDS/CLI-Anything/pull/308\n* fix: vendor full methodology resources for Codex skill by @Liuyaguangzz in https://github.com/HKUDS/CLI-Anything/pull/332\n* feat: add WaveTone CLI harness by @Manifold68575 in https://github.com/HKUDS/CLI-Anything/pull/337\n* feat: add OpenWebUI CLI registry entry by @ashaiful in https://github.com/HKUDS/CLI-Anything/pull/341\n* feat: add Web Yu-pri CLI harness by @shinpei710 in https://github.com/HKUDS/CLI-Anything/pull/345\n* feat: add Reasonix agent skill adapter by @PaysNatal in https://github.com/HKUDS/CLI-Anything/pull/344\n* feat: add SiYuan CLI (cli-anything-siyuan) by @hito0512 in https://github.com/HKUDS/CLI-Anything/pull/311\n* feat: add smithue-cli (Unreal Engine editor CLI) by @123dx-svg in https://github.com/HKUDS/CLI-Anything/pull/338\n* feat: add CC Switch CLI harness by @computersniper in https://github.com/HKUDS/CLI-Anything/pull/310\n* feat: add Tigris CLI harness for S3-compatible object storage by @davidmyriel in https://github.com/HKUDS/CLI-Anything/pull/301\n* [Live2D] Add editing, linting, batch ops, and workflow commands (v0.3.0) by @zyzly0705 in https://github.com/HKUDS/CLI-Anything/pull/313\n* feat: add EEZ Studio CLI harness by @yuh-yang in https://github.com/HKUDS/CLI-Anything/pull/334\n* feat: add cli-anything-jumpserver v0.1.0 harness by @Ayasaz in https://github.com/HKUDS/CLI-Anything/pull/346\n* feat: add OpenRefine CLI harness by @yuh-yang in https://github.com/HKUDS/CLI-Anything/pull/347\n* feat: add TinyFish Web Agent CLI (standalone repo) by @webdevtodayjason in https://github.com/HKUDS/CLI-Anything/pull/348\n* Skip pip option values in registry date updater by @hiSandog in https://github.com/HKUDS/CLI-Anything/pull/354\n* fix: classify harness docs as documentation by @hiSandog in https://github.com/HKUDS/CLI-Anything/pull/349\n* test: add regression tests for Live2D review blockers by @zyzly0705 in https://github.com/HKUDS/CLI-Anything/pull/350\n\n## New Contributors\n* @fuleinist made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/239\n* @marcelsafin made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/231\n* @KarandeepSWranch made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/251\n* @hllqkb made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/267\n* @LI-Meng420 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/266\n* @bobbymarko made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/270\n* @collectivewinca made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/259\n* @MartaKar made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/277\n* @stevenpi140 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/274\n* @iGodly made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/275\n* @joyous-coder made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/241\n* @bazinga8023 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/238\n* @chaohuang-ai made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/285\n* @sjh9714 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/294\n* @akhilesharora made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/280\n* @Mubashirrrr made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/289\n* @aaronjmars made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/296\n* @edwinmeng163-oss made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/297\n* @Gituheart made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/209\n* @OGRLEAF made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/223\n* @Moonwolf711 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/252\n* @27494539a-hub made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/300\n* @RinZ27 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/304\n* @ProxyLandLLC made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/307\n* @Jasper0122 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/318\n* @leockl made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/320\n* @ligl0325 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/287\n* @flitzrrr made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/291\n* @Rubiadragon made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/335\n* @dreamor made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/336\n* @Liuyaguangzz made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/332\n* @Manifold68575 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/337\n* @ashaiful made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/341\n* @shinpei710 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/345\n* @PaysNatal made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/344\n* @hito0512 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/311\n* @123dx-svg made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/338\n* @computersniper made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/310\n* @davidmyriel made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/301\n* @zyzly0705 made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/313\n* @Ayasaz made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/346\n* @webdevtodayjason made their first contribution in https://github.com/HKUDS/CLI-Anything/pull/348\n\n**Full Changelog**: https://github.com/HKUDS/CLI-Anything/compare/v0.3.0...v0.4.0\n"
+    },
+    "issues": [
+      {
+        "number": 715,
+        "title": "feat: add Unity Editor CLI harness",
+        "state": "open",
+        "created_at": "2026-11-25T14:31:03Z",
+        "updated_at": "2026-11-25T14:39:18Z",
+        "comments": 1,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/715",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/715",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/715",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/715.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/715.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 649,
+        "title": "feat: add Alexa harness for controlling Amazon Echo devices",
+        "state": "open",
+        "created_at": "2026-11-18T16:38:15Z",
+        "updated_at": "2026-11-25T11:31:32Z",
+        "comments": 1,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/649",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/649",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/649",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/649.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/649.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 714,
+        "title": "fix(libreoffice): declare OpenFormula namespace and normalize formulas so Calc formulas evaluate",
+        "state": "open",
+        "created_at": "2026-11-25T11:20:26Z",
+        "updated_at": "2026-11-25T11:21:50Z",
+        "comments": 1,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/714",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/714",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/714",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/714.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/714.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 713,
+        "title": "feat: add mayx-cli (Mayx's Blog terminal reader) to public registry",
+        "state": "open",
+        "created_at": "2026-11-25T11:16:01Z",
+        "updated_at": "2026-11-25T11:17:39Z",
+        "comments": 1,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/713",
+        "pull_request": {
+          "url": "https://api.github.com/repos/HKUDS/CLI-Anything/pulls/713",
+          "html_url": "https://github.com/HKUDS/CLI-Anything/pull/713",
+          "diff_url": "https://github.com/HKUDS/CLI-Anything/pull/713.diff",
+          "patch_url": "https://github.com/HKUDS/CLI-Anything/pull/713.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 712,
+        "title": "libreoffice: Calc formulas written to .ods never evaluate in LibreOffice (Err:509 / Err:510)",
+        "state": "open",
+        "created_at": "2026-11-25T11:14:16Z",
+        "updated_at": "2026-11-25T11:14:16Z",
+        "comments": 0,
+        "html_url": "https://github.com/HKUDS/CLI-Anything/issues/712",
+        "pull_request": null
+      }
+    ],
+    "readme_chars": 80335
+  },
+  {
+    "repo": "cursor/plugins",
+    "metadata": {
+      "stargazers_count": 19462,
+      "pushed_at": "2026-11-24T23:17:05Z",
+      "open_issues_count": 700,
+      "description": "Cursor plugin specification and official plugins",
+      "license": null,
+      "archived": false
+    },
+    "release": {
+      "error": "GitHub API 404 for https"
+    },
+    "issues": [
+      {
+        "number": 1342,
+        "title": "Skill authoring audit: suggested fixes for 1 skill",
+        "state": "open",
+        "created_at": "2026-11-25T11:45:10Z",
+        "updated_at": "2026-11-25T11:45:10Z",
+        "comments": 0,
+        "html_url": "https://github.com/cursor/plugins/issues/1342",
+        "pull_request": null
+      },
+      {
+        "number": 1338,
+        "title": "statechart scripts: process cleanup, edge labels, and SANY error paths",
+        "state": "open",
+        "created_at": "2026-11-25T00:20:12Z",
+        "updated_at": "2026-11-25T11:07:52Z",
+        "comments": 1,
+        "html_url": "https://github.com/cursor/plugins/issues/1338",
+        "pull_request": null
+      },
+      {
+        "number": 1341,
+        "title": "Exercise the approval boundary in cursor-team-kit's PR cleanup skill",
+        "state": "open",
+        "created_at": "2026-11-25T07:43:27Z",
+        "updated_at": "2026-11-25T07:43:27Z",
+        "comments": 0,
+        "html_url": "https://github.com/cursor/plugins/pull/1341",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cursor/plugins/pulls/1341",
+          "html_url": "https://github.com/cursor/plugins/pull/1341",
+          "diff_url": "https://github.com/cursor/plugins/pull/1341.diff",
+          "patch_url": "https://github.com/cursor/plugins/pull/1341.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1340,
+        "title": "Fix statechart process cleanup and resource handling",
+        "state": "open",
+        "created_at": "2026-11-25T07:36:05Z",
+        "updated_at": "2026-11-25T07:36:05Z",
+        "comments": 0,
+        "html_url": "https://github.com/cursor/plugins/pull/1340",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cursor/plugins/pulls/1340",
+          "html_url": "https://github.com/cursor/plugins/pull/1340",
+          "diff_url": "https://github.com/cursor/plugins/pull/1340.diff",
+          "patch_url": "https://github.com/cursor/plugins/pull/1340.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 1339,
+        "title": "Pstack rakazo venice",
+        "state": "closed",
+        "created_at": "2026-11-25T06:50:40Z",
+        "updated_at": "2026-11-25T06:51:22Z",
+        "comments": 0,
+        "html_url": "https://github.com/cursor/plugins/pull/1339",
+        "pull_request": {
+          "url": "https://api.github.com/repos/cursor/plugins/pulls/1339",
+          "html_url": "https://github.com/cursor/plugins/pull/1339",
+          "diff_url": "https://github.com/cursor/plugins/pull/1339.diff",
+          "patch_url": "https://github.com/cursor/plugins/pull/1339.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_chars": 26293
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "metadata": {
+      "stargazers_count": 78311,
+      "pushed_at": "2026-11-25T15:50:54Z",
+      "open_issues_count": 660,
+      "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use. ",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "archived": false
+    },
+    "release": {
+      "tag_name": "v0.27.4",
+      "published_at": "2026-08-18T16:51:39Z",
+      "html_url": "https://github.com/toeverything/AFFiNE/releases/tag/v0.27.4",
+      "body": "<img width=\"960\" height=\"504\" alt=\"1\" src=\"https://github.com/user-attachments/assets/77a95b3f-c04f-4c1a-85fb-a6d1eb9de3c0\" />\r\n\r\n## What's new\r\n\r\n### Web & Editor\r\n\r\n- Improve byok model editing\r\n- Fix code block line number trigger\r\n- Fix journal can see trashed docs\r\n\r\n### Native Client\r\n\r\n- Improve OnoNote importor\r\n- Mac client can hide the tray icon after the window is closed\r\n- Fix Android client keyboard compatibility\r\n\r\n### Backend\r\n\r\n- Add support for GPT 5.6/Gemini 3.7\r\n- Improve stability for long records\r\n- Fix high memory usage during server-side GC\r\n\r\n## Breaking change\r\n\r\nStarting from client version 0.27, only server at version 0.27 or higher are supported to connect and sync.\r\n\r\nStarting from server version 0.27, only clients at version 0.26 or higher are supported to connect and sync.\r\n\r\nStarting from server version 0.27, environment variables are no longer the server’s preferred source for reading configuration, and some environment variables are no longer available. Please refer to https://docs.affine.pro/self-host-affine/install/configuration to migrate the configuration to `config.json`.\r\n\r\nThe BYOK feature is in an experimental stage and may need to be reconfigured when upgrading versions."
+    },
+    "issues": [
+      {
+        "number": 15667,
+        "title": "feat(core): add doc breadcrumb for linked docs",
+        "state": "open",
+        "created_at": "2026-10-04T10:04:27Z",
+        "updated_at": "2026-11-25T15:42:06Z",
+        "comments": 3,
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15667",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/15667",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15667",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/15667.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/15667.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 15861,
+        "title": "[Bug]: Mermaid flowchart text labels are not rendered; only empty diagram boxes are visible",
+        "state": "open",
+        "created_at": "2026-11-16T15:06:37Z",
+        "updated_at": "2026-11-25T12:32:58Z",
+        "comments": 3,
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15861",
+        "pull_request": null
+      },
+      {
+        "number": 15940,
+        "title": "fix(editor): handle document history shortcuts in database row modals",
+        "state": "closed",
+        "created_at": "2026-11-25T08:56:20Z",
+        "updated_at": "2026-11-25T09:05:46Z",
+        "comments": 3,
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15940",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/15940",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15940",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/15940.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/15940.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 15939,
+        "title": "fix(core): respect page width on public document shares",
+        "state": "closed",
+        "created_at": "2026-11-25T08:56:17Z",
+        "updated_at": "2026-11-25T09:05:43Z",
+        "comments": 3,
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15939",
+        "pull_request": {
+          "url": "https://api.github.com/repos/toeverything/AFFiNE/pulls/15939",
+          "html_url": "https://github.com/toeverything/AFFiNE/pull/15939",
+          "diff_url": "https://github.com/toeverything/AFFiNE/pull/15939.diff",
+          "patch_url": "https://github.com/toeverything/AFFiNE/pull/15939.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 15921,
+        "title": "[Bug]: Automatic Text Changing, when I don't want to",
+        "state": "open",
+        "created_at": "2026-11-23T10:39:44Z",
+        "updated_at": "2026-11-25T06:59:52Z",
+        "comments": 3,
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15921",
+        "pull_request": null
+      }
+    ],
+    "readme_chars": 16189
+  },
+  {
+    "repo": "firecrawl/firecrawl",
+    "metadata": {
+      "stargazers_count": 209699,
+      "pushed_at": "2026-11-25T13:29:58Z",
+      "open_issues_count": 922,
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+      "license": {
+        "key": "agpl-3.0",
+        "name": "GNU Affero General Public License v3.0",
+        "spdx_id": "AGPL-3.0",
+        "url": "https://api.github.com/licenses/agpl-3.0",
+        "node_id": "MDc6TGljZW5zZTE="
+      },
+      "archived": false
+    },
+    "release": {
+      "tag_name": "v2.11.0",
+      "published_at": "2026-06-19T15:09:30Z",
+      "html_url": "https://github.com/firecrawl/firecrawl/releases/tag/v2.11.0",
+      "body": "# Firecrawl v2.11.0\r\n \r\n## Improvements\r\n \r\n- **Firecrawl Research Index** — Added a specialized index for agentic AI/ML research: search across 3M+ arXiv papers and the GitHub code behind them (issues, merged PRs, and READMEs, refreshed daily), fetch a paper's details or related work, and check claims against full text. It has state-of-the-art recall on arXivQA, outperforming the next best provider by 18% at comparable cost. Available via the API, SDKs, MCP, and CLI.\r\n- **Keyless access for core endpoints** — Use `/scrape`, `/search`, `/interact`, and `/parse` without an API key from official MCP, CLI, and SDK clients.\r\n- **Automatic PII redaction** — Added a `redactPII` option that strips personal and sensitive data like names, emails, phone numbers, addresses, and secrets out of scraped content before it's returned.\r\n- **`deterministicJson` format** — Added a format that returns structured JSON without running an LLM on every request. Firecrawl generates a reusable extractor for your schema and caches it per site, so repeat scrapes are cheaper and return consistent results.\r\n- **Video discovery on any page** — Expanded the `video` format to find videos on any page, not just supported providers like YouTube, returning each video's URL, title, thumbnail, duration, and more.\r\n- **Attach your own browser automation** — Added a CDP WebSocket URL (`cdpUrl`) to browser session responses, so you can drive a live Firecrawl browser session directly with Playwright, Puppeteer, or any other CDP client.\r\n- **Smarter monitor alerts** — Added a `goal` to monitors so an LLM judges each detected change as meaningful or noise against what you actually care about, cutting alert spam and surfacing the changes that matter first in summary emails.\r\n- **Field-level JSON diffs for monitors** — Monitors that scrape in JSON mode now compare the actual field values between runs instead of the rendered page, so you see exactly which fields changed rather than noise from layout shifts.\r\n- **Monitor email confirmation** — Added an opt-in confirmation flow with one-click unsubscribe for external monitor recipients; team members are auto-confirmed, and `Monitor` responses now report each recipient's subscription status.\r\n- **AM/PM monitor schedules** — Added support for 12-hour schedule inputs like `daily at 9am` and `daily at 5:30pm`, converted to the correct UTC cron expression.\r\n- **Monitor webhook delivery status** — Added delivery status to each monitor check, so you can see whether its webhook was attempted, delivered, or failed — and why.\r\n- **Steadier monitor checks** — Monitors now wait for pages to finish rendering before diffing, cutting false alerts caused by partially-loaded pages.\r\n- **PDF size cap** — Raised the PDF download and scrape size cap from 30 MB to 50 MB.\r\n- **Python SDK `crawl()` scrape kwargs** — Added direct scrape kwargs (`formats`, `headers`, `include_tags`, `exclude_tags`, etc.) to `crawl()` and `start_crawl()`, removing the need to wrap them in `ScrapeOptions(...)`.\r\n- **Clearer `.data` errors** — Improved the error raised when accessing `.data` on a search result to point at `.web`, `.news`, and `.images` with their counts, instead of returning a silent `None`.\r\n- **Python format defaults** — Removed the required `type=` argument on `JsonFormat` and `ChangeTrackingFormat`, defaulting it like `ScreenshotFormat`.\r\n- **`ChangeTrackingFormat` casing** — Added acceptance of both `change_tracking` and `changeTracking` for the format `type` so payloads round-trip between snake_case and camelCase clients.\r\n## Fixes\r\n \r\n- Resolved security advisories across the API and SDKs by upgrading `axios`, `esbuild`, `ws`, `openssl`, and other dependencies.\r\n- Fixed scrape workers stalling for tens of seconds on very large LLM-extractor inputs, which previously caused dropped jobs and worker restarts.\r\n- Fixed Wikipedia scrapes missing `metadata.ogImage` on roughly half of Wikimedia URLs.\r\n- Fixed crawl and batch cancellation not draining the per-team concurrency backlog and reporting stale state; queued jobs are now removed and `status` reports `cancelled` immediately.\r\n- Fixed monitor checks being charged when the credit lock was denied; denied locks now mark the check `skipped_no_credits` and stop the run.\r\n- Fixed JSON-mode monitor diffs returning spurious `changed` verdicts when field values were identical but reordered; diffs now use order-insensitive equality.\r\n- Fixed JSON-mode monitors treating an empty-string scrape as missing input and reporting `changed` on every run.\r\n- Fixed monitor webhooks being dispatched twice for the same check.\r\n- Fixed monitor webhooks being dropped as malformed by wrapping `monitor.page` and `monitor.check.completed` payloads in an array to match the crawl/batch shape.\r\n- Fixed the monitor judge fabricating before/after text and losing context on long pages; it now receives the full unified diff as its only evidence.\r\n- Fixed corrupt or unexpected stored artifacts breaking `GET /v2/monitor/:id/checks/:checkId`; bad data now surfaces as no diff.\r\n- Fixed HTML tables losing their header row when the first row used `td` cells; the markdown converter now promotes it to a header so column labels survive into `document.markdown`.\r\n- Fixed the PDF size cap being bypassed on certain scrape paths so oversized PDFs are now rejected consistently.\r\n- Fixed `ChangeTrackingFormat` options (`modes`, `prompt`, and related fields) being dropped through Python SDK serialization round-trips.\r\n## API\r\n \r\n- Replaced the experimental `pii` format with `redactPII` (`boolean` or `{ mode?, entities?, replaceStyle? }`) on `POST /v2/scrape`, `/v2/batch/scrape`, `/v2/crawl`, `/v2/parse`, and `/v2/extract`; when enabled, `document.markdown` returns redacted text (defaults `mode: \"accurate\"`, `replaceStyle: \"tag\"`). The old `pii` format and `document.pii` block are removed, and requests including `\"pii\"` in `formats` are now rejected.\r\n- Added the `deterministicJson` format (`{ type: \"deterministicJson\", schema?, prompt? }`) to `POST /v2/scrape`, `/v2/batch/scrape`, `/v2/crawl`, `/v2/parse`, and `/v2/extract`, populating `document.json`. Cannot be combined with the `json` format.\r\n- Added `document.videos: VideoItem[]` (with `url`, `sourceURL`, `source`, and optional `title`, `thumbnail`, `duration`, dimensions, and more) to `POST /v2/scrape` and the endpoints sharing its options when the `video` format is requested. The legacy `document.video` string remains for supported providers.\r\n- Added `createdAt`, `completedAt`, and `duration` (seconds) to `GET /v2/crawl/{id}` and `GET /v2/batch/scrape/{id}`; `completedAt` is present only on terminal states.\r\n- Added the `/v2/search/research` proxy — `GET /v2/search/research/papers`, `/papers/:id`, `/papers/:id/similar`, and `/github` — billed against `SEARCH_CREDITS` at 2 credits per 10 results (10 per 10 for ZDR teams). The legacy `/v2/research/*` mount is kept as a deprecated alias.\r\n- Added `POST`/`GET /interact`, `POST /interact/:sessionId/execute`, and `DELETE /interact/:sessionId` as full aliases for the `/v2/browser` session endpoints; behavior, rate limits, and the 2-credit session-create charge are identical.\r\n- Added `cdpUrl` (Python: `cdp_url`) to the `POST /v2/scrape/:jobId/interact` and `/v2/browser` execute responses, exposing the raw CDP WebSocket URL alongside the existing live-view URLs.\r\n- Added `POST /v2/feedback` covering search, scrape, parse, and map jobs with shared recording and refund logic; the legacy `POST /v2/search/:jobId/feedback` keeps working and writes to the same store.\r\n- Added keyless access to `POST /v2/parse`, matching scrape and search, and tightened keyless credit accounting so concurrent requests stay within the per-IP daily cap.\r\n- Added a `WWW-Authenticate: Bearer realm=\"firecrawl\"` header to all `401` responses across `/v0`, `/v1`, and `/v2` so agent clients can discover the credential scheme.\r\n- Added `searchZDR` values `\"forced-zdr\"` and `\"forced-anon\"` and deprecated `\"forced\"` (now an alias for `\"forced-zdr\"`); the resolved mode drives both billing and routing.\r\n- Added `goal` and `judgeEnabled` to `POST /v2/monitor` and `PATCH /v2/monitor/:id`; `judgeEnabled` defaults to `true` when `goal` is set, and `goal: null` clears it.\r\n- Added `judgment`, `meaningfulChange` (with a per-change `reason`), `meaningfulChanges[]`, a structured `diff` object (`text` and/or `json`), and a `snapshot` field to monitor check pages; JSON-mode checks return field-level diffs plus a current-value snapshot.\r\n- Added unauthenticated `POST /v2/monitor/email/confirm` and `POST /v2/monitor/email/unsubscribe` (token accepted in the request body only), plus an `emailRecipientSubscriptions` array on `Monitor` responses reporting each recipient's `email`, `status` (`pending`/`confirmed`/`unsubscribed`), `source`, and `confirmationEmailSent`.\r\n- Added `origin` to monitor create/update bodies, matching the other v2 endpoints.\r\n- Added stricter validation on `delay` for `POST /v2/crawl` and `POST /v1/crawl`; non-numeric, negative, or values over `86400` are now rejected with a schema error instead of being silently applied.\r\n- Added `include_domains` and `exclude_domains` to the Python SDK's sync `Firecrawl.search()`, matching the async client and the `/v2/search` payload.\r\n- Added V1-compatible method aliases (`scrape_url`/`scrapeUrl`, `crawl_url`/`crawlUrl`, `batch_scrape_urls`, `map_url`, etc.) on the V2 Python and JS clients; aliases emit a `DeprecationWarning`.\r\n- Changed the monitor webhook payload to wrap `data` in an array; `monitor.page` now includes `isMeaningful`, `judgment`, and a `diff` object.\r\n- Normalized monitor `scrapeOptions.formats` so `changeTracking` json mode is rewritten to `json`, and the mixed `[\"json\", \"git-diff\"]` form now runs both diffs instead of silently falling back to one.\r\n---\r\n \r\n**Full Changelog**: https://github.com/firecrawl/firecrawl/compare/v2.10...v2.11.0"
+    },
+    "issues": [
+      {
+        "number": 6071,
+        "title": "[Bug] ",
+        "state": "closed",
+        "created_at": "2026-11-25T14:46:15Z",
+        "updated_at": "2026-11-25T14:53:07Z",
+        "comments": 0,
+        "html_url": "https://github.com/firecrawl/firecrawl/issues/6071",
+        "pull_request": null
+      },
+      {
+        "number": 6070,
+        "title": "perf(native): drop non-main-content tags in one document walk",
+        "state": "open",
+        "created_at": "2026-11-25T14:43:17Z",
+        "updated_at": "2026-11-25T14:46:44Z",
+        "comments": 0,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/6070",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/6070",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6070",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/6070.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/6070.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 6058,
+        "title": "refactor(api): complete modular service architecture, env cleanup, and deployment switch removal [downstream-sync]",
+        "state": "open",
+        "created_at": "2026-11-24T21:55:09Z",
+        "updated_at": "2026-11-25T13:33:40Z",
+        "comments": 3,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/6058",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/6058",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6058",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/6058.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/6058.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 6068,
+        "title": "Rename deploy-image-staging.yml to deploy-photos-staging.yml",
+        "state": "closed",
+        "created_at": "2026-11-25T11:33:27Z",
+        "updated_at": "2026-11-25T12:44:09Z",
+        "comments": 0,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/6068",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/6068",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6068",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/6068.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/6068.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 6069,
+        "title": "REFRESH FINAL - gh pr checkout 6069",
+        "state": "closed",
+        "created_at": "2026-11-25T11:49:04Z",
+        "updated_at": "2026-11-25T12:42:55Z",
+        "comments": 0,
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/6069",
+        "pull_request": {
+          "url": "https://api.github.com/repos/firecrawl/firecrawl/pulls/6069",
+          "html_url": "https://github.com/firecrawl/firecrawl/pull/6069",
+          "diff_url": "https://github.com/firecrawl/firecrawl/pull/6069.diff",
+          "patch_url": "https://github.com/firecrawl/firecrawl/pull/6069.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_chars": 20868
+  },
+  {
+    "repo": "google-labs-code/stitch-skills",
+    "metadata": {
+      "stargazers_count": 12890,
+      "pushed_at": "2026-11-24T21:51:04Z",
+      "open_issues_count": 23,
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "license": {
+        "key": "apache-2.0",
+        "name": "Apache License 2.0",
+        "spdx_id": "Apache-2.0",
+        "url": "https://api.github.com/licenses/apache-2.0",
+        "node_id": "MDc6TGljZW5zZTI="
+      },
+      "archived": false
+    },
+    "release": {
+      "tag_name": "v1.0",
+      "published_at": "2026-05-18T18:02:32Z",
+      "html_url": "https://github.com/google-labs-code/stitch-skills/releases/tag/v1.0",
+      "body": "Major Launch for Stitch Skills plugins\r\n\r\n1. Features: new Skills added, including code-to-design, manage-design-system, extract-static-html, extract-design-md, upload-to-stitch\r\n2. Refactor: merge several design related skills to generate-design\r\n3. Reorg: structure all skills into three plugins: stitch-design, stitch-build, stitch-utilities"
+    },
+    "issues": [
+      {
+        "number": 59,
+        "title": "Launch Stitch Skills plugins",
+        "state": "closed",
+        "created_at": "2026-05-18T15:49:10Z",
+        "updated_at": "2026-11-25T12:45:58Z",
+        "comments": 0,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/59",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/59",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/59",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/59.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/59.patch",
+          "merged_at": "2026-05-18T17:59:47Z"
+        }
+      },
+      {
+        "number": 72,
+        "title": "Proposal to add HyperFrames by HeyGen into design-build",
+        "state": "open",
+        "created_at": "2026-06-18T05:34:27Z",
+        "updated_at": "2026-11-25T12:25:02Z",
+        "comments": 1,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/issues/72",
+        "pull_request": null
+      },
+      {
+        "number": 97,
+        "title": "fix: resolve the uploader from the installed Stitch plugin",
+        "state": "open",
+        "created_at": "2026-11-16T08:14:21Z",
+        "updated_at": "2026-11-25T06:15:57Z",
+        "comments": 1,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/97",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/97.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/97.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 102,
+        "title": "fix: resolve encoded and versioned local asset URLs",
+        "state": "open",
+        "created_at": "2026-11-20T02:22:33Z",
+        "updated_at": "2026-11-25T05:26:30Z",
+        "comments": 0,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/102",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/102",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/102",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/102.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/102.patch",
+          "merged_at": null
+        }
+      },
+      {
+        "number": 112,
+        "title": "fix(manage-design-system): resolve uploader script from plugin root or repo clone (#96) ",
+        "state": "open",
+        "created_at": "2026-11-23T06:57:38Z",
+        "updated_at": "2026-11-25T03:19:46Z",
+        "comments": 0,
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/112",
+        "pull_request": {
+          "url": "https://api.github.com/repos/google-labs-code/stitch-skills/pulls/112",
+          "html_url": "https://github.com/google-labs-code/stitch-skills/pull/112",
+          "diff_url": "https://github.com/google-labs-code/stitch-skills/pull/112.diff",
+          "patch_url": "https://github.com/google-labs-code/stitch-skills/pull/112.patch",
+          "merged_at": null
+        }
+      }
+    ],
+    "readme_chars": 11129
+  }
+]

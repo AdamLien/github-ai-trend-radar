@@ -1,0 +1,49 @@
+{
+  "basis": "人工檢查 metadata、README 摘要；只處理當日產物，不變更歷史資料或收集器。",
+  "excluded": [
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "reason": "README 是遊戲作弊工具，與描述中的 AI prompt engineering 不一致，缺少可信 AI／開發自動化用途。"
+    },
+    {
+      "repo": "InterceptSuite/ProxyBridge",
+      "reason": "一般網路代理工具，現有證據未顯示 AI 或開發自動化用途。"
+    },
+    {
+      "repo": "Open-Dev-Society/OpenStock",
+      "reason": "一般市場追蹤平台，現有證據未顯示本次 AI／agent 範圍。"
+    },
+    {
+      "repo": "armory3d/armorpaint",
+      "reason": "一般 3D 材質繪製工具，未見本次主題用途。"
+    },
+    {
+      "repo": "kiali/kiali",
+      "reason": "一般服務網格觀測管理工具，未見 AI／agent 或開發自動化用途。"
+    },
+    {
+      "repo": "llvm/llvm-project",
+      "reason": "一般編譯器基礎設施，未見本次 AI agent／開發自動化直接用途。"
+    },
+    {
+      "repo": "localsend/localsend",
+      "reason": "一般跨裝置檔案傳送工具。"
+    },
+    {
+      "repo": "megadose/holehe",
+      "reason": "一般電子郵件 OSINT 工具，未見本次 AI／agent 主題用途。"
+    },
+    {
+      "repo": "sngyai/Sequoia-X",
+      "reason": "技術規則選股與通知，現有證據未顯示 AI 或開發者自動化用途。"
+    },
+    {
+      "repo": "tailscale/tailcat",
+      "reason": "一般網路連線工具，未見本次 AI／agent 主題用途。"
+    },
+    {
+      "repo": "tldrsec/awesome-secure-defaults",
+      "reason": "一般安全函式庫清單，缺少本次 AI／agent 自動化直接關聯。"
+    }
+  ]
+}
