@@ -1,0 +1,442 @@
+{
+  "elementalsouls/Claude-BugHunter": {
+    "recent_issues_and_prs": [
+      {
+        "number": 270,
+        "title": "fix(scope): strip inline comments so CIDR deny rules cannot fail open",
+        "state": "open",
+        "updated_at": "2026-11-26T15:14:02Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/270",
+        "is_pr": true
+      },
+      {
+        "number": 237,
+        "title": "fix(mcp): configure UTF-8 stdio at import so harness helpers do not crash",
+        "state": "closed",
+        "updated_at": "2026-11-26T14:47:46Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/237",
+        "is_pr": true
+      },
+      {
+        "number": 263,
+        "title": "[bug] OpenAPI auth sweep sends requests to off-scope hosts when a spec path key changes the URL authority",
+        "state": "open",
+        "updated_at": "2026-11-26T12:11:49Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/263",
+        "is_pr": false
+      },
+      {
+        "number": 265,
+        "title": "[bug] cbh scope import: out-of-scope https://host/** stays in scope (treated as a path-level exclusion)",
+        "state": "open",
+        "updated_at": "2026-11-26T12:04:16Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/issues/265",
+        "is_pr": false
+      },
+      {
+        "number": 268,
+        "title": "fix(scripts): normalize .identifier-denylist.local entries like scanned shingles",
+        "state": "open",
+        "updated_at": "2026-11-26T11:47:54Z",
+        "html_url": "https://github.com/elementalsouls/Claude-BugHunter/pull/268",
+        "is_pr": true
+      }
+    ]
+  },
+  "HKUDS/CLI-Anything": {
+    "recent_issues_and_prs": [
+      {
+        "number": 738,
+        "title": "fix: comfyui queue clear uses POST /queue instead of DELETE",
+        "state": "open",
+        "updated_at": "2026-11-26T16:08:07Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/738",
+        "is_pr": true
+      },
+      {
+        "number": 737,
+        "title": "feat(cli-hub): add --json output option to cli-hub info (#732)",
+        "state": "open",
+        "updated_at": "2026-11-26T14:24:22Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/737",
+        "is_pr": true
+      },
+      {
+        "number": 736,
+        "title": "fix(libreoffice): name the Writer master page Standard so page settings apply",
+        "state": "open",
+        "updated_at": "2026-11-26T12:21:39Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/736",
+        "is_pr": true
+      },
+      {
+        "number": 715,
+        "title": "feat: add Unity Legacy CLI harness (unity-legacy-cli) for the Unity Editor",
+        "state": "open",
+        "updated_at": "2026-11-26T11:41:02Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/pull/715",
+        "is_pr": true
+      },
+      {
+        "number": 735,
+        "title": "libreoffice: Writer page size/margins from project settings are ignored — master page named \"Default\" instead of \"Standard\"",
+        "state": "open",
+        "updated_at": "2026-11-26T11:40:35Z",
+        "html_url": "https://github.com/HKUDS/CLI-Anything/issues/735",
+        "is_pr": false
+      }
+    ]
+  },
+  "firecrawl/firecrawl": {
+    "recent_issues_and_prs": [
+      {
+        "number": 6104,
+        "title": "fix(api): strip NUL characters from markdown and html",
+        "state": "open",
+        "updated_at": "2026-11-26T15:56:04Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/6104",
+        "is_pr": true
+      },
+      {
+        "number": 6107,
+        "title": "fix(api): fall back instead of shipping degenerate PDF extractions (#5759)",
+        "state": "open",
+        "updated_at": "2026-11-26T15:48:59Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/6107",
+        "is_pr": true
+      },
+      {
+        "number": 5907,
+        "title": "fix(api): fall back instead of shipping degenerate PDF extractions (#5759)",
+        "state": "closed",
+        "updated_at": "2026-11-26T15:45:29Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/pull/5907",
+        "is_pr": true
+      },
+      {
+        "number": 6106,
+        "title": "[Bug] ",
+        "state": "open",
+        "updated_at": "2026-11-26T12:01:03Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/issues/6106",
+        "is_pr": false
+      },
+      {
+        "number": 6015,
+        "title": "[Bug] checkPromptInjection false positive on cal.com: verdict cites \"Continue with Claude\" / \"Continue with ChatGPT\" link labels",
+        "state": "open",
+        "updated_at": "2026-11-26T12:00:04Z",
+        "html_url": "https://github.com/firecrawl/firecrawl/issues/6015",
+        "is_pr": false
+      }
+    ]
+  },
+  "cathrynlavery/diagram-design": {
+    "recent_issues_and_prs": [
+      {
+        "number": 550,
+        "title": "fix(mermaid-import): accept flowchart headers without a direction",
+        "state": "open",
+        "updated_at": "2026-11-26T15:55:19Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/550",
+        "is_pr": true
+      },
+      {
+        "number": 282,
+        "title": "fix(mermaid): isolate unselected blocks",
+        "state": "open",
+        "updated_at": "2026-11-26T14:54:42Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/282",
+        "is_pr": true
+      },
+      {
+        "number": 509,
+        "title": "fix(box-plot): refuse a bound label hidden by a stylesheet rule",
+        "state": "closed",
+        "updated_at": "2026-11-26T14:23:20Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/509",
+        "is_pr": true
+      },
+      {
+        "number": 549,
+        "title": "Add online bookstore architecture diagram",
+        "state": "open",
+        "updated_at": "2026-11-26T14:16:46Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/549",
+        "is_pr": true
+      },
+      {
+        "number": 520,
+        "title": "feat(packet): add packet structure diagram type",
+        "state": "open",
+        "updated_at": "2026-11-26T13:40:06Z",
+        "html_url": "https://github.com/cathrynlavery/diagram-design/pull/520",
+        "is_pr": true
+      }
+    ]
+  },
+  "mvanhorn/last30days-skill": {
+    "recent_issues_and_prs": [
+      {
+        "number": 1635,
+        "title": "feat(core): optional standalone Rust accelerator for CPU hotspots",
+        "state": "open",
+        "updated_at": "2026-11-26T16:10:46Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1635",
+        "is_pr": true
+      },
+      {
+        "number": 1513,
+        "title": "fix(skill): isolate Python helper commands",
+        "state": "closed",
+        "updated_at": "2026-11-26T14:48:18Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1513",
+        "is_pr": true
+      },
+      {
+        "number": 1636,
+        "title": "fix(grok): use session proxy for signed-in audit catalog",
+        "state": "open",
+        "updated_at": "2026-11-26T14:42:49Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1636",
+        "is_pr": true
+      },
+      {
+        "number": 1540,
+        "title": "docs(hermes): fix the 404 Hermes link in Support",
+        "state": "closed",
+        "updated_at": "2026-11-26T11:07:10Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1540",
+        "is_pr": true
+      },
+      {
+        "number": 1633,
+        "title": "feat: add V2EX as an opt-in keyless source",
+        "state": "open",
+        "updated_at": "2026-11-26T08:09:24Z",
+        "html_url": "https://github.com/mvanhorn/last30days-skill/pull/1633",
+        "is_pr": true
+      }
+    ]
+  },
+  "google-labs-code/stitch-skills": {
+    "recent_issues_and_prs": [
+      {
+        "number": 114,
+        "title": "fix: ensure destination dir exists in fetch-stitch and add upload-to-stitch CLI flag",
+        "state": "open",
+        "updated_at": "2026-11-25T20:46:36Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/114",
+        "is_pr": true
+      },
+      {
+        "number": 59,
+        "title": "Launch Stitch Skills plugins",
+        "state": "closed",
+        "updated_at": "2026-11-25T12:45:58Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/59",
+        "is_pr": true
+      },
+      {
+        "number": 72,
+        "title": "Proposal to add HyperFrames by HeyGen into design-build",
+        "state": "open",
+        "updated_at": "2026-11-25T12:25:02Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/issues/72",
+        "is_pr": false
+      },
+      {
+        "number": 97,
+        "title": "fix: resolve the uploader from the installed Stitch plugin",
+        "state": "open",
+        "updated_at": "2026-11-25T06:15:57Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/97",
+        "is_pr": true
+      },
+      {
+        "number": 102,
+        "title": "fix: resolve encoded and versioned local asset URLs",
+        "state": "open",
+        "updated_at": "2026-11-25T05:26:30Z",
+        "html_url": "https://github.com/google-labs-code/stitch-skills/pull/102",
+        "is_pr": true
+      }
+    ]
+  },
+  "toeverything/AFFiNE": {
+    "recent_issues_and_prs": [
+      {
+        "number": 13301,
+        "title": "[Feature Request]: [Mobile] Support Drawing on Canvas",
+        "state": "open",
+        "updated_at": "2026-11-26T15:16:36Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/13301",
+        "is_pr": false
+      },
+      {
+        "number": 15926,
+        "title": "[Feature Request]: Hungarian language support",
+        "state": "closed",
+        "updated_at": "2026-11-26T15:04:59Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15926",
+        "is_pr": false
+      },
+      {
+        "number": 15947,
+        "title": "feat(i18n): add Hungarian translation",
+        "state": "closed",
+        "updated_at": "2026-11-26T15:04:52Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15947",
+        "is_pr": true
+      },
+      {
+        "number": 15617,
+        "title": "[Bug]: Using the hand tool in edgeless mode causes selection to be lost",
+        "state": "closed",
+        "updated_at": "2026-11-26T14:04:55Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/issues/15617",
+        "is_pr": false
+      },
+      {
+        "number": 15946,
+        "title": "fix(editor): keep edgeless selection after middle-click pan",
+        "state": "closed",
+        "updated_at": "2026-11-26T14:04:49Z",
+        "html_url": "https://github.com/toeverything/AFFiNE/pull/15946",
+        "is_pr": true
+      }
+    ]
+  },
+  "zhouxiaoka/autoclip": {
+    "recent_issues_and_prs": [
+      {
+        "number": 705,
+        "title": "Video generation fails when clicking Generate videos (AutoClip v1.5.9 Windows)",
+        "state": "open",
+        "updated_at": "2026-11-26T15:43:47Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/issues/705",
+        "is_pr": false
+      },
+      {
+        "number": 655,
+        "title": "Ollama Provider Validation Fails in AutoClip Desktop v1.5.8",
+        "state": "open",
+        "updated_at": "2026-11-26T15:43:45Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/issues/655",
+        "is_pr": false
+      },
+      {
+        "number": 657,
+        "title": "Gemini provider fails with new \"AQ.\" API keys (AI Studio no longer issues AIza keys)",
+        "state": "open",
+        "updated_at": "2026-11-26T15:43:42Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/issues/657",
+        "is_pr": false
+      },
+      {
+        "number": 692,
+        "title": "deepseek-flash 官方已标注 Vision ✓，但 known_text_only 仍把 deepseek 一律判为纯文字",
+        "state": "open",
+        "updated_at": "2026-11-26T15:43:40Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/issues/692",
+        "is_pr": false
+      },
+      {
+        "number": 708,
+        "title": "[反馈] Hello AutoClip team, I am using AutoClip v1.5.9 on Windows x",
+        "state": "open",
+        "updated_at": "2026-11-26T15:43:33Z",
+        "html_url": "https://github.com/zhouxiaoka/autoclip/issues/708",
+        "is_pr": false
+      }
+    ]
+  },
+  "obra/superpowers": {
+    "recent_issues_and_prs": [
+      {
+        "number": 2744,
+        "title": "fix(sdd,executing-plans): harden workspace claims, task-brief boundaries, review-package, and task-done",
+        "state": "open",
+        "updated_at": "2026-11-26T11:34:31Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2744",
+        "is_pr": true
+      },
+      {
+        "number": 2743,
+        "title": "fix(diagnosing-superpowers): scrub issue comments, remove raw template paths, and guard transcript prompts",
+        "state": "open",
+        "updated_at": "2026-11-26T11:09:56Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2743",
+        "is_pr": true
+      },
+      {
+        "number": 2741,
+        "title": "fix(systematic-debugging): remove broken find-polluter.sh and fix reference examples",
+        "state": "open",
+        "updated_at": "2026-11-26T11:09:51Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2741",
+        "is_pr": true
+      },
+      {
+        "number": 2739,
+        "title": "fix(writing-plans): offer fresh-session handoff and fix task template citations",
+        "state": "open",
+        "updated_at": "2026-11-26T11:09:50Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2739",
+        "is_pr": true
+      },
+      {
+        "number": 2735,
+        "title": "Fix/session start copilot skill name",
+        "state": "open",
+        "updated_at": "2026-11-26T11:09:49Z",
+        "html_url": "https://github.com/obra/superpowers/pull/2735",
+        "is_pr": true
+      }
+    ]
+  },
+  "cursor/plugins": {
+    "recent_issues_and_prs": [
+      {
+        "number": 334,
+        "title": "pstack: maintain-verification-skill ends in a coverage table; add lint-skills.py",
+        "state": "closed",
+        "updated_at": "2026-11-26T13:55:58Z",
+        "html_url": "https://github.com/cursor/plugins/pull/334",
+        "is_pr": true
+      },
+      {
+        "number": 1351,
+        "title": "pstack: two spawns hardcode Opus outside the role table",
+        "state": "open",
+        "updated_at": "2026-11-26T13:36:50Z",
+        "html_url": "https://github.com/cursor/plugins/issues/1351",
+        "is_pr": false
+      },
+      {
+        "number": 1350,
+        "title": "fix(pstack): double-quote Mermaid flowchart labels in teach",
+        "state": "open",
+        "updated_at": "2026-11-26T12:28:55Z",
+        "html_url": "https://github.com/cursor/plugins/pull/1350",
+        "is_pr": true
+      },
+      {
+        "number": 1349,
+        "title": "feat(third_party): add the folk plugin",
+        "state": "closed",
+        "updated_at": "2026-11-26T09:04:54Z",
+        "html_url": "https://github.com/cursor/plugins/pull/1349",
+        "is_pr": true
+      },
+      {
+        "number": 1348,
+        "title": "fix(pstack): inherit role model for poteto-agent",
+        "state": "open",
+        "updated_at": "2026-11-26T03:42:45Z",
+        "html_url": "https://github.com/cursor/plugins/pull/1348",
+        "is_pr": true
+      }
+    ]
+  }
+}

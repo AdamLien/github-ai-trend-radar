@@ -1,0 +1,50 @@
+{
+  "target_date": "2026-11-26",
+  "observed_at": "2026-11-27T00:11:17.948840+08:00",
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limit_detected": false
+    }
+  ],
+  "rate_limit_encountered": false,
+  "collection_completed_at": "2026-11-27T00:23:35.988493+08:00",
+  "repos_collected": 442,
+  "metadata_fallbacks": [
+    {
+      "repo": "BarberNumber/Midjourney-Software",
+      "http_status": 404
+    },
+    {
+      "repo": "BrickOrioleLoad/aion-2-trainer-tool",
+      "http_status": 404
+    },
+    {
+      "repo": "HunYiSage/dsh-purge",
+      "http_status": 404
+    },
+    {
+      "repo": "YuJunZhiXue/dsh-purge",
+      "http_status": 404
+    },
+    {
+      "repo": "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+      "http_status": 404
+    },
+    {
+      "repo": "mingrath/obsidian-ai-knowledge-agent",
+      "http_status": 404
+    }
+  ],
+  "raw_collected_records": 458,
+  "retained_unique_repos": 437,
+  "canonical_duplicate_records_removed": 16,
+  "scope_exclusions": [
+    "InterceptSuite/ProxyBridge",
+    "dsherret/ts-morph",
+    "kiali/kiali",
+    "tldrsec/awesome-secure-defaults",
+    "xyflow/xyflow"
+  ]
+}
