@@ -1,0 +1,20 @@
+{
+  "target_date": "2026-11-27",
+  "observed_at": "2026-11-27T16:10:45.327578+00:00",
+  "rate_limit_detected": false,
+  "attempts": [
+    {
+      "limit": 10,
+      "exit_code": 0,
+      "rate_limited": false
+    }
+  ],
+  "stale_metadata_repos": [
+    "BarberNumber/Midjourney-Software",
+    "BrickOrioleLoad/aion-2-trainer-tool",
+    "HunYiSage/dsh-purge",
+    "YuJunZhiXue/dsh-purge",
+    "hanshaze/Awesome-Prediction-Market-Trading-Tools",
+    "mingrath/obsidian-ai-knowledge-agent"
+  ]
+}

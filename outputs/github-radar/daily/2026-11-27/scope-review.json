@@ -1,0 +1,26 @@
+{
+  "excluded_if_present": {
+    "ByteByteGoHq/system-design-101": "一般系統設計教材，未見 AI／agent 或開發自動化用途。",
+    "Open-Dev-Society/OpenStock": "一般市場資訊平台，非本次 AI 與開發自動化主題。",
+    "armory3d/armorpaint": "一般 3D 材質繪製工具，未見本次主題關聯。",
+    "llvm/llvm-project": "一般編譯器與工具鏈，本次未取得 AI／agent 自動化用途證據。",
+    "localsend/localsend": "一般檔案傳輸工具。",
+    "megadose/holehe": "一般帳號存在性檢查工具，本次未取得 AI／agent 關聯。",
+    "tailscale/tailcat": "一般網路連線工具，本次未取得 AI／agent 關聯。",
+    "sngyai/Sequoia-X": "股票技術型態掃描與通知，非 AI 或開發者自動化主題。",
+    "nginx/nginx": "一般網頁伺服器。",
+    "XiaoYouChR/Ghost-Downloader-3": "一般下載工具。"
+  },
+  "basis": "按用途人工核對；保留 AI 推論、語音與 coding agent 周邊，以及開發者自動化工具。",
+  "removed_from_current_output": [
+    "ByteByteGoHq/system-design-101",
+    "Open-Dev-Society/OpenStock",
+    "armory3d/armorpaint",
+    "llvm/llvm-project",
+    "localsend/localsend",
+    "megadose/holehe",
+    "sngyai/Sequoia-X",
+    "tailscale/tailcat"
+  ],
+  "retained_count": 450
+}
