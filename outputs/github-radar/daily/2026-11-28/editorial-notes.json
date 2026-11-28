@@ -1,0 +1,72 @@
+[
+  {
+    "repo": "HKUDS/CLI-Anything",
+    "decision": "Demo content",
+    "purpose": "將既有軟體包成 agent 可呼叫的 CLI，適合拆解工具介面與可驗證操作。",
+    "risk": "近期 PR 修復 CLI-Hub 安裝無限等待；實際軟體版本、依賴與操作可靠度仍需逐項驗證。",
+    "relevance": "Adam 可示範「一句話辦公任務 → CLI → 可檢查結果」；AI 辦公自動化先選可復原的小任務，將流程與失敗案例寫入 know metabiz wiki。"
+  },
+  {
+    "repo": "zhouxiaoka/autoclip",
+    "decision": "Demo content",
+    "purpose": "把長影片轉為短片、字幕、封面與發布文案，提供桌面與 MCP 使用情境。",
+    "risk": "近期 issue 回報日文被判成其他語言及 Shorts 輸出不符期待；繁中字幕、切點與引用授權必須人工驗收。",
+    "relevance": "適合 Adam 課程精華與短影音製作，先用自有課程影片跑一次繁中流程；把剪輯規則、字幕校正與素材來源存入 know metabiz wiki。"
+  },
+  {
+    "repo": "cathrynlavery/diagram-design",
+    "decision": "Skill candidate",
+    "purpose": "以 agent skill 產出 HTML／SVG 圖解，支援多種 coding agent。",
+    "risk": "近期 PR 涉及圖型路由與驗證器修正；視覺正確不代表流程與數值正確，輸出仍需逐圖確認。",
+    "relevance": "可做 Adam 教學圖解與 AI 辦公 SOP 圖；know metabiz wiki 可收可編輯 SVG 與圖意來源，適合抽成課程圖解 skill。"
+  },
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "decision": "Demo content",
+    "purpose": "跨社群與網站蒐集近期討論並綜合研究，支援內容選題。",
+    "risk": "近期 PR 仍調整研究規劃與來源平台讀取；API 費用、樣本偏差及來源可用性影響結論。",
+    "relevance": "可用於 Adam 課程更新與影音題材研究；AI 辦公的競品／工具掃描可保存來源、時間窗與待查證事項到 know metabiz wiki。"
+  },
+  {
+    "repo": "obra/superpowers",
+    "decision": "Skill candidate",
+    "purpose": "把 coding agent 開發流程整理成可組合 skills 與方法論。",
+    "risk": "近期 issue 回報視覺輔助服務失敗及技能未觸發；流程遵循與上下文成本須以任務結果衡量，不能只看提示規則。",
+    "relevance": "適合 Adam 的 agent 工作流課程，擷取驗證與交接模式；AI 辦公自動化可沿用完成條件，know metabiz wiki 記錄有效與無效的實測案例。"
+  },
+  {
+    "repo": "firecrawl/firecrawl",
+    "decision": "Deep research",
+    "purpose": "提供搜尋、網頁擷取與資料存取介面，作為 agent 的外部知識輸入。",
+    "risk": "近期 PR 包含 RateLimitError 重試與相依安全修正；網頁擷取權限、成本、提示注入與來源品質仍需控制。",
+    "relevance": "可做 Adam「網頁到知識庫」課程與 AI 辦公資料整理；know metabiz wiki 保留來源網址、擷取時間與原始證據，再交給人工核對摘要。"
+  },
+  {
+    "repo": "toeverything/AFFiNE",
+    "decision": "Deep research",
+    "purpose": "整合文件、白板與規劃的知識工作空間，可評估團隊知識管理情境。",
+    "risk": "近期 PR 涉及空間加入與模型標籤；API 授權欄位若為 NOASSERTION，代表授權尚未在此確認，亦需實測權限、匯出與自架維運。",
+    "relevance": "可作 Adam 知識管理課程比較與 AI 辦公協作示範；know metabiz wiki 優先比較來源可追溯、搜尋、匯出與還原能力。"
+  },
+  {
+    "repo": "SamurAIGPT/llm-wiki-agent",
+    "decision": "Deep research",
+    "purpose": "讓 coding agent 把來源文件逐步整理成持久、互連的 wiki。",
+    "risk": "近期 issue 指出多字實體檔名與連結不一致造成重複產生；需驗證重跑冪等性、連結修復與來源歸屬。",
+    "relevance": "最貼近 know metabiz wiki：以少量公開文件做增量匯入、更新、刪除來源與回歸檢查；可轉成 Adam 的 AI 辦公知識治理實作課。"
+  },
+  {
+    "repo": "google-labs-code/stitch-skills",
+    "decision": "Watch",
+    "purpose": "提供搭配 Stitch MCP 的 agent skills／plugins，用於設計與介面工作流。",
+    "risk": "近期 PR 修復跨來源 iframe 合併與上傳路徑處理；外部服務相依、跨來源內容及版本相容性需留意。",
+    "relevance": "適合 Adam 展示設計到頁面的 agent 協作；AI 辦公可用於內部表單原型，know metabiz wiki 記錄工具設定與可重現的輸入輸出。"
+  },
+  {
+    "repo": "elementalsouls/Claude-BugHunter",
+    "decision": "Watch",
+    "purpose": "以 Claude Code skills 組織漏洞研究與測試流程，作為安全工作流觀察樣本。",
+    "risk": "近期 PR 仍修復程式範圍分頁及網域編碼；工具可執行外部測試，僅適用明確授權的隔離標的，熱度不代表掃描準確度。",
+    "relevance": "Adam 可將其作為 agent 權限與範圍控制的課程案例；AI 辦公僅取其檢查清單設計，know metabiz wiki 記錄授權範圍與證據要求。"
+  }
+]

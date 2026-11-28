@@ -1,0 +1,492 @@
+{
+  "elementalsouls/Claude-BugHunter": {
+    "items": [
+      {
+        "number": 304,
+        "title": "fix(h1-mcp): page through the full program scope instead of truncating at 100",
+        "state": "open",
+        "updated_at": "2026-11-28T15:21:50Z",
+        "created_at": "2026-11-28T15:21:49Z",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter/pull/304",
+        "is_pull_request": true
+      },
+      {
+        "number": 303,
+        "title": "fix(scope): encode IDNA 2008 deviation characters the way requests and curl do",
+        "state": "open",
+        "updated_at": "2026-11-28T14:27:39Z",
+        "created_at": "2026-11-28T14:27:39Z",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter/pull/303",
+        "is_pull_request": true
+      },
+      {
+        "number": 302,
+        "title": "[bug] engine scope: IDN deny rule misses the real host for ß / ς labels (IDNA 2003 vs IDNA 2008)",
+        "state": "open",
+        "updated_at": "2026-11-28T14:27:36Z",
+        "created_at": "2026-11-28T14:27:36Z",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter/issues/302",
+        "is_pull_request": false
+      },
+      {
+        "number": 301,
+        "title": "fix(scope): fail closed on a percent-encoded host",
+        "state": "open",
+        "updated_at": "2026-11-28T14:27:32Z",
+        "created_at": "2026-11-28T14:27:31Z",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter/pull/301",
+        "is_pull_request": true
+      },
+      {
+        "number": 300,
+        "title": "[bug] engine scope: percent-encoded host (adm%69n.example.com) bypasses an out-of-scope rule",
+        "state": "open",
+        "updated_at": "2026-11-28T14:27:28Z",
+        "created_at": "2026-11-28T14:27:28Z",
+        "url": "https://github.com/elementalsouls/Claude-BugHunter/issues/300",
+        "is_pull_request": false
+      }
+    ]
+  },
+  "obra/superpowers": {
+    "items": [
+      {
+        "number": 2757,
+        "title": "brainstorming visual companion: one failing request kills the server; start-server.sh emits invalid JSON on quotes",
+        "state": "open",
+        "updated_at": "2026-11-28T16:06:51Z",
+        "created_at": "2026-11-28T09:23:26Z",
+        "url": "https://github.com/obra/superpowers/issues/2757",
+        "is_pull_request": false
+      },
+      {
+        "number": 2660,
+        "title": "verification-before-completion / receiving-code-review: no skill invoked while applying audit fixes; final summary claims completion with no per-result trust level (Claude Code)",
+        "state": "open",
+        "updated_at": "2026-11-28T13:28:26Z",
+        "created_at": "2026-11-04T09:38:54Z",
+        "url": "https://github.com/obra/superpowers/issues/2660",
+        "is_pull_request": false
+      },
+      {
+        "number": 2092,
+        "title": "test-driven-development: a test whose arrange step silently fails passes every gate (mental mutation check, optional SDD red evidence)",
+        "state": "open",
+        "updated_at": "2026-11-28T12:28:59Z",
+        "created_at": "2026-08-05T10:42:06Z",
+        "url": "https://github.com/obra/superpowers/issues/2092",
+        "is_pull_request": false
+      },
+      {
+        "number": 2546,
+        "title": "test-driven-development / executing-plans: \"batch the test and the code to save a turn\" is missing from the rationalization table, and fix-pass ledger lines don't require RED output",
+        "state": "open",
+        "updated_at": "2026-11-28T12:28:57Z",
+        "created_at": "2026-10-17T11:23:15Z",
+        "url": "https://github.com/obra/superpowers/issues/2546",
+        "is_pull_request": false
+      },
+      {
+        "number": 2740,
+        "title": "docs(code-review): remove stale per-task SDD trigger and align review placeholders",
+        "state": "open",
+        "updated_at": "2026-11-28T11:05:03Z",
+        "created_at": "2026-11-24T21:25:35Z",
+        "url": "https://github.com/obra/superpowers/pull/2740",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "HKUDS/CLI-Anything": {
+    "items": [
+      {
+        "number": 728,
+        "title": "fix(cli-hub): avoid indefinite install hangs",
+        "state": "open",
+        "updated_at": "2026-11-28T13:54:14Z",
+        "created_at": "2026-11-26T03:13:04Z",
+        "url": "https://github.com/HKUDS/CLI-Anything/pull/728",
+        "is_pull_request": true
+      },
+      {
+        "number": 750,
+        "title": "fix(repl-skin): keep symlinked global skill paths short in the banner (#748)",
+        "state": "open",
+        "updated_at": "2026-11-28T08:49:17Z",
+        "created_at": "2026-11-27T14:30:13Z",
+        "url": "https://github.com/HKUDS/CLI-Anything/pull/750",
+        "is_pull_request": true
+      },
+      {
+        "number": 649,
+        "title": "feat: add Alexa harness for controlling Amazon Echo devices",
+        "state": "open",
+        "updated_at": "2026-11-28T08:29:28Z",
+        "created_at": "2026-11-18T16:38:15Z",
+        "url": "https://github.com/HKUDS/CLI-Anything/pull/649",
+        "is_pull_request": true
+      },
+      {
+        "number": 751,
+        "title": "fix(cli-hub): honor dist_name when uninstalling pip CLIs",
+        "state": "closed",
+        "updated_at": "2026-11-27T21:55:47Z",
+        "created_at": "2026-11-27T21:39:18Z",
+        "url": "https://github.com/HKUDS/CLI-Anything/pull/751",
+        "is_pull_request": true
+      },
+      {
+        "number": 747,
+        "title": "fix(audacity): decode compressed sources and probe their duration (#746)",
+        "state": "open",
+        "updated_at": "2026-11-27T15:00:16Z",
+        "created_at": "2026-11-27T13:13:03Z",
+        "url": "https://github.com/HKUDS/CLI-Anything/pull/747",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "firecrawl/firecrawl": {
+    "items": [
+      {
+        "number": 6129,
+        "title": "feat(python-sdk): expose Retry-After delay on RateLimitError",
+        "state": "open",
+        "updated_at": "2026-11-28T15:55:13Z",
+        "created_at": "2026-11-28T12:21:39Z",
+        "url": "https://github.com/firecrawl/firecrawl/pull/6129",
+        "is_pull_request": true
+      },
+      {
+        "number": 6131,
+        "title": "fix(security): resolve pnpm audit failures from 2026-11-28 audit",
+        "state": "open",
+        "updated_at": "2026-11-28T13:06:36Z",
+        "created_at": "2026-11-28T13:04:59Z",
+        "url": "https://github.com/firecrawl/firecrawl/pull/6131",
+        "is_pull_request": true
+      },
+      {
+        "number": 6130,
+        "title": "[Bug] ",
+        "state": "open",
+        "updated_at": "2026-11-28T12:40:31Z",
+        "created_at": "2026-11-28T12:40:14Z",
+        "url": "https://github.com/firecrawl/firecrawl/issues/6130",
+        "is_pull_request": false
+      },
+      {
+        "number": 6128,
+        "title": "feat(scrape): expose per-URL rate-limit reset headers in SDK error responses",
+        "state": "open",
+        "updated_at": "2026-11-28T10:39:56Z",
+        "created_at": "2026-11-28T10:39:56Z",
+        "url": "https://github.com/firecrawl/firecrawl/issues/6128",
+        "is_pull_request": false
+      },
+      {
+        "number": 3826,
+        "title": "feat: unfreeze node",
+        "state": "closed",
+        "updated_at": "2026-11-28T10:17:27Z",
+        "created_at": "2026-06-18T17:29:46Z",
+        "url": "https://github.com/firecrawl/firecrawl/pull/3826",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "cathrynlavery/diagram-design": {
+    "items": [
+      {
+        "number": 557,
+        "title": "docs: clarify procedure-chart requests should route to existing types/patterns",
+        "state": "closed",
+        "updated_at": "2026-11-28T15:55:58Z",
+        "created_at": "2026-11-28T15:50:30Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/557",
+        "is_pull_request": true
+      },
+      {
+        "number": 555,
+        "title": "fix(verify-box-plot): match paper-mask paint rules by selector, not class only",
+        "state": "open",
+        "updated_at": "2026-11-28T12:57:28Z",
+        "created_at": "2026-11-27T20:21:38Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/555",
+        "is_pull_request": true
+      },
+      {
+        "number": 556,
+        "title": "Design",
+        "state": "open",
+        "updated_at": "2026-11-28T12:16:50Z",
+        "created_at": "2026-11-28T12:16:50Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/issues/556",
+        "is_pull_request": false
+      },
+      {
+        "number": 433,
+        "title": "fix(verify): don't read quoted CSS data as a geometry declaration",
+        "state": "closed",
+        "updated_at": "2026-11-28T09:08:06Z",
+        "created_at": "2026-10-13T22:56:00Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/433",
+        "is_pull_request": true
+      },
+      {
+        "number": 554,
+        "title": "feat(type): add procedure chart for people and paperwork (AFMAN 38-102)",
+        "state": "open",
+        "updated_at": "2026-11-28T02:11:03Z",
+        "created_at": "2026-11-27T17:29:56Z",
+        "url": "https://github.com/cathrynlavery/diagram-design/pull/554",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "mvanhorn/last30days-skill": {
+    "items": [
+      {
+        "number": 1431,
+        "title": "feat(jobs): read company boards by hiring platform, with a sitemap tier and fall-through",
+        "state": "closed",
+        "updated_at": "2026-11-28T14:50:50Z",
+        "created_at": "2026-11-14T23:55:13Z",
+        "url": "https://github.com/mvanhorn/last30days-skill/pull/1431",
+        "is_pull_request": true
+      },
+      {
+        "number": 1379,
+        "title": "fix(planner): plan enablement topics as how-to research",
+        "state": "closed",
+        "updated_at": "2026-11-28T14:23:32Z",
+        "created_at": "2026-11-08T21:47:57Z",
+        "url": "https://github.com/mvanhorn/last30days-skill/pull/1379",
+        "is_pull_request": true
+      },
+      {
+        "number": 1524,
+        "title": "fix(watchlist): preserve budget accounting after topic removal",
+        "state": "closed",
+        "updated_at": "2026-11-28T13:18:00Z",
+        "created_at": "2026-11-17T21:53:06Z",
+        "url": "https://github.com/mvanhorn/last30days-skill/pull/1524",
+        "is_pull_request": true
+      },
+      {
+        "number": 1583,
+        "title": "security: harden YouTube transcript/video ID handling, media transcription proxy/ffmpeg, and Bluesky host validation",
+        "state": "closed",
+        "updated_at": "2026-11-28T13:07:56Z",
+        "created_at": "2026-11-24T01:30:07Z",
+        "url": "https://github.com/mvanhorn/last30days-skill/pull/1583",
+        "is_pull_request": true
+      },
+      {
+        "number": 1659,
+        "title": "fix(grok-audit): size the local fixture backlog for concurrent probes",
+        "state": "open",
+        "updated_at": "2026-11-28T11:53:11Z",
+        "created_at": "2026-11-28T11:49:40Z",
+        "url": "https://github.com/mvanhorn/last30days-skill/pull/1659",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "google-labs-code/stitch-skills": {
+    "items": [
+      {
+        "number": 119,
+        "title": "security(extract-static-html): don't merge cross-origin iframes into parent page by default",
+        "state": "open",
+        "updated_at": "2026-11-28T13:43:33Z",
+        "created_at": "2026-11-28T13:43:33Z",
+        "url": "https://github.com/google-labs-code/stitch-skills/pull/119",
+        "is_pull_request": true
+      },
+      {
+        "number": 118,
+        "title": "fix(upload-to-stitch): strip projects/ prefix, honor SSL_CERT_FILE, reject directories, handle non-JSON responses",
+        "state": "open",
+        "updated_at": "2026-11-28T12:14:10Z",
+        "created_at": "2026-11-28T12:14:05Z",
+        "url": "https://github.com/google-labs-code/stitch-skills/pull/118",
+        "is_pull_request": true
+      },
+      {
+        "number": 116,
+        "title": "security: Fix 3 critical vulnerabilities — Shell Injection, SSRF Bypass, Path Traversal",
+        "state": "open",
+        "updated_at": "2026-11-28T11:09:03Z",
+        "created_at": "2026-11-27T18:24:32Z",
+        "url": "https://github.com/google-labs-code/stitch-skills/pull/116",
+        "is_pull_request": true
+      },
+      {
+        "number": 114,
+        "title": "fix: ensure destination dir exists in fetch-stitch and add upload-to-stitch CLI flag",
+        "state": "closed",
+        "updated_at": "2026-11-28T11:08:26Z",
+        "created_at": "2026-11-25T20:46:29Z",
+        "url": "https://github.com/google-labs-code/stitch-skills/pull/114",
+        "is_pull_request": true
+      },
+      {
+        "number": 117,
+        "title": "[Bug] upload_to_stitch.py: duplicated projects/ prefix, SSL_CERT_FILE ignored when certifi is installed, and unhandled directory / non-JSON crashes",
+        "state": "open",
+        "updated_at": "2026-11-28T06:35:10Z",
+        "created_at": "2026-11-28T06:35:10Z",
+        "url": "https://github.com/google-labs-code/stitch-skills/issues/117",
+        "is_pull_request": false
+      }
+    ]
+  },
+  "toeverything/AFFiNE": {
+    "items": [
+      {
+        "number": 14670,
+        "title": "fix: reserve space for auth input error to avoid layout shift",
+        "state": "closed",
+        "updated_at": "2026-11-28T15:39:27Z",
+        "created_at": "2026-03-17T08:08:32Z",
+        "url": "https://github.com/toeverything/AFFiNE/pull/14670",
+        "is_pull_request": true
+      },
+      {
+        "number": 15961,
+        "title": "fix(server,core): reject legacy space:join, update affine_merge, and normalize GPT model labels",
+        "state": "open",
+        "updated_at": "2026-11-28T14:53:44Z",
+        "created_at": "2026-11-28T14:30:50Z",
+        "url": "https://github.com/toeverything/AFFiNE/pull/15961",
+        "is_pull_request": true
+      },
+      {
+        "number": 15937,
+        "title": "[Bug]: MCP update_document returns \"Doc with id … not found\" for a doc that read_document can read",
+        "state": "open",
+        "updated_at": "2026-11-28T14:30:53Z",
+        "created_at": "2026-11-25T04:26:53Z",
+        "url": "https://github.com/toeverything/AFFiNE/issues/15937",
+        "is_pull_request": false
+      },
+      {
+        "number": 15954,
+        "title": "[Bug]: Pre-0.27.5 clients hang on \"Syncing\" against 0.27.5+ servers (space:join is silently ignored)",
+        "state": "open",
+        "updated_at": "2026-11-28T14:30:52Z",
+        "created_at": "2026-11-28T05:41:48Z",
+        "url": "https://github.com/toeverything/AFFiNE/issues/15954",
+        "is_pull_request": false
+      },
+      {
+        "number": 8699,
+        "title": "Zaviago sso",
+        "state": "closed",
+        "updated_at": "2026-11-28T13:40:54Z",
+        "created_at": "2024-11-04T20:28:42Z",
+        "url": "https://github.com/toeverything/AFFiNE/pull/8699",
+        "is_pull_request": true
+      }
+    ]
+  },
+  "zhouxiaoka/autoclip": {
+    "items": [
+      {
+        "number": 722,
+        "title": "[反馈] [template=editorial platform=youtube_shorts] not always i wa",
+        "state": "open",
+        "updated_at": "2026-11-28T14:19:20Z",
+        "created_at": "2026-11-28T14:19:20Z",
+        "url": "https://github.com/zhouxiaoka/autoclip/issues/722",
+        "is_pull_request": false
+      },
+      {
+        "number": 721,
+        "title": "Japanese input is packaged as English (source_language detected as \"other\")",
+        "state": "open",
+        "updated_at": "2026-11-28T12:39:51Z",
+        "created_at": "2026-11-28T12:39:44Z",
+        "url": "https://github.com/zhouxiaoka/autoclip/issues/721",
+        "is_pull_request": false
+      },
+      {
+        "number": 709,
+        "title": "[反馈] 处理没有完成。请重试一次；再失败请在失败卡上点「反馈」，我们会收到失败阶段和错误类型（不含视频内容）",
+        "state": "closed",
+        "updated_at": "2026-11-28T12:33:29Z",
+        "created_at": "2026-11-26T14:21:14Z",
+        "url": "https://github.com/zhouxiaoka/autoclip/issues/709",
+        "is_pull_request": false
+      },
+      {
+        "number": 694,
+        "title": "[反馈] 无法处理",
+        "state": "closed",
+        "updated_at": "2026-11-28T12:33:26Z",
+        "created_at": "2026-11-24T11:19:42Z",
+        "url": "https://github.com/zhouxiaoka/autoclip/issues/694",
+        "is_pull_request": false
+      },
+      {
+        "number": 704,
+        "title": "[反馈] deepseek连不上",
+        "state": "closed",
+        "updated_at": "2026-11-28T12:33:23Z",
+        "created_at": "2026-11-26T04:22:24Z",
+        "url": "https://github.com/zhouxiaoka/autoclip/issues/704",
+        "is_pull_request": false
+      }
+    ]
+  },
+  "SamurAIGPT/llm-wiki-agent": {
+    "items": [
+      {
+        "number": 87,
+        "title": "heal.py regenerates multi-word entities on every run because the saved file name never matches the link",
+        "state": "open",
+        "updated_at": "2026-11-27T06:55:53Z",
+        "created_at": "2026-11-27T06:55:53Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/87",
+        "is_pull_request": false
+      },
+      {
+        "number": 86,
+        "title": "fix(health): decode percent-encoded index links",
+        "state": "open",
+        "updated_at": "2026-10-20T12:40:51Z",
+        "created_at": "2026-10-20T12:40:51Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/86",
+        "is_pull_request": true
+      },
+      {
+        "number": 85,
+        "title": "fix(pdf2md): keep help output compatible with cp1252 terminals",
+        "state": "open",
+        "updated_at": "2026-10-08T14:04:06Z",
+        "created_at": "2026-10-08T14:04:00Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/pull/85",
+        "is_pull_request": true
+      },
+      {
+        "number": 78,
+        "title": "[Feature] Integrate Jev (TypeSafe AI) as a fast decision layer for lint triage, ingest classification, and query routing",
+        "state": "open",
+        "updated_at": "2026-09-22T06:49:21Z",
+        "created_at": "2026-09-22T06:46:00Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/78",
+        "is_pull_request": false
+      },
+      {
+        "number": 77,
+        "title": "Q: does this support `npx`?",
+        "state": "open",
+        "updated_at": "2026-09-11T11:43:53Z",
+        "created_at": "2026-08-31T08:58:23Z",
+        "url": "https://github.com/SamurAIGPT/llm-wiki-agent/issues/77",
+        "is_pull_request": false
+      }
+    ]
+  }
+}
